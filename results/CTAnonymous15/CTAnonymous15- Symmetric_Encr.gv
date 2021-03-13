@@ -1,0 +1,102 @@
+// The Round Table
+digraph {
+	"1S433M5P3-1D5R3PZ-BMF" [label="secret key K shared by sender and recipient" Gsplines=true fontsize=20 shape=rect style=filled]
+	"1S3Z9GKRV-VWBX41-LX8" [label="SYMMETRIC ENCRYPTION Module 3" Gsplines=true fontsize=20 shape=rect style=filled]
+	"1S433JS15-2CHSXYD-BK9" [label="secret key K shared by sender and recipient" Gsplines=true fontsize=20 shape=rect style=filled]
+	"1S434J2BP-1J6DX97-C71" [label="represented 
+by" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S4337KH7-RC2W4X-B7T" [label="Referred to 
+as conventional 
+or single-key 
+encryption" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S434J2BP-1J6DX97-C71" -> "1S4337KH7-RC2W4X-B7T" [constraint=true]
+	"1S433M5P3-1D5R3PZ-BMF" [label="secret key 
+K shared by 
+sender and 
+recipient" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S433RHDF-WXW1FS-BR0" [label=" Y = E[K,X] 
+transmitted 
+cypertext" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S433M5P3-1D5R3PZ-BMF" -> "1S433RHDF-WXW1FS-BR0" [constraint=true]
+	"1S434GVK8-1F0N5CN-C5S" [label="SYMMETRIC 
+ENCRYPTION" Gsplines=true fillcolor=aquamarine fontsize=20 shape=doubleoctagon style=filled]
+	"1S434KTJR-19TM18R-C8N" [label="modeled by
+" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S434GVK8-1F0N5CN-C5S" -> "1S434KTJR-19TM18R-C8N" [constraint=true]
+	"1S434KTJR-19TM18R-C8N" [label="modeled by
+" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S433HTHG-Z0FM21-BHK" [label="plaintext 
+input" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S434KTJR-19TM18R-C8N" -> "1S433HTHG-Z0FM21-BHK" [constraint=true]
+	"1S434GVK8-1F0N5CN-C5S" [label="SYMMETRIC 
+ENCRYPTION" Gsplines=true fillcolor=aquamarine fontsize=20 shape=doubleoctagon style=filled]
+	"1S434J2BP-1J6DX97-C71" [label="represented 
+by" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S434GVK8-1F0N5CN-C5S" -> "1S434J2BP-1J6DX97-C71" [constraint=true]
+	"1S433R512-1T1G5VL-BQ9" [label=" X " Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S433M5P3-1D5R3PZ-BMF" [label="secret key 
+K shared by 
+sender and 
+recipient" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S433R512-1T1G5VL-BQ9" -> "1S433M5P3-1D5R3PZ-BMF" [constraint=true]
+	"1S434J2BP-1J6DX97-C71" [label="represented 
+by" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S4337HTC-MJSDVZ-B7P" [label="Universal 
+technique 
+for providing 
+confidentiality 
+for transmitted 
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S434J2BP-1J6DX97-C71" -> "1S4337HTC-MJSDVZ-B7P" [constraint=true]
+	"1S433JS15-2CHSXYD-BK9" [label="secret key 
+K shared by 
+sender and 
+recipient" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S433RXQR-HDJTV1-BRR" [label=" X = D[K,X] 
+" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S433JS15-2CHSXYD-BK9" -> "1S433RXQR-HDJTV1-BRR" [constraint=true]
+	"1S433RHDF-WXW1FS-BR0" [label=" Y = E[K,X] 
+transmitted 
+cypertext" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S433JS15-2CHSXYD-BK9" [label="secret key 
+K shared by 
+sender and 
+recipient" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S433RHDF-WXW1FS-BR0" -> "1S433JS15-2CHSXYD-BK9" [constraint=true]
+	"1S433RXQR-HDJTV1-BRR" [label=" X = D[K,X] 
+" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S433KPNC-10S6D2P-BLT" [label="plaintext 
+output " Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S433RXQR-HDJTV1-BRR" -> "1S433KPNC-10S6D2P-BLT" [constraint=true]
+	"1S433RHDF-WXW1FS-BR0" [label=" Y = E[K,X] 
+transmitted 
+cypertext" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S4342JFM-14SBC9F-BZ5" [label="decryption 
+algorithm" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S433RHDF-WXW1FS-BR0" -> "1S4342JFM-14SBC9F-BZ5" [constraint=true]
+	"1S4342JFM-14SBC9F-BZ5" [label="decryption 
+algorithm" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S433RXQR-HDJTV1-BRR" [label=" X = D[K,X] 
+" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S4342JFM-14SBC9F-BZ5" -> "1S433RXQR-HDJTV1-BRR" [constraint=true]
+	"1S433HTHG-Z0FM21-BHK" [label="plaintext 
+input" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S433R512-1T1G5VL-BQ9" [label=" X " Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S433HTHG-Z0FM21-BHK" -> "1S433R512-1T1G5VL-BQ9" [constraint=true]
+	"1S433R512-1T1G5VL-BQ9" [label=" X " Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S433X0FF-D3XQQ6-BV2" [label="encryption 
+algorithm" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S433R512-1T1G5VL-BQ9" -> "1S433X0FF-D3XQQ6-BV2" [constraint=true]
+	"1S433X0FF-D3XQQ6-BV2" [label="encryption 
+algorithm" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S433RHDF-WXW1FS-BR0" [label=" Y = E[K,X] 
+transmitted 
+cypertext" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S433X0FF-D3XQQ6-BV2" -> "1S433RHDF-WXW1FS-BR0" [constraint=true]
+	Stat [label="SUMMERY
+
+Matched Branch:			0\lPartially Matched Branch:	3\lMismatched Branch:		0\lExtra Branch:				111\lTotal Match:		71.43 %\lConcept Match:	77.78 %\lLink. Phr. Match:	60.0 %\lMisconception:	83.33 %\lHierarchy Match:	68.15 %\l" Gsplines=true fillcolor="#F5FFFA" fontsize=20 shape=component style=filled]
+	Grade [label="Grade:	52.24%" Gsplines=true fillcolor="#FFEBCD" fontsize=20 shape=note style=filled]
+	Stat -> Grade [arrowhead=inv color=black constraint=true]
+	"1S434GVK8-1F0N5CN-C5S" -> "1S433HTHG-Z0FM21-BHK" [arrowhead=open color="#0316D1" constraint=true style=dashed]
+}

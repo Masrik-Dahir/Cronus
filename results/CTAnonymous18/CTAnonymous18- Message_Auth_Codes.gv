@@ -1,0 +1,104 @@
+// The Round Table
+digraph {
+	"1S3ZB0FTP-5VB5PM-QDM" [label="MESSAGE AUTHENTICATION CODES Module 3" Gsplines=true fontsize=20 shape=rect style=filled]
+	"1S46J1887-2974MMX-8DT" [label="distinguished 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46HTM52-24B2FFS-7X4" [label="protects against 
+active attacks
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46J1887-2974MMX-8DT" -> "1S46HTM52-24B2FFS-7X4" [constraint=true]
+	"1S46HY59L-10CXZZN-845" [label="verified by
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46HYCHB-176V8BQ-853" [label="contents are 
+received in 
+a timely and 
+in correct 
+sequence" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46HY59L-10CXZZN-845" -> "1S46HYCHB-176V8BQ-853" [constraint=true]
+	"1S46J1887-2974MMX-8DT" [label="distinguished 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46HTRCV-1YGPWJ1-7XD" [label="can use conventional 
+encryption" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46J1887-2974MMX-8DT" -> "1S46HTRCV-1YGPWJ1-7XD" [constraint=true]
+	"1S46HTRCV-1YGPWJ1-7XD" [label="can use conventional 
+encryption" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46HWXJL-8QFZNN-81R" [label="for example
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46HTRCV-1YGPWJ1-7XD" -> "1S46HWXJL-8QFZNN-81R" [constraint=true]
+	"1S46HYRH6-Z2JVG9-85Q" [label="MESSAGE AUTHENTICATION 
+CODES" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=doubleoctagon style=filled]
+	"1S46J1887-2974MMX-8DT" [label="distinguished 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46HYRH6-Z2JVG9-85Q" -> "1S46J1887-2974MMX-8DT" [constraint=true]
+	"1S46JJJKG-15KJZSX-8XR" [label="by utilizing
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46HT967-7D68N9-7VD" [label="conventional 
+encryption" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S46JJJKG-15KJZSX-8XR" -> "1S46HT967-7D68N9-7VD" [constraint=true]
+	"1S46HTP9D-1FWSTRH-7X8" [label="verifies that 
+the received 
+message is 
+authentic" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46HY59L-10CXZZN-845" [label="verified by
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46HTP9D-1FWSTRH-7X8" -> "1S46HY59L-10CXZZN-845" [constraint=true]
+	"1S46JJJKG-15KJZSX-8XR" [label="by utilizing
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46JJ2B9-81HM8Y-8X3" [label="secret value
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46JJJKG-15KJZSX-8XR" -> "1S46JJ2B9-81HM8Y-8X3" [constraint=true]
+	"1S46HWXJL-8QFZNN-81R" [label="for example
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46HWXJK-1V0MDP9-81N" [label="only sender 
+and receiver 
+share a key
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46HWXJL-8QFZNN-81R" -> "1S46HWXJK-1V0MDP9-81N" [constraint=true]
+	"1S46J1887-2974MMX-8DT" [label="distinguished 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46J9MKM-1PT3V67-8PH" [label="could be the 
+last bits 
+of the encrypted 
+version of 
+the message
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46J1887-2974MMX-8DT" -> "1S46J9MKM-1PT3V67-8PH" [constraint=true]
+	"1S46HY59L-10CXZZN-845" [label="verified by
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46HXYJL-21FXTMD-83V" [label="contents are 
+from an authentic 
+source" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46HY59L-10CXZZN-845" -> "1S46HXYJL-21FXTMD-83V" [constraint=true]
+	"1S46J1887-2974MMX-8DT" [label="distinguished 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46HTP9D-1FWSTRH-7X8" [label="verifies that 
+the received 
+message is 
+authentic" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46J1887-2974MMX-8DT" -> "1S46HTP9D-1FWSTRH-7X8" [constraint=true]
+	"1S46HY59L-10CXZZN-845" [label="verified by
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46HXL7Z-1R67KHL-83N" [label="contents have 
+not been altered
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46HY59L-10CXZZN-845" -> "1S46HXL7Z-1R67KHL-83N" [constraint=true]
+	"1S46J9PMS-2CKT1FY-8PM" [label="can be achieved 
+using a secure 
+one-way hash 
+function" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46JJJKG-15KJZSX-8XR" [label="by utilizing
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46J9PMS-2CKT1FY-8PM" -> "1S46JJJKG-15KJZSX-8XR" [constraint=true]
+	"1S46J1887-2974MMX-8DT" [label="distinguished 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46J9PMS-2CKT1FY-8PM" [label="can be achieved 
+using a secure 
+one-way hash 
+function" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46J1887-2974MMX-8DT" -> "1S46J9PMS-2CKT1FY-8PM" [constraint=true]
+	Stat [label="SUMMERY
+
+Matched Branch:			0\lPartially Matched Branch:	1\lMismatched Branch:		7\lExtra Branch:				4\lTotal Match:		5.88 %\lConcept Match:	7.69 %\lLink. Phr. Match:	0.0 %\lMisconception:	100.0 %\lHierarchy Match:	0.83 %\l" Gsplines=true fillcolor="#F5FFFA" fontsize=20 shape=component style=filled]
+	Grade [label="Grade:	2.22%" Gsplines=true fillcolor="#FFEBCD" fontsize=20 shape=note style=filled]
+	Stat -> Grade [arrowhead=inv color=black constraint=true]
+}

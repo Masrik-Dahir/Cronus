@@ -1,0 +1,167 @@
+// The Round Table
+digraph {
+	"1S2N15Y4S-PD7HZR-PF" [label="COMPUTER SECURITY OVERVIEW Module 1" Gsplines=true fontsize=20 shape=rect style=filled]
+	"1S2N4CJCC-221WY2M-3DW" [label="COMPUTER SECURITY 
+TERMINOLOGY" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S40W3TRP-5XM0N8-4MX" [label="related concepts 
+of" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2N4CJCC-221WY2M-3DW" -> "1S40W3TRP-5XM0N8-4MX" [constraint=true]
+	"1S2N9W335-1X1MM33-7R7" [label="NIST definition 
+of" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2N2QJK8-2MGKG0-1WB" [label=Availability Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S2N9W335-1X1MM33-7R7" -> "1S2N2QJK8-2MGKG0-1WB" [constraint=true]
+	"1S40W28FJ-28MH6R0-4LH" [label="is impacted 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2N37JQK-1QD35BF-29C" [label="SECURITY TECHNOLOGIES
+" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S40W28FJ-28MH6R0-4LH" -> "1S2N37JQK-1QD35BF-29C" [constraint=true]
+	"1S2N9W335-1X1MM33-7R7" [label="NIST definition 
+of" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2N2QFDZ-125J02H-1W2" [label=Confidentiality Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2N9W335-1X1MM33-7R7" -> "1S2N2QFDZ-125J02H-1W2" [constraint=true]
+	"1S2NC97F5-12W2H9P-9D9" [label="related concepts 
+of" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S2N9Y7LC-1S38ZQN-7TS" [label=Vulnerabilities Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S2NC97F5-12W2H9P-9D9" -> "1S2N9Y7LC-1S38ZQN-7TS" [constraint=true]
+	"1S2NC97F5-12W2H9P-9D9" [label="related concepts 
+of" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S2N9XTTG-89GLF9-7T0" [label=Owners Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S2NC97F5-12W2H9P-9D9" -> "1S2N9XTTG-89GLF9-7T0" [constraint=true]
+	"1S40W5FJP-1H8CKMB-4Q5" [label="is determined 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2N4BP56-191G7G6-3C7" [label="COMPUTER SECURITY 
+CHALLENGES" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S40W5FJP-1H8CKMB-4Q5" -> "1S2N4BP56-191G7G6-3C7" [constraint=true]
+	"1S2NC97F5-12W2H9P-9D9" [label="related concepts 
+of" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S2N9Y6GS-13WYC0L-7TN" [label=Threats Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2NC97F5-12W2H9P-9D9" -> "1S2N9Y6GS-13WYC0L-7TN" [constraint=true]
+	"1S2N37JQK-1QD35BF-29C" [label="SECURITY TECHNOLOGIES
+" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S40W597S-1B0XBLY-4PW" [label="is influenced 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2N37JQK-1QD35BF-29C" -> "1S40W597S-1B0XBLY-4PW" [constraint=true]
+	"1S2N2T317-72PL5N-1Y2" [label="SECURITY IMPLEMENTATION
+" Gsplines=true fillcolor=aquamarine fontsize=20 shape=doubleoctagon style=filled]
+	"1S40W5Y1W-1HR8CYL-4RJ" [label="is affected 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2N2T317-72PL5N-1Y2" -> "1S40W5Y1W-1HR8CYL-4RJ" [constraint=true]
+	"1S2N9TH84-2BNZQKD-7NV" [label="key concepts 
+of" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S2N2TY6L-1DTJFMF-1Z9" [label=Recovery Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2N9TH84-2BNZQKD-7NV" -> "1S2N2TY6L-1DTJFMF-1Z9" [constraint=true]
+	"1S2N9W335-1X1MM33-7R7" [label="NIST definition 
+of" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2N2QH19-BSV73-1W6" [label=Integrity Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2N9W335-1X1MM33-7R7" -> "1S2N2QH19-BSV73-1W6" [constraint=true]
+	"1S2N9P7L3-26DPZBQ-7J6" [label="strategy composed 
+of" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2N31CWZ-101XCDZ-25K" [label="Specification 
+and Policy
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S2N9P7L3-26DPZBQ-7J6" -> "1S2N31CWZ-101XCDZ-25K" [constraint=true]
+	"1S40W5Y1W-1HR8CYL-4RJ" [label="is affected 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2N30VGK-1HH2KXZ-24K" [label="COMPUTER SECURITY 
+STRATEGY" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S40W5Y1W-1HR8CYL-4RJ" -> "1S2N30VGK-1HH2KXZ-24K" [constraint=true]
+	"1S2N9TH84-2BNZQKD-7NV" [label="key concepts 
+of" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S2N2V04Z-LSQNG2-1ZF" [label=Prevention Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2N9TH84-2BNZQKD-7NV" -> "1S2N2V04Z-LSQNG2-1ZF" [constraint=true]
+	"1S2NC97F5-12W2H9P-9D9" [label="related concepts 
+of" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S2NB1K4F-1NXMNBH-7XG" [label=Risk Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S2NC97F5-12W2H9P-9D9" -> "1S2NB1K4F-1NXMNBH-7XG" [constraint=true]
+	"1S2N9P7L3-26DPZBQ-7J6" [label="strategy composed 
+of" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2N31GJJ-Y99VVD-25T" [label="Correctness 
+and Assurance
+" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2N9P7L3-26DPZBQ-7J6" -> "1S2N31GJJ-Y99VVD-25T" [constraint=true]
+	"1S2NC97F5-12W2H9P-9D9" [label="related concepts 
+of" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S2N9Y55H-2D7W5GB-7TJ" [label="Threat agents
+" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2NC97F5-12W2H9P-9D9" -> "1S2N9Y55H-2D7W5GB-7TJ" [constraint=true]
+	"1S2NC97F5-12W2H9P-9D9" [label="related concepts 
+of" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S2N9Y40X-1S5GM4K-7TD" [label=Countermeasures Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2NC97F5-12W2H9P-9D9" -> "1S2N9Y40X-1S5GM4K-7TD" [constraint=true]
+	"1S40W597S-1B0XBLY-4PW" [label="is influenced 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2N4BP56-191G7G6-3C7" [label="COMPUTER SECURITY 
+CHALLENGES" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S40W597S-1B0XBLY-4PW" -> "1S2N4BP56-191G7G6-3C7" [constraint=true]
+	"1S2N30VGK-1HH2KXZ-24K" [label="COMPUTER SECURITY 
+STRATEGY" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S2N9P7L3-26DPZBQ-7J6" [label="strategy composed 
+of" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2N30VGK-1HH2KXZ-24K" -> "1S2N9P7L3-26DPZBQ-7J6" [constraint=true]
+	"1S2N6TMV3-14Z55M9-3YH" [label="SECURITY CONCEPTS 
+and RELATIONSHIPS
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S40W28FJ-28MH6R0-4LH" [label="is impacted 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2N6TMV3-14Z55M9-3YH" -> "1S40W28FJ-28MH6R0-4LH" [constraint=true]
+	"1S2N2Q513-1L04NLV-1VM" [label="CIA TRIAD" Gsplines=true fillcolor=aquamarine fontsize=20 shape=doubleoctagon style=filled]
+	"1S2N9W335-1X1MM33-7R7" [label="NIST definition 
+of" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2N2Q513-1L04NLV-1VM" -> "1S2N9W335-1X1MM33-7R7" [constraint=true]
+	"1S2N2Q513-1L04NLV-1VM" [label="CIA TRIAD" Gsplines=true fillcolor=aquamarine fontsize=20 shape=doubleoctagon style=filled]
+	"1S40W0T6H-177H35R-4J7" [label="related terms 
+of" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2N2Q513-1L04NLV-1VM" -> "1S40W0T6H-177H35R-4J7" [constraint=true]
+	"1S2NC97F5-12W2H9P-9D9" [label="related concepts 
+of" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S2N9ZTPF-1DR1N0S-7WS" [label=Assets Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S2NC97F5-12W2H9P-9D9" -> "1S2N9ZTPF-1DR1N0S-7WS" [constraint=true]
+	"1S2N30VGK-1HH2KXZ-24K" [label="COMPUTER SECURITY 
+STRATEGY" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S40W5FJP-1H8CKMB-4Q5" [label="is determined 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2N30VGK-1HH2KXZ-24K" -> "1S40W5FJP-1H8CKMB-4Q5" [constraint=true]
+	"1S2N9P7L3-26DPZBQ-7J6" [label="strategy composed 
+of" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2N31F5G-6HHPHY-25P" [label="Implementation 
+and Mechanisms
+" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2N9P7L3-26DPZBQ-7J6" -> "1S2N31F5G-6HHPHY-25P" [constraint=true]
+	"1S2N9TH84-2BNZQKD-7NV" [label="key concepts 
+of" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S2N2TT3M-3XX8V7-1Z1" [label=Detection Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2N9TH84-2BNZQKD-7NV" -> "1S2N2TT3M-3XX8V7-1Z1" [constraint=true]
+	"1S2N9TH84-2BNZQKD-7NV" [label="key concepts 
+of" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S2N2TWB1-G4C2L6-1Z5" [label=Response Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2N9TH84-2BNZQKD-7NV" -> "1S2N2TWB1-G4C2L6-1Z5" [constraint=true]
+	"1S40W0T6H-177H35R-4J7" [label="related terms 
+of" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2N4CJCC-221WY2M-3DW" [label="COMPUTER SECURITY 
+TERMINOLOGY" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S40W0T6H-177H35R-4J7" -> "1S2N4CJCC-221WY2M-3DW" [constraint=true]
+	"1S2N6TMV3-14Z55M9-3YH" [label="SECURITY CONCEPTS 
+and RELATIONSHIPS
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S2NC97F5-12W2H9P-9D9" [label="related concepts 
+of" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S2N6TMV3-14Z55M9-3YH" -> "1S2NC97F5-12W2H9P-9D9" [constraint=true]
+	"1S40W3TRP-5XM0N8-4MX" [label="related concepts 
+of" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2N6TMV3-14Z55M9-3YH" [label="SECURITY CONCEPTS 
+and RELATIONSHIPS
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S40W3TRP-5XM0N8-4MX" -> "1S2N6TMV3-14Z55M9-3YH" [constraint=true]
+	"1S2N2T317-72PL5N-1Y2" [label="SECURITY IMPLEMENTATION
+" Gsplines=true fillcolor=aquamarine fontsize=20 shape=doubleoctagon style=filled]
+	"1S2N9TH84-2BNZQKD-7NV" [label="key concepts 
+of" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S2N2T317-72PL5N-1Y2" -> "1S2N9TH84-2BNZQKD-7NV" [constraint=true]
+	Stat [label="SUMMERY
+
+Matched Branch:			0\lPartially Matched Branch:	10\lMismatched Branch:		8\lExtra Branch:				1\lTotal Match:		44.12 %\lConcept Match:	56.0 %\lLink. Phr. Match:	11.11 %\lMisconception:	90.91 %\lHierarchy Match:	27.12 %\l" Gsplines=true fillcolor="#F5FFFA" fontsize=20 shape=component style=filled]
+	Grade [label="Grade:	26.78%" Gsplines=true fillcolor="#FFEBCD" fontsize=20 shape=note style=filled]
+	Stat -> Grade [arrowhead=inv color=black constraint=true]
+	"1S2N2Q513-1L04NLV-1VM" -> "1S2N2QFDZ-125J02H-1W2" [arrowhead=open color="#0316D1" constraint=true style=dashed]
+	"1S2N2Q513-1L04NLV-1VM" -> "1S2N2QH19-BSV73-1W6" [arrowhead=open color="#0316D1" constraint=true style=dashed]
+}

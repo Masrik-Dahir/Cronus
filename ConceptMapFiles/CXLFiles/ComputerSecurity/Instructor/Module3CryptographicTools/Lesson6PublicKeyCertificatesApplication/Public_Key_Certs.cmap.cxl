@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmap xmlns:dcterms="http://purl.org/dc/terms/" xmlns="http://cmap.ihmc.us/xml/cmap/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+    <res-meta>
+        <dc:title>Public_Key_Certs.cmap</dc:title>
+        <dcterms:created>2020-12-07T07:35:20-05:00</dcterms:created>
+        <dcterms:modified>2020-12-07T07:35:20-05:00</dcterms:modified>
+        <dc:language>en</dc:language>
+        <dc:format>x-cmap/x-storable</dc:format>
+        <dc:publisher>FIHMC CmapTools 6.04</dc:publisher>
+        <dc:source>cmap:1W5Z76G0X-151MD9Y-1:external-folder:file:////C:/Users/masri/PycharmProjects/cmapProject/ConceptMapFiles/CMAPFiles/ComputerSecurity/Instructor/Module3CryptographicTools/Lesson6PublicKeyCertificatesApplication/Public_Key_Certs.cmap</dc:source>
+    </res-meta>
+    <map width="864" height="367">
+        <concept-list>
+            <concept id="1S635NBVT-10X3QJK-1WWR" label="PUBLIC KEY CERTIFICATES&#xa;Module 3"/>
+            <concept id="1S633X0FY-1FD4H6L-1NZT" label="Any user may verify for certificate validity by calculating the hash code of certificate without the signature, &#xa;decrypting the signature using the Certificate Authority &#x2019;s known public key, comparing the result for a match"/>
+            <concept id="1S633X0FY-13Z0BSC-1NZ7" label="Client prepares an unsigned certificate that includes the user ID and code of public key"/>
+            <concept id="1S633X0FY-1K17NS5-1NZ3" label="User software (client) creates a pair of keys: one public and one private"/>
+            <concept id="1S633X0FY-7H2WW6-1NZF" label="Client may provide the signed certificate to any other user"/>
+            <concept id="1S633X0FY-1X9G04Q-1NZQ" label="Certificate Authority attaches the signature to the unsigned certificate to create&#xa; a signed certificate and Certificate Authority  returns the signed certificate to client"/>
+            <concept id="1S633X0FY-1HWLJ8W-1NZB" label="User provides the unsigned certificate to a Certificate Authority in some secure manner"/>
+            <concept id="1S633X0FY-1RMKSHY-1NZJ" label="Certificate Authority creates a signature using a hash function to calculate the hash code of the&#xa; unsigned certificate, and encrypts the hash code with the Certifictae Authority&#x2019;s private key"/>
+            <concept id="1S633X0FY-229Z1Z0-1NZM" label="PUBLIC KEY&#xa;CERTIFICATES"/>
+        </concept-list>
+        <linking-phrase-list>
+            <linking-phrase id="1S633X0FY-9YXYQF-1P04" label="key steps&#xa;summarized as"/>
+        </linking-phrase-list>
+        <connection-list>
+            <connection id="1S633X0FY-W4BL74-1P12" from-id="1S633X0FY-9YXYQF-1P04" to-id="1S633X0FY-7H2WW6-1NZF"/>
+            <connection id="1S633X0FY-L2X7Q1-1P0F" from-id="1S633X0FY-9YXYQF-1P04" to-id="1S633X0FY-1K17NS5-1NZ3"/>
+            <connection id="1S633X0FY-44KG2D-1P08" from-id="1S633X0FY-9YXYQF-1P04" to-id="1S633X0FY-13Z0BSC-1NZ7"/>
+            <connection id="1S633X0FY-100B1S7-1P0X" from-id="1S633X0FY-9YXYQF-1P04" to-id="1S633X0FY-1HWLJ8W-1NZB"/>
+            <connection id="1S633X0FY-22QQP4F-1P17" from-id="1S633X0FY-229Z1Z0-1NZM" to-id="1S633X0FY-9YXYQF-1P04"/>
+            <connection id="1S633X0FY-1T7GV8G-1P0L" from-id="1S633X0FY-9YXYQF-1P04" to-id="1S633X0FY-1FD4H6L-1NZT"/>
+            <connection id="1S633X0FY-169FT89-1NZX" from-id="1S633X0FY-9YXYQF-1P04" to-id="1S633X0FY-1RMKSHY-1NZJ"/>
+            <connection id="1S633X0FY-12GJ4XV-1P0R" from-id="1S633X0FY-9YXYQF-1P04" to-id="1S633X0FY-1X9G04Q-1NZQ"/>
+        </connection-list>
+        <concept-appearance-list>
+            <concept-appearance id="1S635NBVT-10X3QJK-1WWR" x="112" y="43" width="205" height="60" font-name="Verdana" font-size="12" font-style="bold" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full"
+                border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="205" min-height="52" max-width="-1.0"
+                group-child-spacing="10" group-parent-spacing="10"/>
+            <concept-appearance id="1S633X0FY-1FD4H6L-1NZT" x="531" y="356" width="680" height="42" font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"
+                max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+            <concept-appearance id="1S633X0FY-13Z0BSC-1NZ7" x="514" y="133" width="543" height="28" font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"
+                max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+            <concept-appearance id="1S633X0FY-1K17NS5-1NZ3" x="464" y="97" width="451" height="28" font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full"
+                border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0"
+                group-child-spacing="10" group-parent-spacing="10"/>
+            <concept-appearance id="1S633X0FY-7H2WW6-1NZF" x="438" y="206" width="369" height="28" font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full"
+                border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0"
+                group-child-spacing="10" group-parent-spacing="10"/>
+            <concept-appearance id="1S633X0FY-1X9G04Q-1NZQ" x="498" y="304" width="522" height="42" font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"
+                max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+            <concept-appearance id="1S633X0FY-1HWLJ8W-1NZB" x="530" y="168" width="544" height="28" font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"
+                max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+            <concept-appearance id="1S633X0FY-1RMKSHY-1NZJ" x="550" y="250" width="593" height="42" font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255"
+                background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1"
+                max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+            <concept-appearance id="1S633X0FY-229Z1Z0-1NZM" x="76" y="262" width="104" height="40" font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full"
+                border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="94" min-height="30" max-width="-1.0"
+                group-child-spacing="10" group-parent-spacing="10"/>
+        </concept-appearance-list>
+        <linking-phrase-appearance-list>
+            <linking-phrase-appearance id="1S633X0FY-9YXYQF-1P04" x="119" y="335" width="93" height="26" stylesheet-id="1S633X0FY-2BG5PHP-1P00"/>
+        </linking-phrase-appearance-list>
+        <connection-appearance-list>
+            <connection-appearance id="1S633X0FY-W4BL74-1P12" from-pos="center" to-pos="bottom-left" stylesheet-id="1S633X0FY-2BG5PHP-1P00"/>
+            <connection-appearance id="1S633X0FY-L2X7Q1-1P0F" from-pos="center" to-pos="left" stylesheet-id="1S633X0FY-2BG5PHP-1P00"/>
+            <connection-appearance id="1S633X0FY-44KG2D-1P08" from-pos="center" to-pos="left" stylesheet-id="1S633X0FY-2BG5PHP-1P00"/>
+            <connection-appearance id="1S633X0FY-100B1S7-1P0X" from-pos="center" to-pos="left" stylesheet-id="1S633X0FY-2BG5PHP-1P00"/>
+            <connection-appearance id="1S633X0FY-22QQP4F-1P17" from-pos="center" to-pos="center" stylesheet-id="1S633X0FY-2BG5PHP-1P00"/>
+            <connection-appearance id="1S633X0FY-1T7GV8G-1P0L" from-pos="center" to-pos="left" stylesheet-id="1S633X0FY-2BG5PHP-1P00"/>
+            <connection-appearance id="1S633X0FY-169FT89-1NZX" from-pos="center" to-pos="left" stylesheet-id="1S633X0FY-2BG5PHP-1P00"/>
+            <connection-appearance id="1S633X0FY-12GJ4XV-1P0R" from-pos="center" to-pos="left" stylesheet-id="1S633X0FY-2BG5PHP-1P00"/>
+        </connection-appearance-list>
+        <style-sheet-list>
+            <style-sheet id="_Default_">
+                <map-style background-color="255,255,255,0" image-style="full" image-top-left="0,0"/>
+                <concept-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1"
+                    border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <linking-phrase-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0" background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1"
+                    border-shape="rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <connection-style color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+                <resource-style font-name="SanSerif" font-size="12" font-style="plain" font-color="0,0,0,255" background-color="192,192,192,255"/>
+            </style-sheet>
+            <style-sheet id="_LatestChanges_">
+                <concept-style font-style="bold"/>
+            </style-sheet>
+            <style-sheet id="1S633X0FY-2BG5PHP-1P00">
+                <concept-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1"
+                    border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <linking-phrase-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0" background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1"
+                    border-shape="rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <connection-style color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+                <resource-style font-name="SanSerif" font-size="12" font-style="plain" font-color="0,0,0,255" background-color="192,192,192,255"/>
+            </style-sheet>
+        </style-sheet-list>
+        <extra-graphical-properties-list>
+            <properties-list id="file:////C:/Users/masri/PycharmProjects/cmapProject/ConceptMapFiles/CMAPFiles/ComputerSecurity/Instructor/Module3CryptographicTools/Lesson6PublicKeyCertificatesApplication/Public_Key_Certs.cmap">
+                <property key="StyleSheetGroup_0" value="//*@!#$%%^&amp;*()() No Grouped StyleSheets @"/>
+            </properties-list>
+        </extra-graphical-properties-list>
+    </map>
+</cmap>

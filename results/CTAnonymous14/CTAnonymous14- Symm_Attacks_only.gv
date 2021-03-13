@@ -1,0 +1,184 @@
+// The Round Table
+digraph {
+	Student [label="Student: CTAnonymous14" fillcolor=gold fontsize=20 shape=component style=filled]
+	"1RS07HCJ4-4S9SJ3-317" [label="implemented 
+by" fontsize=20 shape=none]
+	"1RS07HCJ2-1D4BHRG-314" [label="trying all 
+possible keys
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS07HCJ4-4S9SJ3-317" -> "1RS07HCJ2-1D4BHRG-314" [constraint=true]
+	"1RS07VJ1Q-16K25SF-4TT" [label="includes data 
+encryption 
+algorithms" fontsize=20 shape=none]
+	"1RS07X6L8-71BX66-516" [label="Triple DES
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS07VJ1Q-16K25SF-4TT" -> "1RS07X6L8-71BX66-516" [constraint=true]
+	"1RS07VJ1Q-16K25SF-4TT" [label="includes data 
+encryption 
+algorithms" fontsize=20 shape=none]
+	"1RS07XKNN-1F9DKLT-59D" [label=AES fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS07VJ1Q-16K25SF-4TT" -> "1RS07XKNN-1F9DKLT-59D" [constraint=true]
+	"1RS070G6D-TGPC98-LS" [label="Cryptographic 
+Tools" fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RS07VJ1Q-16K25SF-4TT" [label="includes data 
+encryption 
+algorithms" fontsize=20 shape=none]
+	"1RS070G6D-TGPC98-LS" -> "1RS07VJ1Q-16K25SF-4TT" [constraint=true]
+	"1RS0715JL-1B71S1J-QR" [label="Symmetric 
+Encryption" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS075F1B-1NDNF7W-1HG" [label="sender/receiver 
+share" fontsize=20 shape=none]
+	"1RS0715JL-1B71S1J-QR" -> "1RS075F1B-1NDNF7W-1HG" [constraint=true]
+	"1RS0726MR-57021R-101" [label="also known 
+as" fontsize=20 shape=none]
+	"1RS0726MN-P6X6YC-ZY" [label="single-key 
+encryption" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS0726MR-57021R-101" -> "1RS0726MN-P6X6YC-ZY" [constraint=true]
+	"1RS0715JP-1ZN50CZ-QV" [label="one method 
+is" fontsize=20 shape=none]
+	"1RS0715JL-1B71S1J-QR" [label="Symmetric 
+Encryption" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS0715JP-1ZN50CZ-QV" -> "1RS0715JL-1B71S1J-QR" [constraint=true]
+	"1RS075F17-RH1DS7-1HC" [label="single secret 
+key" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS076X8Y-2TNQDT-1SC" [label="used to" fontsize=20 shape=none]
+	"1RS075F17-RH1DS7-1HC" -> "1RS076X8Y-2TNQDT-1SC" [constraint=true]
+	"1RS07VJ1Q-16K25SF-4TT" [label="includes data 
+encryption 
+algorithms" fontsize=20 shape=none]
+	"1RS07VJ1P-293ZW60-4TQ" [label=DES fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS07VJ1Q-16K25SF-4TT" -> "1RS07VJ1P-293ZW60-4TQ" [constraint=true]
+	"1RS07MKF4-12M6TMN-3PC" [label="sender/receiver 
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS07N36Y-2DH5G71-3W5" [label=must fontsize=20 shape=none]
+	"1RS07MKF4-12M6TMN-3PC" -> "1RS07N36Y-2DH5G71-3W5" [constraint=true]
+	"1RS0715JL-1B71S1J-QR" [label="Symmetric 
+Encryption" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS072NWX-1NXFNJV-120" [label="universal 
+technique 
+for " fontsize=20 shape=none]
+	"1RS0715JL-1B71S1J-QR" -> "1RS072NWX-1NXFNJV-120" [constraint=true]
+	"1RS076X8Y-2TNQDT-1SC" [label="used to" fontsize=20 shape=none]
+	"1RS0774LW-YQX1X7-1TL" [label=decrypt fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS076X8Y-2TNQDT-1SC" -> "1RS0774LW-YQX1X7-1TL" [constraint=true]
+	"1RS07N36Y-2DH5G71-3W5" [label=must fontsize=20 shape=none]
+	"1RS07PLDD-G5Y94G-42L" [label="keep key secure/private
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS07N36Y-2DH5G71-3W5" -> "1RS07PLDD-G5Y94G-42L" [constraint=true]
+	"1RS070G6D-TGPC98-LS" [label="Cryptographic 
+Tools" fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RS07TF2L-C8B2GF-4H9" [label="also has methods
+" fontsize=20 shape=none]
+	"1RS070G6D-TGPC98-LS" -> "1RS07TF2L-C8B2GF-4H9" [constraint=true]
+	"1RS075F1B-1NDNF7W-1HG" [label="sender/receiver 
+share" fontsize=20 shape=none]
+	"1RS075F17-RH1DS7-1HC" [label="single secret 
+key" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS075F1B-1NDNF7W-1HG" -> "1RS075F17-RH1DS7-1HC" [constraint=true]
+	"1RS07TF2L-C8B2GF-4H9" [label="also has methods
+" fontsize=20 shape=none]
+	"1RS07TYS1-9Q23FT-4PY" [label="Block Cipher
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS07TF2L-C8B2GF-4H9" -> "1RS07TYS1-9Q23FT-4PY" [constraint=true]
+	"1RS07FRCM-22GJ1NJ-2RL" [label="implemented 
+by" fontsize=20 shape=none]
+	"1RS07FRCJ-233NX73-2RH" [label="analyzing 
+algorithm 
+to decipher 
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS07FRCM-22GJ1NJ-2RL" -> "1RS07FRCJ-233NX73-2RH" [constraint=true]
+	"1RS0715JL-1B71S1J-QR" [label="Symmetric 
+Encryption" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS078KS6-1GNXM45-1ZW" [label="can be attacked 
+by" fontsize=20 shape=none]
+	"1RS0715JL-1B71S1J-QR" -> "1RS078KS6-1GNXM45-1ZW" [constraint=true]
+	"1RS07N36Y-2DH5G71-3W5" [label=must fontsize=20 shape=none]
+	"1RS07N36W-PK7PBV-3W2" [label="share keys 
+in a secure 
+manner" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS07N36Y-2DH5G71-3W5" -> "1RS07N36W-PK7PBV-3W2" [constraint=true]
+	"1RS07QXR3-V6L55K-46S" [label="has average 
+time of" fontsize=20 shape=none]
+	"1RS07QXR1-1ZGPL8L-46P" [label="128 bit: 5.4x10^18 
+years" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS07QXR3-V6L55K-46S" -> "1RS07QXR1-1ZGPL8L-46P" [constraint=true]
+	"1RS07KVB6-NPCRY7-37P" [label="requirements 
+for effective 
+use" fontsize=20 shape=none]
+	"1RS07MKF4-12M6TMN-3PC" [label="sender/receiver 
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS07KVB6-NPCRY7-37P" -> "1RS07MKF4-12M6TMN-3PC" [constraint=true]
+	"1RS078KS6-1GNXM45-1ZW" [label="can be attacked 
+by" fontsize=20 shape=none]
+	"1RS07F4P9-1NM5PVB-2MR" [label="Brute Force
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS078KS6-1GNXM45-1ZW" -> "1RS07F4P9-1NM5PVB-2MR" [constraint=true]
+	"1RS076X8Y-2TNQDT-1SC" [label="used to" fontsize=20 shape=none]
+	"1RS076X8W-FXRPF8-1S8" [label=encrypt fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS076X8Y-2TNQDT-1SC" -> "1RS076X8W-FXRPF8-1S8" [constraint=true]
+	"1RS078KS3-XRTV36-1ZS" [label="Cryptanalytic 
+Attacks" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS07FRCM-22GJ1NJ-2RL" [label="implemented 
+by" fontsize=20 shape=none]
+	"1RS078KS3-XRTV36-1ZS" -> "1RS07FRCM-22GJ1NJ-2RL" [constraint=true]
+	"1RS078KS6-1GNXM45-1ZW" [label="can be attacked 
+by" fontsize=20 shape=none]
+	"1RS078KS3-XRTV36-1ZS" [label="Cryptanalytic 
+Attacks" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS078KS6-1GNXM45-1ZW" -> "1RS078KS3-XRTV36-1ZS" [constraint=true]
+	"1RS070G6D-TGPC98-LS" [label="Cryptographic 
+Tools" fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RS0715JP-1ZN50CZ-QV" [label="one method 
+is" fontsize=20 shape=none]
+	"1RS070G6D-TGPC98-LS" -> "1RS0715JP-1ZN50CZ-QV" [constraint=true]
+	"1RS07F4P9-1NM5PVB-2MR" [label="Brute Force
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS07HCJ4-4S9SJ3-317" [label="implemented 
+by" fontsize=20 shape=none]
+	"1RS07F4P9-1NM5PVB-2MR" -> "1RS07HCJ4-4S9SJ3-317" [constraint=true]
+	"1RS07TF2L-C8B2GF-4H9" [label="also has methods
+" fontsize=20 shape=none]
+	"1RS07TF2K-MSWPRP-4H6" [label="Stream Encryption
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS07TF2L-C8B2GF-4H9" -> "1RS07TF2K-MSWPRP-4H6" [constraint=true]
+	"1RS0715JL-1B71S1J-QR" [label="Symmetric 
+Encryption" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS0726MR-57021R-101" [label="also known 
+as" fontsize=20 shape=none]
+	"1RS0715JL-1B71S1J-QR" -> "1RS0726MR-57021R-101" [constraint=true]
+	"1RS072NWX-1NXFNJV-120" [label="universal 
+technique 
+for " fontsize=20 shape=none]
+	"1RS072NWT-6TWV4L-11X" [label="confidential 
+transmission/storage 
+of data " fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS072NWX-1NXFNJV-120" -> "1RS072NWT-6TWV4L-11X" [constraint=true]
+	"1RS0715JL-1B71S1J-QR" [label="Symmetric 
+Encryption" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS07KVB6-NPCRY7-37P" [label="requirements 
+for effective 
+use" fontsize=20 shape=none]
+	"1RS0715JL-1B71S1J-QR" -> "1RS07KVB6-NPCRY7-37P" [constraint=true]
+	"1RS07HCJ2-1D4BHRG-314" [label="trying all 
+possible keys
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS07QXR3-V6L55K-46S" [label="has average 
+time of" fontsize=20 shape=none]
+	"1RS07HCJ2-1D4BHRG-314" -> "1RS07QXR3-V6L55K-46S" [constraint=true]
+	"1RS07KVB6-NPCRY7-37P" [label="requirements 
+for effective 
+use" fontsize=20 shape=none]
+	"1RS07KVB4-2VX5GP-37L" [label="Strong encryption 
+algorithm" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS07KVB6-NPCRY7-37P" -> "1RS07KVB4-2VX5GP-37L" [constraint=true]
+	"1RS06YXCY-QHM61Y-8P" [label="Michael Kelly 
+Cmap #3 - 
+Crypto Tool 
+ID: 2218988
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	statictics [label="STATISTICS
+\lBranch:		14\lNode:		21\lLinking Phrase:	13\lOrphan:		1\lLeaf Node:	14\lPreposition:	20\lSub Map:		1\lAvg Word Per Concept:	2.5\l" Gsplines=true fillcolor="#F5FFFA" fontsize=20 shape=component style=filled]
+	file_info [label="CMAP Information
+
+\lTitle:	CTAnonymous14.cmap\lCreated:	2020-12-07T07:55:05-05:00\lModified:	2020-12-07T07:55:05-05:00\lLanguage:	en\lFormat:	x-cmap/x-storable\lPublisher:	FIHMC CmapTools 6.04\lWidth:	1003\lHeight:	524\l" Gsplines=true fillcolor="#E6E6FA" fontsize=20 shape=tab style=filled]
+}

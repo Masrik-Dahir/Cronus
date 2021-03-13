@@ -1,0 +1,102 @@
+// The Round Table
+digraph {
+	"1S627K72L-1JJ1B68-C3N" [label="SHELLSHOCK Module 2" Gsplines=true shape=rect style=filled]
+	"1S62F914K-25GM5H2-Q8P" [label="SHELLSHOCK 
+ATTACK" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S62FKCGN-R98YL7-QRX" [label="depicted by
+" Gsplines=true fontcolor=red shape=none]
+	"1S62F914K-25GM5H2-Q8P" -> "1S62FKCGN-R98YL7-QRX" [constraint=true]
+	"1S62F8HSG-17Y27KZ-Q82" [label="SHELLSHOCK 
+BUG" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S62FJDVW-L11KQX-QQ2" [label="illustrated 
+by" Gsplines=true fontcolor=red shape=none]
+	"1S62F8HSG-17Y27KZ-Q82" -> "1S62FJDVW-L11KQX-QQ2" [constraint=true]
+	"1S62F8HSG-17Y27KZ-Q82" [label="SHELLSHOCK 
+BUG" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S62FM4K0-910VQV-QVP" [label="with possible 
+result of" Gsplines=true fontcolor=red shape=none]
+	"1S62F8HSG-17Y27KZ-Q82" -> "1S62FM4K0-910VQV-QVP" [constraint=true]
+	"1S62FJDVW-L11KQX-QQ2" [label="illustrated 
+by" Gsplines=true fontcolor=red shape=none]
+	"1S62F7PYV-13SBCYX-Q7K" [label="Bash executes 
+code after 
+function definition 
+without the 
+function being 
+executed" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S62FJDVW-L11KQX-QQ2" -> "1S62F7PYV-13SBCYX-Q7K" [constraint=true]
+	"1S62FJDVW-L11KQX-QQ2" [label="illustrated 
+by" Gsplines=true fontcolor=red shape=none]
+	"1S62F6DCN-1MC77P6-Q42" [label="Many applications 
+and services 
+use bash shell
+" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S62FJDVW-L11KQX-QQ2" -> "1S62F6DCN-1MC77P6-Q42" [constraint=true]
+	"1S62FM4K0-910VQV-QVP" [label="with possible 
+result of" Gsplines=true fontcolor=red shape=none]
+	"1S62F914K-25GM5H2-Q8P" [label="SHELLSHOCK 
+ATTACK" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S62FM4K0-910VQV-QVP" -> "1S62F914K-25GM5H2-Q8P" [constraint=true]
+	"1S62FHLM3-1MH6C0R-QMW" [label="SHELLSHOCK 
+EXAMPLE" Gsplines=true fillcolor="#FFB6C1" shape=doubleoctagon style=filled]
+	"1S62FJ0LZ-21BLG62-QNT" [label="with the example 
+of" Gsplines=true fontcolor=red shape=none]
+	"1S62FHLM3-1MH6C0R-QMW" -> "1S62FJ0LZ-21BLG62-QNT" [constraint=true]
+	"1S62FHLM3-1MH6C0R-QMW" [label="SHELLSHOCK 
+EXAMPLE" Gsplines=true fillcolor="#FFB6C1" shape=doubleoctagon style=filled]
+	"1S62FR4TF-9QWSCC-R4G" [label="related to
+" Gsplines=true fontcolor=red shape=none]
+	"1S62FHLM3-1MH6C0R-QMW" -> "1S62FR4TF-9QWSCC-R4G" [constraint=true]
+	"1S62FKCGN-R98YL7-QRX" [label="depicted by
+" Gsplines=true fontcolor=red shape=none]
+	"1S62F9XD6-1ZRK86P-QD7" [label="Allows an 
+attacker to 
+run an arbitrary 
+command on 
+a victim’s 
+machine" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S62FKCGN-R98YL7-QRX" -> "1S62F9XD6-1ZRK86P-QD7" [constraint=true]
+	"1S62FJDVW-L11KQX-QQ2" [label="illustrated 
+by" Gsplines=true fontcolor=red shape=none]
+	"1S627LF5C-1WWPJLR-CJG" [label="Security bug 
+in bash or 
+bourne-again 
+shell, which 
+was first 
+disclosed 
+in Sept 2014
+" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S62FJDVW-L11KQX-QQ2" -> "1S627LF5C-1WWPJLR-CJG" [constraint=true]
+	"1S62FR4TF-9QWSCC-R4G" [label="related to
+" Gsplines=true fontcolor=red shape=none]
+	"1S62F914K-25GM5H2-Q8P" [label="SHELLSHOCK 
+ATTACK" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S62FR4TF-9QWSCC-R4G" -> "1S62F914K-25GM5H2-Q8P" [constraint=true]
+	"1S62FJ0LZ-21BLG62-QNT" [label="with the example 
+of" Gsplines=true fontcolor=red shape=none]
+	"1S62FFGSF-144JKNM-QM0" [label="curl -i -X 
+HEAD \"http://192.168.160.134/cgi-bin/test.sh\" 
+-\A '() { 
+:;}; echo 
+$(</etc/passwd)’" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S62FJ0LZ-21BLG62-QNT" -> "1S62FFGSF-144JKNM-QM0" [constraint=true]
+	"1S62FR4TF-9QWSCC-R4G" [label="related to
+" Gsplines=true fontcolor=red shape=none]
+	"1S62F8HSG-17Y27KZ-Q82" [label="SHELLSHOCK 
+BUG" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S62FR4TF-9QWSCC-R4G" -> "1S62F8HSG-17Y27KZ-Q82" [constraint=true]
+	"1S62FJ0LZ-21BLG62-QNT" [label="with the example 
+of" Gsplines=true fontcolor=red shape=none]
+	"1S62FCDZV-MTPKSJ-QDR" [label="Common Gateway 
+Interface 
+(CGI) use 
+bash to run 
+executable 
+programs" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S62FJ0LZ-21BLG62-QNT" -> "1S62FCDZV-MTPKSJ-QDR" [constraint=true]
+	Stat [label="SUMMERY
+
+Matched Branch:		0\lPartially Matched Branch:	0\lMismatched Branch:		6\lExtra Branch:			12\lTotal Match:		0.0 %\lConcept Match:	0.0 %\lLink. Phr. Match:	0.0 %\lMisconception:		100.0 %\lHierarchy Match:	0.0 %\l" Gsplines=true fillcolor="#F5FFFA" shape=component style=filled]
+	Grade [label="Grade:	0.0%" Gsplines=true fillcolor="#FFEBCD" shape=note style=filled]
+	Stat -> Grade [arrowhead=inv color=black constraint=true]
+}

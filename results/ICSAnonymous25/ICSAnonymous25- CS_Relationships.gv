@@ -1,0 +1,89 @@
+// The Round Table
+digraph {
+	"1S2NC59LY-RJ88MP-929" [label="SECURITY CONCEPTS and RELATIONSHIPS Module 1" Gsplines=true fontsize=20 shape=rect style=filled]
+	"1S2NC59LY-21WYX8Y-92Q" [label=Vulnerabilities Gsplines=true fontsize=20 shape=rect style=filled]
+	"1S2NC59LY-1Q3F83J-92M" [label=Countermeasures Gsplines=true fontsize=20 shape=rect style=filled]
+	"1S2NC59LY-6BFR1K-930" [label=Threats Gsplines=true fontsize=20 shape=rect style=filled]
+	"1S2NC59LY-VXC8JG-92T" [label="Threat agents" Gsplines=true fontsize=20 shape=rect style=filled]
+	"1S2NC59LY-VXC8JG-92T" [label="Threat agents
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S2NFLK5Y-3CXD9K-F30" [label="wish to abuse 
+or damage" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NC59LY-VXC8JG-92T" -> "1S2NFLK5Y-3CXD9K-F30" [constraint=true]
+	"1S2NC59LY-1Z13J0-92F" [label=Owners Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=doubleoctagon style=filled]
+	"1S2NC59LZ-S1VN86-94B" [label="wish to minimize
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NC59LY-1Z13J0-92F" -> "1S2NC59LZ-S1VN86-94B" [constraint=true]
+	"1S2NC59LY-1Z13J0-92F" [label=Owners Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=doubleoctagon style=filled]
+	"1S2NC59LZ-28XB5ZW-93W" [label=value Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NC59LY-1Z13J0-92F" -> "1S2NC59LZ-28XB5ZW-93W" [constraint=true]
+	"1S2NC59LZ-1BMQRL6-95P" [label="leading to
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NC59LY-22X8GJF-92J" [label=Risk Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S2NC59LZ-1BMQRL6-95P" -> "1S2NC59LY-22X8GJF-92J" [constraint=true]
+	"1S2NC59LY-VXC8JG-92T" [label="Threat agents
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S2NC59LZ-1F5YP7B-964" [label="give rise 
+to" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NC59LY-VXC8JG-92T" -> "1S2NC59LZ-1F5YP7B-964" [constraint=true]
+	"1S2NC59LZ-Y21DBX-971" [label="that increase
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NC59LY-22X8GJF-92J" [label=Risk Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S2NC59LZ-Y21DBX-971" -> "1S2NC59LY-22X8GJF-92J" [constraint=true]
+	"1S2NC59LZ-1562LTZ-94S" [label="to reduce" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NC59LY-22X8GJF-92J" [label=Risk Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S2NC59LZ-1562LTZ-94S" -> "1S2NC59LY-22X8GJF-92J" [constraint=true]
+	"1S2NFLK5Y-3CXD9K-F30" [label="wish to abuse 
+or damage" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NC59LY-PQV4N5-92X" [label=Assets Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S2NFLK5Y-3CXD9K-F30" -> "1S2NC59LY-PQV4N5-92X" [constraint=true]
+	"1S2NC59LZ-1F5YP7B-964" [label="give rise 
+to" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NC59LY-6BFR1K-930" [label=Threats Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S2NC59LZ-1F5YP7B-964" -> "1S2NC59LY-6BFR1K-930" [constraint=true]
+	"1S2NC59LY-6BFR1K-930" [label=Threats Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S2NC59LZ-NDDN50-97H" [label="that exploit
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NC59LY-6BFR1K-930" -> "1S2NC59LZ-NDDN50-97H" [constraint=true]
+	"1S2NC59LY-1Q3F83J-92M" [label=Countermeasures Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S2NC59LZ-1562LTZ-94S" [label="to reduce" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NC59LY-1Q3F83J-92M" -> "1S2NC59LZ-1562LTZ-94S" [constraint=true]
+	"1S2NC59LZ-28XB5ZW-93W" [label=value Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NC59LY-PQV4N5-92X" [label=Assets Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S2NC59LZ-28XB5ZW-93W" -> "1S2NC59LY-PQV4N5-92X" [constraint=true]
+	"1S2NC59LY-1Z13J0-92F" [label=Owners Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=doubleoctagon style=filled]
+	"1S2NC59LY-J8Q3RN-93B" [label=impose Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NC59LY-1Z13J0-92F" -> "1S2NC59LY-J8Q3RN-93B" [constraint=true]
+	"1S2NC59LZ-XL0H3M-957" [label="that may possess
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NC59LY-21WYX8Y-92Q" [label=Vulnerabilities Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S2NC59LZ-XL0H3M-957" -> "1S2NC59LY-21WYX8Y-92Q" [constraint=true]
+	"1S2NC59LY-1Q3F83J-92M" [label=Countermeasures Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S2NC59LZ-XL0H3M-957" [label="that may possess
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NC59LY-1Q3F83J-92M" -> "1S2NC59LZ-XL0H3M-957" [constraint=true]
+	"1S2NC59LZ-NDDN50-97H" [label="that exploit
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NC59LY-21WYX8Y-92Q" [label=Vulnerabilities Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S2NC59LZ-NDDN50-97H" -> "1S2NC59LY-21WYX8Y-92Q" [constraint=true]
+	"1S2NC59LZ-S1VN86-94B" [label="wish to minimize
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NC59LY-22X8GJF-92J" [label=Risk Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S2NC59LZ-S1VN86-94B" -> "1S2NC59LY-22X8GJF-92J" [constraint=true]
+	"1S2NC59LY-21WYX8Y-92Q" [label=Vulnerabilities Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S2NC59LZ-1BMQRL6-95P" [label="leading to
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NC59LY-21WYX8Y-92Q" -> "1S2NC59LZ-1BMQRL6-95P" [constraint=true]
+	"1S2NC59LY-6BFR1K-930" [label=Threats Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S2NC59LZ-Y21DBX-971" [label="that increase
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NC59LY-6BFR1K-930" -> "1S2NC59LZ-Y21DBX-971" [constraint=true]
+	"1S2NC59LY-J8Q3RN-93B" [label=impose Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NC59LY-1Q3F83J-92M" [label=Countermeasures Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S2NC59LY-J8Q3RN-93B" -> "1S2NC59LY-1Q3F83J-92M" [constraint=true]
+	Stat [label="SUMMERY
+
+Matched Branch:			0\lPartially Matched Branch:	0\lMismatched Branch:		2\lExtra Branch:				16\lTotal Match:		0.0 %\lConcept Match:	0.0 %\lLink. Phr. Match:	0.0 %\lMisconception:	100.0 %\lHierarchy Match:	0.0 %\l" Gsplines=true fillcolor="#F5FFFA" fontsize=20 shape=component style=filled]
+	Grade [label="Grade:	0.0%" Gsplines=true fillcolor="#FFEBCD" fontsize=20 shape=note style=filled]
+	Stat -> Grade [arrowhead=inv color=black constraint=true]
+}

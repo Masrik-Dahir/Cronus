@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmap xmlns:dcterms="http://purl.org/dc/terms/" xmlns="http://cmap.ihmc.us/xml/cmap/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+    <res-meta>
+        <dc:title>Shellshock.cmap</dc:title>
+        <dcterms:created>2020-12-07T07:28:07-05:00</dcterms:created>
+        <dcterms:modified>2020-12-07T07:28:07-05:00</dcterms:modified>
+        <dc:language>en</dc:language>
+        <dc:format>x-cmap/x-storable</dc:format>
+        <dc:publisher>FIHMC CmapTools 6.04</dc:publisher>
+        <dc:source>cmap:1W5Z76G0X-151MD9Y-1:external-folder:file:////C:/Users/masri/PycharmProjects/cmapProject/ConceptMapFiles/CMAPFiles/ComputerSecurity/Instructor/Module2UserAuthentication/Lesson3PasswordFilesFormats/Shellshock.cmap</dc:source>
+    </res-meta>
+    <map width="847" height="596">
+        <concept-list>
+            <concept id="1S62FCDZV-MTPKSJ-QDR" label="Common Gateway Interface (CGI) use bash to run executable programs"/>
+            <concept id="1S62F9XD6-1ZRK86P-QD7" label="Allows an attacker to run an arbitrary&#xa; command on a victim&#x2019;s machine"/>
+            <concept id="1S62FHLM3-1MH6C0R-QMW" label="SHELLSHOCK&#xa;EXAMPLE"/>
+            <concept id="1S62FFGSF-144JKNM-QM0" label="curl -i -X HEAD &quot;http://192.168.160.134/cgi-bin/test.sh&quot; -\A '() { :;}; echo  $(&lt;/etc/passwd)&#x2019;"/>
+            <concept id="1S62F6DCN-1MC77P6-Q42" label="Many applications and services use bash shell"/>
+            <concept id="1S627LF5C-1WWPJLR-CJG" label="Security bug in bash or bourne-again shell, &#xa;which was first disclosed in Sept 2014"/>
+            <concept id="1S62F7PYV-13SBCYX-Q7K" label="Bash executes code after function definition&#xa;without the function being executed"/>
+            <concept id="1S627K72L-1JJ1B68-C3N" label="SHELLSHOCK&#xa;Module 2"/>
+            <concept id="1S62F914K-25GM5H2-Q8P" label="SHELLSHOCK&#xa;ATTACK"/>
+            <concept id="1S62F8HSG-17Y27KZ-Q82" label="SHELLSHOCK&#xa;BUG"/>
+        </concept-list>
+        <linking-phrase-list>
+            <linking-phrase id="1S62FM4K0-910VQV-QVP" label="with possible &#xa;result of"/>
+            <linking-phrase id="1S62FR4TF-9QWSCC-R4G" label="related to"/>
+            <linking-phrase id="1S62FKCGN-R98YL7-QRX" label="depicted by"/>
+            <linking-phrase id="1S62FJDVW-L11KQX-QQ2" label="illustrated by"/>
+            <linking-phrase id="1S62FJ0LZ-21BLG62-QNT" label="with the&#xa;example of"/>
+        </linking-phrase-list>
+        <connection-list>
+            <connection id="1S62FKCGQ-2Q23XM-QS0" from-id="1S62F914K-25GM5H2-Q8P" to-id="1S62FKCGN-R98YL7-QRX"/>
+            <connection id="1S62FJDVX-3DNQ8D-QQ5" from-id="1S62F8HSG-17Y27KZ-Q82" to-id="1S62FJDVW-L11KQX-QQ2"/>
+            <connection id="1S62FM4K0-20Q7HTW-QVS" from-id="1S62F8HSG-17Y27KZ-Q82" to-id="1S62FM4K0-910VQV-QVP"/>
+            <connection id="1S62FJMRP-9STNWW-QR6" from-id="1S62FJDVW-L11KQX-QQ2" to-id="1S62F7PYV-13SBCYX-Q7K"/>
+            <connection id="1S62FJJXV-15CQMFQ-QQT" from-id="1S62FJDVW-L11KQX-QQ2" to-id="1S62F6DCN-1MC77P6-Q42"/>
+            <connection id="1S62FM4K1-15BG3TW-QVY" from-id="1S62FM4K0-910VQV-QVP" to-id="1S62F914K-25GM5H2-Q8P"/>
+            <connection id="1S62FJ0M1-1LKS1D8-QNY" from-id="1S62FHLM3-1MH6C0R-QMW" to-id="1S62FJ0LZ-21BLG62-QNT"/>
+            <connection id="1S62FR4TG-15XR75Y-R4K" from-id="1S62FHLM3-1MH6C0R-QMW" to-id="1S62FR4TF-9QWSCC-R4G"/>
+            <connection id="1S62FKCGQ-WJQRSY-QS6" from-id="1S62FKCGN-R98YL7-QRX" to-id="1S62F9XD6-1ZRK86P-QD7"/>
+            <connection id="1S62FJDVX-27ZGZT0-QQC" from-id="1S62FJDVW-L11KQX-QQ2" to-id="1S627LF5C-1WWPJLR-CJG"/>
+            <connection id="1S62FR4TG-4R0JP3-R4Q" from-id="1S62FR4TF-9QWSCC-R4G" to-id="1S62F914K-25GM5H2-Q8P"/>
+            <connection id="1S62FJ4DZ-1QYTY30-QPM" from-id="1S62FJ0LZ-21BLG62-QNT" to-id="1S62FFGSF-144JKNM-QM0"/>
+            <connection id="1S62FR9GJ-15ZG94M-R54" from-id="1S62FR4TF-9QWSCC-R4G" to-id="1S62F8HSG-17Y27KZ-Q82"/>
+            <connection id="1S62FJ0M1-1JCRSRB-QP4" from-id="1S62FJ0LZ-21BLG62-QNT" to-id="1S62FCDZV-MTPKSJ-QDR"/>
+        </connection-list>
+        <concept-appearance-list>
+            <concept-appearance id="1S62FCDZV-MTPKSJ-QDR" x="508" y="90" width="453" height="28" font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full"
+                border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0"
+                group-child-spacing="10" group-parent-spacing="10"/>
+            <concept-appearance id="1S62F9XD6-1ZRK86P-QD7" x="565" y="558" width="243" height="40" font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full"
+                border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0"
+                group-child-spacing="10" group-parent-spacing="10"/>
+            <concept-appearance id="1S62FHLM3-1MH6C0R-QMW" x="105" y="197" width="98" height="39" font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full"
+                border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0"
+                group-child-spacing="10" group-parent-spacing="10"/>
+            <concept-appearance id="1S62FFGSF-144JKNM-QM0" x="563" y="160" width="589" height="28" font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full"
+                border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0"
+                group-child-spacing="10" group-parent-spacing="10"/>
+            <concept-appearance id="1S62F6DCN-1MC77P6-Q42" x="582" y="337" width="293" height="28" font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full"
+                border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0"
+                group-child-spacing="10" group-parent-spacing="10"/>
+            <concept-appearance id="1S627LF5C-1WWPJLR-CJG" x="570" y="270" width="282" height="42" font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full"
+                border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0"
+                group-child-spacing="10" group-parent-spacing="10"/>
+            <concept-appearance id="1S62F7PYV-13SBCYX-Q7K" x="583" y="406" width="281" height="42" font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full"
+                border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0"
+                group-child-spacing="10" group-parent-spacing="10"/>
+            <concept-appearance id="1S627K72L-1JJ1B68-C3N" x="99" y="70" width="173" height="62" font-name="Verdana" font-size="12" font-style="bold" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full"
+                border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="173" min-height="54" max-width="-1.0"
+                group-child-spacing="10" group-parent-spacing="10"/>
+            <concept-appearance id="1S62F914K-25GM5H2-Q8P" x="221" y="593" width="98" height="40" font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full"
+                border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0"
+                group-child-spacing="10" group-parent-spacing="10"/>
+            <concept-appearance id="1S62F8HSG-17Y27KZ-Q82" x="213" y="330" width="98" height="40" font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full"
+                border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0"
+                group-child-spacing="10" group-parent-spacing="10"/>
+        </concept-appearance-list>
+        <linking-phrase-appearance-list>
+            <linking-phrase-appearance id="1S62FM4K0-910VQV-QVP" x="276" y="494" width="84" height="26"/>
+            <linking-phrase-appearance id="1S62FR4TF-9QWSCC-R4G" x="101" y="554" width="60" height="11"/>
+            <linking-phrase-appearance id="1S62FKCGN-R98YL7-QRX" x="351" y="626" width="72" height="14"/>
+            <linking-phrase-appearance id="1S62FJDVW-L11KQX-QQ2" x="312" y="390" width="81" height="14"/>
+            <linking-phrase-appearance id="1S62FJ0LZ-21BLG62-QNT" x="190" y="246" width="69" height="28"/>
+        </linking-phrase-appearance-list>
+        <connection-appearance-list>
+            <connection-appearance id="1S62FKCGQ-2Q23XM-QS0" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1S62FJDVX-3DNQ8D-QQ5" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1S62FM4K0-20Q7HTW-QVS" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1S62FJMRP-9STNWW-QR6" from-pos="center" to-pos="left"/>
+            <connection-appearance id="1S62FJJXV-15CQMFQ-QQT" from-pos="center" to-pos="left"/>
+            <connection-appearance id="1S62FM4K1-15BG3TW-QVY" from-pos="center" to-pos="top"/>
+            <connection-appearance id="1S62FJ0M1-1LKS1D8-QNY" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1S62FR4TG-15XR75Y-R4K" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1S62FKCGQ-WJQRSY-QS6" from-pos="center" to-pos="left"/>
+            <connection-appearance id="1S62FJDVX-27ZGZT0-QQC" from-pos="center" to-pos="left"/>
+            <connection-appearance id="1S62FR4TG-4R0JP3-R4Q" from-pos="center" to-pos="top-left"/>
+            <connection-appearance id="1S62FJ4DZ-1QYTY30-QPM" from-pos="center" to-pos="left"/>
+            <connection-appearance id="1S62FR9GJ-15ZG94M-R54" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1S62FJ0M1-1JCRSRB-QP4" from-pos="center" to-pos="left"/>
+        </connection-appearance-list>
+        <style-sheet-list>
+            <style-sheet id="_Default_">
+                <map-style background-color="255,255,255,0" image-style="full" image-top-left="0,0"/>
+                <concept-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1"
+                    border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <linking-phrase-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0" background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1"
+                    border-shape="rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <connection-style color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+                <resource-style font-name="SanSerif" font-size="12" font-style="plain" font-color="0,0,0,255" background-color="192,192,192,255"/>
+            </style-sheet>
+            <style-sheet id="_LatestChanges_">
+                <concept-style font-style="plain"/>
+            </style-sheet>
+        </style-sheet-list>
+        <extra-graphical-properties-list>
+            <properties-list id="file:////C:/Users/masri/PycharmProjects/cmapProject/ConceptMapFiles/CMAPFiles/ComputerSecurity/Instructor/Module2UserAuthentication/Lesson3PasswordFilesFormats/Shellshock.cmap">
+                <property key="StyleSheetGroup_0" value="//*@!#$%%^&amp;*()() No Grouped StyleSheets @"/>
+            </properties-list>
+        </extra-graphical-properties-list>
+    </map>
+</cmap>

@@ -1,0 +1,163 @@
+// The Round Table
+digraph {
+	"1S3ZPZQBK-1BLDPC9-TCC" [label="RANDOM and PSEUDORANDOM NUMBERS Module 3" Gsplines=true fontsize=20 shape=rect style=filled]
+	"1S63122D0-FBBGWF-169B" [label="RANDOM NUMBERS
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=doubleoctagon style=filled]
+	"1S631B6MN-1XKJ0BV-17JZ" [label="includes the 
+generation 
+of" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S63122D0-FBBGWF-169B" -> "1S631B6MN-1XKJ0BV-17JZ" [constraint=true]
+	"1S631B6MN-1XKJ0BV-17JZ" [label="includes the 
+generation 
+of" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S6312GRB-1HMNR42-16DV" [label="symmetric 
+key for use 
+as a temporary 
+session key 
+or creating 
+a digital 
+envelope" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S631B6MN-1XKJ0BV-17JZ" -> "1S6312GRB-1HMNR42-16DV" [constraint=true]
+	"1S631LVLP-XBQF8-1872" [label="specified 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S631KZJW-KXRST8-17ZN" [label="likely to 
+be predictable
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S631LVLP-XBQF8-1872" -> "1S631KZJW-KXRST8-17ZN" [constraint=true]
+	"1S63182R0-1JJYCXC-17G6" [label="depicted by
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S63158K7-ZGWCHJ-16WM" [label="frequency 
+of occurrence 
+of each of 
+the numbers 
+should be 
+approximately 
+the same" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S63182R0-1JJYCXC-17G6" -> "1S63158K7-ZGWCHJ-16WM" [constraint=true]
+	"1S631977L-GVJ9Q8-17HB" [label="portrayed 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S6315DY6-ZW8FDB-16WW" [label="opponent should 
+not be able 
+to predict 
+future elements 
+of the sequence 
+on the basis 
+of earlier 
+elements" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S631977L-GVJ9Q8-17HB" -> "1S6315DY6-ZW8FDB-16WW" [constraint=true]
+	"1S6312M3R-147K60Q-16F7" [label="Uniform distribution
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S63182R0-1JJYCXC-17G6" [label="depicted by
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S6312M3R-147K60Q-16F7" -> "1S63182R0-1JJYCXC-17G6" [constraint=true]
+	"1S631LVLP-XBQF8-1872" [label="specified 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S631K4HX-53QLD-17ZC" [label="are not truly 
+random because 
+sequence of 
+values is 
+determined 
+by initial 
+seed value
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S631LVLP-XBQF8-1872" -> "1S631K4HX-53QLD-17ZC" [constraint=true]
+	"1S631RSWL-1RNYTYD-18PP" [label="with these 
+requirements 
+of" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S6315H7S-28FM4D1-16X1" [label=Independence Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S631RSWL-1RNYTYD-18PP" -> "1S6315H7S-28FM4D1-16X1" [constraint=true]
+	"1S63122D0-FBBGWF-169B" [label="RANDOM NUMBERS
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=doubleoctagon style=filled]
+	"1S631TJY1-1QVK3YY-18T2" [label="generated 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S63122D0-FBBGWF-169B" -> "1S631TJY1-1QVK3YY-18T2" [constraint=true]
+	"1S631977L-GVJ9Q8-17HB" [label="portrayed 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S6315C1L-1QWG0V7-16WR" [label="no one value 
+in the sequence 
+can be inferred 
+from the others
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S631977L-GVJ9Q8-17HB" -> "1S6315C1L-1QWG0V7-16WR" [constraint=true]
+	"1S631B6MN-1XKJ0BV-17JZ" [label="includes the 
+generation 
+of" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S6312FMM-QVNJGH-16DQ" [label="stream key 
+for symmetric 
+stream cipher
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S631B6MN-1XKJ0BV-17JZ" -> "1S6312FMM-QVNJGH-16DQ" [constraint=true]
+	"1S631MBFS-F9S5QJ-1883" [label="TRUE RANDOM 
+NUMBER GENERATOR
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S631P91C-G1YQKY-18LH" [label="described 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S631MBFS-F9S5QJ-1883" -> "1S631P91C-G1YQKY-18LH" [constraint=true]
+	"1S631RSWL-1RNYTYD-18PP" [label="with these 
+requirements 
+of" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S6312M3R-147K60Q-16F7" [label="Uniform distribution
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S631RSWL-1RNYTYD-18PP" -> "1S6312M3R-147K60Q-16F7" [constraint=true]
+	"1S63122D0-FBBGWF-169B" [label="RANDOM NUMBERS
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=doubleoctagon style=filled]
+	"1S631RSWL-1RNYTYD-18PP" [label="with these 
+requirements 
+of" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S63122D0-FBBGWF-169B" -> "1S631RSWL-1RNYTYD-18PP" [constraint=true]
+	"1S6315H7S-28FM4D1-16X1" [label=Independence Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S631977L-GVJ9Q8-17HB" [label="portrayed 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S6315H7S-28FM4D1-16X1" -> "1S631977L-GVJ9Q8-17HB" [constraint=true]
+	"1S63122D0-FBBGWF-169B" [label="RANDOM NUMBERS
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=doubleoctagon style=filled]
+	"1S631V3BB-ZBNCRT-18TT" [label=versus Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S63122D0-FBBGWF-169B" -> "1S631V3BB-ZBNCRT-18TT" [constraint=true]
+	"1S631B6MN-1XKJ0BV-17JZ" [label="includes the 
+generation 
+of" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S6312DG1-P5DXYB-16DL" [label="keys for public-key 
+algorithms" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S631B6MN-1XKJ0BV-17JZ" -> "1S6312DG1-P5DXYB-16DL" [constraint=true]
+	"1S631P91C-G1YQKY-18LH" [label="described 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S631N4QK-1P64GCX-189K" [label="most operate 
+by measuring 
+unpredictable 
+natural processes
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S631P91C-G1YQKY-18LH" -> "1S631N4QK-1P64GCX-189K" [constraint=true]
+	"1S631B6MN-1XKJ0BV-17JZ" [label="includes the 
+generation 
+of" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S6312HSV-B0MJJ4-16DZ" [label="session key
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S631B6MN-1XKJ0BV-17JZ" -> "1S6312HSV-B0MJJ4-16DZ" [constraint=true]
+	"1S6312JWB-1LPY5HZ-16F3" [label="PSEUDORANDOM 
+NUMBERS" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S631LVLP-XBQF8-1872" [label="specified 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S6312JWB-1LPY5HZ-16F3" -> "1S631LVLP-XBQF8-1872" [constraint=true]
+	"1S631TJY1-1QVK3YY-18T2" [label="generated 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S631MBFS-F9S5QJ-1883" [label="TRUE RANDOM 
+NUMBER GENERATOR
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S631TJY1-1QVK3YY-18T2" -> "1S631MBFS-F9S5QJ-1883" [constraint=true]
+	"1S631P91C-G1YQKY-18LH" [label="described 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S631N2S4-1HX91RZ-189F" [label="uses a nondeterministic 
+source to 
+produce randomness
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S631P91C-G1YQKY-18LH" -> "1S631N2S4-1HX91RZ-189F" [constraint=true]
+	"1S631V3BB-ZBNCRT-18TT" [label=versus Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S6312JWB-1LPY5HZ-16F3" [label="PSEUDORANDOM 
+NUMBERS" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S631V3BB-ZBNCRT-18TT" -> "1S6312JWB-1LPY5HZ-16F3" [constraint=true]
+	Stat [label="SUMMERY
+
+Matched Branch:			0\lPartially Matched Branch:	4\lMismatched Branch:		7\lExtra Branch:				15\lTotal Match:		8.0 %\lConcept Match:	5.88 %\lLink. Phr. Match:	12.5 %\lMisconception:	100.0 %\lHierarchy Match:	8.79 %\l" Gsplines=true fillcolor="#F5FFFA" fontsize=20 shape=component style=filled]
+	Grade [label="Grade:	5.63%" Gsplines=true fillcolor="#FFEBCD" fontsize=20 shape=note style=filled]
+	Stat -> Grade [arrowhead=inv color=black constraint=true]
+}

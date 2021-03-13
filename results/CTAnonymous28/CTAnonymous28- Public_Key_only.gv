@@ -1,0 +1,330 @@
+// The Round Table
+digraph {
+	Student [label="Student: CTAnonymous28" fillcolor=gold fontsize=20 shape=component style=filled]
+	"1RS165GZS-DJ843W-2BD" [label=Includes fontsize=20 shape=none]
+	"1RS165GZR-7FJP25-2B9" [label="RSA: Most 
+popular assymetric 
+encryption 
+algorithm" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS165GZS-DJ843W-2BD" -> "1RS165GZR-7FJP25-2B9" [constraint=true]
+	"1RS10TGPL-25LZ3QZ-19F" [label="Uses either
+" fontsize=20 shape=none]
+	"1RS10NN28-YN424C-WY" [label="Block Ciphers: 
+Encrypt A 
+message block 
+by block" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS10TGPL-25LZ3QZ-19F" -> "1RS10NN28-YN424C-WY" [constraint=true]
+	"1RS160F0T-14XLZLL-27R" [label=Includes fontsize=20 shape=none]
+	"1RS160K9S-2CTMJN3-28Y" [label=AES fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS160F0T-14XLZLL-27R" -> "1RS160K9S-2CTMJN3-28Y" [constraint=true]
+	"1RS10N6RC-29DCT4K-V7" [label="Symmetric 
+Encryption: 
+Encryption 
+that relies 
+on a shared 
+secret key 
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1D7HR6-W8NDWL-8ZM" [label=Uses fontsize=20 shape=none]
+	"1RS10N6RC-29DCT4K-V7" -> "1RS1D7HR6-W8NDWL-8ZM" [constraint=true]
+	"1RS10TGPL-25LZ3QZ-19F" [label="Uses either
+" fontsize=20 shape=none]
+	"1RS10P5J4-1DN6NXM-YL" [label="Stream Ciphers: 
+Encrypt a 
+message character 
+by charcter 
+using a pseudo 
+random stream 
+generated 
+using a secret 
+key" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS10TGPL-25LZ3QZ-19F" -> "1RS10P5J4-1DN6NXM-YL" [constraint=true]
+	"1RS10N6RC-29DCT4K-V7" [label="Symmetric 
+Encryption: 
+Encryption 
+that relies 
+on a shared 
+secret key 
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS160F0T-14XLZLL-27R" [label=Includes fontsize=20 shape=none]
+	"1RS10N6RC-29DCT4K-V7" -> "1RS160F0T-14XLZLL-27R" [constraint=true]
+	"1RS0ZQ738-1H13KCT-8D" [label=cryptography fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RS10V59X-26NG3BK-1C6" [label=Achieves fontsize=20 shape=none]
+	"1RS0ZQ738-1H13KCT-8D" -> "1RS10V59X-26NG3BK-1C6" [constraint=true]
+	"1RS182FR2-1NDCS6L-35Z" [label=Uses fontsize=20 shape=none]
+	"1RS18K44Y-J61KT3-3GY" [label="Digital Signatures: 
+Append a message's 
+hash that 
+was encrypted 
+with a private 
+key so that 
+a third party 
+can decrypt 
+the hash with 
+a public key 
+to authenticate 
+your message.
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS182FR2-1NDCS6L-35Z" -> "1RS18K44Y-J61KT3-3GY" [constraint=true]
+	"1RS182FR2-1NDCS6L-35Z" [label=Uses fontsize=20 shape=none]
+	"1RS182FR2-1FP6SW3-35W" [label="MAC: Append 
+a code generated 
+from a symmetric 
+key to the 
+end of the 
+message so 
+that only 
+the recipient 
+can compute 
+the code" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS182FR2-1NDCS6L-35Z" -> "1RS182FR2-1FP6SW3-35W" [constraint=true]
+	"1RS18K44Y-J61KT3-3GY" [label="Digital Signatures: 
+Append a message's 
+hash that 
+was encrypted 
+with a private 
+key so that 
+a third party 
+can decrypt 
+the hash with 
+a public key 
+to authenticate 
+your message.
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1CK47R-J7F7ZJ-81D" [label=Uses fontsize=20 shape=none]
+	"1RS18K44Y-J61KT3-3GY" -> "1RS1CK47R-J7F7ZJ-81D" [constraint=true]
+	"1RS17RL8Q-TJGMV4-2X1" [label="Required to 
+be" fontsize=20 shape=none]
+	"1RS17SBG7-910D1-2YG" [label="Seond pre-image 
+resistant: 
+Given x it's 
+computationally 
+infeasible 
+to x!=y such 
+that H(x) 
+= H(y)" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS17RL8Q-TJGMV4-2X1" -> "1RS17SBG7-910D1-2YG" [constraint=true]
+	"1RS0ZR6VD-PMWCN4-JH" [label="Cryptograhpic 
+Hashing" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS17RL8Q-TJGMV4-2X1" [label="Required to 
+be" fontsize=20 shape=none]
+	"1RS0ZR6VD-PMWCN4-JH" -> "1RS17RL8Q-TJGMV4-2X1" [constraint=true]
+	"1RS10NJHG-ZBHLDQ-WF" [label="Assymetric 
+Encryption: 
+Encryption 
+that relies 
+on a seperate 
+public and 
+private key
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS165GZS-DJ843W-2BD" [label=Includes fontsize=20 shape=none]
+	"1RS10NJHG-ZBHLDQ-WF" -> "1RS165GZS-DJ843W-2BD" [constraint=true]
+	"1RS10V59X-26NG3BK-1C6" [label=Achieves fontsize=20 shape=none]
+	"1RS10V59W-1Z53VJ6-1C3" [label=Confidentiality fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS10V59X-26NG3BK-1C6" -> "1RS10V59W-1Z53VJ6-1C3" [constraint=true]
+	"1RS10N6RD-13PSL6F-VB" [label="Uses either
+" fontsize=20 shape=none]
+	"1RS10NJHG-ZBHLDQ-WF" [label="Assymetric 
+Encryption: 
+Encryption 
+that relies 
+on a seperate 
+public and 
+private key
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS10N6RD-13PSL6F-VB" -> "1RS10NJHG-ZBHLDQ-WF" [constraint=true]
+	"1RS18K44Y-J61KT3-3GY" [label="Digital Signatures: 
+Append a message's 
+hash that 
+was encrypted 
+with a private 
+key so that 
+a third party 
+can decrypt 
+the hash with 
+a public key 
+to authenticate 
+your message.
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1CMCS1-1SJHFK8-854" [label=Uses fontsize=20 shape=none]
+	"1RS18K44Y-J61KT3-3GY" -> "1RS1CMCS1-1SJHFK8-854" [constraint=true]
+	"1RS1CK47R-J7F7ZJ-81D" [label=Uses fontsize=20 shape=none]
+	"1RS10NJHG-ZBHLDQ-WF" [label="Assymetric 
+Encryption: 
+Encryption 
+that relies 
+on a seperate 
+public and 
+private key
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1CK47R-J7F7ZJ-81D" -> "1RS10NJHG-ZBHLDQ-WF" [constraint=true]
+	"1RS1CKHH5-2FD4C2-824" [label=Uses fontsize=20 shape=none]
+	"1RS10N6RC-29DCT4K-V7" [label="Symmetric 
+Encryption: 
+Encryption 
+that relies 
+on a shared 
+secret key 
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1CKHH5-2FD4C2-824" -> "1RS10N6RC-29DCT4K-V7" [constraint=true]
+	"1RS0ZQTN6-J9DDNF-H9" [label=Includes fontsize=20 shape=none]
+	"1RS107HWV-QHZ61Q-P9" [label="Secure Random 
+number Generation
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS0ZQTN6-J9DDNF-H9" -> "1RS107HWV-QHZ61Q-P9" [constraint=true]
+	"1RS1CHD34-1B60QFD-80F" [label=Uses fontsize=20 shape=none]
+	"1RS0ZQTN3-L1VG4M-H6" [label=Encryption fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1CHD34-1B60QFD-80F" -> "1RS0ZQTN3-L1VG4M-H6" [constraint=true]
+	"1RS0ZR6VD-PMWCN4-JH" [label="Cryptograhpic 
+Hashing" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS178L78-10C1L5D-2NK" [label="Attacked by
+" fontsize=20 shape=none]
+	"1RS0ZR6VD-PMWCN4-JH" -> "1RS178L78-10C1L5D-2NK" [constraint=true]
+	"1RS1D7HR6-W8NDWL-8ZM" [label=Uses fontsize=20 shape=none]
+	"1RS1734Z5-1VP93R6-2F6" [label="Diffie Hellman: 
+Enables two 
+users to confidentially 
+generate a 
+shared secret 
+key" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1D7HR6-W8NDWL-8ZM" -> "1RS1734Z5-1VP93R6-2F6" [constraint=true]
+	"1RS0ZQTN3-L1VG4M-H6" [label=Encryption fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS10N6RD-13PSL6F-VB" [label="Uses either
+" fontsize=20 shape=none]
+	"1RS0ZQTN3-L1VG4M-H6" -> "1RS10N6RD-13PSL6F-VB" [constraint=true]
+	"1RS178L78-10C1L5D-2NK" [label="Attacked by
+" fontsize=20 shape=none]
+	"1RS153RYX-1FQ3395-1T4" [label=Bruteforcing fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS178L78-10C1L5D-2NK" -> "1RS153RYX-1FQ3395-1T4" [constraint=true]
+	"1RS0ZQTN3-L1VG4M-H6" [label=Encryption fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS178L78-10C1L5D-2NK" [label="Attacked by
+" fontsize=20 shape=none]
+	"1RS0ZQTN3-L1VG4M-H6" -> "1RS178L78-10C1L5D-2NK" [constraint=true]
+	"1RS10V59X-26NG3BK-1C6" [label=Achieves fontsize=20 shape=none]
+	"1RS10VW4C-294CLQK-1F3" [label=Authentication fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS10V59X-26NG3BK-1C6" -> "1RS10VW4C-294CLQK-1F3" [constraint=true]
+	"1RS160F0T-14XLZLL-27R" [label=Includes fontsize=20 shape=none]
+	"1RS160HW6-K5WRVJ-28G" [label=DES fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS160F0T-14XLZLL-27R" -> "1RS160HW6-K5WRVJ-28G" [constraint=true]
+	"1RS178L78-10C1L5D-2NK" [label="Attacked by
+" fontsize=20 shape=none]
+	"1RS1522XV-2DL0NM7-1QW" [label="Cryptanalytic 
+attacks" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS178L78-10C1L5D-2NK" -> "1RS1522XV-2DL0NM7-1QW" [constraint=true]
+	"1RS10VW4C-294CLQK-1F3" [label=Authentication fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS182FR2-1NDCS6L-35Z" [label=Uses fontsize=20 shape=none]
+	"1RS10VW4C-294CLQK-1F3" -> "1RS182FR2-1NDCS6L-35Z" [constraint=true]
+	"1RS0ZQTN3-L1VG4M-H6" [label=Encryption fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS10TGPL-25LZ3QZ-19F" [label="Uses either
+" fontsize=20 shape=none]
+	"1RS0ZQTN3-L1VG4M-H6" -> "1RS10TGPL-25LZ3QZ-19F" [constraint=true]
+	"1RS17RL8Q-TJGMV4-2X1" [label="Required to 
+be" fontsize=20 shape=none]
+	"1RS17SCZB-RYQBT5-2YY" [label="Collision 
+resistant: 
+Computationally 
+infeasible 
+to find any 
+pair (x,y) 
+such that 
+H(x) = H(y)
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS17RL8Q-TJGMV4-2X1" -> "1RS17SCZB-RYQBT5-2YY" [constraint=true]
+	"1RS182FR2-1NDCS6L-35Z" [label=Uses fontsize=20 shape=none]
+	"1RS10N6RC-29DCT4K-V7" [label="Symmetric 
+Encryption: 
+Encryption 
+that relies 
+on a shared 
+secret key 
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS182FR2-1NDCS6L-35Z" -> "1RS10N6RC-29DCT4K-V7" [constraint=true]
+	"1RS0ZQTN6-J9DDNF-H9" [label=Includes fontsize=20 shape=none]
+	"1RS0ZR6VD-PMWCN4-JH" [label="Cryptograhpic 
+Hashing" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS0ZQTN6-J9DDNF-H9" -> "1RS0ZR6VD-PMWCN4-JH" [constraint=true]
+	"1RS160F0T-14XLZLL-27R" [label=Includes fontsize=20 shape=none]
+	"1RS160F0S-25QRFGK-27N" [label="3DES" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS160F0T-14XLZLL-27R" -> "1RS160F0S-25QRFGK-27N" [constraint=true]
+	"1RS1CMCS1-1SJHFK8-854" [label=Uses fontsize=20 shape=none]
+	"1RS0ZR6VD-PMWCN4-JH" [label="Cryptograhpic 
+Hashing" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1CMCS1-1SJHFK8-854" -> "1RS0ZR6VD-PMWCN4-JH" [constraint=true]
+	"1RS165GZS-DJ843W-2BD" [label=Includes fontsize=20 shape=none]
+	"1RS18B0SS-H7VHGP-3G3" [label="ECC: Similar 
+to RSA but 
+uses smaller 
+keys" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS165GZS-DJ843W-2BD" -> "1RS18B0SS-H7VHGP-3G3" [constraint=true]
+	"1RS0ZQTN6-J9DDNF-H9" [label=Includes fontsize=20 shape=none]
+	"1RS0ZQTN3-L1VG4M-H6" [label=Encryption fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS0ZQTN6-J9DDNF-H9" -> "1RS0ZQTN3-L1VG4M-H6" [constraint=true]
+	"1RS0ZQ738-1H13KCT-8D" [label=cryptography fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RS0ZQTN6-J9DDNF-H9" [label=Includes fontsize=20 shape=none]
+	"1RS0ZQ738-1H13KCT-8D" -> "1RS0ZQTN6-J9DDNF-H9" [constraint=true]
+	"1RS182FR2-1FP6SW3-35W" [label="MAC: Append 
+a code generated 
+from a symmetric 
+key to the 
+end of the 
+message so 
+that only 
+the recipient 
+can compute 
+the code" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1CKHH5-2FD4C2-824" [label=Uses fontsize=20 shape=none]
+	"1RS182FR2-1FP6SW3-35W" -> "1RS1CKHH5-2FD4C2-824" [constraint=true]
+	"1RS10N6RD-13PSL6F-VB" [label="Uses either
+" fontsize=20 shape=none]
+	"1RS10N6RC-29DCT4K-V7" [label="Symmetric 
+Encryption: 
+Encryption 
+that relies 
+on a shared 
+secret key 
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS10N6RD-13PSL6F-VB" -> "1RS10N6RC-29DCT4K-V7" [constraint=true]
+	"1RS165GZS-DJ843W-2BD" [label=Includes fontsize=20 shape=none]
+	"1RS1734Z5-1VP93R6-2F6" [label="Diffie Hellman: 
+Enables two 
+users to confidentially 
+generate a 
+shared secret 
+key" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS165GZS-DJ843W-2BD" -> "1RS1734Z5-1VP93R6-2F6" [constraint=true]
+	"1RS182FR2-1FP6SW3-35W" [label="MAC: Append 
+a code generated 
+from a symmetric 
+key to the 
+end of the 
+message so 
+that only 
+the recipient 
+can compute 
+the code" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1CMCS1-1SJHFK8-854" [label=Uses fontsize=20 shape=none]
+	"1RS182FR2-1FP6SW3-35W" -> "1RS1CMCS1-1SJHFK8-854" [constraint=true]
+	"1RS17RL8Q-TJGMV4-2X1" [label="Required to 
+be" fontsize=20 shape=none]
+	"1RS17RL8P-13HHZPD-2WY" [label="Pre-Image 
+Reistant: 
+Computationally 
+infeasible 
+to find x 
+such that 
+H(x) = h for 
+any hash code 
+h" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS17RL8Q-TJGMV4-2X1" -> "1RS17RL8P-13HHZPD-2WY" [constraint=true]
+	"1RS10V59W-1Z53VJ6-1C3" [label=Confidentiality fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1CHD34-1B60QFD-80F" [label=Uses fontsize=20 shape=none]
+	"1RS10V59W-1Z53VJ6-1C3" -> "1RS1CHD34-1B60QFD-80F" [constraint=true]
+	"1RS1CCCX2-YS4QDG-7LN" [label="Title: Cryptographic 
+Tools Slide 
+Set: #3 ID: 
+2461983" fillcolor=white fontsize=20 shape=rect style=filled]
+	statictics [label="STATISTICS
+\lBranch:		14\lNode:		23\lLinking Phrase:	14\lOrphan:		1\lLeaf Node:	14\lPreposition:	21\lSub Map:		1\lAvg Word Per Concept:	7.92\l" Gsplines=true fillcolor="#F5FFFA" fontsize=20 shape=component style=filled]
+	file_info [label="CMAP Information
+
+\lTitle:	CTAnonymous28.cmap\lCreated:	2020-12-07T07:57:23-05:00\lModified:	2020-12-07T07:57:23-05:00\lLanguage:	en\lFormat:	x-cmap/x-storable\lPublisher:	FIHMC CmapTools 6.04\lWidth:	1795\lHeight:	787\l" Gsplines=true fillcolor="#E6E6FA" fontsize=20 shape=tab style=filled]
+}

@@ -1,0 +1,393 @@
+// The Round Table
+digraph {
+	Student [label="Student: CTAnonymous21" fillcolor=gold fontsize=20 shape=component style=filled]
+	"1RS36XKXV-14L3BZ6-1D4" [label="Symmetric 
+Encryption" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS3777T7-1H9SQ0T-1Z7" [label="Works with
+" fontsize=20 shape=none]
+	"1RS36XKXV-14L3BZ6-1D4" -> "1RS3777T7-1H9SQ0T-1Z7" [constraint=true]
+	"1RS3777T7-3LB5QF-1Z4" [label=thesecomponents fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS37F9KT-1PYQ3S9-29F" [label=Transmitted fontsize=20 shape=none]
+	"1RS3777T7-3LB5QF-1Z4" -> "1RS37F9KT-1PYQ3S9-29F" [constraint=true]
+	"1RS38F4PB-2QKN2G-4DS" [label="common examples
+" fontsize=20 shape=none]
+	"1RS389QR7-1TX06HR-471" [label=TripleDES fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS38F4PB-2QKN2G-4DS" -> "1RS389QR7-1TX06HR-471" [constraint=true]
+	"1RS37LZ6D-1X0PJ20-2QL" [label="Work as" fontsize=20 shape=none]
+	"1RS37MF0B-1QR83DH-2RX" [label="Attacking 
+Symmetric 
+Encryption" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS37LZ6D-1X0PJ20-2QL" -> "1RS37MF0B-1QR83DH-2RX" [constraint=true]
+	"1RS38DJ9Q-1FW07QZ-4BP" [label="Common Algorithms
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS38F4PB-2QKN2G-4DS" [label="common examples
+" fontsize=20 shape=none]
+	"1RS38DJ9Q-1FW07QZ-4BP" -> "1RS38F4PB-2QKN2G-4DS" [constraint=true]
+	"1RS38NQNL-2C35NY9-4QP" [label="Requires public 
+key of sender.
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS38Q3HQ-1SHZG4G-4W5" [label="It provides 
+Authentication" fontsize=20 shape=none]
+	"1RS38NQNL-2C35NY9-4QP" -> "1RS38Q3HQ-1SHZG4G-4W5" [constraint=true]
+	"1RS38QQJF-3HN2C4-4YM" [label=provides fontsize=20 shape=none]
+	"1RS38QQJF-YZJK40-4YJ" [label="Message Authentication
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS38QQJF-3HN2C4-4YM" -> "1RS38QQJF-YZJK40-4YJ" [constraint=true]
+	"1RS37Y4Y7-1LZ68VZ-3DW" [label="Encryption 
+Mechanism" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS37ZVXW-2DR3M50-3JK" [label="Processes 
+block by block 
+data" fontsize=20 shape=none]
+	"1RS37Y4Y7-1LZ68VZ-3DW" -> "1RS37ZVXW-2DR3M50-3JK" [constraint=true]
+	"1RS38W2S9-1MWTV24-56Z" [label=applications fontsize=20 shape=none]
+	"1RS38X6GD-14CLZ69-5BJ" [label="Digital Envelope
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS38W2S9-1MWTV24-56Z" -> "1RS38X6GD-14CLZ69-5BJ" [constraint=true]
+	"1RS37Y4Y7-1LZ68VZ-3DW" [label="Encryption 
+Mechanism" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS380N2W-118BGHH-3LY" [label="processes 
+stream of 
+data" fontsize=20 shape=none]
+	"1RS37Y4Y7-1LZ68VZ-3DW" -> "1RS380N2W-118BGHH-3LY" [constraint=true]
+	"1RS37N8X0-43GTCX-2V4" [label="Cryptanalytic 
+Attack" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS37SK08-146V0JR-343" [label="if successful
+" fontsize=20 shape=none]
+	"1RS37N8X0-43GTCX-2V4" -> "1RS37SK08-146V0JR-343" [constraint=true]
+	"1RS37DDNX-1P651F-277" [label="uses Encryption 
+algorithm" fontsize=20 shape=none]
+	"1RS37DDNX-9MXCX-274" [label="Secret Key 
+used" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS37DDNX-1P651F-277" -> "1RS37DDNX-9MXCX-274" [constraint=true]
+	"1RS37SK08-146V0JR-343" [label="if successful
+" fontsize=20 shape=none]
+	"1RS37SK08-X11VN3-340" [label="Encryption 
+of all messages
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS37SK08-146V0JR-343" -> "1RS37SK08-X11VN3-340" [constraint=true]
+	"1RS36W3W5-286GS1M-1BN" [label="Encryption:Securing 
+Data" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS36YXGN-1KLYZZF-1HR" [label="2 keys used 
+for encryption
+" fontsize=20 shape=none]
+	"1RS36W3W5-286GS1M-1BN" -> "1RS36YXGN-1KLYZZF-1HR" [constraint=true]
+	"1RS37ZVXW-2DR3M50-3JK" [label="Processes 
+block by block 
+data" fontsize=20 shape=none]
+	"1RS37ZVXW-22PWC35-3JG" [label="Block Cipher
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS37ZVXW-2DR3M50-3JK" -> "1RS37ZVXW-22PWC35-3JG" [constraint=true]
+	"1RS38JH8J-18JNJF9-4KT" [label="RequiresPrivate 
+Key of receiver
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS38QQJF-3HN2C4-4YM" [label=provides fontsize=20 shape=none]
+	"1RS38JH8J-18JNJF9-4KT" -> "1RS38QQJF-3HN2C4-4YM" [constraint=true]
+	"1RS36XKXV-14L3BZ6-1D4" [label="Symmetric 
+Encryption" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS373ST6-NJWTK5-1V5" [label="also referred 
+as" fontsize=20 shape=none]
+	"1RS36XKXV-14L3BZ6-1D4" -> "1RS373ST6-NJWTK5-1V5" [constraint=true]
+	"1RS38W2S9-1MWTV24-56Z" [label=applications fontsize=20 shape=none]
+	"1RS38WN2L-RVV1JS-58Z" [label="Public Keycertificates
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS38W2S9-1MWTV24-56Z" -> "1RS38WN2L-RVV1JS-58Z" [constraint=true]
+	"1RS37S2W8-2077LDM-33B" [label="to prevent 
+Brute force
+" fontsize=20 shape=none]
+	"1RS37R0R1-29RQV8T-30V" [label="Strong Algorithms
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS37S2W8-2077LDM-33B" -> "1RS37R0R1-29RQV8T-30V" [constraint=true]
+	"1RS37LZ6D-1X0PJ20-2QL" [label="Work as" fontsize=20 shape=none]
+	"1RS373ST6-24D41YF-1V2" [label="Single keyEncryption
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS37LZ6D-1X0PJ20-2QL" -> "1RS373ST6-24D41YF-1V2" [constraint=true]
+	"1RS37G0VC-1SS1KMG-2C3" [label="Decryption 
+Algorithm" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS37JKQX-15G5BRB-2KG" [label=uses fontsize=20 shape=none]
+	"1RS37G0VC-1SS1KMG-2C3" -> "1RS37JKQX-15G5BRB-2KG" [constraint=true]
+	"1RS38F4PB-2QKN2G-4DS" [label="common examples
+" fontsize=20 shape=none]
+	"1RS38B0PZ-BFJQN3-47W" [label=AES fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS38F4PB-2QKN2G-4DS" -> "1RS38B0PZ-BFJQN3-47W" [constraint=true]
+	"1RS36YXGN-2YDMR9-1HN" [label="Assymetric 
+Encryption" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS38W2S9-1MWTV24-56Z" [label=applications fontsize=20 shape=none]
+	"1RS36YXGN-2YDMR9-1HN" -> "1RS38W2S9-1MWTV24-56Z" [constraint=true]
+	"1RS37G0VC-1KCNMC7-2C6" [label="" fontsize=20 shape=none]
+	"1RS37G0VC-1SS1KMG-2C3" [label="Decryption 
+Algorithm" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS37G0VC-1KCNMC7-2C6" -> "1RS37G0VC-1SS1KMG-2C3" [constraint=true]
+	"1RS36YXGN-2YDMR9-1HN" [label="Assymetric 
+Encryption" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS38HGRQ-27685D-4H7" [label="It uses two 
+keys" fontsize=20 shape=none]
+	"1RS36YXGN-2YDMR9-1HN" -> "1RS38HGRQ-27685D-4H7" [constraint=true]
+	"1RS386ZV5-26CPW0Q-3ZM" [label="processes 
+input continuouslyuses 
+pseudorandomkeys" fontsize=20 shape=none]
+	"1RS386ZV5-1Q2YPLP-3ZJ" [label=Fasterperformance fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS386ZV5-26CPW0Q-3ZM" -> "1RS386ZV5-1Q2YPLP-3ZJ" [constraint=true]
+	"1RS38DJ9Q-1W8FJX-4BS" [label=attacks fontsize=20 shape=none]
+	"1RS38DJ9Q-1FW07QZ-4BP" [label="Common Algorithms
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS38DJ9Q-1W8FJX-4BS" -> "1RS38DJ9Q-1FW07QZ-4BP" [constraint=true]
+	"1RS37PHDT-1HNWDPD-2XW" [label="Brute Force 
+Attack" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS37S2W8-2077LDM-33B" [label="to prevent 
+Brute force
+" fontsize=20 shape=none]
+	"1RS37PHDT-1HNWDPD-2XW" -> "1RS37S2W8-2077LDM-33B" [constraint=true]
+	"1RS38HGRQ-11VTS95-4H4" [label="Public key
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS38JH8J-14LTDRW-4KX" [label="Sender can 
+encrypt withreceiver's 
+pubic Key.
+" fontsize=20 shape=none]
+	"1RS38HGRQ-11VTS95-4H4" -> "1RS38JH8J-14LTDRW-4KX" [constraint=true]
+	"1RS36W3W5-286GS1M-1BN" [label="Encryption:Securing 
+Data" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS370J9J-255H8RN-1LK" [label=means fontsize=20 shape=none]
+	"1RS36W3W5-286GS1M-1BN" -> "1RS370J9J-255H8RN-1LK" [constraint=true]
+	"1RS36XKXV-14L3BZ6-1D4" [label="Symmetric 
+Encryption" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS37Y4Y7-GPD1R1-3DZ" [label="can be implemented
+" fontsize=20 shape=none]
+	"1RS36XKXV-14L3BZ6-1D4" -> "1RS37Y4Y7-GPD1R1-3DZ" [constraint=true]
+	"1RS37ZVXW-22PWC35-3JG" [label="Block Cipher
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS384645-2B5JB2V-3W1" [label="one input 
+one at one 
+time" fontsize=20 shape=none]
+	"1RS37ZVXW-22PWC35-3JG" -> "1RS384645-2B5JB2V-3W1" [constraint=true]
+	"1RS38S0ND-27RSVYF-52D" [label="Can be used 
+to block ofany 
+size" fontsize=20 shape=none]
+	"1RS38S0ND-1YKSG53-529" [label="Infeasible 
+to calculate 
+Input fromoutput
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS38S0ND-27RSVYF-52D" -> "1RS38S0ND-1YKSG53-529" [constraint=true]
+	"1RS3777T7-3LB5QF-1Z4" [label=thesecomponents fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS37994G-1550BSW-23P" [label="First Step
+" fontsize=20 shape=none]
+	"1RS3777T7-3LB5QF-1Z4" -> "1RS37994G-1550BSW-23P" [constraint=true]
+	"1RS37F9KT-1PYQ3S9-29F" [label=Transmitted fontsize=20 shape=none]
+	"1RS37F9KT-16D659Q-29B" [label="Cipher text
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS37F9KT-1PYQ3S9-29F" -> "1RS37F9KT-16D659Q-29B" [constraint=true]
+	"1RS37JKQX-1YMPBG8-2KC" [label="Same Secretkey
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS37JZ7J-KGKFG5-2LY" [label=gives fontsize=20 shape=none]
+	"1RS37JKQX-1YMPBG8-2KC" -> "1RS37JZ7J-KGKFG5-2LY" [constraint=true]
+	"1RS380N2W-LVZW40-3LV" [label="Stream Cipher
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS386ZV5-26CPW0Q-3ZM" [label="processes 
+input continuouslyuses 
+pseudorandomkeys" fontsize=20 shape=none]
+	"1RS380N2W-LVZW40-3LV" -> "1RS386ZV5-26CPW0Q-3ZM" [constraint=true]
+	"1RS36W3W5-286GS1M-1BN" [label="Encryption:Securing 
+Data" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS36XKXV-11S3YL5-1D7" [label="use of single 
+key for encryption 
+" fontsize=20 shape=none]
+	"1RS36W3W5-286GS1M-1BN" -> "1RS36XKXV-11S3YL5-1D7" [constraint=true]
+	"1RS37N8X0-43GTCX-2V4" [label="Cryptanalytic 
+Attack" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS37R0R1-1BS00YX-30Y" [label="can be mitigated 
+with" fontsize=20 shape=none]
+	"1RS37N8X0-43GTCX-2V4" -> "1RS37R0R1-1BS00YX-30Y" [constraint=true]
+	"1RS38NQNL-1B6J0GT-4QS" [label="Sender encrypts 
+with their 
+private key
+" fontsize=20 shape=none]
+	"1RS38NQNL-2C35NY9-4QP" [label="Requires public 
+key of sender.
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS38NQNL-1B6J0GT-4QS" -> "1RS38NQNL-2C35NY9-4QP" [constraint=true]
+	"1RS38HZL4-29V9R8-4JW" [label="Private Key
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS38NQNL-1B6J0GT-4QS" [label="Sender encrypts 
+with their 
+private key
+" fontsize=20 shape=none]
+	"1RS38HZL4-29V9R8-4JW" -> "1RS38NQNL-1B6J0GT-4QS" [constraint=true]
+	"1RS380N2W-118BGHH-3LY" [label="processes 
+stream of 
+data" fontsize=20 shape=none]
+	"1RS380N2W-LVZW40-3LV" [label="Stream Cipher
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS380N2W-118BGHH-3LY" -> "1RS380N2W-LVZW40-3LV" [constraint=true]
+	"1RS38Q3HQ-1SHZG4G-4W5" [label="It provides 
+Authentication" fontsize=20 shape=none]
+	"1RS38Q3HQ-11T2PM3-4W2" [label="Digital Signature
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS38Q3HQ-1SHZG4G-4W5" -> "1RS38Q3HQ-11T2PM3-4W2" [constraint=true]
+	"1RS37JKQX-15G5BRB-2KG" [label=uses fontsize=20 shape=none]
+	"1RS37JKQX-1YMPBG8-2KC" [label="Same Secretkey
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS37JKQX-15G5BRB-2KG" -> "1RS37JKQX-1YMPBG8-2KC" [constraint=true]
+	"1RS3777T7-3LB5QF-1Z4" [label=thesecomponents fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS37G0VC-1KCNMC7-2C6" [label="" fontsize=20 shape=none]
+	"1RS3777T7-3LB5QF-1Z4" -> "1RS37G0VC-1KCNMC7-2C6" [constraint=true]
+	"1RS38R969-FPPVZ5-50R" [label=Uses fontsize=20 shape=none]
+	"1RS38R969-232B2RC-50N" [label="Secure Hash 
+Function" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS38R969-FPPVZ5-50R" -> "1RS38R969-232B2RC-50N" [constraint=true]
+	"1RS38HGRQ-27685D-4H7" [label="It uses two 
+keys" fontsize=20 shape=none]
+	"1RS38HGRQ-11VTS95-4H4" [label="Public key
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS38HGRQ-27685D-4H7" -> "1RS38HGRQ-11VTS95-4H4" [constraint=true]
+	"1RS38JH8J-14LTDRW-4KX" [label="Sender can 
+encrypt withreceiver's 
+pubic Key.
+" fontsize=20 shape=none]
+	"1RS38JH8J-18JNJF9-4KT" [label="RequiresPrivate 
+Key of receiver
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS38JH8J-14LTDRW-4KX" -> "1RS38JH8J-18JNJF9-4KT" [constraint=true]
+	"1RS373ST6-24D41YF-1V2" [label="Single keyEncryption
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS37KL7R-PRWNNH-2NP" [label=follows fontsize=20 shape=none]
+	"1RS373ST6-24D41YF-1V2" -> "1RS37KL7R-PRWNNH-2NP" [constraint=true]
+	"1RS37JZ7J-KGKFG5-2LY" [label=gives fontsize=20 shape=none]
+	"1RS37JZ7J-P12Q71-2LV" [label="The originalplain 
+text" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS37JZ7J-KGKFG5-2LY" -> "1RS37JZ7J-P12Q71-2LV" [constraint=true]
+	"1RS37GVL7-ZN0QRR-2FV" [label="other party 
+gets it" fontsize=20 shape=none]
+	"1RS37G0VC-1SS1KMG-2C3" [label="Decryption 
+Algorithm" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS37GVL7-ZN0QRR-2FV" -> "1RS37G0VC-1SS1KMG-2C3" [constraint=true]
+	"1RS3777T7-3LB5QF-1Z4" [label=thesecomponents fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS37DDNX-1P651F-277" [label="uses Encryption 
+algorithm" fontsize=20 shape=none]
+	"1RS3777T7-3LB5QF-1Z4" -> "1RS37DDNX-1P651F-277" [constraint=true]
+	"1RS36YXGN-1KLYZZF-1HR" [label="2 keys used 
+for encryption
+" fontsize=20 shape=none]
+	"1RS36YXGN-2YDMR9-1HN" [label="Assymetric 
+Encryption" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS36YXGN-1KLYZZF-1HR" -> "1RS36YXGN-2YDMR9-1HN" [constraint=true]
+	"1RS38W2S9-1MWTV24-56Z" [label=applications fontsize=20 shape=none]
+	"1RS38W2S9-1W7YD0G-56W" [label="Digital Signature
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS38W2S9-1MWTV24-56Z" -> "1RS38W2S9-1W7YD0G-56W" [constraint=true]
+	"1RS38HGRQ-27685D-4H7" [label="It uses two 
+keys" fontsize=20 shape=none]
+	"1RS38HZL4-29V9R8-4JW" [label="Private Key
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS38HGRQ-27685D-4H7" -> "1RS38HZL4-29V9R8-4JW" [constraint=true]
+	"1RS37PHDT-1GRCL4C-2XZ" [label="use of power 
+of computation
+" fontsize=20 shape=none]
+	"1RS37PHDT-1HNWDPD-2XW" [label="Brute Force 
+Attack" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS37PHDT-1GRCL4C-2XZ" -> "1RS37PHDT-1HNWDPD-2XW" [constraint=true]
+	"1RS37N8X0-43GTCX-2V4" [label="Cryptanalytic 
+Attack" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS38DJ9Q-1W8FJX-4BS" [label=attacks fontsize=20 shape=none]
+	"1RS37N8X0-43GTCX-2V4" -> "1RS38DJ9Q-1W8FJX-4BS" [constraint=true]
+	"1RS3777T7-1H9SQ0T-1Z7" [label="Works with
+" fontsize=20 shape=none]
+	"1RS3777T7-3LB5QF-1Z4" [label=thesecomponents fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS3777T7-1H9SQ0T-1Z7" -> "1RS3777T7-3LB5QF-1Z4" [constraint=true]
+	"1RS37LCFR-1R5N0VN-2PT" [label="Attack on" fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RS37LZ6D-1X0PJ20-2QL" [label="Work as" fontsize=20 shape=none]
+	"1RS37LCFR-1R5N0VN-2PT" -> "1RS37LZ6D-1X0PJ20-2QL" [constraint=true]
+	"1RS37MF0B-1QR83DH-2RX" [label="Attacking 
+Symmetric 
+Encryption" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS37PHDT-1GRCL4C-2XZ" [label="use of power 
+of computation
+" fontsize=20 shape=none]
+	"1RS37MF0B-1QR83DH-2RX" -> "1RS37PHDT-1GRCL4C-2XZ" [constraint=true]
+	"1RS37F9KT-16D659Q-29B" [label="Cipher text
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS37GVL7-ZN0QRR-2FV" [label="other party 
+gets it" fontsize=20 shape=none]
+	"1RS37F9KT-16D659Q-29B" -> "1RS37GVL7-ZN0QRR-2FV" [constraint=true]
+	"1RS37KL7R-PRWNNH-2NP" [label=follows fontsize=20 shape=none]
+	"1RS3777T7-3LB5QF-1Z4" [label=thesecomponents fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS37KL7R-PRWNNH-2NP" -> "1RS3777T7-3LB5QF-1Z4" [constraint=true]
+	"1RS373ST6-NJWTK5-1V5" [label="also referred 
+as" fontsize=20 shape=none]
+	"1RS373ST6-24D41YF-1V2" [label="Single keyEncryption
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS373ST6-NJWTK5-1V5" -> "1RS373ST6-24D41YF-1V2" [constraint=true]
+	"1RS37Y4Y7-GPD1R1-3DZ" [label="can be implemented
+" fontsize=20 shape=none]
+	"1RS37Y4Y7-1LZ68VZ-3DW" [label="Encryption 
+Mechanism" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS37Y4Y7-GPD1R1-3DZ" -> "1RS37Y4Y7-1LZ68VZ-3DW" [constraint=true]
+	"1RS37MF0B-1QR83DH-2RX" [label="Attacking 
+Symmetric 
+Encryption" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS37N8XH-Y6GH1P-2V7" [label="decoding the 
+algorithm" fontsize=20 shape=none]
+	"1RS37MF0B-1QR83DH-2RX" -> "1RS37N8XH-Y6GH1P-2V7" [constraint=true]
+	"1RS38QQJF-YZJK40-4YJ" [label="Message Authentication
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS38R969-FPPVZ5-50R" [label=Uses fontsize=20 shape=none]
+	"1RS38QQJF-YZJK40-4YJ" -> "1RS38R969-FPPVZ5-50R" [constraint=true]
+	"1RS37R0R1-1BS00YX-30Y" [label="can be mitigated 
+with" fontsize=20 shape=none]
+	"1RS37R0R1-29RQV8T-30V" [label="Strong Algorithms
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS37R0R1-1BS00YX-30Y" -> "1RS37R0R1-29RQV8T-30V" [constraint=true]
+	"1RS37994G-1550BSW-23P" [label="First Step
+" fontsize=20 shape=none]
+	"1RS37994G-LDGMZ5-23L" [label="Plain Text
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS37994G-1550BSW-23P" -> "1RS37994G-LDGMZ5-23L" [constraint=true]
+	"1RS38R969-232B2RC-50N" [label="Secure Hash 
+Function" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS38S0ND-27RSVYF-52D" [label="Can be used 
+to block ofany 
+size" fontsize=20 shape=none]
+	"1RS38R969-232B2RC-50N" -> "1RS38S0ND-27RSVYF-52D" [constraint=true]
+	"1RS370J9J-255H8RN-1LK" [label=means fontsize=20 shape=none]
+	"1RS370J9J-NM0PW6-1LG" [label="The process 
+of encoding 
+thedata with 
+certain value 
+thatit can 
+only be meaningful 
+to only the 
+desired party.
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS370J9J-255H8RN-1LK" -> "1RS370J9J-NM0PW6-1LG" [constraint=true]
+	"1RS38F4PB-2QKN2G-4DS" [label="common examples
+" fontsize=20 shape=none]
+	"1RS389C1V-MKX9RH-45T" [label=DES fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS38F4PB-2QKN2G-4DS" -> "1RS389C1V-MKX9RH-45T" [constraint=true]
+	"1RS36XKXV-11S3YL5-1D7" [label="use of single 
+key for encryption 
+" fontsize=20 shape=none]
+	"1RS36XKXV-14L3BZ6-1D4" [label="Symmetric 
+Encryption" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS36XKXV-11S3YL5-1D7" -> "1RS36XKXV-14L3BZ6-1D4" [constraint=true]
+	"1RS384645-2B5JB2V-3W1" [label="one input 
+one at one 
+time" fontsize=20 shape=none]
+	"1RS384645-26S044J-3VY" [label="Reuse of Keys
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS384645-2B5JB2V-3W1" -> "1RS384645-26S044J-3VY" [constraint=true]
+	"1RS37N8XH-Y6GH1P-2V7" [label="decoding the 
+algorithm" fontsize=20 shape=none]
+	"1RS37N8X0-43GTCX-2V4" [label="Cryptanalytic 
+Attack" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS37N8XH-Y6GH1P-2V7" -> "1RS37N8X0-43GTCX-2V4" [constraint=true]
+	"1RS38Y69K-1JMP0ZQ-5DQ" [label="Student : 
+2463831" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS37HYX8-252Z84B-2HV" [label="Used for decipheringthe 
+message" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS36S20M-1D64VNK-131" [label="Slide 3 : 
+Cryptograhic 
+Tools" fillcolor=white fontsize=20 shape=rect style=filled]
+	statictics [label="STATISTICS
+\lBranch:		16\lNode:		38\lLinking Phrase:	34\lOrphan:		3\lLeaf Node:	16\lPreposition:	35\lSub Map:		2\lAvg Word Per Concept:	1.05\l" Gsplines=true fillcolor="#F5FFFA" fontsize=20 shape=component style=filled]
+	file_info [label="CMAP Information
+
+\lTitle:	CTAnonymous21.cmap\lCreated:	2020-12-07T07:56:28-05:00\lModified:	2020-12-07T07:56:28-05:00\lLanguage:	en\lFormat:	x-cmap/x-storable\lPublisher:	FIHMC CmapTools 6.04\lWidth:	1845\lHeight:	1024\l" Gsplines=true fillcolor="#E6E6FA" fontsize=20 shape=tab style=filled]
+}

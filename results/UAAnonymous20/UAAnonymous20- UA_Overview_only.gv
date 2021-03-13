@@ -1,0 +1,138 @@
+// The Round Table
+digraph {
+	Student [label="Student: UAAnonymous20" fillcolor=gold fontsize=20 shape=component style=filled]
+	"1RRBJFT63-TQNYSP-1YQ" [label="Something 
+theindividual 
+does (dynamic 
+biometrics)" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRBMY0WK-1SYTDP1-2LR" [label=Examples fontsize=20 shape=none]
+	"1RRBJFT63-TQNYSP-1YQ" -> "1RRBMY0WK-1SYTDP1-2LR" [constraint=true]
+	"1RRBGZ0R2-1RRMJLN-HM" [label="User Authentication
+" fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RRBJC4Q4-HWYCVY-1QG" [label="Types of authentication
+" fontsize=20 shape=none]
+	"1RRBGZ0R2-1RRMJLN-HM" -> "1RRBJC4Q4-HWYCVY-1QG" [constraint=true]
+	"1RRBMWQS3-1SL4C7R-2DR" [label=Examples fontsize=20 shape=none]
+	"1RRBMWQS3-28F80HW-2DN" [label="Physical keys
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRBMWQS3-1SL4C7R-2DR" -> "1RRBMWQS3-28F80HW-2DN" [constraint=true]
+	"1RRBMX8L8-1D31J1L-2GF" [label=Examples fontsize=20 shape=none]
+	"1RRBMX8L8-1DPS38S-2GB" [label=Passwords fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRBMX8L8-1D31J1L-2GF" -> "1RRBMX8L8-1DPS38S-2GB" [constraint=true]
+	"1RRBN2SYS-1J5G7TT-35L" [label=Countermeasures fontsize=20 shape=none]
+	"1RRBN4G0F-26K25QS-3CP" [label="password policies
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRBN2SYS-1J5G7TT-35L" -> "1RRBN4G0F-26K25QS-3CP" [constraint=true]
+	"1RRBJ3LXN-2BT16SP-X7" [label=Steps fontsize=20 shape=none]
+	"1RRBJ3LXN-WRDLGL-X4" [label="Identification 
+step: Presenting 
+an identifier 
+to thesecurity 
+system" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRBJ3LXN-2BT16SP-X7" -> "1RRBJ3LXN-WRDLGL-X4" [constraint=true]
+	"1RRBN11RB-1HJH8M6-2ZF" [label=Vulnerabilities fontsize=20 shape=none]
+	"1RRBN23R0-19GSMH1-31L" [label="Password guessing
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRBN11RB-1HJH8M6-2ZF" -> "1RRBN23R0-19GSMH1-31L" [constraint=true]
+	"1RRBJC4PM-L4HB21-1QC" [label="Something 
+theindividual 
+knows" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRBMX8L8-1D31J1L-2GF" [label=Examples fontsize=20 shape=none]
+	"1RRBJC4PM-L4HB21-1QC" -> "1RRBMX8L8-1D31J1L-2GF" [constraint=true]
+	"1RRBMY0WK-1SYTDP1-2LR" [label=Examples fontsize=20 shape=none]
+	"1RRBMYW93-1T7H9F-2NS" [label="Voice recognition
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRBMY0WK-1SYTDP1-2LR" -> "1RRBMYW93-1T7H9F-2NS" [constraint=true]
+	"1RRBJGQW6-1B26L55-21Y" [label=Examples fontsize=20 shape=none]
+	"1RRBMW8V4-X9M08Y-2CL" [label="Face scanning
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRBJGQW6-1B26L55-21Y" -> "1RRBMW8V4-X9M08Y-2CL" [constraint=true]
+	"1RRBJD6TV-3DGRB7-1TR" [label="Something 
+theindividual 
+has" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRBMWQS3-1SL4C7R-2DR" [label=Examples fontsize=20 shape=none]
+	"1RRBJD6TV-3DGRB7-1TR" -> "1RRBMWQS3-1SL4C7R-2DR" [constraint=true]
+	"1RRBJC4Q4-HWYCVY-1QG" [label="Types of authentication
+" fontsize=20 shape=none]
+	"1RRBJD6TV-3DGRB7-1TR" [label="Something 
+theindividual 
+has" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRBJC4Q4-HWYCVY-1QG" -> "1RRBJD6TV-3DGRB7-1TR" [constraint=true]
+	"1RRBJC4Q4-HWYCVY-1QG" [label="Types of authentication
+" fontsize=20 shape=none]
+	"1RRBJC4PM-L4HB21-1QC" [label="Something 
+theindividual 
+knows" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRBJC4Q4-HWYCVY-1QG" -> "1RRBJC4PM-L4HB21-1QC" [constraint=true]
+	"1RRBN11RB-1HJH8M6-2ZF" [label=Vulnerabilities fontsize=20 shape=none]
+	"1RRBN11RB-S46ZZ3-2ZB" [label="Offline dictionary 
+attack" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRBN11RB-1HJH8M6-2ZF" -> "1RRBN11RB-S46ZZ3-2ZB" [constraint=true]
+	"1RRBMY0WK-1SYTDP1-2LR" [label=Examples fontsize=20 shape=none]
+	"1RRBMY0WK-778WPL-2LN" [label="Signatures 
+(handwriting)" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRBMY0WK-1SYTDP1-2LR" -> "1RRBMY0WK-778WPL-2LN" [constraint=true]
+	"1RRBMX8L8-1DPS38S-2GB" [label=Passwords fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRBN2SYS-1J5G7TT-35L" [label=Countermeasures fontsize=20 shape=none]
+	"1RRBMX8L8-1DPS38S-2GB" -> "1RRBN2SYS-1J5G7TT-35L" [constraint=true]
+	"1RRBMX8L8-1D31J1L-2GF" [label=Examples fontsize=20 shape=none]
+	"1RRBMZNQ5-B5WJ9V-2TT" [label="Answers to 
+predefinedquestions" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRBMX8L8-1D31J1L-2GF" -> "1RRBMZNQ5-B5WJ9V-2TT" [constraint=true]
+	"1RRBJGQW6-1B26L55-21Y" [label=Examples fontsize=20 shape=none]
+	"1RRBJGQW6-WQYDVM-21V" [label="fingerprint 
+reading" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRBJGQW6-1B26L55-21Y" -> "1RRBJGQW6-WQYDVM-21V" [constraint=true]
+	"1RRBN2SYS-1J5G7TT-35L" [label=Countermeasures fontsize=20 shape=none]
+	"1RRBN3QPX-12DFTS3-3B9" [label="Protecting 
+password file
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRBN2SYS-1J5G7TT-35L" -> "1RRBN3QPX-12DFTS3-3B9" [constraint=true]
+	"1RRBJC4Q4-HWYCVY-1QG" [label="Types of authentication
+" fontsize=20 shape=none]
+	"1RRBJFT63-TQNYSP-1YQ" [label="Something 
+theindividual 
+does (dynamic 
+biometrics)" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRBJC4Q4-HWYCVY-1QG" -> "1RRBJFT63-TQNYSP-1YQ" [constraint=true]
+	"1RRBN2SYS-1J5G7TT-35L" [label=Countermeasures fontsize=20 shape=none]
+	"1RRBN2SYS-1522J5T-35H" [label=Salting fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRBN2SYS-1J5G7TT-35L" -> "1RRBN2SYS-1522J5T-35H" [constraint=true]
+	"1RRBGZ0R2-1RRMJLN-HM" [label="User Authentication
+" fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RRBJ3LXN-2BT16SP-X7" [label=Steps fontsize=20 shape=none]
+	"1RRBGZ0R2-1RRMJLN-HM" -> "1RRBJ3LXN-2BT16SP-X7" [constraint=true]
+	"1RRBJDX3M-R2ZZ2R-1W9" [label="Something 
+theindividual 
+is(static 
+biometrics)" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRBJGQW6-1B26L55-21Y" [label=Examples fontsize=20 shape=none]
+	"1RRBJDX3M-R2ZZ2R-1W9" -> "1RRBJGQW6-1B26L55-21Y" [constraint=true]
+	"1RRBJC4Q4-HWYCVY-1QG" [label="Types of authentication
+" fontsize=20 shape=none]
+	"1RRBJDX3M-R2ZZ2R-1W9" [label="Something 
+theindividual 
+is(static 
+biometrics)" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRBJC4Q4-HWYCVY-1QG" -> "1RRBJDX3M-R2ZZ2R-1W9" [constraint=true]
+	"1RRBMX8L8-1DPS38S-2GB" [label=Passwords fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRBN11RB-1HJH8M6-2ZF" [label=Vulnerabilities fontsize=20 shape=none]
+	"1RRBMX8L8-1DPS38S-2GB" -> "1RRBN11RB-1HJH8M6-2ZF" [constraint=true]
+	"1RRBMWQS3-1SL4C7R-2DR" [label=Examples fontsize=20 shape=none]
+	"1RRBMZB41-1QHBHNH-2SR" [label=Smartcard fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRBMWQS3-1SL4C7R-2DR" -> "1RRBMZB41-1QHBHNH-2SR" [constraint=true]
+	"1RRBJ3LXN-2BT16SP-X7" [label=Steps fontsize=20 shape=none]
+	"1RRBJ5ZKX-1KK5SQP-13L" [label="Verification 
+step: Presenting 
+authenticationinformation 
+that binds 
+theentity 
+and the identifier
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRBJ3LXN-2BT16SP-X7" -> "1RRBJ5ZKX-1KK5SQP-13L" [constraint=true]
+	statictics [label="STATISTICS
+\lBranch:		14\lNode:		20\lLinking Phrase:	8\lOrphan:		0\lLeaf Node:	14\lPreposition:	19\lSub Map:		1\lAvg Word Per Concept:	1.25\l" Gsplines=true fillcolor="#F5FFFA" fontsize=20 shape=component style=filled]
+	file_info [label="CMAP Information
+
+\lTitle:	UAAnonymous20.cmap\lCreated:	2020-12-07T07:50:29-05:00\lModified:	2020-12-07T07:50:29-05:00\lLanguage:	en\lFormat:	x-cmap/x-storable\lPublisher:	FIHMC CmapTools 6.04\lWidth:	1230\lHeight:	612\l" Gsplines=true fillcolor="#E6E6FA" fontsize=20 shape=tab style=filled]
+}

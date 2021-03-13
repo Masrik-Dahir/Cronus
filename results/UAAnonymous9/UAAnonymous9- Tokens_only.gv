@@ -1,0 +1,255 @@
+// The Round Table
+digraph {
+	Student [label="Student: UAAnonymous9" fillcolor=gold shape=component style=filled]
+	"1RRCTY0ZH-12TSVSF-4TJ" [label=like shape=none]
+	"1RRCTY0ZD-88DTY9-4TF" [label="Voice (uniqueness 
+of voices)
+" fillcolor=white shape=rect style=filled]
+	"1RRCTY0ZH-12TSVSF-4TJ" -> "1RRCTY0ZD-88DTY9-4TF" [constraint=true]
+	"1RRCRZ775-1G7FR6Q-1XG" [label="Password cracking
+" fillcolor=white shape=rect style=filled]
+	"1RRCS50YT-22X42NS-28J" [label="ameliorated 
+by" shape=none]
+	"1RRCRZ775-1G7FR6Q-1XG" -> "1RRCS50YT-22X42NS-28J" [constraint=true]
+	"1RRCTM8T6-1PZW3NK-3X0" [label=like shape=none]
+	"1RRCTN688-14HP446-415" [label="Magnetic strip 
+card:passive 
+information 
+in strip" fillcolor=white shape=rect style=filled]
+	"1RRCTM8T6-1PZW3NK-3X0" -> "1RRCTN688-14HP446-415" [constraint=true]
+	"1RRCTLRW8-1Z3ZZ85-3VR" [label="implemented 
+by" shape=none]
+	"1RRCTL7HX-5G2JT5-3TT" [label=Keycard fillcolor=white shape=rect style=filled]
+	"1RRCTLRW8-1Z3ZZ85-3VR" -> "1RRCTL7HX-5G2JT5-3TT" [constraint=true]
+	"1RRCSFHM2-1PRPF9C-2WL" [label="vulnerable 
+to" shape=none]
+	"1RRCS5Y8D-26CG6H6-29W" [label="Token theft
+" fillcolor=white shape=rect style=filled]
+	"1RRCSFHM2-1PRPF9C-2WL" -> "1RRCS5Y8D-26CG6H6-29W" [constraint=true]
+	"1RRCV4JGL-1GRZZ39-56L" [label="which vary 
+greatly in
+" shape=none]
+	"1RRCV3GHZ-J5J6QC-54Y" [label="cost and accuracy
+" fillcolor=white shape=rect style=filled]
+	"1RRCV4JGL-1GRZZ39-56L" -> "1RRCV3GHZ-J5J6QC-54Y" [constraint=true]
+	"1RRCRM0Y6-1PC0NNX-1H1" [label="which depend 
+on" shape=none]
+	"1RRCRH0J7-260ZV3V-12J" [label="Something 
+the individual 
+possesses 
+(e.g. keycard)
+" fillcolor=white shape=rect style=filled]
+	"1RRCRM0Y6-1PC0NNX-1H1" -> "1RRCRH0J7-260ZV3V-12J" [constraint=true]
+	"1RRCRRXFZ-278VYD3-1PZ" [label="which exhibit
+" shape=none]
+	"1RRCRQC79-22186X5-1NB" [label=Vulneratbilities fillcolor=white shape=rect style=filled]
+	"1RRCRRXFZ-278VYD3-1PZ" -> "1RRCRQC79-22186X5-1NB" [constraint=true]
+	"1RRCR7NLQ-9F2BW9-HG" [label="User authentication
+" fillcolor=white shape=doubleoctagon style=filled]
+	"1RRCRKVLC-3VQQT8-1DL" [label="Accomplished 
+by" shape=none]
+	"1RRCR7NLQ-9F2BW9-HG" -> "1RRCRKVLC-3VQQT8-1DL" [constraint=true]
+	"1RRCRH0J7-260ZV3V-12J" [label="Something 
+the individual 
+possesses 
+(e.g. keycard)
+" fillcolor=white shape=rect style=filled]
+	"1RRCSFHM2-1PRPF9C-2WL" [label="vulnerable 
+to" shape=none]
+	"1RRCRH0J7-260ZV3V-12J" -> "1RRCSFHM2-1PRPF9C-2WL" [constraint=true]
+	"1RRCTW9B6-GQK7NW-4QZ" [label="vulnerable 
+to" shape=none]
+	"1RRCS6CJD-1TFQ9BV-2BD" [label=Impersonation fillcolor=white shape=rect style=filled]
+	"1RRCTW9B6-GQK7NW-4QZ" -> "1RRCS6CJD-1TFQ9BV-2BD" [constraint=true]
+	"1RRCRJYMM-1W6F8ZR-1CN" [label="Four methods
+" fillcolor=white shape=rect style=filled]
+	"1RRCRM0Y6-1PC0NNX-1H1" [label="which depend 
+on" shape=none]
+	"1RRCRJYMM-1W6F8ZR-1CN" -> "1RRCRM0Y6-1PC0NNX-1H1" [constraint=true]
+	"1RRCRQC79-22186X5-1NB" [label=Vulneratbilities fillcolor=white shape=rect style=filled]
+	"1RRCRXS5J-2DM754T-1VN" [label="which can 
+be protected 
+against by
+" shape=none]
+	"1RRCRQC79-22186X5-1NB" -> "1RRCRXS5J-2DM754T-1VN" [constraint=true]
+	"1RRCRH80Q-WWNDKL-13S" [label="Something 
+the individual 
+is" fillcolor=white shape=rect style=filled]
+	"1RRCV2D3W-LMZP52-52W" [label=like shape=none]
+	"1RRCRH80Q-WWNDKL-13S" -> "1RRCV2D3W-LMZP52-52W" [constraint=true]
+	"1RRCV0WCJ-Y0HKQ7-501" [label="Iris scan" fillcolor=white shape=rect style=filled]
+	"1RRCV4JGL-1GRZZ39-56L" [label="which vary 
+greatly in
+" shape=none]
+	"1RRCV0WCJ-Y0HKQ7-501" -> "1RRCV4JGL-1GRZZ39-56L" [constraint=true]
+	"1RRCTM8T6-1PZW3NK-3X0" [label=like shape=none]
+	"1RRCTNDYZ-1HZ2708-41Y" [label="Memory card:passive 
+information(more 
+than strip)
+" fillcolor=white shape=rect style=filled]
+	"1RRCTM8T6-1PZW3NK-3X0" -> "1RRCTNDYZ-1HZ2708-41Y" [constraint=true]
+	"1RRCRH0J7-260ZV3V-12J" [label="Something 
+the individual 
+possesses 
+(e.g. keycard)
+" fillcolor=white shape=rect style=filled]
+	"1RRCTLRW8-1Z3ZZ85-3VR" [label="implemented 
+by" shape=none]
+	"1RRCRH0J7-260ZV3V-12J" -> "1RRCTLRW8-1Z3ZZ85-3VR" [constraint=true]
+	"1RRCRHTBP-16R7T1J-17Q" [label="Something 
+the individual 
+does" fillcolor=white shape=rect style=filled]
+	"1RRCTW9B6-GQK7NW-4QZ" [label="vulnerable 
+to" shape=none]
+	"1RRCRHTBP-16R7T1J-17Q" -> "1RRCTW9B6-GQK7NW-4QZ" [constraint=true]
+	"1RRCRJYMM-1W6F8ZR-1CN" [label="Four methods
+" fillcolor=white shape=rect style=filled]
+	"1RRCRRXFZ-278VYD3-1PZ" [label="which exhibit
+" shape=none]
+	"1RRCRJYMM-1W6F8ZR-1CN" -> "1RRCRRXFZ-278VYD3-1PZ" [constraint=true]
+	"1RRCTDN4V-1SNCXTQ-3H3" [label=like shape=none]
+	"1RRCRZ775-1G7FR6Q-1XG" [label="Password cracking
+" fillcolor=white shape=rect style=filled]
+	"1RRCTDN4V-1SNCXTQ-3H3" -> "1RRCRZ775-1G7FR6Q-1XG" [constraint=true]
+	"1RRCV2D3W-LMZP52-52W" [label=like shape=none]
+	"1RRCV0WCJ-Y0HKQ7-501" [label="Iris scan" fillcolor=white shape=rect style=filled]
+	"1RRCV2D3W-LMZP52-52W" -> "1RRCV0WCJ-Y0HKQ7-501" [constraint=true]
+	"1RRCRH80Q-WWNDKL-13S" [label="Something 
+the individual 
+is" fillcolor=white shape=rect style=filled]
+	"1RRCTW9B6-GQK7NW-4QZ" [label="vulnerable 
+to" shape=none]
+	"1RRCRH80Q-WWNDKL-13S" -> "1RRCTW9B6-GQK7NW-4QZ" [constraint=true]
+	"1RRCRQN9X-DW4ZWY-1P2" [label=Countermeasures fillcolor=white shape=rect style=filled]
+	"1RRCTDR10-1WNKGPJ-3HR" [label=like shape=none]
+	"1RRCRQN9X-DW4ZWY-1P2" -> "1RRCTDR10-1WNKGPJ-3HR" [constraint=true]
+	"1RRCRXS5J-2DM754T-1VN" [label="which can 
+be protected 
+against by
+" shape=none]
+	"1RRCRQN9X-DW4ZWY-1P2" [label=Countermeasures fillcolor=white shape=rect style=filled]
+	"1RRCRXS5J-2DM754T-1VN" -> "1RRCRQN9X-DW4ZWY-1P2" [constraint=true]
+	"1RRCS50YT-22X42NS-28J" [label="ameliorated 
+by" shape=none]
+	"1RRCS47LH-1VV38TR-26J" [label="Strong passwords, 
+salt" fillcolor=white shape=rect style=filled]
+	"1RRCS50YT-22X42NS-28J" -> "1RRCS47LH-1VV38TR-26J" [constraint=true]
+	"1RRCV0N78-X71Z9N-4ZJ" [label="Retina scan
+" fillcolor=white shape=rect style=filled]
+	"1RRCV4JGL-1GRZZ39-56L" [label="which vary 
+greatly in
+" shape=none]
+	"1RRCV0N78-X71Z9N-4ZJ" -> "1RRCV4JGL-1GRZZ39-56L" [constraint=true]
+	"1RRCTM8T6-1PZW3NK-3X0" [label=like shape=none]
+	"1RRCTK6P4-1RNJQC6-3ST" [label="Smart card:can 
+process information
+" fillcolor=white shape=rect style=filled]
+	"1RRCTM8T6-1PZW3NK-3X0" -> "1RRCTK6P4-1RNJQC6-3ST" [constraint=true]
+	"1RRCRQC79-22186X5-1NB" [label=Vulneratbilities fillcolor=white shape=rect style=filled]
+	"1RRCTDN4V-1SNCXTQ-3H3" [label=like shape=none]
+	"1RRCRQC79-22186X5-1NB" -> "1RRCTDN4V-1SNCXTQ-3H3" [constraint=true]
+	"1RRCRF0KL-1XMC1HD-Y7" [label="Something 
+the individual 
+knows (e.g. 
+passwords)" fillcolor=white shape=rect style=filled]
+	"1RRCRZVBD-283P0W4-1YC" [label="vulnerable 
+to" shape=none]
+	"1RRCRF0KL-1XMC1HD-Y7" -> "1RRCRZVBD-283P0W4-1YC" [constraint=true]
+	"1RRCRB447-DF87QT-RK" [label="Executed by 
+two steps:
+" shape=none]
+	"1RRCR9815-6FWS0M-MP" [label="2. Verification:determining 
+the person 
+requesting 
+authentication 
+is the same 
+as the person 
+identified" fillcolor=white shape=rect style=filled]
+	"1RRCRB447-DF87QT-RK" -> "1RRCR9815-6FWS0M-MP" [constraint=true]
+	"1RRCRB447-DF87QT-RK" [label="Executed by 
+two steps:
+" shape=none]
+	"1RRCR92TR-1JZV9Q6-M2" [label="1. Identification:picking 
+out the user 
+from amongthe 
+users with 
+access to 
+the system
+" fillcolor=white shape=rect style=filled]
+	"1RRCRB447-DF87QT-RK" -> "1RRCR92TR-1JZV9Q6-M2" [constraint=true]
+	"1RRCRM0Y6-1PC0NNX-1H1" [label="which depend 
+on" shape=none]
+	"1RRCRF0KL-1XMC1HD-Y7" [label="Something 
+the individual 
+knows (e.g. 
+passwords)" fillcolor=white shape=rect style=filled]
+	"1RRCRM0Y6-1PC0NNX-1H1" -> "1RRCRF0KL-1XMC1HD-Y7" [constraint=true]
+	"1RRCTDR10-1WNKGPJ-3HR" [label=like shape=none]
+	"1RRCS47LH-1VV38TR-26J" [label="Strong passwords, 
+salt" fillcolor=white shape=rect style=filled]
+	"1RRCTDR10-1WNKGPJ-3HR" -> "1RRCS47LH-1VV38TR-26J" [constraint=true]
+	"1RRCV2D3W-LMZP52-52W" [label=like shape=none]
+	"1RRCV0GQH-13HH9LP-4YZ" [label=Fingerprints fillcolor=white shape=rect style=filled]
+	"1RRCV2D3W-LMZP52-52W" -> "1RRCV0GQH-13HH9LP-4YZ" [constraint=true]
+	"1RRCR7NLQ-9F2BW9-HG" [label="User authentication
+" fillcolor=white shape=doubleoctagon style=filled]
+	"1RRCRB447-DF87QT-RK" [label="Executed by 
+two steps:
+" shape=none]
+	"1RRCR7NLQ-9F2BW9-HG" -> "1RRCRB447-DF87QT-RK" [constraint=true]
+	"1RRCRM0Y6-1PC0NNX-1H1" [label="which depend 
+on" shape=none]
+	"1RRCRH80Q-WWNDKL-13S" [label="Something 
+the individual 
+is" fillcolor=white shape=rect style=filled]
+	"1RRCRM0Y6-1PC0NNX-1H1" -> "1RRCRH80Q-WWNDKL-13S" [constraint=true]
+	"1RRCRHTBP-16R7T1J-17Q" [label="Something 
+the individual 
+does" fillcolor=white shape=rect style=filled]
+	"1RRCTY0ZH-12TSVSF-4TJ" [label=like shape=none]
+	"1RRCRHTBP-16R7T1J-17Q" -> "1RRCTY0ZH-12TSVSF-4TJ" [constraint=true]
+	"1RRCV0GQH-13HH9LP-4YZ" [label=Fingerprints fillcolor=white shape=rect style=filled]
+	"1RRCV4JGL-1GRZZ39-56L" [label="which vary 
+greatly in
+" shape=none]
+	"1RRCV0GQH-13HH9LP-4YZ" -> "1RRCV4JGL-1GRZZ39-56L" [constraint=true]
+	"1RRCRM0Y6-1PC0NNX-1H1" [label="which depend 
+on" shape=none]
+	"1RRCRHTBP-16R7T1J-17Q" [label="Something 
+the individual 
+does" fillcolor=white shape=rect style=filled]
+	"1RRCRM0Y6-1PC0NNX-1H1" -> "1RRCRHTBP-16R7T1J-17Q" [constraint=true]
+	"1RRCTL7HX-5G2JT5-3TT" [label=Keycard fillcolor=white shape=rect style=filled]
+	"1RRCTM8T6-1PZW3NK-3X0" [label=like shape=none]
+	"1RRCTL7HX-5G2JT5-3TT" -> "1RRCTM8T6-1PZW3NK-3X0" [constraint=true]
+	"1RRCRZVBD-283P0W4-1YC" [label="vulnerable 
+to" shape=none]
+	"1RRCRZ775-1G7FR6Q-1XG" [label="Password cracking
+" fillcolor=white shape=rect style=filled]
+	"1RRCRZVBD-283P0W4-1YC" -> "1RRCRZ775-1G7FR6Q-1XG" [constraint=true]
+	"1RRCV2D3W-LMZP52-52W" [label=like shape=none]
+	"1RRCV0N78-X71Z9N-4ZJ" [label="Retina scan
+" fillcolor=white shape=rect style=filled]
+	"1RRCV2D3W-LMZP52-52W" -> "1RRCV0N78-X71Z9N-4ZJ" [constraint=true]
+	"1RRCRKVLC-3VQQT8-1DL" [label="Accomplished 
+by" shape=none]
+	"1RRCRJYMM-1W6F8ZR-1CN" [label="Four methods
+" fillcolor=white shape=rect style=filled]
+	"1RRCRKVLC-3VQQT8-1DL" -> "1RRCRJYMM-1W6F8ZR-1CN" [constraint=true]
+	"1RRCTY0ZH-12TSVSF-4TJ" [label=like shape=none]
+	"1RRCTZ541-1XB5G77-4WR" [label="Typing speed 
+(people have 
+different 
+typing speeds)
+" fillcolor=white shape=rect style=filled]
+	"1RRCTY0ZH-12TSVSF-4TJ" -> "1RRCTZ541-1XB5G77-4WR" [constraint=true]
+	"1RRCR2CVH-ST3VJT-8F" [label="CMap for User 
+Authentication" fillcolor=white shape=rect style=filled]
+	"1RRCV64D1-S02CZ0-5DY" [label="Student id: 
+2341354" fillcolor=white shape=rect style=filled]
+	statictics [label="STATISTICS
+\lBranch:		11\lNode:		24\lLinking Phrase:	16\lOrphan:		2\lLeaf Node:	11\lPreposition:	19\lSub Map:		1\lAvg Word Per Concept:	1.62\l" Gsplines=true fillcolor="#F5FFFA" shape=component style=filled]
+	file_info [label="CMAP Information
+
+\lTitle:	UAAnonymous9.cmap\lCreated:	2020-12-07T07:48:35-05:00\lModified:	2020-12-07T07:48:35-05:00\lLanguage:	en\lFormat:	x-cmap/x-storable\lPublisher:	FIHMC CmapTools 6.04\lWidth:	1489\lHeight:	855\l" Gsplines=true fillcolor="#E6E6FA" shape=tab style=filled]
+}

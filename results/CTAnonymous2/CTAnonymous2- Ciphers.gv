@@ -1,0 +1,93 @@
+// The Round Table
+digraph {
+	"1S3Z9RL7N-ZBDMGP-NKT" [label="BLOCK and STREAM CIPHER ENCRYPTION Module 3" Gsplines=true fontsize=20 shape=rect style=filled]
+	"1S46F4HLF-22D0QX7-H3N" [label="illustrated 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46F3PDJ-21VR1BM-H1H" [label="encrypts plaintext 
+one byte at 
+a time" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46F4HLF-22D0QX7-H3N" -> "1S46F3PDJ-21VR1BM-H1H" [constraint=true]
+	"1S46F4HLF-22D0QX7-H3N" [label="illustrated 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46F3J3N-1LLW855-H17" [label="produces output 
+one element 
+at a time" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S46F4HLF-22D0QX7-H3N" -> "1S46F3J3N-1LLW855-H17" [constraint=true]
+	"1S46F6L5L-1HZXXS-H6S" [label=include Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46DSR1M-24696JF-GS3" [label="BLOCK CIPHER
+" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S46F6L5L-1HZXXS-H6S" -> "1S46DSR1M-24696JF-GS3" [constraint=true]
+	"1S46DSR1M-24696JF-GS3" [label="BLOCK CIPHER
+" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S46F3YR9-24G01PZ-H22" [label="described 
+by" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S46DSR1M-24696JF-GS3" -> "1S46F3YR9-24G01PZ-H22" [constraint=true]
+	"1S46DSZJN-1QJV04B-GSM" [label="STREAM CIPHER
+" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S46F4HLF-22D0QX7-H3N" [label="illustrated 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46DSZJN-1QJV04B-GSM" -> "1S46F4HLF-22D0QX7-H3N" [constraint=true]
+	"1S46F3YR9-24G01PZ-H22" [label="described 
+by" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S46F2Y1D-1QLPHC5-H0S" [label="keys are reusable
+" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S46F3YR9-24G01PZ-H22" -> "1S46F2Y1D-1QLPHC5-H0S" [constraint=true]
+	"1S46F3YR9-24G01PZ-H22" [label="described 
+by" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S46DSWML-134FBJK-GSC" [label="processes 
+the input 
+one block 
+of elements 
+at a time" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S46F3YR9-24G01PZ-H22" -> "1S46DSWML-134FBJK-GSC" [constraint=true]
+	"1S46F3YR9-24G01PZ-H22" [label="described 
+by" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S46DSY01-23XSHCZ-GSH" [label="produces an 
+output block 
+for each input 
+block" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S46F3YR9-24G01PZ-H22" -> "1S46DSY01-23XSHCZ-GSH" [constraint=true]
+	"1S46F6L5L-1HZXXS-H6S" [label=include Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46DSZJN-1QJV04B-GSM" [label="STREAM CIPHER
+" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S46F6L5L-1HZXXS-H6S" -> "1S46DSZJN-1QJV04B-GSM" [constraint=true]
+	"1S46F4HLF-22D0QX7-H3N" [label="illustrated 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46F3KN0-22VS5NJ-H1C" [label="primary advantage 
+is that they 
+are almost 
+always faster 
+and use a 
+lot less code
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46F4HLF-22D0QX7-H3N" -> "1S46F3KN0-22VS5NJ-H1C" [constraint=true]
+	"1S46F4HLF-22D0QX7-H3N" [label="illustrated 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46F3RZJ-1VSD2LW-H1M" [label="pseudo random 
+stream is 
+unpredictable 
+with no knowledge 
+of the input 
+key" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46F4HLF-22D0QX7-H3N" -> "1S46F3RZJ-1VSD2LW-H1M" [constraint=true]
+	"1S46F3V74-1FXVC02-H1R" [label="TYPES OF CIPHERS
+" Gsplines=true fillcolor=aquamarine fontsize=20 shape=doubleoctagon style=filled]
+	"1S46F6L5L-1HZXXS-H6S" [label=include Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46F3V74-1FXVC02-H1R" -> "1S46F6L5L-1HZXXS-H6S" [constraint=true]
+	"1S46F4HLF-22D0QX7-H3N" [label="illustrated 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46F3GHV-1Z9KL08-H13" [label="processes 
+the input 
+elements continuously
+" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S46F4HLF-22D0QX7-H3N" -> "1S46F3GHV-1Z9KL08-H13" [constraint=true]
+	Stat [label="SUMMERY
+
+Matched Branch:			0\lPartially Matched Branch:	8\lMismatched Branch:		0\lExtra Branch:				45\lTotal Match:		60.0 %\lConcept Match:	66.67 %\lLink. Phr. Match:	33.33 %\lMisconception:	60.0 %\lHierarchy Match:	54.17 %\l" Gsplines=true fillcolor="#F5FFFA" fontsize=20 shape=component style=filled]
+	Grade [label="Grade:	51.42%" Gsplines=true fillcolor="#FFEBCD" fontsize=20 shape=note style=filled]
+	Stat -> Grade [arrowhead=inv color=black constraint=true]
+	"1S46DSR1M-24696JF-GS3" -> "1S46DSWML-134FBJK-GSC" [arrowhead=open color="#0316D1" constraint=true style=dashed]
+	"1S46DSR1M-24696JF-GS3" -> "1S46DSY01-23XSHCZ-GSH" [arrowhead=open color="#0316D1" constraint=true style=dashed]
+	"1S46DSZJN-1QJV04B-GSM" -> "1S46F3GHV-1Z9KL08-H13" [arrowhead=open color="#0316D1" constraint=true style=dashed]
+	"1S46DSZJN-1QJV04B-GSM" -> "1S46F3J3N-1LLW855-H17" [arrowhead=open color="#0316D1" constraint=true style=dashed]
+}

@@ -1,0 +1,179 @@
+// The Round Table
+digraph {
+	"1S3ZPGN61-7FY0SL-QR1" [label="HASH FUNCTIONS Module 3" Gsplines=true fontsize=20 shape=rect style=filled]
+	"1S46LVQ3K-XFKMM-CYY" [label=SECURITY Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46M7PWL-L4BV9Z-DBR" [label=utilizes Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S46LVQ3K-XFKMM-CYY" -> "1S46M7PWL-L4BV9Z-DBR" [constraint=true]
+	"1S46LV142-KKCZQP-CXK" [label=REQUIREMENTS Gsplines=true fillcolor=aquamarine fontsize=20 shape=doubleoctagon style=filled]
+	"1S46LX2VY-FX1XYT-D3T" [label="affected by
+" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S46LV142-KKCZQP-CXK" -> "1S46LX2VY-FX1XYT-D3T" [constraint=true]
+	"1S46M7PWL-L4BV9Z-DBR" [label=utilizes Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S46M45S7-MM3SWT-D7T" [label="most widely 
+used hash 
+algorithm 
+is the Secure 
+Hash Algorithm 
+(SHA)" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46M7PWL-L4BV9Z-DBR" -> "1S46M45S7-MM3SWT-D7T" [constraint=true]
+	"1S46LV142-KKCZQP-CXK" [label=REQUIREMENTS Gsplines=true fillcolor=aquamarine fontsize=20 shape=doubleoctagon style=filled]
+	"1S46M56DS-9V6M5Y-D8B" [label="security for
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46LV142-KKCZQP-CXK" -> "1S46M56DS-9V6M5Y-D8B" [constraint=true]
+	"1S46M2RLV-1BBPMVW-D5S" [label="usage of" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S46M2WFL-1D9LHQR-D6G" [label="produces an 
+output that 
+is fixed in 
+length" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S46M2RLV-1BBPMVW-D5S" -> "1S46M2WFL-1D9LHQR-D6G" [constraint=true]
+	"1S46N2LQ9-1XNR6D7-F4S" [label="illustrated 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46N2LQ7-R53NY-F4P" [label="exploitation 
+of logical 
+weaknesses 
+in the algorithm
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46N2LQ9-1XNR6D7-F4S" -> "1S46N2LQ7-R53NY-F4P" [constraint=true]
+	"1S46M84X6-21BRFPF-DD7" [label="brute-force 
+algorithm" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46N4BBD-1QWM48G-F6Y" [label="represented 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46M84X6-21BRFPF-DD7" -> "1S46N4BBD-1QWM48G-F6Y" [constraint=true]
+	"1S46M56DS-9V6M5Y-D8B" [label="security for
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46M5NBG-152WNPX-D92" [label="it is computationally 
+infeasible 
+to find any 
+pair (x,y), 
+such that 
+H(x)= H(y" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46M56DS-9V6M5Y-D8B" -> "1S46M5NBG-152WNPX-D92" [constraint=true]
+	"1S46M7PWJ-95J4F4-DBN" [label="two approaches 
+to attacking 
+a secure hash 
+function" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46M7Y4R-1XQH9ZN-DCH" [label="for instance
+" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S46M7PWJ-95J4F4-DBN" -> "1S46M7Y4R-1XQH9ZN-DCH" [constraint=true]
+	"1S46M2RLV-1BBPMVW-D5S" [label="usage of" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S46M30RM-2CQ8F7C-D6Y" [label="H(x) is relatively 
+easy to compute 
+for any given 
+x" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46M2RLV-1BBPMVW-D5S" -> "1S46M30RM-2CQ8F7C-D6Y" [constraint=true]
+	"1S46NHM8T-RQT06B-FLW" [label="for example
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46NHM8Q-R5JNVC-FLS" [label="hash of a 
+password is 
+stored by 
+an operating 
+system" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46NHM8T-RQT06B-FLW" -> "1S46NHM8Q-R5JNVC-FLS" [constraint=true]
+	"1S46M7Y4R-1XQH9ZN-DCH" [label="for instance
+" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S46M44CP-2726NTS-D7P" [label=cryptanalysis Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46M7Y4R-1XQH9ZN-DCH" -> "1S46M44CP-2726NTS-D7P" [constraint=true]
+	"1S46M2RLV-1BBPMVW-D5S" [label="usage of" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S46M2RLS-WNXB3Y-D5P" [label="can be applied 
+to a data 
+block of any 
+size" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46M2RLV-1BBPMVW-D5S" -> "1S46M2RLS-WNXB3Y-D5P" [constraint=true]
+	"1S46M56DS-9V6M5Y-D8B" [label="security for
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46M5RQV-1BK4S8T-D9K" [label="for any given 
+block x, it 
+is computationally 
+infeasible 
+to find y 
+does not equal 
+x, such that 
+H(y) = H(x)
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46M56DS-9V6M5Y-D8B" -> "1S46M5RQV-1BK4S8T-D9K" [constraint=true]
+	"1S46M8PW5-VGCN6T-DF3" [label="additional 
+secure hash 
+function applications 
+of" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46M42VR-L0C5H8-D7K" [label=passwords Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46M8PW5-VGCN6T-DF3" -> "1S46M42VR-L0C5H8-D7K" [constraint=true]
+	"1S46NKB50-1P2WPBJ-FQH" [label="for instance
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46NK1J5-1V5CTY2-FPQ" [label="store H(f) 
+for each file 
+on a system 
+and secure 
+the hash values
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46NKB50-1P2WPBJ-FQH" -> "1S46NK1J5-1V5CTY2-FPQ" [constraint=true]
+	"1S46N4BBD-1QWM48G-F6Y" [label="represented 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46N2Z4N-11JBPSV-F5J" [label="strength of 
+the hash function 
+only depends 
+on the length 
+of the hash 
+code produced 
+by the algorithm
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46N4BBD-1QWM48G-F6Y" -> "1S46N2Z4N-11JBPSV-F5J" [constraint=true]
+	"1S46M42VR-L0C5H8-D7K" [label=passwords Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46NHM8T-RQT06B-FLW" [label="for example
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46M42VR-L0C5H8-D7K" -> "1S46NHM8T-RQT06B-FLW" [constraint=true]
+	"1S46LVQ3K-XFKMM-CYY" [label=SECURITY Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46M8PW5-VGCN6T-DF3" [label="additional 
+secure hash 
+function applications 
+of" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46LVQ3K-XFKMM-CYY" -> "1S46M8PW5-VGCN6T-DF3" [constraint=true]
+	"1S46M44CP-2726NTS-D7P" [label=cryptanalysis Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46N2LQ9-1XNR6D7-F4S" [label="illustrated 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46M44CP-2726NTS-D7P" -> "1S46N2LQ9-1XNR6D7-F4S" [constraint=true]
+	"1S46M8PW5-VGCN6T-DF3" [label="additional 
+secure hash 
+function applications 
+of" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46M940S-J236N3-DFT" [label="intrusion 
+detection" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46M8PW5-VGCN6T-DF3" -> "1S46M940S-J236N3-DFT" [constraint=true]
+	"1S46M940S-J236N3-DFT" [label="intrusion 
+detection" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46NKB50-1P2WPBJ-FQH" [label="for instance
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46M940S-J236N3-DFT" -> "1S46NKB50-1P2WPBJ-FQH" [constraint=true]
+	"1S46M7PWL-L4BV9Z-DBR" [label=utilizes Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S46M7PWJ-95J4F4-DBN" [label="two approaches 
+to attacking 
+a secure hash 
+function" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46M7PWL-L4BV9Z-DBR" -> "1S46M7PWJ-95J4F4-DBN" [constraint=true]
+	"1S46LV142-KKCZQP-CXK" [label=REQUIREMENTS Gsplines=true fillcolor=aquamarine fontsize=20 shape=doubleoctagon style=filled]
+	"1S46M2RLV-1BBPMVW-D5S" [label="usage of" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S46LV142-KKCZQP-CXK" -> "1S46M2RLV-1BBPMVW-D5S" [constraint=true]
+	"1S46M7Y4R-1XQH9ZN-DCH" [label="for instance
+" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S46M84X6-21BRFPF-DD7" [label="brute-force 
+algorithm" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46M7Y4R-1XQH9ZN-DCH" -> "1S46M84X6-21BRFPF-DD7" [constraint=true]
+	"1S46M56DS-9V6M5Y-D8B" [label="security for
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46M56DQ-278Q08H-D87" [label="for any given 
+code h, it 
+is computationally 
+infeasible 
+to find x, 
+such that 
+H(x) = h" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46M56DS-9V6M5Y-D8B" -> "1S46M56DQ-278Q08H-D87" [constraint=true]
+	"1S46LX2VY-FX1XYT-D3T" [label="affected by
+" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S46LVQ3K-XFKMM-CYY" [label=SECURITY Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46LX2VY-FX1XYT-D3T" -> "1S46LVQ3K-XFKMM-CYY" [constraint=true]
+	Stat [label="SUMMERY
+
+Matched Branch:			0\lPartially Matched Branch:	11\lMismatched Branch:		0\lExtra Branch:				21\lTotal Match:		17.86 %\lConcept Match:	10.53 %\lLink. Phr. Match:	33.33 %\lMisconception:	100.0 %\lHierarchy Match:	30.91 %\l" Gsplines=true fillcolor="#F5FFFA" fontsize=20 shape=component style=filled]
+	Grade [label="Grade:	16.4%" Gsplines=true fillcolor="#FFEBCD" fontsize=20 shape=note style=filled]
+	Stat -> Grade [arrowhead=inv color=black constraint=true]
+}

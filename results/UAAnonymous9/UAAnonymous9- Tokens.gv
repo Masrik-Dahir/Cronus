@@ -1,0 +1,258 @@
+// The Round Table
+digraph {
+	"1S3Z96H26-1SCRTBJ-K9R" [label="TOKEN CARD TYPES for AUTHENTICATION Module 2" Gsplines=true shape=rect style=filled]
+	"1S3ZXT445-5R5LT1-1CSB" [label="biometric ID card" Gsplines=true shape=rect style=filled]
+	"1S3ZVHD31-BY3WQV-18QF" [label=Smart Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZXDXJ6-17RSYVL-1C6T" [label="illustrated 
+by" Gsplines=true fontcolor=red shape=none]
+	"1S3ZVHD31-BY3WQV-18QF" -> "1S3ZXDXJ6-17RSYVL-1C6T" [constraint=true]
+	"1S3ZVWD99-106PHS3-196V" [label="drawbacks 
+include" Gsplines=true fontcolor=red shape=none]
+	"1S3ZVM9JX-63FVNZ-18VF" [label="requirement 
+of a special 
+reader" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZVWD99-106PHS3-196V" -> "1S3ZVM9JX-63FVNZ-18VF" [constraint=true]
+	"1S3ZX8LWQ-27NRY74-1C2V" [label="represented 
+by" Gsplines=true fontcolor=red shape=none]
+	"1S3ZX2GNG-1QKRXY9-1BPS" [label="electronic 
+memory inside
+" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZX8LWQ-27NRY74-1C2V" -> "1S3ZX2GNG-1QKRXY9-1BPS" [constraint=true]
+	"1S3ZVJQVQ-2112XX2-18RR" [label="TOKEN CARDS
+" Gsplines=true fillcolor="#FFB6C1" shape=doubleoctagon style=filled]
+	"1S3ZVTW0R-CHQZKL-1953" [label="types used
+" Gsplines=true fontcolor=red shape=none]
+	"1S3ZVJQVQ-2112XX2-18RR" -> "1S3ZVTW0R-CHQZKL-1953" [constraint=true]
+	"1S3ZVG9V9-1WS7D31-18KS" [label=Embossed Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZX0DHS-1SHY2S6-1BN2" [label="characterized 
+by" Gsplines=true fontcolor=red shape=none]
+	"1S3ZVG9V9-1WS7D31-18KS" -> "1S3ZX0DHS-1SHY2S6-1BN2" [constraint=true]
+	"1S3ZVHPLR-29TM5Y9-18QW" [label="contact less
+" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZXK5R2-W03CVF-1CBZ" [label="defining feature 
+of" Gsplines=true fontcolor=red shape=none]
+	"1S3ZVHPLR-29TM5Y9-18QW" -> "1S3ZXK5R2-W03CVF-1CBZ" [constraint=true]
+	"1S3ZXDXJ6-17RSYVL-1C6T" [label="illustrated 
+by" Gsplines=true fontcolor=red shape=none]
+	"1S3ZXDXJ5-1KHTH2Y-1C6Q" [label="electronic 
+memory and 
+processor 
+inside" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZXDXJ6-17RSYVL-1C6T" -> "1S3ZXDXJ5-1KHTH2Y-1C6Q" [constraint=true]
+	"1S3ZVHD31-BY3WQV-18QF" [label=Smart Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZWBM19-1Y8WSH9-19T8" [label="authentication 
+protocol classification 
+of" Gsplines=true fontcolor=red shape=none]
+	"1S3ZVHD31-BY3WQV-18QF" -> "1S3ZWBM19-1Y8WSH9-19T8" [constraint=true]
+	"1S3ZXDXJ5-1KHTH2Y-1C6Q" [label="electronic 
+memory and 
+processor 
+inside" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZXT447-TQKB2H-1CSF" [label="for instance
+" Gsplines=true fontcolor=red shape=none]
+	"1S3ZXDXJ5-1KHTH2Y-1C6Q" -> "1S3ZXT447-TQKB2H-1CSF" [constraint=true]
+	"1S3ZVH1NN-QXZGDH-18PT" [label=Memory Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZX8LWQ-27NRY74-1C2V" [label="represented 
+by" Gsplines=true fontcolor=red shape=none]
+	"1S3ZVH1NN-QXZGDH-18PT" -> "1S3ZX8LWQ-27NRY74-1C2V" [constraint=true]
+	"1S3ZXT447-TQKB2H-1CSF" [label="for instance
+" Gsplines=true fontcolor=red shape=none]
+	"1S3ZXT445-5R5LT1-1CSB" [label="biometric 
+ID card" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZXT447-TQKB2H-1CSF" -> "1S3ZXT445-5R5LT1-1CSB" [constraint=true]
+	"1S3ZWMGK4-QH3J6N-1B5L" [label="types include
+" Gsplines=true fontcolor=red shape=none]
+	"1S3ZVHPLR-29TM5Y9-18QW" [label="contact less
+" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZWMGK4-QH3J6N-1B5L" -> "1S3ZVHPLR-29TM5Y9-18QW" [constraint=true]
+	"1S3ZW5H4L-1X4VBY2-19MB" [label="physical characteristics 
+include" Gsplines=true fontcolor=red shape=none]
+	"1S3ZW4HBK-9MVB56-19KH" [label="a smart token 
+that looks 
+like a bank 
+card" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZW5H4L-1X4VBY2-19MB" -> "1S3ZW4HBK-9MVB56-19KH" [constraint=true]
+	"1S3ZX2GNG-1QKRXY9-1BPS" [label="electronic 
+memory inside
+" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZX6WK2-SSH7RV-1C0S" [label="for example
+" Gsplines=true fontcolor="#3B6300" shape=none]
+	"1S3ZX2GNG-1QKRXY9-1BPS" -> "1S3ZX6WK2-SSH7RV-1C0S" [constraint=true]
+	"1S3ZW96JM-R2GNWL-19R0" [label="interface 
+used" Gsplines=true fontcolor=red shape=none]
+	"1S3ZWB70W-15FXZWN-19SG" [label="electronic 
+interface 
+that communicates 
+with a compatible 
+reader/writer" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZW96JM-R2GNWL-19R0" -> "1S3ZWB70W-15FXZWN-19SG" [constraint=true]
+	"1S3ZX0DHS-1SHY2S6-1BN2" [label="characterized 
+by" Gsplines=true fontcolor=red shape=none]
+	"1S3ZWZ9JC-75JG40-1BKY" [label="raised characters 
+only on the 
+front" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZX0DHS-1SHY2S6-1BN2" -> "1S3ZWZ9JC-75JG40-1BKY" [constraint=true]
+	"1S3ZVPR07-2C7KWGY-18YQ" [label="ability to
+" Gsplines=true fontcolor=red shape=none]
+	"1S3ZVLL60-1NPZXBW-18SS" [label="store but 
+not process 
+data" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZVPR07-2C7KWGY-18YQ" -> "1S3ZVLL60-1NPZXBW-18SS" [constraint=true]
+	"1S3ZVHN64-1MDWDX1-18QR" [label=contact Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZXMDJN-298MH6X-1CG6" [label="defining feature 
+of" Gsplines=true fontcolor="#3B6300" shape=none]
+	"1S3ZVHN64-1MDWDX1-18QR" -> "1S3ZXMDJN-298MH6X-1CG6" [constraint=true]
+	"1S3ZVTW0R-CHQZKL-1953" [label="types used
+" Gsplines=true fontcolor=red shape=none]
+	"1S3ZVHD31-BY3WQV-18QF" [label=Smart Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZVTW0R-CHQZKL-1953" -> "1S3ZVHD31-BY3WQV-18QF" [constraint=true]
+	"1S3ZVTW0R-CHQZKL-1953" [label="types used
+" Gsplines=true fontcolor=red shape=none]
+	"1S3ZVGRDY-8FJF4S-18P5" [label="Magnetic Stripe
+" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZVTW0R-CHQZKL-1953" -> "1S3ZVGRDY-8FJF4S-18P5" [constraint=true]
+	"1S3ZVGRDY-8FJF4S-18P5" [label="Magnetic Stripe
+" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZWXGQC-SFDJN8-1BGT" [label="portrayed 
+by" Gsplines=true fontcolor=red shape=none]
+	"1S3ZVGRDY-8FJF4S-18P5" -> "1S3ZWXGQC-SFDJN8-1BGT" [constraint=true]
+	"1S3ZVPR07-2C7KWGY-18YQ" [label="ability to
+" Gsplines=true fontcolor=red shape=none]
+	"1S3ZVM76X-1945QCT-18V4" [label="include an 
+internal electronic 
+memory" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZVPR07-2C7KWGY-18YQ" -> "1S3ZVM76X-1945QCT-18V4" [constraint=true]
+	"1S3ZX6WK2-SSH7RV-1C0S" [label="for example
+" Gsplines=true fontcolor="#3B6300" shape=none]
+	"1S3ZX6WK1-23P53YK-1C0P" [label="prepaid phone 
+card" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZX6WK2-SSH7RV-1C0S" -> "1S3ZX6WK1-23P53YK-1C0P" [constraint=true]
+	"1S3ZWXGQB-3P320D-1BGQ" [label="magnetic bar 
+on the back 
+and characters 
+on the front
+" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZX4XP3-2BVVZ4K-1BTC" [label="for example
+" Gsplines=true fontcolor=red shape=none]
+	"1S3ZWXGQB-3P320D-1BGQ" -> "1S3ZX4XP3-2BVVZ4K-1BTC" [constraint=true]
+	"1S3ZVWD99-106PHS3-196V" [label="drawbacks 
+include" Gsplines=true fontcolor=red shape=none]
+	"1S3ZVXHNN-1Q13X6P-199S" [label="the loss of 
+the token" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZVWD99-106PHS3-196V" -> "1S3ZVXHNN-1Q13X6P-199S" [constraint=true]
+	"1S3ZW5H4L-1X4VBY2-19MB" [label="physical characteristics 
+include" Gsplines=true fontcolor=red shape=none]
+	"1S3ZW2TZ9-1P1QP0K-19FV" [label="an embedded 
+microprocessor" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZW5H4L-1X4VBY2-19MB" -> "1S3ZW2TZ9-1P1QP0K-19FV" [constraint=true]
+	"1S3ZVHD31-BY3WQV-18QF" [label=Smart Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZW96JM-R2GNWL-19R0" [label="interface 
+used" Gsplines=true fontcolor=red shape=none]
+	"1S3ZVHD31-BY3WQV-18QF" -> "1S3ZW96JM-R2GNWL-19R0" [constraint=true]
+	"1S3ZWMGK4-QH3J6N-1B5L" [label="types include
+" Gsplines=true fontcolor=red shape=none]
+	"1S3ZVHN64-1MDWDX1-18QR" [label=contact Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZWMGK4-QH3J6N-1B5L" -> "1S3ZVHN64-1MDWDX1-18QR" [constraint=true]
+	"1S3ZVHD31-BY3WQV-18QF" [label=Smart Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZWMGK4-QH3J6N-1B5L" [label="types include
+" Gsplines=true fontcolor=red shape=none]
+	"1S3ZVHD31-BY3WQV-18QF" -> "1S3ZWMGK4-QH3J6N-1B5L" [constraint=true]
+	"1S3ZX4XP3-2BVVZ4K-1BTC" [label="for example
+" Gsplines=true fontcolor=red shape=none]
+	"1S3ZX4XP2-1W1HS0Q-1BT8" [label="bank card" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZX4XP3-2BVVZ4K-1BTC" -> "1S3ZX4XP2-1W1HS0Q-1BT8" [constraint=true]
+	"1S3ZX5R7M-26NXT3W-1BYV" [label=" for instance
+" Gsplines=true fontcolor=red shape=none]
+	"1S3ZX5R7L-YFRKNS-1BYR" [label="old credit 
+card" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZX5R7M-26NXT3W-1BYV" -> "1S3ZX5R7L-YFRKNS-1BYR" [constraint=true]
+	"1S3ZW96JM-R2GNWL-19R0" [label="interface 
+used" Gsplines=true fontcolor=red shape=none]
+	"1S3ZW96JM-7YHRNP-19QX" [label="manual interface 
+includes keypad 
+and interaction 
+display" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZW96JM-R2GNWL-19R0" -> "1S3ZW96JM-7YHRNP-19QX" [constraint=true]
+	"1S3ZVH1NN-QXZGDH-18PT" [label=Memory Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZVPR07-2C7KWGY-18YQ" [label="ability to
+" Gsplines=true fontcolor=red shape=none]
+	"1S3ZVH1NN-QXZGDH-18PT" -> "1S3ZVPR07-2C7KWGY-18YQ" [constraint=true]
+	"1S3ZVHD31-BY3WQV-18QF" [label=Smart Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZW5H4L-1X4VBY2-19MB" [label="physical characteristics 
+include" Gsplines=true fontcolor=red shape=none]
+	"1S3ZVHD31-BY3WQV-18QF" -> "1S3ZW5H4L-1X4VBY2-19MB" [constraint=true]
+	"1S3ZVPR07-2C7KWGY-18YQ" [label="ability to
+" Gsplines=true fontcolor=red shape=none]
+	"1S3ZVRD8F-P2WXS3-1911" [label="provide significantly 
+greater security 
+when used 
+with a password 
+or PIN" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZVPR07-2C7KWGY-18YQ" -> "1S3ZVRD8F-P2WXS3-1911" [constraint=true]
+	"1S3ZWBM19-1Y8WSH9-19T8" [label="authentication 
+protocol classification 
+of" Gsplines=true fontcolor=red shape=none]
+	"1S3ZWT7ND-1ZB7X8G-1BCT" [label="dynamic password 
+generator" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZWBM19-1Y8WSH9-19T8" -> "1S3ZWT7ND-1ZB7X8G-1BCT" [constraint=true]
+	"1S3ZWBM19-1Y8WSH9-19T8" [label="authentication 
+protocol classification 
+of" Gsplines=true fontcolor=red shape=none]
+	"1S3ZWBM18-SCN8GD-19T5" [label=static Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZWBM19-1Y8WSH9-19T8" -> "1S3ZWBM18-SCN8GD-19T5" [constraint=true]
+	"1S3ZWXGQC-SFDJN8-1BGT" [label="portrayed 
+by" Gsplines=true fontcolor=red shape=none]
+	"1S3ZWXGQB-3P320D-1BGQ" [label="magnetic bar 
+on the back 
+and characters 
+on the front
+" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZWXGQC-SFDJN8-1BGT" -> "1S3ZWXGQB-3P320D-1BGQ" [constraint=true]
+	"1S3ZXK5R2-W03CVF-1CBZ" [label="defining feature 
+of" Gsplines=true fontcolor=red shape=none]
+	"1S3ZXK5R1-1Q9TPQC-1CBW" [label="electrical 
+contacts exposed 
+on surface
+" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZXK5R2-W03CVF-1CBZ" -> "1S3ZXK5R1-1Q9TPQC-1CBW" [constraint=true]
+	"1S3ZVPR07-2C7KWGY-18YQ" [label="ability to
+" Gsplines=true fontcolor=red shape=none]
+	"1S3ZVM8FM-1367RF0-18V8" [label="be used alone 
+for physical 
+access" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZVPR07-2C7KWGY-18YQ" -> "1S3ZVM8FM-1367RF0-18V8" [constraint=true]
+	"1S3ZVTW0R-CHQZKL-1953" [label="types used
+" Gsplines=true fontcolor=red shape=none]
+	"1S3ZVG9V9-1WS7D31-18KS" [label=Embossed Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZVTW0R-CHQZKL-1953" -> "1S3ZVG9V9-1WS7D31-18KS" [constraint=true]
+	"1S3ZVH1NN-QXZGDH-18PT" [label=Memory Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZVWD99-106PHS3-196V" [label="drawbacks 
+include" Gsplines=true fontcolor=red shape=none]
+	"1S3ZVH1NN-QXZGDH-18PT" -> "1S3ZVWD99-106PHS3-196V" [constraint=true]
+	"1S3ZWBM19-1Y8WSH9-19T8" [label="authentication 
+protocol classification 
+of" Gsplines=true fontcolor=red shape=none]
+	"1S3ZWT4F0-X3N692-1BCB" [label="challenge-response" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZWBM19-1Y8WSH9-19T8" -> "1S3ZWT4F0-X3N692-1BCB" [constraint=true]
+	"1S3ZWZ9JC-75JG40-1BKY" [label="raised characters 
+only on the 
+front" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZX5R7M-26NXT3W-1BYV" [label=" for instance
+" Gsplines=true fontcolor=red shape=none]
+	"1S3ZWZ9JC-75JG40-1BKY" -> "1S3ZX5R7M-26NXT3W-1BYV" [constraint=true]
+	"1S3ZVTW0R-CHQZKL-1953" [label="types used
+" Gsplines=true fontcolor=red shape=none]
+	"1S3ZVH1NN-QXZGDH-18PT" [label=Memory Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZVTW0R-CHQZKL-1953" -> "1S3ZVH1NN-QXZGDH-18PT" [constraint=true]
+	"1S3ZXMDJN-298MH6X-1CG6" [label="defining feature 
+of" Gsplines=true fontcolor="#3B6300" shape=none]
+	"1S3ZXMDJM-1BF5QKH-1CG3" [label="radio antenna 
+embedded inside
+" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZXMDJN-298MH6X-1CG6" -> "1S3ZXMDJM-1BF5QKH-1CG3" [constraint=true]
+	Stat [label="SUMMERY
+
+Matched Branch:		0\lPartially Matched Branch:	0\lMismatched Branch:		19\lExtra Branch:			11\lTotal Match:		0.0 %\lConcept Match:	0.0 %\lLink. Phr. Match:	0.0 %\lMisconception:		100.0 %\lHierarchy Match:	0.0 %\l" Gsplines=true fillcolor="#F5FFFA" shape=component style=filled]
+	Grade [label="Grade:	0.0%" Gsplines=true fillcolor="#FFEBCD" shape=note style=filled]
+	Stat -> Grade [arrowhead=inv color=black constraint=true]
+}

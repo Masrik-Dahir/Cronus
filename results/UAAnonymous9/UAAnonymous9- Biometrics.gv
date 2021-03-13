@@ -1,0 +1,137 @@
+// The Round Table
+digraph {
+	"1S3Z94NPF-13DQJ0-JZ5" [label="BIOMETRIC AUTHENTICATION Module 2" Gsplines=true shape=rect style=filled]
+	"1S3ZV8X3K-1RHK537-17XQ" [label="for example
+" Gsplines=true fontcolor=red shape=none]
+	"1S3ZTT9W0-22MF745-17DS" [label="hand signature 
+face voice
+" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZV8X3K-1RHK537-17XQ" -> "1S3ZTT9W0-22MF745-17DS" [constraint=true]
+	"1S3ZTDYLR-10WVJQW-16VZ" [label="physical characteristics
+" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZTM51B-1X8DKLV-175T" [label="for instance
+" Gsplines=true fontcolor=red shape=none]
+	"1S3ZTDYLR-10WVJQW-16VZ" -> "1S3ZTM51B-1X8DKLV-175T" [constraint=true]
+	"1S3ZV949J-20N8PCF-17Z0" [label="for example
+" Gsplines=true fontcolor="#3B6300" shape=none]
+	"1S3ZTVB37-DS40DH-17GD" [label=iris Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZV949J-20N8PCF-17Z0" -> "1S3ZTVB37-DS40DH-17GD" [constraint=true]
+	"1S3ZTT1Y0-YG6DPW-17D6" [label="costs versus 
+accuracy" Gsplines=true fontcolor="#3B6300" shape=none]
+	"1S3ZTZ53R-2BKYNR0-17L8" [label="highest accuracy 
+highest cost
+" Gsplines=true fillcolor=aquamarine shape=rect style=filled]
+	"1S3ZTT1Y0-YG6DPW-17D6" -> "1S3ZTZ53R-2BKYNR0-17L8" [constraint=true]
+	"1S3ZT740L-1TBKZ1G-1669" [label=BIOMETRICS Gsplines=true fillcolor="#FFB6C1" shape=doubleoctagon style=filled]
+	"1S3ZTJT2F-FGF6KV-171T" [label="expressed 
+by" Gsplines=true fontcolor=red shape=none]
+	"1S3ZT740L-1TBKZ1G-1669" -> "1S3ZTJT2F-FGF6KV-171T" [constraint=true]
+	"1S3ZTM51B-1X8DKLV-175T" [label="for instance
+" Gsplines=true fontcolor=red shape=none]
+	"1S3ZTFG8X-XLXFNY-16WZ" [label="facial characteristics
+" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZTM51B-1X8DKLV-175T" -> "1S3ZTFG8X-XLXFNY-16WZ" [constraint=true]
+	"1S3ZTJT2F-FGF6KV-171T" [label="expressed 
+by" Gsplines=true fontcolor=red shape=none]
+	"1S3ZT7B9N-NX55CF-169D" [label="based on pattern 
+recognition" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZTJT2F-FGF6KV-171T" -> "1S3ZT7B9N-NX55CF-169D" [constraint=true]
+	"1S3ZT740L-1TBKZ1G-1669" [label=BIOMETRICS Gsplines=true fillcolor="#FFB6C1" shape=doubleoctagon style=filled]
+	"1S3ZTL29Y-14NSKBD-174K" [label="based on" Gsplines=true fontcolor=red shape=none]
+	"1S3ZT740L-1TBKZ1G-1669" -> "1S3ZTL29Y-14NSKBD-174K" [constraint=true]
+	"1S3ZTM51B-1X8DKLV-175T" [label="for instance
+" Gsplines=true fontcolor=red shape=none]
+	"1S3ZTHFVK-29RD90X-170T" [label=signature Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZTM51B-1X8DKLV-175T" -> "1S3ZTHFVK-29RD90X-170T" [constraint=true]
+	"1S3ZTT1Y0-YG6DPW-17D6" [label="costs versus 
+accuracy" Gsplines=true fontcolor="#3B6300" shape=none]
+	"1S3ZTQ22L-15Z21DY-17B3" [label="lower accuracy 
+lower cost
+" Gsplines=true fillcolor=aquamarine shape=rect style=filled]
+	"1S3ZTT1Y0-YG6DPW-17D6" -> "1S3ZTQ22L-15Z21DY-17B3" [constraint=true]
+	"1S3ZTM51B-1X8DKLV-175T" [label="for instance
+" Gsplines=true fontcolor=red shape=none]
+	"1S3ZTGKBD-1B6VW5F-16Z4" [label="iris pattern
+" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZTM51B-1X8DKLV-175T" -> "1S3ZTGKBD-1B6VW5F-16Z4" [constraint=true]
+	"1S3ZTM51B-1X8DKLV-175T" [label="for instance
+" Gsplines=true fontcolor=red shape=none]
+	"1S3ZTGJ3G-2D7QVMS-16Z0" [label="retinal pattern
+" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZTM51B-1X8DKLV-175T" -> "1S3ZTGJ3G-2D7QVMS-16Z0" [constraint=true]
+	"1S3ZTJT2F-FGF6KV-171T" [label="expressed 
+by" Gsplines=true fontcolor=red shape=none]
+	"1S3ZT7D99-10F1CLD-169J" [label="attempts to 
+authenticate 
+an individual 
+based on unique 
+physical characteristics
+" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZTJT2F-FGF6KV-171T" -> "1S3ZT7D99-10F1CLD-169J" [constraint=true]
+	"1S3ZTZ53R-2BKYNR0-17L8" [label="highest accuracy 
+highest cost
+" Gsplines=true fillcolor=aquamarine shape=rect style=filled]
+	"1S3ZV949J-20N8PCF-17Z0" [label="for example
+" Gsplines=true fontcolor="#3B6300" shape=none]
+	"1S3ZTZ53R-2BKYNR0-17L8" -> "1S3ZV949J-20N8PCF-17Z0" [constraint=true]
+	"1S3ZT740L-1TBKZ1G-1669" [label=BIOMETRICS Gsplines=true fillcolor="#FFB6C1" shape=doubleoctagon style=filled]
+	"1S3ZTT1Y0-YG6DPW-17D6" [label="costs versus 
+accuracy" Gsplines=true fontcolor="#3B6300" shape=none]
+	"1S3ZT740L-1TBKZ1G-1669" -> "1S3ZTT1Y0-YG6DPW-17D6" [constraint=true]
+	"1S3ZTM51B-1X8DKLV-175T" [label="for instance
+" Gsplines=true fontcolor=red shape=none]
+	"1S3ZTH6B0-2CPPT5W-1707" [label="voice pattern
+" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZTM51B-1X8DKLV-175T" -> "1S3ZTH6B0-2CPPT5W-1707" [constraint=true]
+	"1S3ZTL29Y-14NSKBD-174K" [label="based on" Gsplines=true fontcolor=red shape=none]
+	"1S3ZTDYLR-10WVJQW-16VZ" [label="physical characteristics
+" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZTL29Y-14NSKBD-174K" -> "1S3ZTDYLR-10WVJQW-16VZ" [constraint=true]
+	"1S3ZTM51B-1X8DKLV-175T" [label="for instance
+" Gsplines=true fontcolor=red shape=none]
+	"1S3ZTFHKN-1WR0C92-16X3" [label=fingerprints Gsplines=true fillcolor=aquamarine shape=rect style=filled]
+	"1S3ZTM51B-1X8DKLV-175T" -> "1S3ZTFHKN-1WR0C92-16X3" [constraint=true]
+	"1S3ZTT1Y0-YG6DPW-17D6" [label="costs versus 
+accuracy" Gsplines=true fontcolor="#3B6300" shape=none]
+	"1S3ZTYH4Q-1DYV633-17K7" [label="medium accuracy 
+medium cost
+" Gsplines=true fillcolor=aquamarine shape=rect style=filled]
+	"1S3ZTT1Y0-YG6DPW-17D6" -> "1S3ZTYH4Q-1DYV633-17K7" [constraint=true]
+	"1S3ZTM51B-1X8DKLV-175T" [label="for instance
+" Gsplines=true fontcolor=red shape=none]
+	"1S3ZTFK4G-24LYPWD-16X7" [label="hand geometry
+" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZTM51B-1X8DKLV-175T" -> "1S3ZTFK4G-24LYPWD-16X7" [constraint=true]
+	"1S3ZTYH4Q-1DYV633-17K7" [label="medium accuracy 
+medium cost
+" Gsplines=true fillcolor=aquamarine shape=rect style=filled]
+	"1S3ZV90YJ-1K85CFN-17YC" [label="for instance
+" Gsplines=true fontcolor="#3B6300" shape=none]
+	"1S3ZTYH4Q-1DYV633-17K7" -> "1S3ZV90YJ-1K85CFN-17YC" [constraint=true]
+	"1S3ZV90YJ-1K85CFN-17YC" [label="for instance
+" Gsplines=true fontcolor="#3B6300" shape=none]
+	"1S3ZTV0SG-K2JWP3-17FS" [label="retina finger
+" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZV90YJ-1K85CFN-17YC" -> "1S3ZTV0SG-K2JWP3-17FS" [constraint=true]
+	"1S3ZTQ22L-15Z21DY-17B3" [label="lower accuracy 
+lower cost
+" Gsplines=true fillcolor=aquamarine shape=rect style=filled]
+	"1S3ZV8X3K-1RHK537-17XQ" [label="for example
+" Gsplines=true fontcolor=red shape=none]
+	"1S3ZTQ22L-15Z21DY-17B3" -> "1S3ZV8X3K-1RHK537-17XQ" [constraint=true]
+	"1S3ZTJT2F-FGF6KV-171T" [label="expressed 
+by" Gsplines=true fontcolor=red shape=none]
+	"1S3ZTCWBT-141PMLG-16S1" [label="technically 
+complex and 
+expensive 
+when compared 
+to passwords 
+and tokens
+" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S3ZTJT2F-FGF6KV-171T" -> "1S3ZTCWBT-141PMLG-16S1" [constraint=true]
+	Stat [label="SUMMERY
+
+Matched Branch:		0\lPartially Matched Branch:	1\lMismatched Branch:		12\lExtra Branch:			10\lTotal Match:		20.83 %\lConcept Match:	21.05 %\lLink. Phr. Match:	20.0 %\lMisconception:		100.0 %\lHierarchy Match:	0.51 %\l" Gsplines=true fillcolor="#F5FFFA" shape=component style=filled]
+	Grade [label="Grade:	7.05%" Gsplines=true fillcolor="#FFEBCD" shape=note style=filled]
+	Stat -> Grade [arrowhead=inv color=black constraint=true]
+}

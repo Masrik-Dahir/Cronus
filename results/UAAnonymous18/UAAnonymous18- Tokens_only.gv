@@ -1,0 +1,101 @@
+// The Round Table
+digraph {
+	Student [label="Student: UAAnonymous18" fillcolor=gold shape=component style=filled]
+	"1RQYL5DBM-WSS90Y-VL" [label="dynamic biometrics
+" fillcolor=white shape=rect style=filled]
+	"1RQYL5T14-1N1M9P1-WG" [label=provides shape=none]
+	"1RQYL5DBM-WSS90Y-VL" -> "1RQYL5T14-1N1M9P1-WG" [constraint=true]
+	"1RQYLK84L-21BWG05-1FC" [label=prevent shape=none]
+	"1RQYLDCQF-187BSY8-157" [label="insecure state
+" fillcolor=white shape=rect style=filled]
+	"1RQYLK84L-21BWG05-1FC" -> "1RQYLDCQF-187BSY8-157" [constraint=true]
+	"1RQYL4G9Q-283DZPW-SL" [label="static biometrics
+" fillcolor=white shape=doubleoctagon style=filled]
+	"1RQYL4ZS1-K243F2-TR" [label=provides shape=none]
+	"1RQYL4G9Q-283DZPW-SL" -> "1RQYL4ZS1-K243F2-TR" [constraint=true]
+	"1RQYL1F02-X22MXQ-JL" [label=provides shape=none]
+	"1RQYKY1DX-1H4RWJ4-8F" [label="User Authentication
+" fillcolor=white shape=rect style=filled]
+	"1RQYL1F02-X22MXQ-JL" -> "1RQYKY1DX-1H4RWJ4-8F" [constraint=true]
+	"1RQYL5T14-1N1M9P1-WG" [label=provides shape=none]
+	"1RQYKY1DX-1H4RWJ4-8F" [label="User Authentication
+" fillcolor=white shape=rect style=filled]
+	"1RQYL5T14-1N1M9P1-WG" -> "1RQYKY1DX-1H4RWJ4-8F" [constraint=true]
+	"1RQYLL1L0-Q1F5JJ-1GD" [label=weakens shape=none]
+	"1RQYKY1DX-1H4RWJ4-8F" [label="User Authentication
+" fillcolor=white shape=rect style=filled]
+	"1RQYLL1L0-Q1F5JJ-1GD" -> "1RQYKY1DX-1H4RWJ4-8F" [constraint=true]
+	"1RQYLHXY4-W8PT2D-1BV" [label=prevents shape=none]
+	"1RQYLBZNR-1VG7VH3-135" [label="multiple password 
+use" fillcolor=white shape=rect style=filled]
+	"1RQYLHXY4-W8PT2D-1BV" -> "1RQYLBZNR-1VG7VH3-135" [constraint=true]
+	"1RQYL6STC-2546JZ8-YJ" [label="finds out" shape=none]
+	"1RQYKYDQN-1403QXM-D5" [label=password fillcolor=white shape=rect style=filled]
+	"1RQYL6STC-2546JZ8-YJ" -> "1RQYKYDQN-1403QXM-D5" [constraint=true]
+	"1RQYKYDQN-1403QXM-D5" [label=password fillcolor=white shape=rect style=filled]
+	"1RQYL1F02-X22MXQ-JL" [label=provides shape=none]
+	"1RQYKYDQN-1403QXM-D5" -> "1RQYL1F02-X22MXQ-JL" [constraint=true]
+	"1RQYLHCLP-1G9SM7V-19J" [label="user education
+" fillcolor=white shape=rect style=filled]
+	"1RQYLHXY4-W8PT2D-1BV" [label=prevents shape=none]
+	"1RQYLHCLP-1G9SM7V-19J" -> "1RQYLHXY4-W8PT2D-1BV" [constraint=true]
+	"1RQYLDCQF-187BSY8-157" [label="insecure state
+" fillcolor=white shape=rect style=filled]
+	"1RQYLL1L0-Q1F5JJ-1GD" [label=weakens shape=none]
+	"1RQYLDCQF-187BSY8-157" -> "1RQYLL1L0-Q1F5JJ-1GD" [constraint=true]
+	"1RQYLBZNR-1VG7VH3-135" [label="multiple password 
+use" fillcolor=white shape=rect style=filled]
+	"1RQYLDTCP-R4TS76-15Z" [label=creates shape=none]
+	"1RQYLBZNR-1VG7VH3-135" -> "1RQYLDTCP-R4TS76-15Z" [constraint=true]
+	"1RQYLB59L-183RK41-12B" [label=takes shape=none]
+	"1RQYL3TVS-RLKS8Z-R7" [label=token fillcolor=white shape=rect style=filled]
+	"1RQYLB59L-183RK41-12B" -> "1RQYL3TVS-RLKS8Z-R7" [constraint=true]
+	"1RQYL6989-19H7X01-X9" [label="offline dictionary 
+attack" fillcolor=white shape=rect style=filled]
+	"1RQYL6STC-2546JZ8-YJ" [label="finds out" shape=none]
+	"1RQYL6989-19H7X01-X9" -> "1RQYL6STC-2546JZ8-YJ" [constraint=true]
+	"1RQYLGNFN-23TLY1K-18R" [label=avoids shape=none]
+	"1RQYLDCQF-187BSY8-157" [label="insecure state
+" fillcolor=white shape=rect style=filled]
+	"1RQYLGNFN-23TLY1K-18R" -> "1RQYLDCQF-187BSY8-157" [constraint=true]
+	"1RQYLDTCP-R4TS76-15Z" [label=creates shape=none]
+	"1RQYLDCQF-187BSY8-157" [label="insecure state
+" fillcolor=white shape=rect style=filled]
+	"1RQYLDTCP-R4TS76-15Z" -> "1RQYLDCQF-187BSY8-157" [constraint=true]
+	"1RQYLJL1S-1KGDPS4-1CR" [label="reactive and 
+proactive 
+password checking
+" fillcolor=white shape=rect style=filled]
+	"1RQYLK84L-21BWG05-1FC" [label=prevent shape=none]
+	"1RQYLJL1S-1KGDPS4-1CR" -> "1RQYLK84L-21BWG05-1FC" [constraint=true]
+	"1RQYL473Q-K5N1VF-RR" [label=provides shape=none]
+	"1RQYKY1DX-1H4RWJ4-8F" [label="User Authentication
+" fillcolor=white shape=rect style=filled]
+	"1RQYL473Q-K5N1VF-RR" -> "1RQYKY1DX-1H4RWJ4-8F" [constraint=true]
+	"1RQYL97YB-216YY-112" [label=deters shape=none]
+	"1RQYL6989-19H7X01-X9" [label="offline dictionary 
+attack" fillcolor=white shape=rect style=filled]
+	"1RQYL97YB-216YY-112" -> "1RQYL6989-19H7X01-X9" [constraint=true]
+	"1RQYL8TF2-L82WWS-10G" [label=salting fillcolor=white shape=rect style=filled]
+	"1RQYL97YB-216YY-112" [label=deters shape=none]
+	"1RQYL8TF2-L82WWS-10G" -> "1RQYL97YB-216YY-112" [constraint=true]
+	"1RQYL4ZS1-K243F2-TR" [label=provides shape=none]
+	"1RQYKY1DX-1H4RWJ4-8F" [label="User Authentication
+" fillcolor=white shape=rect style=filled]
+	"1RQYL4ZS1-K243F2-TR" -> "1RQYKY1DX-1H4RWJ4-8F" [constraint=true]
+	"1RQYLG50L-8PS60B-17J" [label="computer generated 
+password" fillcolor=white shape=rect style=filled]
+	"1RQYLGNFN-23TLY1K-18R" [label=avoids shape=none]
+	"1RQYLG50L-8PS60B-17J" -> "1RQYLGNFN-23TLY1K-18R" [constraint=true]
+	"1RQYL3TVS-RLKS8Z-R7" [label=token fillcolor=white shape=rect style=filled]
+	"1RQYL473Q-K5N1VF-RR" [label=provides shape=none]
+	"1RQYL3TVS-RLKS8Z-R7" -> "1RQYL473Q-K5N1VF-RR" [constraint=true]
+	"1RQYL9KWC-K197V1-11W" [label=theft fillcolor=white shape=rect style=filled]
+	"1RQYLB59L-183RK41-12B" [label=takes shape=none]
+	"1RQYL9KWC-K197V1-11W" -> "1RQYLB59L-183RK41-12B" [constraint=true]
+	statictics [label="STATISTICS
+\lBranch:		1\lNode:		13\lLinking Phrase:	12\lOrphan:		0\lLeaf Node:	1\lPreposition:	1\lSub Map:		1\lAvg Word Per Concept:	0.31\l" Gsplines=true fillcolor="#F5FFFA" shape=component style=filled]
+	file_info [label="CMAP Information
+
+\lTitle:	UAAnonymous18.cmap\lCreated:	2020-12-07T07:50:09-05:00\lModified:	2020-12-07T07:50:09-05:00\lLanguage:	en\lFormat:	x-cmap/x-storable\lPublisher:	FIHMC CmapTools 6.04\lWidth:	648\lHeight:	613\l" Gsplines=true fillcolor="#E6E6FA" shape=tab style=filled]
+}

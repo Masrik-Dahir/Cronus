@@ -1,0 +1,188 @@
+// The Round Table
+digraph {
+	"1S40L2B16-1R08P02-1RD4" [label="increases the difficulty of offline dictionary attacks" Gsplines=true shape=rect style=filled]
+	"1S3Z9C49B-1SHLZ2J-KZV" [label="UNIX PASSWORD SCHEME Module 2" Gsplines=true shape=rect style=filled]
+	"1S40LF88S-1N2MMKC-1RY8" [label="is comprised 
+of" Gsplines=true fontcolor="#3B6300" shape=none]
+	"1S40L089H-1X6W431-1R88" [label=SALTS Gsplines=true fillcolor=aquamarine shape=rect style=filled]
+	"1S40LF88S-1N2MMKC-1RY8" -> "1S40L089H-1X6W431-1R88" [constraint=true]
+	"1S40KZXS9-B8F1Q6-1R7S" [label=HASHES Gsplines=true fillcolor=aquamarine shape=doubleoctagon style=filled]
+	"1S40LF88S-1N2MMKC-1RY8" [label="is comprised 
+of" Gsplines=true fontcolor="#3B6300" shape=none]
+	"1S40KZXS9-B8F1Q6-1R7S" -> "1S40LF88S-1N2MMKC-1RY8" [constraint=true]
+	"1S40LD5TX-1YL6BB-1RWJ" [label="illustrated 
+by" Gsplines=true fontcolor=red shape=none]
+	"1S629BVR9-H3V3FH-KZB" [label="password and 
+salt serve 
+as inputs 
+to a hashing 
+algorithm 
+to produce 
+a fixed-length 
+hash code 
+and is designed 
+to be slow 
+to execute 
+in order to 
+thwart attacks
+" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S40LD5TX-1YL6BB-1RWJ" -> "1S629BVR9-H3V3FH-KZB" [constraint=true]
+	"1S62BHMKH-JXPXC8-NP3" [label="PASSWORD SCHEME 
+FOR UNIX" Gsplines=true fillcolor="#FFB6C1" shape=doubleoctagon style=filled]
+	"1S40LF88S-1N2MMKC-1RY8" [label="is comprised 
+of" Gsplines=true fontcolor="#3B6300" shape=none]
+	"1S62BHMKH-JXPXC8-NP3" -> "1S40LF88S-1N2MMKC-1RY8" [constraint=true]
+	"1S40LD5TX-1YL6BB-1RWJ" [label="illustrated 
+by" Gsplines=true fontcolor=red shape=none]
+	"1S40L1FBX-1QC441P-1R9T" [label="hashed password 
+is then stored, 
+together with 
+a plain text 
+copy of the 
+salt, in the 
+password file 
+for the corresponding 
+user ID" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S40LD5TX-1YL6BB-1RWJ" -> "1S40L1FBX-1QC441P-1R9T" [constraint=true]
+	"1S40L17W3-1Q9JFLX-1R8Y" [label=Loading Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S40LD5TX-1YL6BB-1RWJ" [label="illustrated 
+by" Gsplines=true fontcolor=red shape=none]
+	"1S40L17W3-1Q9JFLX-1R8Y" -> "1S40LD5TX-1YL6BB-1RWJ" [constraint=true]
+	"1S40L1SK8-12ZV05Y-1RBQ" [label="has the purpose 
+of" Gsplines=true fontcolor="#3B6300" shape=none]
+	"1S40L1SK7-7M37BS-1RBM" [label="prevents duplicate 
+passwords 
+from being 
+visible in 
+the password 
+file" Gsplines=true fillcolor=aquamarine shape=rect style=filled]
+	"1S40L1SK8-12ZV05Y-1RBQ" -> "1S40L1SK7-7M37BS-1RBM" [constraint=true]
+	"1S40L1SK8-12ZV05Y-1RBQ" [label="has the purpose 
+of" Gsplines=true fontcolor="#3B6300" shape=none]
+	"1S40L2B16-1R08P02-1RD4" [label="increases 
+the difficulty 
+of offline 
+dictionary 
+attacks" Gsplines=true fillcolor=aquamarine shape=rect style=filled]
+	"1S40L1SK8-12ZV05Y-1RBQ" -> "1S40L2B16-1R08P02-1RD4" [constraint=true]
+	"1S40LBT2H-BV58HL-1RT9" [label=Verification Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S40LDRPZ-1XJ5H2L-1RXQ" [label="depicted by
+" Gsplines=true fontcolor=red shape=none]
+	"1S40LBT2H-BV58HL-1RT9" -> "1S40LDRPZ-1XJ5H2L-1RXQ" [constraint=true]
+	"1S40L089H-1X6W431-1R88" [label=SALTS Gsplines=true fillcolor=aquamarine shape=rect style=filled]
+	"1S40L1SK8-12ZV05Y-1RBQ" [label="has the purpose 
+of" Gsplines=true fontcolor="#3B6300" shape=none]
+	"1S40L089H-1X6W431-1R88" -> "1S40L1SK8-12ZV05Y-1RBQ" [constraint=true]
+	"1S40L17W3-1GKS84G-1R91" [label="use of hashed 
+passwords 
+by" Gsplines=true fontcolor="#3B6300" shape=none]
+	"1S40L17W3-1Q9JFLX-1R8Y" [label=Loading Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S40L17W3-1GKS84G-1R91" -> "1S40L17W3-1Q9JFLX-1R8Y" [constraint=true]
+	"1S40LD5TX-1YL6BB-1RWJ" [label="illustrated 
+by" Gsplines=true fontcolor=red shape=none]
+	"1S40LD5TW-1TCC7J2-1RWF" [label="to load a 
+new password 
+into the system, 
+the user selects 
+or is assigned 
+a password, 
+which is is 
+combined with 
+a fixed-length 
+salt value
+" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S40LD5TX-1YL6BB-1RWJ" -> "1S40LD5TW-1TCC7J2-1RWF" [constraint=true]
+	"1S40L52S9-9XSXC9-1RK5" [label="does so by
+" Gsplines=true fontcolor="#3B6300" shape=none]
+	"1S40L52S8-1KZX1M7-1RK2" [label="salt changes 
+the hash values 
+of the same 
+password" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S40L52S9-9XSXC9-1RK5" -> "1S40L52S8-1KZX1M7-1RK2" [constraint=true]
+	"1S40L17W3-1GKS84G-1R91" [label="use of hashed 
+passwords 
+by" Gsplines=true fontcolor="#3B6300" shape=none]
+	"1S40LBT2H-BV58HL-1RT9" [label=Verification Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S40L17W3-1GKS84G-1R91" -> "1S40LBT2H-BV58HL-1RT9" [constraint=true]
+	"1S40LD5TX-1YL6BB-1RWJ" [label="illustrated 
+by" Gsplines=true fontcolor=red shape=none]
+	"1S629HV3B-1CNSTFD-L96" [label="in older implementations, 
+the salt value 
+is related 
+to the time 
+at which the 
+password is 
+assigned to 
+the user, 
+while newer 
+implementations 
+use a pseudo 
+random or 
+random number
+" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S40LD5TX-1YL6BB-1RWJ" -> "1S629HV3B-1CNSTFD-L96" [constraint=true]
+	"1S40L1SK7-7M37BS-1RBM" [label="prevents duplicate 
+passwords 
+from being 
+visible in 
+the password 
+file" Gsplines=true fillcolor=aquamarine shape=rect style=filled]
+	"1S40L52S9-9XSXC9-1RK5" [label="does so by
+" Gsplines=true fontcolor="#3B6300" shape=none]
+	"1S40L1SK7-7M37BS-1RBM" -> "1S40L52S9-9XSXC9-1RK5" [constraint=true]
+	"1S40KZXS9-B8F1Q6-1R7S" [label=HASHES Gsplines=true fillcolor=aquamarine shape=doubleoctagon style=filled]
+	"1S40L17W3-1GKS84G-1R91" [label="use of hashed 
+passwords 
+by" Gsplines=true fontcolor="#3B6300" shape=none]
+	"1S40KZXS9-B8F1Q6-1R7S" -> "1S40L17W3-1GKS84G-1R91" [constraint=true]
+	"1S40LDRPZ-1XJ5H2L-1RXQ" [label="depicted by
+" Gsplines=true fontcolor=red shape=none]
+	"1S62B311P-1B98J5S-MBF" [label="salt and user-supplied 
+password are 
+used as input 
+to the encryption 
+routine, and 
+if the result 
+matches the 
+stored value, 
+the password 
+is accepted
+" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S40LDRPZ-1XJ5H2L-1RXQ" -> "1S62B311P-1B98J5S-MBF" [constraint=true]
+	"1S40LDRPZ-1XJ5H2L-1RXQ" [label="depicted by
+" Gsplines=true fontcolor=red shape=none]
+	"1S40LD2YL-B4VN39-1RVM" [label="when a user 
+attempts to 
+log on to 
+a UNIX system, 
+the user provides 
+an ID and 
+a password, 
+then the operating 
+system uses 
+the ID to 
+index into 
+the password 
+file and retrieve 
+the plain 
+text salt 
+and the encrypted 
+password" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S40LDRPZ-1XJ5H2L-1RXQ" -> "1S40LD2YL-B4VN39-1RVM" [constraint=true]
+	"1S40L52S9-9XSXC9-1RK5" [label="does so by
+" Gsplines=true fontcolor="#3B6300" shape=none]
+	"1S40L6SJB-145BNHD-1RN4" [label="difficulty 
+in discovering 
+whether a 
+person has 
+used the same 
+password on 
+two or more 
+systems" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S40L52S9-9XSXC9-1RK5" -> "1S40L6SJB-145BNHD-1RN4" [constraint=true]
+	Stat [label="SUMMERY
+
+Matched Branch:		0\lPartially Matched Branch:	4\lMismatched Branch:		5\lExtra Branch:			31\lTotal Match:		36.36 %\lConcept Match:	25.0 %\lLink. Phr. Match:	66.67 %\lMisconception:		100.0 %\lHierarchy Match:	15.98 %\l" Gsplines=true fillcolor="#F5FFFA" shape=component style=filled]
+	Grade [label="Grade:	17.43%" Gsplines=true fillcolor="#FFEBCD" shape=note style=filled]
+	Stat -> Grade [arrowhead=inv color=black constraint=true]
+}

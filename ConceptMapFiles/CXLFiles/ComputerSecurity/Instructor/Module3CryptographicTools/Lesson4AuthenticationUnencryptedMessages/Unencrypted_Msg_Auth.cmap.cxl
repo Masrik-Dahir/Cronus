@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmap xmlns:dcterms="http://purl.org/dc/terms/" xmlns="http://cmap.ihmc.us/xml/cmap/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+    <res-meta>
+        <dc:title>Unencrypted_Msg_Auth.cmap</dc:title>
+        <dcterms:created>2020-12-07T07:33:24-05:00</dcterms:created>
+        <dcterms:modified>2020-12-07T07:33:24-05:00</dcterms:modified>
+        <dc:language>en</dc:language>
+        <dc:format>x-cmap/x-storable</dc:format>
+        <dc:publisher>FIHMC CmapTools 6.04</dc:publisher>
+        <dc:source>cmap:1W5Z76G0X-151MD9Y-1:external-folder:file:////C:/Users/masri/PycharmProjects/cmapProject/ConceptMapFiles/CMAPFiles/ComputerSecurity/Instructor/Module3CryptographicTools/Lesson4AuthenticationUnencryptedMessages/Unencrypted_Msg_Auth.cmap</dc:source>
+    </res-meta>
+    <map width="836" height="604">
+        <concept-list>
+            <concept id="1S46JZQGY-1GN9QG-B61" label="authentication on a selective basis &#xa;with messages being randomly chosen"/>
+            <concept id="1S46JZ9VK-12R24VT-B5Q" label="message itself is not encrypted and can be read&#xa; at the destination with an authentication function "/>
+            <concept id="1S46JY6TV-65544C-B3B" label="authentication tag or code is generated using&#xa; keys and then is appended with each message "/>
+            <concept id="1S46JYKPZ-DKCMZV-B58" label="WITHOUT&#xa;MESSAGE&#xa;ENCRYPTION"/>
+            <concept id="1S46JYDWR-1FQHWWL-B50" label="one side has a heavy load and &#xa;cannot afford the time to decrypt&#xa; all the incoming messages"/>
+            <concept id="1S3ZPN5S0-1Q3SJBW-RM2" label="AUTHENTICATION without MESSAGE ENCRYPTION&#xa;Module 3"/>
+            <concept id="1S46JZ7RZ-FKGWPD-B5L" label="same message is broadcast&#xa; to a number of destination"/>
+            <concept id="1S46JYHDY-2LCMRV-B54" label="notification to users that the &#xa;network is unavailable"/>
+        </concept-list>
+        <linking-phrase-list>
+            <linking-phrase id="1S46K8SJD-N8HDKH-BSR" label="illustrated by"/>
+            <linking-phrase id="1S46KKGXY-1918QMS-C85" label="inducing"/>
+            <linking-phrase id="1S46KCCMG-2DRNZCV-BW5" label="encryption not &#xa;required when"/>
+            <linking-phrase id="1S46KM484-1440NJL-CB7" label="begetting"/>
+        </linking-phrase-list>
+        <connection-list>
+            <connection id="1S46K8SJG-P5XWCK-BSW" from-id="1S46JYKPZ-DKCMZV-B58" to-id="1S46K8SJD-N8HDKH-BSR"/>
+            <connection id="1S46KKGXY-11356F7-C88" from-id="1S46JZ7RZ-FKGWPD-B5L" to-id="1S46KKGXY-1918QMS-C85"/>
+            <connection id="1S46KCCMH-2BB7F0N-BWF" from-id="1S46KCCMG-2DRNZCV-BW5" to-id="1S46JZ7RZ-FKGWPD-B5L"/>
+            <connection id="1S46KFVMM-11CF7VG-BZP" from-id="1S46KCCMG-2DRNZCV-BW5" to-id="1S46JYDWR-1FQHWWL-B50"/>
+            <connection id="1S46KL8W9-1GLNF20-C9J" from-id="1S46JYDWR-1FQHWWL-B50" to-id="1S46KM484-1440NJL-CB7"/>
+            <connection id="1S46KKGXZ-VGJ4FN-C8G" from-id="1S46KKGXY-1918QMS-C85" to-id="1S46JYHDY-2LCMRV-B54"/>
+            <connection id="1S46KL8W9-1ZCQPYM-C9Q" from-id="1S46KM484-1440NJL-CB7" to-id="1S46JZQGY-1GN9QG-B61"/>
+            <connection id="1S46K8SJG-19C7D80-BT2" from-id="1S46K8SJD-N8HDKH-BSR" to-id="1S46JY6TV-65544C-B3B"/>
+            <connection id="1S46KCCMH-JJ5VPJ-BW8" from-id="1S46JYKPZ-DKCMZV-B58" to-id="1S46KCCMG-2DRNZCV-BW5"/>
+            <connection id="1S46K8ZKC-21XQ0W-BTK" from-id="1S46K8SJD-N8HDKH-BSR" to-id="1S46JZ9VK-12R24VT-B5Q"/>
+        </connection-list>
+        <concept-appearance-list>
+            <concept-appearance id="1S46JZQGY-1GN9QG-B61" x="733" y="547" width="250" height="42" font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full"
+                border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0"
+                group-child-spacing="10" group-parent-spacing="10"/>
+            <concept-appearance id="1S46JZ9VK-12R24VT-B5Q" x="569" y="282" width="323" height="40" font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full"
+                border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0"
+                group-child-spacing="10" group-parent-spacing="10"/>
+            <concept-appearance id="1S46JY6TV-65544C-B3B" x="561" y="202" width="306" height="42" font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full"
+                border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0"
+                group-child-spacing="10" group-parent-spacing="10"/>
+            <concept-appearance id="1S46JYKPZ-DKCMZV-B58" x="78" y="331" width="95" height="54" font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full"
+                border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0"
+                group-child-spacing="10" group-parent-spacing="10"/>
+            <concept-appearance id="1S46JYDWR-1FQHWWL-B50" x="400" y="600" width="217" height="57" font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full"
+                border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0"
+                group-child-spacing="10" group-parent-spacing="10"/>
+            <concept-appearance id="1S3ZPN5S0-1Q3SJBW-RM2" x="212" y="71" width="375" height="88" font-name="Verdana" font-size="12" font-style="bold" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full"
+                border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="375" min-height="80" max-width="-1.0"
+                group-child-spacing="10" group-parent-spacing="10"/>
+            <concept-appearance id="1S46JZ7RZ-FKGWPD-B5L" x="393" y="512" width="183" height="40" font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full"
+                border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0"
+                group-child-spacing="10" group-parent-spacing="10"/>
+            <concept-appearance id="1S46JYHDY-2LCMRV-B54" x="697" y="445" width="192" height="40" font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full"
+                border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0"
+                group-child-spacing="10" group-parent-spacing="10"/>
+        </concept-appearance-list>
+        <linking-phrase-appearance-list>
+            <linking-phrase-appearance id="1S46K8SJD-N8HDKH-BSR" x="205" y="451" width="81" height="14"/>
+            <linking-phrase-appearance id="1S46KKGXY-1918QMS-C85" x="542" y="508" width="53" height="14"/>
+            <linking-phrase-appearance id="1S46KCCMG-2DRNZCV-BW5" x="148" y="606" width="94" height="28"/>
+            <linking-phrase-appearance id="1S46KM484-1440NJL-CB7" x="568" y="601" width="59" height="14" stylesheet-id="1S46KM484-1KJLB3X-CBB"/>
+        </linking-phrase-appearance-list>
+        <connection-appearance-list>
+            <connection-appearance id="1S46K8SJG-P5XWCK-BSW" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1S46KKGXY-11356F7-C88" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1S46KCCMH-2BB7F0N-BWF" from-pos="center" to-pos="left"/>
+            <connection-appearance id="1S46KFVMM-11CF7VG-BZP" from-pos="center" to-pos="left"/>
+            <connection-appearance id="1S46KL8W9-1GLNF20-C9J" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1S46KKGXZ-VGJ4FN-C8G" from-pos="center" to-pos="left"/>
+            <connection-appearance id="1S46KL8W9-1ZCQPYM-C9Q" from-pos="center" to-pos="left"/>
+            <connection-appearance id="1S46K8SJG-19C7D80-BT2" from-pos="center" to-pos="left"/>
+            <connection-appearance id="1S46KCCMH-JJ5VPJ-BW8" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1S46K8ZKC-21XQ0W-BTK" from-pos="center" to-pos="center"/>
+        </connection-appearance-list>
+        <style-sheet-list>
+            <style-sheet id="_Default_">
+                <map-style background-color="255,255,255,0" image-style="full" image-top-left="0,0"/>
+                <concept-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1"
+                    border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <linking-phrase-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0" background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1"
+                    border-shape="rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <connection-style color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+                <resource-style font-name="SanSerif" font-size="12" font-style="plain" font-color="0,0,0,255" background-color="192,192,192,255"/>
+            </style-sheet>
+            <style-sheet id="_LatestChanges_">
+                <concept-style font-style="plain"/>
+            </style-sheet>
+            <style-sheet id="1S46KM484-1KJLB3X-CBB">
+                <concept-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1"
+                    border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <linking-phrase-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0" background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1"
+                    border-shape="rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <connection-style color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+                <resource-style font-name="SanSerif" font-size="12" font-style="plain" font-color="0,0,0,255" background-color="192,192,192,255"/>
+            </style-sheet>
+        </style-sheet-list>
+        <extra-graphical-properties-list>
+            <properties-list id="file:////C:/Users/masri/PycharmProjects/cmapProject/ConceptMapFiles/CMAPFiles/ComputerSecurity/Instructor/Module3CryptographicTools/Lesson4AuthenticationUnencryptedMessages/Unencrypted_Msg_Auth.cmap">
+                <property key="StyleSheetGroup_0" value="//*@!#$%%^&amp;*()() No Grouped StyleSheets @"/>
+            </properties-list>
+        </extra-graphical-properties-list>
+    </map>
+</cmap>

@@ -1,0 +1,130 @@
+// The Round Table
+digraph {
+	"1S3ZPKHM8-134B56F-R97" [label="AUTHENTICATION with SYMMETRIC ENCRYPTION Module 3" Gsplines=true fontsize=20 shape=rect style=filled]
+	"1S46Q24P3-1JVFNHG-SL" [label=AUTHENTICATION Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=doubleoctagon style=filled]
+	"1S46Q8172-1CQ8RVS-15S" [label="requires more 
+than" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S46Q24P3-1JVFNHG-SL" -> "1S46Q8172-1CQ8RVS-15S" [constraint=true]
+	"1S46QBS0D-11Q0YW7-19R" [label="depicted by
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46Q04T4-18QYM7Z-RC" [label="only the sender 
+and the receiver 
+have the key
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46QBS0D-11Q0YW7-19R" -> "1S46Q04T4-18QYM7Z-RC" [constraint=true]
+	"1S46QGJB6-MTRRH-1G7" [label="if includes 
+both" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46Q1JWS-241HG51-SD" [label="sequence number
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46QGJB6-MTRRH-1G7" -> "1S46Q1JWS-241HG51-SD" [constraint=true]
+	"1S46QGJB6-MTRRH-1G7" [label="if includes 
+both" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46Q1H24-25BQNGK-S8" [label="error detection 
+code" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46QGJB6-MTRRH-1G7" -> "1S46Q1H24-25BQNGK-S8" [constraint=true]
+	"1S46QCX9K-11SS2J0-1CQ" [label="portrayed 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46Q2LZZ-R7XK4T-T3" [label="unlikely that 
+the sequence 
+number is 
+associated 
+with each 
+block" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46QCX9K-11SS2J0-1CQ" -> "1S46Q2LZZ-R7XK4T-T3" [constraint=true]
+	"1S46Q09LB-R6K99P-RM" [label="message delay 
+beyond normal 
+expectation 
+can be checked 
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46QYQ6G-1XHL7SR-21N" [label="if includes
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46Q09LB-R6K99P-RM" -> "1S46QYQ6G-1XHL7SR-21N" [constraint=true]
+	"1S46QJ75F-XB1Y84-1J4" [label="through the 
+process of
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46Q0S97-SB1KG2-RW" [label="genuine sender 
+can encrypt 
+the message 
+successfully" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46QJ75F-XB1Y84-1J4" -> "1S46Q0S97-SB1KG2-RW" [constraint=true]
+	"1S46QBS0D-11Q0YW7-19R" [label="depicted by
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46Q09LB-R6K99P-RM" [label="message delay 
+beyond normal 
+expectation 
+can be checked 
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46QBS0D-11Q0YW7-19R" -> "1S46Q09LB-R6K99P-RM" [constraint=true]
+	"1S46QJ75F-XB1Y84-1J4" [label="through the 
+process of
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46Q0V2C-1ZTCWHZ-S0" [label="receiver can 
+decrypt and 
+recognize 
+the original 
+message" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46QJ75F-XB1Y84-1J4" -> "1S46Q0V2C-1ZTCWHZ-S0" [constraint=true]
+	"1S46Q8172-1CQ8RVS-15S" [label="requires more 
+than" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S46Q278L-1BY0H5G-SQ" [label="SYMMETRIC 
+ENCRYTION" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46Q8172-1CQ8RVS-15S" -> "1S46Q278L-1BY0H5G-SQ" [constraint=true]
+	"1S46QBS0D-11Q0YW7-19R" [label="depicted by
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46Q07Q1-MSRTM7-RH" [label="message integrity 
+can be checked
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46QBS0D-11Q0YW7-19R" -> "1S46Q07Q1-MSRTM7-RH" [constraint=true]
+	"1S46Q24P3-1JVFNHG-SL" [label=AUTHENTICATION Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=doubleoctagon style=filled]
+	"1S46QBS0D-11Q0YW7-19R" [label="depicted by
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46Q24P3-1JVFNHG-SL" -> "1S46QBS0D-11Q0YW7-19R" [constraint=true]
+	"1S46Q07Q1-MSRTM7-RH" [label="message integrity 
+can be checked
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46QGJB6-MTRRH-1G7" [label="if includes 
+both" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46Q07Q1-MSRTM7-RH" -> "1S46QGJB6-MTRRH-1G7" [constraint=true]
+	"1S46QCX9K-11SS2J0-1CQ" [label="portrayed 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46Q2CCG-26FJ5BV-SV" [label="in block cipher, 
+block reordering 
+in ciphertext 
+may alter 
+the meaning 
+of the overall 
+data sequence
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46QCX9K-11SS2J0-1CQ" -> "1S46Q2CCG-26FJ5BV-SV" [constraint=true]
+	"1S46Q278L-1BY0H5G-SQ" [label="SYMMETRIC 
+ENCRYTION" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46QCX9K-11SS2J0-1CQ" [label="portrayed 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46Q278L-1BY0H5G-SQ" -> "1S46QCX9K-11SS2J0-1CQ" [constraint=true]
+	"1S46Q04T4-18QYM7Z-RC" [label="only the sender 
+and the receiver 
+have the key
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46QJ75F-XB1Y84-1J4" [label="through the 
+process of
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46Q04T4-18QYM7Z-RC" -> "1S46QJ75F-XB1Y84-1J4" [constraint=true]
+	"1S46QCX9K-11SS2J0-1CQ" [label="portrayed 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46Q2HGV-J01S4Z-SZ" [label="reordering 
+does not effect 
+decryption 
+of the blocks
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46QCX9K-11SS2J0-1CQ" -> "1S46Q2HGV-J01S4Z-SZ" [constraint=true]
+	"1S46QYQ6G-1XHL7SR-21N" [label="if includes
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46QYG90-10J836V-20W" [label="time stamp
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46QYQ6G-1XHL7SR-21N" -> "1S46QYG90-10J836V-20W" [constraint=true]
+	Stat [label="SUMMERY
+
+Matched Branch:			0\lPartially Matched Branch:	3\lMismatched Branch:		5\lExtra Branch:				16\lTotal Match:		5.0 %\lConcept Match:	0.0 %\lLink. Phr. Match:	16.67 %\lMisconception:	100.0 %\lHierarchy Match:	10.0 %\l" Gsplines=true fillcolor="#F5FFFA" fontsize=20 shape=component style=filled]
+	Grade [label="Grade:	5.05%" Gsplines=true fillcolor="#FFEBCD" fontsize=20 shape=note style=filled]
+	Stat -> Grade [arrowhead=inv color=black constraint=true]
+}

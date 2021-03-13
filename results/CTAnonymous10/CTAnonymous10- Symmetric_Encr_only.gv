@@ -1,0 +1,496 @@
+// The Round Table
+digraph {
+	Student [label="Student: CTAnonymous10" fillcolor=gold fontsize=20 shape=component style=filled]
+	1507039765225697673867 [label="verifes that 
+message is 
+authentic" fillcolor=white fontsize=20 shape=rect style=filled]
+	15070398077431612464654 [label="Checks if" fontsize=20 shape=none]
+	1507039765225697673867 -> 15070398077431612464654 [constraint=true]
+	"1506998566923-1124918588" [label="Does not" fontsize=20 shape=none]
+	"1506998566917-1316938215" [label="provide confidentiality
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1506998566923-1124918588" -> "1506998566917-1316938215" [constraint=true]
+	"1506997734956-896540555" [label="Cryptographic 
+Tools" fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1506997754852-987833435" [label="Types of Encryption
+" fontsize=20 shape=none]
+	"1506997734956-896540555" -> "1506997754852-987833435" [constraint=true]
+	15070398077431612464654 [label="Checks if" fontsize=20 shape=none]
+	"1507039807737-2119705816" [label="contents not 
+altered" fillcolor=white fontsize=20 shape=rect style=filled]
+	15070398077431612464654 -> "1507039807737-2119705816" [constraint=true]
+	"1507038820830-1174778472" [label=Practice fontsize=20 shape=none]
+	1507038854064750472129 [label="uses encryption 
+to encrypt 
+secret key 
+shared to 
+sender/ receiver
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1507038820830-1174778472" -> 1507038854064750472129 [constraint=true]
+	"1506997941428-1929611106" [label="Types of Authentication
+" fontsize=20 shape=none]
+	15070400968971629007266 [label="Without Encryption
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1506997941428-1929611106" -> 15070400968971629007266 [constraint=true]
+	150703912473612956907 [label=Algorithms fontsize=20 shape=none]
+	"1507039124731-1626631188" [label="Block Cipher
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	150703912473612956907 -> "1507039124731-1626631188" [constraint=true]
+	"1506997754852-987833435" [label="Types of Encryption
+" fontsize=20 shape=none]
+	1506997814799735374594 [label="Symmetric 
+Encryption" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1506997754852-987833435" -> 1506997814799735374594 [constraint=true]
+	150699798219310886049 [label=Details fontsize=20 shape=none]
+	15069980558121907956102 [label="sender encrypts 
+data using 
+receivers 
+public key
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	150699798219310886049 -> 15069980558121907956102 [constraint=true]
+	150703932320516748148 [label=Details fontsize=20 shape=none]
+	15070393979291463337905 [label="encrypts plain 
+text byte 
+by byte" fillcolor=white fontsize=20 shape=rect style=filled]
+	150703932320516748148 -> 15070393979291463337905 [constraint=true]
+	"1507038957678-1766583022" [label=Attacking fontsize=20 shape=none]
+	1507039026329983107435 [label="Brute Force
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1507038957678-1766583022" -> 1507039026329983107435 [constraint=true]
+	1506998187702976762454 [label="Public Key 
+Certificates" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1506998992541-797280712" [label="Used as" fontsize=20 shape=none]
+	1506998187702976762454 -> "1506998992541-797280712" [constraint=true]
+	15069981633932056075650 [label="Digital Signatures
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1506998566923-1124918588" [label="Does not" fontsize=20 shape=none]
+	15069981633932056075650 -> "1506998566923-1124918588" [constraint=true]
+	15069981633982077701751 [label=Application fontsize=20 shape=none]
+	15069981633932056075650 [label="Digital Signatures
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	15069981633982077701751 -> 15069981633932056075650 [constraint=true]
+	"1507039721278-242645092" [label=List fontsize=20 shape=none]
+	15070397212731461242948 [label="protects against 
+active attacks
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1507039721278-242645092" -> 15070397212731461242948 [constraint=true]
+	15070398077431612464654 [label="Checks if" fontsize=20 shape=none]
+	"1507039834137-1228667329" [label="from source 
+thats authentic
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	15070398077431612464654 -> "1507039834137-1228667329" [constraint=true]
+	"1506998917620-708928946" [label="Digital Envelopes
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1506998931852-1559928408" [label="Provides Protection 
+by" fontsize=20 shape=none]
+	"1506998917620-708928946" -> "1506998931852-1559928408" [constraint=true]
+	15069981633982077701751 [label=Application fontsize=20 shape=none]
+	1506998187702976762454 [label="Public Key 
+Certificates" fillcolor=white fontsize=20 shape=rect style=filled]
+	15069981633982077701751 -> 1506998187702976762454 [constraint=true]
+	150699798219310886049 [label=Details fontsize=20 shape=none]
+	1506998105529110864517 [label="receiver decrypts 
+message with 
+public key
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	150699798219310886049 -> 1506998105529110864517 [constraint=true]
+	15070391834621809679056 [label=Implementation fontsize=20 shape=none]
+	"1507039183457-653078262" [label="processes 
+input block 
+by block" fillcolor=white fontsize=20 shape=rect style=filled]
+	15070391834621809679056 -> "1507039183457-653078262" [constraint=true]
+	"1506998931852-1559928408" [label="Provides Protection 
+by" fontsize=20 shape=none]
+	"1506998931848-573972213" [label="not exchanging 
+the same key 
+between sender/receiver
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1506998931852-1559928408" -> "1506998931848-573972213" [constraint=true]
+	150703932320516748148 [label=Details fontsize=20 shape=none]
+	1507039373913888833582 [label="more efficient 
+than block 
+cipher" fillcolor=white fontsize=20 shape=rect style=filled]
+	150703932320516748148 -> 1507039373913888833582 [constraint=true]
+	"1506997941428-1929611106" [label="Types of Authentication
+" fontsize=20 shape=none]
+	"1507040081569-1410814887" [label="Hash Functions
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1506997941428-1929611106" -> "1507040081569-1410814887" [constraint=true]
+	15070391834621809679056 [label=Implementation fontsize=20 shape=none]
+	15070392533121802454481 [label="can reuse 
+keys" fillcolor=white fontsize=20 shape=rect style=filled]
+	15070391834621809679056 -> 15070392533121802454481 [constraint=true]
+	1507038769688412533175 [label=Details fontsize=20 shape=none]
+	1507038769683215204510 [label="similar to 
+RSA" fillcolor=white fontsize=20 shape=rect style=filled]
+	1507038769688412533175 -> 1507038769683215204510 [constraint=true]
+	"1507038957678-1766583022" [label=Attacking fontsize=20 shape=none]
+	1507038957672710657948 [label="Cryptanalytic 
+Attack" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1507038957678-1766583022" -> 1507038957672710657948 [constraint=true]
+	15070391834621809679056 [label=Implementation fontsize=20 shape=none]
+	"1507039230408-1627883182" [label="produce output 
+for each input 
+key" fillcolor=white fontsize=20 shape=rect style=filled]
+	15070391834621809679056 -> "1507039230408-1627883182" [constraint=true]
+	150699798219310886049 [label=Details fontsize=20 shape=none]
+	"1506998036064-1290962561" [label="data encrypted 
+with publicly 
+known key" fillcolor=white fontsize=20 shape=rect style=filled]
+	150699798219310886049 -> "1506998036064-1290962561" [constraint=true]
+	"1507039124731-1626631188" [label="Block Cipher
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	15070391834621809679056 [label=Implementation fontsize=20 shape=none]
+	"1507039124731-1626631188" -> 15070391834621809679056 [constraint=true]
+	"1506997754852-987833435" [label="Types of Encryption
+" fontsize=20 shape=none]
+	1506997754846533984840 [label="Asymmetric 
+Encryption" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1506997754852-987833435" -> 1506997754846533984840 [constraint=true]
+	15070394712462122064867 [label="Strength Concerns
+" fontsize=20 shape=none]
+	15070394712411153986457 [label="most studied 
+algorithm 
+cracked in 
+1998 by EFF
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	15070394712462122064867 -> 15070394712411153986457 [constraint=true]
+	15070401247752103667243 [label="Number Generators
+" fontsize=20 shape=none]
+	"1507040148817-1903607295" [label="Pseudo Random
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	15070401247752103667243 -> "1507040148817-1903607295" [constraint=true]
+	1506999244528242731380 [label=Features fontsize=20 shape=none]
+	"1506998612025-1890073968" [label="to create 
+key parts" fillcolor=white fontsize=20 shape=rect style=filled]
+	1506999244528242731380 -> "1506998612025-1890073968" [constraint=true]
+	1506999244528242731380 [label=Features fontsize=20 shape=none]
+	"1506998645349-341030168" [label="for sender 
+knowing public 
+key to encrypt 
+message" fillcolor=white fontsize=20 shape=rect style=filled]
+	1506999244528242731380 -> "1506998645349-341030168" [constraint=true]
+	"1506997734956-896540555" [label="Cryptographic 
+Tools" fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1506997941428-1929611106" [label="Types of Authentication
+" fontsize=20 shape=none]
+	"1506997734956-896540555" -> "1506997941428-1929611106" [constraint=true]
+	15069981633932056075650 [label="Digital Signatures
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	15069985070811316058648 [label="Created by
+" fontsize=20 shape=none]
+	15069981633932056075650 -> 15069985070811316058648 [constraint=true]
+	"1507039549533-2051131456" [label=Drawback fontsize=20 shape=none]
+	"1507039568297-2094807125" [label="uses 64-bit 
+block size
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1507039549533-2051131456" -> "1507039568297-2094807125" [constraint=true]
+	"1507039721278-242645092" [label=List fontsize=20 shape=none]
+	1507039885404318873390 [label="conventional 
+encryption" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1507039721278-242645092" -> 1507039885404318873390 [constraint=true]
+	"1507039549533-2051131456" [label=Drawback fontsize=20 shape=none]
+	1507039549529547455027 [label="sluggish in 
+software" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1507039549533-2051131456" -> 1507039549529547455027 [constraint=true]
+	1507039072893912485125 [label=Details fontsize=20 shape=none]
+	"1507039072888-2014763899" [label="strength of 
+hash functions 
+depends on 
+length of 
+hash code 
+produced by 
+algorithm" fillcolor=white fontsize=20 shape=rect style=filled]
+	1507039072893912485125 -> "1507039072888-2014763899" [constraint=true]
+	1506997754846533984840 [label="Asymmetric 
+Encryption" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1506999393261-709429556" [label=Algorithms fontsize=20 shape=none]
+	1506997754846533984840 -> "1506999393261-709429556" [constraint=true]
+	1506997754846533984840 [label="Asymmetric 
+Encryption" fillcolor=white fontsize=20 shape=rect style=filled]
+	150699798219310886049 [label=Details fontsize=20 shape=none]
+	1506997754846533984840 -> 150699798219310886049 [constraint=true]
+	1507038957672710657948 [label="Cryptanalytic 
+Attack" fillcolor=white fontsize=20 shape=rect style=filled]
+	1507039038301512373733 [label=Details fontsize=20 shape=none]
+	1507038957672710657948 -> 1507039038301512373733 [constraint=true]
+	15070398077431612464654 [label="Checks if" fontsize=20 shape=none]
+	"1507039851416-1849026855" [label="timely and 
+in correct 
+sequence" fillcolor=white fontsize=20 shape=rect style=filled]
+	15070398077431612464654 -> "1507039851416-1849026855" [constraint=true]
+	"1507038820830-1174778472" [label=Practice fontsize=20 shape=none]
+	"1507038820824-1718532605" [label="takes in plan 
+text input
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1507038820830-1174778472" -> "1507038820824-1718532605" [constraint=true]
+	"1506997734956-896540555" [label="Cryptographic 
+Tools" fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1506997847416-2129002837" [label="Encryption 
+Standards" fontsize=20 shape=none]
+	"1506997734956-896540555" -> "1506997847416-2129002837" [constraint=true]
+	1506997814799735374594 [label="Symmetric 
+Encryption" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1507038957678-1766583022" [label=Attacking fontsize=20 shape=none]
+	1506997814799735374594 -> "1507038957678-1766583022" [constraint=true]
+	1506997887582238599544 [label="Triple DES 
+(3DES)" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1507039549533-2051131456" [label=Drawback fontsize=20 shape=none]
+	1506997887582238599544 -> "1507039549533-2051131456" [constraint=true]
+	1506997814799735374594 [label="Symmetric 
+Encryption" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1507038820830-1174778472" [label=Practice fontsize=20 shape=none]
+	1506997814799735374594 -> "1507038820830-1174778472" [constraint=true]
+	"1506999393261-709429556" [label=Algorithms fontsize=20 shape=none]
+	"1506999505247-357641700" [label="Elliptic Curve 
+Cryptography 
+(ECC)" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1506999393261-709429556" -> "1506999505247-357641700" [constraint=true]
+	150703912473612956907 [label=Algorithms fontsize=20 shape=none]
+	15070392867611645056571 [label="Stream Cipher
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	150703912473612956907 -> 15070392867611645056571 [constraint=true]
+	15069985070811316058648 [label="Created by
+" fontsize=20 shape=none]
+	1506998507077305232829 [label="encrypting 
+hash code 
+with private 
+key" fillcolor=white fontsize=20 shape=rect style=filled]
+	15069985070811316058648 -> 1506998507077305232829 [constraint=true]
+	"1506999505247-357641700" [label="Elliptic Curve 
+Cryptography 
+(ECC)" fillcolor=white fontsize=20 shape=rect style=filled]
+	1507038769688412533175 [label=Details fontsize=20 shape=none]
+	"1506999505247-357641700" -> 1507038769688412533175 [constraint=true]
+	"1506999393261-709429556" [label=Algorithms fontsize=20 shape=none]
+	15069994726301992453886 [label="Digital Signature 
+Standard (DSS)
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1506999393261-709429556" -> 15069994726301992453886 [constraint=true]
+	"1507038820830-1174778472" [label=Practice fontsize=20 shape=none]
+	15070389000801196290409 [label="transmit the 
+cipher text
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1507038820830-1174778472" -> 15070389000801196290409 [constraint=true]
+	"1506997734956-896540555" [label="Cryptographic 
+Tools" fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	15070401247752103667243 [label="Number Generators
+" fontsize=20 shape=none]
+	"1506997734956-896540555" -> 15070401247752103667243 [constraint=true]
+	150703932320516748148 [label=Details fontsize=20 shape=none]
+	15070393516661113890113 [label="produces output 
+elements by 
+element" fillcolor=white fontsize=20 shape=rect style=filled]
+	150703932320516748148 -> 15070393516661113890113 [constraint=true]
+	"1506997941422-74506201" [label=Features fillcolor=white fontsize=20 shape=rect style=filled]
+	"1507039721278-242645092" [label=List fontsize=20 shape=none]
+	"1506997941422-74506201" -> "1507039721278-242645092" [constraint=true]
+	15070392867611645056571 [label="Stream Cipher
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	150703932320516748148 [label=Details fontsize=20 shape=none]
+	15070392867611645056571 -> 150703932320516748148 [constraint=true]
+	"1506997847416-2129002837" [label="Encryption 
+Standards" fontsize=20 shape=none]
+	1506997911526967430478 [label="Advanced Encryption 
+Standard (AES)
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1506997847416-2129002837" -> 1506997911526967430478 [constraint=true]
+	"1507038820830-1174778472" [label=Practice fontsize=20 shape=none]
+	15070389159521254422552 [label="decryption 
+algorithm 
+provided with 
+secret key
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1507038820830-1174778472" -> 15070389159521254422552 [constraint=true]
+	1506997754846533984840 [label="Asymmetric 
+Encryption" fillcolor=white fontsize=20 shape=rect style=filled]
+	1506999244528242731380 [label=Features fontsize=20 shape=none]
+	1506997754846533984840 -> 1506999244528242731380 [constraint=true]
+	"1506999393261-709429556" [label=Algorithms fontsize=20 shape=none]
+	15069994434381290524467 [label="Diffe-Hellmand 
+Key Exchange
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1506999393261-709429556" -> 15069994434381290524467 [constraint=true]
+	"1507037739892-701704110" [label=Details fontsize=20 shape=none]
+	15070377398821287514457 [label="most widely 
+used approach
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1507037739892-701704110" -> 15070377398821287514457 [constraint=true]
+	1506997814799735374594 [label="Symmetric 
+Encryption" fillcolor=white fontsize=20 shape=rect style=filled]
+	150703912473612956907 [label=Algorithms fontsize=20 shape=none]
+	1506997814799735374594 -> 150703912473612956907 [constraint=true]
+	"1506997941428-1929611106" [label="Types of Authentication
+" fontsize=20 shape=none]
+	"1506997941422-74506201" [label=Features fillcolor=white fontsize=20 shape=rect style=filled]
+	"1506997941428-1929611106" -> "1506997941422-74506201" [constraint=true]
+	15069994434381290524467 [label="Diffe-Hellmand 
+Key Exchange
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1507038561630-857262478" [label=Details fontsize=20 shape=none]
+	15069994434381290524467 -> "1507038561630-857262478" [constraint=true]
+	150703951340513667176 [label="Reason for 
+Creation" fontsize=20 shape=none]
+	"1507039513401-1570745878" [label="replacement 
+for 2DES" fillcolor=white fontsize=20 shape=rect style=filled]
+	150703951340513667176 -> "1507039513401-1570745878" [constraint=true]
+	"1507039721278-242645092" [label=List fontsize=20 shape=none]
+	1507039765225697673867 [label="verifes that 
+message is 
+authentic" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1507039721278-242645092" -> 1507039765225697673867 [constraint=true]
+	"1506998992541-797280712" [label="Used as" fontsize=20 shape=none]
+	15069989925331910569311 [label="Electronic 
+document to 
+prove ownership 
+of public 
+key" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1506998992541-797280712" -> 15069989925331910569311 [constraint=true]
+	"1507038561630-857262478" [label=Details fontsize=20 shape=none]
+	15070385616251250231233 [label="enables 2 
+users to secretly 
+reach an agreement 
+about a shared 
+key" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1507038561630-857262478" -> 15070385616251250231233 [constraint=true]
+	15069981633982077701751 [label=Application fontsize=20 shape=none]
+	"1506998917620-708928946" [label="Digital Envelopes
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	15069981633982077701751 -> "1506998917620-708928946" [constraint=true]
+	1507038769688412533175 [label=Details fontsize=20 shape=none]
+	"1507038795120-377875070" [label="smaller keys
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	1507038769688412533175 -> "1507038795120-377875070" [constraint=true]
+	150703932320516748148 [label=Details fontsize=20 shape=none]
+	15070393232011563075153 [label="processes 
+input continuously
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	150703932320516748148 -> 15070393232011563075153 [constraint=true]
+	"1506999393253-1876863826" [label="Rivest Shamir 
+Acilerman 
+(RSA)" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1507037739892-701704110" [label=Details fontsize=20 shape=none]
+	"1506999393253-1876863826" -> "1507037739892-701704110" [constraint=true]
+	15070386050861730445874 [label=Details fontsize=20 shape=none]
+	"1507038699960-1697969594" [label="not used for 
+encryption 
+of key exchange
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	15070386050861730445874 -> "1507038699960-1697969594" [constraint=true]
+	1507039038301512373733 [label=Details fontsize=20 shape=none]
+	15070390382971258849454 [label="exploits logical 
+weakness of 
+the algorithm
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	1507039038301512373733 -> 15070390382971258849454 [constraint=true]
+	"1506997847416-2129002837" [label="Encryption 
+Standards" fontsize=20 shape=none]
+	1506997887582238599544 [label="Triple DES 
+(3DES)" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1506997847416-2129002837" -> 1506997887582238599544 [constraint=true]
+	"1506999393261-709429556" [label=Algorithms fontsize=20 shape=none]
+	"1506999393253-1876863826" [label="Rivest Shamir 
+Acilerman 
+(RSA)" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1506999393261-709429556" -> "1506999393253-1876863826" [constraint=true]
+	15070401247752103667243 [label="Number Generators
+" fontsize=20 shape=none]
+	"1507040124769-84862993" [label=Random fillcolor=white fontsize=20 shape=rect style=filled]
+	15070401247752103667243 -> "1507040124769-84862993" [constraint=true]
+	"1506997847416-2129002837" [label="Encryption 
+Standards" fontsize=20 shape=none]
+	1506997847410783217803 [label="Data Encryption 
+Standard (DES)
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1506997847416-2129002837" -> 1506997847410783217803 [constraint=true]
+	150699798219310886049 [label=Details fontsize=20 shape=none]
+	"1506997982187-59496083" [label="Uses two separate 
+keys public 
+or private 
+keys" fillcolor=white fontsize=20 shape=rect style=filled]
+	150699798219310886049 -> "1506997982187-59496083" [constraint=true]
+	1506998466185331232405 [label=Authenticates fontsize=20 shape=none]
+	"1506998486428-1687357600" [label="data integrity
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	1506998466185331232405 -> "1506998486428-1687357600" [constraint=true]
+	15070386050861730445874 [label=Details fontsize=20 shape=none]
+	150703860508172857689 [label="provides only 
+a digital 
+signature 
+function with 
+SHA-1" fillcolor=white fontsize=20 shape=rect style=filled]
+	15070386050861730445874 -> 150703860508172857689 [constraint=true]
+	"1507038561630-857262478" [label=Details fontsize=20 shape=none]
+	"1507038624880-1445837281" [label="limited to 
+the exchange 
+of keys" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1507038561630-857262478" -> "1507038624880-1445837281" [constraint=true]
+	150699798219310886049 [label=Details fontsize=20 shape=none]
+	15069980177992048268468 [label="user encrypts 
+data with 
+their key" fillcolor=white fontsize=20 shape=rect style=filled]
+	150699798219310886049 -> 15069980177992048268468 [constraint=true]
+	1506997754846533984840 [label="Asymmetric 
+Encryption" fillcolor=white fontsize=20 shape=rect style=filled]
+	15069981633982077701751 [label=Application fontsize=20 shape=none]
+	1506997754846533984840 -> 15069981633982077701751 [constraint=true]
+	1506999244528242731380 [label=Features fontsize=20 shape=none]
+	"1506998775275-1831252525" [label="infeasible 
+for opponent 
+to determine 
+private key 
+from public 
+key" fillcolor=white fontsize=20 shape=rect style=filled]
+	1506999244528242731380 -> "1506998775275-1831252525" [constraint=true]
+	1506997911526967430478 [label="Advanced Encryption 
+Standard (AES)
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	150703951340513667176 [label="Reason for 
+Creation" fontsize=20 shape=none]
+	1506997911526967430478 -> 150703951340513667176 [constraint=true]
+	1506999244528242731380 [label=Features fontsize=20 shape=none]
+	15069986786502125788374 [label="for receiver 
+knowing private 
+key to decrypt 
+cipher text 
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	1506999244528242731380 -> 15069986786502125788374 [constraint=true]
+	1506997847410783217803 [label="Data Encryption 
+Standard (DES)
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	15070394712462122064867 [label="Strength Concerns
+" fontsize=20 shape=none]
+	1506997847410783217803 -> 15070394712462122064867 [constraint=true]
+	"1507037739892-701704110" [label=Details fontsize=20 shape=none]
+	150703778767295069092 [label="use block 
+cipher" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1507037739892-701704110" -> 150703778767295069092 [constraint=true]
+	15069981633932056075650 [label="Digital Signatures
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	1506998466185331232405 [label=Authenticates fontsize=20 shape=none]
+	15069981633932056075650 -> 1506998466185331232405 [constraint=true]
+	1507039026329983107435 [label="Brute Force
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	1507039072893912485125 [label=Details fontsize=20 shape=none]
+	1507039026329983107435 -> 1507039072893912485125 [constraint=true]
+	15069994726301992453886 [label="Digital Signature 
+Standard (DSS)
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	15070386050861730445874 [label=Details fontsize=20 shape=none]
+	15069994726301992453886 -> 15070386050861730445874 [constraint=true]
+	1506998466185331232405 [label=Authenticates fontsize=20 shape=none]
+	"1506998466179-425909560" [label=source fillcolor=white fontsize=20 shape=rect style=filled]
+	1506998466185331232405 -> "1506998466179-425909560" [constraint=true]
+	1506520186606495557718 [label="CSCI4621 Fall 
+2017 Slide 
+Set3 - Cryptographic 
+Tools Brandon 
+McClinton 
+2403482 September 
+27, 2017" fillcolor=white fontsize=20 shape=rect style=filled]
+	statictics [label="STATISTICS
+\lBranch:		49\lNode:		68\lLinking Phrase:	29\lOrphan:		1\lLeaf Node:	49\lPreposition:	67\lSub Map:		1\lAvg Word Per Concept:	4.48\l" Gsplines=true fillcolor="#F5FFFA" fontsize=20 shape=component style=filled]
+	file_info [label="CMAP Information
+
+\lTitle:	CTAnonymous10.cmap\lCreated:	2020-12-07T07:54:30-05:00\lModified:	2020-12-07T07:54:30-05:00\lLanguage:	en\lFormat:	x-cmap/x-storable\lPublisher:	FIHMC CmapTools 6.04\lWidth:	3197\lHeight:	851\l" Gsplines=true fillcolor="#E6E6FA" fontsize=20 shape=tab style=filled]
+}

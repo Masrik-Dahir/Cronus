@@ -1,0 +1,97 @@
+// The Round Table
+digraph {
+	Student [label="Student: UAAnonymous16" fillcolor=gold shape=component style=filled]
+	"1RRCV8HBR-SXX7CK-RH" [label="System ways 
+to protect 
+passwords" shape=none]
+	"1RRCVHSLP-FR0F7L-1BM" [label="Fix vulnerabilities 
+with regards 
+to access 
+to the password 
+file" fillcolor=white shape=rect style=filled]
+	"1RRCV8HBR-SXX7CK-RH" -> "1RRCVHSLP-FR0F7L-1BM" [constraint=true]
+	"1RRCV8HBR-SXX7CK-RH" [label="System ways 
+to protect 
+passwords" shape=none]
+	"1RRCVB1P4-V67X4F-WW" [label="Use encryption 
+and salt hashing 
+to make it 
+difficult 
+for attackers 
+to use dictionary 
+attacks" fillcolor=white shape=rect style=filled]
+	"1RRCV8HBR-SXX7CK-RH" -> "1RRCVB1P4-V67X4F-WW" [constraint=true]
+	"1RRCVFQRT-1QHYWHB-130" [label="User ways 
+to protect 
+passwords" shape=none]
+	"1RRCVL00V-2BHNY37-1L8" [label="Do not leave 
+your password 
+on your computer
+" fillcolor=white shape=rect style=filled]
+	"1RRCVFQRT-1QHYWHB-130" -> "1RRCVL00V-2BHNY37-1L8" [constraint=true]
+	"1RRCV7WZL-DP1JQT-PN" [label="Password Security
+" fillcolor=white shape=doubleoctagon style=filled]
+	"1RRCV8HBR-SXX7CK-RH" [label="System ways 
+to protect 
+passwords" shape=none]
+	"1RRCV7WZL-DP1JQT-PN" -> "1RRCV8HBR-SXX7CK-RH" [constraint=true]
+	"1RRCV7WZL-DP1JQT-PN" [label="Password Security
+" fillcolor=white shape=doubleoctagon style=filled]
+	"1RRCVFQRT-1QHYWHB-130" [label="User ways 
+to protect 
+passwords" shape=none]
+	"1RRCV7WZL-DP1JQT-PN" -> "1RRCVFQRT-1QHYWHB-130" [constraint=true]
+	"1RRCV8HBR-SXX7CK-RH" [label="System ways 
+to protect 
+passwords" shape=none]
+	"1RRCVN4DN-1NJQ1SQ-1R0" [label="Check to see 
+if passwords 
+are easily 
+guessable 
+and have users 
+change them
+" fillcolor=white shape=rect style=filled]
+	"1RRCV8HBR-SXX7CK-RH" -> "1RRCVN4DN-1NJQ1SQ-1R0" [constraint=true]
+	"1RRCVFQRT-1QHYWHB-130" [label="User ways 
+to protect 
+passwords" shape=none]
+	"1RRCVFQRT-1Z817TB-12X" [label="Use long passwords 
+that are easy 
+for you to 
+remember but 
+hard to crack
+" fillcolor=white shape=rect style=filled]
+	"1RRCVFQRT-1QHYWHB-130" -> "1RRCVFQRT-1Z817TB-12X" [constraint=true]
+	"1RRCVFQRT-1QHYWHB-130" [label="User ways 
+to protect 
+passwords" shape=none]
+	"1RRCVK2M8-21M4CFD-1HW" [label="Do not save 
+your passwords 
+in your email
+" fillcolor=white shape=rect style=filled]
+	"1RRCVFQRT-1QHYWHB-130" -> "1RRCVK2M8-21M4CFD-1HW" [constraint=true]
+	"1RRCV8HBR-SXX7CK-RH" [label="System ways 
+to protect 
+passwords" shape=none]
+	"1RRCV8HBR-Q03DTZ-RD" [label="Separate passwords 
+from password 
+file and put 
+them in their 
+own file." fillcolor=white shape=rect style=filled]
+	"1RRCV8HBR-SXX7CK-RH" -> "1RRCV8HBR-Q03DTZ-RD" [constraint=true]
+	"1RRCV8HBR-SXX7CK-RH" [label="System ways 
+to protect 
+passwords" shape=none]
+	"1RRCVC7ZG-25C2G5M-10T" [label="Enforce rules 
+that passwords 
+must adhere 
+to" fillcolor=white shape=rect style=filled]
+	"1RRCV8HBR-SXX7CK-RH" -> "1RRCVC7ZG-25C2G5M-10T" [constraint=true]
+	"1RRCV6ZL2-Q8BSPX-M6" [label="Majde Judeh 
+2456567" fillcolor=white shape=rect style=filled]
+	statictics [label="STATISTICS
+\lBranch:		8\lNode:		9\lLinking Phrase:	2\lOrphan:		1\lLeaf Node:	8\lPreposition:	8\lSub Map:		1\lAvg Word Per Concept:	8.9\l" Gsplines=true fillcolor="#F5FFFA" shape=component style=filled]
+	file_info [label="CMAP Information
+
+\lTitle:	UAAnonymous16.cmap\lCreated:	2020-12-07T07:49:54-05:00\lModified:	2020-12-07T07:49:54-05:00\lLanguage:	en\lFormat:	x-cmap/x-storable\lPublisher:	FIHMC CmapTools 6.04\lWidth:	1107\lHeight:	634\l" Gsplines=true fillcolor="#E6E6FA" shape=tab style=filled]
+}

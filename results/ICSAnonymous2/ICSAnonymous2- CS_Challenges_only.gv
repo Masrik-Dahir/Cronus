@@ -1,0 +1,535 @@
+// The Round Table
+digraph {
+	Student [label="Student: ICSAnonymous2" fillcolor=gold fontsize=20 shape=component style=filled]
+	"1RPV90TYM-2B560HS-3NM" [label=Includes fontsize=20 shape=none]
+	"1RPV91944-22ZJVKY-3Q4" [label="Correctness/Assurance" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPV90TYM-2B560HS-3NM" -> "1RPV91944-22ZJVKY-3Q4" [constraint=true]
+	"1RPV78PZ3-4MN7DV-1TP" [label=Assurance fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPV9522X-DM3P45-3VB" [label=Includes fontsize=20 shape=none]
+	"1RPV78PZ3-4MN7DV-1TP" -> "1RPV9522X-DM3P45-3VB" [constraint=true]
+	"1RPV7NLHT-1C2JMFQ-23M" [label=Adversary fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPVCSHKN-RYK29X-86D" [label=Defined fontsize=20 shape=none]
+	"1RPV7NLHT-1C2JMFQ-23M" -> "1RPVCSHKN-RYK29X-86D" [constraint=true]
+	"1RPV7K9SC-1KYN3NF-1YZ" [label=Includes fontsize=20 shape=none]
+	"1RPV7KX91-19T12M5-1ZQ" [label=Countermeasure fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPV7K9SC-1KYN3NF-1YZ" -> "1RPV7KX91-19T12M5-1ZQ" [constraint=true]
+	"1RPV6LQ4K-WFQ2WK-1HM" [label=Terminology fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPV5T0PT-26C7RP5-159" [label="Security Topics
+" fontsize=20 shape=none]
+	"1RPV6LQ4K-WFQ2WK-1HM" -> "1RPV5T0PT-26C7RP5-159" [constraint=true]
+	"1RPV88JQV-13B5YG2-2N7" [label=Includes fontsize=20 shape=none]
+	"1RPV8B9NQ-8ST6YF-2RB" [label="Attacker only 
+needs to find 
+one weakness, 
+while the 
+developer 
+needs to find 
+all weaknesses
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPV88JQV-13B5YG2-2N7" -> "1RPV8B9NQ-8ST6YF-2RB" [constraint=true]
+	"1RPV8BPCJ-2BMG52L-2SF" [label="Sometimes 
+considered 
+an impediment 
+to efficient 
+and user-friendly 
+operations" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPV88JQV-13B5YG2-2N7" [label=Includes fontsize=20 shape=none]
+	"1RPV8BPCJ-2BMG52L-2SF" -> "1RPV88JQV-13B5YG2-2N7" [constraint=true]
+	"1RPV9522X-DM3P45-3VB" [label=Includes fontsize=20 shape=none]
+	"1RPV9522X-1K54X65-3V7" [label="Degree of 
+confidence 
+in the security 
+measures intended 
+to protect 
+the system 
+and the information 
+it processes
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPV9522X-DM3P45-3VB" -> "1RPV9522X-1K54X65-3V7" [constraint=true]
+	"1RPV5THM2-H0RKK4-16P" [label=Confidentiality fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RPVBTP11-3BMGDX-6B4" [label=Involves fontsize=20 shape=none]
+	"1RPV5THM2-H0RKK4-16P" -> "1RPVBTP11-3BMGDX-6B4" [constraint=true]
+	"1RPV5QL20-1D8842M-12L" [label=Challenges fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RPV88JQV-13B5YG2-2N7" [label=Includes fontsize=20 shape=none]
+	"1RPV5QL20-1D8842M-12L" -> "1RPV88JQV-13B5YG2-2N7" [constraint=true]
+	"1RPV5VB2K-5KNKK3-180" [label=Integrity fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPVBYLRX-1FB1Q2Q-6KD" [label=Involves fontsize=20 shape=none]
+	"1RPV5VB2K-5KNKK3-180" -> "1RPVBYLRX-1FB1Q2Q-6KD" [constraint=true]
+	"1RPVBB9G9-1518RQB-58M" [label=Detection fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPVBJLLQ-1M9GDNS-5MY" [label=Involves fontsize=20 shape=none]
+	"1RPVBB9G9-1518RQB-58M" -> "1RPVBJLLQ-1M9GDNS-5MY" [constraint=true]
+	"1RPVCKCGV-2BML286-7WG" [label="Testing and 
+formal analytic 
+or mathematical 
+techniques" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPVCJLD3-LB6ZYH-7V1" [label=Involves fontsize=20 shape=none]
+	"1RPVCKCGV-2BML286-7WG" -> "1RPVCJLD3-LB6ZYH-7V1" [constraint=true]
+	"1RPV7N48Y-LCJKV8-21F" [label="System Resource 
+(Asst)" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPVD7H84-1TTY7TG-9BJ" [label=Defined fontsize=20 shape=none]
+	"1RPV7N48Y-LCJKV8-21F" -> "1RPVD7H84-1TTY7TG-9BJ" [constraint=true]
+	"1RPVD7H84-1TTY7TG-9BJ" [label=Defined fontsize=20 shape=none]
+	"1RPVD7H84-YDB916-9BF" [label="Data contained 
+in an information 
+system; or 
+a service 
+provided by 
+a system or 
+a system capabilit
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPVD7H84-1TTY7TG-9BJ" -> "1RPVD7H84-YDB916-9BF" [constraint=true]
+	"1RPV9Y215-1957FL-4S1" [label="Financial 
+Fraud" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPV9NB2L-1JQ60G1-4B4" [label="Types of Attacks
+" fontsize=20 shape=none]
+	"1RPV9Y215-1957FL-4S1" -> "1RPV9NB2L-1JQ60G1-4B4" [constraint=true]
+	"1RPV9NB2L-1JQ60G1-4B4" [label="Types of Attacks
+" fontsize=20 shape=none]
+	"1RPV9SN3H-28HCGKS-4HH" [label=Phishing fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPV9NB2L-1JQ60G1-4B4" -> "1RPV9SN3H-28HCGKS-4HH" [constraint=true]
+	"1RPVBB9G9-24RXNZ1-58Q" [label=Includes fontsize=20 shape=none]
+	"1RPVBDK13-1XWP33K-5CQ" [label=Prevention fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPVBB9G9-24RXNZ1-58Q" -> "1RPVBDK13-1XWP33K-5CQ" [constraint=true]
+	"1RPV7KX91-19T12M5-1ZQ" [label=Countermeasure fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPVCXKVK-1ZKDYZF-8KH" [label=Defined fontsize=20 shape=none]
+	"1RPV7KX91-19T12M5-1ZQ" -> "1RPVCXKVK-1ZKDYZF-8KH" [constraint=true]
+	"1RPV9NB2L-1JQ60G1-4B4" [label="Types of Attacks
+" fontsize=20 shape=none]
+	"1RPV9NB2L-1M7Z8VV-4B1" [label=Malware fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPV9NB2L-1JQ60G1-4B4" -> "1RPV9NB2L-1M7Z8VV-4B1" [constraint=true]
+	"1RPV5VB2K-1XG5G1Y-183" [label=Includes fontsize=20 shape=none]
+	"1RPV5VB2K-5KNKK3-180" [label=Integrity fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPV5VB2K-1XG5G1Y-183" -> "1RPV5VB2K-5KNKK3-180" [constraint=true]
+	"1RPV5QL20-1D8842M-12L" [label=Challenges fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RPV5T0PT-26C7RP5-159" [label="Security Topics
+" fontsize=20 shape=none]
+	"1RPV5QL20-1D8842M-12L" -> "1RPV5T0PT-26C7RP5-159" [constraint=true]
+	"1RPV9XF95-1JT4KPL-4PR" [label="Password Snifffing
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPV9NB2L-1JQ60G1-4B4" [label="Types of Attacks
+" fontsize=20 shape=none]
+	"1RPV9XF95-1JT4KPL-4PR" -> "1RPV9NB2L-1JQ60G1-4B4" [constraint=true]
+	"1RPV71KGT-1VNNF7R-1N8" [label=Strategies fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RPV5T0PT-26C7RP5-159" [label="Security Topics
+" fontsize=20 shape=none]
+	"1RPV71KGT-1VNNF7R-1N8" -> "1RPV5T0PT-26C7RP5-159" [constraint=true]
+	"1RPVCJLD3-LB6ZYH-7V1" [label=Involves fontsize=20 shape=none]
+	"1RPVCCXBH-GW89GB-7HQ" [label="Process of 
+examining 
+a computer 
+product or 
+system with 
+respect to 
+certain criteria
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPVCJLD3-LB6ZYH-7V1" -> "1RPVCCXBH-GW89GB-7HQ" [constraint=true]
+	"1RPV7P5RS-1H3JNB9-24N" [label=Vulnerabiity fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RPV7K9SC-1KYN3NF-1YZ" [label=Includes fontsize=20 shape=none]
+	"1RPV7P5RS-1H3JNB9-24N" -> "1RPV7K9SC-1KYN3NF-1YZ" [constraint=true]
+	"1RPV9NB2L-1JQ60G1-4B4" [label="Types of Attacks
+" fontsize=20 shape=none]
+	"1RPV9QZFD-KKL25Y-4F4" [label="Insider Absue 
+of net access 
+or Email" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPV9NB2L-1JQ60G1-4B4" -> "1RPV9QZFD-KKL25Y-4F4" [constraint=true]
+	"1RPV5WGB2-19KK3SV-196" [label=Availability fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPVC21PG-143MVFP-6R9" [label=Involves fontsize=20 shape=none]
+	"1RPV5WGB2-19KK3SV-196" -> "1RPVC21PG-143MVFP-6R9" [constraint=true]
+	"1RPV7B0YQ-1XW949W-1W8" [label=Evaluation fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RPV5T0PT-26C7RP5-159" [label="Security Topics
+" fontsize=20 shape=none]
+	"1RPV7B0YQ-1XW949W-1W8" -> "1RPV5T0PT-26C7RP5-159" [constraint=true]
+	"1RPVB2PCW-2268ZR0-4W2" [label=Consider fontsize=20 shape=none]
+	"1RPVB691Y-1MX5RQY-50S" [label="Potential 
+threats and 
+likelihood 
+of attacks
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPVB2PCW-2268ZR0-4W2" -> "1RPVB691Y-1MX5RQY-50S" [constraint=true]
+	"1RPV7K9SC-1KYN3NF-1YZ" [label=Includes fontsize=20 shape=none]
+	"1RPV7MPKC-2CN8Z8Z-20V" [label=Attack fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPV7K9SC-1KYN3NF-1YZ" -> "1RPV7MPKC-2CN8Z8Z-20V" [constraint=true]
+	"1RPV5T0PT-26C7RP5-159" [label="Security Topics
+" fontsize=20 shape=none]
+	"1RPV5T0P9-17NNJ40-156" [label="Key Concepts
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPV5T0PT-26C7RP5-159" -> "1RPV5T0P9-17NNJ40-156" [constraint=true]
+	"1RPVBP0TD-27B5RP6-5WK" [label=Example fontsize=20 shape=none]
+	"1RPVBP0SX-PFDLMX-5WG" [label="Secure encryption 
+algorithms" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPVBP0TD-27B5RP6-5WK" -> "1RPVBP0SX-PFDLMX-5WG" [constraint=true]
+	"1RPV88JQV-13B5YG2-2N7" [label=Includes fontsize=20 shape=none]
+	"1RPV89HLT-74D5JJ-2QP" [label="Often an afterthought 
+to be incorporated 
+into a system 
+after the 
+desing is 
+complete" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPV88JQV-13B5YG2-2N7" -> "1RPV89HLT-74D5JJ-2QP" [constraint=true]
+	"1RPVBYLRX-1FB1Q2Q-6KD" [label=Involves fontsize=20 shape=none]
+	"1RPVBZXNB-N59Z60-6NX" [label="Ensures information 
+nonrepudiation 
+and authenticity
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPVBYLRX-1FB1Q2Q-6KD" -> "1RPVBZXNB-N59Z60-6NX" [constraint=true]
+	"1RPV7MPKC-2CN8Z8Z-20V" [label=Attack fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPVCTGM9-23P81Z5-896" [label=Defined fontsize=20 shape=none]
+	"1RPV7MPKC-2CN8Z8Z-20V" -> "1RPVCTGM9-23P81Z5-896" [constraint=true]
+	"1RPVDBSD4-1Y3CN41-9HW" [label=Defined fontsize=20 shape=none]
+	"1RPVDBSD4-259X5YK-9HS" [label="A flaw or 
+weakness in 
+a system's 
+design, implmentation, 
+or operation 
+management 
+that could 
+be exploited 
+to violate 
+the system's 
+security policy
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPVDBSD4-1Y3CN41-9HW" -> "1RPVDBSD4-259X5YK-9HS" [constraint=true]
+	"1RPVBFNSN-17Q6455-5FY" [label=Involves fontsize=20 shape=none]
+	"1RPVBGN72-27LWHTB-5JD" [label="Detection 
+of DDOS" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPVBFNSN-17Q6455-5FY" -> "1RPVBGN72-27LWHTB-5JD" [constraint=true]
+	"1RPVBB9G9-24RXNZ1-58Q" [label=Includes fontsize=20 shape=none]
+	"1RPVBB9G9-1518RQB-58M" [label=Detection fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPVBB9G9-24RXNZ1-58Q" -> "1RPVBB9G9-1518RQB-58M" [constraint=true]
+	"1RPV6XWRR-1V9WGKG-1LL" [label=Trends fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RPV9NB2L-1JQ60G1-4B4" [label="Types of Attacks
+" fontsize=20 shape=none]
+	"1RPV6XWRR-1V9WGKG-1LL" -> "1RPV9NB2L-1JQ60G1-4B4" [constraint=true]
+	"1RPV88JQV-13B5YG2-2N7" [label=Includes fontsize=20 shape=none]
+	"1RPV88JQV-T7RFHN-2N4" [label="Users and 
+system managers 
+do not see 
+the benefits 
+of security 
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPV88JQV-13B5YG2-2N7" -> "1RPV88JQV-T7RFHN-2N4" [constraint=true]
+	"1RPVD4P38-207R5JX-92N" [label=Defined fontsize=20 shape=none]
+	"1RPVD4P38-1Z86X1L-92K" [label="A set of rules 
+and practices 
+that specify 
+or regulate 
+how a system 
+or organization 
+provides security 
+services to 
+protect sensitive 
+and critical 
+system resources
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPVD4P38-207R5JX-92N" -> "1RPVD4P38-1Z86X1L-92K" [constraint=true]
+	"1RPVD1K1C-1432LC3-8W1" [label=Defined fontsize=20 shape=none]
+	"1RPVD1K1C-15K2DR9-8VY" [label="An expectation 
+of loss expressed 
+as the probability 
+that a particular 
+threat will 
+exploit a 
+particular 
+vulnerability 
+with a particular 
+harmful result
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPVD1K1C-1432LC3-8W1" -> "1RPVD1K1C-15K2DR9-8VY" [constraint=true]
+	"1RPV5T0PT-26C7RP5-159" [label="Security Topics
+" fontsize=20 shape=none]
+	"1RPV75NQ3-8ZVV4S-1RP" [label=Implementation fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPV5T0PT-26C7RP5-159" -> "1RPV75NQ3-8ZVV4S-1RP" [constraint=true]
+	"1RPV5WGB2-19KK3SV-196" [label=Availability fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPV5VB2K-1XG5G1Y-183" [label=Includes fontsize=20 shape=none]
+	"1RPV5WGB2-19KK3SV-196" -> "1RPV5VB2K-1XG5G1Y-183" [constraint=true]
+	"1RPV5F1BX-1T45JHP-VR" [label="Computer Security
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPV5T0PT-26C7RP5-159" [label="Security Topics
+" fontsize=20 shape=none]
+	"1RPV5F1BX-1T45JHP-VR" -> "1RPV5T0PT-26C7RP5-159" [constraint=true]
+	"1RPVBYLRX-1FB1Q2Q-6KD" [label=Involves fontsize=20 shape=none]
+	"1RPVBYLRX-1ZTTLXR-6K9" [label="Guarding against 
+improper information 
+modification 
+or destruction
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPVBYLRX-1FB1Q2Q-6KD" -> "1RPVBYLRX-1ZTTLXR-6K9" [constraint=true]
+	"1RPV7K9SC-1KYN3NF-1YZ" [label=Includes fontsize=20 shape=none]
+	"1RPV7K9SC-1Q6MBG6-1YW" [label=Risk fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPV7K9SC-1KYN3NF-1YZ" -> "1RPV7K9SC-1Q6MBG6-1YW" [constraint=true]
+	"1RPV71KGT-1VNNF7R-1N8" [label=Strategies fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RPV90TYM-2B560HS-3NM" [label=Includes fontsize=20 shape=none]
+	"1RPV71KGT-1VNNF7R-1N8" -> "1RPV90TYM-2B560HS-3NM" [constraint=true]
+	"1RPV73SS0-1YG2V5T-1PY" [label=Policy fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RPV5T0PT-26C7RP5-159" [label="Security Topics
+" fontsize=20 shape=none]
+	"1RPV73SS0-1YG2V5T-1PY" -> "1RPV5T0PT-26C7RP5-159" [constraint=true]
+	"1RPVB2PCW-2268ZR0-4W2" [label=Consider fontsize=20 shape=none]
+	"1RPVB2PCW-QJY8YX-4VZ" [label="Value of the 
+assets being 
+protected" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPVB2PCW-2268ZR0-4W2" -> "1RPVB2PCW-QJY8YX-4VZ" [constraint=true]
+	"1RPVDDPP2-26RD7TD-9QS" [label=Defined fontsize=20 shape=none]
+	"1RPVDDPP2-F77M8F-9QP" [label="A potential 
+for violation 
+of security, 
+which exists 
+when there 
+is a circumstance, 
+capability, 
+action, or 
+event that 
+could breach 
+security and 
+cause harm. 
+A threat is 
+a possible 
+danger that 
+might exploit 
+a vulnerability.
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPVDDPP2-26RD7TD-9QS" -> "1RPVDDPP2-F77M8F-9QP" [constraint=true]
+	"1RPV7B0YQ-1XW949W-1W8" [label=Evaluation fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RPVCJLD3-LB6ZYH-7V1" [label=Involves fontsize=20 shape=none]
+	"1RPV7B0YQ-1XW949W-1W8" -> "1RPVCJLD3-LB6ZYH-7V1" [constraint=true]
+	"1RPVBB9G9-24RXNZ1-58Q" [label=Includes fontsize=20 shape=none]
+	"1RPVBDY1L-JHQ0VK-5DR" [label=Recovery fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPVBB9G9-24RXNZ1-58Q" -> "1RPVBDY1L-JHQ0VK-5DR" [constraint=true]
+	"1RPVBTP11-3BMGDX-6B4" [label=Involves fontsize=20 shape=none]
+	"1RPVBTP11-1SQSDWF-6B1" [label="Preserving 
+authroized 
+restrictions 
+on information 
+access and 
+disclosure" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPVBTP11-3BMGDX-6B4" -> "1RPVBTP11-1SQSDWF-6B1" [constraint=true]
+	"1RPV88JQV-13B5YG2-2N7" [label=Includes fontsize=20 shape=none]
+	"1RPV8BJ3C-YBQHTX-2RY" [label="Requries constant 
+monitoring" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPV88JQV-13B5YG2-2N7" -> "1RPV8BJ3C-YBQHTX-2RY" [constraint=true]
+	"1RPV75NQ3-8ZVV4S-1RP" [label=Implementation fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPVBB9G9-24RXNZ1-58Q" [label=Includes fontsize=20 shape=none]
+	"1RPV75NQ3-8ZVV4S-1RP" -> "1RPVBB9G9-24RXNZ1-58Q" [constraint=true]
+	"1RPV7K9SC-1KYN3NF-1YZ" [label=Includes fontsize=20 shape=none]
+	"1RPV7NLHT-1C2JMFQ-23M" [label=Adversary fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPV7K9SC-1KYN3NF-1YZ" -> "1RPV7NLHT-1C2JMFQ-23M" [constraint=true]
+	"1RPVBDK13-1XWP33K-5CQ" [label=Prevention fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPVBM11Y-2MWHFD-5RT" [label=Involves fontsize=20 shape=none]
+	"1RPVBDK13-1XWP33K-5CQ" -> "1RPVBM11Y-2MWHFD-5RT" [constraint=true]
+	"1RPV9NB2L-1JQ60G1-4B4" [label="Types of Attacks
+" fontsize=20 shape=none]
+	"1RPV9Q96L-1LTYTML-4CP" [label="Laptop/moblie 
+device theft
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPV9NB2L-1JQ60G1-4B4" -> "1RPV9Q96L-1LTYTML-4CP" [constraint=true]
+	"1RPV5THM2-H0RKK4-16P" [label=Confidentiality fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RPV5VB2K-1XG5G1Y-183" [label=Includes fontsize=20 shape=none]
+	"1RPV5THM2-H0RKK4-16P" -> "1RPV5VB2K-1XG5G1Y-183" [constraint=true]
+	"1RPVBTP11-3BMGDX-6B4" [label=Involves fontsize=20 shape=none]
+	"1RPVBWNJP-13394VC-6GN" [label="Protecting 
+personal privacy 
+and proprietary 
+information" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPVBTP11-3BMGDX-6B4" -> "1RPVBWNJP-13394VC-6GN" [constraint=true]
+	"1RPV7K9SC-1KYN3NF-1YZ" [label=Includes fontsize=20 shape=none]
+	"1RPV7LJSH-23LL9NT-206" [label="Security Policy
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPV7K9SC-1KYN3NF-1YZ" -> "1RPV7LJSH-23LL9NT-206" [constraint=true]
+	"1RPVBDY1L-JHQ0VK-5DR" [label=Recovery fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPVBHF3V-156X8DH-5KQ" [label=Example fontsize=20 shape=none]
+	"1RPVBDY1L-JHQ0VK-5DR" -> "1RPVBHF3V-156X8DH-5KQ" [constraint=true]
+	"1RPVBCY7G-S2B7BS-5BP" [label=Response fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPVBFNSN-17Q6455-5FY" [label=Involves fontsize=20 shape=none]
+	"1RPVBCY7G-S2B7BS-5BP" -> "1RPVBFNSN-17Q6455-5FY" [constraint=true]
+	"1RPV7P040-10622RQ-245" [label=Threat fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RPVDDPP2-26RD7TD-9QS" [label=Defined fontsize=20 shape=none]
+	"1RPV7P040-10622RQ-245" -> "1RPVDDPP2-26RD7TD-9QS" [constraint=true]
+	"1RPVB8GZP-240PZC6-55Q" [label="Cost of security 
+versus cost 
+of failue 
+and recovery
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPVB794K-1B7L2GR-52W" [label="Trade-offs" fontsize=20 shape=none]
+	"1RPVB8GZP-240PZC6-55Q" -> "1RPVB794K-1B7L2GR-52W" [constraint=true]
+	"1RPVC4BX0-24DT94P-6WB" [label="A loss of 
+availability 
+is the disruption 
+of access 
+to or use 
+of information 
+or an information 
+system" fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RPVC21PG-143MVFP-6R9" [label=Involves fontsize=20 shape=none]
+	"1RPVC4BX0-24DT94P-6WB" -> "1RPVC21PG-143MVFP-6R9" [constraint=true]
+	"1RPV9TVBB-BRH42Z-4JX" [label=DDOS fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPV9NB2L-1JQ60G1-4B4" [label="Types of Attacks
+" fontsize=20 shape=none]
+	"1RPV9TVBB-BRH42Z-4JX" -> "1RPV9NB2L-1JQ60G1-4B4" [constraint=true]
+	"1RPV7P5RS-1H3JNB9-24N" [label=Vulnerabiity fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RPVDBSD4-1Y3CN41-9HW" [label=Defined fontsize=20 shape=none]
+	"1RPV7P5RS-1H3JNB9-24N" -> "1RPVDBSD4-1Y3CN41-9HW" [constraint=true]
+	"1RPVB794K-1B7L2GR-52W" [label="Trade-offs" fontsize=20 shape=none]
+	"1RPVB794K-255HBB-52S" [label="Ease of use 
+versus security
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPVB794K-1B7L2GR-52W" -> "1RPVB794K-255HBB-52S" [constraint=true]
+	"1RPV90TYM-2B560HS-3NM" [label=Includes fontsize=20 shape=none]
+	"1RPV90TYM-13K0K0-3NJ" [label="Implementation/Mechansims" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPV90TYM-2B560HS-3NM" -> "1RPV90TYM-13K0K0-3NJ" [constraint=true]
+	"1RPVBJLLQ-1M9GDNS-5MY" [label=Involves fontsize=20 shape=none]
+	"1RPVBJLLQ-1DQXRWN-5MV" [label="Being able 
+to halt an 
+attack and 
+prevent further 
+damage" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPVBJLLQ-1M9GDNS-5MY" -> "1RPVBJLLQ-1DQXRWN-5MV" [constraint=true]
+	"1RPV6LQ4K-WFQ2WK-1HM" [label=Terminology fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPV7K9SC-1KYN3NF-1YZ" [label=Includes fontsize=20 shape=none]
+	"1RPV6LQ4K-WFQ2WK-1HM" -> "1RPV7K9SC-1KYN3NF-1YZ" [constraint=true]
+	"1RPV7LJSH-23LL9NT-206" [label="Security Policy
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPVD4P38-207R5JX-92N" [label=Defined fontsize=20 shape=none]
+	"1RPV7LJSH-23LL9NT-206" -> "1RPVD4P38-207R5JX-92N" [constraint=true]
+	"1RPVB2PCW-2268ZR0-4W2" [label=Consider fontsize=20 shape=none]
+	"1RPVB5R0B-21MCWV3-4Z9" [label="Vulnerabilities 
+of the System
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPVB2PCW-2268ZR0-4W2" -> "1RPVB5R0B-21MCWV3-4Z9" [constraint=true]
+	"1RPV9VDM7-1LH0CWK-4KK" [label="Bots on network
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPV9NB2L-1JQ60G1-4B4" [label="Types of Attacks
+" fontsize=20 shape=none]
+	"1RPV9VDM7-1LH0CWK-4KK" -> "1RPV9NB2L-1JQ60G1-4B4" [constraint=true]
+	"1RPV5T0P9-17NNJ40-156" [label="Key Concepts
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPV5VB2K-1XG5G1Y-183" [label=Includes fontsize=20 shape=none]
+	"1RPV5T0P9-17NNJ40-156" -> "1RPV5VB2K-1XG5G1Y-183" [constraint=true]
+	"1RPV90TYM-2B560HS-3NM" [label=Includes fontsize=20 shape=none]
+	"1RPV915C5-289V0R8-3PN" [label="Specification/Policy" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPV90TYM-2B560HS-3NM" -> "1RPV915C5-289V0R8-3PN" [constraint=true]
+	"1RPVBHF3V-156X8DH-5KQ" [label=Example fontsize=20 shape=none]
+	"1RPVBHF3V-47PG90-5KM" [label="Use of Backup 
+Systems" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPVBHF3V-156X8DH-5KQ" -> "1RPVBHF3V-47PG90-5KM" [constraint=true]
+	"1RPV7P040-10622RQ-245" [label=Threat fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RPV7K9SC-1KYN3NF-1YZ" [label=Includes fontsize=20 shape=none]
+	"1RPV7P040-10622RQ-245" -> "1RPV7K9SC-1KYN3NF-1YZ" [constraint=true]
+	"1RPVBFNSN-17Q6455-5FY" [label=Involves fontsize=20 shape=none]
+	"1RPVBFNSN-1JB56TJ-5FV" [label="Intrusion 
+detection 
+systems" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPVBFNSN-17Q6455-5FY" -> "1RPVBFNSN-1JB56TJ-5FV" [constraint=true]
+	"1RPVBB9G9-24RXNZ1-58Q" [label=Includes fontsize=20 shape=none]
+	"1RPVBCY7G-S2B7BS-5BP" [label=Response fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPVBB9G9-24RXNZ1-58Q" -> "1RPVBCY7G-S2B7BS-5BP" [constraint=true]
+	"1RPVCSHKN-RYK29X-86D" [label=Defined fontsize=20 shape=none]
+	"1RPVCSHKN-253NDPN-869" [label="An entity 
+that attacks 
+or is a threat 
+to a system
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPVCSHKN-RYK29X-86D" -> "1RPVCSHKN-253NDPN-869" [constraint=true]
+	"1RPV5T0PT-26C7RP5-159" [label="Security Topics
+" fontsize=20 shape=none]
+	"1RPV78PZ3-4MN7DV-1TP" [label=Assurance fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPV5T0PT-26C7RP5-159" -> "1RPV78PZ3-4MN7DV-1TP" [constraint=true]
+	"1RPV88JQV-13B5YG2-2N7" [label=Includes fontsize=20 shape=none]
+	"1RPV89BMN-FDSNG7-2Q6" [label="Potential 
+atttacks on 
+the security 
+features must 
+be considered
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPV88JQV-13B5YG2-2N7" -> "1RPV89BMN-FDSNG7-2Q6" [constraint=true]
+	"1RPVBM11Y-2MWHFD-5RT" [label=Involves fontsize=20 shape=none]
+	"1RPVBM11Y-635C9P-5RQ" [label="Prevents unauthorized 
+access to 
+encryption 
+keys" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPVBM11Y-2MWHFD-5RT" -> "1RPVBM11Y-635C9P-5RQ" [constraint=true]
+	"1RPV9WC34-1XNTKNK-4MX" [label="Wirless Exploit
+" fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RPV9NB2L-1JQ60G1-4B4" [label="Types of Attacks
+" fontsize=20 shape=none]
+	"1RPV9WC34-1XNTKNK-4MX" -> "1RPV9NB2L-1JQ60G1-4B4" [constraint=true]
+	"1RPV73SS0-1YG2V5T-1PY" [label=Policy fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RPVB794K-1B7L2GR-52W" [label="Trade-offs" fontsize=20 shape=none]
+	"1RPV73SS0-1YG2V5T-1PY" -> "1RPVB794K-1B7L2GR-52W" [constraint=true]
+	"1RPV7K9SC-1Q6MBG6-1YW" [label=Risk fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPVD1K1C-1432LC3-8W1" [label=Defined fontsize=20 shape=none]
+	"1RPV7K9SC-1Q6MBG6-1YW" -> "1RPVD1K1C-1432LC3-8W1" [constraint=true]
+	"1RPV7K9SC-1KYN3NF-1YZ" [label=Includes fontsize=20 shape=none]
+	"1RPV7N48Y-LCJKV8-21F" [label="System Resource 
+(Asst)" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPV7K9SC-1KYN3NF-1YZ" -> "1RPV7N48Y-LCJKV8-21F" [constraint=true]
+	"1RPVCTGM9-23P81Z5-896" [label=Defined fontsize=20 shape=none]
+	"1RPVCTGM9-V8RVJ2-893" [label="An assault 
+on system 
+security that 
+derives from 
+an intelligent 
+threat; that 
+is an intelligent 
+act that is 
+a deliberate 
+attempt to 
+evade security 
+services and 
+violate the 
+security policy 
+of a system
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPVCTGM9-23P81Z5-896" -> "1RPVCTGM9-V8RVJ2-893" [constraint=true]
+	"1RPVC21PG-143MVFP-6R9" [label=Involves fontsize=20 shape=none]
+	"1RPVC21PG-14ZSSCL-6R6" [label="Ensuring timely 
+and reliable 
+access to 
+and use of 
+information" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPVC21PG-143MVFP-6R9" -> "1RPVC21PG-14ZSSCL-6R6" [constraint=true]
+	"1RPV97LCW-15W1XH2-41B" [label="Encompasses 
+both system 
+desgin and 
+system implementation
+" fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RPV9522X-DM3P45-3VB" [label=Includes fontsize=20 shape=none]
+	"1RPV97LCW-15W1XH2-41B" -> "1RPV9522X-DM3P45-3VB" [constraint=true]
+	"1RPV73SS0-1YG2V5T-1PY" [label=Policy fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RPVB2PCW-2268ZR0-4W2" [label=Consider fontsize=20 shape=none]
+	"1RPV73SS0-1YG2V5T-1PY" -> "1RPVB2PCW-2268ZR0-4W2" [constraint=true]
+	"1RPV6XWRR-1V9WGKG-1LL" [label=Trends fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RPV5T0PT-26C7RP5-159" [label="Security Topics
+" fontsize=20 shape=none]
+	"1RPV6XWRR-1V9WGKG-1LL" -> "1RPV5T0PT-26C7RP5-159" [constraint=true]
+	"1RPVBDK13-1XWP33K-5CQ" [label=Prevention fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPVBP0TD-27B5RP6-5WK" [label=Example fontsize=20 shape=none]
+	"1RPVBDK13-1XWP33K-5CQ" -> "1RPVBP0TD-27B5RP6-5WK" [constraint=true]
+	"1RPVCXKVK-1ZKDYZF-8KH" [label=Defined fontsize=20 shape=none]
+	"1RPVCXKV2-1N6KG7F-8KD" [label="An action, 
+deivce, procedure, 
+or technique 
+that reduces 
+a threat, 
+a vulnerability 
+or an attack 
+by eliminating 
+or preventing 
+it, by minimizing 
+the harm it 
+can cause 
+or by discovering 
+and reporting 
+it so that 
+corrective 
+action can 
+be taken." fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPVCXKVK-1ZKDYZF-8KH" -> "1RPVCXKV2-1N6KG7F-8KD" [constraint=true]
+	"1RPVDN2YB-TRRB5Q-BHV" [label="Mathew Wells 
+2433406 CSCI 
+5621" fillcolor=white fontsize=20 shape=rect style=filled]
+	statictics [label="STATISTICS
+\lBranch:		37\lNode:		72\lLinking Phrase:	27\lOrphan:		1\lLeaf Node:	37\lPreposition:	50\lSub Map:		11\lAvg Word Per Concept:	6.04\l" Gsplines=true fillcolor="#F5FFFA" fontsize=20 shape=component style=filled]
+	file_info [label="CMAP Information
+
+\lTitle:	ICSAnonymous2.cmap\lCreated:	2020-12-07T07:36:46-05:00\lModified:	2020-12-07T07:36:46-05:00\lLanguage:	en\lFormat:	x-cmap/x-storable\lPublisher:	FIHMC CmapTools 6.04\lWidth:	2938\lHeight:	1582\l" Gsplines=true fillcolor="#E6E6FA" fontsize=20 shape=tab style=filled]
+}

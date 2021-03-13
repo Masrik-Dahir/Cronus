@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmap xmlns:dcterms="http://purl.org/dc/terms/" xmlns="http://cmap.ihmc.us/xml/cmap/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+    <res-meta>
+        <dc:title>UAAnonymous18.cmap</dc:title>
+        <dcterms:created>2020-12-07T07:50:09-05:00</dcterms:created>
+        <dcterms:modified>2020-12-07T07:50:09-05:00</dcterms:modified>
+        <dc:language>en</dc:language>
+        <dc:format>x-cmap/x-storable</dc:format>
+        <dc:publisher>FIHMC CmapTools 6.04</dc:publisher>
+        <dc:source>cmap:1W5Z76G0X-151MD9Y-1:external-folder:file:////C:/Users/masri/PycharmProjects/cmapProject/ConceptMapFiles/CMAPFiles/ComputerSecurity/Student/Module2UserAuthentication/UAAnonymous18.cmap</dc:source>
+    </res-meta>
+    <map width="648" height="613">
+        <concept-list>
+            <concept id="1RQYL9KWC-K197V1-11W" label="theft"/>
+            <concept id="1RQYL5DBM-WSS90Y-VL" label="dynamic&#xa;biometrics"/>
+            <concept id="1RQYLBZNR-1VG7VH3-135" label="multiple&#xa;password&#xa;use"/>
+            <concept id="1RQYLJL1S-1KGDPS4-1CR" label="reactive and&#xa;proactive&#xa;password checking"/>
+            <concept id="1RQYL4G9Q-283DZPW-SL" label="static&#xa;biometrics"/>
+            <concept id="1RQYLG50L-8PS60B-17J" label="computer&#xa;generated&#xa;password"/>
+            <concept id="1RQYLDCQF-187BSY8-157" label="insecure&#xa;state"/>
+            <concept id="1RQYLHCLP-1G9SM7V-19J" label="user&#xa;education"/>
+            <concept id="1RQYL6989-19H7X01-X9" label="offline&#xa;dictionary&#xa;attack"/>
+            <concept id="1RQYL8TF2-L82WWS-10G" label="salting"/>
+            <concept id="1RQYL3TVS-RLKS8Z-R7" label="token"/>
+            <concept id="1RQYKY1DX-1H4RWJ4-8F" label="User Authentication"/>
+            <concept id="1RQYKYDQN-1403QXM-D5" label="password"/>
+        </concept-list>
+        <linking-phrase-list>
+            <linking-phrase id="1RQYLDTCP-R4TS76-15Z" label="creates"/>
+            <linking-phrase id="1RQYLB59L-183RK41-12B" label="takes"/>
+            <linking-phrase id="1RQYLGNFN-23TLY1K-18R" label="avoids"/>
+            <linking-phrase id="1RQYLK84L-21BWG05-1FC" label="prevent"/>
+            <linking-phrase id="1RQYL5T14-1N1M9P1-WG" label="provides"/>
+            <linking-phrase id="1RQYL473Q-K5N1VF-RR" label="provides"/>
+            <linking-phrase id="1RQYL4ZS1-K243F2-TR" label="provides"/>
+            <linking-phrase id="1RQYLHXY4-W8PT2D-1BV" label="prevents"/>
+            <linking-phrase id="1RQYL1F02-X22MXQ-JL" label="provides"/>
+            <linking-phrase id="1RQYL6STC-2546JZ8-YJ" label="finds out"/>
+            <linking-phrase id="1RQYLL1L0-Q1F5JJ-1GD" label="weakens"/>
+            <linking-phrase id="1RQYL97YB-216YY-112" label="deters"/>
+        </linking-phrase-list>
+        <connection-list>
+            <connection id="1RQYL5T14-FY06Y0-WK" from-id="1RQYL5DBM-WSS90Y-VL" to-id="1RQYL5T14-1N1M9P1-WG"/>
+            <connection id="1RQYLK853-1B6MLJ5-1FN" from-id="1RQYLK84L-21BWG05-1FC" to-id="1RQYLDCQF-187BSY8-157"/>
+            <connection id="1RQYL4ZSK-1D6VFFP-TV" from-id="1RQYL4G9Q-283DZPW-SL" to-id="1RQYL4ZS1-K243F2-TR"/>
+            <connection id="1RQYL1F0L-1CRNM1P-JV" from-id="1RQYL1F02-X22MXQ-JL" to-id="1RQYKY1DX-1H4RWJ4-8F"/>
+            <connection id="1RQYL5T14-161N98S-WR" from-id="1RQYL5T14-1N1M9P1-WG" to-id="1RQYKY1DX-1H4RWJ4-8F"/>
+            <connection id="1RQYLL1LJ-14ZGRMN-1GP" from-id="1RQYLL1L0-Q1F5JJ-1GD" to-id="1RQYKY1DX-1H4RWJ4-8F"/>
+            <connection id="1RQYLHXY4-GYM7SC-1C4" from-id="1RQYLHXY4-W8PT2D-1BV" to-id="1RQYLBZNR-1VG7VH3-135"/>
+            <connection id="1RQYL6STC-1XZRXZV-YT" from-id="1RQYL6STC-2546JZ8-YJ" to-id="1RQYKYDQN-1403QXM-D5"/>
+            <connection id="1RQYL1F02-1QDV9CN-JP" from-id="1RQYKYDQN-1403QXM-D5" to-id="1RQYL1F02-X22MXQ-JL"/>
+            <connection id="1RQYLHXY4-8CHHYX-1BY" from-id="1RQYLHCLP-1G9SM7V-19J" to-id="1RQYLHXY4-W8PT2D-1BV"/>
+            <connection id="1RQYLL1L0-FQ9Q68-1GH" from-id="1RQYLDCQF-187BSY8-157" to-id="1RQYLL1L0-Q1F5JJ-1GD"/>
+            <connection id="1RQYLDTCP-VJ47G6-162" from-id="1RQYLBZNR-1VG7VH3-135" to-id="1RQYLDTCP-R4TS76-15Z"/>
+            <connection id="1RQYLB59L-1P2WLZL-12M" from-id="1RQYLB59L-183RK41-12B" to-id="1RQYL3TVS-RLKS8Z-R7"/>
+            <connection id="1RQYL6STC-GS9417-YM" from-id="1RQYL6989-19H7X01-X9" to-id="1RQYL6STC-2546JZ8-YJ"/>
+            <connection id="1RQYLGNG5-5FT73D-191" from-id="1RQYLGNFN-23TLY1K-18R" to-id="1RQYLDCQF-187BSY8-157"/>
+            <connection id="1RQYLDTCP-3Y0WSN-167" from-id="1RQYLDTCP-R4TS76-15Z" to-id="1RQYLDCQF-187BSY8-157"/>
+            <connection id="1RQYLK84L-1Q1JL6T-1FG" from-id="1RQYLJL1S-1KGDPS4-1CR" to-id="1RQYLK84L-21BWG05-1FC"/>
+            <connection id="1RQYL473Q-1KQ0XDF-S1" from-id="1RQYL473Q-K5N1VF-RR" to-id="1RQYKY1DX-1H4RWJ4-8F"/>
+            <connection id="1RQYL97YB-TGBDV3-11C" from-id="1RQYL97YB-216YY-112" to-id="1RQYL6989-19H7X01-X9"/>
+            <connection id="1RQYL97YB-2DHM915-115" from-id="1RQYL8TF2-L82WWS-10G" to-id="1RQYL97YB-216YY-112"/>
+            <connection id="1RQYL4ZSK-503S05-V1" from-id="1RQYL4ZS1-K243F2-TR" to-id="1RQYKY1DX-1H4RWJ4-8F"/>
+            <connection id="1RQYLGNFN-26N8SLW-18V" from-id="1RQYLG50L-8PS60B-17J" to-id="1RQYLGNFN-23TLY1K-18R"/>
+            <connection id="1RQYL473Q-1L9NPFK-RV" from-id="1RQYL3TVS-RLKS8Z-R7" to-id="1RQYL473Q-K5N1VF-RR"/>
+            <connection id="1RQYLB59L-1769BCH-12F" from-id="1RQYL9KWC-K197V1-11W" to-id="1RQYLB59L-183RK41-12B"/>
+        </connection-list>
+        <concept-appearance-list>
+            <concept-appearance id="1RQYL9KWC-K197V1-11W" x="92" y="25" width="44" height="25"/>
+            <concept-appearance id="1RQYL5DBM-WSS90Y-VL" x="561" y="186" width="79" height="40"/>
+            <concept-appearance id="1RQYLBZNR-1VG7VH3-135" x="653" y="372" width="73" height="54"/>
+            <concept-appearance id="1RQYLJL1S-1KGDPS4-1CR" x="343" y="579" width="130" height="57"/>
+            <concept-appearance id="1RQYL4G9Q-283DZPW-SL" x="435" y="89" width="79" height="40"/>
+            <concept-appearance id="1RQYLG50L-8PS60B-17J" x="501" y="362" width="77" height="56"/>
+            <concept-appearance id="1RQYLDCQF-187BSY8-157" x="578" y="603" width="66" height="40"/>
+            <concept-appearance id="1RQYLHCLP-1G9SM7V-19J" x="558" y="272" width="75" height="38"/>
+            <concept-appearance id="1RQYL6989-19H7X01-X9" x="82" y="469" width="75" height="55"/>
+            <concept-appearance id="1RQYL8TF2-L82WWS-10G" x="329" y="466" width="56" height="28"/>
+            <concept-appearance id="1RQYL3TVS-RLKS8Z-R7" x="276" y="80" width="50" height="25"/>
+            <concept-appearance id="1RQYKY1DX-1H4RWJ4-8F" x="353" y="313" width="135" height="25"/>
+            <concept-appearance id="1RQYKYDQN-1403QXM-D5" x="120" y="126" width="75" height="28" min-width="75" min-height="2"/>
+        </concept-appearance-list>
+        <linking-phrase-appearance-list>
+            <linking-phrase-appearance id="1RQYLDTCP-R4TS76-15Z" x="658" y="495" width="46" height="11"/>
+            <linking-phrase-appearance id="1RQYLB59L-183RK41-12B" x="184" y="52" width="34" height="11"/>
+            <linking-phrase-appearance id="1RQYLGNFN-23TLY1K-18R" x="539" y="482" width="41" height="11"/>
+            <linking-phrase-appearance id="1RQYLK84L-21BWG05-1FC" x="484" y="585" width="48" height="13"/>
+            <linking-phrase-appearance id="1RQYL5T14-1N1M9P1-WG" x="457" y="249" width="53" height="14"/>
+            <linking-phrase-appearance id="1RQYL473Q-K5N1VF-RR" x="314" y="196" width="53" height="14"/>
+            <linking-phrase-appearance id="1RQYL4ZS1-K243F2-TR" x="394" y="201" width="53" height="14"/>
+            <linking-phrase-appearance id="1RQYLHXY4-W8PT2D-1BV" x="619" y="306" width="55" height="13"/>
+            <linking-phrase-appearance id="1RQYL1F02-X22MXQ-JL" x="236" y="219" width="53" height="14"/>
+            <linking-phrase-appearance id="1RQYL6STC-2546JZ8-YJ" x="101" y="297" width="55" height="11"/>
+            <linking-phrase-appearance id="1RQYLL1L0-Q1F5JJ-1GD" x="465" y="458" width="54" height="11"/>
+            <linking-phrase-appearance id="1RQYL97YB-216YY-112" x="205" y="467" width="40" height="11"/>
+        </linking-phrase-appearance-list>
+        <connection-appearance-list>
+            <connection-appearance id="1RQYL5T14-FY06Y0-WK" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1RQYLK853-1B6MLJ5-1FN" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1RQYL4ZSK-1D6VFFP-TV" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1RQYL1F0L-1CRNM1P-JV" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1RQYL5T14-161N98S-WR" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1RQYLL1LJ-14ZGRMN-1GP" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1RQYLHXY4-GYM7SC-1C4" from-pos="center" to-pos="top"/>
+            <connection-appearance id="1RQYL6STC-1XZRXZV-YT" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1RQYL1F02-1QDV9CN-JP" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1RQYLHXY4-8CHHYX-1BY" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1RQYLL1L0-FQ9Q68-1GH" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1RQYLDTCP-VJ47G6-162" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1RQYLB59L-1P2WLZL-12M" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1RQYL6STC-GS9417-YM" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1RQYLGNG5-5FT73D-191" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1RQYLDTCP-3Y0WSN-167" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1RQYLK84L-1Q1JL6T-1FG" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1RQYL473Q-1KQ0XDF-S1" from-pos="center" to-pos="top"/>
+            <connection-appearance id="1RQYL97YB-TGBDV3-11C" from-pos="center" to-pos="right"/>
+            <connection-appearance id="1RQYL97YB-2DHM915-115" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1RQYL4ZSK-503S05-V1" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1RQYLGNFN-26N8SLW-18V" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1RQYL473Q-1L9NPFK-RV" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1RQYLB59L-1769BCH-12F" from-pos="center" to-pos="center"/>
+        </connection-appearance-list>
+        <style-sheet-list>
+            <style-sheet id="_Default_">
+                <map-style background-color="255,255,255,0" image-style="full" image-top-left="0,0"/>
+                <concept-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1"
+                    border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <linking-phrase-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0" background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1"
+                    border-shape="rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <connection-style color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+                <resource-style font-name="SanSerif" font-size="12" font-style="plain" font-color="0,0,0,255" background-color="192,192,192,255"/>
+            </style-sheet>
+        </style-sheet-list>
+        <extra-graphical-properties-list>
+            <properties-list id="file:////C:/Users/masri/PycharmProjects/cmapProject/ConceptMapFiles/CMAPFiles/ComputerSecurity/Student/Module2UserAuthentication/UAAnonymous18.cmap">
+                <property key="StyleSheetGroup_0" value="//*@!#$%%^&amp;*()() No Grouped StyleSheets @"/>
+            </properties-list>
+        </extra-graphical-properties-list>
+    </map>
+</cmap>

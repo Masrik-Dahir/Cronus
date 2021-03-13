@@ -1,0 +1,1400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conceptMap>
+<storableObject id="1RRZTZWX6-1JNW55B-VL" subclass="nlk.base.Concept">
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConcept" encoding="ge:1RRZTZWX6-1JNW55B-VL"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZTZWX6-1JNW55B-VL"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_phrase" subclass="java.lang.String" encoding="Cryptanalytic attack^linebreak$(rely on finding the nature ^linebreak$of the algorithm)"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="map:1RRZTSYFD-TWWYBB-86"/>
+</storableObject>
+<storableObject id="1RRZVK05F-1MH058X-21F" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZVK05F-1MH058X-21F"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZTSYFD-1BL962B-87"/>
+</storableObject>
+<storableObject id="1RRZV60SS-K1XMCK-1CT" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZV60SS-K1XMCK-1CT"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZTSYFD-1BL962B-87"/>
+</storableObject>
+<storableObject id="ge:1RS0M82W3-11GCK34-3WF" subclass="nlk.base.GraphicalConcept">
+<property name="_y" subclass="java.lang.Integer" encoding="37"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1RS0M82W3-11GCK34-3WF"/>
+<property name="_x" subclass="java.lang.Integer" encoding="92"/>
+<property name="_entity" subclass="nlk.base.Concept" encoding="1RS0M82W3-11GCK34-3WF"/>
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1RS0M82W3-1RFXM4Z-3WG"/>
+</storableObject>
+<storableObject id="1RRZTT5QV-1ZBP9TL-8F" subclass="nlk.base.Concept">
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConcept" encoding="ge:1RRZTT5QV-1ZBP9TL-8F"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZTT5QV-1ZBP9TL-8F"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_phrase" subclass="java.lang.String" encoding="Symmetric Encryption^linebreak$(single key encryption)^linebreak$plain text-&gt;encryption algorithm-&gt;secret key^linebreak$-&gt;cipher text-&gt;decryption algorithm-&gt;plain text"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="map:1RRZTSYFD-TWWYBB-86"/>
+</storableObject>
+<storableObject id="ge:1RRZVK05F-1VRVWC0-21C" subclass="nlk.base.GraphicalConnection">
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_secondConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_firstConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1RRZVK05F-1VRVWC0-21C"/>
+<property name="_firstGraphicalNode" subclass="nlk.base.GraphicalLinkingPhrase" encoding="ge:1RRZVK05F-1SFS67K-213"/>
+<property name="_secondGraphicalNode" subclass="nlk.base.GraphicalConcept" encoding="ge:1RRZVK04Y-1S4Y64M-210"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZVK05F-1MH058X-21F"/>
+<property name="_controlPoints" subclass="nlk.base.ExtVector" encoding="1RRZVK05F-657FBW-21D"/>
+<property name="_entity" subclass="nlk.base.Connection" encoding="1RRZVK05F-1VRVWC0-21C"/>
+</storableObject>
+<storableObject id="ge:1RRZVFV8Q-12VXLBC-1QT" subclass="nlk.base.GraphicalConcept">
+<property name="_y" subclass="java.lang.Integer" encoding="46"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1RRZVFV8Q-12VXLBC-1QT"/>
+<property name="_x" subclass="java.lang.Integer" encoding="348"/>
+<property name="_entity" subclass="nlk.base.Concept" encoding="1RRZVFV8Q-12VXLBC-1QT"/>
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZVFV8Q-29495M1-1QV"/>
+</storableObject>
+<storableObject id="ge:1RRZTZWX6-1JNW55B-VL" subclass="nlk.base.GraphicalConcept">
+<property name="_y" subclass="java.lang.Integer" encoding="314"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1RRZTZWX6-1JNW55B-VL"/>
+<property name="_x" subclass="java.lang.Integer" encoding="428"/>
+<property name="_entity" subclass="nlk.base.Concept" encoding="1RRZTZWX6-1JNW55B-VL"/>
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZTZWX6-S72V0D-VM"/>
+</storableObject>
+<storableObject id="1RRZVH3R7-ZKFX7M-1T6" subclass="nlk.base.Proposition">
+<property name="_connections" subclass="nlk.base.ExtVector" encoding="1RRZVH3R7-27X47JH-1T7"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="map:1RRZTSYFD-TWWYBB-86"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZVH3R7-ZKFX7M-1T6"/>
+</storableObject>
+<storableObject id="1RRZYXGB4-8WPXNX-3CY" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZYXGB4-8WPXNX-3CY"/>
+<property name="_size" subclass="java.lang.Integer" encoding="0"/>
+</storableObject>
+<storableObject id="1RRZTSYFD-1BL962B-87" subclass="nlk.base.StyleSheet">
+<property name="nlk.base.graphicalconnection.line.style" subclass="java.lang.Integer" encoding="1"/>
+<property name="nlk.base.graphicalconceptmap.background.bitmap.y1" subclass="java.lang.Integer" encoding="0"/>
+<property name="nlk.base.graphicallinkingphrase.line.color" subclass="nlk.base.ExtColor" encoding="1-16777216"/>
+<property name="nlk.base.graphicalconcept.text.font.name" subclass="java.lang.String" encoding="Verdana"/>
+<property name="nlk.base.graphicallinkingphrase.width" subclass="java.lang.Integer" encoding="-1"/>
+<property name="nlk.base.graphicalconcept.group.child_space" subclass="java.lang.Integer" encoding="10"/>
+<property name="nlk.base.graphicallinkingphrase.text.vertical_alignment" subclass="java.lang.Integer" encoding="1"/>
+<property name="nlk.base.graphicallinkingphrase.text.font.size" subclass="java.lang.Integer" encoding="12"/>
+<property name="nlk.base.graphicalresourcelink.text.font.size" subclass="java.lang.Integer" encoding="12"/>
+<property name="nlk.base.graphicalresourcelink.background.color" subclass="nlk.base.ExtColor" encoding="0-4144960"/>
+<property name="nlk.base.graphicalconcept.text.horizontal_alignment" subclass="java.lang.Integer" encoding="1"/>
+<property name="nlk.base.graphicalconcept.text.font.size" subclass="java.lang.Integer" encoding="12"/>
+<property name="nlk.base.graphicalconceptmap.background.color" subclass="nlk.base.ExtColor" encoding="1-1"/>
+<property name="nlk.base.graphicallinkingphrase.text.max.width" subclass="java.lang.Float" encoding="-1.0"/>
+<property name="nlk.base.graphicalconceptmap.background.bitmap.x1" subclass="java.lang.Integer" encoding="0"/>
+<property name="nlk.base.graphicallinkingphrase.text.horizontal_alignment" subclass="java.lang.Integer" encoding="1"/>
+<property name="nlk.base.graphicalconnection.line.thickness" subclass="java.lang.Integer" encoding="1"/>
+<property name="nlk.base.graphicallinkingphrase.border.shape" subclass="java.lang.Integer" encoding="1"/>
+<property name="nlk.base.graphicalconcept.text.font.style" subclass="java.lang.Integer" encoding="0"/>
+<property name="nlk.base.graphicalconcept.background.bitmap.draw_mode" subclass="java.lang.Integer" encoding="5"/>
+<property name="nlk.base.graphicallinkingphrase.background.color" subclass="nlk.base.ExtColor" encoding="1-16776961"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZTSYFD-1BL962B-87"/>
+<property name="nlk.base.graphicalconcept.line.type" subclass="java.lang.Integer" encoding="2"/>
+<property name="nlk.base.graphicallinkingphrase.border.has.shadow" subclass="java.lang.Boolean" encoding="false"/>
+<property name="nlk.base.graphicalconcept.text.max.width" subclass="java.lang.Float" encoding="-1.0"/>
+<property name="nlk.base.graphicallinkingphrase.line.thickness" subclass="java.lang.Integer" encoding="1"/>
+<property name="nlk.base.graphicalconcept.text.color" subclass="nlk.base.ExtColor" encoding="0-16777216"/>
+<property name="nlk.base.graphicalconcept.border.has.shadow" subclass="java.lang.Boolean" encoding="false"/>
+<property name="nlk.base.graphicalconcept.height" subclass="java.lang.Integer" encoding="-1"/>
+<property name="nlk.base.graphicalconcept.text.vertical_alignment" subclass="java.lang.Integer" encoding="1"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="nlk.base.graphicalconceptmap.background.bitmap.draw_mode" subclass="java.lang.Integer" encoding="5"/>
+<property name="nlk.base.graphicalconnection.direction" subclass="java.lang.Integer" encoding="6"/>
+<property name="nlk.base.graphicalconcept.border.shape.rrarc" subclass="java.lang.Float" encoding="15.0"/>
+<property name="nlk.base.graphicallinkingphrase.height" subclass="java.lang.Integer" encoding="-1"/>
+<property name="nlk.base.graphicalconcept.line.thickness" subclass="java.lang.Integer" encoding="1"/>
+<property name="nlk.base.graphicallinkingphrase.text.color" subclass="nlk.base.ExtColor" encoding="0-16777216"/>
+<property name="nlk.base.graphicalconcept.border.shape" subclass="java.lang.Integer" encoding="2"/>
+<property name="nlk.base.graphicalconcept.group.parent_space" subclass="java.lang.Integer" encoding="10"/>
+<property name="nlk.base.graphicallinkingphrase.border.shape.rrarc" subclass="java.lang.Float" encoding="15.0"/>
+<property name="nlk.base.graphicallinkingphrase.group.parent_space" subclass="java.lang.Integer" encoding="10"/>
+<property name="nlk.base.graphicallinkingphrase.line.type" subclass="java.lang.Integer" encoding="2"/>
+<property name="nlk.base.graphicallinkingphrase.background.bitmap.draw_mode" subclass="java.lang.Integer" encoding="5"/>
+<property name="nlk.base.graphicalconcept.insets" subclass="nlk.base.ExtInsets" encoding="4:4:4:4"/>
+<property name="nlk.base.graphicallinkingphrase.insets" subclass="nlk.base.ExtInsets" encoding="1:1:1:1"/>
+<property name="nlk.base.graphicalconnection.line.color" subclass="nlk.base.ExtColor" encoding="0-16777216"/>
+<property name="nlk.base.graphicalresourcelink.text.font.style" subclass="java.lang.Integer" encoding="0"/>
+<property name="nlk.base.graphicallinkingphrase.text.font.style" subclass="java.lang.Integer" encoding="0"/>
+<property name="nlk.base.graphicalresourcelink.text.color" subclass="nlk.base.ExtColor" encoding="0-16777216"/>
+<property name="nlk.base.graphicallinkingphrase.text.font.name" subclass="java.lang.String" encoding="Verdana"/>
+<property name="nlk.base.graphicalconcept.background.color" subclass="nlk.base.ExtColor" encoding="0-1182474"/>
+<property name="nlk.base.graphicalconcept.line.color" subclass="nlk.base.ExtColor" encoding="0-16777216"/>
+<property name="nlk.base.graphicalresourcelink.text.font.name" subclass="java.lang.String" encoding="SanSerif"/>
+<property name="nlk.base.graphicallinkingphrase.group.child_space" subclass="java.lang.Integer" encoding="10"/>
+<property name="nlk.base.graphicalconnection.line.type" subclass="java.lang.Integer" encoding="2"/>
+<property name="nlk.base.graphicalconcept.width" subclass="java.lang.Integer" encoding="-1"/>
+</storableObject>
+<storableObject id="ge:1RRZV60SS-1DH103J-1CD" subclass="nlk.base.GraphicalConcept">
+<property name="_y" subclass="java.lang.Integer" encoding="302"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1RRZV60SS-1DH103J-1CD"/>
+<property name="_x" subclass="java.lang.Integer" encoding="827"/>
+<property name="_entity" subclass="nlk.base.Concept" encoding="1RRZV60SS-1DH103J-1CD"/>
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZV60SS-1MXNZR6-1CF"/>
+</storableObject>
+<storableObject id="ge:1RRZVGG1D-DLC9XG-1RK" subclass="nlk.base.GraphicalLinkingPhrase">
+<property name="_y" subclass="java.lang.Integer" encoding="103"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1RRZVGG1D-DLC9XG-1RK"/>
+<property name="_x" subclass="java.lang.Integer" encoding="299"/>
+<property name="_entity" subclass="nlk.base.LinkingPhrase" encoding="1RRZVGG1D-DLC9XG-1RK"/>
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZVGG1D-14VWCPS-1RL"/>
+</storableObject>
+<storableObject id="1RS0M3WJ1-18C1T5Y-3RD" subclass="nlk.base.Proposition">
+<property name="_connections" subclass="nlk.base.ExtVector" encoding="1RS0M3WJ1-1SK24ZT-3RF"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="map:1RRZTSYFD-TWWYBB-86"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RS0M3WJ1-18C1T5Y-3RD"/>
+</storableObject>
+<storableObject id="ge:1RRZTT5QV-1ZBP9TL-8F" subclass="nlk.base.GraphicalConcept">
+<property name="_y" subclass="java.lang.Integer" encoding="112"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1RRZTT5QV-1ZBP9TL-8F"/>
+<property name="_x" subclass="java.lang.Integer" encoding="632"/>
+<property name="_entity" subclass="nlk.base.Concept" encoding="1RRZTT5QV-1ZBP9TL-8F"/>
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZTT5QV-29TR8WJ-8G"/>
+</storableObject>
+<storableObject id="ge:1RRZTZWX6-2BYJB85-VP" subclass="nlk.base.GraphicalLinkingPhrase">
+<property name="_y" subclass="java.lang.Integer" encoding="181"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1RRZTZWX6-2BYJB85-VP"/>
+<property name="_x" subclass="java.lang.Integer" encoding="519"/>
+<property name="_entity" subclass="nlk.base.LinkingPhrase" encoding="1RRZTZWX6-2BYJB85-VP"/>
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZTZWX6-QYFSW-VQ"/>
+</storableObject>
+<storableObject id="ge:1RS0M1JFY-8HH1N9-3LH" subclass="nlk.base.GraphicalConnection">
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_secondConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_firstConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1RS0M1JFY-8HH1N9-3LH"/>
+<property name="_firstGraphicalNode" subclass="nlk.base.GraphicalConcept" encoding="ge:1RRZYXGB4-4HQTSH-3CT"/>
+<property name="_secondGraphicalNode" subclass="nlk.base.GraphicalLinkingPhrase" encoding="ge:1RS0M1JFY-THP30K-3LD"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1RS0M1JFY-R6MPM7-3LK"/>
+<property name="_controlPoints" subclass="nlk.base.ExtVector" encoding="1RS0M1JFY-10WHRDK-3LJ"/>
+<property name="_entity" subclass="nlk.base.Connection" encoding="1RS0M1JFY-8HH1N9-3LH"/>
+</storableObject>
+<storableObject id="1RRZV60SS-QJSGCT-1CN" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZV60SS-QJSGCT-1CN"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZTSYFD-1BL962B-87"/>
+</storableObject>
+<storableObject id="1RRZXYK8L-QZF5DB-332" subclass="nlk.base.Proposition">
+<property name="_connections" subclass="nlk.base.ExtVector" encoding="1RRZXYK8L-DHW5JX-333"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="map:1RRZTSYFD-TWWYBB-86"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZXYK8L-QZF5DB-332"/>
+</storableObject>
+<storableObject id="1RRZVH3R7-27X47JH-1T7" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZVH3R7-27X47JH-1T7"/>
+<property name="_size" subclass="java.lang.Integer" encoding="2"/>
+<property name="vec_0" subclass="nlk.base.Connection" encoding="1RRZVGG1D-C7P90Y-1RN"/>
+<property name="vec_1" subclass="nlk.base.Connection" encoding="1RRZVH3R6-XLDLMK-1T1"/>
+</storableObject>
+<storableObject id="1RS0M3WJ1-290H85R-3R1" subclass="nlk.base.Connection">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RS0M3WJ1-290H85R-3R1"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConnection" encoding="ge:1RS0M3WJ1-290H85R-3R1"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="map:1RRZTSYFD-TWWYBB-86"/>
+<property name="_firstNode" subclass="nlk.base.Concept" encoding="1RRZYXGB4-4HQTSH-3CT"/>
+<property name="_secondNode" subclass="nlk.base.LinkingPhrase" encoding="1RS0M3WJ1-8LBK5P-3QY"/>
+</storableObject>
+<storableObject id="ge:1RRZV60SS-R4RNHG-1CH" subclass="nlk.base.GraphicalLinkingPhrase">
+<property name="_y" subclass="java.lang.Integer" encoding="185"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1RRZV60SS-R4RNHG-1CH"/>
+<property name="_x" subclass="java.lang.Integer" encoding="748"/>
+<property name="_entity" subclass="nlk.base.LinkingPhrase" encoding="1RRZV60SS-R4RNHG-1CH"/>
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZV60SS-37V3C2-1CJ"/>
+</storableObject>
+<storableObject id="ge:1RRZXYK8L-1PJH5R5-32P" subclass="nlk.base.GraphicalConnection">
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_secondConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_firstConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1RRZXYK8L-1PJH5R5-32P"/>
+<property name="_firstGraphicalNode" subclass="nlk.base.GraphicalConcept" encoding="ge:1RRZVZFM2-1BKZ31B-2WM"/>
+<property name="_secondGraphicalNode" subclass="nlk.base.GraphicalLinkingPhrase" encoding="ge:1RRZXYK8L-2B6RS7G-32L"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZXYK8L-26X0L6P-32R"/>
+<property name="_controlPoints" subclass="nlk.base.ExtVector" encoding="1RRZXYK8L-QY50WS-32Q"/>
+<property name="_entity" subclass="nlk.base.Connection" encoding="1RRZXYK8L-1PJH5R5-32P"/>
+</storableObject>
+<storableObject id="1RRZVQ7X7-28MHN32-2M2" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZVQ7X7-28MHN32-2M2"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZTSYFD-1BL962B-87"/>
+</storableObject>
+<storableObject id="1RS0M1JFY-9SMKF5-3LR" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RS0M1JFY-9SMKF5-3LR"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZTSYFD-1BL962B-87"/>
+</storableObject>
+<storableObject id="1VJ56QC00-T8ND8X-5Q7" subclass="nlk.base.ResourceInfo">
+<property name="_timeResourceModified" subclass="nlk.base.ExtDate" encoding="1582568416078"/>
+<property name="_resourceName" subclass="java.lang.String" encoding="CTAnonymous8.cmap"/>
+<property name="_serverId" subclass="nlk.base.ServerId" encoding="1V7SS9DVS-1TSV9TP-1"/>
+<property name="_projectId" subclass="nlk.base.ObjectId" encoding="external-folder"/>
+<property name="_filename" subclass="java.lang.String" encoding="file://///Users/brandon_lacy/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Brandon’s MacBook Pro/Sacred_Heart_University/URA/ResearchPosition/ConceptMapProject/ConceptMapFiles/CMAPFiles/ComputerSecurity/Student/Module3CryptographicTools/CTAnonymous8.cmap"/>
+<property name="_resourceId" subclass="nlk.base.ObjectId" encoding="file://///Users/brandon_lacy/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Brandon’s MacBook Pro/Sacred_Heart_University/URA/ResearchPosition/ConceptMapProject/ConceptMapFiles/CMAPFiles/ComputerSecurity/Student/Module3CryptographicTools/CTAnonymous8.cmap"/>
+<property name="_resourceDescription" subclass="java.lang.String" encoding=""/>
+<property name="_MIMEType" subclass="nlk.base.MIMEType" encoding="x-cmap/x-storable"/>
+<property name="_timeResourceAdded" subclass="nlk.base.ExtDate" encoding="1582568416078"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1VJ56QC00-T8ND8X-5Q7"/>
+<property name="_creator" subclass="java.lang.String" encoding=""/>
+<property name="_owner" subclass="java.lang.String" encoding=""/>
+<property name="_locale" subclass="java.util.Locale" encoding="en"/>
+</storableObject>
+<storableObject id="ge:1RRZVH3R6-XLDLMK-1T1" subclass="nlk.base.GraphicalConnection">
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_secondConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_firstConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1RRZVH3R6-XLDLMK-1T1"/>
+<property name="_firstGraphicalNode" subclass="nlk.base.GraphicalLinkingPhrase" encoding="ge:1RRZVGG1D-DLC9XG-1RK"/>
+<property name="_secondGraphicalNode" subclass="nlk.base.GraphicalConcept" encoding="ge:1RRZTT5QV-1ZBP9TL-8F"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZVH3R6-RBV9TD-1T3"/>
+<property name="_controlPoints" subclass="nlk.base.ExtVector" encoding="1RRZVH3R6-1X7GX92-1T2"/>
+<property name="_entity" subclass="nlk.base.Connection" encoding="1RRZVH3R6-XLDLMK-1T1"/>
+</storableObject>
+<storableObject id="1RRZVQ7X7-FY9MM6-2LY" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZVQ7X7-FY9MM6-2LY"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZTSYFD-1BL962B-87"/>
+</storableObject>
+<storableObject id="ge:1RRZVGG1D-C7P90Y-1RN" subclass="nlk.base.GraphicalConnection">
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_secondConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_firstConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1RRZVGG1D-C7P90Y-1RN"/>
+<property name="_firstGraphicalNode" subclass="nlk.base.GraphicalConcept" encoding="ge:1RRZVFV8Q-12VXLBC-1QT"/>
+<property name="_secondGraphicalNode" subclass="nlk.base.GraphicalLinkingPhrase" encoding="ge:1RRZVGG1D-DLC9XG-1RK"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZVGG1D-R5PD23-1RQ"/>
+<property name="_controlPoints" subclass="nlk.base.ExtVector" encoding="1RRZVGG1D-1Y5G7Q3-1RP"/>
+<property name="_entity" subclass="nlk.base.Connection" encoding="1RRZVGG1D-C7P90Y-1RN"/>
+</storableObject>
+<storableObject id="ge:1RRZV60SS-29HZT9V-1CR" subclass="nlk.base.GraphicalConnection">
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_secondConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_firstConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1RRZV60SS-29HZT9V-1CR"/>
+<property name="_firstGraphicalNode" subclass="nlk.base.GraphicalLinkingPhrase" encoding="ge:1RRZV60SS-R4RNHG-1CH"/>
+<property name="_secondGraphicalNode" subclass="nlk.base.GraphicalConcept" encoding="ge:1RRZV60SS-1DH103J-1CD"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZV60SS-K1XMCK-1CT"/>
+<property name="_controlPoints" subclass="nlk.base.ExtVector" encoding="1RRZV60SS-11R6LCW-1CS"/>
+<property name="_entity" subclass="nlk.base.Connection" encoding="1RRZV60SS-29HZT9V-1CR"/>
+</storableObject>
+<storableObject id="1RS0M1JFY-J67GRV-3LP" subclass="nlk.base.Connection">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RS0M1JFY-J67GRV-3LP"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConnection" encoding="ge:1RS0M1JFY-J67GRV-3LP"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="map:1RRZTSYFD-TWWYBB-86"/>
+<property name="_firstNode" subclass="nlk.base.LinkingPhrase" encoding="1RS0M1JFY-THP30K-3LD"/>
+<property name="_secondNode" subclass="nlk.base.Concept" encoding="1RS0M1JFY-1JPST5-3L9"/>
+</storableObject>
+<storableObject id="1RS0M3WJ1-1R8YQF9-3R6" subclass="nlk.base.Connection">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RS0M3WJ1-1R8YQF9-3R6"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConnection" encoding="ge:1RS0M3WJ1-1R8YQF9-3R6"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="map:1RRZTSYFD-TWWYBB-86"/>
+<property name="_firstNode" subclass="nlk.base.LinkingPhrase" encoding="1RS0M3WJ1-8LBK5P-3QY"/>
+<property name="_secondNode" subclass="nlk.base.Concept" encoding="1RS0M3WJ1-W5G68P-3QV"/>
+</storableObject>
+<storableObject id="ge:1RRZYXGB4-BTNJPX-3CX" subclass="nlk.base.GraphicalConnection">
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_secondConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_firstConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1RRZYXGB4-BTNJPX-3CX"/>
+<property name="_firstGraphicalNode" subclass="nlk.base.GraphicalLinkingPhrase" encoding="ge:1RRZXYK8L-2B6RS7G-32L"/>
+<property name="_secondGraphicalNode" subclass="nlk.base.GraphicalConcept" encoding="ge:1RRZYXGB4-4HQTSH-3CT"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZYXGB4-7Y3M5D-3CZ"/>
+<property name="_controlPoints" subclass="nlk.base.ExtVector" encoding="1RRZYXGB4-8WPXNX-3CY"/>
+<property name="_entity" subclass="nlk.base.Connection" encoding="1RRZYXGB4-BTNJPX-3CX"/>
+</storableObject>
+<storableObject id="1RRZVK05F-1SFS67K-213" subclass="nlk.base.LinkingPhrase">
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalLinkingPhrase" encoding="ge:1RRZVK05F-1SFS67K-213"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZVK05F-1SFS67K-213"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_phrase" subclass="java.lang.String" encoding="Symmetric encryption algorithms"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="map:1RRZTSYFD-TWWYBB-86"/>
+</storableObject>
+<storableObject id="ge:1RRZVNFRH-DD5ZH6-2FT" subclass="nlk.base.GraphicalConcept">
+<property name="_y" subclass="java.lang.Integer" encoding="524"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1RRZVNFRH-DD5ZH6-2FT"/>
+<property name="_x" subclass="java.lang.Integer" encoding="612"/>
+<property name="_entity" subclass="nlk.base.Concept" encoding="1RRZVNFRH-DD5ZH6-2FT"/>
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZVNFRH-1KNRCGW-2FV"/>
+</storableObject>
+<storableObject id="1RRZVK05F-6YFJP0-216" subclass="nlk.base.Connection">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZVK05F-6YFJP0-216"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConnection" encoding="ge:1RRZVK05F-6YFJP0-216"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="map:1RRZTSYFD-TWWYBB-86"/>
+<property name="_firstNode" subclass="nlk.base.Concept" encoding="1RRZTT5QV-1ZBP9TL-8F"/>
+<property name="_secondNode" subclass="nlk.base.LinkingPhrase" encoding="1RRZVK05F-1SFS67K-213"/>
+</storableObject>
+<storableObject id="ge:1RS0M3WJ1-8LBK5P-3QY" subclass="nlk.base.GraphicalLinkingPhrase">
+<property name="_y" subclass="java.lang.Integer" encoding="523"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1RS0M3WJ1-8LBK5P-3QY"/>
+<property name="_x" subclass="java.lang.Integer" encoding="1552"/>
+<property name="_entity" subclass="nlk.base.LinkingPhrase" encoding="1RS0M3WJ1-8LBK5P-3QY"/>
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1RS0M3WJ1-29DH7ZK-3QZ"/>
+</storableObject>
+<storableObject id="1RRZVZFM2-1QZ95T7-2WN" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZVZFM2-1QZ95T7-2WN"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZTSYFD-1BL962B-87"/>
+</storableObject>
+<storableObject id="1RRZY4F37-158BMNX-39J" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZY4F37-158BMNX-39J"/>
+<property name="_size" subclass="java.lang.Integer" encoding="0"/>
+</storableObject>
+<storableObject id="1RRZVQ7X7-CRV0LX-2M0" subclass="nlk.base.Connection">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZVQ7X7-CRV0LX-2M0"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConnection" encoding="ge:1RRZVQ7X7-CRV0LX-2M0"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="map:1RRZTSYFD-TWWYBB-86"/>
+<property name="_firstNode" subclass="nlk.base.LinkingPhrase" encoding="1RRZVK05F-1SFS67K-213"/>
+<property name="_secondNode" subclass="nlk.base.Concept" encoding="1RRZVQ7X7-24JXHJH-2LX"/>
+</storableObject>
+<storableObject id="1RRZV60SS-1GQ330-1CY" subclass="nlk.base.Proposition">
+<property name="_connections" subclass="nlk.base.ExtVector" encoding="1RRZV60SS-7ZJR89-1CZ"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="map:1RRZTSYFD-TWWYBB-86"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZV60SS-1GQ330-1CY"/>
+</storableObject>
+<storableObject id="1RRZV60SS-1Q654CC-1CL" subclass="nlk.base.Connection">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZV60SS-1Q654CC-1CL"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConnection" encoding="ge:1RRZV60SS-1Q654CC-1CL"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="map:1RRZTSYFD-TWWYBB-86"/>
+<property name="_firstNode" subclass="nlk.base.Concept" encoding="1RRZTT5QV-1ZBP9TL-8F"/>
+<property name="_secondNode" subclass="nlk.base.LinkingPhrase" encoding="1RRZV60SS-R4RNHG-1CH"/>
+</storableObject>
+<storableObject id="1VJ56QC44-VHH918-5RC" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1VJ56QC44-VHH918-5RC"/>
+<property name="_size" subclass="java.lang.Integer" encoding="43"/>
+<property name="vec_0" subclass="nlk.base.GraphicalConnection" encoding="ge:1RS0M1JFY-J67GRV-3LP"/>
+<property name="vec_1" subclass="nlk.base.GraphicalConnection" encoding="ge:1RRZVK05F-6YFJP0-216"/>
+<property name="vec_2" subclass="nlk.base.GraphicalConnection" encoding="ge:1RRZY4F37-11M3G9R-39H"/>
+<property name="vec_3" subclass="nlk.base.GraphicalConnection" encoding="ge:1RRZXYK8L-1DYLPY8-32W"/>
+<property name="vec_4" subclass="nlk.base.GraphicalConnection" encoding="ge:1RRZXYK8L-1PJH5R5-32P"/>
+<property name="vec_5" subclass="nlk.base.GraphicalConnection" encoding="ge:1RRZV60SS-1Q654CC-1CL"/>
+<property name="vec_6" subclass="nlk.base.GraphicalConnection" encoding="ge:1RS0M3WJ1-1R8YQF9-3R6"/>
+<property name="vec_7" subclass="nlk.base.GraphicalConnection" encoding="ge:1RRZVQ7X7-CRV0LX-2M0"/>
+<property name="vec_8" subclass="nlk.base.GraphicalConnection" encoding="ge:1RRZVH3R6-XLDLMK-1T1"/>
+<property name="vec_9" subclass="nlk.base.GraphicalConnection" encoding="ge:1RRZV8PK4-24682TF-1KB"/>
+<property name="vec_10" subclass="nlk.base.GraphicalConnection" encoding="ge:1RRZTZWX6-2C12XSB-VT"/>
+<property name="vec_11" subclass="nlk.base.GraphicalConnection" encoding="ge:1RRZV3QQX-H9BGCV-165"/>
+<property name="vec_12" subclass="nlk.base.GraphicalConnection" encoding="ge:1RRZV60SS-29HZT9V-1CR"/>
+<property name="vec_13" subclass="nlk.base.GraphicalConnection" encoding="ge:1RRZVK05F-1VRVWC0-21C"/>
+<property name="vec_14" subclass="nlk.base.GraphicalConnection" encoding="ge:1RRZVNFRH-1KKL233-2FX"/>
+<property name="vec_15" subclass="nlk.base.GraphicalConnection" encoding="ge:1RRZYXGB4-BTNJPX-3CX"/>
+<property name="vec_16" subclass="nlk.base.GraphicalConnection" encoding="ge:1RRZTZWX6-1KV8M8T-W0"/>
+<property name="vec_17" subclass="nlk.base.GraphicalConnection" encoding="ge:1RS0M3WJ1-290H85R-3R1"/>
+<property name="vec_18" subclass="nlk.base.GraphicalConnection" encoding="ge:1RS0M1JFY-8HH1N9-3LH"/>
+<property name="vec_19" subclass="nlk.base.GraphicalConnection" encoding="ge:1RRZVGG1D-C7P90Y-1RN"/>
+<property name="vec_20" subclass="nlk.base.GraphicalLinkingPhrase" encoding="ge:1RRZXYK8L-2B6RS7G-32L"/>
+<property name="vec_21" subclass="nlk.base.GraphicalLinkingPhrase" encoding="ge:1RRZTZWX6-2BYJB85-VP"/>
+<property name="vec_22" subclass="nlk.base.GraphicalLinkingPhrase" encoding="ge:1RRZVGG1D-DLC9XG-1RK"/>
+<property name="vec_23" subclass="nlk.base.GraphicalLinkingPhrase" encoding="ge:1RRZVK05F-1SFS67K-213"/>
+<property name="vec_24" subclass="nlk.base.GraphicalLinkingPhrase" encoding="ge:1RRZV60SS-R4RNHG-1CH"/>
+<property name="vec_25" subclass="nlk.base.GraphicalLinkingPhrase" encoding="ge:1RS0M3WJ1-8LBK5P-3QY"/>
+<property name="vec_26" subclass="nlk.base.GraphicalLinkingPhrase" encoding="ge:1RS0M1JFY-THP30K-3LD"/>
+<property name="vec_27" subclass="nlk.base.GraphicalConcept" encoding="ge:1RRZTT5QV-1ZBP9TL-8F"/>
+<property name="vec_28" subclass="nlk.base.GraphicalConcept" encoding="ge:1RRZVNFRH-DD5ZH6-2FT"/>
+<property name="vec_29" subclass="nlk.base.GraphicalConcept" encoding="ge:1RS0M82W3-11GCK34-3WF"/>
+<property name="vec_30" subclass="nlk.base.GraphicalConcept" encoding="ge:1RS0M1JFY-1JPST5-3L9"/>
+<property name="vec_31" subclass="nlk.base.GraphicalConcept" encoding="ge:1RRZTZWX6-1JNW55B-VL"/>
+<property name="vec_32" subclass="nlk.base.GraphicalConcept" encoding="ge:1RRZVZFM2-1BKZ31B-2WM"/>
+<property name="vec_33" subclass="nlk.base.GraphicalConcept" encoding="ge:1RRZY4F37-28560RK-39D"/>
+<property name="vec_34" subclass="nlk.base.GraphicalConcept" encoding="ge:1RRZV60SS-1DH103J-1CD"/>
+<property name="vec_35" subclass="nlk.base.GraphicalConcept" encoding="ge:1RS0M3WJ1-W5G68P-3QV"/>
+<property name="vec_36" subclass="nlk.base.GraphicalConcept" encoding="ge:1RRZXYK8L-842ZP8-32H"/>
+<property name="vec_37" subclass="nlk.base.GraphicalConcept" encoding="ge:1RRZVK04Y-1S4Y64M-210"/>
+<property name="vec_38" subclass="nlk.base.GraphicalConcept" encoding="ge:1RRZV8PK4-1NYT8DB-1K7"/>
+<property name="vec_39" subclass="nlk.base.GraphicalConcept" encoding="ge:1RRZYXGB4-4HQTSH-3CT"/>
+<property name="vec_40" subclass="nlk.base.GraphicalConcept" encoding="ge:1RRZV3QQV-1HF9H17-162"/>
+<property name="vec_41" subclass="nlk.base.GraphicalConcept" encoding="ge:1RRZVQ7X7-24JXHJH-2LX"/>
+<property name="vec_42" subclass="nlk.base.GraphicalConcept" encoding="ge:1RRZVFV8Q-12VXLBC-1QT"/>
+</storableObject>
+<storableObject id="ge:1RRZVZFM2-1BKZ31B-2WM" subclass="nlk.base.GraphicalConcept">
+<property name="_y" subclass="java.lang.Integer" encoding="82"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1RRZVZFM2-1BKZ31B-2WM"/>
+<property name="_x" subclass="java.lang.Integer" encoding="1479"/>
+<property name="_entity" subclass="nlk.base.Concept" encoding="1RRZVZFM2-1BKZ31B-2WM"/>
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZVZFM2-1QZ95T7-2WN"/>
+</storableObject>
+<storableObject id="ge:1RRZXYK8L-2B6RS7G-32L" subclass="nlk.base.GraphicalLinkingPhrase">
+<property name="_y" subclass="java.lang.Integer" encoding="155"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1RRZXYK8L-2B6RS7G-32L"/>
+<property name="_x" subclass="java.lang.Integer" encoding="1229"/>
+<property name="_entity" subclass="nlk.base.LinkingPhrase" encoding="1RRZXYK8L-2B6RS7G-32L"/>
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZXYK8L-190DQQL-32M"/>
+</storableObject>
+<storableObject id="ge:1RS0M1JFY-1JPST5-3L9" subclass="nlk.base.GraphicalConcept">
+<property name="_y" subclass="java.lang.Integer" encoding="570"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1RS0M1JFY-1JPST5-3L9"/>
+<property name="_x" subclass="java.lang.Integer" encoding="1216"/>
+<property name="_entity" subclass="nlk.base.Concept" encoding="1RS0M1JFY-1JPST5-3L9"/>
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1RS0M1JFY-27FZ43M-3LB"/>
+</storableObject>
+<storableObject id="1RS0M3WJ1-W5G68P-3QV" subclass="nlk.base.Concept">
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConcept" encoding="ge:1RS0M3WJ1-W5G68P-3QV"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RS0M3WJ1-W5G68P-3QV"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_phrase" subclass="java.lang.String" encoding="Sender encrypts using his private key^linebreak$Receiver can decrypt using his public key "/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="map:1RRZTSYFD-TWWYBB-86"/>
+</storableObject>
+<storableObject id="1RRZVK05F-13RCX69-214" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZVK05F-13RCX69-214"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZTSYFD-1BL962B-87"/>
+</storableObject>
+<storableObject id="1RRZV8PK4-264SB5M-1KH" subclass="nlk.base.Proposition">
+<property name="_connections" subclass="nlk.base.ExtVector" encoding="1RRZV8PK4-1VYGJSM-1KJ"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="map:1RRZTSYFD-TWWYBB-86"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZV8PK4-264SB5M-1KH"/>
+</storableObject>
+<storableObject id="ge:1RRZYXGB4-4HQTSH-3CT" subclass="nlk.base.GraphicalConcept">
+<property name="_y" subclass="java.lang.Integer" encoding="441"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1RRZYXGB4-4HQTSH-3CT"/>
+<property name="_x" subclass="java.lang.Integer" encoding="1476"/>
+<property name="_entity" subclass="nlk.base.Concept" encoding="1RRZYXGB4-4HQTSH-3CT"/>
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZYXGB4-W3246Y-3CV"/>
+</storableObject>
+<storableObject id="1RRZTZWX6-1C6P0VN-VW" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZTZWX6-1C6P0VN-VW"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZTSYFD-1BL962B-87"/>
+</storableObject>
+<storableObject id="1RRZVGG1D-C7P90Y-1RN" subclass="nlk.base.Connection">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZVGG1D-C7P90Y-1RN"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConnection" encoding="ge:1RRZVGG1D-C7P90Y-1RN"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="map:1RRZTSYFD-TWWYBB-86"/>
+<property name="_firstNode" subclass="nlk.base.Concept" encoding="1RRZVFV8Q-12VXLBC-1QT"/>
+<property name="_secondNode" subclass="nlk.base.LinkingPhrase" encoding="1RRZVGG1D-DLC9XG-1RK"/>
+</storableObject>
+<storableObject id="1RRZVK05F-1VRVWC0-21C" subclass="nlk.base.Connection">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZVK05F-1VRVWC0-21C"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConnection" encoding="ge:1RRZVK05F-1VRVWC0-21C"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="map:1RRZTSYFD-TWWYBB-86"/>
+<property name="_firstNode" subclass="nlk.base.LinkingPhrase" encoding="1RRZVK05F-1SFS67K-213"/>
+<property name="_secondNode" subclass="nlk.base.Concept" encoding="1RRZVK04Y-1S4Y64M-210"/>
+</storableObject>
+<storableObject id="ge:1RRZVK04Y-1S4Y64M-210" subclass="nlk.base.GraphicalConcept">
+<property name="_y" subclass="java.lang.Integer" encoding="402"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1RRZVK04Y-1S4Y64M-210"/>
+<property name="_x" subclass="java.lang.Integer" encoding="731"/>
+<property name="_entity" subclass="nlk.base.Concept" encoding="1RRZVK04Y-1S4Y64M-210"/>
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZVK04Y-1ZR1526-211"/>
+</storableObject>
+<storableObject id="1RRZTZWX6-1CBLT29-VR" subclass="nlk.base.ExtHashtable">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZTZWX6-1CBLT29-VR"/>
+<property name="1RRZXYK8L-2B6RS7G-32L" subclass="nlk.base.LinkingPhrase" encoding="1RRZXYK8L-2B6RS7G-32L"/>
+<property name="1RRZTZWX6-2BYJB85-VP" subclass="nlk.base.LinkingPhrase" encoding="1RRZTZWX6-2BYJB85-VP"/>
+<property name="1RRZVGG1D-DLC9XG-1RK" subclass="nlk.base.LinkingPhrase" encoding="1RRZVGG1D-DLC9XG-1RK"/>
+<property name="1RRZVK05F-1SFS67K-213" subclass="nlk.base.LinkingPhrase" encoding="1RRZVK05F-1SFS67K-213"/>
+<property name="1RRZV60SS-R4RNHG-1CH" subclass="nlk.base.LinkingPhrase" encoding="1RRZV60SS-R4RNHG-1CH"/>
+<property name="1RS0M3WJ1-8LBK5P-3QY" subclass="nlk.base.LinkingPhrase" encoding="1RS0M3WJ1-8LBK5P-3QY"/>
+<property name="1RS0M1JFY-THP30K-3LD" subclass="nlk.base.LinkingPhrase" encoding="1RS0M1JFY-THP30K-3LD"/>
+</storableObject>
+<storableObject id="1RRZYXGB4-4HQTSH-3CT" subclass="nlk.base.Concept">
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConcept" encoding="ge:1RRZYXGB4-4HQTSH-3CT"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZYXGB4-4HQTSH-3CT"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_phrase" subclass="java.lang.String" encoding="Public Key Encryption^linebreak$(uses two seperate keys 1.Public key ^linebreak$and 2.Private key)"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="map:1RRZTSYFD-TWWYBB-86"/>
+</storableObject>
+<storableObject id="1RRZV3QQV-1HF9H17-162" subclass="nlk.base.Concept">
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConcept" encoding="ge:1RRZV3QQV-1HF9H17-162"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZV3QQV-1HF9H17-162"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_phrase" subclass="java.lang.String" encoding="Brute Force^linebreak$(trying all possible^linebreak$keys on cipher text)"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="map:1RRZTSYFD-TWWYBB-86"/>
+</storableObject>
+<storableObject id="1RRZTZWX6-2C12XSB-VT" subclass="nlk.base.Connection">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZTZWX6-2C12XSB-VT"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConnection" encoding="ge:1RRZTZWX6-2C12XSB-VT"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="map:1RRZTSYFD-TWWYBB-86"/>
+<property name="_firstNode" subclass="nlk.base.Concept" encoding="1RRZTT5QV-1ZBP9TL-8F"/>
+<property name="_secondNode" subclass="nlk.base.LinkingPhrase" encoding="1RRZTZWX6-2BYJB85-VP"/>
+</storableObject>
+<storableObject id="1RRZVK04Y-1S4Y64M-210" subclass="nlk.base.Concept">
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConcept" encoding="ge:1RRZVK04Y-1S4Y64M-210"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZVK04Y-1S4Y64M-210"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_phrase" subclass="java.lang.String" encoding="DES^linebreak$(uses 64bit plain text and ^linebreak$56bit key to produce a^linebreak$cipher text)"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="map:1RRZTSYFD-TWWYBB-86"/>
+</storableObject>
+<storableObject id="1RRZV3QQX-H9BGCV-165" subclass="nlk.base.Connection">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZV3QQX-H9BGCV-165"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConnection" encoding="ge:1RRZV3QQX-H9BGCV-165"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="map:1RRZTSYFD-TWWYBB-86"/>
+<property name="_firstNode" subclass="nlk.base.LinkingPhrase" encoding="1RRZTZWX6-2BYJB85-VP"/>
+<property name="_secondNode" subclass="nlk.base.Concept" encoding="1RRZV3QQV-1HF9H17-162"/>
+</storableObject>
+<storableObject id="1RRZV8PK4-1NYT8DB-1K7" subclass="nlk.base.Concept">
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConcept" encoding="ge:1RRZV8PK4-1NYT8DB-1K7"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZV8PK4-1NYT8DB-1K7"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_phrase" subclass="java.lang.String" encoding="Key sharing between sender^linebreak$and receiver must be done in ^linebreak$secure fashion"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="map:1RRZTSYFD-TWWYBB-86"/>
+</storableObject>
+<storableObject id="1RS0M3WJ1-QCKH6J-3R3" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RS0M3WJ1-QCKH6J-3R3"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZTSYFD-1BL962B-87"/>
+</storableObject>
+<storableObject id="1RRZVK04Y-1ZR1526-211" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZVK04Y-1ZR1526-211"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZTSYFD-1BL962B-87"/>
+</storableObject>
+<storableObject id="1RRZXYK8L-1PJH5R5-32P" subclass="nlk.base.Connection">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZXYK8L-1PJH5R5-32P"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConnection" encoding="ge:1RRZXYK8L-1PJH5R5-32P"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="map:1RRZTSYFD-TWWYBB-86"/>
+<property name="_firstNode" subclass="nlk.base.Concept" encoding="1RRZVZFM2-1BKZ31B-2WM"/>
+<property name="_secondNode" subclass="nlk.base.LinkingPhrase" encoding="1RRZXYK8L-2B6RS7G-32L"/>
+</storableObject>
+<storableObject id="1RS0M1JFY-R6MPM7-3LK" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RS0M1JFY-R6MPM7-3LK"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZTSYFD-1BL962B-87"/>
+</storableObject>
+<storableObject id="1RRZVK05F-W8N5K1-21L" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZVK05F-W8N5K1-21L"/>
+<property name="_size" subclass="java.lang.Integer" encoding="2"/>
+<property name="vec_0" subclass="nlk.base.Connection" encoding="1RRZVK05F-6YFJP0-216"/>
+<property name="vec_1" subclass="nlk.base.Connection" encoding="1RRZVK05F-1VRVWC0-21C"/>
+</storableObject>
+<storableObject id="ge:1RRZVQ7X7-24JXHJH-2LX" subclass="nlk.base.GraphicalConcept">
+<property name="_y" subclass="java.lang.Integer" encoding="502"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1RRZVQ7X7-24JXHJH-2LX"/>
+<property name="_x" subclass="java.lang.Integer" encoding="307"/>
+<property name="_entity" subclass="nlk.base.Concept" encoding="1RRZVQ7X7-24JXHJH-2LX"/>
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZVQ7X7-FY9MM6-2LY"/>
+</storableObject>
+<storableObject id="ge:1RRZY4F37-28560RK-39D" subclass="nlk.base.GraphicalConcept">
+<property name="_y" subclass="java.lang.Integer" encoding="278"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1RRZY4F37-28560RK-39D"/>
+<property name="_x" subclass="java.lang.Integer" encoding="1260"/>
+<property name="_entity" subclass="nlk.base.Concept" encoding="1RRZY4F37-28560RK-39D"/>
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZY4F37-1HXMQN2-39F"/>
+</storableObject>
+<storableObject id="1RS0M1JFY-B0K6T7-3LQ" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RS0M1JFY-B0K6T7-3LQ"/>
+<property name="_size" subclass="java.lang.Integer" encoding="0"/>
+</storableObject>
+<storableObject id="1RRZV60SS-7ZJR89-1CZ" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZV60SS-7ZJR89-1CZ"/>
+<property name="_size" subclass="java.lang.Integer" encoding="2"/>
+<property name="vec_0" subclass="nlk.base.Connection" encoding="1RRZV60SS-1Q654CC-1CL"/>
+<property name="vec_1" subclass="nlk.base.Connection" encoding="1RRZV60SS-29HZT9V-1CR"/>
+</storableObject>
+<storableObject id="1RRZV3QQX-1P85535-167" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZV3QQX-1P85535-167"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZTSYFD-1BL962B-87"/>
+</storableObject>
+<storableObject id="1RRZVNFRH-1RPH6XD-2FY" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZVNFRH-1RPH6XD-2FY"/>
+<property name="_size" subclass="java.lang.Integer" encoding="0"/>
+</storableObject>
+<storableObject id="1RS0M1JFY-8HH1N9-3LH" subclass="nlk.base.Connection">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RS0M1JFY-8HH1N9-3LH"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConnection" encoding="ge:1RS0M1JFY-8HH1N9-3LH"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="map:1RRZTSYFD-TWWYBB-86"/>
+<property name="_firstNode" subclass="nlk.base.Concept" encoding="1RRZYXGB4-4HQTSH-3CT"/>
+<property name="_secondNode" subclass="nlk.base.LinkingPhrase" encoding="1RS0M1JFY-THP30K-3LD"/>
+</storableObject>
+<storableObject id="1RS0M3WJ1-1HLJKFQ-3R2" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RS0M3WJ1-1HLJKFQ-3R2"/>
+<property name="_size" subclass="java.lang.Integer" encoding="0"/>
+</storableObject>
+<storableObject id="map:1RRZTSYFD-TWWYBB-86" subclass="nlk.base.ConceptMap">
+<property name="_propositions" subclass="nlk.base.ExtHashtable" encoding="1RRZTZWX6-28DD17R-W8"/>
+<property name="_connections" subclass="nlk.base.ExtHashtable" encoding="1RRZTZVX1-72FK2Q-VJ"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="map:1RRZTSYFD-TWWYBB-86"/>
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConceptMap" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_resourceInfo" subclass="nlk.base.ResourceInfo" encoding="1VJ56QC00-T8ND8X-5Q7"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_linkingPhrases" subclass="nlk.base.ExtHashtable" encoding="1RRZTZWX6-1CBLT29-VR"/>
+<property name="_concepts" subclass="nlk.base.ExtHashtable" encoding="1RRZTT5W2-2BC1B1M-8J"/>
+</storableObject>
+<storableObject id="1RRZYXGB4-BTNJPX-3CX" subclass="nlk.base.Connection">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZYXGB4-BTNJPX-3CX"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConnection" encoding="ge:1RRZYXGB4-BTNJPX-3CX"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="map:1RRZTSYFD-TWWYBB-86"/>
+<property name="_firstNode" subclass="nlk.base.LinkingPhrase" encoding="1RRZXYK8L-2B6RS7G-32L"/>
+<property name="_secondNode" subclass="nlk.base.Concept" encoding="1RRZYXGB4-4HQTSH-3CT"/>
+</storableObject>
+<storableObject id="1RRZTT5XK-WHW5KM-8L" subclass="nlk.base.StyleSheetGroup">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZTT5XK-WHW5KM-8L"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_GroupName" subclass="java.lang.String" encoding="//*@!#$%%^&amp;*()() No Grouped StyleSheets @"/>
+</storableObject>
+<storableObject id="1RRZY4F37-11M3G9R-39H" subclass="nlk.base.Connection">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZY4F37-11M3G9R-39H"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConnection" encoding="ge:1RRZY4F37-11M3G9R-39H"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="map:1RRZTSYFD-TWWYBB-86"/>
+<property name="_firstNode" subclass="nlk.base.LinkingPhrase" encoding="1RRZXYK8L-2B6RS7G-32L"/>
+<property name="_secondNode" subclass="nlk.base.Concept" encoding="1RRZY4F37-28560RK-39D"/>
+</storableObject>
+<storableObject id="ge:1RRZV60SS-1Q654CC-1CL" subclass="nlk.base.GraphicalConnection">
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_secondConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_firstConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1RRZV60SS-1Q654CC-1CL"/>
+<property name="_firstGraphicalNode" subclass="nlk.base.GraphicalConcept" encoding="ge:1RRZTT5QV-1ZBP9TL-8F"/>
+<property name="_secondGraphicalNode" subclass="nlk.base.GraphicalLinkingPhrase" encoding="ge:1RRZV60SS-R4RNHG-1CH"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZV60SS-QJSGCT-1CN"/>
+<property name="_controlPoints" subclass="nlk.base.ExtVector" encoding="1RRZV60SS-2DX6DV0-1CM"/>
+<property name="_entity" subclass="nlk.base.Connection" encoding="1RRZV60SS-1Q654CC-1CL"/>
+</storableObject>
+<storableObject id="1RRZXYK8L-2B6RS7G-32L" subclass="nlk.base.LinkingPhrase">
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalLinkingPhrase" encoding="ge:1RRZXYK8L-2B6RS7G-32L"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZXYK8L-2B6RS7G-32L"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_phrase" subclass="java.lang.String" encoding="types of message authentication"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="map:1RRZTSYFD-TWWYBB-86"/>
+</storableObject>
+<storableObject id="1RRZYXGB4-7Y3M5D-3CZ" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZYXGB4-7Y3M5D-3CZ"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZTSYFD-1BL962B-87"/>
+</storableObject>
+<storableObject id="1RS0M1JFY-BR1V79-3LF" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RS0M1JFY-BR1V79-3LF"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZTSYFD-1BL962B-87"/>
+</storableObject>
+<storableObject id="ge:1RRZTZWX6-1KV8M8T-W0" subclass="nlk.base.GraphicalConnection">
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_secondConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_firstConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1RRZTZWX6-1KV8M8T-W0"/>
+<property name="_firstGraphicalNode" subclass="nlk.base.GraphicalLinkingPhrase" encoding="ge:1RRZTZWX6-2BYJB85-VP"/>
+<property name="_secondGraphicalNode" subclass="nlk.base.GraphicalConcept" encoding="ge:1RRZTZWX6-1JNW55B-VL"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZTZWX6-1JG3D1X-W2"/>
+<property name="_controlPoints" subclass="nlk.base.ExtVector" encoding="1RRZTZWX6-286P58M-W1"/>
+<property name="_entity" subclass="nlk.base.Connection" encoding="1RRZTZWX6-1KV8M8T-W0"/>
+</storableObject>
+<storableObject id="1RS0M3WJ1-8LBK5P-3QY" subclass="nlk.base.LinkingPhrase">
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalLinkingPhrase" encoding="ge:1RS0M3WJ1-8LBK5P-3QY"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RS0M3WJ1-8LBK5P-3QY"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_phrase" subclass="java.lang.String" encoding="using private key encryption"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="map:1RRZTSYFD-TWWYBB-86"/>
+</storableObject>
+<storableObject id="1RRZVNFRH-29LDSYS-2FZ" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZVNFRH-29LDSYS-2FZ"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZTSYFD-1BL962B-87"/>
+</storableObject>
+<storableObject id="1RRZVK05F-1ZNXK74-218" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZVK05F-1ZNXK74-218"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZTSYFD-1BL962B-87"/>
+</storableObject>
+<storableObject id="1RRZVQ7X7-1P00424-2M1" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZVQ7X7-1P00424-2M1"/>
+<property name="_size" subclass="java.lang.Integer" encoding="0"/>
+</storableObject>
+<storableObject id="ge:1RRZTZWX6-2C12XSB-VT" subclass="nlk.base.GraphicalConnection">
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_secondConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_firstConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1RRZTZWX6-2C12XSB-VT"/>
+<property name="_firstGraphicalNode" subclass="nlk.base.GraphicalConcept" encoding="ge:1RRZTT5QV-1ZBP9TL-8F"/>
+<property name="_secondGraphicalNode" subclass="nlk.base.GraphicalLinkingPhrase" encoding="ge:1RRZTZWX6-2BYJB85-VP"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZTZWX6-1C6P0VN-VW"/>
+<property name="_controlPoints" subclass="nlk.base.ExtVector" encoding="1RRZTZWX6-R1KRBM-VV"/>
+<property name="_entity" subclass="nlk.base.Connection" encoding="1RRZTZWX6-2C12XSB-VT"/>
+</storableObject>
+<storableObject id="1RRZXYK8L-190DQQL-32M" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZXYK8L-190DQQL-32M"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZTSYFD-1BL962B-87"/>
+</storableObject>
+<storableObject id="1RRZXYK8L-1DYLPY8-32W" subclass="nlk.base.Connection">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZXYK8L-1DYLPY8-32W"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConnection" encoding="ge:1RRZXYK8L-1DYLPY8-32W"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="map:1RRZTSYFD-TWWYBB-86"/>
+<property name="_firstNode" subclass="nlk.base.LinkingPhrase" encoding="1RRZXYK8L-2B6RS7G-32L"/>
+<property name="_secondNode" subclass="nlk.base.Concept" encoding="1RRZXYK8L-842ZP8-32H"/>
+</storableObject>
+<storableObject id="ge:1RRZY4F37-11M3G9R-39H" subclass="nlk.base.GraphicalConnection">
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_secondConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_firstConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1RRZY4F37-11M3G9R-39H"/>
+<property name="_firstGraphicalNode" subclass="nlk.base.GraphicalLinkingPhrase" encoding="ge:1RRZXYK8L-2B6RS7G-32L"/>
+<property name="_secondGraphicalNode" subclass="nlk.base.GraphicalConcept" encoding="ge:1RRZY4F37-28560RK-39D"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZY4F37-1WQ013K-39K"/>
+<property name="_controlPoints" subclass="nlk.base.ExtVector" encoding="1RRZY4F37-158BMNX-39J"/>
+<property name="_entity" subclass="nlk.base.Connection" encoding="1RRZY4F37-11M3G9R-39H"/>
+</storableObject>
+<storableObject id="1RRZVK05F-26R6TR5-21K" subclass="nlk.base.Proposition">
+<property name="_connections" subclass="nlk.base.ExtVector" encoding="1RRZVK05F-W8N5K1-21L"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="map:1RRZTSYFD-TWWYBB-86"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZVK05F-26R6TR5-21K"/>
+</storableObject>
+<storableObject id="1RRZTZWX6-286P58M-W1" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZTZWX6-286P58M-W1"/>
+<property name="_size" subclass="java.lang.Integer" encoding="0"/>
+</storableObject>
+<storableObject id="1RRZVNFRH-1KNRCGW-2FV" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZVNFRH-1KNRCGW-2FV"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZTSYFD-1BL962B-87"/>
+</storableObject>
+<storableObject id="1RS0M1JFY-28HW4V1-3LX" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RS0M1JFY-28HW4V1-3LX"/>
+<property name="_size" subclass="java.lang.Integer" encoding="2"/>
+<property name="vec_0" subclass="nlk.base.Connection" encoding="1RS0M1JFY-8HH1N9-3LH"/>
+<property name="vec_1" subclass="nlk.base.Connection" encoding="1RS0M1JFY-J67GRV-3LP"/>
+</storableObject>
+<storableObject id="1RS0M1JFY-10WHRDK-3LJ" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RS0M1JFY-10WHRDK-3LJ"/>
+<property name="_size" subclass="java.lang.Integer" encoding="0"/>
+</storableObject>
+<storableObject id="1RRZTZWX6-S72V0D-VM" subclass="nlk.base.StyleSheet">
+<property name="nlk.base.graphicalconcept.height" subclass="java.lang.Integer" encoding="9"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZTZWX6-S72V0D-VM"/>
+<property name="nlk.base.graphicalconcept.width" subclass="java.lang.Integer" encoding="18"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZTSYFD-1BL962B-87"/>
+</storableObject>
+<storableObject id="1RRZTT5QV-1B37D04-8H" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZTT5QV-1B37D04-8H"/>
+<property name="_styleSheetName" subclass="java.lang.String" encoding="_LatestChanges_"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZTSYFD-1BL962B-87"/>
+</storableObject>
+<storableObject id="1RRZV60SS-37V3C2-1CJ" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZV60SS-37V3C2-1CJ"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZTSYFD-1BL962B-87"/>
+</storableObject>
+<storableObject id="1RRZV8PK4-1VYGJSM-1KJ" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZV8PK4-1VYGJSM-1KJ"/>
+<property name="_size" subclass="java.lang.Integer" encoding="2"/>
+<property name="vec_0" subclass="nlk.base.Connection" encoding="1RRZV60SS-1Q654CC-1CL"/>
+<property name="vec_1" subclass="nlk.base.Connection" encoding="1RRZV8PK4-24682TF-1KB"/>
+</storableObject>
+<storableObject id="1RRZVGG1D-1Y5G7Q3-1RP" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZVGG1D-1Y5G7Q3-1RP"/>
+<property name="_size" subclass="java.lang.Integer" encoding="0"/>
+</storableObject>
+<storableObject id="1RRZV8PK4-1617BKR-1KD" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZV8PK4-1617BKR-1KD"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZTSYFD-1BL962B-87"/>
+</storableObject>
+<storableObject id="ge:1RRZV3QQX-H9BGCV-165" subclass="nlk.base.GraphicalConnection">
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_secondConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_firstConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1RRZV3QQX-H9BGCV-165"/>
+<property name="_firstGraphicalNode" subclass="nlk.base.GraphicalLinkingPhrase" encoding="ge:1RRZTZWX6-2BYJB85-VP"/>
+<property name="_secondGraphicalNode" subclass="nlk.base.GraphicalConcept" encoding="ge:1RRZV3QQV-1HF9H17-162"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZV3QQX-1P85535-167"/>
+<property name="_controlPoints" subclass="nlk.base.ExtVector" encoding="1RRZV3QQX-20M19J3-166"/>
+<property name="_entity" subclass="nlk.base.Connection" encoding="1RRZV3QQX-H9BGCV-165"/>
+</storableObject>
+<storableObject id="1RRZTZWX6-1KV8M8T-W0" subclass="nlk.base.Connection">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZTZWX6-1KV8M8T-W0"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConnection" encoding="ge:1RRZTZWX6-1KV8M8T-W0"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="map:1RRZTSYFD-TWWYBB-86"/>
+<property name="_firstNode" subclass="nlk.base.LinkingPhrase" encoding="1RRZTZWX6-2BYJB85-VP"/>
+<property name="_secondNode" subclass="nlk.base.Concept" encoding="1RRZTZWX6-1JNW55B-VL"/>
+</storableObject>
+<storableObject id="1RRZV60SS-1DH103J-1CD" subclass="nlk.base.Concept">
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConcept" encoding="ge:1RRZV60SS-1DH103J-1CD"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZV60SS-1DH103J-1CD"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_phrase" subclass="java.lang.String" encoding="Need a stronger encryption ^linebreak$agorithm and attacker cannot^linebreak$be able to guess the key"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="map:1RRZTSYFD-TWWYBB-86"/>
+</storableObject>
+<storableObject id="1RRZVK05F-G1HNNB-217" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZVK05F-G1HNNB-217"/>
+<property name="_size" subclass="java.lang.Integer" encoding="0"/>
+</storableObject>
+<storableObject id="1RRZY4F37-16WLG95-39N" subclass="nlk.base.Proposition">
+<property name="_connections" subclass="nlk.base.ExtVector" encoding="1RRZY4F37-11K2KQL-39P"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="map:1RRZTSYFD-TWWYBB-86"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZY4F37-16WLG95-39N"/>
+</storableObject>
+<storableObject id="1RRZY4F37-28560RK-39D" subclass="nlk.base.Concept">
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConcept" encoding="ge:1RRZY4F37-28560RK-39D"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZY4F37-28560RK-39D"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_phrase" subclass="java.lang.String" encoding="Message authenctication^linebreak$using a one way hash function"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="map:1RRZTSYFD-TWWYBB-86"/>
+</storableObject>
+<storableObject id="1RS0M3WJ1-29DH7ZK-3QZ" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RS0M3WJ1-29DH7ZK-3QZ"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZTSYFD-1BL962B-87"/>
+</storableObject>
+<storableObject id="ge:1RRZVK05F-1SFS67K-213" subclass="nlk.base.GraphicalLinkingPhrase">
+<property name="_y" subclass="java.lang.Integer" encoding="451"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1RRZVK05F-1SFS67K-213"/>
+<property name="_x" subclass="java.lang.Integer" encoding="522"/>
+<property name="_entity" subclass="nlk.base.LinkingPhrase" encoding="1RRZVK05F-1SFS67K-213"/>
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZVK05F-13RCX69-214"/>
+</storableObject>
+<storableObject id="1RRZVH3R6-XLDLMK-1T1" subclass="nlk.base.Connection">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZVH3R6-XLDLMK-1T1"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConnection" encoding="ge:1RRZVH3R6-XLDLMK-1T1"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="map:1RRZTSYFD-TWWYBB-86"/>
+<property name="_firstNode" subclass="nlk.base.LinkingPhrase" encoding="1RRZVGG1D-DLC9XG-1RK"/>
+<property name="_secondNode" subclass="nlk.base.Concept" encoding="1RRZTT5QV-1ZBP9TL-8F"/>
+</storableObject>
+<storableObject id="1RRZTZWX6-LRR8G9-W6" subclass="nlk.base.Proposition">
+<property name="_connections" subclass="nlk.base.ExtVector" encoding="1RRZTZWX6-1QVVCNV-W7"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="map:1RRZTSYFD-TWWYBB-86"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZTZWX6-LRR8G9-W6"/>
+</storableObject>
+<storableObject id="1RRZVZFM2-1BKZ31B-2WM" subclass="nlk.base.Concept">
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConcept" encoding="ge:1RRZVZFM2-1BKZ31B-2WM"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZVZFM2-1BKZ31B-2WM"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_phrase" subclass="java.lang.String" encoding="Message Authentication^linebreak$(verifies that received message is authentic^linebreak$i.e. 1.contents have not been altered^linebreak$2.from authentic source^linebreak$3.timely and in correct sequence)"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="map:1RRZTSYFD-TWWYBB-86"/>
+</storableObject>
+<storableObject id="1RRZV60SS-29HZT9V-1CR" subclass="nlk.base.Connection">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZV60SS-29HZT9V-1CR"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConnection" encoding="ge:1RRZV60SS-29HZT9V-1CR"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="map:1RRZTSYFD-TWWYBB-86"/>
+<property name="_firstNode" subclass="nlk.base.LinkingPhrase" encoding="1RRZV60SS-R4RNHG-1CH"/>
+<property name="_secondNode" subclass="nlk.base.Concept" encoding="1RRZV60SS-1DH103J-1CD"/>
+</storableObject>
+<storableObject id="1RS0M3WJ1-286F3TH-3QW" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RS0M3WJ1-286F3TH-3QW"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZTSYFD-1BL962B-87"/>
+</storableObject>
+<storableObject id="1RRZTZVX1-72FK2Q-VJ" subclass="nlk.base.ExtHashtable">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZTZVX1-72FK2Q-VJ"/>
+<property name="1RS0M1JFY-J67GRV-3LP" subclass="nlk.base.Connection" encoding="1RS0M1JFY-J67GRV-3LP"/>
+<property name="1RRZVK05F-6YFJP0-216" subclass="nlk.base.Connection" encoding="1RRZVK05F-6YFJP0-216"/>
+<property name="1RRZY4F37-11M3G9R-39H" subclass="nlk.base.Connection" encoding="1RRZY4F37-11M3G9R-39H"/>
+<property name="1RRZXYK8L-1DYLPY8-32W" subclass="nlk.base.Connection" encoding="1RRZXYK8L-1DYLPY8-32W"/>
+<property name="1RRZXYK8L-1PJH5R5-32P" subclass="nlk.base.Connection" encoding="1RRZXYK8L-1PJH5R5-32P"/>
+<property name="1RRZV60SS-1Q654CC-1CL" subclass="nlk.base.Connection" encoding="1RRZV60SS-1Q654CC-1CL"/>
+<property name="1RS0M3WJ1-1R8YQF9-3R6" subclass="nlk.base.Connection" encoding="1RS0M3WJ1-1R8YQF9-3R6"/>
+<property name="1RRZVQ7X7-CRV0LX-2M0" subclass="nlk.base.Connection" encoding="1RRZVQ7X7-CRV0LX-2M0"/>
+<property name="1RRZVH3R6-XLDLMK-1T1" subclass="nlk.base.Connection" encoding="1RRZVH3R6-XLDLMK-1T1"/>
+<property name="1RRZV8PK4-24682TF-1KB" subclass="nlk.base.Connection" encoding="1RRZV8PK4-24682TF-1KB"/>
+<property name="1RRZTZWX6-2C12XSB-VT" subclass="nlk.base.Connection" encoding="1RRZTZWX6-2C12XSB-VT"/>
+<property name="1RRZV3QQX-H9BGCV-165" subclass="nlk.base.Connection" encoding="1RRZV3QQX-H9BGCV-165"/>
+<property name="1RRZV60SS-29HZT9V-1CR" subclass="nlk.base.Connection" encoding="1RRZV60SS-29HZT9V-1CR"/>
+<property name="1RRZVK05F-1VRVWC0-21C" subclass="nlk.base.Connection" encoding="1RRZVK05F-1VRVWC0-21C"/>
+<property name="1RRZVNFRH-1KKL233-2FX" subclass="nlk.base.Connection" encoding="1RRZVNFRH-1KKL233-2FX"/>
+<property name="1RRZYXGB4-BTNJPX-3CX" subclass="nlk.base.Connection" encoding="1RRZYXGB4-BTNJPX-3CX"/>
+<property name="1RRZTZWX6-1KV8M8T-W0" subclass="nlk.base.Connection" encoding="1RRZTZWX6-1KV8M8T-W0"/>
+<property name="1RS0M3WJ1-290H85R-3R1" subclass="nlk.base.Connection" encoding="1RS0M3WJ1-290H85R-3R1"/>
+<property name="1RS0M1JFY-8HH1N9-3LH" subclass="nlk.base.Connection" encoding="1RS0M1JFY-8HH1N9-3LH"/>
+<property name="1RRZVGG1D-C7P90Y-1RN" subclass="nlk.base.Connection" encoding="1RRZVGG1D-C7P90Y-1RN"/>
+</storableObject>
+<storableObject id="ge:1RRZXYK8L-842ZP8-32H" subclass="nlk.base.GraphicalConcept">
+<property name="_y" subclass="java.lang.Integer" encoding="310"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1RRZXYK8L-842ZP8-32H"/>
+<property name="_x" subclass="java.lang.Integer" encoding="1674"/>
+<property name="_entity" subclass="nlk.base.Concept" encoding="1RRZXYK8L-842ZP8-32H"/>
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZXYK8L-RXB6DR-32J"/>
+</storableObject>
+<storableObject id="1RS0M1JFY-1JPST5-3L9" subclass="nlk.base.Concept">
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConcept" encoding="ge:1RS0M1JFY-1JPST5-3L9"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RS0M1JFY-1JPST5-3L9"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_phrase" subclass="java.lang.String" encoding="Sender encrypts data using his public key^linebreak$Receiver decrypts using his private key"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="map:1RRZTSYFD-TWWYBB-86"/>
+</storableObject>
+<storableObject id="1RRZTZWX6-R1KRBM-VV" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZTZWX6-R1KRBM-VV"/>
+<property name="_size" subclass="java.lang.Integer" encoding="0"/>
+</storableObject>
+<storableObject id="1RRZVFV8Q-29495M1-1QV" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZVFV8Q-29495M1-1QV"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZTSYFD-1BL962B-87"/>
+</storableObject>
+<storableObject id="1RRZV3QQV-1R0J3VF-163" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZV3QQV-1R0J3VF-163"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZTSYFD-1BL962B-87"/>
+</storableObject>
+<storableObject id="1RRZTT5XK-G19DKQ-8M" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZTT5XK-G19DKQ-8M"/>
+<property name="_size" subclass="java.lang.Integer" encoding="1"/>
+<property name="vec_0" subclass="nlk.base.StyleSheetGroup" encoding="1RRZTT5XK-WHW5KM-8L"/>
+</storableObject>
+<storableObject id="1RRZVGG1D-R5PD23-1RQ" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZVGG1D-R5PD23-1RQ"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZTSYFD-1BL962B-87"/>
+</storableObject>
+<storableObject id="1RRZXYK8L-DHW5JX-333" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZXYK8L-DHW5JX-333"/>
+<property name="_size" subclass="java.lang.Integer" encoding="2"/>
+<property name="vec_0" subclass="nlk.base.Connection" encoding="1RRZXYK8L-1PJH5R5-32P"/>
+<property name="vec_1" subclass="nlk.base.Connection" encoding="1RRZXYK8L-1DYLPY8-32W"/>
+</storableObject>
+<storableObject id="1RRZVNFRH-1KKL233-2FX" subclass="nlk.base.Connection">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZVNFRH-1KKL233-2FX"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConnection" encoding="ge:1RRZVNFRH-1KKL233-2FX"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="map:1RRZTSYFD-TWWYBB-86"/>
+<property name="_firstNode" subclass="nlk.base.LinkingPhrase" encoding="1RRZVK05F-1SFS67K-213"/>
+<property name="_secondNode" subclass="nlk.base.Concept" encoding="1RRZVNFRH-DD5ZH6-2FT"/>
+</storableObject>
+<storableObject id="1RRZVNFRH-DD5ZH6-2FT" subclass="nlk.base.Concept">
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConcept" encoding="ge:1RRZVNFRH-DD5ZH6-2FT"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZVNFRH-DD5ZH6-2FT"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_phrase" subclass="java.lang.String" encoding="3 DES^linebreak$(repeats DES 3 times using^linebreak$2 or 3 unique keys)"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="map:1RRZTSYFD-TWWYBB-86"/>
+</storableObject>
+<storableObject id="1RRZVK05F-657FBW-21D" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZVK05F-657FBW-21D"/>
+<property name="_size" subclass="java.lang.Integer" encoding="0"/>
+</storableObject>
+<storableObject id="1RS0M3WJ1-1SK24ZT-3RF" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RS0M3WJ1-1SK24ZT-3RF"/>
+<property name="_size" subclass="java.lang.Integer" encoding="2"/>
+<property name="vec_0" subclass="nlk.base.Connection" encoding="1RS0M3WJ1-290H85R-3R1"/>
+<property name="vec_1" subclass="nlk.base.Connection" encoding="1RS0M3WJ1-1R8YQF9-3R6"/>
+</storableObject>
+<storableObject id="ge:1RRZVNFRH-1KKL233-2FX" subclass="nlk.base.GraphicalConnection">
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_secondConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_firstConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1RRZVNFRH-1KKL233-2FX"/>
+<property name="_firstGraphicalNode" subclass="nlk.base.GraphicalLinkingPhrase" encoding="ge:1RRZVK05F-1SFS67K-213"/>
+<property name="_secondGraphicalNode" subclass="nlk.base.GraphicalConcept" encoding="ge:1RRZVNFRH-DD5ZH6-2FT"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZVNFRH-29LDSYS-2FZ"/>
+<property name="_controlPoints" subclass="nlk.base.ExtVector" encoding="1RRZVNFRH-1RPH6XD-2FY"/>
+<property name="_entity" subclass="nlk.base.Connection" encoding="1RRZVNFRH-1KKL233-2FX"/>
+</storableObject>
+<storableObject id="1RRZVQ7X7-1S1FCP2-2M5" subclass="nlk.base.Proposition">
+<property name="_connections" subclass="nlk.base.ExtVector" encoding="1RRZVQ7X7-1BJX7BM-2M6"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="map:1RRZTSYFD-TWWYBB-86"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZVQ7X7-1S1FCP2-2M5"/>
+</storableObject>
+<storableObject id="1RRZYXGB4-RGM31X-3D2" subclass="nlk.base.Proposition">
+<property name="_connections" subclass="nlk.base.ExtVector" encoding="1RRZYXGB4-B4HZ7K-3D3"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="map:1RRZTSYFD-TWWYBB-86"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZYXGB4-RGM31X-3D2"/>
+</storableObject>
+<storableObject id="1RRZVGG1D-DLC9XG-1RK" subclass="nlk.base.LinkingPhrase">
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalLinkingPhrase" encoding="ge:1RRZVGG1D-DLC9XG-1RK"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZVGG1D-DLC9XG-1RK"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_phrase" subclass="java.lang.String" encoding="types of encryption"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="map:1RRZTSYFD-TWWYBB-86"/>
+</storableObject>
+<storableObject id="1RRZXYK8L-T2YP34-32X" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZXYK8L-T2YP34-32X"/>
+<property name="_size" subclass="java.lang.Integer" encoding="0"/>
+</storableObject>
+<storableObject id="1RRZXYK8L-842ZP8-32H" subclass="nlk.base.Concept">
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConcept" encoding="ge:1RRZXYK8L-842ZP8-32H"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZXYK8L-842ZP8-32H"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_phrase" subclass="java.lang.String" encoding="authentication without^linebreak$message encryption^linebreak$(authenticated tag/code is generated with each message^linebreak$and attached to the actual meesage)"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="map:1RRZTSYFD-TWWYBB-86"/>
+</storableObject>
+<storableObject id="1RRZY4F37-1WQ013K-39K" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZY4F37-1WQ013K-39K"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZTSYFD-1BL962B-87"/>
+</storableObject>
+<storableObject id="1RRZTZWX6-28DD17R-W8" subclass="nlk.base.ExtHashtable">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZTZWX6-28DD17R-W8"/>
+<property name="1RRZYXGB4-RGM31X-3D2" subclass="nlk.base.Proposition" encoding="1RRZYXGB4-RGM31X-3D2"/>
+<property name="1RRZY4F37-16WLG95-39N" subclass="nlk.base.Proposition" encoding="1RRZY4F37-16WLG95-39N"/>
+<property name="1RRZVNFRH-281D88L-2G2" subclass="nlk.base.Proposition" encoding="1RRZVNFRH-281D88L-2G2"/>
+<property name="1RRZV60SS-1GQ330-1CY" subclass="nlk.base.Proposition" encoding="1RRZV60SS-1GQ330-1CY"/>
+<property name="1RRZVQ7X7-1S1FCP2-2M5" subclass="nlk.base.Proposition" encoding="1RRZVQ7X7-1S1FCP2-2M5"/>
+<property name="1RS0M3WJ1-18C1T5Y-3RD" subclass="nlk.base.Proposition" encoding="1RS0M3WJ1-18C1T5Y-3RD"/>
+<property name="1RRZVK05F-26R6TR5-21K" subclass="nlk.base.Proposition" encoding="1RRZVK05F-26R6TR5-21K"/>
+<property name="1RS0M1JFY-1BY6TXR-3LW" subclass="nlk.base.Proposition" encoding="1RS0M1JFY-1BY6TXR-3LW"/>
+<property name="1RRZTZWX6-LRR8G9-W6" subclass="nlk.base.Proposition" encoding="1RRZTZWX6-LRR8G9-W6"/>
+<property name="1RRZXYK8L-QZF5DB-332" subclass="nlk.base.Proposition" encoding="1RRZXYK8L-QZF5DB-332"/>
+<property name="1RRZVH3R7-ZKFX7M-1T6" subclass="nlk.base.Proposition" encoding="1RRZVH3R7-ZKFX7M-1T6"/>
+<property name="1RRZV3QQY-DM9BR0-16B" subclass="nlk.base.Proposition" encoding="1RRZV3QQY-DM9BR0-16B"/>
+<property name="1RRZV8PK4-264SB5M-1KH" subclass="nlk.base.Proposition" encoding="1RRZV8PK4-264SB5M-1KH"/>
+</storableObject>
+<storableObject id="1RRZV60SS-11R6LCW-1CS" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZV60SS-11R6LCW-1CS"/>
+<property name="_size" subclass="java.lang.Integer" encoding="0"/>
+</storableObject>
+<storableObject id="1RRZTZWX6-1QVVCNV-W7" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZTZWX6-1QVVCNV-W7"/>
+<property name="_size" subclass="java.lang.Integer" encoding="2"/>
+<property name="vec_0" subclass="nlk.base.Connection" encoding="1RRZTZWX6-2C12XSB-VT"/>
+<property name="vec_1" subclass="nlk.base.Connection" encoding="1RRZTZWX6-1KV8M8T-W0"/>
+</storableObject>
+<storableObject id="1RRZV8PK4-19KZT53-1KC" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZV8PK4-19KZT53-1KC"/>
+<property name="_size" subclass="java.lang.Integer" encoding="0"/>
+</storableObject>
+<storableObject id="1RS0M3WJ1-B4KGQC-3R7" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RS0M3WJ1-B4KGQC-3R7"/>
+<property name="_size" subclass="java.lang.Integer" encoding="0"/>
+</storableObject>
+<storableObject id="1RRZY4F37-1HXMQN2-39F" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZY4F37-1HXMQN2-39F"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZTSYFD-1BL962B-87"/>
+</storableObject>
+<storableObject id="1RRZV3QQY-DM9BR0-16B" subclass="nlk.base.Proposition">
+<property name="_connections" subclass="nlk.base.ExtVector" encoding="1RRZV3QQY-NRTLVJ-16C"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="map:1RRZTSYFD-TWWYBB-86"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZV3QQY-DM9BR0-16B"/>
+</storableObject>
+<storableObject id="1RS0M1JFY-1BY6TXR-3LW" subclass="nlk.base.Proposition">
+<property name="_connections" subclass="nlk.base.ExtVector" encoding="1RS0M1JFY-28HW4V1-3LX"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="map:1RRZTSYFD-TWWYBB-86"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RS0M1JFY-1BY6TXR-3LW"/>
+</storableObject>
+<storableObject id="ge:1RRZVK05F-6YFJP0-216" subclass="nlk.base.GraphicalConnection">
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_secondConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_firstConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1RRZVK05F-6YFJP0-216"/>
+<property name="_firstGraphicalNode" subclass="nlk.base.GraphicalConcept" encoding="ge:1RRZTT5QV-1ZBP9TL-8F"/>
+<property name="_secondGraphicalNode" subclass="nlk.base.GraphicalLinkingPhrase" encoding="ge:1RRZVK05F-1SFS67K-213"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZVK05F-1ZNXK74-218"/>
+<property name="_controlPoints" subclass="nlk.base.ExtVector" encoding="1RRZVK05F-G1HNNB-217"/>
+<property name="_entity" subclass="nlk.base.Connection" encoding="1RRZVK05F-6YFJP0-216"/>
+</storableObject>
+<storableObject id="1RRZXYK8L-JN2022-32Y" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZXYK8L-JN2022-32Y"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZTSYFD-1BL962B-87"/>
+</storableObject>
+<storableObject id="1RS0M1JFY-27FZ43M-3LB" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RS0M1JFY-27FZ43M-3LB"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZTSYFD-1BL962B-87"/>
+</storableObject>
+<storableObject id="ge:1RRZV3QQV-1HF9H17-162" subclass="nlk.base.GraphicalConcept">
+<property name="_y" subclass="java.lang.Integer" encoding="286"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1RRZV3QQV-1HF9H17-162"/>
+<property name="_x" subclass="java.lang.Integer" encoding="610"/>
+<property name="_entity" subclass="nlk.base.Concept" encoding="1RRZV3QQV-1HF9H17-162"/>
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZV3QQV-1R0J3VF-163"/>
+</storableObject>
+<storableObject id="ge:1RRZV8PK4-1NYT8DB-1K7" subclass="nlk.base.GraphicalConcept">
+<property name="_y" subclass="java.lang.Integer" encoding="300"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1RRZV8PK4-1NYT8DB-1K7"/>
+<property name="_x" subclass="java.lang.Integer" encoding="1052"/>
+<property name="_entity" subclass="nlk.base.Concept" encoding="1RRZV8PK4-1NYT8DB-1K7"/>
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZV8PK4-V94BB-1K8"/>
+</storableObject>
+<storableObject id="1RRZY4F37-11K2KQL-39P" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZY4F37-11K2KQL-39P"/>
+<property name="_size" subclass="java.lang.Integer" encoding="2"/>
+<property name="vec_0" subclass="nlk.base.Connection" encoding="1RRZXYK8L-1PJH5R5-32P"/>
+<property name="vec_1" subclass="nlk.base.Connection" encoding="1RRZY4F37-11M3G9R-39H"/>
+</storableObject>
+<storableObject id="ge:1RS0M3WJ1-W5G68P-3QV" subclass="nlk.base.GraphicalConcept">
+<property name="_y" subclass="java.lang.Integer" encoding="571"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1RS0M3WJ1-W5G68P-3QV"/>
+<property name="_x" subclass="java.lang.Integer" encoding="1630"/>
+<property name="_entity" subclass="nlk.base.Concept" encoding="1RS0M3WJ1-W5G68P-3QV"/>
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1RS0M3WJ1-286F3TH-3QW"/>
+</storableObject>
+<storableObject id="1RS0M82W3-11GCK34-3WF" subclass="nlk.base.Concept">
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConcept" encoding="ge:1RS0M82W3-11GCK34-3WF"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RS0M82W3-11GCK34-3WF"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_phrase" subclass="java.lang.String" encoding="Student ID:2490584^linebreak$Slide set 3"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="map:1RRZTSYFD-TWWYBB-86"/>
+</storableObject>
+<storableObject id="1RRZYXGB4-W3246Y-3CV" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZYXGB4-W3246Y-3CV"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZTSYFD-1BL962B-87"/>
+</storableObject>
+<storableObject id="1RRZTSYFD-TWWYBB-86" subclass="nlk.base.GraphicalConceptMap">
+<property name="_entity" subclass="nlk.base.ConceptMap" encoding="map:1RRZTSYFD-TWWYBB-86"/>
+<property name="_viewportWidth" subclass="java.lang.Integer" encoding="1518"/>
+<property name="_viewportYPos" subclass="java.lang.Integer" encoding="0"/>
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZTSYFD-1BL962B-87"/>
+<property name="_canvasHeight" subclass="java.lang.Integer" encoding="637"/>
+<property name="_StyleSheetGroups" subclass="nlk.base.ExtVector" encoding="1RRZTT5XK-G19DKQ-8M"/>
+<property name="_viewportHeight" subclass="java.lang.Integer" encoding="615"/>
+<property name="_canvasWidth" subclass="java.lang.Integer" encoding="1899"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_viewportXPos" subclass="java.lang.Integer" encoding="0"/>
+<property name="_LatestChanges_" subclass="nlk.base.StyleSheet" encoding="1RRZTT5QV-1B37D04-8H"/>
+<property name="_DrawOrder" subclass="nlk.base.ExtVector" encoding="1VJ56QC44-VHH918-5RC"/>
+</storableObject>
+<storableObject id="ge:1RS0M1JFY-J67GRV-3LP" subclass="nlk.base.GraphicalConnection">
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_secondConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_firstConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1RS0M1JFY-J67GRV-3LP"/>
+<property name="_firstGraphicalNode" subclass="nlk.base.GraphicalLinkingPhrase" encoding="ge:1RS0M1JFY-THP30K-3LD"/>
+<property name="_secondGraphicalNode" subclass="nlk.base.GraphicalConcept" encoding="ge:1RS0M1JFY-1JPST5-3L9"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1RS0M1JFY-9SMKF5-3LR"/>
+<property name="_controlPoints" subclass="nlk.base.ExtVector" encoding="1RS0M1JFY-B0K6T7-3LQ"/>
+<property name="_entity" subclass="nlk.base.Connection" encoding="1RS0M1JFY-J67GRV-3LP"/>
+</storableObject>
+<storableObject id="1RRZV60SS-R4RNHG-1CH" subclass="nlk.base.LinkingPhrase">
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalLinkingPhrase" encoding="ge:1RRZV60SS-R4RNHG-1CH"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZV60SS-R4RNHG-1CH"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_phrase" subclass="java.lang.String" encoding="requirements for symmetric ^linebreak$encryption"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="map:1RRZTSYFD-TWWYBB-86"/>
+</storableObject>
+<storableObject id="1RRZXYK8L-26X0L6P-32R" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZXYK8L-26X0L6P-32R"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZTSYFD-1BL962B-87"/>
+</storableObject>
+<storableObject id="1RRZVQ7X7-1BJX7BM-2M6" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZVQ7X7-1BJX7BM-2M6"/>
+<property name="_size" subclass="java.lang.Integer" encoding="2"/>
+<property name="vec_0" subclass="nlk.base.Connection" encoding="1RRZVK05F-6YFJP0-216"/>
+<property name="vec_1" subclass="nlk.base.Connection" encoding="1RRZVQ7X7-CRV0LX-2M0"/>
+</storableObject>
+<storableObject id="ge:1RS0M3WJ1-1R8YQF9-3R6" subclass="nlk.base.GraphicalConnection">
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_secondConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_firstConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1RS0M3WJ1-1R8YQF9-3R6"/>
+<property name="_firstGraphicalNode" subclass="nlk.base.GraphicalLinkingPhrase" encoding="ge:1RS0M3WJ1-8LBK5P-3QY"/>
+<property name="_secondGraphicalNode" subclass="nlk.base.GraphicalConcept" encoding="ge:1RS0M3WJ1-W5G68P-3QV"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1RS0M3WJ1-1FV8D2N-3R8"/>
+<property name="_controlPoints" subclass="nlk.base.ExtVector" encoding="1RS0M3WJ1-B4KGQC-3R7"/>
+<property name="_entity" subclass="nlk.base.Connection" encoding="1RS0M3WJ1-1R8YQF9-3R6"/>
+</storableObject>
+<storableObject id="1RRZV8PK4-24682TF-1KB" subclass="nlk.base.Connection">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZV8PK4-24682TF-1KB"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConnection" encoding="ge:1RRZV8PK4-24682TF-1KB"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="map:1RRZTSYFD-TWWYBB-86"/>
+<property name="_firstNode" subclass="nlk.base.LinkingPhrase" encoding="1RRZV60SS-R4RNHG-1CH"/>
+<property name="_secondNode" subclass="nlk.base.Concept" encoding="1RRZV8PK4-1NYT8DB-1K7"/>
+</storableObject>
+<storableObject id="ge:1RRZV8PK4-24682TF-1KB" subclass="nlk.base.GraphicalConnection">
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_secondConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_firstConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1RRZV8PK4-24682TF-1KB"/>
+<property name="_firstGraphicalNode" subclass="nlk.base.GraphicalLinkingPhrase" encoding="ge:1RRZV60SS-R4RNHG-1CH"/>
+<property name="_secondGraphicalNode" subclass="nlk.base.GraphicalConcept" encoding="ge:1RRZV8PK4-1NYT8DB-1K7"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZV8PK4-1617BKR-1KD"/>
+<property name="_controlPoints" subclass="nlk.base.ExtVector" encoding="1RRZV8PK4-19KZT53-1KC"/>
+<property name="_entity" subclass="nlk.base.Connection" encoding="1RRZV8PK4-24682TF-1KB"/>
+</storableObject>
+<storableObject id="1RRZV3QQY-NRTLVJ-16C" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZV3QQY-NRTLVJ-16C"/>
+<property name="_size" subclass="java.lang.Integer" encoding="2"/>
+<property name="vec_0" subclass="nlk.base.Connection" encoding="1RRZTZWX6-2C12XSB-VT"/>
+<property name="vec_1" subclass="nlk.base.Connection" encoding="1RRZV3QQX-H9BGCV-165"/>
+</storableObject>
+<storableObject id="ge:1RS0M3WJ1-290H85R-3R1" subclass="nlk.base.GraphicalConnection">
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_secondConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_firstConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1RS0M3WJ1-290H85R-3R1"/>
+<property name="_firstGraphicalNode" subclass="nlk.base.GraphicalConcept" encoding="ge:1RRZYXGB4-4HQTSH-3CT"/>
+<property name="_secondGraphicalNode" subclass="nlk.base.GraphicalLinkingPhrase" encoding="ge:1RS0M3WJ1-8LBK5P-3QY"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1RS0M3WJ1-QCKH6J-3R3"/>
+<property name="_controlPoints" subclass="nlk.base.ExtVector" encoding="1RS0M3WJ1-1HLJKFQ-3R2"/>
+<property name="_entity" subclass="nlk.base.Connection" encoding="1RS0M3WJ1-290H85R-3R1"/>
+</storableObject>
+<storableObject id="1RRZVNFRH-281D88L-2G2" subclass="nlk.base.Proposition">
+<property name="_connections" subclass="nlk.base.ExtVector" encoding="1RRZVNFRH-R0Q251-2G3"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="map:1RRZTSYFD-TWWYBB-86"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZVNFRH-281D88L-2G2"/>
+</storableObject>
+<storableObject id="1RRZTT5QV-29TR8WJ-8G" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZTT5QV-29TR8WJ-8G"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZTSYFD-1BL962B-87"/>
+</storableObject>
+<storableObject id="1RS0M1JFY-THP30K-3LD" subclass="nlk.base.LinkingPhrase">
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalLinkingPhrase" encoding="ge:1RS0M1JFY-THP30K-3LD"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RS0M1JFY-THP30K-3LD"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_phrase" subclass="java.lang.String" encoding="using public key encryption"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="map:1RRZTSYFD-TWWYBB-86"/>
+</storableObject>
+<storableObject id="1RRZXYK8L-QY50WS-32Q" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZXYK8L-QY50WS-32Q"/>
+<property name="_size" subclass="java.lang.Integer" encoding="0"/>
+</storableObject>
+<storableObject id="1RRZVQ7X7-24JXHJH-2LX" subclass="nlk.base.Concept">
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConcept" encoding="ge:1RRZVQ7X7-24JXHJH-2LX"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZVQ7X7-24JXHJH-2LX"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_phrase" subclass="java.lang.String" encoding="AES^linebreak$(128 bit plain data and 128/192/256^linebreak$bit key to get a cipher block)"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="map:1RRZTSYFD-TWWYBB-86"/>
+</storableObject>
+<storableObject id="1RRZVFV8Q-12VXLBC-1QT" subclass="nlk.base.Concept">
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConcept" encoding="ge:1RRZVFV8Q-12VXLBC-1QT"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZVFV8Q-12VXLBC-1QT"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_phrase" subclass="java.lang.String" encoding="Encryption"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="map:1RRZTSYFD-TWWYBB-86"/>
+</storableObject>
+<storableObject id="1RRZXYK8L-RXB6DR-32J" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZXYK8L-RXB6DR-32J"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZTSYFD-1BL962B-87"/>
+</storableObject>
+<storableObject id="ge:1RRZXYK8L-1DYLPY8-32W" subclass="nlk.base.GraphicalConnection">
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_secondConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_firstConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1RRZXYK8L-1DYLPY8-32W"/>
+<property name="_firstGraphicalNode" subclass="nlk.base.GraphicalLinkingPhrase" encoding="ge:1RRZXYK8L-2B6RS7G-32L"/>
+<property name="_secondGraphicalNode" subclass="nlk.base.GraphicalConcept" encoding="ge:1RRZXYK8L-842ZP8-32H"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZXYK8L-JN2022-32Y"/>
+<property name="_controlPoints" subclass="nlk.base.ExtVector" encoding="1RRZXYK8L-T2YP34-32X"/>
+<property name="_entity" subclass="nlk.base.Connection" encoding="1RRZXYK8L-1DYLPY8-32W"/>
+</storableObject>
+<storableObject id="1RRZVNFRH-R0Q251-2G3" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZVNFRH-R0Q251-2G3"/>
+<property name="_size" subclass="java.lang.Integer" encoding="2"/>
+<property name="vec_0" subclass="nlk.base.Connection" encoding="1RRZVK05F-6YFJP0-216"/>
+<property name="vec_1" subclass="nlk.base.Connection" encoding="1RRZVNFRH-1KKL233-2FX"/>
+</storableObject>
+<storableObject id="1RRZV60SS-1MXNZR6-1CF" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZV60SS-1MXNZR6-1CF"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZTSYFD-1BL962B-87"/>
+</storableObject>
+<storableObject id="ge:1RS0M1JFY-THP30K-3LD" subclass="nlk.base.GraphicalLinkingPhrase">
+<property name="_y" subclass="java.lang.Integer" encoding="505"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1RS0M1JFY-THP30K-3LD"/>
+<property name="_x" subclass="java.lang.Integer" encoding="1346"/>
+<property name="_entity" subclass="nlk.base.LinkingPhrase" encoding="1RS0M1JFY-THP30K-3LD"/>
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1RS0M1JFY-BR1V79-3LF"/>
+</storableObject>
+<storableObject id="1RRZTT5W2-2BC1B1M-8J" subclass="nlk.base.ExtHashtable">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZTT5W2-2BC1B1M-8J"/>
+<property name="1RRZTT5QV-1ZBP9TL-8F" subclass="nlk.base.Concept" encoding="1RRZTT5QV-1ZBP9TL-8F"/>
+<property name="1RRZVNFRH-DD5ZH6-2FT" subclass="nlk.base.Concept" encoding="1RRZVNFRH-DD5ZH6-2FT"/>
+<property name="1RS0M82W3-11GCK34-3WF" subclass="nlk.base.Concept" encoding="1RS0M82W3-11GCK34-3WF"/>
+<property name="1RS0M1JFY-1JPST5-3L9" subclass="nlk.base.Concept" encoding="1RS0M1JFY-1JPST5-3L9"/>
+<property name="1RRZTZWX6-1JNW55B-VL" subclass="nlk.base.Concept" encoding="1RRZTZWX6-1JNW55B-VL"/>
+<property name="1RRZVZFM2-1BKZ31B-2WM" subclass="nlk.base.Concept" encoding="1RRZVZFM2-1BKZ31B-2WM"/>
+<property name="1RRZY4F37-28560RK-39D" subclass="nlk.base.Concept" encoding="1RRZY4F37-28560RK-39D"/>
+<property name="1RRZV60SS-1DH103J-1CD" subclass="nlk.base.Concept" encoding="1RRZV60SS-1DH103J-1CD"/>
+<property name="1RS0M3WJ1-W5G68P-3QV" subclass="nlk.base.Concept" encoding="1RS0M3WJ1-W5G68P-3QV"/>
+<property name="1RRZXYK8L-842ZP8-32H" subclass="nlk.base.Concept" encoding="1RRZXYK8L-842ZP8-32H"/>
+<property name="1RRZVK04Y-1S4Y64M-210" subclass="nlk.base.Concept" encoding="1RRZVK04Y-1S4Y64M-210"/>
+<property name="1RRZV8PK4-1NYT8DB-1K7" subclass="nlk.base.Concept" encoding="1RRZV8PK4-1NYT8DB-1K7"/>
+<property name="1RRZYXGB4-4HQTSH-3CT" subclass="nlk.base.Concept" encoding="1RRZYXGB4-4HQTSH-3CT"/>
+<property name="1RRZV3QQV-1HF9H17-162" subclass="nlk.base.Concept" encoding="1RRZV3QQV-1HF9H17-162"/>
+<property name="1RRZVQ7X7-24JXHJH-2LX" subclass="nlk.base.Concept" encoding="1RRZVQ7X7-24JXHJH-2LX"/>
+<property name="1RRZVFV8Q-12VXLBC-1QT" subclass="nlk.base.Concept" encoding="1RRZVFV8Q-12VXLBC-1QT"/>
+</storableObject>
+<storableObject id="1RS0M82W3-1RFXM4Z-3WG" subclass="nlk.base.StyleSheet">
+<property name="nlk.base.graphicalconcept.height" subclass="java.lang.Integer" encoding="132"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RS0M82W3-1RFXM4Z-3WG"/>
+<property name="nlk.base.graphicalconcept.width" subclass="java.lang.Integer" encoding="197"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZTSYFD-1BL962B-87"/>
+</storableObject>
+<storableObject id="1RRZYXGB4-B4HZ7K-3D3" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZYXGB4-B4HZ7K-3D3"/>
+<property name="_size" subclass="java.lang.Integer" encoding="2"/>
+<property name="vec_0" subclass="nlk.base.Connection" encoding="1RRZXYK8L-1PJH5R5-32P"/>
+<property name="vec_1" subclass="nlk.base.Connection" encoding="1RRZYXGB4-BTNJPX-3CX"/>
+</storableObject>
+<storableObject id="1RS0M3WJ1-1FV8D2N-3R8" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RS0M3WJ1-1FV8D2N-3R8"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZTSYFD-1BL962B-87"/>
+</storableObject>
+<storableObject id="1RRZVGG1D-14VWCPS-1RL" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZVGG1D-14VWCPS-1RL"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZTSYFD-1BL962B-87"/>
+</storableObject>
+<storableObject id="1RRZTZWX6-2BYJB85-VP" subclass="nlk.base.LinkingPhrase">
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalLinkingPhrase" encoding="ge:1RRZTZWX6-2BYJB85-VP"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZTZWX6-2BYJB85-VP"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_phrase" subclass="java.lang.String" encoding="Attacks on symmetric encryption"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="map:1RRZTSYFD-TWWYBB-86"/>
+</storableObject>
+<storableObject id="1RRZTZWX6-QYFSW-VQ" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZTZWX6-QYFSW-VQ"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZTSYFD-1BL962B-87"/>
+</storableObject>
+<storableObject id="ge:1RRZVQ7X7-CRV0LX-2M0" subclass="nlk.base.GraphicalConnection">
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1RRZTSYFD-TWWYBB-86"/>
+<property name="_secondConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_firstConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1RRZVQ7X7-CRV0LX-2M0"/>
+<property name="_firstGraphicalNode" subclass="nlk.base.GraphicalLinkingPhrase" encoding="ge:1RRZVK05F-1SFS67K-213"/>
+<property name="_secondGraphicalNode" subclass="nlk.base.GraphicalConcept" encoding="ge:1RRZVQ7X7-24JXHJH-2LX"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZVQ7X7-28MHN32-2M2"/>
+<property name="_controlPoints" subclass="nlk.base.ExtVector" encoding="1RRZVQ7X7-1P00424-2M1"/>
+<property name="_entity" subclass="nlk.base.Connection" encoding="1RRZVQ7X7-CRV0LX-2M0"/>
+</storableObject>
+<storableObject id="1RRZTZWX6-1JG3D1X-W2" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZTZWX6-1JG3D1X-W2"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZTSYFD-1BL962B-87"/>
+</storableObject>
+<storableObject id="1RRZV3QQX-20M19J3-166" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZV3QQX-20M19J3-166"/>
+<property name="_size" subclass="java.lang.Integer" encoding="0"/>
+</storableObject>
+<storableObject id="1RRZV60SS-2DX6DV0-1CM" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZV60SS-2DX6DV0-1CM"/>
+<property name="_size" subclass="java.lang.Integer" encoding="0"/>
+</storableObject>
+<storableObject id="1RRZVH3R6-RBV9TD-1T3" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZVH3R6-RBV9TD-1T3"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZTSYFD-1BL962B-87"/>
+</storableObject>
+<storableObject id="1RRZVH3R6-1X7GX92-1T2" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZVH3R6-1X7GX92-1T2"/>
+<property name="_size" subclass="java.lang.Integer" encoding="0"/>
+</storableObject>
+<storableObject id="1RRZV8PK4-V94BB-1K8" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1RRZV8PK4-V94BB-1K8"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1RRZTSYFD-1BL962B-87"/>
+</storableObject>
+</conceptMap>

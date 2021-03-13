@@ -1,0 +1,88 @@
+// The Round Table
+digraph {
+	"1S434SVK3-1LHP1MM-CLZ" [label="knowledge of the general characteristics of the plaintext" Gsplines=true fontsize=20 shape=rect style=filled]
+	"1S3Z9JLXC-22LCX3Z-M5P" [label="SYMMETRIC ENCRYPTION ATTACKS Module 3" Gsplines=true fontsize=20 shape=rect style=filled]
+	"1S46CDS3B-RW6QRV-DN0" [label=including Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S434Q5YD-1H9Z0VW-CHV" [label="Cryptanalytic 
+Attacks" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46CDS3B-RW6QRV-DN0" -> "1S434Q5YD-1H9Z0VW-CHV" [constraint=true]
+	"1S46C9D96-13LBZLK-DGJ" [label="represented 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S4356WNG-QD48CK-D31" [label="if successful, 
+all the future 
+and past messages 
+encrypted 
+with that 
+key are compromised
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46C9D96-13LBZLK-DGJ" -> "1S4356WNG-QD48CK-D31" [constraint=true]
+	"1S46CDS3B-RW6QRV-DN0" [label=including Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S434Q8RH-FCF9S-CHZ" [label="Brute Force 
+Attacks" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46CDS3B-RW6QRV-DN0" -> "1S434Q8RH-FCF9S-CHZ" [constraint=true]
+	"1S434T7P1-1JDDLN9-CMR" [label="TYPES OF SYMMETRIC 
+ENCRYPTION 
+ATTACKS" Gsplines=true fillcolor=aquamarine fontsize=20 shape=doubleoctagon style=filled]
+	"1S46CDS3B-RW6QRV-DN0" [label=including Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S434T7P1-1JDDLN9-CMR" -> "1S46CDS3B-RW6QRV-DN0" [constraint=true]
+	"1S46C9D96-13LBZLK-DGJ" [label="represented 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S434SJKQ-25VXN49-CLQ" [label="nature of 
+the algorithm
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46C9D96-13LBZLK-DGJ" -> "1S434SJKQ-25VXN49-CLQ" [constraint=true]
+	"1S46CC57Z-1SM5DBS-DKL" [label="illustrated 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S434T1ST-1N2XT9M-CMC" [label="all the possible 
+keys on the 
+ciphertext 
+until some 
+intelligible 
+translation 
+into plaintext 
+is obtained
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46CC57Z-1SM5DBS-DKL" -> "1S434T1ST-1N2XT9M-CMC" [constraint=true]
+	"1S46C9D96-13LBZLK-DGJ" [label="represented 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S434SZLP-1NSPDKZ-CM7" [label="samples of 
+plaintext-cipertext 
+pairs" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46C9D96-13LBZLK-DGJ" -> "1S434SZLP-1NSPDKZ-CM7" [constraint=true]
+	"1S434Q8RH-FCF9S-CHZ" [label="Brute Force 
+Attacks" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46CC57Z-1SM5DBS-DKL" [label="illustrated 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S434Q8RH-FCF9S-CHZ" -> "1S46CC57Z-1SM5DBS-DKL" [constraint=true]
+	"1S46CC57Z-1SM5DBS-DKL" [label="illustrated 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S434T5MJ-1VRVCG6-CMM" [label="on average, 
+half of all 
+possible keys 
+must be tried 
+to achieve 
+success" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46CC57Z-1SM5DBS-DKL" -> "1S434T5MJ-1VRVCG6-CMM" [constraint=true]
+	"1S46C9D96-13LBZLK-DGJ" [label="represented 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S434SXGF-1PXNZRL-CM3" [label="characteristics 
+of the algorithm 
+to attempt 
+to deduce 
+a specific 
+plaintext 
+or the key 
+being used
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46C9D96-13LBZLK-DGJ" -> "1S434SXGF-1PXNZRL-CM3" [constraint=true]
+	"1S434Q5YD-1H9Z0VW-CHV" [label="Cryptanalytic 
+Attacks" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46C9D96-13LBZLK-DGJ" [label="represented 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S434Q5YD-1H9Z0VW-CHV" -> "1S46C9D96-13LBZLK-DGJ" [constraint=true]
+	Stat [label="SUMMERY
+
+Matched Branch:			0\lPartially Matched Branch:	6\lMismatched Branch:		0\lExtra Branch:				34\lTotal Match:		14.29 %\lConcept Match:	18.18 %\lLink. Phr. Match:	0.0 %\lMisconception:	100.0 %\lHierarchy Match:	33.33 %\l" Gsplines=true fillcolor="#F5FFFA" fontsize=20 shape=component style=filled]
+	Grade [label="Grade:	16.05%" Gsplines=true fillcolor="#FFEBCD" fontsize=20 shape=note style=filled]
+	Stat -> Grade [arrowhead=inv color=black constraint=true]
+}

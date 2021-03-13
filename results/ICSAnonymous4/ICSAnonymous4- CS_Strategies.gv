@@ -1,0 +1,353 @@
+// The Round Table
+digraph {
+	"1S2NFX1HT-DMTP6V-FG4" [label="COMPUTER SECURITY STRATEGY Module 1" Gsplines=true fontsize=20 shape=rect style=filled]
+	"1S2NJQWF6-2ZH7ZP-JLT" [label=encompasses Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NJG7P6-DBXYFH-J85" [label="Both the system 
+design and 
+system implementation
+" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2NJQWF6-2ZH7ZP-JLT" -> "1S2NJG7P6-DBXYFH-J85" [constraint=true]
+	"1S2NH8BLC-1R398RY-GZN" [label="involves these 
+four complementary 
+courses of 
+action" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NH8BLB-3XSQNP-GZ1" [label=Prevention Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2NH8BLC-1R398RY-GZN" -> "1S2NH8BLB-3XSQNP-GZ1" [constraint=true]
+	"1S2NGWBJP-Y1TNN4-GJD" [label="considering 
+these trade-offs
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NGFF39-V3DH2-G32" [label="Ease or use 
+versus security
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S2NGWBJP-Y1TNN4-GJD" -> "1S2NGFF39-V3DH2-G32" [constraint=true]
+	"1S2NH8BLC-1R398RY-GZN" [label="involves these 
+four complementary 
+courses of 
+action" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NH8BLC-LGKNZ4-GZB" [label=Response Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2NH8BLC-1R398RY-GZN" -> "1S2NH8BLC-LGKNZ4-GZB" [constraint=true]
+	"1S2N50K7G-1K4VTVB-3XN" [label="COMPUTER SECURITY 
+STRATEGY" Gsplines=true fillcolor=aquamarine fontsize=20 shape=doubleoctagon style=filled]
+	"1S2NG570F-27Q9Q4S-FNZ" [label="aspects of 
+security strategy
+" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S2N50K7G-1K4VTVB-3XN" -> "1S2NG570F-27Q9Q4S-FNZ" [constraint=true]
+	"1S2NHZ4D0-1BDX72F-HSL" [label="for example
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NHPJQF-NHYJFL-HFY" [label="Secure Encryption 
+Algorithms" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S2NHZ4D0-1BDX72F-HSL" -> "1S2NHPJQF-NHYJFL-HFY" [constraint=true]
+	"1S2NJWNG4-1SM2BKP-JR8" [label=involves Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NJLYYM-1P2XZ25-JGC" [label="Testing and 
+formal analytic 
+or mathematical 
+techniques" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S2NJWNG4-1SM2BKP-JR8" -> "1S2NJLYYM-1P2XZ25-JGC" [constraint=true]
+	"1S2NG570F-27Q9Q4S-FNZ" [label="aspects of 
+security strategy
+" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S2N50K7G-1FQ05N4-3XS" [label="Implementation 
+and Mechanisms
+" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2NG570F-27Q9Q4S-FNZ" -> "1S2N50K7G-1FQ05N4-3XS" [constraint=true]
+	"1S2NJBHCJ-28XJHV9-J1N" [label=Assurance Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2NJQWF6-2ZH7ZP-JLT" [label=encompasses Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NJBHCJ-28XJHV9-J1N" -> "1S2NJQWF6-2ZH7ZP-JLT" [constraint=true]
+	"1S2NG7WJK-F406NS-FT0" [label="characterized 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NG18W2-DFTWNQ-FJR" [label="Viability 
+of security 
+scheme" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2NG7WJK-F406NS-FT0" -> "1S2NG18W2-DFTWNQ-FJR" [constraint=true]
+	"1S2NG9JLL-2BNS1Z-FWF" [label="Formal statement 
+of rules and 
+practices 
+that specify 
+or regulate 
+how a system 
+or organization 
+provides security 
+services to 
+protect sensitive 
+and critical 
+system resources
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S2NGWBJP-Y1TNN4-GJD" [label="considering 
+these trade-offs
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NG9JLL-2BNS1Z-FWF" -> "1S2NGWBJP-Y1TNN4-GJD" [constraint=true]
+	"1S2NJSPG8-29L71F1-JNT" [label="composed of
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NJBPFX-2201HCJ-J1T" [label=Evaluation Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S2NJSPG8-29L71F1-JNT" -> "1S2NJBPFX-2201HCJ-J1T" [constraint=true]
+	"1S2NHG79M-1M77Y1S-H7F" [label="Intrusion 
+Detection 
+Systems (IDS)
+" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2NHYKM1-221JBZW-HRH" [label="with the purpose 
+of" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NHG79M-1M77Y1S-H7F" -> "1S2NHYKM1-221JBZW-HRH" [constraint=true]
+	"1S2NGXTZF-12MM0QQ-GLP" [label="deliberating 
+these factors
+" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S2NGJQXX-27R95R3-G75" [label="Potential 
+threats and 
+the likelihood 
+of attacks
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S2NGXTZF-12MM0QQ-GLP" -> "1S2NGJQXX-27R95R3-G75" [constraint=true]
+	"1S2NG7CC5-1VVX5J9-FRZ" [label="represented 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NG11VS-YRC35H-FJC" [label="Purpose of 
+the security 
+scheme" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2NG7CC5-1VVX5J9-FRZ" -> "1S2NG11VS-YRC35H-FJC" [constraint=true]
+	"1S2NGXTZF-12MM0QQ-GLP" [label="deliberating 
+these factors
+" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S2NGF5JZ-B8JLWL-G2T" [label="Value of the 
+assets being 
+protected" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S2NGXTZF-12MM0QQ-GLP" -> "1S2NGF5JZ-B8JLWL-G2T" [constraint=true]
+	"1S2NH8BLB-2388NDJ-GZ4" [label="Security Implementation
+" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2NH8BLC-1R398RY-GZN" [label="involves these 
+four complementary 
+courses of 
+action" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NH8BLB-2388NDJ-GZ4" -> "1S2NH8BLC-1R398RY-GZN" [constraint=true]
+	"1S2NH8BLB-3XSQNP-GZ1" [label=Prevention Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2NHZ4D0-1BDX72F-HSL" [label="for example
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NH8BLB-3XSQNP-GZ1" -> "1S2NHZ4D0-1BDX72F-HSL" [constraint=true]
+	"1S2NG83FS-S66856-FTS" [label="illustrated 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NG17P5-1ZSM57H-FJM" [label="Method used 
+by the security 
+scheme" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2NG83FS-S66856-FTS" -> "1S2NG17P5-1ZSM57H-FJM" [constraint=true]
+	"1S2NHYKM1-221JBZW-HRH" [label="with the purpose 
+of" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NHJXB8-1RKZBD7-H9Q" [label="Detection 
+of denial 
+of service 
+(DoS) attacks
+" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2NHYKM1-221JBZW-HRH" -> "1S2NHJXB8-1RKZBD7-H9Q" [constraint=true]
+	"1S2N50K7G-RFM71B-3XZ" [label="Correctness 
+and Assurance
+" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2NG7WJK-F406NS-FT0" [label="characterized 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2N50K7G-RFM71B-3XZ" -> "1S2NG7WJK-F406NS-FT0" [constraint=true]
+	"1S2NG9JLL-2BNS1Z-FWF" [label="Formal statement 
+of rules and 
+practices 
+that specify 
+or regulate 
+how a system 
+or organization 
+provides security 
+services to 
+protect sensitive 
+and critical 
+system resources
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S2NGXTZF-12MM0QQ-GLP" [label="deliberating 
+these factors
+" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S2NG9JLL-2BNS1Z-FWF" -> "1S2NGXTZF-12MM0QQ-GLP" [constraint=true]
+	"1S2N50K7G-1FQ05N4-3XS" [label="Implementation 
+and Mechanisms
+" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2NG83FS-S66856-FTS" [label="illustrated 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2N50K7G-1FQ05N4-3XS" -> "1S2NG83FS-S66856-FTS" [constraint=true]
+	"1S2NHBPKT-Y64NBB-H3S" [label="portrayed 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NH8BLB-2388NDJ-GZ4" [label="Security Implementation
+" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2NHBPKT-Y64NBB-H3S" -> "1S2NH8BLB-2388NDJ-GZ4" [constraint=true]
+	"1S2NHW16V-JLST6W-HNF" [label="for instance
+" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S2NHG79M-1M77Y1S-H7F" [label="Intrusion 
+Detection 
+Systems (IDS)
+" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2NHW16V-JLST6W-HNF" -> "1S2NHG79M-1M77Y1S-H7F" [constraint=true]
+	"1S2NG570F-27Q9Q4S-FNZ" [label="aspects of 
+security strategy
+" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S2N50K7G-ZFCJJ7-3XW" [label="Specification 
+and Policy
+" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2NG570F-27Q9Q4S-FNZ" -> "1S2N50K7G-ZFCJJ7-3XW" [constraint=true]
+	"1S2NJBPFX-2201HCJ-J1T" [label=Evaluation Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S2NJX7F0-JFGYBY-JS9" [label="described 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NJBPFX-2201HCJ-J1T" -> "1S2NJX7F0-JFGYBY-JS9" [constraint=true]
+	"1S2NG570F-27Q9Q4S-FNZ" [label="aspects of 
+security strategy
+" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S2N50K7G-RFM71B-3XZ" [label="Correctness 
+and Assurance
+" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2NG570F-27Q9Q4S-FNZ" -> "1S2N50K7G-RFM71B-3XZ" [constraint=true]
+	"1S2NG7PFP-1SGMF0R-FSP" [label="Security Policy
+" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2NH0JX7-1FZ8NPQ-GQQ" [label="depicted by
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NG7PFP-1SGMF0R-FSP" -> "1S2NH0JX7-1FZ8NPQ-GQQ" [constraint=true]
+	"1S2NHZ8R7-2691KVB-HT9" [label="with the result 
+of" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S2NHGBW1-38M4Q3-H7P" [label="Prevent unauthorized 
+access to 
+encryption 
+keys" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S2NHZ8R7-2691KVB-HT9" -> "1S2NHGBW1-38M4Q3-H7P" [constraint=true]
+	"1S2NJBPFX-2201HCJ-J1T" [label=Evaluation Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S2NJWNG4-1SM2BKP-JR8" [label=involves Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NJBPFX-2201HCJ-J1T" -> "1S2NJWNG4-1SM2BKP-JR8" [constraint=true]
+	"1S2N50K7G-ZFCJJ7-3XW" [label="Specification 
+and Policy
+" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2NH3PK2-MDSH30-GSV" [label="elaborated 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2N50K7G-ZFCJJ7-3XW" -> "1S2NH3PK2-MDSH30-GSV" [constraint=true]
+	"1S2N50K7G-1FQ05N4-3XS" [label="Implementation 
+and Mechanisms
+" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2NHBPKT-Y64NBB-H3S" [label="portrayed 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2N50K7G-1FQ05N4-3XS" -> "1S2NHBPKT-Y64NBB-H3S" [constraint=true]
+	"1S2NGWBJP-Y1TNN4-GJD" [label="considering 
+these trade-offs
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NGFGSN-1B3C1SZ-G36" [label="Cost of security 
+versus cost 
+of failure 
+and recovery
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S2NGWBJP-Y1TNN4-GJD" -> "1S2NGFGSN-1B3C1SZ-G36" [constraint=true]
+	"1S2NH8BLB-1MK0P0M-GYY" [label=Detection Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2NHW16V-JLST6W-HNF" [label="for instance
+" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S2NH8BLB-1MK0P0M-GYY" -> "1S2NHW16V-JLST6W-HNF" [constraint=true]
+	"1S2NH8BLC-1R398RY-GZN" [label="involves these 
+four complementary 
+courses of 
+action" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NH8BLB-1MK0P0M-GYY" [label=Detection Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2NH8BLC-1R398RY-GZN" -> "1S2NH8BLB-1MK0P0M-GYY" [constraint=true]
+	"1S2NHPJQF-NHYJFL-HFY" [label="Secure Encryption 
+Algorithms" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S2NHZ8R7-2691KVB-HT9" [label="with the result 
+of" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S2NHPJQF-NHYJFL-HFY" -> "1S2NHZ8R7-2691KVB-HT9" [constraint=true]
+	"1S2NH8BLB-21LZ1BL-GZ7" [label=Recovery Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2NJ3XQQ-PWG0G3-HYR" [label="for instance
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NH8BLB-21LZ1BL-GZ7" -> "1S2NJ3XQQ-PWG0G3-HYR" [constraint=true]
+	"1S2N50K7G-ZFCJJ7-3XW" [label="Specification 
+and Policy
+" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2NG7CC5-1VVX5J9-FRZ" [label="represented 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2N50K7G-ZFCJJ7-3XW" -> "1S2NG7CC5-1VVX5J9-FRZ" [constraint=true]
+	"1S2NJBHCJ-28XJHV9-J1N" [label=Assurance Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2NJPJY8-18FN39Q-JKF" [label="defined by
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NJBHCJ-28XJHV9-J1N" -> "1S2NJPJY8-18FN39Q-JKF" [constraint=true]
+	"1S2NH0JX7-1FZ8NPQ-GQQ" [label="depicted by
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NG9JLL-2BNS1Z-FWF" [label="Formal statement 
+of rules and 
+practices 
+that specify 
+or regulate 
+how a system 
+or organization 
+provides security 
+services to 
+protect sensitive 
+and critical 
+system resources
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S2NH0JX7-1FZ8NPQ-GQQ" -> "1S2NG9JLL-2BNS1Z-FWF" [constraint=true]
+	"1S2NJX7F0-JFGYBY-JS9" [label="described 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NJHHR8-5XN1N8-JB6" [label="Process of 
+examining 
+a computer 
+system with 
+respect to 
+certain criteria
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S2NJX7F0-JFGYBY-JS9" -> "1S2NJHHR8-5XN1N8-JB6" [constraint=true]
+	"1S2NH3PK2-MDSH30-GSV" [label="elaborated 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NG7PFP-1SGMF0R-FSP" [label="Security Policy
+" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2NH3PK2-MDSH30-GSV" -> "1S2NG7PFP-1SGMF0R-FSP" [constraint=true]
+	"1S2NH8BLC-LGKNZ4-GZB" [label=Response Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2NJ0TH7-18MBC41-HWB" [label="with the purpose 
+of" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S2NH8BLC-LGKNZ4-GZB" -> "1S2NJ0TH7-18MBC41-HWB" [constraint=true]
+	"1S2NJ3XQQ-PWG0G3-HYR" [label="for instance
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NG8Q81-G5JBV9-FVN" [label="Use of backup 
+systems" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S2NJ3XQQ-PWG0G3-HYR" -> "1S2NG8Q81-G5JBV9-FVN" [constraint=true]
+	"1S2NJSPG8-29L71F1-JNT" [label="composed of
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NJBHCJ-28XJHV9-J1N" [label=Assurance Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2NJSPG8-29L71F1-JNT" -> "1S2NJBHCJ-28XJHV9-J1N" [constraint=true]
+	"1S2NJ0TH7-18MBC41-HWB" [label="with the purpose 
+of" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S2NG8S1S-2CF0YCQ-FVS" [label="Upon detection, 
+being able 
+to halt an 
+attack and 
+prevent further 
+damage" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S2NJ0TH7-18MBC41-HWB" -> "1S2NG8S1S-2CF0YCQ-FVS" [constraint=true]
+	"1S2N50K7G-RFM71B-3XZ" [label="Correctness 
+and Assurance
+" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2NJSPG8-29L71F1-JNT" [label="composed of
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2N50K7G-RFM71B-3XZ" -> "1S2NJSPG8-29L71F1-JNT" [constraint=true]
+	"1S2NJPJY8-18FN39Q-JKF" [label="defined by
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NJCH4B-2614GN9-J2Q" [label="Degree of 
+confidence 
+one has that 
+the security 
+measures work 
+as intended 
+to protect 
+the system 
+and the information 
+it processes
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S2NJPJY8-18FN39Q-JKF" -> "1S2NJCH4B-2614GN9-J2Q" [constraint=true]
+	"1S2NGXTZF-12MM0QQ-GLP" [label="deliberating 
+these factors
+" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S2NGKGMX-WKH737-G7N" [label="Vulnerabilities 
+of the system
+" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2NGXTZF-12MM0QQ-GLP" -> "1S2NGKGMX-WKH737-G7N" [constraint=true]
+	"1S2NH8BLC-1R398RY-GZN" [label="involves these 
+four complementary 
+courses of 
+action" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NH8BLB-21LZ1BL-GZ7" [label=Recovery Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2NH8BLC-1R398RY-GZN" -> "1S2NH8BLB-21LZ1BL-GZ7" [constraint=true]
+	Stat [label="SUMMERY
+
+Matched Branch:			0\lPartially Matched Branch:	8\lMismatched Branch:		8\lExtra Branch:				0\lTotal Match:		41.18 %\lConcept Match:	56.25 %\lLink. Phr. Match:	15.79 %\lMisconception:	96.67 %\lHierarchy Match:	8.45 %\l" Gsplines=true fillcolor="#F5FFFA" fontsize=20 shape=component style=filled]
+	Grade [label="Grade:	17.56%" Gsplines=true fillcolor="#FFEBCD" fontsize=20 shape=note style=filled]
+	Stat -> Grade [arrowhead=inv color=black constraint=true]
+	"1S2N50K7G-RFM71B-3XZ" -> "1S2NG18W2-DFTWNQ-FJR" [arrowhead=open color="#0316D1" constraint=true style=dashed]
+}

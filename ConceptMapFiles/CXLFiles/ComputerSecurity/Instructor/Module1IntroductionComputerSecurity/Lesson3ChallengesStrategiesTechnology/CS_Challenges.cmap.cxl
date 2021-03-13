@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmap xmlns:dcterms="http://purl.org/dc/terms/" xmlns="http://cmap.ihmc.us/xml/cmap/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+    <res-meta>
+        <dc:title>CS_Challenges.cmap</dc:title>
+        <dcterms:created>2020-12-07T07:21:07-05:00</dcterms:created>
+        <dcterms:modified>2020-12-07T07:21:07-05:00</dcterms:modified>
+        <dc:language>en</dc:language>
+        <dc:format>x-cmap/x-storable</dc:format>
+        <dc:publisher>FIHMC CmapTools 6.04</dc:publisher>
+        <dc:source>cmap:1W5Z76G0X-151MD9Y-1:external-folder:file:////C:/Users/masri/PycharmProjects/cmapProject/ConceptMapFiles/CMAPFiles/ComputerSecurity/Instructor/Module1IntroductionComputerSecurity/Lesson3ChallengesStrategiesTechnology/CS_Challenges.cmap</dc:source>
+    </res-meta>
+    <map width="808" height="567">
+        <concept-list>
+            <concept id="1S2NKSW46-2BTXWRF-KSS" label="SECURITY&#xa;CHALLENGES"/>
+            <concept id="1S2NKSPZZ-177VYSC-KSJ" label="Attackers only need to find a single weakness,&#xa; while the developer needs to find all weaknesses"/>
+            <concept id="1S2NKSX8V-224MG1N-KSX" label="Security requires regular and constant monitoring"/>
+            <concept id="1S2NKSYC3-1K422KQ-KT1" label="Potential attacks on the security&#xa; features must be considered"/>
+            <concept id="1S2NL23RL-1Y26PJH-LBP" label="Strong security is sometimes considered&#xa; an impediment to efficient and &#xa;user-friendly operation of an information &#xa;system or use of information"/>
+            <concept id="1S2NKT0PN-1D1P0GV-KT9" label="Security is often an afterthought to be incorporated&#xa;into a system after the design is complete, &#xa;rather than being an integral part of the design process"/>
+            <concept id="1S2NKSZHR-DRKPZD-KT5" label="Users and system managers tend &#xa;not to see the benefits of security &#xa;investments until a failure occurs"/>
+            <concept id="1S2NKR1X0-1X5FM3S-KRM" label="SECURITY CHALLENGES&#xa;Module 1"/>
+        </concept-list>
+        <linking-phrase-list>
+            <linking-phrase id="1S2NL6PBP-2BL9SX6-LL9" label="has necessary&#xa;considerations of"/>
+        </linking-phrase-list>
+        <connection-list>
+            <connection id="1S2NL71CW-ZVRD2Z-LMH" from-id="1S2NL6PBP-2BL9SX6-LL9" to-id="1S2NKT0PN-1D1P0GV-KT9"/>
+            <connection id="1S2NL6PBQ-27C9R3S-LLM" from-id="1S2NL6PBP-2BL9SX6-LL9" to-id="1S2NKSYC3-1K422KQ-KT1"/>
+            <connection id="1S2NL79RJ-1XSV92Y-LMZ" from-id="1S2NL6PBP-2BL9SX6-LL9" to-id="1S2NKSPZZ-177VYSC-KSJ"/>
+            <connection id="1S2NL6WH5-MPJSJ4-LM3" from-id="1S2NL6PBP-2BL9SX6-LL9" to-id="1S2NKSZHR-DRKPZD-KT5"/>
+            <connection id="1S2NL7SCX-GL7018-LNS" from-id="1S2NL6PBP-2BL9SX6-LL9" to-id="1S2NL23RL-1Y26PJH-LBP"/>
+            <connection id="1S2NL7K55-1RZQTQY-LNC" from-id="1S2NL6PBP-2BL9SX6-LL9" to-id="1S2NKSX8V-224MG1N-KSX"/>
+            <connection id="1S2NL6PBQ-V5534N-LLF" from-id="1S2NKSW46-2BTXWRF-KSS" to-id="1S2NL6PBP-2BL9SX6-LL9"/>
+        </connection-list>
+        <concept-appearance-list>
+            <concept-appearance id="1S2NKSW46-2BTXWRF-KSS" x="92" y="372" width="105" height="62" font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full"
+                border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="105" min-height="54" max-width="-1.0"
+                group-child-spacing="10" group-parent-spacing="10"/>
+            <concept-appearance id="1S2NKSPZZ-177VYSC-KSJ" x="597" y="403" width="315" height="42" font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full"
+                border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0"
+                group-child-spacing="10" group-parent-spacing="10"/>
+            <concept-appearance id="1S2NKSX8V-224MG1N-KSX" x="559" y="475" width="318" height="28" font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full"
+                border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0"
+                group-child-spacing="10" group-parent-spacing="10"/>
+            <concept-appearance id="1S2NKSYC3-1K422KQ-KT1" x="382" y="157" width="211" height="40" font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full"
+                border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0"
+                group-child-spacing="10" group-parent-spacing="10"/>
+            <concept-appearance id="1S2NL23RL-1Y26PJH-LBP" x="432" y="552" width="267" height="71" font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full"
+                border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0"
+                group-child-spacing="10" group-parent-spacing="10"/>
+            <concept-appearance id="1S2NKT0PN-1D1P0GV-KT9" x="661" y="314" width="352" height="57" font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full"
+                border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0"
+                group-child-spacing="10" group-parent-spacing="10"/>
+            <concept-appearance id="1S2NKSZHR-DRKPZD-KT5" x="545" y="230" width="224" height="54" font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full"
+                border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0"
+                group-child-spacing="10" group-parent-spacing="10"/>
+            <concept-appearance id="1S2NKR1X0-1X5FM3S-KRM" x="127" y="73" width="191" height="100" font-name="Verdana" font-size="12" font-style="bold" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full"
+                border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="191" min-height="92" max-width="-1.0"
+                group-child-spacing="10" group-parent-spacing="10"/>
+        </concept-appearance-list>
+        <linking-phrase-appearance-list>
+            <linking-phrase-appearance id="1S2NL6PBP-2BL9SX6-LL9" x="86" y="552" width="104" height="26"/>
+        </linking-phrase-appearance-list>
+        <connection-appearance-list>
+            <connection-appearance id="1S2NL71CW-ZVRD2Z-LMH" from-pos="center" to-pos="left"/>
+            <connection-appearance id="1S2NL6PBQ-27C9R3S-LLM" from-pos="center" to-pos="left"/>
+            <connection-appearance id="1S2NL79RJ-1XSV92Y-LMZ" from-pos="center" to-pos="left"/>
+            <connection-appearance id="1S2NL6WH5-MPJSJ4-LM3" from-pos="center" to-pos="left"/>
+            <connection-appearance id="1S2NL7SCX-GL7018-LNS" from-pos="center" to-pos="left"/>
+            <connection-appearance id="1S2NL7K55-1RZQTQY-LNC" from-pos="center" to-pos="left"/>
+            <connection-appearance id="1S2NL6PBQ-V5534N-LLF" from-pos="center" to-pos="center"/>
+        </connection-appearance-list>
+        <style-sheet-list>
+            <style-sheet id="_Default_">
+                <map-style background-color="255,255,255,0" image-style="full" image-top-left="0,0"/>
+                <concept-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1"
+                    border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <linking-phrase-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0" background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1"
+                    border-shape="rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <connection-style color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+                <resource-style font-name="SanSerif" font-size="12" font-style="plain" font-color="0,0,0,255" background-color="192,192,192,255"/>
+            </style-sheet>
+            <style-sheet id="_LatestChanges_">
+                <concept-style font-style="plain"/>
+            </style-sheet>
+        </style-sheet-list>
+        <extra-graphical-properties-list>
+            <properties-list id="file:////C:/Users/masri/PycharmProjects/cmapProject/ConceptMapFiles/CMAPFiles/ComputerSecurity/Instructor/Module1IntroductionComputerSecurity/Lesson3ChallengesStrategiesTechnology/CS_Challenges.cmap">
+                <property key="StyleSheetGroup_0" value="//*@!#$%%^&amp;*()() No Grouped StyleSheets @"/>
+            </properties-list>
+        </extra-graphical-properties-list>
+    </map>
+</cmap>

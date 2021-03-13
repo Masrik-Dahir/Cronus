@@ -1,0 +1,89 @@
+// The Round Table
+digraph {
+	"1S2NKR1X0-1X5FM3S-KRM" [label="SECURITY CHALLENGES Module 1" Gsplines=true fontsize=20 shape=rect style=filled]
+	"1S2NL6PBP-2BL9SX6-LL9" [label="has necessary 
+considerations 
+of" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NKT0PN-1D1P0GV-KT9" [label="Security is 
+often an afterthought 
+to be incorporated 
+into a system 
+after the 
+design is 
+complete, 
+rather than 
+being an integral 
+part of the 
+design process
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S2NL6PBP-2BL9SX6-LL9" -> "1S2NKT0PN-1D1P0GV-KT9" [constraint=true]
+	"1S2NL6PBP-2BL9SX6-LL9" [label="has necessary 
+considerations 
+of" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NKSYC3-1K422KQ-KT1" [label="Potential 
+attacks on 
+the security 
+features must 
+be considered
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S2NL6PBP-2BL9SX6-LL9" -> "1S2NKSYC3-1K422KQ-KT1" [constraint=true]
+	"1S2NL6PBP-2BL9SX6-LL9" [label="has necessary 
+considerations 
+of" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NKSPZZ-177VYSC-KSJ" [label="Attackers 
+only need 
+to find a 
+single weakness, 
+while the 
+developer 
+needs to find 
+all weaknesses
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S2NL6PBP-2BL9SX6-LL9" -> "1S2NKSPZZ-177VYSC-KSJ" [constraint=true]
+	"1S2NL6PBP-2BL9SX6-LL9" [label="has necessary 
+considerations 
+of" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NKSZHR-DRKPZD-KT5" [label="Users and 
+system managers 
+tend not to 
+see the benefits 
+of security 
+investments 
+until a failure 
+occurs" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S2NL6PBP-2BL9SX6-LL9" -> "1S2NKSZHR-DRKPZD-KT5" [constraint=true]
+	"1S2NL6PBP-2BL9SX6-LL9" [label="has necessary 
+considerations 
+of" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NL23RL-1Y26PJH-LBP" [label="Strong security 
+is sometimes 
+considered 
+an impediment 
+to efficient 
+and user-friendly 
+operation 
+of an information 
+system or 
+use of information
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S2NL6PBP-2BL9SX6-LL9" -> "1S2NL23RL-1Y26PJH-LBP" [constraint=true]
+	"1S2NL6PBP-2BL9SX6-LL9" [label="has necessary 
+considerations 
+of" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NKSX8V-224MG1N-KSX" [label="Security requires 
+regular and 
+constant monitoring
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S2NL6PBP-2BL9SX6-LL9" -> "1S2NKSX8V-224MG1N-KSX" [constraint=true]
+	"1S2NKSW46-2BTXWRF-KSS" [label="SECURITY CHALLENGES
+" Gsplines=true fillcolor=aquamarine fontsize=20 shape=doubleoctagon style=filled]
+	"1S2NL6PBP-2BL9SX6-LL9" [label="has necessary 
+considerations 
+of" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NKSW46-2BTXWRF-KSS" -> "1S2NL6PBP-2BL9SX6-LL9" [constraint=true]
+	Stat [label="SUMMERY
+
+Matched Branch:			0\lPartially Matched Branch:	3\lMismatched Branch:		3\lExtra Branch:				13\lTotal Match:		11.11 %\lConcept Match:	12.5 %\lLink. Phr. Match:	0.0 %\lMisconception:	100.0 %\lHierarchy Match:	25.0 %\l" Gsplines=true fillcolor="#F5FFFA" fontsize=20 shape=component style=filled]
+	Grade [label="Grade:	12.17%" Gsplines=true fillcolor="#FFEBCD" fontsize=20 shape=note style=filled]
+	Stat -> Grade [arrowhead=inv color=black constraint=true]
+}

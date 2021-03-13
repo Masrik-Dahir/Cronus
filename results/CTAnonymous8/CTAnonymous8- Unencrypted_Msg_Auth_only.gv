@@ -1,0 +1,230 @@
+// The Round Table
+digraph {
+	Student [label="Student: CTAnonymous8" fillcolor=gold fontsize=20 shape=component style=filled]
+	"1RS0M1JFY-THP30K-3LD" [label="using public 
+key encryption
+" fontsize=20 shape=none]
+	"1RS0M1JFY-1JPST5-3L9" [label="Sender encrypts 
+data using 
+his public 
+key Receiver 
+decrypts using 
+his private 
+key" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS0M1JFY-THP30K-3LD" -> "1RS0M1JFY-1JPST5-3L9" [constraint=true]
+	"1RRZTT5QV-1ZBP9TL-8F" [label="Symmetric 
+Encryption 
+(single key 
+encryption) 
+plain text->encryption 
+algorithm->secret 
+key ->cipher 
+text->decryption 
+algorithm->plain 
+text" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRZVK05F-1SFS67K-213" [label="Symmetric 
+encryption 
+algorithms" fontsize=20 shape=none]
+	"1RRZTT5QV-1ZBP9TL-8F" -> "1RRZVK05F-1SFS67K-213" [constraint=true]
+	"1RRZXYK8L-2B6RS7G-32L" [label="types of message 
+authentication" fontsize=20 shape=none]
+	"1RRZY4F37-28560RK-39D" [label="Message authenctication 
+using a one 
+way hash function
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRZXYK8L-2B6RS7G-32L" -> "1RRZY4F37-28560RK-39D" [constraint=true]
+	"1RRZXYK8L-2B6RS7G-32L" [label="types of message 
+authentication" fontsize=20 shape=none]
+	"1RRZXYK8L-842ZP8-32H" [label="authentication 
+without message 
+encryption 
+(authenticated 
+tag/code is 
+generated 
+with each 
+message and 
+attached to 
+the actual 
+meesage)" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRZXYK8L-2B6RS7G-32L" -> "1RRZXYK8L-842ZP8-32H" [constraint=true]
+	"1RRZVZFM2-1BKZ31B-2WM" [label="Message Authentication 
+(verifies 
+that received 
+message is 
+authentic 
+i.e. 1.contents 
+have not been 
+altered 2.from 
+authentic 
+source 3.timely 
+and in correct 
+sequence)" fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RRZXYK8L-2B6RS7G-32L" [label="types of message 
+authentication" fontsize=20 shape=none]
+	"1RRZVZFM2-1BKZ31B-2WM" -> "1RRZXYK8L-2B6RS7G-32L" [constraint=true]
+	"1RRZTT5QV-1ZBP9TL-8F" [label="Symmetric 
+Encryption 
+(single key 
+encryption) 
+plain text->encryption 
+algorithm->secret 
+key ->cipher 
+text->decryption 
+algorithm->plain 
+text" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRZV60SS-R4RNHG-1CH" [label="requirements 
+for symmetric 
+encryption" fontsize=20 shape=none]
+	"1RRZTT5QV-1ZBP9TL-8F" -> "1RRZV60SS-R4RNHG-1CH" [constraint=true]
+	"1RS0M3WJ1-8LBK5P-3QY" [label="using private 
+key encryption
+" fontsize=20 shape=none]
+	"1RS0M3WJ1-W5G68P-3QV" [label="Sender encrypts 
+using his 
+private key 
+Receiver can 
+decrypt using 
+his public 
+key " fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS0M3WJ1-8LBK5P-3QY" -> "1RS0M3WJ1-W5G68P-3QV" [constraint=true]
+	"1RRZVK05F-1SFS67K-213" [label="Symmetric 
+encryption 
+algorithms" fontsize=20 shape=none]
+	"1RRZVQ7X7-24JXHJH-2LX" [label="AES (128 bit 
+plain data 
+and 128/192/256 
+bit key to 
+get a cipher 
+block)" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRZVK05F-1SFS67K-213" -> "1RRZVQ7X7-24JXHJH-2LX" [constraint=true]
+	"1RRZVGG1D-DLC9XG-1RK" [label="types of encryption
+" fontsize=20 shape=none]
+	"1RRZTT5QV-1ZBP9TL-8F" [label="Symmetric 
+Encryption 
+(single key 
+encryption) 
+plain text->encryption 
+algorithm->secret 
+key ->cipher 
+text->decryption 
+algorithm->plain 
+text" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRZVGG1D-DLC9XG-1RK" -> "1RRZTT5QV-1ZBP9TL-8F" [constraint=true]
+	"1RRZV60SS-R4RNHG-1CH" [label="requirements 
+for symmetric 
+encryption" fontsize=20 shape=none]
+	"1RRZV8PK4-1NYT8DB-1K7" [label="Key sharing 
+between sender 
+and receiver 
+must be done 
+in secure 
+fashion" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRZV60SS-R4RNHG-1CH" -> "1RRZV8PK4-1NYT8DB-1K7" [constraint=true]
+	"1RRZTT5QV-1ZBP9TL-8F" [label="Symmetric 
+Encryption 
+(single key 
+encryption) 
+plain text->encryption 
+algorithm->secret 
+key ->cipher 
+text->decryption 
+algorithm->plain 
+text" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRZTZWX6-2BYJB85-VP" [label="Attacks on 
+symmetric 
+encryption" fontsize=20 shape=none]
+	"1RRZTT5QV-1ZBP9TL-8F" -> "1RRZTZWX6-2BYJB85-VP" [constraint=true]
+	"1RRZTZWX6-2BYJB85-VP" [label="Attacks on 
+symmetric 
+encryption" fontsize=20 shape=none]
+	"1RRZV3QQV-1HF9H17-162" [label="Brute Force 
+(trying all 
+possible keys 
+on cipher 
+text)" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRZTZWX6-2BYJB85-VP" -> "1RRZV3QQV-1HF9H17-162" [constraint=true]
+	"1RRZV60SS-R4RNHG-1CH" [label="requirements 
+for symmetric 
+encryption" fontsize=20 shape=none]
+	"1RRZV60SS-1DH103J-1CD" [label="Need a stronger 
+encryption 
+agorithm and 
+attacker cannot 
+be able to 
+guess the 
+key" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRZV60SS-R4RNHG-1CH" -> "1RRZV60SS-1DH103J-1CD" [constraint=true]
+	"1RRZVK05F-1SFS67K-213" [label="Symmetric 
+encryption 
+algorithms" fontsize=20 shape=none]
+	"1RRZVK04Y-1S4Y64M-210" [label="DES (uses 
+64bit plain 
+text and 56bit 
+key to produce 
+a cipher text)
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRZVK05F-1SFS67K-213" -> "1RRZVK04Y-1S4Y64M-210" [constraint=true]
+	"1RRZVK05F-1SFS67K-213" [label="Symmetric 
+encryption 
+algorithms" fontsize=20 shape=none]
+	"1RRZVNFRH-DD5ZH6-2FT" [label="3 DES (repeats 
+DES 3 times 
+using 2 or 
+3 unique keys)
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRZVK05F-1SFS67K-213" -> "1RRZVNFRH-DD5ZH6-2FT" [constraint=true]
+	"1RRZXYK8L-2B6RS7G-32L" [label="types of message 
+authentication" fontsize=20 shape=none]
+	"1RRZYXGB4-4HQTSH-3CT" [label="Public Key 
+Encryption 
+(uses two 
+seperate keys 
+1.Public key 
+and 2.Private 
+key)" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRZXYK8L-2B6RS7G-32L" -> "1RRZYXGB4-4HQTSH-3CT" [constraint=true]
+	"1RRZTZWX6-2BYJB85-VP" [label="Attacks on 
+symmetric 
+encryption" fontsize=20 shape=none]
+	"1RRZTZWX6-1JNW55B-VL" [label="Cryptanalytic 
+attack (rely 
+on finding 
+the nature 
+of the algorithm)
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRZTZWX6-2BYJB85-VP" -> "1RRZTZWX6-1JNW55B-VL" [constraint=true]
+	"1RRZYXGB4-4HQTSH-3CT" [label="Public Key 
+Encryption 
+(uses two 
+seperate keys 
+1.Public key 
+and 2.Private 
+key)" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS0M3WJ1-8LBK5P-3QY" [label="using private 
+key encryption
+" fontsize=20 shape=none]
+	"1RRZYXGB4-4HQTSH-3CT" -> "1RS0M3WJ1-8LBK5P-3QY" [constraint=true]
+	"1RRZYXGB4-4HQTSH-3CT" [label="Public Key 
+Encryption 
+(uses two 
+seperate keys 
+1.Public key 
+and 2.Private 
+key)" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS0M1JFY-THP30K-3LD" [label="using public 
+key encryption
+" fontsize=20 shape=none]
+	"1RRZYXGB4-4HQTSH-3CT" -> "1RS0M1JFY-THP30K-3LD" [constraint=true]
+	"1RRZVFV8Q-12VXLBC-1QT" [label=Encryption fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RRZVGG1D-DLC9XG-1RK" [label="types of encryption
+" fontsize=20 shape=none]
+	"1RRZVFV8Q-12VXLBC-1QT" -> "1RRZVGG1D-DLC9XG-1RK" [constraint=true]
+	"1RS0M82W3-11GCK34-3WF" [label="Student ID:2490584 
+Slide set 
+3" fillcolor=white fontsize=20 shape=rect style=filled]
+	statictics [label="STATISTICS
+\lBranch:		11\lNode:		15\lLinking Phrase:	7\lOrphan:		1\lLeaf Node:	11\lPreposition:	13\lSub Map:		2\lAvg Word Per Concept:	11.5\l" Gsplines=true fillcolor="#F5FFFA" fontsize=20 shape=component style=filled]
+	file_info [label="CMAP Information
+
+\lTitle:	CTAnonymous8.cmap\lCreated:	2020-12-07T07:54:08-05:00\lModified:	2020-12-07T07:54:08-05:00\lLanguage:	en\lFormat:	x-cmap/x-storable\lPublisher:	FIHMC CmapTools 6.04\lWidth:	1863\lHeight:	628\l" Gsplines=true fillcolor="#E6E6FA" fontsize=20 shape=tab style=filled]
+}

@@ -1,0 +1,144 @@
+// The Round Table
+digraph {
+	Student [label="Student: CTAnonymous5" fillcolor=gold fontsize=20 shape=component style=filled]
+	"1RS1W475J-15Z667J-19X" [label=Type fontsize=20 shape=none]
+	"1RS1W475J-FLBP40-19T" [label="112/168 bit 
+keys 64 bit 
+Blocks" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1W475J-15Z667J-19X" -> "1RS1W475J-FLBP40-19T" [constraint=true]
+	"1RS1VPNYD-1MBW57C-TC" [label=Input fontsize=20 shape=none]
+	"1RS1VPNYD-Q6V1XC-T8" [label="Blocks of 
+data/ Segments
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1VPNYD-1MBW57C-TC" -> "1RS1VPNYD-Q6V1XC-T8" [constraint=true]
+	"1RS1W6380-THGFNB-1CY" [label=Concerns fontsize=20 shape=none]
+	"1RS1W6380-1GVT1FZ-1CV" [label="Sluggish in 
+software" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1W6380-THGFNB-1CY" -> "1RS1W6380-1GVT1FZ-1CV" [constraint=true]
+	"1RS1V3DVV-TD3Y4P-96" [label="Crypto Tools
+" fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RS1V6HT8-WF9854-F9" [label=Encryption fontsize=20 shape=none]
+	"1RS1V3DVV-TD3Y4P-96" -> "1RS1V6HT8-WF9854-F9" [constraint=true]
+	"1RS1V94KK-NZD6KY-HL" [label=Requirements fontsize=20 shape=none]
+	"1RS1VCZY2-19NF6QK-KC" [label="Sender/Reciever 
+share keys
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1V94KK-NZD6KY-HL" -> "1RS1VCZY2-19NF6QK-KC" [constraint=true]
+	"1RS1V6HSS-14NTD3J-F6" [label=Symmetric fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1V94KK-NZD6KY-HL" [label=Requirements fontsize=20 shape=none]
+	"1RS1V6HSS-14NTD3J-F6" -> "1RS1V94KK-NZD6KY-HL" [constraint=true]
+	"1RS1V7NX4-JZWBX7-GM" [label=Ciphers fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1VK3J7-1V419CG-PP" [label=Continuous fontsize=20 shape=none]
+	"1RS1V7NX4-JZWBX7-GM" -> "1RS1VK3J7-1V419CG-PP" [constraint=true]
+	"1RS1VV6MQ-VJN21H-11L" [label=AES fontsize=20 shape=none]
+	"1RS1VV6MQ-BL0S2T-11H" [label="Advanced Encryption 
+Standard" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1VV6MQ-VJN21H-11L" -> "1RS1VV6MQ-BL0S2T-11H" [constraint=true]
+	"1RS1W1P8C-14LFYTY-16H" [label=Type fontsize=20 shape=none]
+	"1RS1W1P8C-KP2W8Y-16D" [label="64 bit Blocks
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1W1P8C-14LFYTY-16H" -> "1RS1W1P8C-KP2W8Y-16D" [constraint=true]
+	"1RS1W7TV1-12XXNHF-1MC" [label=Type fontsize=20 shape=none]
+	"1RS1W7TV1-1FJTK0W-1M8" [label="64 bit Blocks
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1W7TV1-12XXNHF-1MC" -> "1RS1W7TV1-1FJTK0W-1M8" [constraint=true]
+	"1RS1V7NX4-JZWBX7-GM" [label=Ciphers fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1VMN6J-1TQGQ8R-RL" [label=Chunks fontsize=20 shape=none]
+	"1RS1V7NX4-JZWBX7-GM" -> "1RS1VMN6J-1TQGQ8R-RL" [constraint=true]
+	"1RS1VSYWW-29R2QF4-YG" [label=Algorithms fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1VTXGV-6RGHNN-10T" [label="3DES" fontsize=20 shape=none]
+	"1RS1VSYWW-29R2QF4-YG" -> "1RS1VTXGV-6RGHNN-10T" [constraint=true]
+	"1RS1V6HT8-WF9854-F9" [label=Encryption fontsize=20 shape=none]
+	"1RS1V6HSS-14NTD3J-F6" [label=Symmetric fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1V6HT8-WF9854-F9" -> "1RS1V6HSS-14NTD3J-F6" [constraint=true]
+	"1RS1V6HT8-WF9854-F9" [label=Encryption fontsize=20 shape=none]
+	"1RS1V7NX4-JZWBX7-GM" [label=Ciphers fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1V6HT8-WF9854-F9" -> "1RS1V7NX4-JZWBX7-GM" [constraint=true]
+	"1RS1VK3J7-FLYJHY-PL" [label=Stream fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1VQRJ9-WKX2HT-W9" [label=input fontsize=20 shape=none]
+	"1RS1VK3J7-FLYJHY-PL" -> "1RS1VQRJ9-WKX2HT-W9" [constraint=true]
+	"1RS1V3DVV-TD3Y4P-96" [label="Crypto Tools
+" fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RS1VSYWW-1SJ3XDP-YK" [label=Methods fontsize=20 shape=none]
+	"1RS1V3DVV-TD3Y4P-96" -> "1RS1VSYWW-1SJ3XDP-YK" [constraint=true]
+	"1RS1VSYWW-29R2QF4-YG" [label=Algorithms fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1VTRF1-17K1CTY-100" [label=DES fontsize=20 shape=none]
+	"1RS1VSYWW-29R2QF4-YG" -> "1RS1VTRF1-17K1CTY-100" [constraint=true]
+	"1RS1VTRF1-17K1CTY-100" [label=DES fontsize=20 shape=none]
+	"1RS1VTRF1-1HX1WC9-ZX" [label="Data Encryption 
+Standard" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1VTRF1-17K1CTY-100" -> "1RS1VTRF1-1HX1WC9-ZX" [constraint=true]
+	"1RS1VSYWW-1SJ3XDP-YK" [label=Methods fontsize=20 shape=none]
+	"1RS1VSYWW-29R2QF4-YG" [label=Algorithms fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1VSYWW-1SJ3XDP-YK" -> "1RS1VSYWW-29R2QF4-YG" [constraint=true]
+	"1RS1VTXGV-1XNM0CB-10Q" [label="Triple Data 
+Encryption 
+Standard" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1W6380-THGFNB-1CY" [label=Concerns fontsize=20 shape=none]
+	"1RS1VTXGV-1XNM0CB-10Q" -> "1RS1W6380-THGFNB-1CY" [constraint=true]
+	"1RS1VV6MQ-BL0S2T-11H" [label="Advanced Encryption 
+Standard" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1W8GJ6-2CP971N-1P1" [label=Concern fontsize=20 shape=none]
+	"1RS1VV6MQ-BL0S2T-11H" -> "1RS1W8GJ6-2CP971N-1P1" [constraint=true]
+	"1RS1VQRJ9-WKX2HT-W9" [label=input fontsize=20 shape=none]
+	"1RS1VQRJ9-1H2GM4W-W6" [label="Continuous 
+Stream of 
+input data
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1VQRJ9-WKX2HT-W9" -> "1RS1VQRJ9-1H2GM4W-W6" [constraint=true]
+	"1RS1VK3J7-1V419CG-PP" [label=Continuous fontsize=20 shape=none]
+	"1RS1VK3J7-FLYJHY-PL" [label=Stream fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1VK3J7-1V419CG-PP" -> "1RS1VK3J7-FLYJHY-PL" [constraint=true]
+	"1RS1V94KK-NZD6KY-HL" [label=Requirements fontsize=20 shape=none]
+	"1RS1V94K1-19YZSQV-HH" [label="Strong Algorithm
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1V94KK-NZD6KY-HL" -> "1RS1V94K1-19YZSQV-HH" [constraint=true]
+	"1RS1VTRF1-1HX1WC9-ZX" [label="Data Encryption 
+Standard" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1W1P8C-14LFYTY-16H" [label=Type fontsize=20 shape=none]
+	"1RS1VTRF1-1HX1WC9-ZX" -> "1RS1W1P8C-14LFYTY-16H" [constraint=true]
+	"1RS1VMN60-1YKK108-RH" [label=Block fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1VPNYD-1MBW57C-TC" [label=Input fontsize=20 shape=none]
+	"1RS1VMN60-1YKK108-RH" -> "1RS1VPNYD-1MBW57C-TC" [constraint=true]
+	"1RS1VTXGV-1XNM0CB-10Q" [label="Triple Data 
+Encryption 
+Standard" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1W475J-15Z667J-19X" [label=Type fontsize=20 shape=none]
+	"1RS1VTXGV-1XNM0CB-10Q" -> "1RS1W475J-15Z667J-19X" [constraint=true]
+	"1RS1VSYWW-29R2QF4-YG" [label=Algorithms fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1VV6MQ-VJN21H-11L" [label=AES fontsize=20 shape=none]
+	"1RS1VSYWW-29R2QF4-YG" -> "1RS1VV6MQ-VJN21H-11L" [constraint=true]
+	"1RS1VTXGV-6RGHNN-10T" [label="3DES" fontsize=20 shape=none]
+	"1RS1VTXGV-1XNM0CB-10Q" [label="Triple Data 
+Encryption 
+Standard" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1VTXGV-6RGHNN-10T" -> "1RS1VTXGV-1XNM0CB-10Q" [constraint=true]
+	"1RS1VTRF1-1HX1WC9-ZX" [label="Data Encryption 
+Standard" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1W30P4-1H4QMWH-17X" [label=Concerns fontsize=20 shape=none]
+	"1RS1VTRF1-1HX1WC9-ZX" -> "1RS1W30P4-1H4QMWH-17X" [constraint=true]
+	"1RS1W30P4-1H4QMWH-17X" [label=Concerns fontsize=20 shape=none]
+	"1RS1W30P4-LK7ZSP-17T" [label="Most studied 
+in existece
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1W30P4-1H4QMWH-17X" -> "1RS1W30P4-LK7ZSP-17T" [constraint=true]
+	"1RS1VMN6J-1TQGQ8R-RL" [label=Chunks fontsize=20 shape=none]
+	"1RS1VMN60-1YKK108-RH" [label=Block fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1VMN6J-1TQGQ8R-RL" -> "1RS1VMN60-1YKK108-RH" [constraint=true]
+	"1RS1W8GJ6-2CP971N-1P1" [label=Concern fontsize=20 shape=none]
+	"1RS1W8GJ6-NHPCG4-1NY" [label="Replacement 
+for other 
+DES" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1W8GJ6-2CP971N-1P1" -> "1RS1W8GJ6-NHPCG4-1NY" [constraint=true]
+	"1RS1VV6MQ-BL0S2T-11H" [label="Advanced Encryption 
+Standard" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1W7TV1-12XXNHF-1MC" [label=Type fontsize=20 shape=none]
+	"1RS1VV6MQ-BL0S2T-11H" -> "1RS1W7TV1-12XXNHF-1MC" [constraint=true]
+	"1RS1WBTNJ-QYD8R5-290" [label="Russell Sanders 
+CSCI 4621" fillcolor=white fontsize=20 shape=rect style=filled]
+	statictics [label="STATISTICS
+\lBranch:		10\lNode:		19\lLinking Phrase:	16\lOrphan:		1\lLeaf Node:	10\lPreposition:	18\lSub Map:		1\lAvg Word Per Concept:	2.7\l" Gsplines=true fillcolor="#F5FFFA" fontsize=20 shape=component style=filled]
+	file_info [label="CMAP Information
+
+\lTitle:	CTAnonymous5.cmap\lCreated:	2020-12-07T07:53:29-05:00\lModified:	2020-12-07T07:53:29-05:00\lLanguage:	en\lFormat:	x-cmap/x-storable\lPublisher:	FIHMC CmapTools 6.04\lWidth:	868\lHeight:	622\l" Gsplines=true fillcolor="#E6E6FA" fontsize=20 shape=tab style=filled]
+}

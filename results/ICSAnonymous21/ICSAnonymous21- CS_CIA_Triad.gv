@@ -1,0 +1,187 @@
+// The Round Table
+digraph {
+	"1S2NCN7F7-21DL7Y4-B25" [label="CIA TRIAD CONCEPTS Module 1" Gsplines=true fontsize=20 shape=rect style=filled]
+	"1S2NCQN76-15VJZ9-B3M" [label="Data Confidentiality" Gsplines=true fontsize=20 shape=rect style=filled]
+	"1S2NCRD6H-2W9SC4-B4F" [label="Data Integrity" Gsplines=true fontsize=20 shape=rect style=filled]
+	"1S2NF6LV0-1JZ5L72-D3Q" [label="characterized 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NDQKTK-2047PJ9-CJ6" [label="Guarding against 
+improper information 
+modification 
+or destruction, 
+including 
+ensuring information 
+nonrepudiation 
+and authenticity
+" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2NF6LV0-1JZ5L72-D3Q" -> "1S2NDQKTK-2047PJ9-CJ6" [constraint=true]
+	"1S2ND5X0M-Q6FJC0-BT6" [label="varying types 
+of" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2ND4X30-6LTZCH-BS4" [label="System Integrity
+" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2ND5X0M-Q6FJC0-BT6" -> "1S2ND4X30-6LTZCH-BS4" [constraint=true]
+	"1S2NCN41H-JCD1Z1-B05" [label=Confidentiality Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2NF4Y3C-15BX7FT-D2C" [label="illustrated 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NCN41H-JCD1Z1-B05" -> "1S2NF4Y3C-15BX7FT-D2C" [constraint=true]
+	"1S2NCRD6H-2W9SC4-B4F" [label="Data Integrity
+" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2NDD40L-134TTTP-C1Y" [label="confirms that
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NCRD6H-2W9SC4-B4F" -> "1S2NDD40L-134TTTP-C1Y" [constraint=true]
+	"1S2NCN41H-XJ5605-B0T" [label="composed of 
+key security 
+concepts" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NCN41H-1SK6H36-B0H" [label=Availability Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2NCN41H-XJ5605-B0T" -> "1S2NCN41H-1SK6H36-B0H" [constraint=true]
+	"1S2NCN41H-XJ5605-B0T" [label="composed of 
+key security 
+concepts" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NCN41H-M807-B09" [label=Integrity Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2NCN41H-XJ5605-B0T" -> "1S2NCN41H-M807-B09" [constraint=true]
+	"1S2NCX1K8-127JQQ0-BC9" [label="different 
+types of" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NCQN76-15VJZ9-B3M" [label="Data Confidentiality
+" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2NCX1K8-127JQQ0-BC9" -> "1S2NCQN76-15VJZ9-B3M" [constraint=true]
+	"1S2ND3C0V-1LLSHJG-BQP" [label="assures that
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NCR8VG-DT2CCB-B41" [label="Private or 
+confidential 
+information 
+is not made 
+available 
+or disclosed 
+to unauthorized 
+individuals" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2ND3C0V-1LLSHJG-BQP" -> "1S2NCR8VG-DT2CCB-B41" [constraint=true]
+	"1S2NCQN76-15VJZ9-B3M" [label="Data Confidentiality
+" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2ND3C0V-1LLSHJG-BQP" [label="assures that
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NCQN76-15VJZ9-B3M" -> "1S2ND3C0V-1LLSHJG-BQP" [constraint=true]
+	"1S2NF4Y3C-15BX7FT-D2C" [label="illustrated 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NDM9BR-L928TX-CBN" [label="Preserving 
+authorized 
+restrictions 
+on information 
+access and 
+disclose, 
+including 
+means for 
+protecting 
+personal privacy 
+and proprietary 
+information" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2NF4Y3C-15BX7FT-D2C" -> "1S2NDM9BR-L928TX-CBN" [constraint=true]
+	"1S2NCN41H-XJ5605-B0T" [label="composed of 
+key security 
+concepts" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NCN41H-JCD1Z1-B05" [label=Confidentiality Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2NCN41H-XJ5605-B0T" -> "1S2NCN41H-JCD1Z1-B05" [constraint=true]
+	"1S2NDYBHN-8YHCGN-CW5" [label="represented 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NDW2HL-2TGY7L-CR9" [label="Loss of availability 
+is the disruption 
+of access 
+to or use 
+of information 
+or an information 
+system" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S2NDYBHN-8YHCGN-CW5" -> "1S2NDW2HL-2TGY7L-CR9" [constraint=true]
+	"1S2NCX1K8-127JQQ0-BC9" [label="different 
+types of" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NCR9ZT-JLQYXB-B45" [label=Privacy Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2NCX1K8-127JQQ0-BC9" -> "1S2NCR9ZT-JLQYXB-B45" [constraint=true]
+	"1S2NDD40L-134TTTP-C1Y" [label="confirms that
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2ND7GF2-1H6SLV1-BVW" [label="Information 
+and programs 
+are changed 
+only in a 
+specified 
+and authorized 
+manner" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S2NDD40L-134TTTP-C1Y" -> "1S2ND7GF2-1H6SLV1-BVW" [constraint=true]
+	"1S2NCN41H-1SK6H36-B0H" [label=Availability Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2NDYBHN-8YHCGN-CW5" [label="represented 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NCN41H-1SK6H36-B0H" -> "1S2NDYBHN-8YHCGN-CW5" [constraint=true]
+	"1S2ND4X30-6LTZCH-BS4" [label="System Integrity
+" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2NDD40L-134TTTP-C1Y" [label="confirms that
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2ND4X30-6LTZCH-BS4" -> "1S2NDD40L-134TTTP-C1Y" [constraint=true]
+	"1S2NDD40L-134TTTP-C1Y" [label="confirms that
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2ND7F3K-1PQJ94Q-BVR" [label="A system's 
+performs its 
+intended function 
+in an unimpaired 
+manner, free 
+from deliberate 
+or inadvertent 
+unauthorized 
+manipulation 
+of the system
+" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2NDD40L-134TTTP-C1Y" -> "1S2ND7F3K-1PQJ94Q-BVR" [constraint=true]
+	"1S2ND3C0V-1LLSHJG-BQP" [label="assures that
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NCRC1L-2B13HH7-B49" [label=" Individuals 
+control or 
+influence 
+what information 
+related to 
+them may be 
+collected 
+and stored 
+and by whom 
+and to whom 
+that information 
+may be disclosed
+" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2ND3C0V-1LLSHJG-BQP" -> "1S2NCRC1L-2B13HH7-B49" [constraint=true]
+	"1S2NDYBHN-8YHCGN-CW5" [label="represented 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NDQM8Z-RSDKQH-CJB" [label="Ensuring timely 
+and reliable 
+access to 
+use of information
+" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2NDYBHN-8YHCGN-CW5" -> "1S2NDQM8Z-RSDKQH-CJB" [constraint=true]
+	"1S2ND5X0M-Q6FJC0-BT6" [label="varying types 
+of" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NCRD6H-2W9SC4-B4F" [label="Data Integrity
+" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2ND5X0M-Q6FJC0-BT6" -> "1S2NCRD6H-2W9SC4-B4F" [constraint=true]
+	"1S2NCN41H-M807-B09" [label=Integrity Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2NF6LV0-1JZ5L72-D3Q" [label="characterized 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NCN41H-M807-B09" -> "1S2NF6LV0-1JZ5L72-D3Q" [constraint=true]
+	"1S2NCN41H-M807-B09" [label=Integrity Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2ND5X0M-Q6FJC0-BT6" [label="varying types 
+of" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NCN41H-M807-B09" -> "1S2ND5X0M-Q6FJC0-BT6" [constraint=true]
+	"1S2NCN41H-JCD1Z1-B05" [label=Confidentiality Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2NCX1K8-127JQQ0-BC9" [label="different 
+types of" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NCN41H-JCD1Z1-B05" -> "1S2NCX1K8-127JQQ0-BC9" [constraint=true]
+	"1S2NCN41H-WC0XZM-B0D" [label="CIA TRIAD" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=doubleoctagon style=filled]
+	"1S2NCN41H-XJ5605-B0T" [label="composed of 
+key security 
+concepts" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NCN41H-WC0XZM-B0D" -> "1S2NCN41H-XJ5605-B0T" [constraint=true]
+	"1S2NCR9ZT-JLQYXB-B45" [label=Privacy Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S2ND3C0V-1LLSHJG-BQP" [label="assures that
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S2NCR9ZT-JLQYXB-B45" -> "1S2ND3C0V-1LLSHJG-BQP" [constraint=true]
+	Stat [label="SUMMERY
+
+Matched Branch:			0\lPartially Matched Branch:	5\lMismatched Branch:		3\lExtra Branch:				14\lTotal Match:		52.0 %\lConcept Match:	76.47 %\lLink. Phr. Match:	0.0 %\lMisconception:	84.62 %\lHierarchy Match:	17.62 %\l" Gsplines=true fillcolor="#F5FFFA" fontsize=20 shape=component style=filled]
+	Grade [label="Grade:	28.23%" Gsplines=true fillcolor="#FFEBCD" fontsize=20 shape=note style=filled]
+	Stat -> Grade [arrowhead=inv color=black constraint=true]
+	"1S2NCR9ZT-JLQYXB-B45" -> "1S2NCRC1L-2B13HH7-B49" [arrowhead=open color="#0316D1" constraint=true style=dashed]
+	"1S2ND4X30-6LTZCH-BS4" -> "1S2ND7F3K-1PQJ94Q-BVR" [arrowhead=open color="#0316D1" constraint=true style=dashed]
+}

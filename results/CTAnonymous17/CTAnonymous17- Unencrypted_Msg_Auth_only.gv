@@ -1,0 +1,111 @@
+// The Round Table
+digraph {
+	Student [label="Student: CTAnonymous17" fillcolor=gold fontsize=20 shape=component style=filled]
+	"1RRW3MXPM-JV0WMN-108" [label=reveals fontsize=20 shape=none]
+	"1RRW35M94-2664SX9-GS" [label="encryted message
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW3MXPM-JV0WMN-108" -> "1RRW35M94-2664SX9-GS" [constraint=true]
+	"1RRW3J9RW-12THBS8-V7" [label=deters fontsize=20 shape=none]
+	"1RRW3HCX4-3D9SC7-S9" [label="brute force 
+attack" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW3J9RW-12THBS8-V7" -> "1RRW3HCX4-3D9SC7-S9" [constraint=true]
+	"1RRW3G2V1-1QFS5YJ-P7" [label="strong encryption 
+algorithm" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW3HSN5-23DKHR8-T6" [label=deters fontsize=20 shape=none]
+	"1RRW3G2V1-1QFS5YJ-P7" -> "1RRW3HSN5-23DKHR8-T6" [constraint=true]
+	"1RRW3W1WW-1GZPXCF-19H" [label=prevents fontsize=20 shape=none]
+	"1RRW3SLNQ-1NJN6BR-14S" [label="fabricated 
+message" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW3W1WW-1GZPXCF-19H" -> "1RRW3SLNQ-1NJN6BR-14S" [constraint=true]
+	"1RRW3R2PD-1GB8GMB-133" [label=provides fontsize=20 shape=none]
+	"1RRW3G2V1-1QFS5YJ-P7" [label="strong encryption 
+algorithm" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW3R2PD-1GB8GMB-133" -> "1RRW3G2V1-1QFS5YJ-P7" [constraint=true]
+	"1RRW33QZK-1YGTXQ2-8K" [label="plain text 
+message" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW38TVY-D1Y516-KL" [label="encryption 
+algorithm 
+and password
+" fontsize=20 shape=none]
+	"1RRW33QZK-1YGTXQ2-8K" -> "1RRW38TVY-D1Y516-KL" [constraint=true]
+	"1RRW3DGR2-RRJVBD-N7" [label="long passwords
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW3J9RW-12THBS8-V7" [label=deters fontsize=20 shape=none]
+	"1RRW3DGR2-RRJVBD-N7" -> "1RRW3J9RW-12THBS8-V7" [constraint=true]
+	"1RRW3WHW5-2BZLMPL-1BT" [label=create fontsize=20 shape=none]
+	"1RRW3VK4R-1XSL1H5-18D" [label="message authentication
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW3WHW5-2BZLMPL-1BT" -> "1RRW3VK4R-1XSL1H5-18D" [constraint=true]
+	"1RRW3GRNT-5H9Z6D-QJ" [label=provide fontsize=20 shape=none]
+	"1RRW3G2V1-1QFS5YJ-P7" [label="strong encryption 
+algorithm" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW3GRNT-5H9Z6D-QJ" -> "1RRW3G2V1-1QFS5YJ-P7" [constraint=true]
+	"1RRW3K8MT-2M2G1-WZ" [label="dictionary 
+passwords" fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RRW3KZV7-2C84KJR-Y6" [label="susceptible 
+to" fontsize=20 shape=none]
+	"1RRW3K8MT-2M2G1-WZ" -> "1RRW3KZV7-2C84KJR-Y6" [constraint=true]
+	"1RRW3HCX4-3D9SC7-S9" [label="brute force 
+attack" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW3MXPM-JV0WMN-108" [label=reveals fontsize=20 shape=none]
+	"1RRW3HCX4-3D9SC7-S9" -> "1RRW3MXPM-JV0WMN-108" [constraint=true]
+	"1RRW34XKB-PY2VZC-FS" [label="symmetric 
+encryption" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW3R2PD-1GB8GMB-133" [label=provides fontsize=20 shape=none]
+	"1RRW34XKB-PY2VZC-FS" -> "1RRW3R2PD-1GB8GMB-133" [constraint=true]
+	"1RRW3B6CC-1M45PN2-M1" [label=DiffieHellman fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW3GRNT-5H9Z6D-QJ" [label=provide fontsize=20 shape=none]
+	"1RRW3B6CC-1M45PN2-M1" -> "1RRW3GRNT-5H9Z6D-QJ" [constraint=true]
+	"1RRW3BW6L-26JRMJS-MQ" [label=RSA fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW3H1L3-1GQ3Q9H-RH" [label=provide fontsize=20 shape=none]
+	"1RRW3BW6L-26JRMJS-MQ" -> "1RRW3H1L3-1GQ3Q9H-RH" [constraint=true]
+	"1RRW3RVKN-P5QXF-142" [label="active attack
+" fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RRW3T3DV-26QNSMV-15Q" [label=creates fontsize=20 shape=none]
+	"1RRW3RVKN-P5QXF-142" -> "1RRW3T3DV-26QNSMV-15Q" [constraint=true]
+	"1RRW3VK4R-1XSL1H5-18D" [label="message authentication
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW3W1WW-1GZPXCF-19H" [label=prevents fontsize=20 shape=none]
+	"1RRW3VK4R-1XSL1H5-18D" -> "1RRW3W1WW-1GZPXCF-19H" [constraint=true]
+	"1RRW38TVY-D1Y516-KL" [label="encryption 
+algorithm 
+and password
+" fontsize=20 shape=none]
+	"1RRW35M94-2664SX9-GS" [label="encryted message
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW38TVY-D1Y516-KL" -> "1RRW35M94-2664SX9-GS" [constraint=true]
+	"1RRW3NHWR-1GTMP6W-115" [label=reveals fontsize=20 shape=none]
+	"1RRW35M94-2664SX9-GS" [label="encryted message
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW3NHWR-1GTMP6W-115" -> "1RRW35M94-2664SX9-GS" [constraint=true]
+	"1RRW3H1L3-1GQ3Q9H-RH" [label=provide fontsize=20 shape=none]
+	"1RRW3G2V1-1QFS5YJ-P7" [label="strong encryption 
+algorithm" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW3H1L3-1GQ3Q9H-RH" -> "1RRW3G2V1-1QFS5YJ-P7" [constraint=true]
+	"1RRW3JTF0-24PGPXZ-W0" [label="cryptanalytic 
+attack" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW3NHWR-1GTMP6W-115" [label=reveals fontsize=20 shape=none]
+	"1RRW3JTF0-24PGPXZ-W0" -> "1RRW3NHWR-1GTMP6W-115" [constraint=true]
+	"1RRW3KZV7-2C84KJR-Y6" [label="susceptible 
+to" fontsize=20 shape=none]
+	"1RRW3JTF0-24PGPXZ-W0" [label="cryptanalytic 
+attack" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW3KZV7-2C84KJR-Y6" -> "1RRW3JTF0-24PGPXZ-W0" [constraint=true]
+	"1RRW3HSN5-23DKHR8-T6" [label=deters fontsize=20 shape=none]
+	"1RRW3HCX4-3D9SC7-S9" [label="brute force 
+attack" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW3HSN5-23DKHR8-T6" -> "1RRW3HCX4-3D9SC7-S9" [constraint=true]
+	"1RRW3TNVT-HCWBG4-16K" [label="hash functions
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW3WHW5-2BZLMPL-1BT" [label=create fontsize=20 shape=none]
+	"1RRW3TNVT-HCWBG4-16K" -> "1RRW3WHW5-2BZLMPL-1BT" [constraint=true]
+	"1RRW3T3DV-26QNSMV-15Q" [label=creates fontsize=20 shape=none]
+	"1RRW3SLNQ-1NJN6BR-14S" [label="fabricated 
+message" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW3T3DV-26QNSMV-15Q" -> "1RRW3SLNQ-1NJN6BR-14S" [constraint=true]
+	statictics [label="STATISTICS
+\lBranch:		2\lNode:		14\lLinking Phrase:	12\lOrphan:		0\lLeaf Node:	2\lPreposition:	3\lSub Map:		2\lAvg Word Per Concept:	0.71\l" Gsplines=true fillcolor="#F5FFFA" fontsize=20 shape=component style=filled]
+	file_info [label="CMAP Information
+
+\lTitle:	CTAnonymous17.cmap\lCreated:	2020-12-07T07:55:43-05:00\lModified:	2020-12-07T07:55:43-05:00\lLanguage:	en\lFormat:	x-cmap/x-storable\lPublisher:	FIHMC CmapTools 6.04\lWidth:	721\lHeight:	486\l" Gsplines=true fillcolor="#E6E6FA" fontsize=20 shape=tab style=filled]
+}

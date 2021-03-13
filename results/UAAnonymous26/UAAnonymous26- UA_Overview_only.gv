@@ -1,0 +1,385 @@
+// The Round Table
+digraph {
+	Student [label="Student: UAAnonymous26" fillcolor=gold shape=component style=filled]
+	"1RQSP5BK4-1TS9J8B-2PC" [label=uses shape=none]
+	"1RQSP5NHL-1PZYBQT-2Q8" [label="smart cards
+" fillcolor=white shape=rect style=filled]
+	"1RQSP5BK4-1TS9J8B-2PC" -> "1RQSP5NHL-1PZYBQT-2Q8" [constraint=true]
+	"1RQSNM642-N04JQ-19L" [label=includes shape=none]
+	"1RQRD3SHM-24LJXY0-RQ" [label=indentification fillcolor=white shape=rect style=filled]
+	"1RQSNM642-N04JQ-19L" -> "1RQRD3SHM-24LJXY0-RQ" [constraint=true]
+	"1RQSNJ8BN-1RV64Y5-13D" [label="token authentication
+" fillcolor=white shape=rect style=filled]
+	"1RQSP5BK4-1TS9J8B-2PC" [label=uses shape=none]
+	"1RQSNJ8BN-1RV64Y5-13D" -> "1RQSP5BK4-1TS9J8B-2PC" [constraint=true]
+	"1RQSS8JTB-62472G-7GH" [label=include shape=none]
+	"1RQSS8JTB-20H6YS-7GD" [label="weakness in 
+the OS" fillcolor=white shape=rect style=filled]
+	"1RQSS8JTB-62472G-7GH" -> "1RQSS8JTB-20H6YS-7GD" [constraint=true]
+	"1RQSPPR19-27TJZ52-3MZ" [label=classified shape=none]
+	"1RQSPQHVW-ZKJHYX-3PY" [label="dynamic password 
+generator" fillcolor=white shape=rect style=filled]
+	"1RQSPPR19-27TJZ52-3MZ" -> "1RQSPQHVW-ZKJHYX-3PY" [constraint=true]
+	"1RQSP1V2G-294D5XJ-291" [label=cracking fillcolor=white shape=rect style=filled]
+	"1RQSRVLR4-21V7TH-6YX" [label=includes shape=none]
+	"1RQSP1V2G-294D5XJ-291" -> "1RQSRVLR4-21V7TH-6YX" [constraint=true]
+	"1RQSNHQH9-R17HLW-119" [label="password authentication
+" fillcolor=white shape=rect style=filled]
+	"1RQSST4XM-236WC32-7YQ" [label=has shape=none]
+	"1RQSNHQH9-R17HLW-119" -> "1RQSST4XM-236WC32-7YQ" [constraint=true]
+	"1RQSPX1FB-29MPCGQ-42Y" [label=include shape=none]
+	"1RQSPX1FB-1H2BWJF-42V" [label="facial characteristics
+" fillcolor=white shape=rect style=filled]
+	"1RQSPX1FB-29MPCGQ-42Y" -> "1RQSPX1FB-1H2BWJF-42V" [constraint=true]
+	"1RQSPJ6B9-29F8FK8-38X" [label=interface fillcolor=white shape=rect style=filled]
+	"1RQSPMS57-25L58KR-3K1" [label=includes shape=none]
+	"1RQSPJ6B9-29F8FK8-38X" -> "1RQSPMS57-25L58KR-3K1" [constraint=true]
+	"1RQSQ60YD-18Z37PY-4PF" [label=includes shape=none]
+	"1RQSQ6MXB-11F3MQM-4QY" [label=verification fillcolor=white shape=rect style=filled]
+	"1RQSQ60YD-18Z37PY-4PF" -> "1RQSQ6MXB-11F3MQM-4QY" [constraint=true]
+	"1RQSR9HSZ-KCT672-631" [label=includes shape=none]
+	"1RQSQZNYD-1CCCKY7-593" [label="exploiting 
+user mistakes
+" fillcolor=white shape=rect style=filled]
+	"1RQSR9HSZ-KCT672-631" -> "1RQSQZNYD-1CCCKY7-593" [constraint=true]
+	"1RQSPJLY8-2CYRL81-39T" [label="authentication 
+protocol" fillcolor=white shape=rect style=filled]
+	"1RQSPPR19-27TJZ52-3MZ" [label=classified shape=none]
+	"1RQSPJLY8-2CYRL81-39T" -> "1RQSPPR19-27TJZ52-3MZ" [constraint=true]
+	"1RQSQ60YD-18Z37PY-4PF" [label=includes shape=none]
+	"1RQSQ60YD-24HNLKX-4PB" [label=enrollment fillcolor=white shape=rect style=filled]
+	"1RQSQ60YD-18Z37PY-4PF" -> "1RQSQ60YD-24HNLKX-4PB" [constraint=true]
+	"1RQSR9HSZ-KCT672-631" [label=includes shape=none]
+	"1RQSQYV6Z-W60WNG-542" [label="password guessing 
+against single 
+user" fillcolor=white shape=rect style=filled]
+	"1RQSR9HSZ-KCT672-631" -> "1RQSQYV6Z-W60WNG-542" [constraint=true]
+	"1RQSPX1FB-29MPCGQ-42Y" [label=include shape=none]
+	"1RQSPYQ97-1X4JH26-46T" [label="retinal pattern
+" fillcolor=white shape=rect style=filled]
+	"1RQSPX1FB-29MPCGQ-42Y" -> "1RQSPYQ97-1X4JH26-46T" [constraint=true]
+	"1RQSNJMRQ-15C81M-171" [label="biometric 
+authentication" fillcolor=white shape=rect style=filled]
+	"1RQSQ4959-26Y2QJX-4MX" [label="operate ways
+" shape=none]
+	"1RQSNJMRQ-15C81M-171" -> "1RQSQ4959-26Y2QJX-4MX" [constraint=true]
+	"1RQSSWH0G-12MD9Z9-7ZL" [label=include shape=none]
+	"1RQSSX2Y8-X0XVTR-815" [label="computer generated 
+passwords" fillcolor=white shape=rect style=filled]
+	"1RQSSWH0G-12MD9Z9-7ZL" -> "1RQSSX2Y8-X0XVTR-815" [constraint=true]
+	"1RQSQ2HW6-3KG58-4HM" [label="operation 
+of a biometric 
+system" fillcolor=white shape=rect style=filled]
+	"1RQSQ60YD-18Z37PY-4PF" [label=includes shape=none]
+	"1RQSQ2HW6-3KG58-4HM" -> "1RQSQ60YD-18Z37PY-4PF" [constraint=true]
+	"1RQSP4XPM-2D76RQ3-2NN" [label="memory cards
+" fillcolor=white shape=rect style=filled]
+	"1RQSP76RP-TGKYMY-2V8" [label=merits shape=none]
+	"1RQSP4XPM-2D76RQ3-2NN" -> "1RQSP76RP-TGKYMY-2V8" [constraint=true]
+	"1RQSS8JTB-62472G-7GH" [label=include shape=none]
+	"1RQSS9DF7-1DG5BZB-7JH" [label="accident with 
+permissions" fillcolor=white shape=rect style=filled]
+	"1RQSS8JTB-62472G-7GH" -> "1RQSS9DF7-1DG5BZB-7JH" [constraint=true]
+	"1RQSS09PW-1M6DDGC-74H" [label=strategies shape=none]
+	"1RQSS09PW-19H2F2T-74D" [label="make available 
+only to privileged 
+users" fillcolor=white shape=rect style=filled]
+	"1RQSS09PW-1M6DDGC-74H" -> "1RQSS09PW-19H2F2T-74D" [constraint=true]
+	"1RQSS6FCT-1QSG7M9-794" [label=vulnerabilities fillcolor=white shape=rect style=filled]
+	"1RQSS8JTB-62472G-7GH" [label=include shape=none]
+	"1RQSS6FCT-1QSG7M9-794" -> "1RQSS8JTB-62472G-7GH" [constraint=true]
+	"1RQSPX1FB-29MPCGQ-42Y" [label=include shape=none]
+	"1RQSPZBCQ-1QDQZ4W-48J" [label=signature fillcolor=white shape=rect style=filled]
+	"1RQSPX1FB-29MPCGQ-42Y" -> "1RQSPZBCQ-1QDQZ4W-48J" [constraint=true]
+	"1RQSP0VLV-2CXBRM2-26G" [label="password file 
+access control
+" fillcolor=white shape=rect style=filled]
+	"1RQSS6FCT-1DHCQ14-797" [label=has shape=none]
+	"1RQSP0VLV-2CXBRM2-26G" -> "1RQSS6FCT-1DHCQ14-797" [constraint=true]
+	"1RQSRSJ6C-1G0XRT-6WG" [label=has shape=none]
+	"1RQSP1V2G-294D5XJ-291" [label=cracking fillcolor=white shape=rect style=filled]
+	"1RQSRSJ6C-1G0XRT-6WG" -> "1RQSP1V2G-294D5XJ-291" [constraint=true]
+	"1RQSPKXDQ-1GL031R-3C8" [label=includes shape=none]
+	"1RQSPM60C-1DJ8NNH-3J1" [label="smart token
+" fillcolor=white shape=rect style=filled]
+	"1RQSPKXDQ-1GL031R-3C8" -> "1RQSPM60C-1DJ8NNH-3J1" [constraint=true]
+	"1RQSRVLR4-21V7TH-6YX" [label=includes shape=none]
+	"1RQSRSQ29-11CS9CV-6X1" [label="dictionary 
+attacks" fillcolor=white shape=rect style=filled]
+	"1RQSRVLR4-21V7TH-6YX" -> "1RQSRSQ29-11CS9CV-6X1" [constraint=true]
+	"1RQSNHQH9-R17HLW-119" [label="password authentication
+" fillcolor=white shape=rect style=filled]
+	"1RQSRFZP7-292B2YT-67D" [label=uses shape=none]
+	"1RQSNHQH9-R17HLW-119" -> "1RQSRFZP7-292B2YT-67D" [constraint=true]
+	"1RQSPH0D6-1ZZGK91-36B" [label=has shape=none]
+	"1RQSPH0D6-1Q1QC0T-367" [label="physical characteristics
+" fillcolor=white shape=rect style=filled]
+	"1RQSPH0D6-1ZZGK91-36B" -> "1RQSPH0D6-1Q1QC0T-367" [constraint=true]
+	"1RQSR9HSZ-KCT672-631" [label=includes shape=none]
+	"1RQSQY1F1-1K4ZQRJ-526" [label="offline dictionary 
+attack" fillcolor=white shape=rect style=filled]
+	"1RQSR9HSZ-KCT672-631" -> "1RQSQY1F1-1K4ZQRJ-526" [constraint=true]
+	"1RQSR34V0-1JDFJ8Y-5SF" [label="purpose of 
+salt" fillcolor=white shape=rect style=filled]
+	"1RQSRKGK3-2956JYM-6KJ" [label=includes shape=none]
+	"1RQSR34V0-1JDFJ8Y-5SF" -> "1RQSRKGK3-2956JYM-6KJ" [constraint=true]
+	"1RQSPKXDQ-1GL031R-3C8" [label=includes shape=none]
+	"1RQSPKXDQ-29F9JBQ-3C5" [label="embedded microprocessor
+" fillcolor=white shape=rect style=filled]
+	"1RQSPKXDQ-1GL031R-3C8" -> "1RQSPKXDQ-29F9JBQ-3C5" [constraint=true]
+	"1RQSNWPJ2-1JLHYV6-1VY" [label="vulnerability 
+of passwords
+" fillcolor=white shape=rect style=filled]
+	"1RQSR9HSZ-KCT672-631" [label=includes shape=none]
+	"1RQSNWPJ2-1JLHYV6-1VY" -> "1RQSR9HSZ-KCT672-631" [constraint=true]
+	"1RQSNMWN6-2DKBMPB-1CN" [label=method shape=none]
+	"1RQSNJ8BN-1RV64Y5-13D" [label="token authentication
+" fillcolor=white shape=rect style=filled]
+	"1RQSNMWN6-2DKBMPB-1CN" -> "1RQSNJ8BN-1RV64Y5-13D" [constraint=true]
+	"1RQSPX1FB-29MPCGQ-42Y" [label=include shape=none]
+	"1RQSPY4R9-JSRX7V-45N" [label="hand geometry
+" fillcolor=white shape=rect style=filled]
+	"1RQSPX1FB-29MPCGQ-42Y" -> "1RQSPY4R9-JSRX7V-45N" [constraint=true]
+	"1RQSNYSMZ-NYKQ83-203" [label="hashed passwords
+" fillcolor=white shape=rect style=filled]
+	"1RQSRGFXK-ZF3ZHM-68Y" [label=includes shape=none]
+	"1RQSNYSMZ-NYKQ83-203" -> "1RQSRGFXK-ZF3ZHM-68Y" [constraint=true]
+	"1RQSRZLGF-PMB10H-73J" [label=has shape=none]
+	"1RQSP0VLV-2CXBRM2-26G" [label="password file 
+access control
+" fillcolor=white shape=rect style=filled]
+	"1RQSRZLGF-PMB10H-73J" -> "1RQSP0VLV-2CXBRM2-26G" [constraint=true]
+	"1RQSS6FCT-1DHCQ14-797" [label=has shape=none]
+	"1RQSS6FCT-1QSG7M9-794" [label=vulnerabilities fillcolor=white shape=rect style=filled]
+	"1RQSS6FCT-1DHCQ14-797" -> "1RQSS6FCT-1QSG7M9-794" [constraint=true]
+	"1RQSPMS57-25L58KR-3K1" [label=includes shape=none]
+	"1RQSPNW7F-60NZ73-3LZ" [label=electronic fillcolor=white shape=rect style=filled]
+	"1RQSPMS57-25L58KR-3K1" -> "1RQSPNW7F-60NZ73-3LZ" [constraint=true]
+	"1RQRD16NM-XCYVBQ-8K" [label="user authentication
+" fillcolor=white shape=doubleoctagon style=filled]
+	"1RQSNMWN6-2DKBMPB-1CN" [label=method shape=none]
+	"1RQRD16NM-XCYVBQ-8K" -> "1RQSNMWN6-2DKBMPB-1CN" [constraint=true]
+	"1RQSR9HSZ-KCT672-631" [label=includes shape=none]
+	"1RQSR0P6Y-1Y5J5PM-5C7" [label="electronic 
+monitoring" fillcolor=white shape=rect style=filled]
+	"1RQSR9HSZ-KCT672-631" -> "1RQSR0P6Y-1Y5J5PM-5C7" [constraint=true]
+	"1RQSP0VLV-2CXBRM2-26G" [label="password file 
+access control
+" fillcolor=white shape=rect style=filled]
+	"1RQSS09PW-1M6DDGC-74H" [label=strategies shape=none]
+	"1RQSP0VLV-2CXBRM2-26G" -> "1RQSS09PW-1M6DDGC-74H" [constraint=true]
+	"1RQSRKGK3-2956JYM-6KJ" [label=includes shape=none]
+	"1RQSRMQK5-25MMCHP-6PR" [label="increase the 
+difficulty 
+of offline 
+dictionary 
+attacks" fillcolor=white shape=rect style=filled]
+	"1RQSRKGK3-2956JYM-6KJ" -> "1RQSRMQK5-25MMCHP-6PR" [constraint=true]
+	"1RQSRVLR4-21V7TH-6YX" [label=includes shape=none]
+	"1RQSRT0S8-17WMS2R-6XS" [label="rainbow table 
+attacks" fillcolor=white shape=rect style=filled]
+	"1RQSRVLR4-21V7TH-6YX" -> "1RQSRT0S8-17WMS2R-6XS" [constraint=true]
+	"1RQSPH0D6-1ZZGK91-36B" [label=has shape=none]
+	"1RQSPJLY8-2CYRL81-39T" [label="authentication 
+protocol" fillcolor=white shape=rect style=filled]
+	"1RQSPH0D6-1ZZGK91-36B" -> "1RQSPJLY8-2CYRL81-39T" [constraint=true]
+	"1RQSP7HTY-JYQXHY-2WD" [label=drawbacks shape=none]
+	"1RQSP7HTY-7SDRG9-2W9" [label="require special 
+reader" fillcolor=white shape=rect style=filled]
+	"1RQSP7HTY-JYQXHY-2WD" -> "1RQSP7HTY-7SDRG9-2W9" [constraint=true]
+	"1RQSST4XM-236WC32-7YQ" [label=has shape=none]
+	"1RQSP32RN-2DFFP94-2FQ" [label="password selection 
+strategies" fillcolor=white shape=rect style=filled]
+	"1RQSST4XM-236WC32-7YQ" -> "1RQSP32RN-2DFFP94-2FQ" [constraint=true]
+	"1RQSRKGK3-2956JYM-6KJ" [label=includes shape=none]
+	"1RQSRKGJM-QW5RT6-6KF" [label="prevent duplicate 
+passwords 
+from being 
+visible in 
+the password 
+file" fillcolor=white shape=rect style=filled]
+	"1RQSRKGK3-2956JYM-6KJ" -> "1RQSRKGJM-QW5RT6-6KF" [constraint=true]
+	"1RQSPH0D6-1ZZGK91-36B" [label=has shape=none]
+	"1RQSPJ6B9-29F8FK8-38X" [label=interface fillcolor=white shape=rect style=filled]
+	"1RQSPH0D6-1ZZGK91-36B" -> "1RQSPJ6B9-29F8FK8-38X" [constraint=true]
+	"1RQSPW353-GDQ7TY-40T" [label="physical characteristics
+" fillcolor=white shape=rect style=filled]
+	"1RQSPX1FB-29MPCGQ-42Y" [label=include shape=none]
+	"1RQSPW353-GDQ7TY-40T" -> "1RQSPX1FB-29MPCGQ-42Y" [constraint=true]
+	"1RQSNM642-N04JQ-19L" [label=includes shape=none]
+	"1RQRD4CXD-1Y7JCLG-SC" [label=verification fillcolor=white shape=rect style=filled]
+	"1RQSNM642-N04JQ-19L" -> "1RQRD4CXD-1Y7JCLG-SC" [constraint=true]
+	"1RQSNHQH9-R17HLW-119" [label="password authentication
+" fillcolor=white shape=rect style=filled]
+	"1RQSRZLGF-PMB10H-73J" [label=has shape=none]
+	"1RQSNHQH9-R17HLW-119" -> "1RQSRZLGF-PMB10H-73J" [constraint=true]
+	"1RQSSWH0G-12MD9Z9-7ZL" [label=include shape=none]
+	"1RQSSWH0G-9HKLN2-7ZH" [label="user education
+" fillcolor=white shape=rect style=filled]
+	"1RQSSWH0G-12MD9Z9-7ZL" -> "1RQSSWH0G-9HKLN2-7ZH" [constraint=true]
+	"1RQRD16NM-XCYVBQ-8K" [label="user authentication
+" fillcolor=white shape=doubleoctagon style=filled]
+	"1RQSNM642-N04JQ-19L" [label=includes shape=none]
+	"1RQRD16NM-XCYVBQ-8K" -> "1RQSNM642-N04JQ-19L" [constraint=true]
+	"1RQSP5NHL-1PZYBQT-2Q8" [label="smart cards
+" fillcolor=white shape=rect style=filled]
+	"1RQSPH0D6-1ZZGK91-36B" [label=has shape=none]
+	"1RQSP5NHL-1PZYBQT-2Q8" -> "1RQSPH0D6-1ZZGK91-36B" [constraint=true]
+	"1RQSRGJD5-142CD5R-69M" [label=uses shape=none]
+	"1RQSR34V0-1JDFJ8Y-5SF" [label="purpose of 
+salt" fillcolor=white shape=rect style=filled]
+	"1RQSRGJD5-142CD5R-69M" -> "1RQSR34V0-1JDFJ8Y-5SF" [constraint=true]
+	"1RQSPX1FB-29MPCGQ-42Y" [label=include shape=none]
+	"1RQSPZ365-1VHLKND-47V" [label=iris fillcolor=white shape=rect style=filled]
+	"1RQSPX1FB-29MPCGQ-42Y" -> "1RQSPZ365-1VHLKND-47V" [constraint=true]
+	"1RQSP7HTY-JYQXHY-2WD" [label=drawbacks shape=none]
+	"1RQSP91QG-1JH6LFL-2YM" [label="loss of token
+" fillcolor=white shape=rect style=filled]
+	"1RQSP7HTY-JYQXHY-2WD" -> "1RQSP91QG-1JH6LFL-2YM" [constraint=true]
+	"1RQSNJMRQ-15C81M-171" [label="biometric 
+authentication" fillcolor=white shape=rect style=filled]
+	"1RQSPW353-1VQ86XW-40X" [label=use shape=none]
+	"1RQSNJMRQ-15C81M-171" -> "1RQSPW353-1VQ86XW-40X" [constraint=true]
+	"1RQSNYSMZ-NYKQ83-203" [label="hashed passwords
+" fillcolor=white shape=rect style=filled]
+	"1RQSRGJD5-142CD5R-69M" [label=uses shape=none]
+	"1RQSNYSMZ-NYKQ83-203" -> "1RQSRGJD5-142CD5R-69M" [constraint=true]
+	"1RQSP76RP-TGKYMY-2V8" [label=merits shape=none]
+	"1RQSP76RP-LYTZVS-2V5" [label="store data 
+not process
+" fillcolor=white shape=rect style=filled]
+	"1RQSP76RP-TGKYMY-2V8" -> "1RQSP76RP-LYTZVS-2V5" [constraint=true]
+	"1RQSNMWN6-2DKBMPB-1CN" [label=method shape=none]
+	"1RQSNHQH9-R17HLW-119" [label="password authentication
+" fillcolor=white shape=rect style=filled]
+	"1RQSNMWN6-2DKBMPB-1CN" -> "1RQSNHQH9-R17HLW-119" [constraint=true]
+	"1RQSP32RN-2DFFP94-2FQ" [label="password selection 
+strategies" fillcolor=white shape=rect style=filled]
+	"1RQSSWH0G-12MD9Z9-7ZL" [label=include shape=none]
+	"1RQSP32RN-2DFFP94-2FQ" -> "1RQSSWH0G-12MD9Z9-7ZL" [constraint=true]
+	"1RQSP4XPM-2D76RQ3-2NN" [label="memory cards
+" fillcolor=white shape=rect style=filled]
+	"1RQSP7HTY-JYQXHY-2WD" [label=drawbacks shape=none]
+	"1RQSP4XPM-2D76RQ3-2NN" -> "1RQSP7HTY-JYQXHY-2WD" [constraint=true]
+	"1RQSPX1FB-29MPCGQ-42Y" [label=include shape=none]
+	"1RQSQ033L-1TGM4HL-49C" [label=voice fillcolor=white shape=rect style=filled]
+	"1RQSPX1FB-29MPCGQ-42Y" -> "1RQSQ033L-1TGM4HL-49C" [constraint=true]
+	"1RQSRGFXK-ZF3ZHM-68Y" [label=includes shape=none]
+	"1RQSR23HP-1V2L3R8-5L6" [label=verification fillcolor=white shape=rect style=filled]
+	"1RQSRGFXK-ZF3ZHM-68Y" -> "1RQSR23HP-1V2L3R8-5L6" [constraint=true]
+	"1RQSSWH0G-12MD9Z9-7ZL" [label=include shape=none]
+	"1RQSSYG6N-J3146D-846" [label="proactive 
+password checking
+" fillcolor=white shape=rect style=filled]
+	"1RQSSWH0G-12MD9Z9-7ZL" -> "1RQSSYG6N-J3146D-846" [constraint=true]
+	"1RQSS8JTB-62472G-7GH" [label=include shape=none]
+	"1RQSSBQVX-1Q62KN2-7MC" [label="access from 
+backup media
+" fillcolor=white shape=rect style=filled]
+	"1RQSS8JTB-62472G-7GH" -> "1RQSSBQVX-1Q62KN2-7MC" [constraint=true]
+	"1RQSS8JTB-62472G-7GH" [label=include shape=none]
+	"1RQSS9X7N-8484B2-7KV" [label="users with 
+same password
+" fillcolor=white shape=rect style=filled]
+	"1RQSS8JTB-62472G-7GH" -> "1RQSS9X7N-8484B2-7KV" [constraint=true]
+	"1RQSPPR19-27TJZ52-3MZ" [label=classified shape=none]
+	"1RQSPR390-1X676MT-3RC" [label="challenge 
+response" fillcolor=white shape=rect style=filled]
+	"1RQSPPR19-27TJZ52-3MZ" -> "1RQSPR390-1X676MT-3RC" [constraint=true]
+	"1RQSRGFXK-ZF3ZHM-68Y" [label=includes shape=none]
+	"1RQSR1Z5L-FZNRQF-5KT" [label=loading fillcolor=white shape=rect style=filled]
+	"1RQSRGFXK-ZF3ZHM-68Y" -> "1RQSR1Z5L-FZNRQF-5KT" [constraint=true]
+	"1RQSR9HSZ-KCT672-631" [label=includes shape=none]
+	"1RQSR06JB-51QDF2-5B1" [label="exploiting 
+multiple password 
+use" fillcolor=white shape=rect style=filled]
+	"1RQSR9HSZ-KCT672-631" -> "1RQSR06JB-51QDF2-5B1" [constraint=true]
+	"1RQSPH0D6-1Q1QC0T-367" [label="physical characteristics
+" fillcolor=white shape=rect style=filled]
+	"1RQSPKXDQ-1GL031R-3C8" [label=includes shape=none]
+	"1RQSPH0D6-1Q1QC0T-367" -> "1RQSPKXDQ-1GL031R-3C8" [constraint=true]
+	"1RQSP76RP-TGKYMY-2V8" [label=merits shape=none]
+	"1RQSPBPXG-1S25Q90-30F" [label="include internal 
+memory" fillcolor=white shape=rect style=filled]
+	"1RQSP76RP-TGKYMY-2V8" -> "1RQSPBPXG-1S25Q90-30F" [constraint=true]
+	"1RQSR8TRW-1F72L9Y-611" [label=attributes shape=none]
+	"1RQSNWPJ2-1JLHYV6-1VY" [label="vulnerability 
+of passwords
+" fillcolor=white shape=rect style=filled]
+	"1RQSR8TRW-1F72L9Y-611" -> "1RQSNWPJ2-1JLHYV6-1VY" [constraint=true]
+	"1RQSNHQH9-R17HLW-119" [label="password authentication
+" fillcolor=white shape=rect style=filled]
+	"1RQSR8TRW-1F72L9Y-611" [label=attributes shape=none]
+	"1RQSNHQH9-R17HLW-119" -> "1RQSR8TRW-1F72L9Y-611" [constraint=true]
+	"1RQSNMWN6-2DKBMPB-1CN" [label=method shape=none]
+	"1RQSNJMRQ-15C81M-171" [label="biometric 
+authentication" fillcolor=white shape=rect style=filled]
+	"1RQSNMWN6-2DKBMPB-1CN" -> "1RQSNJMRQ-15C81M-171" [constraint=true]
+	"1RQSR9HSZ-KCT672-631" [label=includes shape=none]
+	"1RQSQZ734-1T9HJ6-55F" [label="workstation 
+hijacking" fillcolor=white shape=rect style=filled]
+	"1RQSR9HSZ-KCT672-631" -> "1RQSQZ734-1T9HJ6-55F" [constraint=true]
+	"1RQSS09PW-1M6DDGC-74H" [label=strategies shape=none]
+	"1RQSS1G60-2CLJZ80-76W" [label="shadow password 
+file" fillcolor=white shape=rect style=filled]
+	"1RQSS09PW-1M6DDGC-74H" -> "1RQSS1G60-2CLJZ80-76W" [constraint=true]
+	"1RQSPMS57-25L58KR-3K1" [label=includes shape=none]
+	"1RQSPMS57-140FNS2-3JY" [label="keypad and 
+display" fillcolor=white shape=rect style=filled]
+	"1RQSPMS57-25L58KR-3K1" -> "1RQSPMS57-140FNS2-3JY" [constraint=true]
+	"1RQSRFZP7-292B2YT-67D" [label=uses shape=none]
+	"1RQSNYSMZ-NYKQ83-203" [label="hashed passwords
+" fillcolor=white shape=rect style=filled]
+	"1RQSRFZP7-292B2YT-67D" -> "1RQSNYSMZ-NYKQ83-203" [constraint=true]
+	"1RQSPPR19-27TJZ52-3MZ" [label=classified shape=none]
+	"1RQSPPR19-1T38TTX-3MW" [label="static password 
+generator" fillcolor=white shape=rect style=filled]
+	"1RQSPPR19-27TJZ52-3MZ" -> "1RQSPPR19-1T38TTX-3MW" [constraint=true]
+	"1RQSPW353-1VQ86XW-40X" [label=use shape=none]
+	"1RQSPW353-GDQ7TY-40T" [label="physical characteristics
+" fillcolor=white shape=rect style=filled]
+	"1RQSPW353-1VQ86XW-40X" -> "1RQSPW353-GDQ7TY-40T" [constraint=true]
+	"1RQSS8JTB-62472G-7GH" [label=include shape=none]
+	"1RQSSCNCZ-1J3221X-7NR" [label="sniff passwords 
+in network 
+traffic" fillcolor=white shape=rect style=filled]
+	"1RQSS8JTB-62472G-7GH" -> "1RQSSCNCZ-1J3221X-7NR" [constraint=true]
+	"1RQSP76RP-TGKYMY-2V8" [label=merits shape=none]
+	"1RQSPCQFC-1M4KVWH-31W" [label="alone for 
+physical access
+" fillcolor=white shape=rect style=filled]
+	"1RQSP76RP-TGKYMY-2V8" -> "1RQSPCQFC-1M4KVWH-31W" [constraint=true]
+	"1RQSQ4959-26Y2QJX-4MX" [label="operate ways
+" shape=none]
+	"1RQSQ2HW6-3KG58-4HM" [label="operation 
+of a biometric 
+system" fillcolor=white shape=rect style=filled]
+	"1RQSQ4959-26Y2QJX-4MX" -> "1RQSQ2HW6-3KG58-4HM" [constraint=true]
+	"1RQSSWH0G-12MD9Z9-7ZL" [label=include shape=none]
+	"1RQSSXTJ2-MSDTJT-82Q" [label="reactive password 
+checking" fillcolor=white shape=rect style=filled]
+	"1RQSSWH0G-12MD9Z9-7ZL" -> "1RQSSXTJ2-MSDTJT-82Q" [constraint=true]
+	"1RQSQ60YD-18Z37PY-4PF" [label=includes shape=none]
+	"1RQSQ6QDG-68SY36-4RF" [label=identification fillcolor=white shape=rect style=filled]
+	"1RQSQ60YD-18Z37PY-4PF" -> "1RQSQ6QDG-68SY36-4RF" [constraint=true]
+	"1RQSP5BK4-1TS9J8B-2PC" [label=uses shape=none]
+	"1RQSP4XPM-2D76RQ3-2NN" [label="memory cards
+" fillcolor=white shape=rect style=filled]
+	"1RQSP5BK4-1TS9J8B-2PC" -> "1RQSP4XPM-2D76RQ3-2NN" [constraint=true]
+	"1RQSNHQH9-R17HLW-119" [label="password authentication
+" fillcolor=white shape=rect style=filled]
+	"1RQSRSJ6C-1G0XRT-6WG" [label=has shape=none]
+	"1RQSNHQH9-R17HLW-119" -> "1RQSRSJ6C-1G0XRT-6WG" [constraint=true]
+	"1RQSR9HSZ-KCT672-631" [label=includes shape=none]
+	"1RQSQYDMJ-1KTBS4K-535" [label="specific account 
+attack" fillcolor=white shape=rect style=filled]
+	"1RQSR9HSZ-KCT672-631" -> "1RQSQYDMJ-1KTBS4K-535" [constraint=true]
+	"1RQSPX1FB-29MPCGQ-42Y" [label=include shape=none]
+	"1RQSPXTWL-2BBGZHJ-44R" [label=fingerprints fillcolor=white shape=rect style=filled]
+	"1RQSPX1FB-29MPCGQ-42Y" -> "1RQSPXTWL-2BBGZHJ-44R" [constraint=true]
+	statictics [label="STATISTICS
+\lBranch:		48\lNode:		66\lLinking Phrase:	27\lOrphan:		0\lLeaf Node:	48\lPreposition:	65\lSub Map:		1\lAvg Word Per Concept:	2.65\l" Gsplines=true fillcolor="#F5FFFA" shape=component style=filled]
+	file_info [label="CMAP Information
+
+\lTitle:	UAAnonymous26.cmap\lCreated:	2020-12-07T07:51:38-05:00\lModified:	2020-12-07T07:51:38-05:00\lLanguage:	en\lFormat:	x-cmap/x-storable\lPublisher:	FIHMC CmapTools 6.04\lWidth:	2052\lHeight:	881\l" Gsplines=true fillcolor="#E6E6FA" shape=tab style=filled]
+}

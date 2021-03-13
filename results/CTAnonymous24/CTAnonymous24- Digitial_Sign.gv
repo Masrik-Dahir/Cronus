@@ -1,0 +1,172 @@
+// The Round Table
+digraph {
+	"1S6343KZ1-1JBPCW1-1QM6" [label="DIGITAL SIGNATURES Module 3" Gsplines=true fontsize=20 shape=rect style=filled]
+	"1S633XRNL-24BW40M-1PDY" [label="illustrated 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S633XRNL-6SW8F9-1PBL" [label="Created by 
+encrypting 
+hash code 
+with private 
+key" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S633XRNL-24BW40M-1PDY" -> "1S633XRNL-6SW8F9-1PBL" [constraint=true]
+	"1S634TYDK-2CD9Y5J-1T1W" [label="such that" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S634R1L8-1QXR3B-1SW1" [label="message is 
+safe from 
+alteration 
+but not eavesdropping
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S634TYDK-2CD9Y5J-1T1W" -> "1S634R1L8-1QXR3B-1SW1" [constraint=true]
+	"1S633XRNL-1F630MC-1PCL" [label="Bob and Alice 
+confidentially 
+messaging 
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S633XRNL-23X5B4K-1PC8" [label="No one else 
+has Bob's 
+private key 
+and therefore 
+no one else 
+could have 
+created a 
+ciphertext 
+that could 
+be decrypted 
+with Bob's 
+public key
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S633XRNL-1F630MC-1PCL" -> "1S633XRNL-23X5B4K-1PC8" [constraint=true]
+	"1S634TYDK-2CD9Y5J-1T1W" [label="such that" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S634R067-29403DG-1SVX" [label="even in the 
+case of complete 
+encryption 
+the message 
+can be decrypted 
+using the 
+public key
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S634TYDK-2CD9Y5J-1T1W" -> "1S634R067-29403DG-1SVX" [constraint=true]
+	"1S633XRNL-1F630MC-1PCL" [label="Bob and Alice 
+confidentially 
+messaging 
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S633XRNL-1RT6Z4N-1PC2" [label="Once Alice 
+receives the 
+message plus 
+signature, 
+the message 
+hash value 
+is calculated, 
+the signature 
+is decrypted 
+using Bob's 
+public key, 
+and the calculated 
+hash value 
+is compared 
+to the decrypted 
+hash value
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S633XRNL-1F630MC-1PCL" -> "1S633XRNL-1RT6Z4N-1PC2" [constraint=true]
+	"1S633XRNL-208NNXF-1PBW" [label="DIGITAL SIGNATURES
+" Gsplines=true fillcolor=aquamarine fontsize=20 shape=doubleoctagon style=filled]
+	"1S633XRNL-1F630MC-1PCL" [label="Bob and Alice 
+confidentially 
+messaging 
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S633XRNL-208NNXF-1PBW" -> "1S633XRNL-1F630MC-1PCL" [constraint=true]
+	"1S633XRNL-1F630MC-1PCL" [label="Bob and Alice 
+confidentially 
+messaging 
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S633XRNL-1KHTVY0-1PBS" [label="Bob uses a 
+secure hash 
+function to 
+generate a 
+hash value 
+for the message 
+and creates 
+a digital 
+signature 
+by encrypting 
+the hash code 
+with his private 
+key" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S633XRNL-1F630MC-1PCL" -> "1S633XRNL-1KHTVY0-1PBS" [constraint=true]
+	"1S633XRNL-1F630MC-1PCL" [label="Bob and Alice 
+confidentially 
+messaging 
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S6358TWD-3Z2VK5-1V2W" [label="The message 
+is unalterable 
+with access 
+to Bob's private 
+key, and so 
+is authenticated 
+both in terms 
+of source 
+and data integrity
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S633XRNL-1F630MC-1PCL" -> "1S6358TWD-3Z2VK5-1V2W" [constraint=true]
+	"1S633XRNL-1F630MC-1PCL" [label="Bob and Alice 
+confidentially 
+messaging 
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S633XRNL-TN6C0M-1PBP" [label="Bob wants 
+Alice to be 
+certain that 
+the message 
+is from him, 
+regardless 
+that the message 
+need not be 
+kept secret
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S633XRNL-1F630MC-1PCL" -> "1S633XRNL-TN6C0M-1PBP" [constraint=true]
+	"1S633XRNL-1F630MC-1PCL" [label="Bob and Alice 
+confidentially 
+messaging 
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S633XRNL-1GSQYQS-1PBZ" [label="Bob sends 
+the message 
+with the signature 
+attached" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S633XRNL-1F630MC-1PCL" -> "1S633XRNL-1GSQYQS-1PBZ" [constraint=true]
+	"1S634Q56T-2BMNF6J-1SQB" [label="Does not provide 
+confidentiality" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S634TYDK-2CD9Y5J-1T1W" [label="such that" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S634Q56T-2BMNF6J-1SQB" -> "1S634TYDK-2CD9Y5J-1T1W" [constraint=true]
+	"1S633XRNL-24BW40M-1PDY" [label="illustrated 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S634Q56T-2BMNF6J-1SQB" [label="Does not provide 
+confidentiality" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S633XRNL-24BW40M-1PDY" -> "1S634Q56T-2BMNF6J-1SQB" [constraint=true]
+	"1S633XRNL-208NNXF-1PBW" [label="DIGITAL SIGNATURES
+" Gsplines=true fillcolor=aquamarine fontsize=20 shape=doubleoctagon style=filled]
+	"1S633XRNL-24BW40M-1PDY" [label="illustrated 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S633XRNL-208NNXF-1PBW" -> "1S633XRNL-24BW40M-1PDY" [constraint=true]
+	"1S633XRNL-24BW40M-1PDY" [label="illustrated 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S633XRNL-22R2SW0-1PBG" [label="Used for authenticating 
+both source 
+and data integrity
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S633XRNL-24BW40M-1PDY" -> "1S633XRNL-22R2SW0-1PBG" [constraint=true]
+	"1S633XRNL-1F630MC-1PCL" [label="Bob and Alice 
+confidentially 
+messaging 
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S633XRNL-9BJ8DG-1PC5" [label="If the two 
+hash values 
+match, Alice 
+is assured 
+that the message 
+must have 
+been signed 
+by Bob" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S633XRNL-1F630MC-1PCL" -> "1S633XRNL-9BJ8DG-1PC5" [constraint=true]
+	Stat [label="SUMMERY
+
+Matched Branch:			0\lPartially Matched Branch:	4\lMismatched Branch:		7\lExtra Branch:				43\lTotal Match:		17.65 %\lConcept Match:	14.29 %\lLink. Phr. Match:	33.33 %\lMisconception:	100.0 %\lHierarchy Match:	11.52 %\l" Gsplines=true fillcolor="#F5FFFA" fontsize=20 shape=component style=filled]
+	Grade [label="Grade:	9.74%" Gsplines=true fillcolor="#FFEBCD" fontsize=20 shape=note style=filled]
+	Stat -> Grade [arrowhead=inv color=black constraint=true]
+}

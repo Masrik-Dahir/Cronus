@@ -1,0 +1,153 @@
+// The Round Table
+digraph {
+	"1S3ZT0T6W-NLPK5Z-15M4" [label="LINUX PASSWORD and SHADOW FILES FORMAT Module 2" Gsplines=true shape=rect style=filled]
+	"1S628HC9F-DN90NQ-H1M" [label="represented 
+by" Gsplines=true fontcolor="#3B6300" shape=none]
+	"1S62865M4-11NWM2W-FP4" [label=Username Gsplines=true fillcolor=aquamarine shape=rect style=filled]
+	"1S628HC9F-DN90NQ-H1M" -> "1S62865M4-11NWM2W-FP4" [constraint=true]
+	"1S62867ZB-1TZWTFM-FP8" [label="Password consists 
+of three parts 
+separated 
+by dollar 
+signs ($)" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S628J15V-25JWTKJ-H3Y" [label="comprised 
+of" Gsplines=true fontcolor=red shape=none]
+	"1S62867ZB-1TZWTFM-FP8" -> "1S628J15V-25JWTKJ-H3Y" [constraint=true]
+	"1S628GFB4-1Y3S7LY-GY4" [label="illustrated 
+by" Gsplines=true fontcolor="#3B6300" shape=none]
+	"1S627ZWM6-29JN99Y-DM4" [label="Numeric user 
+ID" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S628GFB4-1Y3S7LY-GY4" -> "1S627ZWM6-29JN99Y-DM4" [constraint=true]
+	"1S628HC9F-DN90NQ-H1M" [label="represented 
+by" Gsplines=true fontcolor="#3B6300" shape=none]
+	"1S62867ZB-1TZWTFM-FP8" [label="Password consists 
+of three parts 
+separated 
+by dollar 
+signs ($)" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S628HC9F-DN90NQ-H1M" -> "1S62867ZB-1TZWTFM-FP8" [constraint=true]
+	"1S628J15V-25JWTKJ-H3Y" [label="comprised 
+of" Gsplines=true fontcolor=red shape=none]
+	"1S628CM24-27H21FC-GJF" [label=Salt Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S628J15V-25JWTKJ-H3Y" -> "1S628CM24-27H21FC-GJF" [constraint=true]
+	"1S628GFB4-1Y3S7LY-GY4" [label="illustrated 
+by" Gsplines=true fontcolor="#3B6300" shape=none]
+	"1S627Y0Q3-L791Z8-DDC" [label="/etc/passwd" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S628GFB4-1Y3S7LY-GY4" -> "1S627Y0Q3-L791Z8-DDC" [constraint=true]
+	"1S628GFB4-1Y3S7LY-GY4" [label="illustrated 
+by" Gsplines=true fontcolor="#3B6300" shape=none]
+	"1S6284HMH-TQWB19-F93" [label="User's home 
+directory" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S628GFB4-1Y3S7LY-GY4" -> "1S6284HMH-TQWB19-F93" [constraint=true]
+	"1S627Y0Q3-L791Z8-DDC" [label="/etc/passwd" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S6282Z7G-12XWGV6-F0G" [label="for example
+" Gsplines=true fontcolor="#3B6300" shape=none]
+	"1S627Y0Q3-L791Z8-DDC" -> "1S6282Z7G-12XWGV6-F0G" [constraint=true]
+	"1S628J15V-25JWTKJ-H3Y" [label="comprised 
+of" Gsplines=true fontcolor=red shape=none]
+	"1S628CNQZ-1YHGLY4-GJK" [label=Hash Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S628J15V-25JWTKJ-H3Y" -> "1S628CNQZ-1YHGLY4-GJK" [constraint=true]
+	"1S628GFB4-1Y3S7LY-GY4" [label="illustrated 
+by" Gsplines=true fontcolor="#3B6300" shape=none]
+	"1S627ZYRZ-189J58Y-DM9" [label=Username Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S628GFB4-1Y3S7LY-GY4" -> "1S627ZYRZ-189J58Y-DM9" [constraint=true]
+	"1S628HC9F-DN90NQ-H1M" [label="represented 
+by" Gsplines=true fontcolor="#3B6300" shape=none]
+	"1S6285ZS0-2DMB5CX-FNR" [label="/etc/shadow" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S628HC9F-DN90NQ-H1M" -> "1S6285ZS0-2DMB5CX-FNR" [constraint=true]
+	"1S628GFB4-1Y3S7LY-GY4" [label="illustrated 
+by" Gsplines=true fontcolor="#3B6300" shape=none]
+	"1S627ZV06-1D0ZMGN-DM0" [label="An \"x\" in 
+the password 
+field, where 
+passwords 
+are stored 
+in the “/etc/shadow” 
+file" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S628GFB4-1Y3S7LY-GY4" -> "1S627ZV06-1D0ZMGN-DM0" [constraint=true]
+	"1S628J15V-25JWTKJ-H3Y" [label="comprised 
+of" Gsplines=true fontcolor=red shape=none]
+	"1S628CKM4-GVDNMF-GJ9" [label="ID identifies 
+the encryption 
+hash method 
+used e.g., 
+1 denotes 
+MD5" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S628J15V-25JWTKJ-H3Y" -> "1S628CKM4-GVDNMF-GJ9" [constraint=true]
+	"1S627DSY1-285WJRW-BJD" [label="LINUX SHADOW 
+FILE FORMAT
+" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S628HC9F-DN90NQ-H1M" [label="represented 
+by" Gsplines=true fontcolor="#3B6300" shape=none]
+	"1S627DSY1-285WJRW-BJD" -> "1S628HC9F-DN90NQ-H1M" [constraint=true]
+	"1S628GFB4-1Y3S7LY-GY4" [label="illustrated 
+by" Gsplines=true fontcolor="#3B6300" shape=none]
+	"1S6284FR4-1WT5ZHR-F8Z" [label="Full name 
+of user" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S628GFB4-1Y3S7LY-GY4" -> "1S6284FR4-1WT5ZHR-F8Z" [constraint=true]
+	"1S40XWL94-24X379Z-5Y3" [label="LINUX PASSWORD 
+FILE FORMAT
+" Gsplines=true fillcolor="#FFB6C1" shape=doubleoctagon style=filled]
+	"1S628GFB4-1Y3S7LY-GY4" [label="illustrated 
+by" Gsplines=true fontcolor="#3B6300" shape=none]
+	"1S40XWL94-24X379Z-5Y3" -> "1S628GFB4-1Y3S7LY-GY4" [constraint=true]
+	"1S628P8CX-1Q8T0B6-H95" [label="related to
+" Gsplines=true fontcolor=red shape=none]
+	"1S627DSY1-285WJRW-BJD" [label="LINUX SHADOW 
+FILE FORMAT
+" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S628P8CX-1Q8T0B6-H95" -> "1S627DSY1-285WJRW-BJD" [constraint=true]
+	"1S628HC9F-DN90NQ-H1M" [label="represented 
+by" Gsplines=true fontcolor="#3B6300" shape=none]
+	"1S62863FP-1XGJL6J-FP0" [label="Each field 
+is separated 
+with \":\" colon 
+character" Gsplines=true fillcolor=aquamarine shape=rect style=filled]
+	"1S628HC9F-DN90NQ-H1M" -> "1S62863FP-1XGJL6J-FP0" [constraint=true]
+	"1S628GFB4-1Y3S7LY-GY4" [label="illustrated 
+by" Gsplines=true fontcolor="#3B6300" shape=none]
+	"1S62800ZF-1HBFNZ8-DMF" [label="Numeric group 
+ID" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S628GFB4-1Y3S7LY-GY4" -> "1S62800ZF-1HBFNZ8-DMF" [constraint=true]
+	"1S6289HX5-3Q4VNH-FZ8" [label="for instance
+" Gsplines=true fontcolor="#3B6300" shape=none]
+	"1S62861MS-WFPMW5-FNW" [label="smithj:Ep6mckrOLChF.:10063:0:99999:7:::" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S6289HX5-3Q4VNH-FZ8" -> "1S62861MS-WFPMW5-FNW" [constraint=true]
+	"1S6282Z7G-12XWGV6-F0G" [label="for example
+" Gsplines=true fontcolor="#3B6300" shape=none]
+	"1S627Z1R6-GNTQ7Y-DHR" [label="smithj:x:561:561:Joe 
+Smith:/home/smithj:/bin/bash" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S6282Z7G-12XWGV6-F0G" -> "1S627Z1R6-GNTQ7Y-DHR" [constraint=true]
+	"1S6285ZS0-2DMB5CX-FNR" [label="/etc/shadow" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S6289HX5-3Q4VNH-FZ8" [label="for instance
+" Gsplines=true fontcolor="#3B6300" shape=none]
+	"1S6285ZS0-2DMB5CX-FNR" -> "1S6289HX5-3Q4VNH-FZ8" [constraint=true]
+	"1S40XWL94-24X379Z-5Y3" [label="LINUX PASSWORD 
+FILE FORMAT
+" Gsplines=true fillcolor="#FFB6C1" shape=doubleoctagon style=filled]
+	"1S628P8CX-1Q8T0B6-H95" [label="related to
+" Gsplines=true fontcolor=red shape=none]
+	"1S40XWL94-24X379Z-5Y3" -> "1S628P8CX-1Q8T0B6-H95" [constraint=true]
+	"1S628HC9F-DN90NQ-H1M" [label="represented 
+by" Gsplines=true fontcolor="#3B6300" shape=none]
+	"1S628FYDX-1JK4M53-GXS" [label="Rest of the 
+fields are 
+metadata for 
+password such 
+as password 
+expiration 
+date etc." Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S628HC9F-DN90NQ-H1M" -> "1S628FYDX-1JK4M53-GXS" [constraint=true]
+	"1S628GFB4-1Y3S7LY-GY4" [label="illustrated 
+by" Gsplines=true fontcolor="#3B6300" shape=none]
+	"1S627ZSC3-158S51F-DLW" [label="Each field 
+is separated 
+with \":\" colon 
+character" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1S628GFB4-1Y3S7LY-GY4" -> "1S627ZSC3-158S51F-DLW" [constraint=true]
+	Stat [label="SUMMERY
+
+Matched Branch:		0\lPartially Matched Branch:	8\lMismatched Branch:		7\lExtra Branch:			40\lTotal Match:		16.0 %\lConcept Match:	0.0 %\lLink. Phr. Match:	66.67 %\lMisconception:		100.0 %\lHierarchy Match:	18.22 %\l" Gsplines=true fillcolor="#F5FFFA" shape=component style=filled]
+	Grade [label="Grade:	11.47%" Gsplines=true fillcolor="#FFEBCD" shape=note style=filled]
+	Stat -> Grade [arrowhead=inv color=black constraint=true]
+}
