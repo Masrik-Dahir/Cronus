@@ -1,0 +1,93 @@
+// The Round Table
+digraph {
+	"1S3ZPN5S0-1Q3SJBW-RM2" [label="AUTHENTICATION without MESSAGE ENCRYPTION Module 3" Gsplines=true fontsize=20 shape=rect style=filled]
+	"1S46JYKPZ-DKCMZV-B58" [label="WITHOUT MESSAGE 
+ENCRYPTION" Gsplines=true fillcolor=aquamarine fontsize=20 shape=doubleoctagon style=filled]
+	"1S46K8SJD-N8HDKH-BSR" [label="illustrated 
+by" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S46JYKPZ-DKCMZV-B58" -> "1S46K8SJD-N8HDKH-BSR" [constraint=true]
+	"1S46JZ7RZ-FKGWPD-B5L" [label="same message 
+is broadcast 
+to a number 
+of destination
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46KKGXY-1918QMS-C85" [label=inducing Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46JZ7RZ-FKGWPD-B5L" -> "1S46KKGXY-1918QMS-C85" [constraint=true]
+	"1S46KCCMG-2DRNZCV-BW5" [label="encryption 
+not required 
+when" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46JZ7RZ-FKGWPD-B5L" [label="same message 
+is broadcast 
+to a number 
+of destination
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46KCCMG-2DRNZCV-BW5" -> "1S46JZ7RZ-FKGWPD-B5L" [constraint=true]
+	"1S46KCCMG-2DRNZCV-BW5" [label="encryption 
+not required 
+when" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46JYDWR-1FQHWWL-B50" [label="one side has 
+a heavy load 
+and cannot 
+afford the 
+time to decrypt 
+all the incoming 
+messages" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46KCCMG-2DRNZCV-BW5" -> "1S46JYDWR-1FQHWWL-B50" [constraint=true]
+	"1S46JYDWR-1FQHWWL-B50" [label="one side has 
+a heavy load 
+and cannot 
+afford the 
+time to decrypt 
+all the incoming 
+messages" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46KM484-1440NJL-CB7" [label=begetting Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46JYDWR-1FQHWWL-B50" -> "1S46KM484-1440NJL-CB7" [constraint=true]
+	"1S46KKGXY-1918QMS-C85" [label=inducing Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46JYHDY-2LCMRV-B54" [label="notification 
+to users that 
+the network 
+is unavailable
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46KKGXY-1918QMS-C85" -> "1S46JYHDY-2LCMRV-B54" [constraint=true]
+	"1S46KM484-1440NJL-CB7" [label=begetting Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46JZQGY-1GN9QG-B61" [label="authentication 
+on a selective 
+basis with 
+messages being 
+randomly chosen
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46KM484-1440NJL-CB7" -> "1S46JZQGY-1GN9QG-B61" [constraint=true]
+	"1S46K8SJD-N8HDKH-BSR" [label="illustrated 
+by" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S46JY6TV-65544C-B3B" [label="authentication 
+tag or code 
+is generated 
+using keys 
+and then is 
+appended with 
+each message 
+" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S46K8SJD-N8HDKH-BSR" -> "1S46JY6TV-65544C-B3B" [constraint=true]
+	"1S46JYKPZ-DKCMZV-B58" [label="WITHOUT MESSAGE 
+ENCRYPTION" Gsplines=true fillcolor=aquamarine fontsize=20 shape=doubleoctagon style=filled]
+	"1S46KCCMG-2DRNZCV-BW5" [label="encryption 
+not required 
+when" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46JYKPZ-DKCMZV-B58" -> "1S46KCCMG-2DRNZCV-BW5" [constraint=true]
+	"1S46K8SJD-N8HDKH-BSR" [label="illustrated 
+by" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S46JZ9VK-12R24VT-B5Q" [label="message itself 
+is not encrypted 
+and can be 
+read at the 
+destination 
+with an authentication 
+function " Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46K8SJD-N8HDKH-BSR" -> "1S46JZ9VK-12R24VT-B5Q" [constraint=true]
+	Stat [label="SUMMERY
+
+Matched Branch:			0\lPartially Matched Branch:	3\lMismatched Branch:		1\lExtra Branch:				62\lTotal Match:		33.33 %\lConcept Match:	37.5 %\lLink. Phr. Match:	25.0 %\lMisconception:	83.33 %\lHierarchy Match:	33.33 %\l" Gsplines=true fillcolor="#F5FFFA" fontsize=20 shape=component style=filled]
+	Grade [label="Grade:	27.83%" Gsplines=true fillcolor="#FFEBCD" fontsize=20 shape=note style=filled]
+	Stat -> Grade [arrowhead=inv color=black constraint=true]
+	"1S46JYKPZ-DKCMZV-B58" -> "1S46JY6TV-65544C-B3B" [arrowhead=open color="#0316D1" constraint=true style=dashed]
+}

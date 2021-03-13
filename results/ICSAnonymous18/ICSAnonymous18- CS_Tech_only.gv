@@ -1,0 +1,89 @@
+// The Round Table
+digraph {
+	Student [label="Student: ICSAnonymous18" fillcolor=gold fontsize=20 shape=component style=filled]
+	"1RPYZL55S-BVZ0R9-KF" [label="to reduce" fontsize=20 shape=none]
+	"1RPYZH5VQ-145JL0M-F8" [label=risk fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPYZL55S-BVZ0R9-KF" -> "1RPYZH5VQ-145JL0M-F8" [constraint=true]
+	"1RPYZHH1Q-1K9GT8-FP" [label=threats fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPYZY5JM-FJJYJ5-17F" [label=increase fontsize=20 shape=none]
+	"1RPYZHH1Q-1K9GT8-FP" -> "1RPYZY5JM-FJJYJ5-17F" [constraint=true]
+	"1RPYZY5JM-FJJYJ5-17F" [label=increase fontsize=20 shape=none]
+	"1RPYZH5VQ-145JL0M-F8" [label=risk fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPYZY5JM-FJJYJ5-17F" -> "1RPYZH5VQ-145JL0M-F8" [constraint=true]
+	"1RPYZGVQ4-XM937X-DM" [label=vulnerabilities fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPYZNFXV-21Z6NVX-P9" [label="leading to
+" fontsize=20 shape=none]
+	"1RPYZGVQ4-XM937X-DM" -> "1RPYZNFXV-21Z6NVX-P9" [constraint=true]
+	"1RPYZRDBZ-28CQ3X5-VD" [label=to fontsize=20 shape=none]
+	"1RPYZHQ1R-PFQ81N-G2" [label=assets fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPYZRDBZ-28CQ3X5-VD" -> "1RPYZHQ1R-PFQ81N-G2" [constraint=true]
+	"1RPYZHH1Q-1K9GT8-FP" [label=threats fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPYZQJ55-1NP66KH-TN" [label=to fontsize=20 shape=none]
+	"1RPYZHH1Q-1K9GT8-FP" -> "1RPYZQJ55-1NP66KH-TN" [constraint=true]
+	"1RPYZG5ZN-VHX0H8-CP" [label=countermeasures fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPYZLJVR-CVN3PY-LF" [label="may possess
+" fontsize=20 shape=none]
+	"1RPYZG5ZN-VHX0H8-CP" -> "1RPYZLJVR-CVN3PY-LF" [constraint=true]
+	"1RPYZPBDM-1402V1R-RD" [label="give rise 
+to" fontsize=20 shape=none]
+	"1RPYZHH1Q-1K9GT8-FP" [label=threats fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPYZPBDM-1402V1R-RD" -> "1RPYZHH1Q-1K9GT8-FP" [constraint=true]
+	"1RPYZNW19-369S7M-Q9" [label="that exploit
+" fontsize=20 shape=none]
+	"1RPYZGVQ4-XM937X-DM" [label=vulnerabilities fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPYZNW19-369S7M-Q9" -> "1RPYZGVQ4-XM937X-DM" [constraint=true]
+	"1RPYZQJ55-1NP66KH-TN" [label=to fontsize=20 shape=none]
+	"1RPYZHQ1R-PFQ81N-G2" [label=assets fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPYZQJ55-1NP66KH-TN" -> "1RPYZHQ1R-PFQ81N-G2" [constraint=true]
+	"1RPYZLJVR-CVN3PY-LF" [label="may possess
+" fontsize=20 shape=none]
+	"1RPYZGVQ4-XM937X-DM" [label=vulnerabilities fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPYZLJVR-CVN3PY-LF" -> "1RPYZGVQ4-XM937X-DM" [constraint=true]
+	"1RPYZHZFR-V8JP85-GF" [label="threat agents
+" fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RPYZPBDM-1402V1R-RD" [label="give rise 
+to" fontsize=20 shape=none]
+	"1RPYZHZFR-V8JP85-GF" -> "1RPYZPBDM-1402V1R-RD" [constraint=true]
+	"1RPYZKCTY-TY9B20-J6" [label="wish to minimize
+" fontsize=20 shape=none]
+	"1RPYZH5VQ-145JL0M-F8" [label=risk fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPYZKCTY-TY9B20-J6" -> "1RPYZH5VQ-145JL0M-F8" [constraint=true]
+	"1RPYZPV7N-88BW9-SK" [label="may damage
+" fontsize=20 shape=none]
+	"1RPYZHQ1R-PFQ81N-G2" [label=assets fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPYZPV7N-88BW9-SK" -> "1RPYZHQ1R-PFQ81N-G2" [constraint=true]
+	"1RPYZF91H-1V8KCXR-89" [label=Owners fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPYZJMFZ-T43HV8-H5" [label=impose fontsize=20 shape=none]
+	"1RPYZF91H-1V8KCXR-89" -> "1RPYZJMFZ-T43HV8-H5" [constraint=true]
+	"1RPYZNFXV-21Z6NVX-P9" [label="leading to
+" fontsize=20 shape=none]
+	"1RPYZH5VQ-145JL0M-F8" [label=risk fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPYZNFXV-21Z6NVX-P9" -> "1RPYZH5VQ-145JL0M-F8" [constraint=true]
+	"1RPYZJMFZ-T43HV8-H5" [label=impose fontsize=20 shape=none]
+	"1RPYZG5ZN-VHX0H8-CP" [label=countermeasures fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPYZJMFZ-T43HV8-H5" -> "1RPYZG5ZN-VHX0H8-CP" [constraint=true]
+	"1RPYZHZFR-V8JP85-GF" [label="threat agents
+" fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RPYZPV7N-88BW9-SK" [label="may damage
+" fontsize=20 shape=none]
+	"1RPYZHZFR-V8JP85-GF" -> "1RPYZPV7N-88BW9-SK" [constraint=true]
+	"1RPYZG5ZN-VHX0H8-CP" [label=countermeasures fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPYZL55S-BVZ0R9-KF" [label="to reduce" fontsize=20 shape=none]
+	"1RPYZG5ZN-VHX0H8-CP" -> "1RPYZL55S-BVZ0R9-KF" [constraint=true]
+	"1RPYZH5VQ-145JL0M-F8" [label=risk fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPYZRDBZ-28CQ3X5-VD" [label=to fontsize=20 shape=none]
+	"1RPYZH5VQ-145JL0M-F8" -> "1RPYZRDBZ-28CQ3X5-VD" [constraint=true]
+	"1RPYZHH1Q-1K9GT8-FP" [label=threats fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPYZNW19-369S7M-Q9" [label="that exploit
+" fontsize=20 shape=none]
+	"1RPYZHH1Q-1K9GT8-FP" -> "1RPYZNW19-369S7M-Q9" [constraint=true]
+	"1RPYZF91H-1V8KCXR-89" [label=Owners fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPYZKCTY-TY9B20-J6" [label="wish to minimize
+" fontsize=20 shape=none]
+	"1RPYZF91H-1V8KCXR-89" -> "1RPYZKCTY-TY9B20-J6" [constraint=true]
+	statictics [label="STATISTICS
+\lBranch:		1\lNode:		7\lLinking Phrase:	11\lOrphan:		0\lLeaf Node:	1\lPreposition:	1\lSub Map:		1\lAvg Word Per Concept:	0.43\l" Gsplines=true fillcolor="#F5FFFA" fontsize=20 shape=component style=filled]
+	file_info [label="CMAP Information
+
+\lTitle:	ICSAnonymous18.cmap\lCreated:	2020-12-07T07:40:16-05:00\lModified:	2020-12-07T07:40:16-05:00\lLanguage:	en\lFormat:	x-cmap/x-storable\lPublisher:	FIHMC CmapTools 6.04\lWidth:	571\lHeight:	535\l" Gsplines=true fillcolor="#E6E6FA" fontsize=20 shape=tab style=filled]
+}

@@ -1,0 +1,1329 @@
+// The Round Table
+digraph {
+	Student [label="Student: ICSAnonymous17" fillcolor=gold fontsize=20 shape=component style=filled]
+	"1RPZ78Q0P-MNX2Y6-3HN" [label="Attack Types
+" fontsize=20 shape=none]
+	"1RPZ78Q0P-2DK4KLQ-3HK" [label="Exposure: 
+Sensitive 
+data are directly 
+released to 
+an unauthorized 
+entity." fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ78Q0P-MNX2Y6-3HN" -> "1RPZ78Q0P-2DK4KLQ-3HK" [constraint=true]
+	"1RPZ72LFH-2WFXKS-358" [label="Threat Types
+" fontsize=20 shape=none]
+	"1RPZ7705F-PPPLM8-3FC" [label=Disruption fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ72LFH-2WFXKS-358" -> "1RPZ7705F-PPPLM8-3FC" [constraint=true]
+	"1RPZ84T3K-1992DC0-44J" [label=Terminology fontsize=20 shape=none]
+	"1RPZ8BJM7-KRJ897-4DC" [label="Configuration 
+Management: 
+(i) Establish 
+and maintain 
+baseline configurations 
+and inventories 
+of organizational 
+information 
+systems (including 
+hardware, 
+software, 
+firmware, 
+and documentation) 
+throughout 
+the respective 
+system development 
+life cycles; 
+and (ii) establish 
+and enforce 
+security configuration 
+settings for 
+information 
+technology 
+products employed 
+in organizational 
+information 
+systems." fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ84T3K-1992DC0-44J" -> "1RPZ8BJM7-KRJ897-4DC" [constraint=true]
+	"1RPZ72LFH-1QH5MLM-355" [label="Unauthorized 
+Disclosure" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ78Q0P-MNX2Y6-3HN" [label="Attack Types
+" fontsize=20 shape=none]
+	"1RPZ72LFH-1QH5MLM-355" -> "1RPZ78Q0P-MNX2Y6-3HN" [constraint=true]
+	"1RPZ84T3K-1992DC0-44J" [label=Terminology fontsize=20 shape=none]
+	"1RPZ87VL4-JXCZHQ-48F" [label="Audit and 
+Accountability: 
+(i) Create, 
+protect, and 
+retain information 
+system audit 
+records to 
+the extent 
+needed to 
+enable the 
+monitoring, 
+analysis, 
+investigation, 
+and reporting 
+of unlawful, 
+unauthorized, 
+or inappropriate 
+information 
+system activity; 
+and (ii) ensure 
+that the actions 
+of individual 
+information 
+system users 
+can be uniquely 
+traced to 
+those users 
+so they can 
+be held accountable 
+for their 
+actions." fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ84T3K-1992DC0-44J" -> "1RPZ87VL4-JXCZHQ-48F" [constraint=true]
+	"1RPZ6JV5L-3KDZXH-1DS" [label=Terminology fontsize=20 shape=none]
+	"1RPZ6JV5L-1Q5LC6L-1DP" [label="Adversary: 
+An entity 
+that attacks, 
+or is a threat 
+to, a system. 
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ6JV5L-3KDZXH-1DS" -> "1RPZ6JV5L-1Q5LC6L-1DP" [constraint=true]
+	"1RPZ5BMX1-1N57H28-8F" [label="Chapter 1: 
+Overview of 
+Computer Security
+" fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RPZ64LDZ-JF3DSJ-Y3" [label="Topic 3" fontsize=20 shape=none]
+	"1RPZ5BMX1-1N57H28-8F" -> "1RPZ64LDZ-JF3DSJ-Y3" [constraint=true]
+	"1RPZ6JV5L-3KDZXH-1DS" [label=Terminology fontsize=20 shape=none]
+	"1RPZ6QTF3-1TNGXC5-23Z" [label="Security Policy: 
+A set of rules 
+and practices 
+that specify 
+or regulate 
+how a system 
+or organization 
+provides security 
+services to 
+protect sensitive 
+and critical 
+system resources.
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ6JV5L-3KDZXH-1DS" -> "1RPZ6QTF3-1TNGXC5-23Z" [constraint=true]
+	"1RPZ9SZL4-1Q0ZQ4N-65Q" [label="Four Courses 
+of Asction
+" fontsize=20 shape=none]
+	"1RPZ9TN0D-22V34D0-67L" [label=Detection fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ9SZL4-1Q0ZQ4N-65Q" -> "1RPZ9TN0D-22V34D0-67L" [constraint=true]
+	"1RPZ9SZL4-1Q0ZQ4N-65Q" [label="Four Courses 
+of Asction
+" fontsize=20 shape=none]
+	"1RPZ9VH2G-20GK5MJ-69B" [label=Recovery fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ9SZL4-1Q0ZQ4N-65Q" -> "1RPZ9VH2G-20GK5MJ-69B" [constraint=true]
+	"1RPZ78Q0P-MNX2Y6-3HN" [label="Attack Types
+" fontsize=20 shape=none]
+	"1RPZ7K728-1NW7XXW-3MD" [label="Interference: 
+A threat action 
+whereby an 
+unauthorized 
+entity indirectly 
+accesses sensitive 
+data (but 
+not necessarily 
+the data contained 
+in the communication) 
+by reasoning 
+from characteristics 
+or by-products 
+of communications.
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ78Q0P-MNX2Y6-3HN" -> "1RPZ7K728-1NW7XXW-3MD" [constraint=true]
+	"1RPZ7MSRJ-20L3VGJ-3PY" [label="Attack Types
+" fontsize=20 shape=none]
+	"1RPZ7QRX2-1NPZGS4-3V2" [label="Repudiation: 
+An entity 
+deceives another 
+by falsely 
+denying responsibility 
+for an act.
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ7MSRJ-20L3VGJ-3PY" -> "1RPZ7QRX2-1NPZGS4-3V2" [constraint=true]
+	"1RPZ6CLKT-NGTCC6-16L" [label="Computer Security 
+Strategy" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ9MKQH-BQ2NP3-60L" [label=Correctness fontsize=20 shape=none]
+	"1RPZ6CLKT-NGTCC6-16L" -> "1RPZ9MKQH-BQ2NP3-60L" [constraint=true]
+	"1RPZ6CLKT-NGTCC6-16L" [label="Computer Security 
+Strategy" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ9L5T3-1K2PTZ2-5W3" [label="Specification/Policy" fontsize=20 shape=none]
+	"1RPZ6CLKT-NGTCC6-16L" -> "1RPZ9L5T3-1K2PTZ2-5W3" [constraint=true]
+	"1RPZ84T3K-1992DC0-44J" [label=Terminology fontsize=20 shape=none]
+	"1RPZ8MQDX-1XT75Z2-4RB" [label="Planning: 
+(i) Limit 
+physical access 
+to information 
+systems, equipment, 
+and the respective 
+operating 
+environments 
+to authorized 
+individuals; 
+(ii) protect 
+the physical 
+plant and 
+support infrastructure 
+for information 
+systems; (iii) 
+provide supporting 
+utilities 
+for information 
+systems; (iv) 
+protect information 
+systems against 
+environmental 
+hazards; and 
+(v) provide 
+appropriate 
+environmental 
+controls in 
+facilities 
+containing 
+information 
+systems." fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ84T3K-1992DC0-44J" -> "1RPZ8MQDX-1XT75Z2-4RB" [constraint=true]
+	"1RPZ9153S-QJ88GB-542" [label="List of principles
+" fontsize=20 shape=none]
+	"1RPZ9153S-1G26XR5-53Z" [label="Economy of 
+mechanism 
+means that 
+the design 
+of security 
+measures embodied 
+in both hardware 
+and software 
+should be 
+as simple 
+and small 
+as possible. 
+The motivation 
+for this principle 
+is that relatively 
+simple, small 
+design is 
+easier to 
+test and verify 
+thoroughly." fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ9153S-QJ88GB-542" -> "1RPZ9153S-1G26XR5-53Z" [constraint=true]
+	"1RPZ84T3K-1992DC0-44J" [label=Terminology fontsize=20 shape=none]
+	"1RPZ8L0R1-1TD3LHX-4N8" [label="Media Protection: 
+(i) Protect 
+information 
+system media, 
+both paper 
+and digital; 
+(ii) limit 
+access to 
+information 
+on information 
+system media 
+to authorized 
+users; and 
+(iii) sanitize 
+or destroy 
+information 
+system media 
+before disposal 
+or release 
+for reuse.
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ84T3K-1992DC0-44J" -> "1RPZ8L0R1-1TD3LHX-4N8" [constraint=true]
+	"1RPZ694FT-14VML35-12K" [label="Topic 5" fontsize=20 shape=none]
+	"1RPZ694FT-1F8MJL7-12G" [label="Attack Surfaces 
+and Attack 
+Trees" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ694FT-14VML35-12K" -> "1RPZ694FT-1F8MJL7-12G" [constraint=true]
+	"1RPZ84T3K-1992DC0-44J" [label=Terminology fontsize=20 shape=none]
+	"1RPZ8HJCS-2M4NBK-4LR" [label="Maintenance: 
+(i) Perform 
+periodic and 
+timely maintenance 
+on organizational 
+information 
+systems; and 
+(ii) provide 
+effective 
+controls on 
+the tools, 
+techniques, 
+mechanisms, 
+and personnel 
+used to conduct 
+information 
+system maintenance.
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ84T3K-1992DC0-44J" -> "1RPZ8HJCS-2M4NBK-4LR" [constraint=true]
+	"1RPZ9153S-QJ88GB-542" [label="List of principles
+" fontsize=20 shape=none]
+	"1RPZ954T2-856YJB-57J" [label="Least privilege 
+means that 
+every process 
+and every 
+user of the 
+system should 
+operate using 
+the least 
+set of privileges 
+necessary 
+to perform 
+the task." fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ9153S-QJ88GB-542" -> "1RPZ954T2-856YJB-57J" [constraint=true]
+	"1RPZ9D9W1-1Q2FSH7-5CZ" [label="Attack Surfaces
+" fontsize=20 shape=none]
+	"1RPZ9FQSH-J6GB78-5FS" [label="Human attack 
+surface: This 
+category refers 
+to vulnerabilities 
+created by 
+personnel 
+or outsiders, 
+such as social 
+engineering, 
+human error, 
+and trusted 
+insiders." fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ9D9W1-1Q2FSH7-5CZ" -> "1RPZ9FQSH-J6GB78-5FS" [constraint=true]
+	"1RPZ5BMX1-1N57H28-8F" [label="Chapter 1: 
+Overview of 
+Computer Security
+" fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RPZ66N9S-GD40QH-106" [label="Topic 4" fontsize=20 shape=none]
+	"1RPZ5BMX1-1N57H28-8F" -> "1RPZ66N9S-GD40QH-106" [constraint=true]
+	"1RPZ7ZVP5-249ZFRP-416" [label="Attack Types
+" fontsize=20 shape=none]
+	"1RPZ7ZVP5-1TZPYZX-413" [label="Misappropriation: 
+An entity 
+assumes unauthorized 
+logical or 
+physical control 
+of a system 
+resource." fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ7ZVP5-249ZFRP-416" -> "1RPZ7ZVP5-1TZPYZX-413" [constraint=true]
+	"1RPZ9MKQH-2D9R6DH-60H" [label="Does it really 
+work" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ9WB2D-6SJ45D-6B9" [label=Evaluation fontsize=20 shape=none]
+	"1RPZ9MKQH-2D9R6DH-60H" -> "1RPZ9WB2D-6SJ45D-6B9" [constraint=true]
+	"1RPZ9153S-QJ88GB-542" [label="List of principles
+" fontsize=20 shape=none]
+	"1RPZ92HZ8-15XJLBH-55G" [label="Fail-safe 
+default means 
+that access 
+decisions 
+should be 
+based on permission 
+rather than 
+exclusion." fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ9153S-QJ88GB-542" -> "1RPZ92HZ8-15XJLBH-55G" [constraint=true]
+	"1RPZ62VQX-11XWWN-VP" [label="Threats, Attacks, 
+and Assets
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ72LFH-2WFXKS-358" [label="Threat Types
+" fontsize=20 shape=none]
+	"1RPZ62VQX-11XWWN-VP" -> "1RPZ72LFH-2WFXKS-358" [constraint=true]
+	"1RPZ694FT-1F8MJL7-12G" [label="Attack Surfaces 
+and Attack 
+Trees" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ9G6VT-H79QC8-5GF" [label="Attack Trees
+" fontsize=20 shape=none]
+	"1RPZ694FT-1F8MJL7-12G" -> "1RPZ9G6VT-H79QC8-5GF" [constraint=true]
+	"1RPZ9153S-QJ88GB-542" [label="List of principles
+" fontsize=20 shape=none]
+	"1RPZ9610F-PRS6L4-58K" [label="Psychological 
+acceptability 
+implies that 
+the security 
+mechanisms 
+should not 
+interfere 
+unduly with 
+the work of 
+users, while 
+at the same 
+time meeting 
+the needs 
+of those who 
+authorize 
+access." fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ9153S-QJ88GB-542" -> "1RPZ9610F-PRS6L4-58K" [constraint=true]
+	"1RPZ84T3K-1992DC0-44J" [label=Terminology fontsize=20 shape=none]
+	"1RPZ86JM8-1Q6M5-46J" [label="Awareness 
+and Training: 
+(i) Ensure 
+that managers 
+and users 
+of organizational 
+information 
+systems are 
+made aware 
+of the security 
+risks associated 
+with their 
+activities 
+and of the 
+applicable 
+laws, regulation, 
+and policies 
+related to 
+the security 
+of organizational 
+information 
+systems; and 
+(ii) ensure 
+that personnel 
+are adequately 
+trained to 
+carry out 
+their assigned 
+information 
+security-related 
+duties and 
+responsibilities." fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ84T3K-1992DC0-44J" -> "1RPZ86JM8-1Q6M5-46J" [constraint=true]
+	"1RPZ9153S-QJ88GB-542" [label="List of principles
+" fontsize=20 shape=none]
+	"1RPZ97FW8-FXPVF5-59L" [label="Encapsulation 
+can be viewed 
+as a specific 
+form of isolation 
+based on objectoriented 
+functionality. 
+Protection 
+is provided 
+by encapsulating 
+a collection 
+of procedures 
+and data objects 
+in a domain 
+of its own 
+so that the 
+internal structure 
+of a data 
+object is 
+accessible 
+only to the 
+procedures 
+of the protected 
+subsystem 
+and the procedures 
+may be called 
+only at designated 
+domain entry 
+points." fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ9153S-QJ88GB-542" -> "1RPZ97FW8-FXPVF5-59L" [constraint=true]
+	"1RPZ7ZVP5-249ZFRP-416" [label="Attack Types
+" fontsize=20 shape=none]
+	"1RPZ80Y2B-16X4FM7-433" [label="Misuse: Causes 
+a system component 
+to perform 
+a function 
+or service 
+that is detrimental 
+to system 
+security." fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ7ZVP5-249ZFRP-416" -> "1RPZ80Y2B-16X4FM7-433" [constraint=true]
+	"1RPZ9M04B-Y2WZD-5YP" [label=Implementation fontsize=20 shape=none]
+	"1RPZ9M04B-1735FXF-5YL" [label="How does it 
+do it" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ9M04B-Y2WZD-5YP" -> "1RPZ9M04B-1735FXF-5YL" [constraint=true]
+	"1RPZ64LDZ-2D8KL5M-Y0" [label="Security Functional 
+Requirements" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ84T3K-1992DC0-44J" [label=Terminology fontsize=20 shape=none]
+	"1RPZ64LDZ-2D8KL5M-Y0" -> "1RPZ84T3K-1992DC0-44J" [constraint=true]
+	"1RPZ7THFR-29WN38D-3X7" [label="Attack Types
+" fontsize=20 shape=none]
+	"1RPZ7X0W0-25W9GM5-400" [label="Obstruction: 
+A threat action 
+that interrupts 
+delivery of 
+system services 
+by hindering 
+system operation.
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ7THFR-29WN38D-3X7" -> "1RPZ7X0W0-25W9GM5-400" [constraint=true]
+	"1RPZ6CLKT-NGTCC6-16L" [label="Computer Security 
+Strategy" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ9M04B-Y2WZD-5YP" [label=Implementation fontsize=20 shape=none]
+	"1RPZ6CLKT-NGTCC6-16L" -> "1RPZ9M04B-Y2WZD-5YP" [constraint=true]
+	"1RPZ9L5T3-1K2PTZ2-5W3" [label="Specification/Policy" fontsize=20 shape=none]
+	"1RPZ9L5SL-18YS5YS-5W0" [label="What is the 
+Scheme supposed 
+to do" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ9L5T3-1K2PTZ2-5W3" -> "1RPZ9L5SL-18YS5YS-5W0" [constraint=true]
+	"1RPZ84T3K-1992DC0-44J" [label=Terminology fontsize=20 shape=none]
+	"1RPZ84T3K-NSQQ7C-44F" [label="Access Control: 
+Limit information 
+system access 
+to authorized 
+users, processes 
+acting on 
+behalf of 
+authorized 
+users, or 
+devices (including 
+other information 
+systems) and 
+to the types 
+of transactions 
+and functions 
+that authorized 
+users are 
+permitted 
+to exercise. 
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ84T3K-1992DC0-44J" -> "1RPZ84T3K-NSQQ7C-44F" [constraint=true]
+	"1RPZ66N9S-GD40QH-106" [label="Topic 4" fontsize=20 shape=none]
+	"1RPZ66N9S-DN8QCZ-103" [label="Fundamental 
+Security Design 
+Principles" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ66N9S-GD40QH-106" -> "1RPZ66N9S-DN8QCZ-103" [constraint=true]
+	"1RPZ6JV5L-3KDZXH-1DS" [label=Terminology fontsize=20 shape=none]
+	"1RPZ6T1WK-18NT6LZ-2DJ" [label="Threat: A 
+potential 
+for violation 
+of security, 
+which exists 
+when there 
+is a circumstance, 
+capability, 
+action, or 
+event, that 
+could breach 
+security and 
+cause harm. 
+That is, a 
+threat is 
+a possible 
+danger that 
+might exploit 
+a vulnerability.
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ6JV5L-3KDZXH-1DS" -> "1RPZ6T1WK-18NT6LZ-2DJ" [constraint=true]
+	"1RPZ9SZL4-1Q0ZQ4N-65Q" [label="Four Courses 
+of Asction
+" fontsize=20 shape=none]
+	"1RPZ9SZL4-SLF04F-65M" [label=Prevention fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ9SZL4-1Q0ZQ4N-65Q" -> "1RPZ9SZL4-SLF04F-65M" [constraint=true]
+	"1RPZ77G9F-DNXGZN-3G8" [label=Usurpation fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ7ZVP5-249ZFRP-416" [label="Attack Types
+" fontsize=20 shape=none]
+	"1RPZ77G9F-DNXGZN-3G8" -> "1RPZ7ZVP5-249ZFRP-416" [constraint=true]
+	"1RPZ6JV5L-3KDZXH-1DS" [label=Terminology fontsize=20 shape=none]
+	"1RPZ6TS92-DB4W95-2M3" [label="Vulnerability: 
+A flaw or 
+weakness in 
+a system’s 
+design, implementation, 
+or operation 
+and management 
+that could 
+be exploited 
+to violate 
+the system’s 
+security policy.
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ6JV5L-3KDZXH-1DS" -> "1RPZ6TS92-DB4W95-2M3" [constraint=true]
+	"1RPZ5BMX1-1N57H28-8F" [label="Chapter 1: 
+Overview of 
+Computer Security
+" fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RPZ6CLKT-7VQCCQ-16P" [label="Topic 6" fontsize=20 shape=none]
+	"1RPZ5BMX1-1N57H28-8F" -> "1RPZ6CLKT-7VQCCQ-16P" [constraint=true]
+	"1RPZ72LFH-2WFXKS-358" [label="Threat Types
+" fontsize=20 shape=none]
+	"1RPZ76PBX-VMBLWS-3DK" [label=Deception fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ72LFH-2WFXKS-358" -> "1RPZ76PBX-VMBLWS-3DK" [constraint=true]
+	"1RPZ9L5SL-18YS5YS-5W0" [label="What is the 
+Scheme supposed 
+to do" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ9Q1QX-80NQCG-62N" [label="Needs to blance
+" fontsize=20 shape=none]
+	"1RPZ9L5SL-18YS5YS-5W0" -> "1RPZ9Q1QX-80NQCG-62N" [constraint=true]
+	"1RPZ72LFH-2WFXKS-358" [label="Threat Types
+" fontsize=20 shape=none]
+	"1RPZ72LFH-1QH5MLM-355" [label="Unauthorized 
+Disclosure" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ72LFH-2WFXKS-358" -> "1RPZ72LFH-1QH5MLM-355" [constraint=true]
+	"1RPZ6CLKT-7VQCCQ-16P" [label="Topic 6" fontsize=20 shape=none]
+	"1RPZ6CLKT-NGTCC6-16L" [label="Computer Security 
+Strategy" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ6CLKT-7VQCCQ-16P" -> "1RPZ6CLKT-NGTCC6-16L" [constraint=true]
+	"1RPZ7THFR-29WN38D-3X7" [label="Attack Types
+" fontsize=20 shape=none]
+	"1RPZ7THFR-TQFX89-3X4" [label="Incapacitation: 
+Prevents or 
+interrupts 
+system operation 
+by disablinga 
+system component.
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ7THFR-29WN38D-3X7" -> "1RPZ7THFR-TQFX89-3X4" [constraint=true]
+	"1RPZ7MSRJ-20L3VGJ-3PY" [label="Attack Types
+" fontsize=20 shape=none]
+	"1RPZ7MSRJ-17RKXC3-3PV" [label="Masquerade: 
+An unauthorized 
+entity gains 
+access to 
+a system or 
+performs a 
+malicious 
+act by posing 
+as an authorized 
+entity." fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ7MSRJ-20L3VGJ-3PY" -> "1RPZ7MSRJ-17RKXC3-3PV" [constraint=true]
+	"1RPZ9153S-QJ88GB-542" [label="List of principles
+" fontsize=20 shape=none]
+	"1RPZ98R1N-GQB1P-5BP" [label="Layering refers 
+to the use 
+of multiple, 
+overlapping 
+protection 
+approaches 
+addressing 
+the people, 
+technology, 
+and operational 
+aspects of 
+information 
+systems." fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ9153S-QJ88GB-542" -> "1RPZ98R1N-GQB1P-5BP" [constraint=true]
+	"1RPZ9153S-QJ88GB-542" [label="List of principles
+" fontsize=20 shape=none]
+	"1RPZ98CDG-1YZZB2T-5B5" [label="Modularity 
+in the context 
+of security 
+refers both 
+to the development 
+of security 
+functions 
+as separate, 
+protected 
+modules and 
+to the use 
+of a modular 
+architecture 
+for mechanism 
+design and 
+implementation." fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ9153S-QJ88GB-542" -> "1RPZ98CDG-1YZZB2T-5B5" [constraint=true]
+	"1RPZ84T3K-1992DC0-44J" [label=Terminology fontsize=20 shape=none]
+	"1RPZ8RRJ1-19G3MKW-4XF" [label="System and 
+Communications 
+Protection: 
+(i) Monitor, 
+control, and 
+protect organizational 
+communications 
+(i.e., information 
+transmitted 
+or received 
+by organizational 
+information 
+systems) at 
+the external 
+boundaries 
+and key internal 
+boundaries 
+of the information 
+systems; and 
+(ii) employ 
+architectural 
+designs, software 
+development 
+techniques, 
+and systems 
+engineering 
+principles 
+that promote 
+effective 
+information 
+security within 
+organizational 
+information 
+systems." fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ84T3K-1992DC0-44J" -> "1RPZ8RRJ1-19G3MKW-4XF" [constraint=true]
+	"1RPZ61KD0-12PFXHD-Q0" [label="Topic 1" fontsize=20 shape=none]
+	"1RPZ61KD0-27TVFJZ-PX" [label="Computer Secuirty 
+Concepts" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ61KD0-12PFXHD-Q0" -> "1RPZ61KD0-27TVFJZ-PX" [constraint=true]
+	"1RPZ61KD0-27TVFJZ-PX" [label="Computer Secuirty 
+Concepts" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ6JV5L-3KDZXH-1DS" [label=Terminology fontsize=20 shape=none]
+	"1RPZ61KD0-27TVFJZ-PX" -> "1RPZ6JV5L-3KDZXH-1DS" [constraint=true]
+	"1RPZ9SZL4-1Q0ZQ4N-65Q" [label="Four Courses 
+of Asction
+" fontsize=20 shape=none]
+	"1RPZ9TZ7P-16MHLND-68J" [label=Response fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ9SZL4-1Q0ZQ4N-65Q" -> "1RPZ9TZ7P-16MHLND-68J" [constraint=true]
+	"1RPZ84T3K-1992DC0-44J" [label=Terminology fontsize=20 shape=none]
+	"1RPZ8D1B3-26J4MCY-4FV" [label="Contingency 
+Planning: 
+Establish, 
+maintain, 
+and implement 
+plans for 
+emergency 
+response, 
+backup operations, 
+and postdisaster 
+recovery for 
+organizational 
+information 
+systems to 
+ensure the 
+availability 
+of critical 
+information 
+resources 
+and continuity 
+of operations 
+in emergency 
+situations." fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ84T3K-1992DC0-44J" -> "1RPZ8D1B3-26J4MCY-4FV" [constraint=true]
+	"1RPZ78Q0P-MNX2Y6-3HN" [label="Attack Types
+" fontsize=20 shape=none]
+	"1RPZ7J9QY-1B2LXW5-3LB" [label="Interception: 
+An unauthorized 
+entity directly 
+accesses sensitive 
+data traveling 
+between authorized 
+sources and 
+destinations." fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ78Q0P-MNX2Y6-3HN" -> "1RPZ7J9QY-1B2LXW5-3LB" [constraint=true]
+	"1RPZ9153S-QJ88GB-542" [label="List of principles
+" fontsize=20 shape=none]
+	"1RPZ95KBL-1M745B-581" [label="Least common 
+mechanism 
+means that 
+the design 
+should minimize 
+the functions 
+shared by 
+different 
+users, providing 
+mutual security.
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ9153S-QJ88GB-542" -> "1RPZ95KBL-1M745B-581" [constraint=true]
+	"1RPZ9153S-QJ88GB-542" [label="List of principles
+" fontsize=20 shape=none]
+	"1RPZ935ZN-10LYJ0P-55Z" [label="Complete mediation 
+means that 
+every access 
+must be checked 
+against the 
+access control 
+mechanism." fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ9153S-QJ88GB-542" -> "1RPZ935ZN-10LYJ0P-55Z" [constraint=true]
+	"1RPZ5BMX1-1N57H28-8F" [label="Chapter 1: 
+Overview of 
+Computer Security
+" fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RPZ62VQX-24Q846B-VS" [label="Topic 2" fontsize=20 shape=none]
+	"1RPZ5BMX1-1N57H28-8F" -> "1RPZ62VQX-24Q846B-VS" [constraint=true]
+	"1RPZ84T3K-1992DC0-44J" [label=Terminology fontsize=20 shape=none]
+	"1RPZ88R4J-24MLXQ2-49V" [label="Certification, 
+Accredation, 
+and Security 
+Assessments: 
+(i) Periodically 
+assess the 
+security controls 
+in organizational 
+information 
+systems to 
+determine 
+if the controls 
+are effective 
+in their application; 
+(ii) develop 
+and implement 
+plans of action 
+designed to 
+correct deficiencies 
+and reduce 
+or eliminate 
+vulnerabilities 
+in organizational 
+information 
+systems; (iii) 
+authorize 
+the operation 
+of organizational 
+information 
+systems and 
+any associated 
+information 
+system connections; 
+and (iv) monitor 
+information 
+system security 
+controls on 
+an ongoing 
+basis to ensure 
+the continued 
+effectiveness 
+of the controls.
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ84T3K-1992DC0-44J" -> "1RPZ88R4J-24MLXQ2-49V" [constraint=true]
+	"1RPZ9D9W1-1Q2FSH7-5CZ" [label="Attack Surfaces
+" fontsize=20 shape=none]
+	"1RPZ9F74P-CZLBFD-5F8" [label="Software attack 
+surface: This 
+refers to 
+vulnerabilities 
+in application, 
+utility, or 
+operating 
+system code. 
+A particular 
+focus in this 
+category is 
+Web server 
+software." fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ9D9W1-1Q2FSH7-5CZ" -> "1RPZ9F74P-CZLBFD-5F8" [constraint=true]
+	"1RPZ62VQX-24Q846B-VS" [label="Topic 2" fontsize=20 shape=none]
+	"1RPZ62VQX-11XWWN-VP" [label="Threats, Attacks, 
+and Assets
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ62VQX-24Q846B-VS" -> "1RPZ62VQX-11XWWN-VP" [constraint=true]
+	"1RPZ9153S-QJ88GB-542" [label="List of principles
+" fontsize=20 shape=none]
+	"1RPZ93QZB-1Q9YG2T-56H" [label="Open design 
+means that 
+the design 
+of a security 
+mechanism 
+should be 
+open rather 
+than secret.
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ9153S-QJ88GB-542" -> "1RPZ93QZB-1Q9YG2T-56H" [constraint=true]
+	"1RPZ84T3K-1992DC0-44J" [label=Terminology fontsize=20 shape=none]
+	"1RPZ8F644-23KHCHJ-4H6" [label="Identification 
+and Authentication: 
+Identify information 
+system users, 
+processes 
+acting on 
+behalf of 
+users, or 
+devices, and 
+authenticate 
+(or verify) 
+the identities 
+of those users, 
+processes, 
+or devices, 
+as a prerequisite 
+to allowing 
+access to 
+organizational 
+information 
+systems." fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ84T3K-1992DC0-44J" -> "1RPZ8F644-23KHCHJ-4H6" [constraint=true]
+	"1RPZ72LFH-2WFXKS-358" [label="Threat Types
+" fontsize=20 shape=none]
+	"1RPZ77G9F-DNXGZN-3G8" [label=Usurpation fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ72LFH-2WFXKS-358" -> "1RPZ77G9F-DNXGZN-3G8" [constraint=true]
+	"1RPZ9MKQH-BQ2NP3-60L" [label=Correctness fontsize=20 shape=none]
+	"1RPZ9MKQH-2D9R6DH-60H" [label="Does it really 
+work" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ9MKQH-BQ2NP3-60L" -> "1RPZ9MKQH-2D9R6DH-60H" [constraint=true]
+	"1RPZ84T3K-1992DC0-44J" [label=Terminology fontsize=20 shape=none]
+	"1RPZ8QHKQ-L4832M-4VM" [label="Systems and 
+Services Acquisition: 
+(i) Allocate 
+sufficient 
+resources 
+to adequately 
+protect organizational 
+information 
+systems; (ii) 
+employ system 
+development 
+life cycle 
+processes 
+that incorporate 
+information 
+security considerations; 
+(iii) employ 
+software usage 
+and installation 
+restrictions; 
+and (iv) ensure 
+that thirdparty 
+providers 
+employ adequate 
+security measures 
+to protect 
+information, 
+applications, 
+and/or services 
+outsourced 
+from the organization.
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ84T3K-1992DC0-44J" -> "1RPZ8QHKQ-L4832M-4VM" [constraint=true]
+	"1RPZ9Q1QX-80NQCG-62N" [label="Needs to blance
+" fontsize=20 shape=none]
+	"1RPZ9Q1QX-9Y2Z8D-62K" [label="Ease of use 
+versus security
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ9Q1QX-80NQCG-62N" -> "1RPZ9Q1QX-9Y2Z8D-62K" [constraint=true]
+	"1RPZ694FT-1F8MJL7-12G" [label="Attack Surfaces 
+and Attack 
+Trees" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ9D9W1-1Q2FSH7-5CZ" [label="Attack Surfaces
+" fontsize=20 shape=none]
+	"1RPZ694FT-1F8MJL7-12G" -> "1RPZ9D9W1-1Q2FSH7-5CZ" [constraint=true]
+	"1RPZ6JV5L-3KDZXH-1DS" [label=Terminology fontsize=20 shape=none]
+	"1RPZ6N5ND-7VGPQ6-1QZ" [label="Countermeasure: 
+An action, 
+device, procedure, 
+or technique 
+that reduces 
+a threat, 
+a vulnerability, 
+or an attack 
+by eliminating 
+or preventing 
+it, by minimizing 
+the harm it 
+can cause, 
+or by discovering 
+and reporting 
+it so that 
+corrective 
+action can 
+be taken. 
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ6JV5L-3KDZXH-1DS" -> "1RPZ6N5ND-7VGPQ6-1QZ" [constraint=true]
+	"1RPZ64LDZ-JF3DSJ-Y3" [label="Topic 3" fontsize=20 shape=none]
+	"1RPZ64LDZ-2D8KL5M-Y0" [label="Security Functional 
+Requirements" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ64LDZ-JF3DSJ-Y3" -> "1RPZ64LDZ-2D8KL5M-Y0" [constraint=true]
+	"1RPZ84T3K-1992DC0-44J" [label=Terminology fontsize=20 shape=none]
+	"1RPZ8PM73-QPRL9C-4TH" [label="Risk Assessment: 
+Periodically 
+assess the 
+risk to organizational 
+operations 
+(including 
+mission, functions, 
+image, or 
+reputation), 
+organizational 
+assets, and 
+individuals, 
+resulting 
+from the operation 
+of organizational 
+information 
+systems and 
+the associated 
+processing, 
+storage, or 
+transmission 
+of organizational 
+information." fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ84T3K-1992DC0-44J" -> "1RPZ8PM73-QPRL9C-4TH" [constraint=true]
+	"1RPZ9153S-QJ88GB-542" [label="List of principles
+" fontsize=20 shape=none]
+	"1RPZ997T9-1QDJQG4-5C6" [label="Least astonishment 
+means that 
+a program 
+or user interface 
+should always 
+respond in 
+the way that 
+is least likely 
+to astonish 
+the user." fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ9153S-QJ88GB-542" -> "1RPZ997T9-1QDJQG4-5C6" [constraint=true]
+	"1RPZ7705F-PPPLM8-3FC" [label=Disruption fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ7THFR-29WN38D-3X7" [label="Attack Types
+" fontsize=20 shape=none]
+	"1RPZ7705F-PPPLM8-3FC" -> "1RPZ7THFR-29WN38D-3X7" [constraint=true]
+	"1RPZ7THFR-29WN38D-3X7" [label="Attack Types
+" fontsize=20 shape=none]
+	"1RPZ7VZJ5-N0KFZZ-3Z1" [label="Corruption: 
+Undesirably 
+alters system 
+operation 
+by adversely 
+modifying 
+system functions 
+or data." fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ7THFR-29WN38D-3X7" -> "1RPZ7VZJ5-N0KFZZ-3Z1" [constraint=true]
+	"1RPZ9Q1QX-80NQCG-62N" [label="Needs to blance
+" fontsize=20 shape=none]
+	"1RPZ9R7VC-CJ94Z1-64V" [label="Cost of security 
+versus cost 
+of failure 
+and recovery
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ9Q1QX-80NQCG-62N" -> "1RPZ9R7VC-CJ94Z1-64V" [constraint=true]
+	"1RPZ78Q0P-MNX2Y6-3HN" [label="Attack Types
+" fontsize=20 shape=none]
+	"1RPZ7LDGN-1BZT03D-3NP" [label="Intrusion: 
+An unauthorized 
+entity gains 
+access to 
+sensitive 
+data by circumventing 
+a system’s 
+security protections. 
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ78Q0P-MNX2Y6-3HN" -> "1RPZ7LDGN-1BZT03D-3NP" [constraint=true]
+	"1RPZ84T3K-1992DC0-44J" [label=Terminology fontsize=20 shape=none]
+	"1RPZ8T3LW-99FWGT-4ZM" [label="System and 
+Information 
+Integrity: 
+(i) Identify, 
+report, and 
+correct information 
+and information 
+system flaws 
+in a timely 
+manner; (ii) 
+provide protection 
+from malicious 
+code at appropriate 
+locations 
+within organizational 
+information 
+systems; and 
+(iii) monitor 
+information 
+system security 
+alerts and 
+advisories 
+and take appropriate 
+actions in 
+response." fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ84T3K-1992DC0-44J" -> "1RPZ8T3LW-99FWGT-4ZM" [constraint=true]
+	"1RPZ6JV5L-3KDZXH-1DS" [label=Terminology fontsize=20 shape=none]
+	"1RPZ6RZVS-WFC3K1-27Z" [label="System Resource 
+(Asset): Data 
+contained 
+in an information 
+system; or 
+a service 
+provided by 
+a system; 
+or a system 
+capability, 
+such as processing 
+power or communication 
+bandwidth; 
+or an item 
+of system 
+equipment 
+(i.e., a system 
+component— 
+hardware, 
+firmware, 
+software, 
+or documentation); 
+or a facility 
+that houses 
+system operations 
+and equipment. 
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ6JV5L-3KDZXH-1DS" -> "1RPZ6RZVS-WFC3K1-27Z" [constraint=true]
+	"1RPZ9M04B-1735FXF-5YL" [label="How does it 
+do it" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ9SZL4-1Q0ZQ4N-65Q" [label="Four Courses 
+of Asction
+" fontsize=20 shape=none]
+	"1RPZ9M04B-1735FXF-5YL" -> "1RPZ9SZL4-1Q0ZQ4N-65Q" [constraint=true]
+	"1RPZ9D9W1-1Q2FSH7-5CZ" [label="Attack Surfaces
+" fontsize=20 shape=none]
+	"1RPZ9D9W1-1NYM338-5CW" [label="Network attack 
+surface: This 
+category refers 
+to vulnerabilities 
+over an enterprise 
+network, wide-area 
+network, or 
+the Internet. 
+Included in 
+this category 
+are network 
+protocol vulnerabilities, 
+such as those 
+used for a 
+denial-of-service 
+attack, disruption 
+of communications 
+links, and 
+various forms 
+of intruder 
+attacks." fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ9D9W1-1Q2FSH7-5CZ" -> "1RPZ9D9W1-1NYM338-5CW" [constraint=true]
+	"1RPZ5BMX1-1N57H28-8F" [label="Chapter 1: 
+Overview of 
+Computer Security
+" fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RPZ61KD0-12PFXHD-Q0" [label="Topic 1" fontsize=20 shape=none]
+	"1RPZ5BMX1-1N57H28-8F" -> "1RPZ61KD0-12PFXHD-Q0" [constraint=true]
+	"1RPZ6JV5L-3KDZXH-1DS" [label=Terminology fontsize=20 shape=none]
+	"1RPZ6LZ18-6VJY92-1M9" [label="Attack: An 
+assault on 
+system security 
+that derives 
+from an intelligent 
+threat; that 
+is, an intelligent 
+act that is 
+a deliberate 
+attempt (especially 
+in the sense 
+of a method 
+or technique) 
+to evade security 
+services and 
+violatethe 
+security policy 
+of a system.
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ6JV5L-3KDZXH-1DS" -> "1RPZ6LZ18-6VJY92-1M9" [constraint=true]
+	"1RPZ66N9S-DN8QCZ-103" [label="Fundamental 
+Security Design 
+Principles" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ9153S-QJ88GB-542" [label="List of principles
+" fontsize=20 shape=none]
+	"1RPZ66N9S-DN8QCZ-103" -> "1RPZ9153S-QJ88GB-542" [constraint=true]
+	"1RPZ84T3K-1992DC0-44J" [label=Terminology fontsize=20 shape=none]
+	"1RPZ8NL4S-2BJDXX-4S7" [label="Personal Security: 
+(i) Ensure 
+that individuals 
+occupying 
+positions 
+of responsibility 
+within organizations 
+(including 
+third-party 
+service providers) 
+are trustworthy 
+and meet established 
+security criteria 
+for those 
+positions; 
+(ii) ensure 
+that organizational 
+information 
+and information 
+systems are 
+protected 
+during and 
+after personnel 
+actions such 
+as terminations 
+and transfers; 
+and (iii) 
+employ formal 
+sanctions 
+for personnel 
+failing to 
+comply with 
+organizational 
+security policies 
+and procedures.
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ84T3K-1992DC0-44J" -> "1RPZ8NL4S-2BJDXX-4S7" [constraint=true]
+	"1RPZ5BMX1-1N57H28-8F" [label="Chapter 1: 
+Overview of 
+Computer Security
+" fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RPZ694FT-14VML35-12K" [label="Topic 5" fontsize=20 shape=none]
+	"1RPZ5BMX1-1N57H28-8F" -> "1RPZ694FT-14VML35-12K" [constraint=true]
+	"1RPZ9WB2D-6SJ45D-6B9" [label=Evaluation fontsize=20 shape=none]
+	"1RPZ9WB2D-1CPH3L6-6B6" [label="New Actions
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ9WB2D-6SJ45D-6B9" -> "1RPZ9WB2D-1CPH3L6-6B6" [constraint=true]
+	"1RPZ9153S-QJ88GB-542" [label="List of principles
+" fontsize=20 shape=none]
+	"1RPZ96HD8-ZD0YHQ-592" [label="Isolation 
+is a principle 
+that applies 
+in three contexts. 
+First, public 
+access systems 
+should be 
+isolated from 
+critical resources 
+(data, processes, 
+etc.) to prevent 
+disclosure 
+or tampering.
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ9153S-QJ88GB-542" -> "1RPZ96HD8-ZD0YHQ-592" [constraint=true]
+	"1RPZ84T3K-1992DC0-44J" [label=Terminology fontsize=20 shape=none]
+	"1RPZ8LQW7-1H46JZ8-4PF" [label="Physical and 
+Environmental 
+Protection: 
+(i) Limit 
+physical access 
+to information 
+systems, equipment, 
+and the respective 
+operating 
+environments 
+to authorized 
+individuals; 
+(ii) protect 
+the physical 
+plant and 
+support infrastructure 
+for information 
+systems; (iii) 
+provide supporting 
+utilities 
+for information 
+systems; (iv) 
+protect information 
+systems against 
+environmental 
+hazards; and 
+(v) provide 
+appropriate 
+environmental 
+controls in 
+facilities 
+containing 
+information 
+systems." fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ84T3K-1992DC0-44J" -> "1RPZ8LQW7-1H46JZ8-4PF" [constraint=true]
+	"1RPZ6JV5L-3KDZXH-1DS" [label=Terminology fontsize=20 shape=none]
+	"1RPZ6PQX3-21XV7G3-1W0" [label="Risk: An expectation 
+of loss expressed 
+as the probability 
+that a particular 
+threat will 
+exploit a 
+particular 
+vulnerability 
+with a particular 
+harmful result. 
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ6JV5L-3KDZXH-1DS" -> "1RPZ6PQX3-21XV7G3-1W0" [constraint=true]
+	"1RPZ9153S-QJ88GB-542" [label="List of principles
+" fontsize=20 shape=none]
+	"1RPZ94T94-16P057V-570" [label="Separation 
+of privilege 
+is defined 
+in [SALT75] 
+as a practice 
+in which multiple 
+privilege 
+attributes 
+are required 
+to achieve 
+access to 
+a restricted 
+resource." fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ9153S-QJ88GB-542" -> "1RPZ94T94-16P057V-570" [constraint=true]
+	"1RPZ84T3K-1992DC0-44J" [label=Terminology fontsize=20 shape=none]
+	"1RPZ8GJRH-VXFFJK-4KF" [label="Incident Response: 
+(i) Establish 
+an operational 
+incident-handling 
+capability 
+for organizational 
+information 
+systems that 
+includes adequate 
+preparation, 
+detection, 
+analysis, 
+containment, 
+recovery, 
+and user-response 
+activities; 
+and (ii) track, 
+document, 
+and report 
+incidents 
+to appropriate 
+organizational 
+officials 
+and/or authorities.
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ84T3K-1992DC0-44J" -> "1RPZ8GJRH-VXFFJK-4KF" [constraint=true]
+	"1RPZ9G6VT-H79QC8-5GF" [label="Attack Trees
+" fontsize=20 shape=none]
+	"1RPZ9G6VT-1623M9H-5GB" [label="An attack 
+tree is a 
+branching, 
+hierarchical 
+data structure 
+that represents 
+a set of potential 
+techniques 
+for exploiting 
+security vulnerabilities 
+[MAUW05, MOOR01, 
+SCHN99]. The 
+security incident 
+that is the 
+goal of the 
+attack is 
+represented 
+as the root 
+node of the 
+tree, and 
+the ways that 
+an attacker 
+could reach 
+that goal 
+are iteratively 
+and incrementally 
+represented 
+as branches 
+and subnodes 
+of the tree. 
+Each subnode 
+defines a 
+subgoal, and 
+each subgoal 
+may have its 
+own set of 
+further subgoals, 
+etc. The final 
+nodes on the 
+paths outward 
+from the root, 
+i.e., the 
+leaf nodes, 
+represent 
+different 
+ways to initiate 
+an attack.
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ9G6VT-H79QC8-5GF" -> "1RPZ9G6VT-1623M9H-5GB" [constraint=true]
+	"1RPZ7MSRJ-20L3VGJ-3PY" [label="Attack Types
+" fontsize=20 shape=none]
+	"1RPZ7PVXF-2039771-3RR" [label="Falsification: 
+False data 
+decieve an 
+authorized 
+entity" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ7MSRJ-20L3VGJ-3PY" -> "1RPZ7PVXF-2039771-3RR" [constraint=true]
+	"1RPZ76PBX-VMBLWS-3DK" [label=Deception fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPZ7MSRJ-20L3VGJ-3PY" [label="Attack Types
+" fontsize=20 shape=none]
+	"1RPZ76PBX-VMBLWS-3DK" -> "1RPZ7MSRJ-20L3VGJ-3PY" [constraint=true]
+	statictics [label="STATISTICS
+\lBranch:		61\lNode:		75\lLinking Phrase:	22\lOrphan:		0\lLeaf Node:	61\lPreposition:	74\lSub Map:		1\lAvg Word Per Concept:	24.69\l" Gsplines=true fillcolor="#F5FFFA" fontsize=20 shape=component style=filled]
+	file_info [label="CMAP Information
+
+\lTitle:	ICSAnonymous17.cmap\lCreated:	2020-12-07T07:40:03-05:00\lModified:	2020-12-07T07:40:03-05:00\lLanguage:	en\lFormat:	x-cmap/x-storable\lPublisher:	FIHMC CmapTools 6.04\lWidth:	5291\lHeight:	2336\l" Gsplines=true fillcolor="#E6E6FA" fontsize=20 shape=tab style=filled]
+}

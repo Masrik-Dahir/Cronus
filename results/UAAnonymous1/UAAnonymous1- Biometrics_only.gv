@@ -1,0 +1,678 @@
+// The Round Table
+digraph {
+	Student [label="Student: UAAnonymous1" fillcolor=gold shape=component style=filled]
+	"1RR48YM67-PY4Z5W-5FB" [label=Countermeasures fillcolor=white shape=doubleoctagon style=filled]
+	"1RR468B1Y-1L6FJWH-2CW" [label=characteristic shape=none]
+	"1RR48YM67-PY4Z5W-5FB" -> "1RR468B1Y-1L6FJWH-2CW" [constraint=true]
+	"1RR45GM55-11SL2V4-1DD" [label=Defined shape=none]
+	"1RR45GM55-14HX90K-1D9" [label="Presenting 
+an identifier 
+to the security 
+system" fillcolor=white shape=rect style=filled]
+	"1RR45GM55-11SL2V4-1DD" -> "1RR45GM55-14HX90K-1D9" [constraint=true]
+	"1RR45DVMJ-17RQGYQ-1B5" [label=Verification fillcolor=white shape=rect style=filled]
+	"1RR45GVP3-D8YJXY-1FG" [label=Defined shape=none]
+	"1RR45DVMJ-17RQGYQ-1B5" -> "1RR45GVP3-D8YJXY-1FG" [constraint=true]
+	"1RR4922JF-17GR7X6-5H1" [label="ways to provide 
+confidentiality 
+to user id/password
+" shape=none]
+	"1RR49PPVD-26NVHBM-6QP" [label=Hashing fillcolor=white shape=rect style=filled]
+	"1RR4922JF-17GR7X6-5H1" -> "1RR49PPVD-26NVHBM-6QP" [constraint=true]
+	"1RR45DJ8M-TN5BV4-19D" [label=Steps shape=none]
+	"1RR45DVMJ-17RQGYQ-1B5" [label=Verification fillcolor=white shape=rect style=filled]
+	"1RR45DJ8M-TN5BV4-19D" -> "1RR45DVMJ-17RQGYQ-1B5" [constraint=true]
+	"1RR4CL3XN-21HJWV2-9YX" [label="Password cracker
+" fillcolor=white shape=rect style=filled]
+	"1RR4CPY93-107GLL6-B7N" [label=defined shape=none]
+	"1RR4CL3XN-21HJWV2-9YX" -> "1RR4CPY93-107GLL6-B7N" [constraint=true]
+	"1RR47TR18-7P37G2-3CD" [label="Offline dictionary 
+attack" fillcolor=white shape=doubleoctagon style=filled]
+	"1RR47SQF2-WK60QW-39M" [label=examples shape=none]
+	"1RR47TR18-7P37G2-3CD" -> "1RR47SQF2-WK60QW-39M" [constraint=true]
+	"1RR46Q3JP-1W45285-2GD" [label="validation 
+for user" shape=none]
+	"1RR46Q3JP-N3S87G-2G9" [label="widely used 
+line of defense 
+agaisnt intruders
+" fillcolor=white shape=rect style=filled]
+	"1RR46Q3JP-1W45285-2GD" -> "1RR46Q3JP-N3S87G-2G9" [constraint=true]
+	"1RR4BGSSV-1GGG3NV-7F8" [label="Rainbow table
+" fillcolor=white shape=rect style=filled]
+	"1RR4BNFP1-2CZJ36Q-7SM" [label=traits shape=none]
+	"1RR4BGSSV-1GGG3NV-7F8" -> "1RR4BNFP1-2CZJ36Q-7SM" [constraint=true]
+	"1RR4922JF-17GR7X6-5H1" [label="ways to provide 
+confidentiality 
+to user id/password
+" shape=none]
+	"1RR496GW9-1V3VT62-5PN" [label="Controls to 
+prevent unauthorized 
+to password 
+file" fillcolor=white shape=rect style=filled]
+	"1RR4922JF-17GR7X6-5H1" -> "1RR496GW9-1V3VT62-5PN" [constraint=true]
+	"1RR47SQF2-1MZMFLB-39J" [label="Workstation 
+hijacking" fillcolor=white shape=rect style=filled]
+	"1RR47WKNX-2180YZT-3JL" [label=defined shape=none]
+	"1RR47SQF2-1MZMFLB-39J" -> "1RR47WKNX-2180YZT-3JL" [constraint=true]
+	"1RR4C589K-1ZNNPT4-8ZV" [label="Proactive 
+Checking" fillcolor=white shape=doubleoctagon style=filled]
+	"1RR4CDLHR-20NXZRB-9L3" [label=traits shape=none]
+	"1RR4C589K-1ZNNPT4-8ZV" -> "1RR4CDLHR-20NXZRB-9L3" [constraint=true]
+	"1RR4922JF-17GR7X6-5H1" [label="ways to provide 
+confidentiality 
+to user id/password
+" shape=none]
+	"1RR4922JF-GQLS0X-5GY" [label="Rapid reissuance 
+of compromised 
+passwords" fillcolor=white shape=rect style=filled]
+	"1RR4922JF-17GR7X6-5H1" -> "1RR4922JF-GQLS0X-5GY" [constraint=true]
+	"1RR47SQF2-WK60QW-39M" [label=examples shape=none]
+	"1RR47T70G-20T3VX-3BD" [label="Password guessing 
+against single 
+user" fillcolor=white shape=rect style=filled]
+	"1RR47SQF2-WK60QW-39M" -> "1RR47T70G-20T3VX-3BD" [constraint=true]
+	"1RR4C87N6-22C4ZW4-960" [label=defined shape=none]
+	"1RR4C87MP-VWKZMN-95X" [label="users have 
+trouble remembering 
+them" fillcolor=white shape=rect style=filled]
+	"1RR4C87N6-22C4ZW4-960" -> "1RR4C87MP-VWKZMN-95X" [constraint=true]
+	"1RR45XSRT-V30WM1-22P" [label=example shape=none]
+	"1RR45XSRB-1D352GZ-22L" [label="voice pattern, 
+handwriting, 
+typing rhythm
+" fillcolor=white shape=rect style=filled]
+	"1RR45XSRT-V30WM1-22P" -> "1RR45XSRB-1D352GZ-22L" [constraint=true]
+	"1RR45N7X8-25MN2NG-1PN" [label="something 
+the individual 
+knows" fillcolor=white shape=rect style=filled]
+	"1RR45X56S-ZH2GM4-1ZF" [label=example shape=none]
+	"1RR45N7X8-25MN2NG-1PN" -> "1RR45X56S-ZH2GM4-1ZF" [constraint=true]
+	"1RR4CQWCZ-SJGHG8-BBJ" [label=defined shape=none]
+	"1RR4CQWCZ-Z1ND0W-BBF" [label="efficient 
+way to find 
+a user password 
+in a rejecting 
+words lists
+" fillcolor=white shape=rect style=filled]
+	"1RR4CQWCZ-SJGHG8-BBJ" -> "1RR4CQWCZ-Z1ND0W-BBF" [constraint=true]
+	"1RR4C68DC-1D9R4NN-92D" [label="Computer generated 
+passwords" fillcolor=white shape=rect style=filled]
+	"1RR4C87N6-22C4ZW4-960" [label=defined shape=none]
+	"1RR4C68DC-1D9R4NN-92D" -> "1RR4C87N6-22C4ZW4-960" [constraint=true]
+	"1RR4C466J-1TRNXWM-8YD" [label="Selection 
+Technique" fillcolor=white shape=rect style=filled]
+	"1RR4C5TKT-CY22FB-916" [label="????" shape=none]
+	"1RR4C466J-1TRNXWM-8YD" -> "1RR4C5TKT-CY22FB-916" [constraint=true]
+	"1RR47W4P5-29GKBBD-3GZ" [label=defined shape=none]
+	"1RR47W4P5-117ZJ1R-3GW" [label="Attacker obtains 
+the system 
+password file 
+and compares 
+the password 
+hases against 
+hashes commonly 
+of used passwords
+" fillcolor=white shape=rect style=filled]
+	"1RR47W4P5-29GKBBD-3GZ" -> "1RR47W4P5-117ZJ1R-3GW" [constraint=true]
+	"1RR48FBSH-K2VTLQ-4BV" [label="Exploiting 
+multiple password 
+use" fillcolor=white shape=rect style=filled]
+	"1RR48JXPN-22S8X2R-4L4" [label=defined shape=none]
+	"1RR48FBSH-K2VTLQ-4BV" -> "1RR48JXPN-22S8X2R-4L4" [constraint=true]
+	"1RR45N7X8-170Q4YS-1PR" [label="means of authenticating
+" shape=none]
+	"1RR45PQSN-1ZTRF59-1SN" [label="something 
+the individual 
+does" fillcolor=white shape=rect style=filled]
+	"1RR45N7X8-170Q4YS-1PR" -> "1RR45PQSN-1ZTRF59-1SN" [constraint=true]
+	"1RR4597X4-151CCJT-17T" [label="User Authentication
+" fillcolor=white shape=doubleoctagon style=filled]
+	"1RR457439-2482377-169" [label=Topics shape=none]
+	"1RR4597X4-151CCJT-17T" -> "1RR457439-2482377-169" [constraint=true]
+	"1RR45N7X8-170Q4YS-1PR" [label="means of authenticating
+" shape=none]
+	"1RR45NNGJ-QTS88J-1R7" [label="something 
+the individual 
+possess" fillcolor=white shape=rect style=filled]
+	"1RR45N7X8-170Q4YS-1PR" -> "1RR45NNGJ-QTS88J-1R7" [constraint=true]
+	"1RR47SQF2-WK60QW-39M" [label=examples shape=none]
+	"1RR48F7F4-C65KKH-4B9" [label="Exploiting 
+user mistakes
+" fillcolor=white shape=rect style=filled]
+	"1RR47SQF2-WK60QW-39M" -> "1RR48F7F4-C65KKH-4B9" [constraint=true]
+	"1RR468B1Y-1L6FJWH-2CW" [label=characteristic shape=none]
+	"1RR4BFGKW-1DTVGN2-7BP" [label="Password Cracking
+" fillcolor=white shape=rect style=filled]
+	"1RR468B1Y-1L6FJWH-2CW" -> "1RR4BFGKW-1DTVGN2-7BP" [constraint=true]
+	"1RR49Q467-1FPDHLK-6RW" [label="Purpose of 
+Salt" shape=none]
+	"1RR49Q467-6TQNJF-6RS" [label="Prevent duplicate 
+passwords 
+from being 
+visibile in 
+the password 
+file" fillcolor=white shape=rect style=filled]
+	"1RR49Q467-1FPDHLK-6RW" -> "1RR49Q467-6TQNJF-6RS" [constraint=true]
+	"1RR468B1Y-BXFFHR-2CS" [label=Authentication fillcolor=white shape=doubleoctagon style=filled]
+	"1RR46Q3JP-1W45285-2GD" [label="validation 
+for user" shape=none]
+	"1RR468B1Y-BXFFHR-2CS" -> "1RR46Q3JP-1W45285-2GD" [constraint=true]
+	"1RR47VXVG-LDFBG5-3G4" [label=defined shape=none]
+	"1RR47VXVG-BTGH73-3G1" [label="Attacker guesses 
+password until 
+the correct 
+password is 
+discovered" fillcolor=white shape=rect style=filled]
+	"1RR47VXVG-LDFBG5-3G4" -> "1RR47VXVG-BTGH73-3G1" [constraint=true]
+	"1RR466Z50-RLVYPY-2BD" [label=Password fillcolor=white shape=rect style=filled]
+	"1RR468B1Y-1L6FJWH-2CW" [label=characteristic shape=none]
+	"1RR466Z50-RLVYPY-2BD" -> "1RR468B1Y-1L6FJWH-2CW" [constraint=true]
+	"1RR4BNFP1-2CZJ36Q-7SM" [label=traits shape=none]
+	"1RR4BPVS0-123VDC5-7W1" [label="can be countered 
+by using a 
+sufficiently 
+large saltt 
+value and 
+a sufficiently 
+large hash 
+length" fillcolor=white shape=rect style=filled]
+	"1RR4BNFP1-2CZJ36Q-7SM" -> "1RR4BPVS0-123VDC5-7W1" [constraint=true]
+	"1RR473ZSM-14BG6RH-2PJ" [label=attributes shape=none]
+	"1RR474CBW-22XK86N-2QT" [label="used in discretionary 
+access control
+" fillcolor=white shape=rect style=filled]
+	"1RR473ZSM-14BG6RH-2PJ" -> "1RR474CBW-22XK86N-2QT" [constraint=true]
+	"1RR4C6XRF-7W4Z0Y-93X" [label="Reactive password 
+checking" fillcolor=white shape=rect style=filled]
+	"1RR4CCGHS-1XP2Y6H-9G1" [label=defined shape=none]
+	"1RR4C6XRF-7W4Z0Y-93X" -> "1RR4CCGHS-1XP2Y6H-9G1" [constraint=true]
+	"1RR473ZSM-14BG6RH-2PJ" [label=attributes shape=none]
+	"1RR473ZSM-1DK789T-2PF" [label="determines 
+the user's 
+privileges 
+such as root 
+or guest" fillcolor=white shape=rect style=filled]
+	"1RR473ZSM-14BG6RH-2PJ" -> "1RR473ZSM-1DK789T-2PF" [constraint=true]
+	"1RR4BHFC0-29PD59Q-7GX" [label=traits shape=none]
+	"1RR4BHFC0-1NHN198-7GT" [label="Develop a 
+large dictionary 
+of possible 
+passwords 
+and try each 
+against the 
+password file
+" fillcolor=white shape=rect style=filled]
+	"1RR4BHFC0-29PD59Q-7GX" -> "1RR4BHFC0-1NHN198-7GT" [constraint=true]
+	"1RR4C589K-1ZNNPT4-8ZV" [label="Proactive 
+Checking" fillcolor=white shape=doubleoctagon style=filled]
+	"1RR4C5TKT-CY22FB-916" [label="????" shape=none]
+	"1RR4C589K-1ZNNPT4-8ZV" -> "1RR4C5TKT-CY22FB-916" [constraint=true]
+	"1RR47952V-2D48QM9-30Z" [label="user provides 
+name/login 
+and password
+" fillcolor=white shape=rect style=filled]
+	"1RR47900Z-143WMH8-306" [label=attributes shape=none]
+	"1RR47952V-2D48QM9-30Z" -> "1RR47900Z-143WMH8-306" [constraint=true]
+	"1RR468B1Y-1L6FJWH-2CW" [label=characteristic shape=none]
+	"1RR4696K4-1XKZVT0-2F3" [label=Vulnerabilities fillcolor=white shape=rect style=filled]
+	"1RR468B1Y-1L6FJWH-2CW" -> "1RR4696K4-1XKZVT0-2F3" [constraint=true]
+	"1RR47WKNX-2180YZT-3JL" [label=defined shape=none]
+	"1RR47WKNX-11PLGST-3JH" [label="The attacker 
+waits until 
+a logged-in 
+workstation 
+is unattended
+" fillcolor=white shape=rect style=filled]
+	"1RR47WKNX-2180YZT-3JL" -> "1RR47WKNX-11PLGST-3JH" [constraint=true]
+	"1RR4BG1ZW-1D2C6H9-7D6" [label=attacks shape=none]
+	"1RR4BG1ZW-1C3FFQ0-7D3" [label=Dictionary fillcolor=white shape=rect style=filled]
+	"1RR4BG1ZW-1D2C6H9-7D6" -> "1RR4BG1ZW-1C3FFQ0-7D3" [constraint=true]
+	"1RR47WCT1-8RVDCP-3HS" [label=defined shape=none]
+	"1RR47WCT1-VPFNSG-3HP" [label="The attacker 
+attempts to 
+gain knowledge 
+about the 
+account holder 
+and system 
+password policies 
+and uses that 
+knowledge 
+to guess the 
+password" fillcolor=white shape=rect style=filled]
+	"1RR47WCT1-8RVDCP-3HS" -> "1RR47WCT1-VPFNSG-3HP" [constraint=true]
+	"1RR4518G5-1SJ7VBZ-12C" [label="User Authentication
+" fillcolor=white shape=doubleoctagon style=filled]
+	"1RR457439-2482377-169" [label=Topics shape=none]
+	"1RR4518G5-1SJ7VBZ-12C" -> "1RR457439-2482377-169" [constraint=true]
+	"1RR45XK8W-10GKFYF-21L" [label=example shape=none]
+	"1RR45XK8C-232BJ85-21H" [label="fingerprint, 
+retina, face
+" fillcolor=white shape=rect style=filled]
+	"1RR45XK8W-10GKFYF-21L" -> "1RR45XK8C-232BJ85-21H" [constraint=true]
+	"1RR47TBYK-10VQV7M-3BW" [label="Specific account 
+attack" fillcolor=white shape=rect style=filled]
+	"1RR47VXVG-LDFBG5-3G4" [label=defined shape=none]
+	"1RR47TBYK-10VQV7M-3BW" -> "1RR47VXVG-LDFBG5-3G4" [constraint=true]
+	"1RR49KHZ5-1PLWJV0-66W" [label="Policies against 
+similaar passwords 
+on network 
+devices " fillcolor=white shape=rect style=filled]
+	"1RR4922JF-17GR7X6-5H1" [label="ways to provide 
+confidentiality 
+to user id/password
+" shape=none]
+	"1RR49KHZ5-1PLWJV0-66W" -> "1RR4922JF-17GR7X6-5H1" [constraint=true]
+	"1RR48JSB5-K8Z8GG-4KB" [label=defined shape=none]
+	"1RR48JSB5-6DCGJR-4K7" [label="If the system 
+assigns a 
+password, 
+then the user 
+is more likely 
+to write it 
+down becausre 
+it is difficult 
+to remember
+" fillcolor=white shape=rect style=filled]
+	"1RR48JSB5-K8Z8GG-4KB" -> "1RR48JSB5-6DCGJR-4K7" [constraint=true]
+	"1RR49FJJ0-18PFFY4-5Y2" [label="Policies to 
+inhibit users 
+from selecting 
+common passwrods
+" fillcolor=white shape=rect style=filled]
+	"1RR4922JF-17GR7X6-5H1" [label="ways to provide 
+confidentiality 
+to user id/password
+" shape=none]
+	"1RR49FJJ0-18PFFY4-5Y2" -> "1RR4922JF-17GR7X6-5H1" [constraint=true]
+	"1RR47SQF2-WK60QW-39M" [label=examples shape=none]
+	"1RR47SQF2-1MZMFLB-39J" [label="Workstation 
+hijacking" fillcolor=white shape=rect style=filled]
+	"1RR47SQF2-WK60QW-39M" -> "1RR47SQF2-1MZMFLB-39J" [constraint=true]
+	"1RR4CCGHS-1XP2Y6H-9G1" [label=defined shape=none]
+	"1RR4CCGHS-19691HY-9FY" [label="system periodically 
+runs its own 
+password cracker 
+to find guessable 
+passwords" fillcolor=white shape=rect style=filled]
+	"1RR4CCGHS-1XP2Y6H-9G1" -> "1RR4CCGHS-19691HY-9FY" [constraint=true]
+	"1RR49W1QN-95S2BT-70C" [label=traits shape=none]
+	"1RR49W1QN-VPXJHN-708" [label="Salt changes 
+the hash values 
+of same password
+" fillcolor=white shape=rect style=filled]
+	"1RR49W1QN-95S2BT-70C" -> "1RR49W1QN-VPXJHN-708" [constraint=true]
+	"1RR48K05R-RMZ4FH-4LY" [label=defined shape=none]
+	"1RR48K05R-19W35FC-4LV" [label="If a password 
+is communicated 
+across a network 
+to log on 
+to a remote 
+system, it 
+is vulnerable 
+to eavesdropping
+" fillcolor=white shape=rect style=filled]
+	"1RR48K05R-RMZ4FH-4LY" -> "1RR48K05R-19W35FC-4LV" [constraint=true]
+	"1RR45DJ8M-28Q5TQD-199" [label=Identifcation fillcolor=white shape=rect style=filled]
+	"1RR45GM55-11SL2V4-1DD" [label=Defined shape=none]
+	"1RR45DJ8M-28Q5TQD-199" -> "1RR45GM55-11SL2V4-1DD" [constraint=true]
+	"1RR49RV33-N523GT-6XC" [label="Increases 
+the difficulty 
+of offline 
+dictionary 
+attacks" fillcolor=white shape=rect style=filled]
+	"1RR49Q467-1FPDHLK-6RW" [label="Purpose of 
+Salt" shape=none]
+	"1RR49RV33-N523GT-6XC" -> "1RR49Q467-1FPDHLK-6RW" [constraint=true]
+	"1RR4CLGNW-N656VF-9ZZ" [label="Bloom filter
+" fillcolor=white shape=rect style=filled]
+	"1RR4CQWCZ-SJGHG8-BBJ" [label=defined shape=none]
+	"1RR4CLGNW-N656VF-9ZZ" -> "1RR4CQWCZ-SJGHG8-BBJ" [constraint=true]
+	"1RR4696K4-1XKZVT0-2F3" [label=Vulnerabilities fillcolor=white shape=rect style=filled]
+	"1RR47SQF2-WK60QW-39M" [label=examples shape=none]
+	"1RR4696K4-1XKZVT0-2F3" -> "1RR47SQF2-WK60QW-39M" [constraint=true]
+	"1RR45NNGJ-QTS88J-1R7" [label="something 
+the individual 
+possess" fillcolor=white shape=rect style=filled]
+	"1RR45XCTX-N0H26H-20J" [label=example shape=none]
+	"1RR45NNGJ-QTS88J-1R7" -> "1RR45XCTX-N0H26H-20J" [constraint=true]
+	"1RR48FP89-212V370-4CG" [label="Electronic 
+monitoring" fillcolor=white shape=doubleoctagon style=filled]
+	"1RR48K05R-RMZ4FH-4LY" [label=defined shape=none]
+	"1RR48FP89-212V370-4CG" -> "1RR48K05R-RMZ4FH-4LY" [constraint=true]
+	"1RR457439-2482377-169" [label=Topics shape=none]
+	"1RR457439-16L8M7V-166" [label="Authentication 
+Process" fillcolor=white shape=rect style=filled]
+	"1RR457439-2482377-169" -> "1RR457439-16L8M7V-166" [constraint=true]
+	"1RR4BHMX4-GLTQW8-7HV" [label="Each password 
+must be hashed 
+using each 
+salt value 
+and then compared 
+to stored 
+hash values
+" fillcolor=white shape=rect style=filled]
+	"1RR4BHFC0-29PD59Q-7GX" [label=traits shape=none]
+	"1RR4BHMX4-GLTQW8-7HV" -> "1RR4BHFC0-29PD59Q-7GX" [constraint=true]
+	"1RR49BW17-1RPG155-5VS" [label="Account lockout 
+mechanisms" fillcolor=white shape=rect style=filled]
+	"1RR4922JF-17GR7X6-5H1" [label="ways to provide 
+confidentiality 
+to user id/password
+" shape=none]
+	"1RR49BW17-1RPG155-5VS" -> "1RR4922JF-17GR7X6-5H1" [constraint=true]
+	"1RR48F7F4-C65KKH-4B9" [label="Exploiting 
+user mistakes
+" fillcolor=white shape=rect style=filled]
+	"1RR48JSB5-K8Z8GG-4KB" [label=defined shape=none]
+	"1RR48F7F4-C65KKH-4B9" -> "1RR48JSB5-K8Z8GG-4KB" [constraint=true]
+	"1RR468B1Y-BXFFHR-2CS" [label=Authentication fillcolor=white shape=doubleoctagon style=filled]
+	"1RR468B1Y-1L6FJWH-2CW" [label=characteristic shape=none]
+	"1RR468B1Y-BXFFHR-2CS" -> "1RR468B1Y-1L6FJWH-2CW" [constraint=true]
+	"1RR48JXPN-22S8X2R-4L4" [label=defined shape=none]
+	"1RR48JXPN-1J88J7B-4L1" [label="Attacks can 
+also become 
+much more 
+effective 
+or damaging 
+if different 
+network devices 
+share the 
+same or a 
+similar password 
+for a given 
+user" fillcolor=white shape=rect style=filled]
+	"1RR48JXPN-22S8X2R-4L4" -> "1RR48JXPN-1J88J7B-4L1" [constraint=true]
+	"1RR49HC17-RCN8XX-61C" [label="Training and 
+enforcement 
+of password 
+policies" fillcolor=white shape=rect style=filled]
+	"1RR4922JF-17GR7X6-5H1" [label="ways to provide 
+confidentiality 
+to user id/password
+" shape=none]
+	"1RR49HC17-RCN8XX-61C" -> "1RR4922JF-17GR7X6-5H1" [constraint=true]
+	"1RR4BR5NR-1GSVH24-7ZQ" [label="pre-compute 
+tables of 
+hash values 
+of possible 
+passwords 
+combined with 
+all possible 
+salts (of 
+certain length)
+" fillcolor=white shape=doubleoctagon style=filled]
+	"1RR4BNFP1-2CZJ36Q-7SM" [label=traits shape=none]
+	"1RR4BR5NR-1GSVH24-7ZQ" -> "1RR4BNFP1-2CZJ36Q-7SM" [constraint=true]
+	"1RR457439-16L8M7V-166" [label="Authentication 
+Process" fillcolor=white shape=rect style=filled]
+	"1RR45DJ8M-TN5BV4-19D" [label=Steps shape=none]
+	"1RR457439-16L8M7V-166" -> "1RR45DJ8M-TN5BV4-19D" [constraint=true]
+	"1RR4C9DMV-1QVLRN5-98C" [label=defined shape=none]
+	"1RR4C9DMV-10C9GNF-988" [label="users can 
+be told the 
+importance 
+of using hard 
+to guess passwords 
+and can be 
+provided with 
+guidelines 
+for selecting 
+strong passwords
+" fillcolor=white shape=rect style=filled]
+	"1RR4C9DMV-1QVLRN5-98C" -> "1RR4C9DMV-10C9GNF-988" [constraint=true]
+	"1RR4CDLHR-20NXZRB-9L3" [label=traits shape=none]
+	"1RR4CLGNW-N656VF-9ZZ" [label="Bloom filter
+" fillcolor=white shape=rect style=filled]
+	"1RR4CDLHR-20NXZRB-9L3" -> "1RR4CLGNW-N656VF-9ZZ" [constraint=true]
+	"1RR47T70G-20T3VX-3BD" [label="Password guessing 
+against single 
+user" fillcolor=white shape=rect style=filled]
+	"1RR47WCT1-8RVDCP-3HS" [label=defined shape=none]
+	"1RR47T70G-20T3VX-3BD" -> "1RR47WCT1-8RVDCP-3HS" [constraint=true]
+	"1RR48FP89-212V370-4CG" [label="Electronic 
+monitoring" fillcolor=white shape=doubleoctagon style=filled]
+	"1RR47SQF2-WK60QW-39M" [label=examples shape=none]
+	"1RR48FP89-212V370-4CG" -> "1RR47SQF2-WK60QW-39M" [constraint=true]
+	"1RR4CK2XJ-6707WV-9X0" [label="Rule Enforcement
+" fillcolor=white shape=doubleoctagon style=filled]
+	"1RR4CM535-3TNCJC-B1M" [label=defined shape=none]
+	"1RR4CK2XJ-6707WV-9X0" -> "1RR4CM535-3TNCJC-B1M" [constraint=true]
+	"1RR47900Z-143WMH8-306" [label=attributes shape=none]
+	"1RR47900Z-2B8WSCV-303" [label="system compares 
+password with 
+the one stored 
+for that specified 
+login" fillcolor=white shape=rect style=filled]
+	"1RR47900Z-143WMH8-306" -> "1RR47900Z-2B8WSCV-303" [constraint=true]
+	"1RR45PQSN-1ZTRF59-1SN" [label="something 
+the individual 
+does" fillcolor=white shape=rect style=filled]
+	"1RR45XSRT-V30WM1-22P" [label=example shape=none]
+	"1RR45PQSN-1ZTRF59-1SN" -> "1RR45XSRT-V30WM1-22P" [constraint=true]
+	"1RR47SQF2-WK60QW-39M" [label=examples shape=none]
+	"1RR48FBSH-K2VTLQ-4BV" [label="Exploiting 
+multiple password 
+use" fillcolor=white shape=rect style=filled]
+	"1RR47SQF2-WK60QW-39M" -> "1RR48FBSH-K2VTLQ-4BV" [constraint=true]
+	"1RR4BG1ZW-1C3FFQ0-7D3" [label=Dictionary fillcolor=white shape=rect style=filled]
+	"1RR4BHFC0-29PD59Q-7GX" [label=traits shape=none]
+	"1RR4BG1ZW-1C3FFQ0-7D3" -> "1RR4BHFC0-29PD59Q-7GX" [constraint=true]
+	"1RR4CDLHR-20NXZRB-9L3" [label=traits shape=none]
+	"1RR4CDLHR-109632B-9L0" [label="user is allowed 
+to select 
+their own 
+password, 
+however the 
+system checks 
+to see if 
+the password 
+is allowable, 
+and if not, 
+rejects it
+" fillcolor=white shape=rect style=filled]
+	"1RR4CDLHR-20NXZRB-9L3" -> "1RR4CDLHR-109632B-9L0" [constraint=true]
+	"1RR49Q467-6TQNJF-6RS" [label="Prevent duplicate 
+passwords 
+from being 
+visibile in 
+the password 
+file" fillcolor=white shape=rect style=filled]
+	"1RR49W1QN-95S2BT-70C" [label=traits shape=none]
+	"1RR49Q467-6TQNJF-6RS" -> "1RR49W1QN-95S2BT-70C" [constraint=true]
+	"1RR4BNFP1-2CZJ36Q-7SM" [label=traits shape=none]
+	"1RR4BNFP1-2BSTNX7-7SJ" [label="a mammoth 
+table of hash 
+values" fillcolor=white shape=rect style=filled]
+	"1RR4BNFP1-2CZJ36Q-7SM" -> "1RR4BNFP1-2BSTNX7-7SJ" [constraint=true]
+	"1RR4C5TKT-CY22FB-916" [label="????" shape=none]
+	"1RR4C5TKT-260430F-913" [label="User Education
+" fillcolor=white shape=rect style=filled]
+	"1RR4C5TKT-CY22FB-916" -> "1RR4C5TKT-260430F-913" [constraint=true]
+	"1RR4C5TKT-260430F-913" [label="User Education
+" fillcolor=white shape=rect style=filled]
+	"1RR4C9DMV-1QVLRN5-98C" [label=defined shape=none]
+	"1RR4C5TKT-260430F-913" -> "1RR4C9DMV-1QVLRN5-98C" [constraint=true]
+	"1RR46Q3JP-N3S87G-2G9" [label="widely used 
+line of defense 
+agaisnt intruders
+" fillcolor=white shape=rect style=filled]
+	"1RR47900Z-143WMH8-306" [label=attributes shape=none]
+	"1RR46Q3JP-N3S87G-2G9" -> "1RR47900Z-143WMH8-306" [constraint=true]
+	"1RR4BG1ZW-1D2C6H9-7D6" [label=attacks shape=none]
+	"1RR4BGSSV-1GGG3NV-7F8" [label="Rainbow table
+" fillcolor=white shape=rect style=filled]
+	"1RR4BG1ZW-1D2C6H9-7D6" -> "1RR4BGSSV-1GGG3NV-7F8" [constraint=true]
+	"1RR4CK2XJ-6707WV-9X0" [label="Rule Enforcement
+" fillcolor=white shape=doubleoctagon style=filled]
+	"1RR4CDLHR-20NXZRB-9L3" [label=traits shape=none]
+	"1RR4CK2XJ-6707WV-9X0" -> "1RR4CDLHR-20NXZRB-9L3" [constraint=true]
+	"1RR47SQF2-WK60QW-39M" [label=examples shape=none]
+	"1RR47TBYK-10VQV7M-3BW" [label="Specific account 
+attack" fillcolor=white shape=rect style=filled]
+	"1RR47SQF2-WK60QW-39M" -> "1RR47TBYK-10VQV7M-3BW" [constraint=true]
+	"1RR4C5TKT-CY22FB-916" [label="????" shape=none]
+	"1RR4C68DC-1D9R4NN-92D" [label="Computer generated 
+passwords" fillcolor=white shape=rect style=filled]
+	"1RR4C5TKT-CY22FB-916" -> "1RR4C68DC-1D9R4NN-92D" [constraint=true]
+	"1RR49JNKP-14606C7-649" [label="Automatic 
+workstation 
+logout" fillcolor=white shape=rect style=filled]
+	"1RR4922JF-17GR7X6-5H1" [label="ways to provide 
+confidentiality 
+to user id/password
+" shape=none]
+	"1RR49JNKP-14606C7-649" -> "1RR4922JF-17GR7X6-5H1" [constraint=true]
+	"1RR46Q3JP-1W45285-2GD" [label="validation 
+for user" shape=none]
+	"1RR47097P-161J3RF-2LQ" [label=id fillcolor=white shape=rect style=filled]
+	"1RR46Q3JP-1W45285-2GD" -> "1RR47097P-161J3RF-2LQ" [constraint=true]
+	"1RR4C5TKT-CY22FB-916" [label="????" shape=none]
+	"1RR4C6XRF-7W4Z0Y-93X" [label="Reactive password 
+checking" fillcolor=white shape=rect style=filled]
+	"1RR4C5TKT-CY22FB-916" -> "1RR4C6XRF-7W4Z0Y-93X" [constraint=true]
+	"1RR4CDLHR-20NXZRB-9L3" [label=traits shape=none]
+	"1RR4CGQL5-1VLCPX6-9RS" [label="goal is to 
+eliminate 
+guessable 
+passwords 
+while allowing 
+the user to 
+select a password 
+that is memorable
+" fillcolor=white shape=rect style=filled]
+	"1RR4CDLHR-20NXZRB-9L3" -> "1RR4CGQL5-1VLCPX6-9RS" [constraint=true]
+	"1RR45PB5C-25J32SV-1RT" [label="something 
+the individual 
+is" fillcolor=white shape=rect style=filled]
+	"1RR45XK8W-10GKFYF-21L" [label=example shape=none]
+	"1RR45PB5C-25J32SV-1RT" -> "1RR45XK8W-10GKFYF-21L" [constraint=true]
+	"1RR45X56S-ZH2GM4-1ZF" [label=example shape=none]
+	"1RR45X56S-DDJC5H-1ZB" [label="password, 
+PIN, answers 
+to prearranged 
+questions" fillcolor=white shape=rect style=filled]
+	"1RR45X56S-ZH2GM4-1ZF" -> "1RR45X56S-DDJC5H-1ZB" [constraint=true]
+	"1RR468B1Y-1L6FJWH-2CW" [label=characteristic shape=none]
+	"1RR4C466J-1TRNXWM-8YD" [label="Selection 
+Technique" fillcolor=white shape=rect style=filled]
+	"1RR468B1Y-1L6FJWH-2CW" -> "1RR4C466J-1TRNXWM-8YD" [constraint=true]
+	"1RR4597X4-151CCJT-17T" [label="User Authentication
+" fillcolor=white shape=doubleoctagon style=filled]
+	"1RR45N7X8-170Q4YS-1PR" [label="means of authenticating
+" shape=none]
+	"1RR4597X4-151CCJT-17T" -> "1RR45N7X8-170Q4YS-1PR" [constraint=true]
+	"1RR4CM535-3TNCJC-B1M" [label=defined shape=none]
+	"1RR4CM535-1JXG5JF-B1J" [label="specific rules 
+that passwords 
+must adhere 
+to, such as 
+all passwords 
+must be at 
+least eight 
+characters 
+long" fillcolor=white shape=rect style=filled]
+	"1RR4CM535-3TNCJC-B1M" -> "1RR4CM535-1JXG5JF-B1J" [constraint=true]
+	"1RR45N7X8-170Q4YS-1PR" [label="means of authenticating
+" shape=none]
+	"1RR45N7X8-25MN2NG-1PN" [label="something 
+the individual 
+knows" fillcolor=white shape=rect style=filled]
+	"1RR45N7X8-170Q4YS-1PR" -> "1RR45N7X8-25MN2NG-1PN" [constraint=true]
+	"1RR4922JF-17GR7X6-5H1" [label="ways to provide 
+confidentiality 
+to user id/password
+" shape=none]
+	"1RR495YXP-10B9848-5P2" [label="Intrusion 
+detection 
+measures" fillcolor=white shape=rect style=filled]
+	"1RR4922JF-17GR7X6-5H1" -> "1RR495YXP-10B9848-5P2" [constraint=true]
+	"1RR47TR18-7P37G2-3CD" [label="Offline dictionary 
+attack" fillcolor=white shape=doubleoctagon style=filled]
+	"1RR47W4P5-29GKBBD-3GZ" [label=defined shape=none]
+	"1RR47TR18-7P37G2-3CD" -> "1RR47W4P5-29GKBBD-3GZ" [constraint=true]
+	"1RR457439-2482377-169" [label=Topics shape=none]
+	"1RR466Z50-RLVYPY-2BD" [label=Password fillcolor=white shape=rect style=filled]
+	"1RR457439-2482377-169" -> "1RR466Z50-RLVYPY-2BD" [constraint=true]
+	"1RR4CPY93-107GLL6-B7N" [label=defined shape=none]
+	"1RR4CPY93-8V5272-B7K" [label="compile a 
+large dictionary 
+of bad passwords
+" fillcolor=white shape=rect style=filled]
+	"1RR4CPY93-107GLL6-B7N" -> "1RR4CPY93-8V5272-B7K" [constraint=true]
+	"1RR49XG9P-1KTQ983-735" [label="Difficult 
+to find out 
+whether a 
+person has 
+used the same 
+password on 
+two or more 
+systems" fillcolor=white shape=doubleoctagon style=filled]
+	"1RR49W1QN-95S2BT-70C" [label=traits shape=none]
+	"1RR49XG9P-1KTQ983-735" -> "1RR49W1QN-95S2BT-70C" [constraint=true]
+	"1RR473ZSM-14BG6RH-2PJ" [label=attributes shape=none]
+	"1RR4743BJ-21137T9-2Q7" [label="determines 
+that the user 
+is authorized 
+to access 
+the system
+" fillcolor=white shape=rect style=filled]
+	"1RR473ZSM-14BG6RH-2PJ" -> "1RR4743BJ-21137T9-2Q7" [constraint=true]
+	"1RR48YM67-PY4Z5W-5FB" [label=Countermeasures fillcolor=white shape=doubleoctagon style=filled]
+	"1RR4922JF-17GR7X6-5H1" [label="ways to provide 
+confidentiality 
+to user id/password
+" shape=none]
+	"1RR48YM67-PY4Z5W-5FB" -> "1RR4922JF-17GR7X6-5H1" [constraint=true]
+	"1RR47097P-161J3RF-2LQ" [label=id fillcolor=white shape=rect style=filled]
+	"1RR473ZSM-14BG6RH-2PJ" [label=attributes shape=none]
+	"1RR47097P-161J3RF-2LQ" -> "1RR473ZSM-14BG6RH-2PJ" [constraint=true]
+	"1RR45N7X8-170Q4YS-1PR" [label="means of authenticating
+" shape=none]
+	"1RR45PB5C-25J32SV-1RT" [label="something 
+the individual 
+is" fillcolor=white shape=rect style=filled]
+	"1RR45N7X8-170Q4YS-1PR" -> "1RR45PB5C-25J32SV-1RT" [constraint=true]
+	"1RR49PPVD-26NVHBM-6QP" [label=Hashing fillcolor=white shape=rect style=filled]
+	"1RR49Q467-1FPDHLK-6RW" [label="Purpose of 
+Salt" shape=none]
+	"1RR49PPVD-26NVHBM-6QP" -> "1RR49Q467-1FPDHLK-6RW" [constraint=true]
+	"1RR4BFGKW-1DTVGN2-7BP" [label="Password Cracking
+" fillcolor=white shape=rect style=filled]
+	"1RR4BG1ZW-1D2C6H9-7D6" [label=attacks shape=none]
+	"1RR4BFGKW-1DTVGN2-7BP" -> "1RR4BG1ZW-1D2C6H9-7D6" [constraint=true]
+	"1RR4CDLHR-20NXZRB-9L3" [label=traits shape=none]
+	"1RR4CL3XN-21HJWV2-9YX" [label="Password cracker
+" fillcolor=white shape=rect style=filled]
+	"1RR4CDLHR-20NXZRB-9L3" -> "1RR4CL3XN-21HJWV2-9YX" [constraint=true]
+	"1RR45XCTX-N0H26H-20J" [label=example shape=none]
+	"1RR45XCTF-10G4C2K-20F" [label="smartcard, 
+electronic 
+keycard, phyiscal 
+key" fillcolor=white shape=rect style=filled]
+	"1RR45XCTX-N0H26H-20J" -> "1RR45XCTF-10G4C2K-20F" [constraint=true]
+	"1RR45GVP3-D8YJXY-1FG" [label=Defined shape=none]
+	"1RR45GVP3-26RVXXG-1FC" [label="Presenting 
+or generating 
+authentication 
+information 
+that corroborates 
+the binding 
+between the 
+entity and 
+the identifier
+" fillcolor=white shape=rect style=filled]
+	"1RR45GVP3-D8YJXY-1FG" -> "1RR45GVP3-26RVXXG-1FC" [constraint=true]
+	"1RR45DJ8M-TN5BV4-19D" [label=Steps shape=none]
+	"1RR45DJ8M-28Q5TQD-199" [label=Identifcation fillcolor=white shape=rect style=filled]
+	"1RR45DJ8M-TN5BV4-19D" -> "1RR45DJ8M-28Q5TQD-199" [constraint=true]
+	"1RR44VVB9-3BVN60-9F" [label="Mathew Wells 
+UNO ID# 2433406 
+CSCI 5621 
+User Authentication
+" fillcolor=white shape=rect style=filled]
+	statictics [label="STATISTICS
+\lBranch:		32\lNode:		77\lLinking Phrase:	35\lOrphan:		1\lLeaf Node:	32\lPreposition:	53\lSub Map:		9\lAvg Word Per Concept:	6.18\l" Gsplines=true fillcolor="#F5FFFA" shape=component style=filled]
+	file_info [label="CMAP Information
+
+\lTitle:	UAAnonymous1.cmap\lCreated:	2020-12-07T07:46:49-05:00\lModified:	2020-12-07T07:46:49-05:00\lLanguage:	en\lFormat:	x-cmap/x-storable\lPublisher:	FIHMC CmapTools 6.04\lWidth:	2534\lHeight:	1271\l" Gsplines=true fillcolor="#E6E6FA" shape=tab style=filled]
+}

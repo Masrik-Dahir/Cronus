@@ -1,0 +1,173 @@
+// The Round Table
+digraph {
+	"1S3Z9WD65-27VXPDD-PFS" [label="ENCRYPTION STANDARDS and TYPES Module 3" Gsplines=true fontsize=20 shape=rect style=filled]
+	"1S46GYWV1-1JMZYQZ-67M" [label="characterized 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46FYS7C-CZMYHQ-3XQ" [label="NIST called 
+for new AES 
+proposals 
+in 1997" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46GYWV1-1JMZYQZ-67M" -> "1S46FYS7C-CZMYHQ-3XQ" [constraint=true]
+	"1S46GGJ5Z-LW213B-4PK" [label="illustrated 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46FT4JM-17NB6TS-3QN" [label="most widely 
+used encryption 
+scheme of 
+Data Encryption 
+Algorithm 
+(DEA) " Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46GGJ5Z-LW213B-4PK" -> "1S46FT4JM-17NB6TS-3QN" [constraint=true]
+	"1S46G6YMH-FYQM6V-4DY" [label=encompasses Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46FSF7Y-14M865S-3NG" [label="3DES TRIPLE 
+DES" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46G6YMH-FYQM6V-4DY" -> "1S46FSF7Y-14M865S-3NG" [constraint=true]
+	"1S46G6YMH-FYQM6V-4DY" [label=encompasses Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46FSGYJ-5TSXV3-3NL" [label="AES ADVANCED 
+ENCRYPTION 
+STANDARD" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46G6YMH-FYQM6V-4DY" -> "1S46FSGYJ-5TSXV3-3NL" [constraint=true]
+	"1S46HBL61-2824FJ1-6TP" [label=including Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46FZVV6-11VF63W-3Y9" [label="should have 
+a symmetric 
+block cipher
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46HBL61-2824FJ1-6TP" -> "1S46FZVV6-11VF63W-3Y9" [constraint=true]
+	"1S46HBL61-2824FJ1-6TP" [label=including Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46FYVCK-FHNTPB-3XV" [label="should have 
+a security 
+strength equal 
+to or better 
+than 3DES" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46HBL61-2824FJ1-6TP" -> "1S46FYVCK-FHNTPB-3XV" [constraint=true]
+	"1S46GYP4Z-276XPL0-67B" [label="represented 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46FW41Q-29F9M5-3R5" [label="underlying 
+encryption 
+algorithm 
+is the same 
+as in DES" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46GYP4Z-276XPL0-67B" -> "1S46FW41Q-29F9M5-3R5" [constraint=true]
+	"1S46GYWV1-1JMZYQZ-67M" [label="characterized 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46HLKLZ-11BJ051-75C" [label="selected Rijndeal 
+in November 
+2001 and published 
+as FIPS 197
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46GYWV1-1JMZYQZ-67M" -> "1S46HLKLZ-11BJ051-75C" [constraint=true]
+	"1S46GYP4Z-276XPL0-67B" [label="represented 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46FW69Q-T84FM1-3R9" [label="uses a 64-bit 
+block size
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46GYP4Z-276XPL0-67B" -> "1S46FW69Q-T84FM1-3R9" [constraint=true]
+	"1S46FYS7C-CZMYHQ-3XQ" [label="NIST called 
+for new AES 
+proposals 
+in 1997" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46HBL61-2824FJ1-6TP" [label=including Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46FYS7C-CZMYHQ-3XQ" -> "1S46HBL61-2824FJ1-6TP" [constraint=true]
+	"1S46HBL61-2824FJ1-6TP" [label=including Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46FZNJV-T5Z0DK-3Y4" [label="should have 
+significantly 
+improved efficiency
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46HBL61-2824FJ1-6TP" -> "1S46FZNJV-T5Z0DK-3Y4" [constraint=true]
+	"1S46GYP4Z-276XPL0-67B" [label="represented 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46FW24M-1S3H6MN-3R1" [label="112 or 168-bit 
+key length 
+overcomes 
+the vulnerability 
+to brute force 
+attack of 
+DES" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46GYP4Z-276XPL0-67B" -> "1S46FW24M-1S3H6MN-3R1" [constraint=true]
+	"1S46GYP4Z-276XPL0-67B" [label="represented 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46FW8P1-1YS09H9-3RF" [label="algorithm 
+is sluggish 
+in software
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46GYP4Z-276XPL0-67B" -> "1S46FW8P1-1YS09H9-3RF" [constraint=true]
+	"1S46HBL61-2824FJ1-6TP" [label=including Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46HB931-33B37F-6TB" [label="should have 
+a 128-bit 
+data block 
+and 128/192/256-bit 
+keys" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46HBL61-2824FJ1-6TP" -> "1S46HB931-33B37F-6TB" [constraint=true]
+	"1S46GGJ5Z-LW213B-4PK" [label="illustrated 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46FSK31-QHCR1J-3NQ" [label="uses 64-bit 
+plaintext 
+block and 
+56-bit key 
+to produce 
+a 64-bit ciphertext 
+block" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46GGJ5Z-LW213B-4PK" -> "1S46FSK31-QHCR1J-3NQ" [constraint=true]
+	"1S46G0DHH-2BD24QG-3YH" [label="ENCRYPTION 
+TYPES" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=doubleoctagon style=filled]
+	"1S46G6YMH-FYQM6V-4DY" [label=encompasses Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46G0DHH-2BD24QG-3YH" -> "1S46G6YMH-FYQM6V-4DY" [constraint=true]
+	"1S46GGJ5Z-LW213B-4PK" [label="illustrated 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46FT968-27L6G5X-3QS" [label="the most studied 
+encryption 
+algorithm 
+in existence
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46GGJ5Z-LW213B-4PK" -> "1S46FT968-27L6G5X-3QS" [constraint=true]
+	"1S46FSCCM-1VG3KMH-3NB" [label="DES DATA ENCRYPTION 
+STANDARD" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46GGJ5Z-LW213B-4PK" [label="illustrated 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46FSCCM-1VG3KMH-3NB" -> "1S46GGJ5Z-LW213B-4PK" [constraint=true]
+	"1S46GGJ5Z-LW213B-4PK" [label="illustrated 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46FSPVG-MK7FYP-3QD" [label="Electronic 
+Frontier Federation 
+(EFF) announced 
+it had broken 
+a DES encryption
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46GGJ5Z-LW213B-4PK" -> "1S46FSPVG-MK7FYP-3QD" [constraint=true]
+	"1S46G6YMH-FYQM6V-4DY" [label=encompasses Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46FSCCM-1VG3KMH-3NB" [label="DES DATA ENCRYPTION 
+STANDARD" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46G6YMH-FYQM6V-4DY" -> "1S46FSCCM-1VG3KMH-3NB" [constraint=true]
+	"1S46GYP4Z-276XPL0-67B" [label="represented 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46FWBG0-1PCF0LR-3RK" [label="repeats basic 
+DES algorithm 
+three times 
+using two 
+or three unique 
+keys" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46GYP4Z-276XPL0-67B" -> "1S46FWBG0-1PCF0LR-3RK" [constraint=true]
+	"1S46FSGYJ-5TSXV3-3NL" [label="AES ADVANCED 
+ENCRYPTION 
+STANDARD" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46GYWV1-1JMZYQZ-67M" [label="characterized 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46FSGYJ-5TSXV3-3NL" -> "1S46GYWV1-1JMZYQZ-67M" [constraint=true]
+	"1S46GYWV1-1JMZYQZ-67M" [label="characterized 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46FYQJP-1TDGNNC-3XL" [label="replaced 3DES 
+as it was 
+not reasonable 
+for long term 
+use" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46GYWV1-1JMZYQZ-67M" -> "1S46FYQJP-1TDGNNC-3XL" [constraint=true]
+	"1S46FSF7Y-14M865S-3NG" [label="3DES TRIPLE 
+DES" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46GYP4Z-276XPL0-67B" [label="represented 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46FSF7Y-14M865S-3NG" -> "1S46GYP4Z-276XPL0-67B" [constraint=true]
+	Stat [label="SUMMERY
+
+Matched Branch:			0\lPartially Matched Branch:	0\lMismatched Branch:		15\lExtra Branch:				2\lTotal Match:		0.0 %\lConcept Match:	0.0 %\lLink. Phr. Match:	0.0 %\lMisconception:	100.0 %\lHierarchy Match:	0.0 %\l" Gsplines=true fillcolor="#F5FFFA" fontsize=20 shape=component style=filled]
+	Grade [label="Grade:	0.0%" Gsplines=true fillcolor="#FFEBCD" fontsize=20 shape=note style=filled]
+	Stat -> Grade [arrowhead=inv color=black constraint=true]
+}

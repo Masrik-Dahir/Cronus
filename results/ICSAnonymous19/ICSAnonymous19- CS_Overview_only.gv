@@ -1,0 +1,155 @@
+// The Round Table
+digraph {
+	Student [label="Student: ICSAnonymous19" fillcolor=gold fontsize=20 shape=component style=filled]
+	"1RQ0J88B6-1V8G0JR-VV" [label=concepts fontsize=20 shape=none]
+	"1RQ0J82PG-1W7J9WQ-T5" [label=Integrity fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RQ0J88B6-1V8G0JR-VV" -> "1RQ0J82PG-1W7J9WQ-T5" [constraint=true]
+	"1RQ0JX4RN-1THLDZ8-2MK" [label=ensures fontsize=20 shape=none]
+	"1RQ0K6R8B-1MPP9TZ-3BN" [label="timely and 
+reliable use 
+of info" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RQ0JX4RN-1THLDZ8-2MK" -> "1RQ0K6R8B-1MPP9TZ-3BN" [constraint=true]
+	"1RQ0JX4RN-1THLDZ8-2MK" [label=ensures fontsize=20 shape=none]
+	"1RQ0K78FR-2687C3N-3D5" [label="no disruption 
+of access 
+or use to 
+information" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RQ0JX4RN-1THLDZ8-2MK" -> "1RQ0K78FR-2687C3N-3D5" [constraint=true]
+	"1RQ0JWBX1-TV3R0P-2JZ" [label=preserves fontsize=20 shape=none]
+	"1RQ0JWBX1-10SZFXS-2JW" [label="authorized 
+restrictions" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RQ0JWBX1-TV3R0P-2JZ" -> "1RQ0JWBX1-10SZFXS-2JW" [constraint=true]
+	"1RQ0JX4RN-1THLDZ8-2MK" [label=ensures fontsize=20 shape=none]
+	"1RQ0JX4RN-274QQSZ-2MG" [label="timely and 
+reliable access 
+to info" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RQ0JX4RN-1THLDZ8-2MK" -> "1RQ0JX4RN-274QQSZ-2MG" [constraint=true]
+	"1RQ0JD70G-1HKV0Q3-127" [label="Security Implementation
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RQ0JJT52-MGYG7V-1G6" [label="How does it 
+do it?" fontsize=20 shape=none]
+	"1RQ0JD70G-1HKV0Q3-127" -> "1RQ0JJT52-MGYG7V-1G6" [constraint=true]
+	"1RQ0JV0RC-7PVRSR-2GM" [label=Availability fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RQ0JX4RN-1THLDZ8-2MK" [label=ensures fontsize=20 shape=none]
+	"1RQ0JV0RC-7PVRSR-2GM" -> "1RQ0JX4RN-1THLDZ8-2MK" [constraint=true]
+	"1RQ0J5SBH-1T3LK06-MX" [label=strategy fontsize=20 shape=none]
+	"1RQ0JD70G-1HKV0Q3-127" [label="Security Implementation
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RQ0J5SBH-1T3LK06-MX" -> "1RQ0JD70G-1HKV0Q3-127" [constraint=true]
+	"1RQ0J82PG-1W7J9WQ-T5" [label=Integrity fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RQ0JWYF5-1BQLHH1-2LJ" [label="guards against
+" fontsize=20 shape=none]
+	"1RQ0J82PG-1W7J9WQ-T5" -> "1RQ0JWYF5-1BQLHH1-2LJ" [constraint=true]
+	"1RQ0J5CP0-13Y67GZ-MG" [label="Security Policy
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RQ0JJ0G3-17LCYP-1DK" [label="what does 
+it do?" fontsize=20 shape=none]
+	"1RQ0J5CP0-13Y67GZ-MG" -> "1RQ0JJ0G3-17LCYP-1DK" [constraint=true]
+	"1RQ0J88B6-1V8G0JR-VV" [label=concepts fontsize=20 shape=none]
+	"1RQ0JV6RV-1642FHC-2H4" [label=Confidentiality fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RQ0J88B6-1V8G0JR-VV" -> "1RQ0JV6RV-1642FHC-2H4" [constraint=true]
+	"1RQ0JWYF5-1BQLHH1-2LJ" [label="guards against
+" fontsize=20 shape=none]
+	"1RQ0K4W3X-28JQ2GH-34J" [label="false authenticity
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RQ0JWYF5-1BQLHH1-2LJ" -> "1RQ0K4W3X-28JQ2GH-34J" [constraint=true]
+	"1RQ0JWBX1-TV3R0P-2JZ" [label=preserves fontsize=20 shape=none]
+	"1RQ0K0CHD-29YW8QM-2RV" [label="personal privacy
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RQ0JWBX1-TV3R0P-2JZ" -> "1RQ0K0CHD-29YW8QM-2RV" [constraint=true]
+	"1RQ0JWBX1-TV3R0P-2JZ" [label=preserves fontsize=20 shape=none]
+	"1RQ0JZFQQ-1PGD3BF-2PV" [label="information 
+access" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RQ0JWBX1-TV3R0P-2JZ" -> "1RQ0JZFQQ-1PGD3BF-2PV" [constraint=true]
+	"1RQ0JWBX1-TV3R0P-2JZ" [label=preserves fontsize=20 shape=none]
+	"1RQ0K0QR5-8K3L2R-2SW" [label="proprietary 
+information" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RQ0JWBX1-TV3R0P-2JZ" -> "1RQ0K0QR5-8K3L2R-2SW" [constraint=true]
+	"1RQ0HWS12-1PLH2MP-HC" [label="Computer Security
+" fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RQ0J88B6-1V8G0JR-VV" [label=concepts fontsize=20 shape=none]
+	"1RQ0HWS12-1PLH2MP-HC" -> "1RQ0J88B6-1V8G0JR-VV" [constraint=true]
+	"1RQ0JWYF5-1BQLHH1-2LJ" [label="guards against
+" fontsize=20 shape=none]
+	"1RQ0K2HH3-1Y5RN7S-2WS" [label="info destruction
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RQ0JWYF5-1BQLHH1-2LJ" -> "1RQ0K2HH3-1Y5RN7S-2WS" [constraint=true]
+	"1RQ0JK646-1TL8WT4-1HN" [label="does it work?
+" fontsize=20 shape=none]
+	"1RQ0JK28Q-VX3P8G-1HD" [label="encompasses 
+both system 
+design and 
+system implementation/ 
+involves testing 
+and formal 
+analytic or 
+mathematical 
+techniques" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RQ0JK646-1TL8WT4-1HN" -> "1RQ0JK28Q-VX3P8G-1HD" [constraint=true]
+	"1RQ0J88B6-1V8G0JR-VV" [label=concepts fontsize=20 shape=none]
+	"1RQ0JV0RC-7PVRSR-2GM" [label=Availability fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RQ0J88B6-1V8G0JR-VV" -> "1RQ0JV0RC-7PVRSR-2GM" [constraint=true]
+	"1RQ0JJ0G3-17LCYP-1DK" [label="what does 
+it do?" fontsize=20 shape=none]
+	"1RQ0JHV4T-1MMKXXZ-1D8" [label="formal statement 
+of rules and 
+partices that 
+specify or 
+regulate how 
+a system or 
+organization 
+provides security 
+services to 
+protect sensitive 
+and critical 
+system resources
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RQ0JJ0G3-17LCYP-1DK" -> "1RQ0JHV4T-1MMKXXZ-1D8" [constraint=true]
+	"1RQ0JV6RV-1642FHC-2H4" [label=Confidentiality fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RQ0JWBX1-TV3R0P-2JZ" [label=preserves fontsize=20 shape=none]
+	"1RQ0JV6RV-1642FHC-2H4" -> "1RQ0JWBX1-TV3R0P-2JZ" [constraint=true]
+	"1RQ0JWBX1-TV3R0P-2JZ" [label=preserves fontsize=20 shape=none]
+	"1RQ0JZSMY-19CFD7X-2QY" [label=disclosure fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RQ0JWBX1-TV3R0P-2JZ" -> "1RQ0JZSMY-19CFD7X-2QY" [constraint=true]
+	"1RQ0J5SBH-1T3LK06-MX" [label=strategy fontsize=20 shape=none]
+	"1RQ0J5CP0-13Y67GZ-MG" [label="Security Policy
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RQ0J5SBH-1T3LK06-MX" -> "1RQ0J5CP0-13Y67GZ-MG" [constraint=true]
+	"1RQ0JJT52-MGYG7V-1G6" [label="How does it 
+do it?" fontsize=20 shape=none]
+	"1RQ0JJCST-1V1N2CX-1FP" [label="Detection 
+Response Recovery 
+Prevention" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RQ0JJT52-MGYG7V-1G6" -> "1RQ0JJCST-1V1N2CX-1FP" [constraint=true]
+	"1RQ0JWYF5-1BQLHH1-2LJ" [label="guards against
+" fontsize=20 shape=none]
+	"1RQ0K3091-TSXYTX-2XT" [label="info repudiation
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RQ0JWYF5-1BQLHH1-2LJ" -> "1RQ0K3091-TSXYTX-2XT" [constraint=true]
+	"1RQ0JD8K2-2460JFF-12C" [label="Computer Assurance/ 
+Evaluation" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RQ0JK646-1TL8WT4-1HN" [label="does it work?
+" fontsize=20 shape=none]
+	"1RQ0JD8K2-2460JFF-12C" -> "1RQ0JK646-1TL8WT4-1HN" [constraint=true]
+	"1RQ0J5SBH-1T3LK06-MX" [label=strategy fontsize=20 shape=none]
+	"1RQ0JD8K2-2460JFF-12C" [label="Computer Assurance/ 
+Evaluation" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RQ0J5SBH-1T3LK06-MX" -> "1RQ0JD8K2-2460JFF-12C" [constraint=true]
+	"1RQ0HWS12-1PLH2MP-HC" [label="Computer Security
+" fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RQ0J5SBH-1T3LK06-MX" [label=strategy fontsize=20 shape=none]
+	"1RQ0HWS12-1PLH2MP-HC" -> "1RQ0J5SBH-1T3LK06-MX" [constraint=true]
+	"1RQ0JWYF5-1BQLHH1-2LJ" [label="guards against
+" fontsize=20 shape=none]
+	"1RQ0JWYF5-2BXYLWP-2LF" [label="improper info 
+modification" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RQ0JWYF5-1BQLHH1-2LJ" -> "1RQ0JWYF5-2BXYLWP-2LF" [constraint=true]
+	"1RQ0HVVTX-F7GF0R-C6" [label="Computer Security 
+-- Slideset 
+1" fillcolor=white fontsize=20 shape=rect style=filled]
+	statictics [label="STATISTICS
+\lBranch:		15\lNode:		22\lLinking Phrase:	8\lOrphan:		1\lLeaf Node:	15\lPreposition:	21\lSub Map:		1\lAvg Word Per Concept:	4.09\l" Gsplines=true fillcolor="#F5FFFA" fontsize=20 shape=component style=filled]
+	file_info [label="CMAP Information
+
+\lTitle:	ICSAnonymous19.cmap\lCreated:	2020-12-07T07:40:33-05:00\lModified:	2020-12-07T07:40:33-05:00\lLanguage:	en\lFormat:	x-cmap/x-storable\lPublisher:	FIHMC CmapTools 6.04\lWidth:	835\lHeight:	684\l" Gsplines=true fillcolor="#E6E6FA" fontsize=20 shape=tab style=filled]
+}

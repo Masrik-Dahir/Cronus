@@ -1,0 +1,1081 @@
+// The Round Table
+digraph {
+	Student [label="Student: CTAnonymous1" fillcolor=gold fontsize=20 shape=component style=filled]
+	"1RRT3YQT1-2DHSBYP-NV" [label="What it is
+" fontsize=20 shape=none]
+	"1RRT3YQSZ-HDP1C3-NR" [label="Universal 
+technique 
+for providing 
+confidentiality 
+for transmitted 
+or stored 
+data" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRT3YQT1-2DHSBYP-NV" -> "1RRT3YQSZ-HDP1C3-NR" [constraint=true]
+	"1RRT4T0M8-1S76WCY-1FP" [label="Brute-Force 
+Attack" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRT5S56F-HPVJMP-1Z0" [label="how it works
+" fontsize=20 shape=none]
+	"1RRT4T0M8-1S76WCY-1FP" -> "1RRT5S56F-HPVJMP-1Z0" [constraint=true]
+	"1RRT785K9-MZ1GY3-38H" [label="Stream Cipher
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRT78WBW-214J5VQ-39P" [label=Defined fontsize=20 shape=none]
+	"1RRT785K9-MZ1GY3-38H" -> "1RRT78WBW-214J5VQ-39P" [constraint=true]
+	"1RRW8PYCR-46Y73N-25W" [label=Authentication fontsize=20 shape=none]
+	"1RRW8VRRW-25Y29TM-2GQ" [label="Message integrity 
+can be checked 
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW8PYCR-46Y73N-25W" -> "1RRW8VRRW-25Y29TM-2GQ" [constraint=true]
+	"1RRWMLDQZ-8KQN1R-BGL" [label="Digital Envelopes
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWMWY0Y-1HJ2RPH-BZ1" [label=includes fontsize=20 shape=none]
+	"1RRWMLDQZ-8KQN1R-BGL" -> "1RRWMWY0Y-1HJ2RPH-BZ1" [constraint=true]
+	"1RRW732QK-1BCPK6T-NX" [label="Improvements 
+from 3DES" fontsize=20 shape=none]
+	"1RRW732QK-28YXNYF-NT" [label="Security Strength 
+to 3DES or 
+better" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW732QK-1BCPK6T-NX" -> "1RRW732QK-28YXNYF-NT" [constraint=true]
+	"1RRWB2BK1-1C7B2NV-42F" [label=example fontsize=20 shape=none]
+	"1RRWB42NH-2BW5D7Y-45R" [label="One side has 
+heavy load 
+and cannot 
+afford the 
+time to decrypt 
+all the incoming 
+messages" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWB2BK1-1C7B2NV-42F" -> "1RRWB42NH-2BW5D7Y-45R" [constraint=true]
+	"1RRWNR5CM-1QS007F-FPW" [label=Defined fontsize=20 shape=none]
+	"1RRWNR5CM-ZWGMZ2-FPS" [label="They are not 
+truly random 
+because sequence 
+of values 
+is determined 
+by initial 
+seed value 
+and likely 
+to be predictable
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWNR5CM-1QS007F-FPW" -> "1RRWNR5CM-ZWGMZ2-FPS" [constraint=true]
+	"1RRT4PV1T-1QD0R9X-18F" [label="Cryptanalytic 
+Attacks" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRT5JC1Q-4GXF4P-1Q6" [label=exploit fontsize=20 shape=none]
+	"1RRT4PV1T-1QD0R9X-18F" -> "1RRT5JC1Q-4GXF4P-1Q6" [constraint=true]
+	"1RRT8DK1M-P03B44-4P5" [label=Attraction fontsize=20 shape=none]
+	"1RRT8FRPD-BC73MX-4T6" [label="underlying 
+encryption 
+algorithm 
+is the same 
+as DES" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRT8DK1M-P03B44-4P5" -> "1RRT8FRPD-BC73MX-4T6" [constraint=true]
+	"1RRWNW36X-1TBH7XQ-FYM" [label=attributes fontsize=20 shape=none]
+	"1RRWNW36X-9CZ5G1-FYJ" [label="uses a nondeterministic 
+source to 
+produce randomness
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWNW36X-1TBH7XQ-FYM" -> "1RRWNW36X-9CZ5G1-FYJ" [constraint=true]
+	"1RRWF352Z-23SQC2D-7XQ" [label="Use of two 
+separate keys 
+(asymmetric) 
+public and 
+private key
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWFFHX7-25QSX60-8JQ" [label=Encryption fontsize=20 shape=none]
+	"1RRWF352Z-23SQC2D-7XQ" -> "1RRWFFHX7-25QSX60-8JQ" [constraint=true]
+	"1RRT785K9-MZ1GY3-38H" [label="Stream Cipher
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRT7CV18-26GMDFF-3GQ" [label=Advantages fontsize=20 shape=none]
+	"1RRT785K9-MZ1GY3-38H" -> "1RRT7CV18-26GMDFF-3GQ" [constraint=true]
+	"1RRT6YZG0-1QQWXYY-2WZ" [label=Topics fontsize=20 shape=none]
+	"1RRT785K9-MZ1GY3-38H" [label="Stream Cipher
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRT6YZG0-1QQWXYY-2WZ" -> "1RRT785K9-MZ1GY3-38H" [constraint=true]
+	"1RRT859T0-FC4WTF-4H6" [label=evolved fontsize=20 shape=none]
+	"1RRT859T0-1FHZXM8-4H3" [label="Triple DES 
+(3DES)" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRT859T0-FC4WTF-4H6" -> "1RRT859T0-1FHZXM8-4H3" [constraint=true]
+	"1RRW9SV0J-NSRQSC-3P3" [label="Authentication 
+without Message 
+Encryption" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW9TN17-J2KG77-3R6" [label=function fontsize=20 shape=none]
+	"1RRW9SV0J-NSRQSC-3P3" -> "1RRW9TN17-J2KG77-3R6" [constraint=true]
+	"1RRWFG88K-1C27JND-8M4" [label=includes fontsize=20 shape=none]
+	"1RRWFXG2X-1HGKBMY-8VF" [label="Used to provide 
+authentication 
+and data integriy
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWFG88K-1C27JND-8M4" -> "1RRWFXG2X-1HGKBMY-8VF" [constraint=true]
+	"1RRWFFQCV-1NPCPG3-8KR" [label="Private key
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWFG88K-1C27JND-8M4" [label=includes fontsize=20 shape=none]
+	"1RRWFFQCV-1NPCPG3-8KR" -> "1RRWFG88K-1C27JND-8M4" [constraint=true]
+	"1RRWCPYSF-X318H1-4TN" [label=Security fontsize=20 shape=none]
+	"1RRWCPYSF-21G5YV1-4TK" [label="For any given 
+code h, it 
+is computationally 
+infeasible 
+to find x 
+such that 
+H(x) = h" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWCPYSF-X318H1-4TN" -> "1RRWCPYSF-21G5YV1-4TK" [constraint=true]
+	"1RRW7L1JY-16205QV-18Y" [label="Message Authentication
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW7V4LT-XYH87P-1B8" [label="how it should 
+work" fontsize=20 shape=none]
+	"1RRW7L1JY-16205QV-18Y" -> "1RRW7V4LT-XYH87P-1B8" [constraint=true]
+	"1RRW7V4LT-XYH87P-1B8" [label="how it should 
+work" fontsize=20 shape=none]
+	"1RRW7WHVB-13WCTCP-1FD" [label="verifies that 
+the received 
+message is 
+authentic" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW7V4LT-XYH87P-1B8" -> "1RRW7WHVB-13WCTCP-1FD" [constraint=true]
+	"1RRT80YNV-5NM71Q-473" [label="Strength concerns
+" fontsize=20 shape=none]
+	"1RRT82DS9-T0C5JC-49Z" [label="Electronic 
+Frontier Foundation(EFF) 
+announced 
+in July 1998 
+that it had 
+a broken DES 
+encryption" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRT80YNV-5NM71Q-473" -> "1RRT82DS9-T0C5JC-49Z" [constraint=true]
+	"1RRWF24DM-LG37QJ-7W7" [label="Public-Key 
+Encryption" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWF352Z-DMZWTH-7XT" [label=includes fontsize=20 shape=none]
+	"1RRWF24DM-LG37QJ-7W7" -> "1RRWF352Z-DMZWTH-7XT" [constraint=true]
+	"1RRWF352Z-23SQC2D-7XQ" [label="Use of two 
+separate keys 
+(asymmetric) 
+public and 
+private key
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWF6CNR-1W78V9Z-835" [label="how it works
+" fontsize=20 shape=none]
+	"1RRWF352Z-23SQC2D-7XQ" -> "1RRWF6CNR-1W78V9Z-835" [constraint=true]
+	"1RRT859T0-1FHZXM8-4H3" [label="Triple DES 
+(3DES)" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW70Y4J-1RHT32B-DV" [label="Replacement 
+Needed" fontsize=20 shape=none]
+	"1RRT859T0-1FHZXM8-4H3" -> "1RRW70Y4J-1RHT32B-DV" [constraint=true]
+	"1RRW9FRGL-235YVGV-2YJ" [label="other needs
+" fontsize=20 shape=none]
+	"1RRW9KRZK-29Z2J69-35X" [label="It is unlikely 
+that sequence 
+number is 
+associated 
+with each 
+block" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW9FRGL-235YVGV-2YJ" -> "1RRW9KRZK-29Z2J69-35X" [constraint=true]
+	"1RRWNGHFR-1WGGQ5W-F59" [label=Requirments fontsize=20 shape=none]
+	"1RRWNHPT1-ZDCX0J-F79" [label=Independence fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWNGHFR-1WGGQ5W-F59" -> "1RRWNHPT1-ZDCX0J-F79" [constraint=true]
+	"1RRT7WRQH-1KJS3M9-3YW" [label=includes fontsize=20 shape=none]
+	"1RRT7WRQH-2BMJT9R-3YS" [label="The most widely 
+used encryption 
+scheme referred 
+to as the 
+Data Encryption 
+Algorithm 
+(DEA)" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRT7WRQH-1KJS3M9-3YW" -> "1RRT7WRQH-2BMJT9R-3YS" [constraint=true]
+	"1RRT6YZG0-1QQWXYY-2WZ" [label=Topics fontsize=20 shape=none]
+	"1RRWF24DM-LG37QJ-7W7" [label="Public-Key 
+Encryption" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRT6YZG0-1QQWXYY-2WZ" -> "1RRWF24DM-LG37QJ-7W7" [constraint=true]
+	"1RRWCPYSF-X318H1-4TN" [label=Security fontsize=20 shape=none]
+	"1RRWCTRM7-2371WP-523" [label="For any given 
+block a, it 
+is computationally 
+infeasible 
+to find y 
+=/= x such 
+that H(y) 
+= H(x)" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWCPYSF-X318H1-4TN" -> "1RRWCTRM7-2371WP-523" [constraint=true]
+	"1RRT2YG74-1P5TQKN-9W" [label="Cryptographic 
+Tools" fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RRT6YZG0-1QQWXYY-2WZ" [label=Topics fontsize=20 shape=none]
+	"1RRT2YG74-1P5TQKN-9W" -> "1RRT6YZG0-1QQWXYY-2WZ" [constraint=true]
+	"1RRWCN3LP-156Q0TT-4R3" [label="Hash Function 
+Requirements" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWCPM0R-KQPF45-4SV" [label=Usage fontsize=20 shape=none]
+	"1RRWCN3LP-156Q0TT-4R3" -> "1RRWCPM0R-KQPF45-4SV" [constraint=true]
+	"1RRT3B4WC-1Q2BPQX-KT" [label="Symmetric 
+Encryption" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRT43NKB-28GH506-Y8" [label=Model fontsize=20 shape=none]
+	"1RRT3B4WC-1Q2BPQX-KT" -> "1RRT43NKB-28GH506-Y8" [constraint=true]
+	"1RRW9TN17-J2KG77-3R6" [label=function fontsize=20 shape=none]
+	"1RRW9TN17-1FWRF1T-3R3" [label="Authentication 
+tag/code is 
+generated 
+using keys 
+and appended 
+with each 
+message" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW9TN17-J2KG77-3R6" -> "1RRW9TN17-1FWRF1T-3R3" [constraint=true]
+	"1RRT3B4WC-1Q2BPQX-KT" [label="Symmetric 
+Encryption" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW8PYCR-46Y73N-25W" [label=Authentication fontsize=20 shape=none]
+	"1RRT3B4WC-1Q2BPQX-KT" -> "1RRW8PYCR-46Y73N-25W" [constraint=true]
+	"1RRWDF2YP-G81LM1-6C3" [label="Secure hash 
+algorithm 
+(SHA) is most 
+widely used 
+has algorithm
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWDGP7Y-1FHN5ND-6YP" [label="additional 
+secure hash 
+function applications
+" fontsize=20 shape=none]
+	"1RRWDF2YP-G81LM1-6C3" -> "1RRWDGP7Y-1FHN5ND-6YP" [constraint=true]
+	"1RRWMWY0Y-1HJ2RPH-BZ1" [label=includes fontsize=20 shape=none]
+	"1RRWMYBTT-10MWGGZ-C3J" [label="protects a 
+message without 
+first exchanging 
+the same secrety 
+key between 
+sender and 
+receiver" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWMWY0Y-1HJ2RPH-BZ1" -> "1RRWMYBTT-10MWGGZ-C3J" [constraint=true]
+	"1RRWN7SDJ-11NN1WK-DWG" [label="Random Number 
+Generator" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWNBRJY-1T4MG76-DY3" [label=includes fontsize=20 shape=none]
+	"1RRWN7SDJ-11NN1WK-DWG" -> "1RRWNBRJY-1T4MG76-DY3" [constraint=true]
+	"1RRWDGP7Y-1FHN5ND-6YP" [label="additional 
+secure hash 
+function applications
+" fontsize=20 shape=none]
+	"1RRWDJTNF-1JP2XR3-73K" [label="intrusion 
+detection 
+- store H(F) 
+for each file 
+on a system 
+and secure 
+the hash values
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWDGP7Y-1FHN5ND-6YP" -> "1RRWDJTNF-1JP2XR3-73K" [constraint=true]
+	"1RRT6YZG0-1QQWXYY-2WZ" [label=Topics fontsize=20 shape=none]
+	"1RRT3B4WC-1Q2BPQX-KT" [label="Symmetric 
+Encryption" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRT6YZG0-1QQWXYY-2WZ" -> "1RRT3B4WC-1Q2BPQX-KT" [constraint=true]
+	"1RRW90KRX-YFGVCF-2KD" [label="if it includes
+" fontsize=20 shape=none]
+	"1RRW90KRX-21JXKHT-2K9" [label="sequence number
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW90KRX-YFGVCF-2KD" -> "1RRW90KRX-21JXKHT-2K9" [constraint=true]
+	"1RRT7NYFH-1L8G2KC-3WT" [label="Data Encryption 
+Standard (DES)
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRT7WRQH-1KJS3M9-3YW" [label=includes fontsize=20 shape=none]
+	"1RRT7NYFH-1L8G2KC-3WT" -> "1RRT7WRQH-1KJS3M9-3YW" [constraint=true]
+	"1RRW9FRGL-235YVGV-2YJ" [label="other needs
+" fontsize=20 shape=none]
+	"1RRW9JS9F-16TSF9R-33B" [label="Reordering 
+does not effect 
+decryption 
+of blocks" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW9FRGL-235YVGV-2YJ" -> "1RRW9JS9F-16TSF9R-33B" [constraint=true]
+	"1RRT4PV2B-NT94Q4-18J" [label="Types of Attacks
+" fontsize=20 shape=none]
+	"1RRT4PV1T-1QD0R9X-18F" [label="Cryptanalytic 
+Attacks" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRT4PV2B-NT94Q4-18J" -> "1RRT4PV1T-1QD0R9X-18F" [constraint=true]
+	"1RRWD7W1W-1LGTQY5-60M" [label=attack fontsize=20 shape=none]
+	"1RRWD7W1W-1J9G234-60J" [label="cryptanalysis 
+- exploit 
+logical weaknesses 
+in the algorithm
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWD7W1W-1LGTQY5-60M" -> "1RRWD7W1W-1J9G234-60J" [constraint=true]
+	"1RRWMJBYP-3BT3JS-BBV" [label="Digital Signature
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWMM69L-3PVRFX-BHV" [label=includes fontsize=20 shape=none]
+	"1RRWMJBYP-3BT3JS-BBV" -> "1RRWMM69L-3PVRFX-BHV" [constraint=true]
+	"1RRT4PV2B-NT94Q4-18J" [label="Types of Attacks
+" fontsize=20 shape=none]
+	"1RRT4T0M8-1S76WCY-1FP" [label="Brute-Force 
+Attack" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRT4PV2B-NT94Q4-18J" -> "1RRT4T0M8-1S76WCY-1FP" [constraint=true]
+	"1RRW9TN17-J2KG77-3R6" [label=function fontsize=20 shape=none]
+	"1RRWB1DQD-HW03Z0-40F" [label="Where encryption 
+is not required
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW9TN17-J2KG77-3R6" -> "1RRWB1DQD-HW03Z0-40F" [constraint=true]
+	"1RRW8PYCR-10QYCSV-25S" [label="Only sender 
+and receiver 
+have the key
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW8S5DD-23F0GR-290" [label=attributes fontsize=20 shape=none]
+	"1RRW8PYCR-10QYCSV-25S" -> "1RRW8S5DD-23F0GR-290" [constraint=true]
+	"1RRWN7SDJ-11NN1WK-DWG" [label="Random Number 
+Generator" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWNTC70-G90WSL-FW6" [label=TRNG fontsize=20 shape=none]
+	"1RRWN7SDJ-11NN1WK-DWG" -> "1RRWNTC70-G90WSL-FW6" [constraint=true]
+	"1RRW7XG4L-T820X1-1HS" [label="can use conventional 
+encryption" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW7YP31-1Z49LN2-1KJ" [label="who has key
+" fontsize=20 shape=none]
+	"1RRW7XG4L-T820X1-1HS" -> "1RRW7YP31-1Z49LN2-1KJ" [constraint=true]
+	"1RRT4PV1T-1QD0R9X-18F" [label="Cryptanalytic 
+Attacks" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRT56Z5C-YGYXPL-1HF" [label="Relies on" fontsize=20 shape=none]
+	"1RRT4PV1T-1QD0R9X-18F" -> "1RRT56Z5C-YGYXPL-1HF" [constraint=true]
+	"1RRT3B4WC-1Q2BPQX-KT" [label="Symmetric 
+Encryption" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRT3YQT1-2DHSBYP-NV" [label="What it is
+" fontsize=20 shape=none]
+	"1RRT3B4WC-1Q2BPQX-KT" -> "1RRT3YQT1-2DHSBYP-NV" [constraint=true]
+	"1RRWNPMTT-XM56CJ-FN0" [label=versus fontsize=20 shape=none]
+	"1RRWNPMT9-62W0GM-FMX" [label=Pseudorandom fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWNPMTT-XM56CJ-FN0" -> "1RRWNPMT9-62W0GM-FMX" [constraint=true]
+	"1RRWNKJT6-1YPR02F-FD8" [label=defined fontsize=20 shape=none]
+	"1RRWNKJT6-1QVL0HP-FD5" [label="no one value 
+in the sequence 
+can be inferred 
+from the others
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWNKJT6-1YPR02F-FD8" -> "1RRWNKJT6-1QVL0HP-FD5" [constraint=true]
+	"1RRW9FRGL-235YVGV-2YJ" [label="other needs
+" fontsize=20 shape=none]
+	"1RRW9FRGL-1NFJV85-2YF" [label="In block cipher, 
+reorder of 
+blocks in 
+ciphertext 
+may alter 
+the meaning 
+of overall 
+data sequence
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW9FRGL-235YVGV-2YJ" -> "1RRW9FRGL-1NFJV85-2YF" [constraint=true]
+	"1RRT5JC1Q-4GXF4P-1Q6" [label=exploit fontsize=20 shape=none]
+	"1RRT5JC1Q-NPX10Q-1Q3" [label="characteristics 
+of the algorithm 
+to attempt 
+to deduce 
+a specific 
+plaintext 
+or the key 
+being used 
+if successful, 
+all future 
+and past messages 
+encrypted 
+with that 
+key are compromised
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRT5JC1Q-4GXF4P-1Q6" -> "1RRT5JC1Q-NPX10Q-1Q3" [constraint=true]
+	"1RRT6YZG0-1QQWXYY-2WZ" [label=Topics fontsize=20 shape=none]
+	"1RRW7L1JY-16205QV-18Y" [label="Message Authentication
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRT6YZG0-1QQWXYY-2WZ" -> "1RRW7L1JY-16205QV-18Y" [constraint=true]
+	"1RRWNPMT9-62W0GM-FMX" [label=Pseudorandom fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWNR5CM-1QS007F-FPW" [label=Defined fontsize=20 shape=none]
+	"1RRWNPMT9-62W0GM-FMX" -> "1RRWNR5CM-1QS007F-FPW" [constraint=true]
+	"1RRT75FP0-5YW5JG-334" [label=defined fontsize=20 shape=none]
+	"1RRT75FP0-23W9L1C-331" [label="Processes 
+the input 
+one block 
+of elements 
+at a time 
+and produces 
+an output 
+block for 
+each input 
+block and 
+keys can be 
+reused" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRT75FP0-5YW5JG-334" -> "1RRT75FP0-23W9L1C-331" [constraint=true]
+	"1RRT7CV18-26GMDFF-3GQ" [label=Advantages fontsize=20 shape=none]
+	"1RRT7JFSX-1CY7QRV-3M8" [label="Pseudorandom 
+stream is 
+one that is 
+unpredictable 
+without knowledge 
+of the input 
+key" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRT7CV18-26GMDFF-3GQ" -> "1RRT7JFSX-1CY7QRV-3M8" [constraint=true]
+	"1RRT859T0-1FHZXM8-4H3" [label="Triple DES 
+(3DES)" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRT8DK1M-P03B44-4P5" [label=Attraction fontsize=20 shape=none]
+	"1RRT859T0-1FHZXM8-4H3" -> "1RRT8DK1M-P03B44-4P5" [constraint=true]
+	"1RRW7WHVB-13WCTCP-1FD" [label="verifies that 
+the received 
+message is 
+authentic" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW7ZY26-LPCGKJ-1NF" [label="how it should 
+work" fontsize=20 shape=none]
+	"1RRW7WHVB-13WCTCP-1FD" -> "1RRW7ZY26-LPCGKJ-1NF" [constraint=true]
+	"1RRT8CB4M-2CJGVYR-4KD" [label="How it works
+" fontsize=20 shape=none]
+	"1RRT8CB4M-1YB08XQ-4K9" [label="Repeats basic 
+DES algorithm 
+three times 
+using either 
+two or three 
+unique keys
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRT8CB4M-2CJGVYR-4KD" -> "1RRT8CB4M-1YB08XQ-4K9" [constraint=true]
+	"1RRWD7W1W-1LGTQY5-60M" [label=attack fontsize=20 shape=none]
+	"1RRWD9DW9-1C4ZC77-64H" [label="brute-force 
+attack - strength 
+of has function 
+depends solely 
+on the length 
+of the hash 
+code produced 
+by the algorithm
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWD7W1W-1LGTQY5-60M" -> "1RRWD9DW9-1C4ZC77-64H" [constraint=true]
+	"1RRT859T0-1FHZXM8-4H3" [label="Triple DES 
+(3DES)" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRT8CB4M-2CJGVYR-4KD" [label="How it works
+" fontsize=20 shape=none]
+	"1RRT859T0-1FHZXM8-4H3" -> "1RRT8CB4M-2CJGVYR-4KD" [constraint=true]
+	"1RRWMWY0Y-1HJ2RPH-BZ1" [label=includes fontsize=20 shape=none]
+	"1RRWMWY0Y-THG0NB-BYY" [label="Symmetric 
+encryption 
+requires exchagning 
+keys before 
+sending/receiving 
+messages securely
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWMWY0Y-1HJ2RPH-BZ1" -> "1RRWMWY0Y-THG0NB-BYY" [constraint=true]
+	"1RRT859T0-1FHZXM8-4H3" [label="Triple DES 
+(3DES)" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRT8GQN5-1XRHTSQ-4WJ" [label=Drawbacks fontsize=20 shape=none]
+	"1RRT859T0-1FHZXM8-4H3" -> "1RRT8GQN5-1XRHTSQ-4WJ" [constraint=true]
+	"1RRW90KRX-YFGVCF-2KD" [label="if it includes
+" fontsize=20 shape=none]
+	"1RRW90Z1Z-10TZ1F2-2LV" [label="error detection 
+cod" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW90KRX-YFGVCF-2KD" -> "1RRW90Z1Z-10TZ1F2-2LV" [constraint=true]
+	"1RRWFFHX7-7YSRV9-8JM" [label="Public Key
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWMJBYP-7MH3RV-BBY" [label=applications fontsize=20 shape=none]
+	"1RRWFFHX7-7YSRV9-8JM" -> "1RRWMJBYP-7MH3RV-BBY" [constraint=true]
+	"1RRW732QK-1BCPK6T-NX" [label="Improvements 
+from 3DES" fontsize=20 shape=none]
+	"1RRW73X9F-1MD3VG8-RS" [label="Improved efficieny
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW732QK-1BCPK6T-NX" -> "1RRW73X9F-1MD3VG8-RS" [constraint=true]
+	"1RRW7V4LT-XYH87P-1B8" [label="how it should 
+work" fontsize=20 shape=none]
+	"1RRW7XG4L-T820X1-1HS" [label="can use conventional 
+encryption" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW7V4LT-XYH87P-1B8" -> "1RRW7XG4L-T820X1-1HS" [constraint=true]
+	"1RRW7YP31-1Z49LN2-1KJ" [label="who has key
+" fontsize=20 shape=none]
+	"1RRW7YP2J-SDLGPN-1KF" [label="only sender 
+and receiver 
+share a key
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW7YP31-1Z49LN2-1KJ" -> "1RRW7YP2J-SDLGPN-1KF" [constraint=true]
+	"1RRT5S56F-HPVJMP-1Z0" [label="how it works
+" fontsize=20 shape=none]
+	"1RRT5S56F-1J4G13K-1YX" [label="Try all possible 
+keys on some 
+ciphertext 
+until an intelligible 
+translation 
+into plaintext 
+is obtained. 
+On average 
+half of all 
+possible keys 
+must be tried 
+to achieve 
+success" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRT5S56F-HPVJMP-1Z0" -> "1RRT5S56F-1J4G13K-1YX" [constraint=true]
+	"1RRWMPXT3-2CGMFXC-BPJ" [label="Does not provide 
+confidentiality" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWMSRSZ-1W5RX49-BRD" [label=reason fontsize=20 shape=none]
+	"1RRWMPXT3-2CGMFXC-BPJ" -> "1RRWMSRSZ-1W5RX49-BRD" [constraint=true]
+	"1RRW8PYCR-46Y73N-25W" [label=Authentication fontsize=20 shape=none]
+	"1RRW9SV0J-NSRQSC-3P3" [label="Authentication 
+without Message 
+Encryption" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW8PYCR-46Y73N-25W" -> "1RRW9SV0J-NSRQSC-3P3" [constraint=true]
+	"1RRWMJBYP-7MH3RV-BBY" [label=applications fontsize=20 shape=none]
+	"1RRWMJBYP-3BT3JS-BBV" [label="Digital Signature
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWMJBYP-7MH3RV-BBY" -> "1RRWMJBYP-3BT3JS-BBV" [constraint=true]
+	"1RRWNTC70-G90WSL-FW6" [label=TRNG fontsize=20 shape=none]
+	"1RRWNTC70-1R8H09L-FW3" [label="True Random 
+Number Generator
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWNTC70-G90WSL-FW6" -> "1RRWNTC70-1R8H09L-FW3" [constraint=true]
+	"1RRWB6B69-1706FGS-4BD" [label=aside fontsize=20 shape=none]
+	"1RRWB6B69-1G69Q1Y-4B9" [label="Notification 
+to users that 
+network is 
+unavailable" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWB6B69-1706FGS-4BD" -> "1RRWB6B69-1G69Q1Y-4B9" [constraint=true]
+	"1RRT7CV18-26GMDFF-3GQ" [label=Advantages fontsize=20 shape=none]
+	"1RRT7HBMN-RMP1JB-3KF" [label="Encrypts plaintext 
+one byte at 
+a time" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRT7CV18-26GMDFF-3GQ" -> "1RRT7HBMN-RMP1JB-3KF" [constraint=true]
+	"1RRW732QK-1BCPK6T-NX" [label="Improvements 
+from 3DES" fontsize=20 shape=none]
+	"1RRW75PZR-1NR59N9-VN" [label="128 bit data 
+block and 
+128/192/256 
+bit keys" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW732QK-1BCPK6T-NX" -> "1RRW75PZR-1NR59N9-VN" [constraint=true]
+	"1RRW7ZY26-LPCGKJ-1NF" [label="how it should 
+work" fontsize=20 shape=none]
+	"1RRW8K634-10NPRH2-1QQ" [label="from authentic 
+sources" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW7ZY26-LPCGKJ-1NF" -> "1RRW8K634-10NPRH2-1QQ" [constraint=true]
+	"1RRT78WBW-214J5VQ-39P" [label=Defined fontsize=20 shape=none]
+	"1RRT78WBW-1C0LH5J-39L" [label="Processes 
+the input 
+elements continuously 
+and produces 
+output one 
+element at 
+a time" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRT78WBW-214J5VQ-39P" -> "1RRT78WBW-1C0LH5J-39L" [constraint=true]
+	"1RRT5WXFS-N1VV8W-274" [label="Requirements 
+for secure 
+use" fontsize=20 shape=none]
+	"1RRT5WXFS-1FHC0PF-271" [label="Need a strong 
+algorithm 
+If the attacker 
+knows the 
+alogrithm 
+and has access 
+to few ciphertexts 
+he is still 
+unable to 
+decipher the 
+text or figure 
+out the key
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRT5WXFS-N1VV8W-274" -> "1RRT5WXFS-1FHC0PF-271" [constraint=true]
+	"1RRWMM69L-3PVRFX-BHV" [label=includes fontsize=20 shape=none]
+	"1RRWMMYND-2DCR0RG-BLR" [label="Created by 
+encrypting 
+hash code 
+with privatte 
+key" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWMM69L-3PVRFX-BHV" -> "1RRWMMYND-2DCR0RG-BLR" [constraint=true]
+	"1RRWF352Z-DMZWTH-7XT" [label=includes fontsize=20 shape=none]
+	"1RRWF352Z-23SQC2D-7XQ" [label="Use of two 
+separate keys 
+(asymmetric) 
+public and 
+private key
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWF352Z-DMZWTH-7XT" -> "1RRWF352Z-23SQC2D-7XQ" [constraint=true]
+	"1RRWCPM0R-KQPF45-4SV" [label=Usage fontsize=20 shape=none]
+	"1RRWCRZ2X-6J8VVP-4XX" [label="produces a 
+fixed-length 
+output" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWCPM0R-KQPF45-4SV" -> "1RRWCRZ2X-6J8VVP-4XX" [constraint=true]
+	"1RRW9C10P-Y2GN49-2VY" [label="Encryption 
+is not alone 
+suitable for 
+data authentication
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW9FRGL-235YVGV-2YJ" [label="other needs
+" fontsize=20 shape=none]
+	"1RRW9C10P-Y2GN49-2VY" -> "1RRW9FRGL-235YVGV-2YJ" [constraint=true]
+	"1RRT3B4WC-1Q2BPQX-KT" [label="Symmetric 
+Encryption" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRT4PV2B-NT94Q4-18J" [label="Types of Attacks
+" fontsize=20 shape=none]
+	"1RRT3B4WC-1Q2BPQX-KT" -> "1RRT4PV2B-NT94Q4-18J" [constraint=true]
+	"1RRWCPYSF-X318H1-4TN" [label=Security fontsize=20 shape=none]
+	"1RRWDF2YP-G81LM1-6C3" [label="Secure hash 
+algorithm 
+(SHA) is most 
+widely used 
+has algorithm
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWCPYSF-X318H1-4TN" -> "1RRWDF2YP-G81LM1-6C3" [constraint=true]
+	"1RRWNKJT6-1YPR02F-FD8" [label=defined fontsize=20 shape=none]
+	"1RRWNLG89-2C1FGJK-FH6" [label="opponent should 
+not be able 
+to predict 
+future elements 
+of the sequence 
+on the basis 
+of earlier 
+elements" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWNKJT6-1YPR02F-FD8" -> "1RRWNLG89-2C1FGJK-FH6" [constraint=true]
+	"1RRW732QK-1BCPK6T-NX" [label="Improvements 
+from 3DES" fontsize=20 shape=none]
+	"1RRW7572K-CL6NLT-TD" [label="Symmetric 
+Block cipher
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW732QK-1BCPK6T-NX" -> "1RRW7572K-CL6NLT-TD" [constraint=true]
+	"1RRWFG88K-1C27JND-8M4" [label=includes fontsize=20 shape=none]
+	"1RRWFW8WD-9Z5HCX-8QF" [label="Anyone who 
+knows the 
+corresponding 
+public key 
+will be able 
+to decrypt 
+the message
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWFG88K-1C27JND-8M4" -> "1RRWFW8WD-9Z5HCX-8QF" [constraint=true]
+	"1RRWB2BK1-1M4RR7L-42B" [label="Same message 
+is broadcast 
+to number 
+of destinations
+" fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RRWB2BK1-1C7B2NV-42F" [label=example fontsize=20 shape=none]
+	"1RRWB2BK1-1M4RR7L-42B" -> "1RRWB2BK1-1C7B2NV-42F" [constraint=true]
+	"1RRT6YZG0-1QQWXYY-2WZ" [label=Topics fontsize=20 shape=none]
+	"1RRWN7SDJ-11NN1WK-DWG" [label="Random Number 
+Generator" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRT6YZG0-1QQWXYY-2WZ" -> "1RRWN7SDJ-11NN1WK-DWG" [constraint=true]
+	"1RRT6YZG0-1QQWXYY-2WZ" [label=Topics fontsize=20 shape=none]
+	"1RRT7NYFH-1L8G2KC-3WT" [label="Data Encryption 
+Standard (DES)
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRT6YZG0-1QQWXYY-2WZ" -> "1RRT7NYFH-1L8G2KC-3WT" [constraint=true]
+	"1RRWNGHFR-1VWDT8X-F56" [label="Uniform distribution
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWNJ3CP-10PGYS7-F8B" [label=defined fontsize=20 shape=none]
+	"1RRWNGHFR-1VWDT8X-F56" -> "1RRWNJ3CP-10PGYS7-F8B" [constraint=true]
+	"1RRW8PYCR-46Y73N-25W" [label=Authentication fontsize=20 shape=none]
+	"1RRW8PYCR-10QYCSV-25S" [label="Only sender 
+and receiver 
+have the key
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW8PYCR-46Y73N-25W" -> "1RRW8PYCR-10QYCSV-25S" [constraint=true]
+	"1RRWMM69L-3PVRFX-BHV" [label=includes fontsize=20 shape=none]
+	"1RRWMM69L-9V211X-BHR" [label="used for authenticating 
+both source 
+and data integrity
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWMM69L-3PVRFX-BHV" -> "1RRWMM69L-9V211X-BHR" [constraint=true]
+	"1RRW8VRRW-25Y29TM-2GQ" [label="Message integrity 
+can be checked 
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW90KRX-YFGVCF-2KD" [label="if it includes
+" fontsize=20 shape=none]
+	"1RRW8VRRW-25Y29TM-2GQ" -> "1RRW90KRX-YFGVCF-2KD" [constraint=true]
+	"1RRT43NKB-28GH506-Y8" [label=Model fontsize=20 shape=none]
+	"1RRT4NFMW-S0V33P-16H" [label="Secret key 
+share by sender 
+and recipient
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRT43NKB-28GH506-Y8" -> "1RRT4NFMW-S0V33P-16H" [constraint=true]
+	"1RRWNTC70-1R8H09L-FW3" [label="True Random 
+Number Generator
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWNW36X-1TBH7XQ-FYM" [label=attributes fontsize=20 shape=none]
+	"1RRWNTC70-1R8H09L-FW3" -> "1RRWNW36X-1TBH7XQ-FYM" [constraint=true]
+	"1RRWMM69L-3PVRFX-BHV" [label=includes fontsize=20 shape=none]
+	"1RRWMPXT3-2CGMFXC-BPJ" [label="Does not provide 
+confidentiality" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWMM69L-3PVRFX-BHV" -> "1RRWMPXT3-2CGMFXC-BPJ" [constraint=true]
+	"1RRWN7SDJ-11NN1WK-DWG" [label="Random Number 
+Generator" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWNPMTT-XM56CJ-FN0" [label=versus fontsize=20 shape=none]
+	"1RRWN7SDJ-11NN1WK-DWG" -> "1RRWNPMTT-XM56CJ-FN0" [constraint=true]
+	"1RRWCPM0R-KQPF45-4SV" [label=Usage fontsize=20 shape=none]
+	"1RRWCPM0R-1C7M39R-4SR" [label="can be applied 
+to a block 
+of data of 
+any size" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWCPM0R-KQPF45-4SV" -> "1RRWCPM0R-1C7M39R-4SR" [constraint=true]
+	"1RRWF6CNR-1W78V9Z-835" [label="how it works
+" fontsize=20 shape=none]
+	"1RRWF6CNR-1YFYLT2-832" [label="Plain text 
+is sent to 
+encryption 
+algorithm 
+usnig the 
+public key 
+for encryption 
+which gets 
+put into ciphertext 
+and the receiver 
+decrypts the 
+message with 
+private key 
+Either key 
+can be used 
+to decrypt 
+and encrypt
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWF6CNR-1W78V9Z-835" -> "1RRWF6CNR-1YFYLT2-832" [constraint=true]
+	"1RRWCN3LP-156Q0TT-4R3" [label="Hash Function 
+Requirements" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWCPYSF-X318H1-4TN" [label=Security fontsize=20 shape=none]
+	"1RRWCN3LP-156Q0TT-4R3" -> "1RRWCPYSF-X318H1-4TN" [constraint=true]
+	"1RRW8S5DD-23F0GR-290" [label=attributes fontsize=20 shape=none]
+	"1RRW8S5DD-18B02F1-28X" [label="Genuine sender 
+can encrypt 
+the message 
+successfully" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW8S5DD-23F0GR-290" -> "1RRW8S5DD-18B02F1-28X" [constraint=true]
+	"1RRT7WRQH-1KJS3M9-3YW" [label=includes fontsize=20 shape=none]
+	"1RRT7YX73-1KBB9KZ-43K" [label="uses 64 bit 
+plaintext 
+block and 
+56 bit key 
+to produce 
+a 64 bit ciphertext 
+block" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRT7WRQH-1KJS3M9-3YW" -> "1RRT7YX73-1KBB9KZ-43K" [constraint=true]
+	"1RRWN0QVQ-1HN2HDG-C96" [label=includes fontsize=20 shape=none]
+	"1RRWN0QVQ-C9084D-C93" [label="Creating a 
+signed to 
+digital certificate 
+to verify 
+id" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWN0QVQ-1HN2HDG-C96" -> "1RRWN0QVQ-C9084D-C93" [constraint=true]
+	"1RRT7CV18-26GMDFF-3GQ" [label=Advantages fontsize=20 shape=none]
+	"1RRT7CV18-VQWLG9-3GM" [label="Almost always 
+faster and 
+use far less 
+code" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRT7CV18-26GMDFF-3GQ" -> "1RRT7CV18-VQWLG9-3GM" [constraint=true]
+	"1RRWMKD2M-1CTVYW4-BFC" [label=Certificates fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWN0QVQ-1HN2HDG-C96" [label=includes fontsize=20 shape=none]
+	"1RRWMKD2M-1CTVYW4-BFC" -> "1RRWN0QVQ-1HN2HDG-C96" [constraint=true]
+	"1RRWCPYSF-X318H1-4TN" [label=Security fontsize=20 shape=none]
+	"1RRWD6LP3-8CSMMY-5YB" [label="Two approaches 
+to attacking 
+a secure hash 
+function" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWCPYSF-X318H1-4TN" -> "1RRWD6LP3-8CSMMY-5YB" [constraint=true]
+	"1RRT56Z5C-YGYXPL-1HF" [label="Relies on" fontsize=20 shape=none]
+	"1RRT59MRS-1TJQ5XD-1N7" [label="Sample plaintext 
+ciphertext 
+pairs" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRT56Z5C-YGYXPL-1HF" -> "1RRT59MRS-1TJQ5XD-1N7" [constraint=true]
+	"1RRW8PYCR-46Y73N-25W" [label=Authentication fontsize=20 shape=none]
+	"1RRW9C10P-Y2GN49-2VY" [label="Encryption 
+is not alone 
+suitable for 
+data authentication
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW8PYCR-46Y73N-25W" -> "1RRW9C10P-Y2GN49-2VY" [constraint=true]
+	"1RRWMJBYP-7MH3RV-BBY" [label=applications fontsize=20 shape=none]
+	"1RRWMKD2M-1CTVYW4-BFC" [label=Certificates fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWMJBYP-7MH3RV-BBY" -> "1RRWMKD2M-1CTVYW4-BFC" [constraint=true]
+	"1RRT43NKB-28GH506-Y8" [label=Model fontsize=20 shape=none]
+	"1RRT43NKB-1W5X50G-Y5" [label="Plaintext 
+gets sent 
+to an encryption 
+algorithm 
+and transmitted 
+to recipient 
+as cipher 
+text and decrypted 
+back to plaintext
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRT43NKB-28GH506-Y8" -> "1RRT43NKB-1W5X50G-Y5" [constraint=true]
+	"1RRWB42NH-2BW5D7Y-45R" [label="One side has 
+heavy load 
+and cannot 
+afford the 
+time to decrypt 
+all the incoming 
+messages" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWB8973-18X9SPD-4H4" [label=aside fontsize=20 shape=none]
+	"1RRWB42NH-2BW5D7Y-45R" -> "1RRWB8973-18X9SPD-4H4" [constraint=true]
+	"1RRWNGHFR-1WGGQ5W-F59" [label=Requirments fontsize=20 shape=none]
+	"1RRWNGHFR-1VWDT8X-F56" [label="Uniform distribution
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWNGHFR-1WGGQ5W-F59" -> "1RRWNGHFR-1VWDT8X-F56" [constraint=true]
+	"1RRT56Z5C-YGYXPL-1HF" [label="Relies on" fontsize=20 shape=none]
+	"1RRT57Y2P-1GXJ67S-1KF" [label="Some knowledge 
+of the general 
+characteristics 
+of the plaintext
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRT56Z5C-YGYXPL-1HF" -> "1RRT57Y2P-1GXJ67S-1KF" [constraint=true]
+	"1RRT7NYFH-1L8G2KC-3WT" [label="Data Encryption 
+Standard (DES)
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRT859T0-FC4WTF-4H6" [label=evolved fontsize=20 shape=none]
+	"1RRT7NYFH-1L8G2KC-3WT" -> "1RRT859T0-FC4WTF-4H6" [constraint=true]
+	"1RRWMBHJM-6S4V52-9HZ" [label=includes fontsize=20 shape=none]
+	"1RRWMBHJM-1VSNLJD-9HW" [label="sender encrypts 
+data using 
+receiver's 
+public key
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWMBHJM-6S4V52-9HZ" -> "1RRWMBHJM-1VSNLJD-9HW" [constraint=true]
+	"1RRT6YZG0-1QQWXYY-2WZ" [label=Topics fontsize=20 shape=none]
+	"1RRWCN3LP-156Q0TT-4R3" [label="Hash Function 
+Requirements" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRT6YZG0-1QQWXYY-2WZ" -> "1RRWCN3LP-156Q0TT-4R3" [constraint=true]
+	"1RRWB2BK1-1M4RR7L-42B" [label="Same message 
+is broadcast 
+to number 
+of destinations
+" fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RRWB6B69-1706FGS-4BD" [label=aside fontsize=20 shape=none]
+	"1RRWB2BK1-1M4RR7L-42B" -> "1RRWB6B69-1706FGS-4BD" [constraint=true]
+	"1RRW9TN17-J2KG77-3R6" [label=function fontsize=20 shape=none]
+	"1RRW9Z4BC-LXFJBG-3WB" [label="Message itself 
+is not encrypted 
+and can be 
+read at the 
+destination 
+without authentication 
+function" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW9TN17-J2KG77-3R6" -> "1RRW9Z4BC-LXFJBG-3WB" [constraint=true]
+	"1RRT8DK1M-P03B44-4P5" [label=Attraction fontsize=20 shape=none]
+	"1RRT8DK1M-1GXQDWN-4P2" [label="112 or 168 
+bit key length 
+overcomes 
+th vulnerability 
+to brute-forec 
+attack of 
+DES" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRT8DK1M-P03B44-4P5" -> "1RRT8DK1M-1GXQDWN-4P2" [constraint=true]
+	"1RRW70Y4J-1RHT32B-DV" [label="Replacement 
+Needed" fontsize=20 shape=none]
+	"1RRW70Y4J-Y95ZY7-DR" [label="Advanced Encryption 
+Standard(AES)" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW70Y4J-1RHT32B-DV" -> "1RRW70Y4J-Y95ZY7-DR" [constraint=true]
+	"1RRWNBRJY-1T4MG76-DY3" [label=includes fontsize=20 shape=none]
+	"1RRWNBRJF-44HWL1-DY0" [label="Keys for public-key 
+algorithms, 
+stream key 
+for symmetric 
+stream cipher, 
+symmetric 
+key for use 
+as a temporary 
+session key 
+or in creating 
+a digital 
+envelope, 
+session key
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWNBRJY-1T4MG76-DY3" -> "1RRWNBRJF-44HWL1-DY0" [constraint=true]
+	"1RRWNJ3CP-10PGYS7-F8B" [label=defined fontsize=20 shape=none]
+	"1RRWNJ3CP-TMMX37-F87" [label="frequency 
+of occurrence 
+of each of 
+the numbers 
+should be 
+approximately 
+the same " fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWNJ3CP-10PGYS7-F8B" -> "1RRWNJ3CP-TMMX37-F87" [constraint=true]
+	"1RRWCPM0R-KQPF45-4SV" [label=Usage fontsize=20 shape=none]
+	"1RRWCSSN8-2BFQH9D-4ZN" [label="H(x) is relatively 
+easy to compute 
+for any given 
+x" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWCPM0R-KQPF45-4SV" -> "1RRWCSSN8-2BFQH9D-4ZN" [constraint=true]
+	"1RRWB1DQD-HW03Z0-40F" [label="Where encryption 
+is not required
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWB2BK1-1C7B2NV-42F" [label=example fontsize=20 shape=none]
+	"1RRWB1DQD-HW03Z0-40F" -> "1RRWB2BK1-1C7B2NV-42F" [constraint=true]
+	"1RRWD6LP3-8CSMMY-5YB" [label="Two approaches 
+to attacking 
+a secure hash 
+function" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWD7W1W-1LGTQY5-60M" [label=attack fontsize=20 shape=none]
+	"1RRWD6LP3-8CSMMY-5YB" -> "1RRWD7W1W-1LGTQY5-60M" [constraint=true]
+	"1RRWFFHX7-25QSX60-8JQ" [label=Encryption fontsize=20 shape=none]
+	"1RRWFFHX7-7YSRV9-8JM" [label="Public Key
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWFFHX7-25QSX60-8JQ" -> "1RRWFFHX7-7YSRV9-8JM" [constraint=true]
+	"1RRW8PYCR-46Y73N-25W" [label=Authentication fontsize=20 shape=none]
+	"1RRW94Q3B-1YPW4Z5-2NW" [label="Message delay 
+beyond normal 
+expectation 
+can be checked 
+if it includes 
+time stamp
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW8PYCR-46Y73N-25W" -> "1RRW94Q3B-1YPW4Z5-2NW" [constraint=true]
+	"1RRT6YZG0-1QQWXYY-2WZ" [label=Topics fontsize=20 shape=none]
+	"1RRT74GRJ-NQFVGX-31P" [label="Block Cipher 
+Encryption" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRT6YZG0-1QQWXYY-2WZ" -> "1RRT74GRJ-NQFVGX-31P" [constraint=true]
+	"1RRT3YQT1-2DHSBYP-NV" [label="What it is
+" fontsize=20 shape=none]
+	"1RRT40ZMW-27LF1QF-TX" [label="Referred to 
+as conventional 
+encryption 
+or single-key 
+encryption" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRT3YQT1-2DHSBYP-NV" -> "1RRT40ZMW-27LF1QF-TX" [constraint=true]
+	"1RRWN7SDJ-11NN1WK-DWG" [label="Random Number 
+Generator" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWNGHFR-1WGGQ5W-F59" [label=Requirments fontsize=20 shape=none]
+	"1RRWN7SDJ-11NN1WK-DWG" -> "1RRWNGHFR-1WGGQ5W-F59" [constraint=true]
+	"1RRWMBHJM-6S4V52-9HZ" [label=includes fontsize=20 shape=none]
+	"1RRWMDKN1-5VZYSZ-9PP" [label="provides confidentiality
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWMBHJM-6S4V52-9HZ" -> "1RRWMDKN1-5VZYSZ-9PP" [constraint=true]
+	"1RRW7V4LT-XYH87P-1B8" [label="how it should 
+work" fontsize=20 shape=none]
+	"1RRW7V4LT-ZRP4CR-1B5" [label="protects against 
+active attacks
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW7V4LT-XYH87P-1B8" -> "1RRW7V4LT-ZRP4CR-1B5" [constraint=true]
+	"1RRW8S5DD-23F0GR-290" [label=attributes fontsize=20 shape=none]
+	"1RRW8TBCV-LGKFYK-2D8" [label="Receiver can 
+decrypt and 
+recognize 
+the original 
+message" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW8S5DD-23F0GR-290" -> "1RRW8TBCV-LGKFYK-2D8" [constraint=true]
+	"1RRW7ZY26-LPCGKJ-1NF" [label="how it should 
+work" fontsize=20 shape=none]
+	"1RRW7ZY26-L1WZ87-1NB" [label="contents have 
+not been altered
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW7ZY26-LPCGKJ-1NF" -> "1RRW7ZY26-L1WZ87-1NB" [constraint=true]
+	"1RRWNHPT1-ZDCX0J-F79" [label=Independence fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWNKJT6-1YPR02F-FD8" [label=defined fontsize=20 shape=none]
+	"1RRWNHPT1-ZDCX0J-F79" -> "1RRWNKJT6-1YPR02F-FD8" [constraint=true]
+	"1RRWFFHX7-7YSRV9-8JM" [label="Public Key
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWMBHJM-6S4V52-9HZ" [label=includes fontsize=20 shape=none]
+	"1RRWFFHX7-7YSRV9-8JM" -> "1RRWMBHJM-6S4V52-9HZ" [constraint=true]
+	"1RRW70Y4J-Y95ZY7-DR" [label="Advanced Encryption 
+Standard(AES)" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW732QK-1BCPK6T-NX" [label="Improvements 
+from 3DES" fontsize=20 shape=none]
+	"1RRW70Y4J-Y95ZY7-DR" -> "1RRW732QK-1BCPK6T-NX" [constraint=true]
+	"1RRWMJBYP-7MH3RV-BBY" [label=applications fontsize=20 shape=none]
+	"1RRWMLDQZ-8KQN1R-BGL" [label="Digital Envelopes
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWMJBYP-7MH3RV-BBY" -> "1RRWMLDQZ-8KQN1R-BGL" [constraint=true]
+	"1RRT8GQN5-1XRHTSQ-4WJ" [label=Drawbacks fontsize=20 shape=none]
+	"1RRT8GQN5-20S1K5L-4WF" [label="algorithm 
+is sluggish 
+in software 
+and uses a 
+64-bit block 
+size" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRT8GQN5-1XRHTSQ-4WJ" -> "1RRT8GQN5-20S1K5L-4WF" [constraint=true]
+	"1RRWDGP7Y-1FHN5ND-6YP" [label="additional 
+secure hash 
+function applications
+" fontsize=20 shape=none]
+	"1RRWDGP7F-2D9HTH2-6YL" [label="passwords 
+- hash of 
+a password 
+is stored 
+by an OS" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWDGP7Y-1FHN5ND-6YP" -> "1RRWDGP7F-2D9HTH2-6YL" [constraint=true]
+	"1RRWFFHX7-25QSX60-8JQ" [label=Encryption fontsize=20 shape=none]
+	"1RRWFFQCV-1NPCPG3-8KR" [label="Private key
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWFFHX7-25QSX60-8JQ" -> "1RRWFFQCV-1NPCPG3-8KR" [constraint=true]
+	"1RRWCPYSF-X318H1-4TN" [label=Security fontsize=20 shape=none]
+	"1RRWCZ95Q-25LPH58-59G" [label="It is computationally 
+infeasible 
+to find any 
+pair (x,y) 
+such that 
+H(x) = H(y)
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWCPYSF-X318H1-4TN" -> "1RRWCZ95Q-25LPH58-59G" [constraint=true]
+	"1RRT80YNV-5NM71Q-473" [label="Strength concerns
+" fontsize=20 shape=none]
+	"1RRT80YNV-GWRJBD-470" [label="DES is the 
+most studied 
+algorithm 
+existence" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRT80YNV-5NM71Q-473" -> "1RRT80YNV-GWRJBD-470" [constraint=true]
+	"1RRWMBHJM-6S4V52-9HZ" [label=includes fontsize=20 shape=none]
+	"1RRWMCNPL-149X1PM-9LY" [label="Receiver decrypts 
+the message 
+using his/her 
+corresponding 
+public key
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWMBHJM-6S4V52-9HZ" -> "1RRWMCNPL-149X1PM-9LY" [constraint=true]
+	"1RRWFG88K-1C27JND-8M4" [label=includes fontsize=20 shape=none]
+	"1RRWFG88K-16SJN9L-8M1" [label="user encrypts 
+data using 
+his or own 
+private key
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWFG88K-1C27JND-8M4" -> "1RRWFG88K-16SJN9L-8M1" [constraint=true]
+	"1RRT3B4WC-1Q2BPQX-KT" [label="Symmetric 
+Encryption" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRT5WXFS-N1VV8W-274" [label="Requirements 
+for secure 
+use" fontsize=20 shape=none]
+	"1RRT3B4WC-1Q2BPQX-KT" -> "1RRT5WXFS-N1VV8W-274" [constraint=true]
+	"1RRWB8973-18X9SPD-4H4" [label=aside fontsize=20 shape=none]
+	"1RRWB8973-2180WN8-4H1" [label="Authentication 
+can on selective 
+basis with 
+messages being 
+chosen randomly
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWB8973-18X9SPD-4H4" -> "1RRWB8973-2180WN8-4H1" [constraint=true]
+	"1RRWMSRSZ-1W5RX49-BRD" [label=reason fontsize=20 shape=none]
+	"1RRWMVBYQ-1Y6D6LB-BW8" [label="Message is 
+safe from 
+alteration 
+but not eavesdropping
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWMSRSZ-1W5RX49-BRD" -> "1RRWMVBYQ-1Y6D6LB-BW8" [constraint=true]
+	"1RRWMSRSZ-1W5RX49-BRD" [label=reason fontsize=20 shape=none]
+	"1RRWMSRSZ-VCGN9-BR9" [label="even in the 
+case of complete 
+encryption, 
+message can 
+be decrypted 
+using public 
+key" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWMSRSZ-1W5RX49-BRD" -> "1RRWMSRSZ-VCGN9-BR9" [constraint=true]
+	"1RRWNW36X-1TBH7XQ-FYM" [label=attributes fontsize=20 shape=none]
+	"1RRWNWXZT-19SKDY4-G1L" [label="Most operate 
+by measuring 
+unpredictable 
+natural processes
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRWNW36X-1TBH7XQ-FYM" -> "1RRWNWXZT-19SKDY4-G1L" [constraint=true]
+	"1RRT6SL4M-1WSQYJX-2KV" [label="Sender and 
+receiver must 
+have obtained 
+copies of 
+the secret 
+key in a secure 
+fashion and 
+must keep 
+the key secure
+" fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RRT5WXFS-N1VV8W-274" [label="Requirements 
+for secure 
+use" fontsize=20 shape=none]
+	"1RRT6SL4M-1WSQYJX-2KV" -> "1RRT5WXFS-N1VV8W-274" [constraint=true]
+	"1RRT7NYFH-1L8G2KC-3WT" [label="Data Encryption 
+Standard (DES)
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRT80YNV-5NM71Q-473" [label="Strength concerns
+" fontsize=20 shape=none]
+	"1RRT7NYFH-1L8G2KC-3WT" -> "1RRT80YNV-5NM71Q-473" [constraint=true]
+	"1RRW7ZY26-LPCGKJ-1NF" [label="how it should 
+work" fontsize=20 shape=none]
+	"1RRW8KPRJ-HXRX4B-1S1" [label="timely and 
+in correct 
+sequence" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRW7ZY26-LPCGKJ-1NF" -> "1RRW8KPRJ-HXRX4B-1S1" [constraint=true]
+	"1RRT74GRJ-NQFVGX-31P" [label="Block Cipher 
+Encryption" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RRT75FP0-5YW5JG-334" [label=defined fontsize=20 shape=none]
+	"1RRT74GRJ-NQFVGX-31P" -> "1RRT75FP0-5YW5JG-334" [constraint=true]
+	"1RRT31QQQ-1PPHGJW-FT" [label="Mathew Wells 
+UNO ID# 2433406 
+CSCI 5621 
+Cryptographic 
+Tools" fillcolor=white fontsize=20 shape=rect style=filled]
+	statictics [label="STATISTICS
+\lBranch:		74\lNode:		110\lLinking Phrase:	52\lOrphan:		1\lLeaf Node:	74\lPreposition:	107\lSub Map:		3\lAvg Word Per Concept:	9.14\l" Gsplines=true fillcolor="#F5FFFA" fontsize=20 shape=component style=filled]
+	file_info [label="CMAP Information
+
+\lTitle:	CTAnonymous1.cmap\lCreated:	2020-12-07T07:52:23-05:00\lModified:	2020-12-07T07:52:23-05:00\lLanguage:	en\lFormat:	x-cmap/x-storable\lPublisher:	FIHMC CmapTools 6.04\lWidth:	4795\lHeight:	1459\l" Gsplines=true fillcolor="#E6E6FA" fontsize=20 shape=tab style=filled]
+}

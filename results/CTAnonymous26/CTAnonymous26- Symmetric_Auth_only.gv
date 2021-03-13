@@ -1,0 +1,197 @@
+// The Round Table
+digraph {
+	Student [label="Student: CTAnonymous26" fillcolor=gold fontsize=20 shape=component style=filled]
+	"1RS2V38DP-G0MFK-9K2" [label="" fontsize=20 shape=none]
+	"1RS2V2436-2C3D0LM-9H3" [label="3DES" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS2V38DP-G0MFK-9K2" -> "1RS2V2436-2C3D0LM-9H3" [constraint=true]
+	"1RS2L2GHH-20YXZSB-117" [label="Storage Obligations
+" fontsize=20 shape=none]
+	"1RS2LB3WR-1751FMM-19Z" [label="Needs to be 
+stored in 
+secure place
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS2L2GHH-20YXZSB-117" -> "1RS2LB3WR-1751FMM-19Z" [constraint=true]
+	"1RS2K84DN-1CQ1KHK-Q1" [label="Symmetric 
+Encryption" fontsize=20 shape=none]
+	"1RS2V1134-12C5QHF-9G5" [label=Algorithms fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS2K84DN-1CQ1KHK-Q1" -> "1RS2V1134-12C5QHF-9G5" [constraint=true]
+	"1RS2L2GHH-20YXZSB-117" [label="Storage Obligations
+" fontsize=20 shape=none]
+	"1RS2L2GHF-TZV478-114" [label="Sender and 
+Receiver must 
+have key" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS2L2GHH-20YXZSB-117" -> "1RS2L2GHF-TZV478-114" [constraint=true]
+	"1RS2LYTYZ-17NTYN4-1YH" [label=Types fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS2M2WWY-6FJ2J0-218" [label="Block Cipher
+" fontsize=20 shape=none]
+	"1RS2LYTYZ-17NTYN4-1YH" -> "1RS2M2WWY-6FJ2J0-218" [constraint=true]
+	"1RS2V2436-2C3D0LM-9H3" [label="3DES" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS2V596L-1KK99GW-9LZ" [label="Same Algorithm
+" fontsize=20 shape=none]
+	"1RS2V2436-2C3D0LM-9H3" -> "1RS2V596L-1KK99GW-9LZ" [constraint=true]
+	"1RS2K84DN-1CQ1KHK-Q1" [label="Symmetric 
+Encryption" fontsize=20 shape=none]
+	"1RS2KBP90-1VCHMK8-S1" [label=Attacks fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS2K84DN-1CQ1KHK-Q1" -> "1RS2KBP90-1VCHMK8-S1" [constraint=true]
+	"1RS2KBWLQ-CBJXRK-T3" [label=Hashes fontsize=20 shape=none]
+	"1RS2KBWLN-194CKMR-T0" [label=Requirements fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS2KBWLQ-CBJXRK-T3" -> "1RS2KBWLN-194CKMR-T0" [constraint=true]
+	"1RS2M2WWY-6FJ2J0-218" [label="Block Cipher
+" fontsize=20 shape=none]
+	"1RS2MZ1NR-2CD5WCX-2HT" [label="Can reuse 
+keys" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS2M2WWY-6FJ2J0-218" -> "1RS2MZ1NR-2CD5WCX-2HT" [constraint=true]
+	"1RS2KBSL7-21YC0HT-SJ" [label=Requirements fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS2L2BZ1-DP6DSX-10F" [label=Algorithm fontsize=20 shape=none]
+	"1RS2KBSL7-21YC0HT-SJ" -> "1RS2L2BZ1-DP6DSX-10F" [constraint=true]
+	"1RS2LBXSQ-BV7KCS-1BN" [label="Brute Force
+" fontsize=20 shape=none]
+	"1RS2LBXSP-7T51TT-1BK" [label="Try all possible 
+keys on a 
+text to get 
+an intelligible 
+translation 
+is found" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS2LBXSQ-BV7KCS-1BN" -> "1RS2LBXSP-7T51TT-1BK" [constraint=true]
+	"1RS2M2WWY-6FJ2J0-218" [label="Block Cipher
+" fontsize=20 shape=none]
+	"1RS2M2WWW-1VXJM22-215" [label="Breaks the 
+input into 
+blocks and 
+encrypts the 
+input by using 
+some algorithm 
+with the key 
+and the input
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS2M2WWY-6FJ2J0-218" -> "1RS2M2WWW-1VXJM22-215" [constraint=true]
+	"1RS2KBWLQ-CBJXRK-T3" [label=Hashes fontsize=20 shape=none]
+	"1RS2WM7KJ-WVF051-9XX" [label=SHA fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS2KBWLQ-CBJXRK-T3" -> "1RS2WM7KJ-WVF051-9XX" [constraint=true]
+	"1RS2L2BZ1-DP6DSX-10F" [label=Algorithm fontsize=20 shape=none]
+	"1RS2L2BYY-1FLR75C-10B" [label="Hard to reverse 
+engineer key
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS2L2BZ1-DP6DSX-10F" -> "1RS2L2BYY-1FLR75C-10B" [constraint=true]
+	"1RS2WQSY5-SCXPZJ-9Z1" [label=Security fontsize=20 shape=none]
+	"1RS2WRTR8-25X0XK5-B0R" [label="Given h it 
+is infeasible 
+to find x 
+such that 
+H(x)=h " fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS2WQSY5-SCXPZJ-9Z1" -> "1RS2WRTR8-25X0XK5-B0R" [constraint=true]
+	"1RS2K84DN-1CQ1KHK-Q1" [label="Symmetric 
+Encryption" fontsize=20 shape=none]
+	"1RS2K84DK-1JRVQRW-PY" [label="\"Conventional\" 
+or \"Single-key\" 
+encryption" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS2K84DN-1CQ1KHK-Q1" -> "1RS2K84DK-1JRVQRW-PY" [constraint=true]
+	"1RS2KBWLN-194CKMR-T0" [label=Requirements fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS2X3VYS-1FCR2ZG-BBG" [label=Usage fontsize=20 shape=none]
+	"1RS2KBWLN-194CKMR-T0" -> "1RS2X3VYS-1FCR2ZG-BBG" [constraint=true]
+	"1RS2V596L-1KK99GW-9LZ" [label="Same Algorithm
+" fontsize=20 shape=none]
+	"1RS2V32CB-T1M16X-9JD" [label=DES fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS2V596L-1KK99GW-9LZ" -> "1RS2V32CB-T1M16X-9JD" [constraint=true]
+	"1RS2X3VYS-1FCR2ZG-BBG" [label=Usage fontsize=20 shape=none]
+	"1RS2X4HND-29RFWCH-BCD" [label="Data can be 
+any size" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS2X3VYS-1FCR2ZG-BBG" -> "1RS2X4HND-29RFWCH-BCD" [constraint=true]
+	"1RS2WQSY5-SCXPZJ-9Z1" [label=Security fontsize=20 shape=none]
+	"1RS2X0GZ6-HF70FW-B8M" [label="It is infeasible 
+to find any 
+pair (x, y) 
+such that 
+H(x) = H(y)
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS2WQSY5-SCXPZJ-9Z1" -> "1RS2X0GZ6-HF70FW-B8M" [constraint=true]
+	"1RS2K84DN-1CQ1KHK-Q1" [label="Symmetric 
+Encryption" fontsize=20 shape=none]
+	"1RS2LYTYZ-17NTYN4-1YH" [label=Types fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS2K84DN-1CQ1KHK-Q1" -> "1RS2LYTYZ-17NTYN4-1YH" [constraint=true]
+	"1RS2WQSY5-SCXPZJ-9Z1" [label=Security fontsize=20 shape=none]
+	"1RS2WQSY3-65BTXK-9YY" [label="Given x, it 
+is infeasible 
+to find y 
+≠ x such that 
+H(y) = H(x)
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS2WQSY5-SCXPZJ-9Z1" -> "1RS2WQSY3-65BTXK-9YY" [constraint=true]
+	"1RS2M32N8-1LSHJX4-222" [label="Stream Cipher
+" fontsize=20 shape=none]
+	"1RS2M32N7-Q54PKV-21Z" [label="Key is used 
+as a seed 
+for a pseudorandom 
+number generator
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS2M32N8-1LSHJX4-222" -> "1RS2M32N7-Q54PKV-21Z" [constraint=true]
+	"1RS2KBSL7-21YC0HT-SJ" [label=Requirements fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS2L2GHH-20YXZSB-117" [label="Storage Obligations
+" fontsize=20 shape=none]
+	"1RS2KBSL7-21YC0HT-SJ" -> "1RS2L2GHH-20YXZSB-117" [constraint=true]
+	"1RS2M32N8-1LSHJX4-222" [label="Stream Cipher
+" fontsize=20 shape=none]
+	"1RS2MZH3L-1CHWR08-2JW" [label="Contiuously 
+processes 
+the input 
+elements" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS2M32N8-1LSHJX4-222" -> "1RS2MZH3L-1CHWR08-2JW" [constraint=true]
+	"1RS2LC2MT-21PNNNC-1CH" [label=Cryptanalytic fontsize=20 shape=none]
+	"1RS2LC2MP-1SDSXMD-1CD" [label="Figure out 
+the key from 
+analyzing 
+the algorithm 
+and output
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS2LC2MT-21PNNNC-1CH" -> "1RS2LC2MP-1SDSXMD-1CD" [constraint=true]
+	"1RS2K5Y8V-WVRY6B-8K" [label="Cryptographic 
+Tools" fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RS2K84DN-1CQ1KHK-Q1" [label="Symmetric 
+Encryption" fontsize=20 shape=none]
+	"1RS2K5Y8V-WVRY6B-8K" -> "1RS2K84DN-1CQ1KHK-Q1" [constraint=true]
+	"1RS2KBP90-1VCHMK8-S1" [label=Attacks fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS2LC2MT-21PNNNC-1CH" [label=Cryptanalytic fontsize=20 shape=none]
+	"1RS2KBP90-1VCHMK8-S1" -> "1RS2LC2MT-21PNNNC-1CH" [constraint=true]
+	"1RS2KBP90-1VCHMK8-S1" [label=Attacks fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS2LBXSQ-BV7KCS-1BN" [label="Brute Force
+" fontsize=20 shape=none]
+	"1RS2KBP90-1VCHMK8-S1" -> "1RS2LBXSQ-BV7KCS-1BN" [constraint=true]
+	"1RS2K84DN-1CQ1KHK-Q1" [label="Symmetric 
+Encryption" fontsize=20 shape=none]
+	"1RS2KBSL7-21YC0HT-SJ" [label=Requirements fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS2K84DN-1CQ1KHK-Q1" -> "1RS2KBSL7-21YC0HT-SJ" [constraint=true]
+	"1RS2KBWLN-194CKMR-T0" [label=Requirements fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS2WQSY5-SCXPZJ-9Z1" [label=Security fontsize=20 shape=none]
+	"1RS2KBWLN-194CKMR-T0" -> "1RS2WQSY5-SCXPZJ-9Z1" [constraint=true]
+	"1RS2V38DP-G0MFK-9K2" [label="" fontsize=20 shape=none]
+	"1RS2V32CB-T1M16X-9JD" [label=DES fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS2V38DP-G0MFK-9K2" -> "1RS2V32CB-T1M16X-9JD" [constraint=true]
+	"1RS2V38DP-G0MFK-9K2" [label="" fontsize=20 shape=none]
+	"1RS2V2XF8-15FZKZX-9HX" [label=AES fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS2V38DP-G0MFK-9K2" -> "1RS2V2XF8-15FZKZX-9HX" [constraint=true]
+	"1RS2LYTYZ-17NTYN4-1YH" [label=Types fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS2M32N8-1LSHJX4-222" [label="Stream Cipher
+" fontsize=20 shape=none]
+	"1RS2LYTYZ-17NTYN4-1YH" -> "1RS2M32N8-1LSHJX4-222" [constraint=true]
+	"1RS2X3VYS-1FCR2ZG-BBG" [label=Usage fontsize=20 shape=none]
+	"1RS2X4MGV-26W484F-BCW" [label="H(x) is relatively 
+easy to compute
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS2X3VYS-1FCR2ZG-BBG" -> "1RS2X4MGV-26W484F-BCW" [constraint=true]
+	"1RS2V1134-12C5QHF-9G5" [label=Algorithms fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS2V38DP-G0MFK-9K2" [label="" fontsize=20 shape=none]
+	"1RS2V1134-12C5QHF-9G5" -> "1RS2V38DP-G0MFK-9K2" [constraint=true]
+	"1RS2X3VYS-1FCR2ZG-BBG" [label=Usage fontsize=20 shape=none]
+	"1RS2X3VYR-HH5YGS-BBC" [label="Fixed-length 
+output" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS2X3VYS-1FCR2ZG-BBG" -> "1RS2X3VYR-HH5YGS-BBC" [constraint=true]
+	"1RS2K5Y8V-WVRY6B-8K" [label="Cryptographic 
+Tools" fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RS2KBWLQ-CBJXRK-T3" [label=Hashes fontsize=20 shape=none]
+	"1RS2K5Y8V-WVRY6B-8K" -> "1RS2KBWLQ-CBJXRK-T3" [constraint=true]
+	statictics [label="STATISTICS
+\lBranch:		19\lNode:		26\lLinking Phrase:	12\lOrphan:		0\lLeaf Node:	19\lPreposition:	23\lSub Map:		1\lAvg Word Per Concept:	5.69\l" Gsplines=true fillcolor="#F5FFFA" fontsize=20 shape=component style=filled]
+	file_info [label="CMAP Information
+
+\lTitle:	CTAnonymous26.cmap\lCreated:	2020-12-07T07:57:12-05:00\lModified:	2020-12-07T07:57:12-05:00\lLanguage:	en\lFormat:	x-cmap/x-storable\lPublisher:	FIHMC CmapTools 6.04\lWidth:	2614\lHeight:	620\l" Gsplines=true fillcolor="#E6E6FA" fontsize=20 shape=tab style=filled]
+}

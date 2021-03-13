@@ -1,0 +1,123 @@
+// The Round Table
+digraph {
+	"1S6343KZ1-1JBPCW1-1QM6" [label="DIGITAL ENVELOPES Module 3" Gsplines=true fontsize=20 shape=rect style=filled]
+	"1S633XRNL-24BW40M-1PDY" [label="represented 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S633XRNL-6SW8F9-1PBL" [label="Symmetric 
+encryption 
+requires exchanging 
+keys before 
+sending and 
+receiving 
+messages securely 
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S633XRNL-24BW40M-1PDY" -> "1S633XRNL-6SW8F9-1PBL" [constraint=true]
+	"1S633XRNL-24BW40M-1PDY" [label="represented 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S633XRNL-22R2SW0-1PBG" [label="Protects a 
+message without 
+first exchanging 
+the same secret 
+key between 
+sender and 
+receiver" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S633XRNL-24BW40M-1PDY" -> "1S633XRNL-22R2SW0-1PBG" [constraint=true]
+	"1S633XRNL-1F630MC-1PCL" [label="Bob and Alice 
+confidentially 
+messaging 
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S633XRNL-1GSQYQS-1PBZ" [label="Encrypt that 
+message using 
+symmetric 
+encryption 
+the one-time 
+key" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S633XRNL-1F630MC-1PCL" -> "1S633XRNL-1GSQYQS-1PBZ" [constraint=true]
+	"1S633XRNL-1F630MC-1PCL" [label="Bob and Alice 
+confidentially 
+messaging 
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S633XRNL-TN6C0M-1PBP" [label="Bob wishes 
+to send a 
+confidential 
+message to 
+Alice without 
+sharing a 
+symmetric 
+secret key
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S633XRNL-1F630MC-1PCL" -> "1S633XRNL-TN6C0M-1PBP" [constraint=true]
+	"1S633XRNL-1F630MC-1PCL" [label="Bob and Alice 
+confidentially 
+messaging 
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S633XRNL-1RT6Z4N-1PC2" [label="Encrypt the 
+one-time key 
+using public-key 
+encryption 
+with Alice’s 
+public key
+" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S633XRNL-1F630MC-1PCL" -> "1S633XRNL-1RT6Z4N-1PC2" [constraint=true]
+	"1S633XRNL-1F630MC-1PCL" [label="Bob and Alice 
+confidentially 
+messaging 
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S633XRNL-9BJ8DG-1PC5" [label="Attach the 
+encrypted 
+one-time key 
+to the encrypted 
+message and 
+send it to 
+Alice" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S633XRNL-1F630MC-1PCL" -> "1S633XRNL-9BJ8DG-1PC5" [constraint=true]
+	"1S633XRNL-1F630MC-1PCL" [label="Bob and Alice 
+confidentially 
+messaging 
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S633XRNL-23X5B4K-1PC8" [label="Just Alice 
+can decrypt 
+the one-time 
+key, and if 
+Bob obtained 
+Alice’s public 
+key by means 
+of Alice’s 
+public-key 
+certificate, 
+then Bob is 
+assured that 
+it is a valid 
+key" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S633XRNL-1F630MC-1PCL" -> "1S633XRNL-23X5B4K-1PC8" [constraint=true]
+	"1S633XRNL-1F630MC-1PCL" [label="Bob and Alice 
+confidentially 
+messaging 
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S633XRNL-1KHTVY0-1PBS" [label="Prepare a 
+message and 
+generate a 
+random symmetric 
+key to be 
+used this 
+one time only
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S633XRNL-1F630MC-1PCL" -> "1S633XRNL-1KHTVY0-1PBS" [constraint=true]
+	"1S633XRNL-208NNXF-1PBW" [label="DIGITAL ENVELOPES
+" Gsplines=true fillcolor=aquamarine fontsize=20 shape=doubleoctagon style=filled]
+	"1S633XRNL-24BW40M-1PDY" [label="represented 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S633XRNL-208NNXF-1PBW" -> "1S633XRNL-24BW40M-1PDY" [constraint=true]
+	"1S633XRNL-208NNXF-1PBW" [label="DIGITAL ENVELOPES
+" Gsplines=true fillcolor=aquamarine fontsize=20 shape=doubleoctagon style=filled]
+	"1S633XRNL-1F630MC-1PCL" [label="Bob and Alice 
+confidentially 
+messaging 
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S633XRNL-208NNXF-1PBW" -> "1S633XRNL-1F630MC-1PCL" [constraint=true]
+	Stat [label="SUMMERY
+
+Matched Branch:			0\lPartially Matched Branch:	4\lMismatched Branch:		4\lExtra Branch:				36\lTotal Match:		41.67 %\lConcept Match:	50.0 %\lLink. Phr. Match:	0.0 %\lMisconception:	100.0 %\lHierarchy Match:	16.67 %\l" Gsplines=true fillcolor="#F5FFFA" fontsize=20 shape=component style=filled]
+	Grade [label="Grade:	19.42%" Gsplines=true fillcolor="#FFEBCD" fontsize=20 shape=note style=filled]
+	Stat -> Grade [arrowhead=inv color=black constraint=true]
+}

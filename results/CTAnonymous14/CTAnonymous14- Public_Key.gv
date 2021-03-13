@@ -1,0 +1,240 @@
+// The Round Table
+digraph {
+	"1S3ZPR0D2-589034-RWB" [label="PUBLIC KEY ENCRYPTION Module 3" Gsplines=true fontsize=20 shape=rect style=filled]
+	"1S46TBHLT-ZN6BH1-515" [label="modeled by
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46RJCZ2-16H0P69-329" [label="public and 
+private keys
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46TBHLT-ZN6BH1-515" -> "1S46RJCZ2-16H0P69-329" [constraint=true]
+	"1S46T3X2D-16MD3FV-4SG" [label="distinguished 
+by" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S46S0C12-1HSHC1D-3S6" [label="sender encrypts 
+data using 
+the receiver's 
+public key
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46T3X2D-16MD3FV-4SG" -> "1S46S0C12-1HSHC1D-3S6" [constraint=true]
+	"1S46T3X2D-16MD3FV-4SG" [label="distinguished 
+by" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S46S0HZ2-27CXFC7-3SB" [label="receiver decrypts 
+the message 
+using his 
+or her corresponding 
+private key
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46T3X2D-16MD3FV-4SG" -> "1S46S0HZ2-27CXFC7-3SB" [constraint=true]
+	"1S46TB8NB-280LXHV-50W" [label="represented 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46RGTZH-55WDLS-2WV" [label="uses two separate 
+keys (asymmetric)
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46TB8NB-280LXHV-50W" -> "1S46RGTZH-55WDLS-2WV" [constraint=true]
+	"1S46TB8NB-280LXHV-50W" [label="represented 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46RH6P7-151ZRZF-2X4" [label="requires some 
+form of distribution 
+protocol " Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46TB8NB-280LXHV-50W" -> "1S46RH6P7-151ZRZF-2X4" [constraint=true]
+	"1S46RR1DP-37JD6K-368" [label="USING PUBLIC 
+KEY FOR ENCRYPTION
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=doubleoctagon style=filled]
+	"1S46T7JDK-1B68QK8-4WZ" [label=versus Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46RR1DP-37JD6K-368" -> "1S46T7JDK-1B68QK8-4WZ" [constraint=true]
+	"1S46V3P7W-268G04-6DT" [label="specified 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46RK5NJ-19DPR6Q-32P" [label="performs transformations 
+on the plaintext
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46V3P7W-268G04-6DT" -> "1S46RK5NJ-19DPR6Q-32P" [constraint=true]
+	"1S46TB8NB-280LXHV-50W" [label="represented 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46RGBBW-DGZTPG-2WB" [label="public key 
+is made available 
+for public 
+use" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46TB8NB-280LXHV-50W" -> "1S46RGBBW-DGZTPG-2WB" [constraint=true]
+	"1S46TBHLT-ZN6BH1-515" [label="modeled by
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46VC21Q-10472PR-6RL" [label="decryption 
+algorithm" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S46TBHLT-ZN6BH1-515" -> "1S46VC21Q-10472PR-6RL" [constraint=true]
+	"1S46T3X2D-16MD3FV-4SG" [label="distinguished 
+by" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S46S0LH3-5B2H9W-3SG" [label="used to provide 
+confidentiality" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46T3X2D-16MD3FV-4SG" -> "1S46S0LH3-5B2H9W-3SG" [constraint=true]
+	"1S46RR1DP-37JD6K-368" [label="USING PUBLIC 
+KEY FOR ENCRYPTION
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=doubleoctagon style=filled]
+	"1S46T2J51-WMBNBX-4QY" [label="comprised 
+of" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46RR1DP-37JD6K-368" -> "1S46T2J51-WMBNBX-4QY" [constraint=true]
+	"1S46V3TF4-14XHPF3-6F3" [label="distinguished 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46RKF00-1QXXR1-32Y" [label="a pair of 
+keys, one 
+for encryption, 
+and the other 
+for decryption
+" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S46V3TF4-14XHPF3-6F3" -> "1S46RKF00-1QXXR1-32Y" [constraint=true]
+	"1S46T2YYM-16SWSN5-4RN" [label="described 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46RHPJM-ZW9N7Y-31J" [label="PUBLIC KEY 
+ENCRYPTION 
+PROCESS" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46T2YYM-16SWSN5-4RN" -> "1S46RHPJM-ZW9N7Y-31J" [constraint=true]
+	"1S46T2J51-WMBNBX-4QY" [label="comprised 
+of" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46RG77R-133564Y-2W6" [label="PUBLIC KEY 
+ENCRYPTION 
+STRUCTURE" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46T2J51-WMBNBX-4QY" -> "1S46RG77R-133564Y-2W6" [constraint=true]
+	"1S46RG77R-133564Y-2W6" [label="PUBLIC KEY 
+ENCRYPTION 
+STRUCTURE" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46TB8NB-280LXHV-50W" [label="represented 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46RG77R-133564Y-2W6" -> "1S46TB8NB-280LXHV-50W" [constraint=true]
+	"1S46TB3CZ-25RPQB7-50L" [label="depicted by
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46T8LYZ-WVZ9KX-4YZ" [label="anyone who 
+knows the 
+corresponding 
+public key 
+will be able 
+top decrypt 
+the message
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46TB3CZ-25RPQB7-50L" -> "1S46T8LYZ-WVZ9KX-4YZ" [constraint=true]
+	"1S46V3XYJ-JRVQCC-6FD" [label="expressed 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46RKB2V-XHB22D-32T" [label="scrambled 
+message produced 
+as output" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46V3XYJ-JRVQCC-6FD" -> "1S46RKB2V-XHB22D-32T" [constraint=true]
+	"1S46TYQQ1-278LBV9-672" [label="includes both 
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46TZJ6S-K92RKQ-68G" [label="public key
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46TYQQ1-278LBV9-672" -> "1S46TZJ6S-K92RKQ-68G" [constraint=true]
+	"1S46T6SDQ-5NYBV9-4VM" [label="USING PRIVATE 
+KEY FOR ENCRYPTION
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46TB3CZ-25RPQB7-50L" [label="depicted by
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46T6SDQ-5NYBV9-4VM" -> "1S46TB3CZ-25RPQB7-50L" [constraint=true]
+	"1S46TB8NB-280LXHV-50W" [label="represented 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46RG4LQ-26H9X2J-2W2" [label="publicly proposed 
+by Diffie 
+and Hellman 
+in 1976" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46TB8NB-280LXHV-50W" -> "1S46RG4LQ-26H9X2J-2W2" [constraint=true]
+	"1S46TB3CZ-25RPQB7-50L" [label="depicted by
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46T8SLR-21DM1DQ-4ZG" [label="used to provide 
+authentication 
+and data integrity
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46TB3CZ-25RPQB7-50L" -> "1S46T8SLR-21DM1DQ-4ZG" [constraint=true]
+	"1S46RJ7QJ-N0831G-325" [label=ciphertext Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46V3XYJ-JRVQCC-6FD" [label="expressed 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46RJ7QJ-N0831G-325" -> "1S46V3XYJ-JRVQCC-6FD" [constraint=true]
+	"1S46TBHLT-ZN6BH1-515" [label="modeled by
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46RJ5F1-17FPVS7-321" [label="encryption 
+algorithm" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S46TBHLT-ZN6BH1-515" -> "1S46RJ5F1-17FPVS7-321" [constraint=true]
+	"1S46TYQQ1-278LBV9-672" [label="includes both 
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46TYQPY-M8DHPG-66Z" [label="private key
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46TYQQ1-278LBV9-672" -> "1S46TYQPY-M8DHPG-66Z" [constraint=true]
+	"1S46RGTZH-55WDLS-2WV" [label="uses two separate 
+keys (asymmetric)
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46TYQQ1-278LBV9-672" [label="includes both 
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46RGTZH-55WDLS-2WV" -> "1S46TYQQ1-278LBV9-672" [constraint=true]
+	"1S46TB3CZ-25RPQB7-50L" [label="depicted by
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46T8482-1HHSCVC-4Y1" [label="user encrypts 
+data using 
+his or her 
+own private 
+key" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46TB3CZ-25RPQB7-50L" -> "1S46T8482-1HHSCVC-4Y1" [constraint=true]
+	"1S46TBHLT-ZN6BH1-515" [label="modeled by
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46RWDJT-K8SDQ5-3LZ" [label=plaintext Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46TBHLT-ZN6BH1-515" -> "1S46RWDJT-K8SDQ5-3LZ" [constraint=true]
+	"1S46RJ5F1-17FPVS7-321" [label="encryption 
+algorithm" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S46V3P7W-268G04-6DT" [label="specified 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46RJ5F1-17FPVS7-321" -> "1S46V3P7W-268G04-6DT" [constraint=true]
+	"1S46RJCZ2-16H0P69-329" [label="public and 
+private keys
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46V3TF4-14XHPF3-6F3" [label="distinguished 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46RJCZ2-16H0P69-329" -> "1S46V3TF4-14XHPF3-6F3" [constraint=true]
+	"1S46RHPJM-ZW9N7Y-31J" [label="PUBLIC KEY 
+ENCRYPTION 
+PROCESS" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46TBHLT-ZN6BH1-515" [label="modeled by
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46RHPJM-ZW9N7Y-31J" -> "1S46TBHLT-ZN6BH1-515" [constraint=true]
+	"1S46V3K7N-WR8MKR-6DJ" [label="characterized 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46RYSLZ-RFVCMX-3P9" [label="readable message 
+or data that 
+is fed into 
+the algorithm 
+as input" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46V3K7N-WR8MKR-6DJ" -> "1S46RYSLZ-RFVCMX-3P9" [constraint=true]
+	"1S46RR1DP-37JD6K-368" [label="USING PUBLIC 
+KEY FOR ENCRYPTION
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=doubleoctagon style=filled]
+	"1S46T2YYM-16SWSN5-4RN" [label="described 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46RR1DP-37JD6K-368" -> "1S46T2YYM-16SWSN5-4RN" [constraint=true]
+	"1S46TBHLT-ZN6BH1-515" [label="modeled by
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46RJ7QJ-N0831G-325" [label=ciphertext Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46TBHLT-ZN6BH1-515" -> "1S46RJ7QJ-N0831G-325" [constraint=true]
+	"1S46VCZWC-M8R7HM-6T0" [label="detailed by
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46VCFMF-21MMRZR-6S5" [label="produces the 
+original plaintext
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46VCZWC-M8R7HM-6T0" -> "1S46VCFMF-21MMRZR-6S5" [constraint=true]
+	"1S46RR1DP-37JD6K-368" [label="USING PUBLIC 
+KEY FOR ENCRYPTION
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=doubleoctagon style=filled]
+	"1S46T3X2D-16MD3FV-4SG" [label="distinguished 
+by" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S46RR1DP-37JD6K-368" -> "1S46T3X2D-16MD3FV-4SG" [constraint=true]
+	"1S46RWDJT-K8SDQ5-3LZ" [label=plaintext Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46V3K7N-WR8MKR-6DJ" [label="characterized 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46RWDJT-K8SDQ5-3LZ" -> "1S46V3K7N-WR8MKR-6DJ" [constraint=true]
+	"1S46T7JDK-1B68QK8-4WZ" [label=versus Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46T6SDQ-5NYBV9-4VM" [label="USING PRIVATE 
+KEY FOR ENCRYPTION
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46T7JDK-1B68QK8-4WZ" -> "1S46T6SDQ-5NYBV9-4VM" [constraint=true]
+	"1S46VC21Q-10472PR-6RL" [label="decryption 
+algorithm" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S46VCZWC-M8R7HM-6T0" [label="detailed by
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46VC21Q-10472PR-6RL" -> "1S46VCZWC-M8R7HM-6T0" [constraint=true]
+	Stat [label="SUMMERY
+
+Matched Branch:			0\lPartially Matched Branch:	3\lMismatched Branch:		13\lExtra Branch:				11\lTotal Match:		7.69 %\lConcept Match:	11.11 %\lLink. Phr. Match:	0.0 %\lMisconception:	100.0 %\lHierarchy Match:	1.56 %\l" Gsplines=true fillcolor="#F5FFFA" fontsize=20 shape=component style=filled]
+	Grade [label="Grade:	3.07%" Gsplines=true fillcolor="#FFEBCD" fontsize=20 shape=note style=filled]
+	Stat -> Grade [arrowhead=inv color=black constraint=true]
+}

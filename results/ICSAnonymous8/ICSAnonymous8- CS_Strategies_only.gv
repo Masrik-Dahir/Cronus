@@ -1,0 +1,134 @@
+// The Round Table
+digraph {
+	Student [label="Student: ICSAnonymous8" fillcolor=gold fontsize=20 shape=component style=filled]
+	"1RPY9MYXM-DSRGKK-JS" [label=Challenges fontsize=20 shape=none]
+	"1RPY9Q895-6QX15-MC" [label="finding potential 
+attacks" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPY9MYXM-DSRGKK-JS" -> "1RPY9Q895-6QX15-MC" [constraint=true]
+	"1RPYB2K6N-PYVPL0-YD" [label="Specifications/ 
+Policy" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPYB4TLV-2708G4Y-10Q" [label="Factors to 
+consider" fontsize=20 shape=none]
+	"1RPYB2K6N-PYVPL0-YD" -> "1RPYB4TLV-2708G4Y-10Q" [constraint=true]
+	"1RPY9SSHC-1PPH7CM-P2" [label="Different 
+technologies 
+used" fontsize=20 shape=none]
+	"1RPY9WWD0-21MC5M6-TM" [label="Intusion prevention 
+System" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPY9SSHC-1PPH7CM-P2" -> "1RPY9WWD0-21MC5M6-TM" [constraint=true]
+	"1RPYBB4V3-GPS4QV-16H" [label="4 actions 
+need to be 
+taken" fontsize=20 shape=none]
+	"1RPYBCVL3-18B57FG-1B6" [label=Prevention fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPYBB4V3-GPS4QV-16H" -> "1RPYBCVL3-18B57FG-1B6" [constraint=true]
+	"1RPY9HFD7-1BN509X-BH" [label="Computer Security
+" fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RPY9MYXM-DSRGKK-JS" [label=Challenges fontsize=20 shape=none]
+	"1RPY9HFD7-1BN509X-BH" -> "1RPY9MYXM-DSRGKK-JS" [constraint=true]
+	"1RPYB4TLV-2708G4Y-10Q" [label="Factors to 
+consider" fontsize=20 shape=none]
+	"1RPYB6Z56-1GWP6GC-137" [label="Vulnarabilities 
+present" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPYB4TLV-2708G4Y-10Q" -> "1RPYB6Z56-1GWP6GC-137" [constraint=true]
+	"1RPY9ZPQS-CD4221-WG" [label="Strategy- 
+3 aspects" fontsize=20 shape=none]
+	"1RPYB397Q-1ZYQ1XW-ZM" [label=Implementations fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPY9ZPQS-CD4221-WG" -> "1RPYB397Q-1ZYQ1XW-ZM" [constraint=true]
+	"1RPY9HFD7-1BN509X-BH" [label="Computer Security
+" fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RPY9ZPQS-CD4221-WG" [label="Strategy- 
+3 aspects" fontsize=20 shape=none]
+	"1RPY9HFD7-1BN509X-BH" -> "1RPY9ZPQS-CD4221-WG" [constraint=true]
+	"1RPY9SSHC-1PPH7CM-P2" [label="Different 
+technologies 
+used" fontsize=20 shape=none]
+	"1RPY9SSHC-CJQB8T-NZ" [label="Anti-Virus" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPY9SSHC-1PPH7CM-P2" -> "1RPY9SSHC-CJQB8T-NZ" [constraint=true]
+	"1RPYB4TLV-2708G4Y-10Q" [label="Factors to 
+consider" fontsize=20 shape=none]
+	"1RPYB4TLV-ZWLJ18-10M" [label="potential 
+threats" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPYB4TLV-2708G4Y-10Q" -> "1RPYB4TLV-ZWLJ18-10M" [constraint=true]
+	"1RPY9JNQ9-17ZPG1H-F9" [label=elements fontsize=20 shape=none]
+	"1RPY9KH23-180HJW3-GZ" [label=Integrity fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPY9JNQ9-17ZPG1H-F9" -> "1RPY9KH23-180HJW3-GZ" [constraint=true]
+	"1RPYBB4V3-GPS4QV-16H" [label="4 actions 
+need to be 
+taken" fontsize=20 shape=none]
+	"1RPYBB4V3-3BT8XL-16D" [label=Detection fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPYBB4V3-GPS4QV-16H" -> "1RPYBB4V3-3BT8XL-16D" [constraint=true]
+	"1RPY9HFD7-1BN509X-BH" [label="Computer Security
+" fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RPY9SSHC-1PPH7CM-P2" [label="Different 
+technologies 
+used" fontsize=20 shape=none]
+	"1RPY9HFD7-1BN509X-BH" -> "1RPY9SSHC-1PPH7CM-P2" [constraint=true]
+	"1RPY9MYXM-DSRGKK-JS" [label=Challenges fontsize=20 shape=none]
+	"1RPY9MYXM-JWG9T3-JP" [label=Cost fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPY9MYXM-DSRGKK-JS" -> "1RPY9MYXM-JWG9T3-JP" [constraint=true]
+	"1RPYBB4V3-GPS4QV-16H" [label="4 actions 
+need to be 
+taken" fontsize=20 shape=none]
+	"1RPYBCL4K-H0177H-19F" [label=Recovery fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPYBB4V3-GPS4QV-16H" -> "1RPYBCL4K-H0177H-19F" [constraint=true]
+	"1RPY9SSHC-1PPH7CM-P2" [label="Different 
+technologies 
+used" fontsize=20 shape=none]
+	"1RPY9V28L-1C6C3YG-R7" [label=Firewall fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPY9SSHC-1PPH7CM-P2" -> "1RPY9V28L-1C6C3YG-R7" [constraint=true]
+	"1RPYB397Q-1ZYQ1XW-ZM" [label=Implementations fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPYBB4V3-GPS4QV-16H" [label="4 actions 
+need to be 
+taken" fontsize=20 shape=none]
+	"1RPYB397Q-1ZYQ1XW-ZM" -> "1RPYBB4V3-GPS4QV-16H" [constraint=true]
+	"1RPY9MYXM-DSRGKK-JS" [label=Challenges fontsize=20 shape=none]
+	"1RPY9P8X6-1KKKDSS-L5" [label="not so user-friendly
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPY9MYXM-DSRGKK-JS" -> "1RPY9P8X6-1KKKDSS-L5" [constraint=true]
+	"1RPY9JNQ9-17ZPG1H-F9" [label=elements fontsize=20 shape=none]
+	"1RPY9JNPT-14BV287-F6" [label=Confidentiality fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPY9JNQ9-17ZPG1H-F9" -> "1RPY9JNPT-14BV287-F6" [constraint=true]
+	"1RPY9ZPQS-CD4221-WG" [label="Strategy- 
+3 aspects" fontsize=20 shape=none]
+	"1RPYB2K6N-PYVPL0-YD" [label="Specifications/ 
+Policy" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPY9ZPQS-CD4221-WG" -> "1RPYB2K6N-PYVPL0-YD" [constraint=true]
+	"1RPYB4TLV-2708G4Y-10Q" [label="Factors to 
+consider" fontsize=20 shape=none]
+	"1RPYB7NN2-10J1ZCL-14J" [label="Value of the 
+assets protected
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPYB4TLV-2708G4Y-10Q" -> "1RPYB7NN2-10J1ZCL-14J" [constraint=true]
+	"1RPY9SSHC-1PPH7CM-P2" [label="Different 
+technologies 
+used" fontsize=20 shape=none]
+	"1RPY9VBH7-1DJDNBJ-S0" [label=VPN fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPY9SSHC-1PPH7CM-P2" -> "1RPY9VBH7-1DJDNBJ-S0" [constraint=true]
+	"1RPYBB4V3-GPS4QV-16H" [label="4 actions 
+need to be 
+taken" fontsize=20 shape=none]
+	"1RPYBC47N-1781TKW-18N" [label=Response fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPYBB4V3-GPS4QV-16H" -> "1RPYBC47N-1781TKW-18N" [constraint=true]
+	"1RPY9SSHC-1PPH7CM-P2" [label="Different 
+technologies 
+used" fontsize=20 shape=none]
+	"1RPY9W40J-2CQ9Y78-SS" [label=Encryption fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPY9SSHC-1PPH7CM-P2" -> "1RPY9W40J-2CQ9Y78-SS" [constraint=true]
+	"1RPY9HFD7-1BN509X-BH" [label="Computer Security
+" fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RPY9JNQ9-17ZPG1H-F9" [label=elements fontsize=20 shape=none]
+	"1RPY9HFD7-1BN509X-BH" -> "1RPY9JNQ9-17ZPG1H-F9" [constraint=true]
+	"1RPY9JNQ9-17ZPG1H-F9" [label=elements fontsize=20 shape=none]
+	"1RPY9KT9L-1MLMTWT-HS" [label=Availability fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPY9JNQ9-17ZPG1H-F9" -> "1RPY9KT9L-1MLMTWT-HS" [constraint=true]
+	"1RPY9ZPQS-CD4221-WG" [label="Strategy- 
+3 aspects" fontsize=20 shape=none]
+	"1RPY9ZPQ9-TLB2L1-WC" [label="Assurance/ 
+Evaluation" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPY9ZPQS-CD4221-WG" -> "1RPY9ZPQ9-TLB2L1-WC" [constraint=true]
+	statictics [label="STATISTICS
+\lBranch:		19\lNode:		22\lLinking Phrase:	6\lOrphan:		0\lLeaf Node:	19\lPreposition:	21\lSub Map:		1\lAvg Word Per Concept:	1.68\l" Gsplines=true fillcolor="#F5FFFA" fontsize=20 shape=component style=filled]
+	file_info [label="CMAP Information
+
+\lTitle:	ICSAnonymous8.cmap\lCreated:	2020-12-07T07:38:14-05:00\lModified:	2020-12-07T07:38:14-05:00\lLanguage:	en\lFormat:	x-cmap/x-storable\lPublisher:	FIHMC CmapTools 6.04\lWidth:	1105\lHeight:	585\l" Gsplines=true fillcolor="#E6E6FA" fontsize=20 shape=tab style=filled]
+}

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmap xmlns:dcterms="http://purl.org/dc/terms/" xmlns="http://cmap.ihmc.us/xml/cmap/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+    <res-meta>
+        <dc:title>ICSAnonymous24.cmap</dc:title>
+        <dcterms:created>2020-12-07T07:41:37-05:00</dcterms:created>
+        <dcterms:modified>2020-12-07T07:41:37-05:00</dcterms:modified>
+        <dc:language>en</dc:language>
+        <dc:format>x-cmap/x-storable</dc:format>
+        <dc:publisher>FIHMC CmapTools 6.04</dc:publisher>
+        <dc:source>cmap:1W5Z76G0X-151MD9Y-1:external-folder:file:////C:/Users/masri/PycharmProjects/cmapProject/ConceptMapFiles/CMAPFiles/ComputerSecurity/Student/Module1IntroductionComputerSecurity/ICSAnonymous24.cmap</dc:source>
+    </res-meta>
+    <map width="782" height="686">
+        <concept-list>
+            <concept id="1RPVDYS2J-1Q7CP8K-3S2" label="Adversaries"/>
+            <concept id="1RPVF0NDJ-1SKZ6P1-3WW" label="Attacks"/>
+            <concept id="1RPVCX9B7-27DV8GB-18L" label="Confidentiality"/>
+            <concept id="1RPVH4T1V-RDYPYW-8G1" label="Security Policies"/>
+            <concept id="1RPVCX9ZW-1JPTMN4-18Q" label="Integrity"/>
+            <concept id="1RPVH83ZT-249PLCQ-9MB" label="Detection"/>
+            <concept id="1RPVFQ00Y-16TMH5W-545" label="Security Problems "/>
+            <concept id="1RPVDGYSG-23J52BQ-2TF" label="Information"/>
+            <concept id="1RPVH8L84-PTCG59-9NR" label="Recovery"/>
+            <concept id="1RPVGJMPK-LXZX5Z-6KQ" label="System Resources (Assets)"/>
+            <concept id="1RPVG6M5R-11442NK-630" label="Risks"/>
+            <concept id="1RPVCS80L-V2VF3Z-PJ" label="Computer Security"/>
+            <concept id="1RPVD3Q1Q-1T10XS4-1T7" label="Privacy"/>
+            <concept id="1RPVGRS5W-8YKVN-6W8" label="Countermeasures"/>
+            <concept id="1RPVD4JL6-10KDDL-1YD" label="Data"/>
+            <concept id="1RPVH8CNK-FW7G92-9MT" label="Response"/>
+            <concept id="1RPVD4TJ4-262V0M0-1Z3" label="Systems"/>
+            <concept id="1RPVCW04M-6C6Y8B-15W" label="Key Security Concepts (CIA Triad)"/>
+            <concept id="1RPVFXGY3-2D7MG68-5T2" label="Threats"/>
+            <concept id="1RPVF0XLP-MLYR05-3XD" label="Vulnerabilities"/>
+            <concept id="1RPVH8T6C-YDPMFR-9PM" label="Prevention"/>
+            <concept id="1RPVF4PFJ-CBJP6H-49Y" label="Owners"/>
+            <concept id="1RPVCXBFK-2CM9WWY-18V" label="Availability"/>
+        </concept-list>
+        <linking-phrase-list>
+            <linking-phrase id="1RPVHCHXW-24Y2J9F-9V2" label="which includes"/>
+            <linking-phrase id="1RPVCW375-1CVF8XY-165" label="consists of"/>
+            <linking-phrase id="1RPVGF441-21LJS6H-67B" label="to exploit"/>
+            <linking-phrase id="1RPVGDJZZ-1PRL6G1-65J" label="from"/>
+            <linking-phrase id="1RPVD62KG-1Q684JT-22R" label="of"/>
+            <linking-phrase id="1RPVGDTNW-16N7CLX-66C" label="used by"/>
+            <linking-phrase id="1RPVHML62-G1H3CG-BPH" label="of"/>
+            <linking-phrase id="1RPVH73ML-2D4KMX0-8YY" label="to protect"/>
+            <linking-phrase id="1RPVGQ0PS-WC8QP-6V9" label="that damage"/>
+            <linking-phrase id="1RPVGK728-1QMNFLL-6L8" label="to"/>
+            <linking-phrase id="1RPVH5BPB-Z6MR83-8GZ" label="based on"/>
+            <linking-phrase id="1RPVGY0WN-1J60GYR-71K" label="of"/>
+            <linking-phrase id="1RPVCZW6B-272XD5Y-1GC" label="which preserves"/>
+            <linking-phrase id="1RPVH0D9S-1GPY2L2-7H0" label="from"/>
+            <linking-phrase id="1RPVD0CBF-DWMBF7-1JP" label="which guards"/>
+            <linking-phrase id="1RPVG6TSQ-FQPHS9-63G" label="leading to"/>
+            <linking-phrase id="1RPVFXM2J-N9KXG1-5TL" label="such as"/>
+            <linking-phrase id="1RPVGTFV2-S2ZLKW-6YJ" label="to reduce"/>
+            <linking-phrase id="1RPVD034R-1RKQSGR-1HV" label="which ensures timely"/>
+            <linking-phrase id="1RPVGS65W-7MZTB-6X6" label="who impose"/>
+            <linking-phrase id="1RPVD5RSD-1B3960S-210" label="of"/>
+            <linking-phrase id="1RPVGYV0H-27CXJ82-73S" label="for"/>
+        </linking-phrase-list>
+        <connection-list>
+            <connection id="1RPVHLLWR-YNGSRQ-BLJ" from-id="1RPVD62KG-1Q684JT-22R" to-id="1RPVD4JL6-10KDDL-1YD"/>
+            <connection id="1RPVFXM2L-13ZHM9K-5TV" from-id="1RPVFXM2J-N9KXG1-5TL" to-id="1RPVFXGY3-2D7MG68-5T2"/>
+            <connection id="1RPVGK729-RL0GVT-6LK" from-id="1RPVGK728-1QMNFLL-6L8" to-id="1RPVGJMPK-LXZX5Z-6KQ"/>
+            <connection id="1RPVGTFV3-4SPT14-6YT" from-id="1RPVGTFV2-S2ZLKW-6YJ" to-id="1RPVG6M5R-11442NK-630"/>
+            <connection id="1RPVHLG91-226JPGT-BL3" from-id="1RPVD5RSD-1B3960S-210" to-id="1RPVD4JL6-10KDDL-1YD"/>
+            <connection id="1RPVGS65Y-1DJTLCD-6XH" from-id="1RPVGS65W-7MZTB-6X6" to-id="1RPVGRS5W-8YKVN-6W8"/>
+            <connection id="1RPVH73MM-52R7SV-8Z1" from-id="1RPVH4T1V-RDYPYW-8G1" to-id="1RPVH73ML-2D4KMX0-8YY"/>
+            <connection id="1RPVHD01T-SDNY5N-9X1" from-id="1RPVHCHXW-24Y2J9F-9V2" to-id="1RPVH8T6C-YDPMFR-9PM"/>
+            <connection id="1RPVHN4GY-1SMDW6B-BQT" from-id="1RPVD4TJ4-262V0M0-1Z3" to-id="1RPVGY0WN-1J60GYR-71K"/>
+            <connection id="1RPVH5BPN-1J3V66J-8H2" from-id="1RPVGRS5W-8YKVN-6W8" to-id="1RPVH5BPB-Z6MR83-8GZ"/>
+            <connection id="1RPVH5BPN-Y7W164-8H7" from-id="1RPVH5BPB-Z6MR83-8GZ" to-id="1RPVH4T1V-RDYPYW-8G1"/>
+            <connection id="1RPVGDTNX-1PQ38HM-66G" from-id="1RPVF0NDJ-1SKZ6P1-3WW" to-id="1RPVGDTNW-16N7CLX-66C"/>
+            <connection id="1RPVD034S-20F2M5R-1HY" from-id="1RPVCW04M-6C6Y8B-15W" to-id="1RPVD034R-1RKQSGR-1HV"/>
+            <connection id="1RPVGTFV3-V5S270-6YM" from-id="1RPVGRS5W-8YKVN-6W8" to-id="1RPVGTFV2-S2ZLKW-6YJ"/>
+            <connection id="1RPVGDK00-HNZ8GN-65T" from-id="1RPVGDJZZ-1PRL6G1-65J" to-id="1RPVDYS2J-1Q7CP8K-3S2"/>
+            <connection id="1RPVD0CBG-WGLF88-1JY" from-id="1RPVD0CBF-DWMBF7-1JP" to-id="1RPVCX9ZW-1JPTMN4-18Q"/>
+            <connection id="1RPVHLBLQ-2BC3GXY-BKP" from-id="1RPVD5RSD-1B3960S-210" to-id="1RPVD3Q1Q-1T10XS4-1T7"/>
+            <connection id="1RPVHQDKQ-11K6WBM-BVF" from-id="1RPVFXM2J-N9KXG1-5TL" to-id="1RPVF0NDJ-1SKZ6P1-3WW"/>
+            <connection id="1RPVHML63-YW0T80-BPL" from-id="1RPVCXBFK-2CM9WWY-18V" to-id="1RPVHML62-G1H3CG-BPH"/>
+            <connection id="1RPVGF442-178D4DN-67F" from-id="1RPVDYS2J-1Q7CP8K-3S2" to-id="1RPVGF441-21LJS6H-67B"/>
+            <connection id="1RPVGY0WP-F9B4LR-71N" from-id="1RPVD4JL6-10KDDL-1YD" to-id="1RPVGY0WN-1J60GYR-71K"/>
+            <connection id="1RPVHGXHY-P8YQD0-B7B" from-id="1RPVD3Q1Q-1T10XS4-1T7" to-id="1RPVGY0WN-1J60GYR-71K"/>
+            <connection id="1RPVGQ0PS-270WTFT-6VD" from-id="1RPVFXGY3-2D7MG68-5T2" to-id="1RPVGQ0PS-WC8QP-6V9"/>
+            <connection id="1RPVGS65X-1HQPQ9X-6X9" from-id="1RPVF4PFJ-CBJP6H-49Y" to-id="1RPVGS65W-7MZTB-6X6"/>
+            <connection id="1RPVHML64-1MZQJXN-BPR" from-id="1RPVHML62-G1H3CG-BPH" to-id="1RPVDGYSG-23J52BQ-2TF"/>
+            <connection id="1RPVH73MM-1XVX0WD-8Z7" from-id="1RPVH73ML-2D4KMX0-8YY" to-id="1RPVGJMPK-LXZX5Z-6KQ"/>
+            <connection id="1RPVCW37H-2DJPZYH-169" from-id="1RPVCS80L-V2VF3Z-PJ" to-id="1RPVCW375-1CVF8XY-165"/>
+            <connection id="1RPVHF5M9-9C6SBB-B1K" from-id="1RPVD62KG-1Q684JT-22R" to-id="1RPVD4TJ4-262V0M0-1Z3"/>
+            <connection id="1RPVFXM2K-RL3F0B-5TP" from-id="1RPVFQ00Y-16TMH5W-545" to-id="1RPVFXM2J-N9KXG1-5TL"/>
+            <connection id="1RPVH0D9V-80FZFK-7H8" from-id="1RPVH0D9S-1GPY2L2-7H0" to-id="1RPVFQ00Y-16TMH5W-545"/>
+            <connection id="1RPVGQ0PS-25PHWCY-6VK" from-id="1RPVGQ0PS-WC8QP-6V9" to-id="1RPVGJMPK-LXZX5Z-6KQ"/>
+            <connection id="1RPVGF442-8WBD4F-67M" from-id="1RPVGF441-21LJS6H-67B" to-id="1RPVF0XLP-MLYR05-3XD"/>
+            <connection id="1RPVHCHXX-1K96SKY-9V5" from-id="1RPVH4T1V-RDYPYW-8G1" to-id="1RPVHCHXW-24Y2J9F-9V2"/>
+            <connection id="1RPVCW37H-Q9CXDC-16H" from-id="1RPVCW375-1CVF8XY-165" to-id="1RPVCW04M-6C6Y8B-15W"/>
+            <connection id="1RPVHCRPN-28G7240-9W7" from-id="1RPVHCHXW-24Y2J9F-9V2" to-id="1RPVH8CNK-FW7G92-9MT"/>
+            <connection id="1RPVG6TSQ-1KYB121-63R" from-id="1RPVG6TSQ-FQPHS9-63G" to-id="1RPVG6M5R-11442NK-630"/>
+            <connection id="1RPVGDTNY-MX69MD-66N" from-id="1RPVGDTNW-16N7CLX-66C" to-id="1RPVDYS2J-1Q7CP8K-3S2"/>
+            <connection id="1RPVGK729-27KLCXT-6LC" from-id="1RPVG6M5R-11442NK-630" to-id="1RPVGK728-1QMNFLL-6L8"/>
+            <connection id="1RPVHCHXY-H2HS8P-9VB" from-id="1RPVHCHXW-24Y2J9F-9V2" to-id="1RPVH83ZT-249PLCQ-9MB"/>
+            <connection id="1RPVD034T-1GJ422N-1J3" from-id="1RPVD034R-1RKQSGR-1HV" to-id="1RPVCXBFK-2CM9WWY-18V"/>
+            <connection id="1RPVCZW6B-SFLBP5-1GG" from-id="1RPVCW04M-6C6Y8B-15W" to-id="1RPVCZW6B-272XD5Y-1GC"/>
+            <connection id="1RPVH0D9T-16B7R5J-7H3" from-id="1RPVF4PFJ-CBJP6H-49Y" to-id="1RPVH0D9S-1GPY2L2-7H0"/>
+            <connection id="1RPVHQ52M-1CCZPB9-BV0" from-id="1RPVFXM2J-N9KXG1-5TL" to-id="1RPVF0XLP-MLYR05-3XD"/>
+            <connection id="1RPVGYV0J-R0BL9N-741" from-id="1RPVGYV0H-27CXJ82-73S" to-id="1RPVF4PFJ-CBJP6H-49Y"/>
+            <connection id="1RPVD0CBG-4KWF8B-1JS" from-id="1RPVCW04M-6C6Y8B-15W" to-id="1RPVD0CBF-DWMBF7-1JP"/>
+            <connection id="1RPVD62KG-GZ13DK-22V" from-id="1RPVCX9ZW-1JPTMN4-18Q" to-id="1RPVD62KG-1Q684JT-22R"/>
+            <connection id="1RPVHCX35-4J23Y4-9WN" from-id="1RPVHCHXW-24Y2J9F-9V2" to-id="1RPVH8L84-PTCG59-9NR"/>
+            <connection id="1RPVG6TSQ-QKJWMJ-63K" from-id="1RPVF0XLP-MLYR05-3XD" to-id="1RPVG6TSQ-FQPHS9-63G"/>
+            <connection id="1RPVGY0WP-6T82SV-71T" from-id="1RPVGY0WN-1J60GYR-71K" to-id="1RPVF4PFJ-CBJP6H-49Y"/>
+            <connection id="1RPVCZW6B-1FXG0LZ-1GN" from-id="1RPVCZW6B-272XD5Y-1GC" to-id="1RPVCX9B7-27DV8GB-18L"/>
+            <connection id="1RPVD5RSF-18HDD96-213" from-id="1RPVCX9B7-27DV8GB-18L" to-id="1RPVD5RSD-1B3960S-210"/>
+            <connection id="1RPVGYV0J-2D7BQ3G-73W" from-id="1RPVDGYSG-23J52BQ-2TF" to-id="1RPVGYV0H-27CXJ82-73S"/>
+            <connection id="1RPVGDK00-1S4JXNG-65M" from-id="1RPVFXGY3-2D7MG68-5T2" to-id="1RPVGDJZZ-1PRL6G1-65J"/>
+        </connection-list>
+        <concept-appearance-list>
+            <concept-appearance id="1RPVDYS2J-1Q7CP8K-3S2" x="209" y="623" width="86" height="25"/>
+            <concept-appearance id="1RPVF0NDJ-1SKZ6P1-3WW" x="238" y="537" width="60" height="25"/>
+            <concept-appearance id="1RPVCX9B7-27DV8GB-18L" x="156" y="234" width="103" height="28"/>
+            <concept-appearance id="1RPVH4T1V-RDYPYW-8G1" x="650" y="621" width="114" height="28"/>
+            <concept-appearance id="1RPVCX9ZW-1JPTMN4-18Q" x="314" y="236" width="68" height="27"/>
+            <concept-appearance id="1RPVH83ZT-249PLCQ-9MB" x="541" y="715" width="73" height="25"/>
+            <concept-appearance id="1RPVFQ00Y-16TMH5W-545" x="245" y="463" width="129" height="28"/>
+            <concept-appearance id="1RPVDGYSG-23J52BQ-2TF" x="565" y="314" width="87" height="25"/>
+            <concept-appearance id="1RPVH8L84-PTCG59-9NR" x="713" y="717" width="72" height="27"/>
+            <concept-appearance id="1RPVGJMPK-LXZX5Z-6KQ" x="349" y="715" width="181" height="28"/>
+            <concept-appearance id="1RPVG6M5R-11442NK-630" x="413" y="619" width="47" height="25"/>
+            <concept-appearance id="1RPVCS80L-V2VF3Z-PJ" x="310" y="62" width="129" height="27"/>
+            <concept-appearance id="1RPVD3Q1Q-1T10XS4-1T7" x="95" y="304" width="59" height="27"/>
+            <concept-appearance id="1RPVGRS5W-8YKVN-6W8" x="562" y="534" width="122" height="25"/>
+            <concept-appearance id="1RPVD4JL6-10KDDL-1YD" x="246" y="303" width="44" height="25"/>
+            <concept-appearance id="1RPVH8CNK-FW7G92-9MT" x="635" y="716" width="73" height="27"/>
+            <concept-appearance id="1RPVD4TJ4-262V0M0-1Z3" x="407" y="313" width="67" height="27"/>
+            <concept-appearance id="1RPVCW04M-6C6Y8B-15W" x="310" y="142" width="223" height="28"/>
+            <concept-appearance id="1RPVFXGY3-2D7MG68-5T2" x="97" y="534" width="61" height="25"/>
+            <concept-appearance id="1RPVF0XLP-MLYR05-3XD" x="400" y="534" width="101" height="25"/>
+            <concept-appearance id="1RPVH8T6C-YDPMFR-9PM" x="805" y="719" width="80" height="25"/>
+            <concept-appearance id="1RPVF4PFJ-CBJP6H-49Y" x="323" y="391" width="61" height="25"/>
+            <concept-appearance id="1RPVCXBFK-2CM9WWY-18V" x="512" y="234" width="81" height="28"/>
+        </concept-appearance-list>
+        <linking-phrase-appearance-list>
+            <linking-phrase-appearance id="1RPVHCHXW-24Y2J9F-9V2" x="691" y="671" width="90" height="11"/>
+            <linking-phrase-appearance id="1RPVCW375-1CVF8XY-165" x="310" y="102" width="66" height="11"/>
+            <linking-phrase-appearance id="1RPVGF441-21LJS6H-67B" x="299" y="574" width="59" height="14"/>
+            <linking-phrase-appearance id="1RPVGDJZZ-1PRL6G1-65J" x="143" y="573" width="30" height="11"/>
+            <linking-phrase-appearance id="1RPVD62KG-1Q684JT-22R" x="314" y="279" width="14" height="11"/>
+            <linking-phrase-appearance id="1RPVGDTNW-16N7CLX-66C" x="225" y="574" width="49" height="14"/>
+            <linking-phrase-appearance id="1RPVHML62-G1H3CG-BPH" x="552" y="277" width="14" height="11"/>
+            <linking-phrase-appearance id="1RPVH73ML-2D4KMX0-8YY" x="531" y="674" width="61" height="13"/>
+            <linking-phrase-appearance id="1RPVGQ0PS-WC8QP-6V9" x="116" y="664" width="79" height="14"/>
+            <linking-phrase-appearance id="1RPVGK728-1QMNFLL-6L8" x="372" y="665" width="14" height="11"/>
+            <linking-phrase-appearance id="1RPVH5BPB-Z6MR83-8GZ" x="607" y="570" width="57" height="11"/>
+            <linking-phrase-appearance id="1RPVGY0WN-1J60GYR-71K" x="300" y="347" width="14" height="11"/>
+            <linking-phrase-appearance id="1RPVCZW6B-272XD5Y-1GC" x="209" y="190" width="100" height="14"/>
+            <linking-phrase-appearance id="1RPVH0D9S-1GPY2L2-7H0" x="277" y="425" width="30" height="11"/>
+            <linking-phrase-appearance id="1RPVD0CBF-DWMBF7-1JP" x="314" y="191" width="82" height="14"/>
+            <linking-phrase-appearance id="1RPVG6TSQ-FQPHS9-63G" x="402" y="571" width="62" height="14"/>
+            <linking-phrase-appearance id="1RPVFXM2J-N9KXG1-5TL" x="248" y="496" width="47" height="11"/>
+            <linking-phrase-appearance id="1RPVGTFV2-S2ZLKW-6YJ" x="504" y="572" width="59" height="11"/>
+            <linking-phrase-appearance id="1RPVD034R-1RKQSGR-1HV" x="445" y="190" width="129" height="14"/>
+            <linking-phrase-appearance id="1RPVGS65W-7MZTB-6X6" x="471" y="493" width="74" height="14"/>
+            <linking-phrase-appearance id="1RPVD5RSD-1B3960S-210" x="157" y="270" width="14" height="11"/>
+            <linking-phrase-appearance id="1RPVGYV0H-27CXJ82-73S" x="467" y="353" width="19" height="11"/>
+        </linking-phrase-appearance-list>
+        <connection-appearance-list>
+            <connection-appearance id="1RPVHLLWR-YNGSRQ-BLJ" from-pos="center" to-pos="top-right"/>
+            <connection-appearance id="1RPVFXM2L-13ZHM9K-5TV" from-pos="center" to-pos="top"/>
+            <connection-appearance id="1RPVGK729-RL0GVT-6LK" from-pos="center" to-pos="top"/>
+            <connection-appearance id="1RPVGTFV3-4SPT14-6YT" from-pos="center" to-pos="right"/>
+            <connection-appearance id="1RPVHLG91-226JPGT-BL3" from-pos="center" to-pos="top-left"/>
+            <connection-appearance id="1RPVGS65Y-1DJTLCD-6XH" from-pos="center" to-pos="top"/>
+            <connection-appearance id="1RPVH73MM-52R7SV-8Z1" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1RPVHD01T-SDNY5N-9X1" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1RPVHN4GY-1SMDW6B-BQT" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1RPVH5BPN-1J3V66J-8H2" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1RPVH5BPN-Y7W164-8H7" from-pos="center" to-pos="top"/>
+            <connection-appearance id="1RPVGDTNX-1PQ38HM-66G" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1RPVD034S-20F2M5R-1HY" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1RPVGTFV3-V5S270-6YM" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1RPVGDK00-HNZ8GN-65T" from-pos="center" to-pos="top"/>
+            <connection-appearance id="1RPVD0CBG-WGLF88-1JY" from-pos="center" to-pos="top"/>
+            <connection-appearance id="1RPVHLBLQ-2BC3GXY-BKP" from-pos="center" to-pos="top"/>
+            <connection-appearance id="1RPVHQDKQ-11K6WBM-BVF" from-pos="center" to-pos="top"/>
+            <connection-appearance id="1RPVHML63-YW0T80-BPL" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1RPVGF442-178D4DN-67F" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1RPVGY0WP-F9B4LR-71N" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1RPVHGXHY-P8YQD0-B7B" from-pos="center" to-pos="left"/>
+            <connection-appearance id="1RPVGQ0PS-270WTFT-6VD" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1RPVGS65X-1HQPQ9X-6X9" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1RPVHML64-1MZQJXN-BPR" from-pos="center" to-pos="top"/>
+            <connection-appearance id="1RPVH73MM-1XVX0WD-8Z7" from-pos="center" to-pos="right"/>
+            <connection-appearance id="1RPVCW37H-2DJPZYH-169" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1RPVHF5M9-9C6SBB-B1K" from-pos="center" to-pos="top-left"/>
+            <connection-appearance id="1RPVFXM2K-RL3F0B-5TP" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1RPVH0D9V-80FZFK-7H8" from-pos="center" to-pos="top"/>
+            <connection-appearance id="1RPVGQ0PS-25PHWCY-6VK" from-pos="center" to-pos="left"/>
+            <connection-appearance id="1RPVGF442-8WBD4F-67M" from-pos="center" to-pos="bottom-left"/>
+            <connection-appearance id="1RPVHCHXX-1K96SKY-9V5" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1RPVCW37H-Q9CXDC-16H" from-pos="center" to-pos="top"/>
+            <connection-appearance id="1RPVHCRPN-28G7240-9W7" from-pos="center" to-pos="top"/>
+            <connection-appearance id="1RPVG6TSQ-1KYB121-63R" from-pos="center" to-pos="top"/>
+            <connection-appearance id="1RPVGDTNY-MX69MD-66N" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1RPVGK729-27KLCXT-6LC" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1RPVHCHXY-H2HS8P-9VB" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1RPVD034T-1GJ422N-1J3" from-pos="center" to-pos="top"/>
+            <connection-appearance id="1RPVCZW6B-SFLBP5-1GG" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1RPVH0D9T-16B7R5J-7H3" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1RPVHQ52M-1CCZPB9-BV0" from-pos="center" to-pos="top-left"/>
+            <connection-appearance id="1RPVGYV0J-R0BL9N-741" from-pos="center" to-pos="right"/>
+            <connection-appearance id="1RPVD0CBG-4KWF8B-1JS" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1RPVD62KG-GZ13DK-22V" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1RPVHCX35-4J23Y4-9WN" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1RPVG6TSQ-QKJWMJ-63K" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1RPVGY0WP-6T82SV-71T" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1RPVCZW6B-1FXG0LZ-1GN" from-pos="center" to-pos="top"/>
+            <connection-appearance id="1RPVD5RSF-18HDD96-213" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1RPVGYV0J-2D7BQ3G-73W" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1RPVGDK00-1S4JXNG-65M" from-pos="center" to-pos="center"/>
+        </connection-appearance-list>
+        <style-sheet-list>
+            <style-sheet id="_Default_">
+                <map-style background-color="255,255,255,0" image-style="full" image-top-left="0,0"/>
+                <concept-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1"
+                    border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <linking-phrase-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0" background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1"
+                    border-shape="rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <connection-style color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+                <resource-style font-name="SanSerif" font-size="12" font-style="plain" font-color="0,0,0,255" background-color="192,192,192,255"/>
+            </style-sheet>
+        </style-sheet-list>
+        <extra-graphical-properties-list>
+            <properties-list id="file:////C:/Users/masri/PycharmProjects/cmapProject/ConceptMapFiles/CMAPFiles/ComputerSecurity/Student/Module1IntroductionComputerSecurity/ICSAnonymous24.cmap">
+                <property key="StyleSheetGroup_0" value="//*@!#$%%^&amp;*()() No Grouped StyleSheets @"/>
+            </properties-list>
+        </extra-graphical-properties-list>
+    </map>
+</cmap>

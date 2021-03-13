@@ -1,0 +1,979 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conceptMap>
+<storableObject id="1S0N4VXX3-1J19JMS-QR8" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N4VXX3-1J19JMS-QR8"/>
+<property name="_size" subclass="java.lang.Integer" encoding="0"/>
+</storableObject>
+<storableObject id="1S0N4PQCL-3F23PS-PYX" subclass="nlk.base.ExtHashtable">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N4PQCL-3F23PS-PYX"/>
+<property name="1S0N4R7LQ-2DXBL2W-Q3K" subclass="nlk.base.Proposition" encoding="1S0N4R7LQ-2DXBL2W-Q3K"/>
+<property name="1S0N59W0M-GLZF46-S99" subclass="nlk.base.Proposition" encoding="1S0N59W0M-GLZF46-S99"/>
+<property name="1S0N4VXX3-1L22XZK-QRF" subclass="nlk.base.Proposition" encoding="1S0N4VXX3-1L22XZK-QRF"/>
+<property name="1S0N5FV5C-113VZWR-SP0" subclass="nlk.base.Proposition" encoding="1S0N5FV5C-113VZWR-SP0"/>
+<property name="1S0N4R3P2-42TLJ1-Q32" subclass="nlk.base.Proposition" encoding="1S0N4R3P2-42TLJ1-Q32"/>
+<property name="1S0N4PQCL-22M9MZQ-PYV" subclass="nlk.base.Proposition" encoding="1S0N4PQCL-22M9MZQ-PYV"/>
+<property name="1S0N4X07W-19JZG77-QSZ" subclass="nlk.base.Proposition" encoding="1S0N4X07W-19JZG77-QSZ"/>
+<property name="1S0N4WMMX-1V6SF52-QS7" subclass="nlk.base.Proposition" encoding="1S0N4WMMX-1V6SF52-QS7"/>
+</storableObject>
+<storableObject id="ge:1S0N5FV5C-1ZZY9KM-SNM" subclass="nlk.base.GraphicalConnection">
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1S0N4J208-23YGJM5-PCX"/>
+<property name="_secondConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_firstConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1S0N5FV5C-1ZZY9KM-SNM"/>
+<property name="_firstGraphicalNode" subclass="nlk.base.GraphicalConcept" encoding="ge:1S0N4R7LQ-1P28YZJ-Q39"/>
+<property name="_secondGraphicalNode" subclass="nlk.base.GraphicalLinkingPhrase" encoding="ge:1S0N5FV5C-1G5CLMT-SNJ"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1S0N5RJYT-271G2ZG-TSS"/>
+<property name="_controlPoints" subclass="nlk.base.ExtVector" encoding="1S0N5FV5C-X38KF0-SNN"/>
+<property name="_entity" subclass="nlk.base.Connection" encoding="1S0N5FV5C-1ZZY9KM-SNM"/>
+</storableObject>
+<storableObject id="1S0N5RJYT-29XS8PW-TT0" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N5RJYT-29XS8PW-TT0"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1S0N5RJYT-1TN96Z8-TSK"/>
+<property name="nlk.base.graphicalconnection.line.style" subclass="java.lang.Integer" encoding="1"/>
+</storableObject>
+<storableObject id="1S0N4R3P2-2BQC556-Q2Y" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N4R3P2-2BQC556-Q2Y"/>
+<property name="_size" subclass="java.lang.Integer" encoding="0"/>
+</storableObject>
+<storableObject id="1S0N5RJYT-26B7371-TT1" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N5RJYT-26B7371-TT1"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1S0N5RJYT-1TN96Z8-TSK"/>
+<property name="nlk.base.graphicalconnection.line.style" subclass="java.lang.Integer" encoding="1"/>
+</storableObject>
+<storableObject id="1S0N5RJYT-1KZQ81L-TSN" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N5RJYT-1KZQ81L-TSN"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1S0N5RJYT-1TN96Z8-TSK"/>
+<property name="nlk.base.graphicalconcept.text.font.size" subclass="java.lang.Integer" encoding="16"/>
+</storableObject>
+<storableObject id="1S0N5RJYT-WHQKG0-TSR" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N5RJYT-WHQKG0-TSR"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1S0N5RJYT-1TN96Z8-TSK"/>
+<property name="nlk.base.graphicalconcept.text.font.size" subclass="java.lang.Integer" encoding="16"/>
+</storableObject>
+<storableObject id="1S0N5RJYT-R1MQH1-TSW" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N5RJYT-R1MQH1-TSW"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1S0N5RJYT-1TN96Z8-TSK"/>
+<property name="nlk.base.graphicalconcept.text.font.size" subclass="java.lang.Integer" encoding="16"/>
+</storableObject>
+<storableObject id="1S0N4PQCL-376HL-PYH" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N4PQCL-376HL-PYH"/>
+<property name="_size" subclass="java.lang.Integer" encoding="0"/>
+</storableObject>
+<storableObject id="1S0N5FV5C-1ZZY9KM-SNM" subclass="nlk.base.Connection">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N5FV5C-1ZZY9KM-SNM"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1S0N4J208-23YGJM5-PCX"/>
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConnection" encoding="ge:1S0N5FV5C-1ZZY9KM-SNM"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="file:////Z:/Irfan On My Mac/Google Drive/Projects/git-repos/NSAcurriculumCmapNEW/Digital_Forensics/Module_1_Intro_digital_forencics/Lesson_4_Legal_Aspects/Concept_Maps/Legal_Aspects.cmap"/>
+<property name="_firstNode" subclass="nlk.base.Concept" encoding="1S0N4R7LQ-1P28YZJ-Q39"/>
+<property name="_secondNode" subclass="nlk.base.LinkingPhrase" encoding="1S0N5FV5C-1G5CLMT-SNJ"/>
+</storableObject>
+<storableObject id="ge:1S0N5FV5C-RK788W-SNT" subclass="nlk.base.GraphicalConnection">
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1S0N4J208-23YGJM5-PCX"/>
+<property name="_secondConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_firstConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1S0N5FV5C-RK788W-SNT"/>
+<property name="_firstGraphicalNode" subclass="nlk.base.GraphicalLinkingPhrase" encoding="ge:1S0N5FV5C-1G5CLMT-SNJ"/>
+<property name="_secondGraphicalNode" subclass="nlk.base.GraphicalConcept" encoding="ge:1S0N5FV5C-18SKG0L-SNF"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1S0N5RJYT-M2HQ8B-TSX"/>
+<property name="_controlPoints" subclass="nlk.base.ExtVector" encoding="1S0N5FV5C-1CJBZYT-SNV"/>
+<property name="_entity" subclass="nlk.base.Connection" encoding="1S0N5FV5C-RK788W-SNT"/>
+</storableObject>
+<storableObject id="1S0N5RJYT-2077W8B-TT6" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N5RJYT-2077W8B-TT6"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1S0N5RJYT-1TN96Z8-TSK"/>
+<property name="nlk.base.graphicalconnection.line.style" subclass="java.lang.Integer" encoding="1"/>
+</storableObject>
+<storableObject id="1S0N59W0M-16X80H9-S8X" subclass="nlk.base.Connection">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N59W0M-16X80H9-S8X"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1S0N4J208-23YGJM5-PCX"/>
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConnection" encoding="ge:1S0N59W0M-16X80H9-S8X"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="file:////Z:/Irfan On My Mac/Google Drive/Projects/git-repos/NSAcurriculumCmapNEW/Digital_Forensics/Module_1_Intro_digital_forencics/Lesson_4_Legal_Aspects/Concept_Maps/Legal_Aspects.cmap"/>
+<property name="_firstNode" subclass="nlk.base.Concept" encoding="1S0N4R3P2-BNT0R7-Q2T"/>
+<property name="_secondNode" subclass="nlk.base.LinkingPhrase" encoding="1S0N59W0M-1K1220Y-S8T"/>
+</storableObject>
+<storableObject id="1S0N5FV5C-1CJBZYT-SNV" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N5FV5C-1CJBZYT-SNV"/>
+<property name="_size" subclass="java.lang.Integer" encoding="0"/>
+</storableObject>
+<storableObject id="1S0N4X07W-SVPSB5-QST" subclass="nlk.base.Connection">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N4X07W-SVPSB5-QST"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1S0N4J208-23YGJM5-PCX"/>
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConnection" encoding="ge:1S0N4X07W-SVPSB5-QST"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="file:////Z:/Irfan On My Mac/Google Drive/Projects/git-repos/NSAcurriculumCmapNEW/Digital_Forensics/Module_1_Intro_digital_forencics/Lesson_4_Legal_Aspects/Concept_Maps/Legal_Aspects.cmap"/>
+<property name="_firstNode" subclass="nlk.base.LinkingPhrase" encoding="1S0N4VXX3-1122X71-QQY"/>
+<property name="_secondNode" subclass="nlk.base.Concept" encoding="1S0N4X07W-28WMNL5-QSQ"/>
+</storableObject>
+<storableObject id="1S0N5RJYT-1CZNHB4-TSZ" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N5RJYT-1CZNHB4-TSZ"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="nlk.base.graphicallinkingphrase.text.font.size" subclass="java.lang.Integer" encoding="16"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1S0N5RJYT-1TN96Z8-TSK"/>
+</storableObject>
+<storableObject id="1S0N5RJYT-1Z8HZN1-TTB" subclass="nlk.base.StyleSheet">
+<property name="nlk.base.graphicalconcept.text.font.size" subclass="java.lang.Integer" encoding="18"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1S0N5RJYT-1TN96Z8-TSK"/>
+<property name="nlk.base.graphicalconcept.text.font.style" subclass="java.lang.Integer" encoding="65297"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="nlk.base.graphicalconcept.width" subclass="java.lang.Integer" encoding="376"/>
+<property name="nlk.base.graphicalconcept.height" subclass="java.lang.Integer" encoding="71"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N5RJYT-1Z8HZN1-TTB"/>
+</storableObject>
+<storableObject id="1S0N59W0M-1K1220Y-S8T" subclass="nlk.base.LinkingPhrase">
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalLinkingPhrase" encoding="ge:1S0N59W0M-1K1220Y-S8T"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N59W0M-1K1220Y-S8T"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1S0N4J208-23YGJM5-PCX"/>
+<property name="_phrase" subclass="java.lang.String" encoding="The &quot; Right to privacy &quot;"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="file:////Z:/Irfan On My Mac/Google Drive/Projects/git-repos/NSAcurriculumCmapNEW/Digital_Forensics/Module_1_Intro_digital_forencics/Lesson_4_Legal_Aspects/Concept_Maps/Legal_Aspects.cmap"/>
+</storableObject>
+<storableObject id="1S0N5RJYT-1FL1QCD-TSM" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N5RJYT-1FL1QCD-TSM"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1S0N5RJYT-1TN96Z8-TSK"/>
+<property name="nlk.base.graphicalconcept.text.font.size" subclass="java.lang.Integer" encoding="16"/>
+</storableObject>
+<storableObject id="1S0N5RJYT-12HGHC0-TSY" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N5RJYT-12HGHC0-TSY"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1S0N5RJYT-1TN96Z8-TSK"/>
+<property name="nlk.base.graphicalconnection.line.style" subclass="java.lang.Integer" encoding="1"/>
+</storableObject>
+<storableObject id="1S0N5FV5C-RK788W-SNT" subclass="nlk.base.Connection">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N5FV5C-RK788W-SNT"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1S0N4J208-23YGJM5-PCX"/>
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConnection" encoding="ge:1S0N5FV5C-RK788W-SNT"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="file:////Z:/Irfan On My Mac/Google Drive/Projects/git-repos/NSAcurriculumCmapNEW/Digital_Forensics/Module_1_Intro_digital_forencics/Lesson_4_Legal_Aspects/Concept_Maps/Legal_Aspects.cmap"/>
+<property name="_firstNode" subclass="nlk.base.LinkingPhrase" encoding="1S0N5FV5C-1G5CLMT-SNJ"/>
+<property name="_secondNode" subclass="nlk.base.Concept" encoding="1S0N5FV5C-18SKG0L-SNF"/>
+</storableObject>
+<storableObject id="ge:1S0N4VXX3-19SBSC1-QQV" subclass="nlk.base.GraphicalConcept">
+<property name="_local_style_infos" subclass="nlk.base.ExtVector" encoding="1V8NRJRJK-25RG8PD-M8"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1S0N5RJYT-R4P866-TT4"/>
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1S0N4J208-23YGJM5-PCX"/>
+<property name="_entity" subclass="nlk.base.Concept" encoding="1S0N4VXX3-19SBSC1-QQV"/>
+<property name="_y" subclass="java.lang.Integer" encoding="427"/>
+<property name="_x" subclass="java.lang.Integer" encoding="1248"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1S0N4VXX3-19SBSC1-QQV"/>
+</storableObject>
+<storableObject id="ge:1S0N59W0M-1K1220Y-S8T" subclass="nlk.base.GraphicalLinkingPhrase">
+<property name="_y" subclass="java.lang.Integer" encoding="259"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1S0N59W0M-1K1220Y-S8T"/>
+<property name="_x" subclass="java.lang.Integer" encoding="854"/>
+<property name="_entity" subclass="nlk.base.LinkingPhrase" encoding="1S0N59W0M-1K1220Y-S8T"/>
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1S0N4J208-23YGJM5-PCX"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1S0N5RJYT-1CZNHB4-TSZ"/>
+</storableObject>
+<storableObject id="1S0N5FV5C-18SKG0L-SNF" subclass="nlk.base.Concept">
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConcept" encoding="ge:1S0N5FV5C-18SKG0L-SNF"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N5FV5C-18SKG0L-SNF"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1S0N4J208-23YGJM5-PCX"/>
+<property name="_phrase" subclass="java.lang.String" encoding="Legal rules and policies specified by organization "/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="file:////Z:/Irfan On My Mac/Google Drive/Projects/git-repos/NSAcurriculumCmapNEW/Digital_Forensics/Module_1_Intro_digital_forencics/Lesson_4_Legal_Aspects/Concept_Maps/Legal_Aspects.cmap"/>
+</storableObject>
+<storableObject id="ge:1S0N4MNTV-17X9DL2-PFF" subclass="nlk.base.GraphicalConcept">
+<property name="_y" subclass="java.lang.Integer" encoding="421"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1S0N4MNTV-17X9DL2-PFF"/>
+<property name="_x" subclass="java.lang.Integer" encoding="190"/>
+<property name="_entity" subclass="nlk.base.Concept" encoding="1S0N4MNTV-17X9DL2-PFF"/>
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1S0N4J208-23YGJM5-PCX"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1S0N5RJYT-1KZQ81L-TSN"/>
+</storableObject>
+<storableObject id="1V8NRJG46-1S89Z0F-M5" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1V8NRJG46-1S89Z0F-M5"/>
+<property name="_size" subclass="java.lang.Integer" encoding="26"/>
+<property name="vec_0" subclass="nlk.base.GraphicalConnection" encoding="ge:1S0N4R3P2-23JSSTZ-Q2X"/>
+<property name="vec_1" subclass="nlk.base.GraphicalConnection" encoding="ge:1S0N4X07W-SVPSB5-QST"/>
+<property name="vec_2" subclass="nlk.base.GraphicalConnection" encoding="ge:1S0N5FV5C-1ZZY9KM-SNM"/>
+<property name="vec_3" subclass="nlk.base.GraphicalConnection" encoding="ge:1S0N4WMMX-1WTWP7S-QS2"/>
+<property name="vec_4" subclass="nlk.base.GraphicalConnection" encoding="ge:1S0N59W0M-MYWP7F-S93"/>
+<property name="vec_5" subclass="nlk.base.GraphicalConnection" encoding="ge:1S0N4PQCL-B7C35D-PYG"/>
+<property name="vec_6" subclass="nlk.base.GraphicalConnection" encoding="ge:1S0N5FV5C-RK788W-SNT"/>
+<property name="vec_7" subclass="nlk.base.GraphicalConnection" encoding="ge:1S0N4VXX3-1HPSTFK-QR1"/>
+<property name="vec_8" subclass="nlk.base.GraphicalConnection" encoding="ge:1S0N4PQCL-16128BF-PYN"/>
+<property name="vec_9" subclass="nlk.base.GraphicalConnection" encoding="ge:1S0N4R7LQ-TSMPDT-Q3D"/>
+<property name="vec_10" subclass="nlk.base.GraphicalConnection" encoding="ge:1S0N4VXX3-18K2QG1-QR7"/>
+<property name="vec_11" subclass="nlk.base.GraphicalConnection" encoding="ge:1S0N59W0M-16X80H9-S8X"/>
+<property name="vec_12" subclass="nlk.base.GraphicalLinkingPhrase" encoding="ge:1S0N59W0M-1K1220Y-S8T"/>
+<property name="vec_13" subclass="nlk.base.GraphicalLinkingPhrase" encoding="ge:1S0N4PQCL-N9YDR9-PYB"/>
+<property name="vec_14" subclass="nlk.base.GraphicalLinkingPhrase" encoding="ge:1S0N4VXX3-1122X71-QQY"/>
+<property name="vec_15" subclass="nlk.base.GraphicalLinkingPhrase" encoding="ge:1S0N5FV5C-1G5CLMT-SNJ"/>
+<property name="vec_16" subclass="nlk.base.GraphicalConcept" encoding="ge:1S0N4VXX3-19SBSC1-QQV"/>
+<property name="vec_17" subclass="nlk.base.GraphicalConcept" encoding="ge:1S0N4R3P2-BNT0R7-Q2T"/>
+<property name="vec_18" subclass="nlk.base.GraphicalConcept" encoding="ge:1S0N4X07W-28WMNL5-QSQ"/>
+<property name="vec_19" subclass="nlk.base.GraphicalConcept" encoding="ge:1S0N4J7PW-1M7ZNPB-PD3"/>
+<property name="vec_20" subclass="nlk.base.GraphicalConcept" encoding="ge:1S0N5FV5C-18SKG0L-SNF"/>
+<property name="vec_21" subclass="nlk.base.GraphicalConcept" encoding="ge:1S0N4PQC2-MG6QMG-PY7"/>
+<property name="vec_22" subclass="nlk.base.GraphicalConcept" encoding="ge:1S0N4WMMX-1QXCVDT-QRZ"/>
+<property name="vec_23" subclass="nlk.base.GraphicalConcept" encoding="ge:1S0N59W03-7SVBL9-S8Q"/>
+<property name="vec_24" subclass="nlk.base.GraphicalConcept" encoding="ge:1S0N4R7LQ-1P28YZJ-Q39"/>
+<property name="vec_25" subclass="nlk.base.GraphicalConcept" encoding="ge:1S0N4MNTV-17X9DL2-PFF"/>
+</storableObject>
+<storableObject id="1S0N4J208-23YGJM5-PCX" subclass="nlk.base.GraphicalConceptMap">
+<property name="_entity" subclass="nlk.base.ConceptMap" encoding="file:////Z:/Irfan On My Mac/Google Drive/Projects/git-repos/NSAcurriculumCmapNEW/Digital_Forensics/Module_1_Intro_digital_forencics/Lesson_4_Legal_Aspects/Concept_Maps/Legal_Aspects.cmap"/>
+<property name="_viewportWidth" subclass="java.lang.Integer" encoding="846"/>
+<property name="_viewportYPos" subclass="java.lang.Integer" encoding="0"/>
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1S0N4J208-23YGJM5-PCX"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1S0N5RJYT-1TN96Z8-TSK"/>
+<property name="_canvasHeight" subclass="java.lang.Integer" encoding="770"/>
+<property name="_StyleSheetGroups" subclass="nlk.base.ExtVector" encoding="1S0N4MY00-18SYSWY-PG0"/>
+<property name="_viewportHeight" subclass="java.lang.Integer" encoding="510"/>
+<property name="_canvasWidth" subclass="java.lang.Integer" encoding="1554"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N4J208-23YGJM5-PCX"/>
+<property name="_viewportXPos" subclass="java.lang.Integer" encoding="0"/>
+<property name="_LatestChanges_" subclass="nlk.base.StyleSheet" encoding="1S0N5RJZB-1W0ST2T-TTH"/>
+<property name="_DrawOrder" subclass="nlk.base.ExtVector" encoding="1V8NRJG46-1S89Z0F-M5"/>
+</storableObject>
+<storableObject id="1S0N4VXX3-1HPSTFK-QR1" subclass="nlk.base.Connection">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N4VXX3-1HPSTFK-QR1"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1S0N4J208-23YGJM5-PCX"/>
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConnection" encoding="ge:1S0N4VXX3-1HPSTFK-QR1"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="file:////Z:/Irfan On My Mac/Google Drive/Projects/git-repos/NSAcurriculumCmapNEW/Digital_Forensics/Module_1_Intro_digital_forencics/Lesson_4_Legal_Aspects/Concept_Maps/Legal_Aspects.cmap"/>
+<property name="_firstNode" subclass="nlk.base.Concept" encoding="1S0N4PQC2-MG6QMG-PY7"/>
+<property name="_secondNode" subclass="nlk.base.LinkingPhrase" encoding="1S0N4VXX3-1122X71-QQY"/>
+</storableObject>
+<storableObject id="ge:1S0N4VXX3-1122X71-QQY" subclass="nlk.base.GraphicalLinkingPhrase">
+<property name="_y" subclass="java.lang.Integer" encoding="564"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1S0N4VXX3-1122X71-QQY"/>
+<property name="_x" subclass="java.lang.Integer" encoding="788"/>
+<property name="_entity" subclass="nlk.base.LinkingPhrase" encoding="1S0N4VXX3-1122X71-QQY"/>
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1S0N4J208-23YGJM5-PCX"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1S0N5RJYT-1Y68QP6-TT3"/>
+</storableObject>
+<storableObject id="1V8NRJRJK-1VB2Y7D-M7" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1V8NRJRJK-1VB2Y7D-M7"/>
+<property name="_size" subclass="java.lang.Integer" encoding="1"/>
+<property name="vec_0" subclass="java.lang.String" encoding="0|7|WEIGHT|2.0"/>
+</storableObject>
+<storableObject id="ge:1S0N4WMMX-1QXCVDT-QRZ" subclass="nlk.base.GraphicalConcept">
+<property name="_local_style_infos" subclass="nlk.base.ExtVector" encoding="1V8NRJRJK-1VB2Y7D-M7"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1S0N5RJYT-1FL1QCD-TSM"/>
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1S0N4J208-23YGJM5-PCX"/>
+<property name="_entity" subclass="nlk.base.Concept" encoding="1S0N4WMMX-1QXCVDT-QRZ"/>
+<property name="_y" subclass="java.lang.Integer" encoding="557"/>
+<property name="_x" subclass="java.lang.Integer" encoding="1252"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1S0N4WMMX-1QXCVDT-QRZ"/>
+</storableObject>
+<storableObject id="ge:1S0N4R3P2-BNT0R7-Q2T" subclass="nlk.base.GraphicalConcept">
+<property name="_y" subclass="java.lang.Integer" encoding="317"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1S0N4R3P2-BNT0R7-Q2T"/>
+<property name="_x" subclass="java.lang.Integer" encoding="547"/>
+<property name="_entity" subclass="nlk.base.Concept" encoding="1S0N4R3P2-BNT0R7-Q2T"/>
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1S0N4J208-23YGJM5-PCX"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1S0N5RJYT-16ZWP5S-TT9"/>
+</storableObject>
+<storableObject id="ge:1S0N59W03-7SVBL9-S8Q" subclass="nlk.base.GraphicalConcept">
+<property name="_y" subclass="java.lang.Integer" encoding="233"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1S0N59W03-7SVBL9-S8Q"/>
+<property name="_x" subclass="java.lang.Integer" encoding="1213"/>
+<property name="_entity" subclass="nlk.base.Concept" encoding="1S0N59W03-7SVBL9-S8Q"/>
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1S0N4J208-23YGJM5-PCX"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1S0N5RJYT-1Z981M4-TT2"/>
+</storableObject>
+<storableObject id="1S0N4PQCL-14F26P5-PYP" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N4PQCL-14F26P5-PYP"/>
+<property name="_size" subclass="java.lang.Integer" encoding="0"/>
+</storableObject>
+<storableObject id="1S0N4X07W-25MMM0K-QT0" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N4X07W-25MMM0K-QT0"/>
+<property name="_size" subclass="java.lang.Integer" encoding="2"/>
+<property name="vec_0" subclass="nlk.base.Connection" encoding="1S0N4VXX3-1HPSTFK-QR1"/>
+<property name="vec_1" subclass="nlk.base.Connection" encoding="1S0N4X07W-SVPSB5-QST"/>
+</storableObject>
+<storableObject id="1S0N5RJYT-84SWX-TT7" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N5RJYT-84SWX-TT7"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1S0N5RJYT-1TN96Z8-TSK"/>
+<property name="nlk.base.graphicalconnection.line.style" subclass="java.lang.Integer" encoding="1"/>
+</storableObject>
+<storableObject id="1S0N4PP4C-1F9LS7M-PY5" subclass="nlk.base.ExtHashtable">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N4PP4C-1F9LS7M-PY5"/>
+<property name="1S0N4R3P2-23JSSTZ-Q2X" subclass="nlk.base.Connection" encoding="1S0N4R3P2-23JSSTZ-Q2X"/>
+<property name="1S0N4X07W-SVPSB5-QST" subclass="nlk.base.Connection" encoding="1S0N4X07W-SVPSB5-QST"/>
+<property name="1S0N5FV5C-1ZZY9KM-SNM" subclass="nlk.base.Connection" encoding="1S0N5FV5C-1ZZY9KM-SNM"/>
+<property name="1S0N4WMMX-1WTWP7S-QS2" subclass="nlk.base.Connection" encoding="1S0N4WMMX-1WTWP7S-QS2"/>
+<property name="1S0N59W0M-MYWP7F-S93" subclass="nlk.base.Connection" encoding="1S0N59W0M-MYWP7F-S93"/>
+<property name="1S0N4PQCL-B7C35D-PYG" subclass="nlk.base.Connection" encoding="1S0N4PQCL-B7C35D-PYG"/>
+<property name="1S0N5FV5C-RK788W-SNT" subclass="nlk.base.Connection" encoding="1S0N5FV5C-RK788W-SNT"/>
+<property name="1S0N4VXX3-1HPSTFK-QR1" subclass="nlk.base.Connection" encoding="1S0N4VXX3-1HPSTFK-QR1"/>
+<property name="1S0N4PQCL-16128BF-PYN" subclass="nlk.base.Connection" encoding="1S0N4PQCL-16128BF-PYN"/>
+<property name="1S0N4R7LQ-TSMPDT-Q3D" subclass="nlk.base.Connection" encoding="1S0N4R7LQ-TSMPDT-Q3D"/>
+<property name="1S0N4VXX3-18K2QG1-QR7" subclass="nlk.base.Connection" encoding="1S0N4VXX3-18K2QG1-QR7"/>
+<property name="1S0N59W0M-16X80H9-S8X" subclass="nlk.base.Connection" encoding="1S0N59W0M-16X80H9-S8X"/>
+</storableObject>
+<storableObject id="ge:1S0N4J7PW-1M7ZNPB-PD3" subclass="nlk.base.GraphicalConcept">
+<property name="_y" subclass="java.lang.Integer" encoding="113"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1S0N4J7PW-1M7ZNPB-PD3"/>
+<property name="_x" subclass="java.lang.Integer" encoding="959"/>
+<property name="_entity" subclass="nlk.base.Concept" encoding="1S0N4J7PW-1M7ZNPB-PD3"/>
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1S0N4J208-23YGJM5-PCX"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1S0N5RJYT-1Z8HZN1-TTB"/>
+</storableObject>
+<storableObject id="1S0N5RJYT-2B3G3W3-TTC" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N5RJYT-2B3G3W3-TTC"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1S0N5RJYT-1TN96Z8-TSK"/>
+<property name="nlk.base.graphicalconnection.line.style" subclass="java.lang.Integer" encoding="1"/>
+</storableObject>
+<storableObject id="1S0N4R3P2-42TLJ1-Q32" subclass="nlk.base.Proposition">
+<property name="_connections" subclass="nlk.base.ExtVector" encoding="1S0N4R3P2-25P4JFX-Q33"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="file:////Z:/Irfan On My Mac/Google Drive/Projects/git-repos/NSAcurriculumCmapNEW/Digital_Forensics/Module_1_Intro_digital_forencics/Lesson_4_Legal_Aspects/Concept_Maps/Legal_Aspects.cmap"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N4R3P2-42TLJ1-Q32"/>
+</storableObject>
+<storableObject id="ge:1S0N4PQCL-B7C35D-PYG" subclass="nlk.base.GraphicalConnection">
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1S0N4J208-23YGJM5-PCX"/>
+<property name="_secondConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_firstConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1S0N4PQCL-B7C35D-PYG"/>
+<property name="_firstGraphicalNode" subclass="nlk.base.GraphicalConcept" encoding="ge:1S0N4MNTV-17X9DL2-PFF"/>
+<property name="_secondGraphicalNode" subclass="nlk.base.GraphicalLinkingPhrase" encoding="ge:1S0N4PQCL-N9YDR9-PYB"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1S0N5RJYT-15BXFT2-TTF"/>
+<property name="_controlPoints" subclass="nlk.base.ExtVector" encoding="1S0N4PQCL-376HL-PYH"/>
+<property name="_entity" subclass="nlk.base.Connection" encoding="1S0N4PQCL-B7C35D-PYG"/>
+</storableObject>
+<storableObject id="1S0N4VXX3-1L22XZK-QRF" subclass="nlk.base.Proposition">
+<property name="_connections" subclass="nlk.base.ExtVector" encoding="1S0N4VXX3-S5S0QT-QRG"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="file:////Z:/Irfan On My Mac/Google Drive/Projects/git-repos/NSAcurriculumCmapNEW/Digital_Forensics/Module_1_Intro_digital_forencics/Lesson_4_Legal_Aspects/Concept_Maps/Legal_Aspects.cmap"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N4VXX3-1L22XZK-QRF"/>
+</storableObject>
+<storableObject id="ge:1S0N4R7LQ-1P28YZJ-Q39" subclass="nlk.base.GraphicalConcept">
+<property name="_y" subclass="java.lang.Integer" encoding="389"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1S0N4R7LQ-1P28YZJ-Q39"/>
+<property name="_x" subclass="java.lang.Integer" encoding="547"/>
+<property name="_entity" subclass="nlk.base.Concept" encoding="1S0N4R7LQ-1P28YZJ-Q39"/>
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1S0N4J208-23YGJM5-PCX"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1S0N5RJYT-1XSP7RY-TT5"/>
+</storableObject>
+<storableObject id="ge:1S0N4VXX3-18K2QG1-QR7" subclass="nlk.base.GraphicalConnection">
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1S0N4J208-23YGJM5-PCX"/>
+<property name="_secondConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_firstConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1S0N4VXX3-18K2QG1-QR7"/>
+<property name="_firstGraphicalNode" subclass="nlk.base.GraphicalLinkingPhrase" encoding="ge:1S0N4VXX3-1122X71-QQY"/>
+<property name="_secondGraphicalNode" subclass="nlk.base.GraphicalConcept" encoding="ge:1S0N4VXX3-19SBSC1-QQV"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1S0N5RJYT-26B7371-TT1"/>
+<property name="_controlPoints" subclass="nlk.base.ExtVector" encoding="1S0N4VXX3-1J19JMS-QR8"/>
+<property name="_entity" subclass="nlk.base.Connection" encoding="1S0N4VXX3-18K2QG1-QR7"/>
+</storableObject>
+<storableObject id="1S0N5RJYT-TTZTSM-TT8" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N5RJYT-TTZTSM-TT8"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1S0N5RJYT-1TN96Z8-TSK"/>
+<property name="nlk.base.graphicalconnection.line.style" subclass="java.lang.Integer" encoding="1"/>
+</storableObject>
+<storableObject id="1S0N59W03-7SVBL9-S8Q" subclass="nlk.base.Concept">
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConcept" encoding="ge:1S0N59W03-7SVBL9-S8Q"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N59W03-7SVBL9-S8Q"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1S0N4J208-23YGJM5-PCX"/>
+<property name="_phrase" subclass="java.lang.String" encoding="- Financial information^linebreak$- Medical information^linebreak$- Educational information"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="file:////Z:/Irfan On My Mac/Google Drive/Projects/git-repos/NSAcurriculumCmapNEW/Digital_Forensics/Module_1_Intro_digital_forencics/Lesson_4_Legal_Aspects/Concept_Maps/Legal_Aspects.cmap"/>
+</storableObject>
+<storableObject id="1S0N4R7LQ-1P28YZJ-Q39" subclass="nlk.base.Concept">
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConcept" encoding="ge:1S0N4R7LQ-1P28YZJ-Q39"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N4R7LQ-1P28YZJ-Q39"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1S0N4J208-23YGJM5-PCX"/>
+<property name="_phrase" subclass="java.lang.String" encoding="Corporate policy"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="file:////Z:/Irfan On My Mac/Google Drive/Projects/git-repos/NSAcurriculumCmapNEW/Digital_Forensics/Module_1_Intro_digital_forencics/Lesson_4_Legal_Aspects/Concept_Maps/Legal_Aspects.cmap"/>
+</storableObject>
+<storableObject id="1S0N4R7LQ-TSMPDT-Q3D" subclass="nlk.base.Connection">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N4R7LQ-TSMPDT-Q3D"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1S0N4J208-23YGJM5-PCX"/>
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConnection" encoding="ge:1S0N4R7LQ-TSMPDT-Q3D"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="file:////Z:/Irfan On My Mac/Google Drive/Projects/git-repos/NSAcurriculumCmapNEW/Digital_Forensics/Module_1_Intro_digital_forencics/Lesson_4_Legal_Aspects/Concept_Maps/Legal_Aspects.cmap"/>
+<property name="_firstNode" subclass="nlk.base.LinkingPhrase" encoding="1S0N4PQCL-N9YDR9-PYB"/>
+<property name="_secondNode" subclass="nlk.base.Concept" encoding="1S0N4R7LQ-1P28YZJ-Q39"/>
+</storableObject>
+<storableObject id="1S0N5RJYT-1Z981M4-TT2" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N5RJYT-1Z981M4-TT2"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1S0N5RJYT-1TN96Z8-TSK"/>
+<property name="nlk.base.graphicalconcept.text.font.size" subclass="java.lang.Integer" encoding="16"/>
+</storableObject>
+<storableObject id="ge:1S0N4PQCL-16128BF-PYN" subclass="nlk.base.GraphicalConnection">
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1S0N4J208-23YGJM5-PCX"/>
+<property name="_secondConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_firstConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1S0N4PQCL-16128BF-PYN"/>
+<property name="_firstGraphicalNode" subclass="nlk.base.GraphicalLinkingPhrase" encoding="ge:1S0N4PQCL-N9YDR9-PYB"/>
+<property name="_secondGraphicalNode" subclass="nlk.base.GraphicalConcept" encoding="ge:1S0N4PQC2-MG6QMG-PY7"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1S0N5RJYT-1V9X25B-TSV"/>
+<property name="_controlPoints" subclass="nlk.base.ExtVector" encoding="1S0N4PQCL-14F26P5-PYP"/>
+<property name="_entity" subclass="nlk.base.Connection" encoding="1S0N4PQCL-16128BF-PYN"/>
+</storableObject>
+<storableObject id="1S0N4PQCL-16128BF-PYN" subclass="nlk.base.Connection">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N4PQCL-16128BF-PYN"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1S0N4J208-23YGJM5-PCX"/>
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConnection" encoding="ge:1S0N4PQCL-16128BF-PYN"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="file:////Z:/Irfan On My Mac/Google Drive/Projects/git-repos/NSAcurriculumCmapNEW/Digital_Forensics/Module_1_Intro_digital_forencics/Lesson_4_Legal_Aspects/Concept_Maps/Legal_Aspects.cmap"/>
+<property name="_firstNode" subclass="nlk.base.LinkingPhrase" encoding="1S0N4PQCL-N9YDR9-PYB"/>
+<property name="_secondNode" subclass="nlk.base.Concept" encoding="1S0N4PQC2-MG6QMG-PY7"/>
+</storableObject>
+<storableObject id="1S0N5FV5C-X38KF0-SNN" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N5FV5C-X38KF0-SNN"/>
+<property name="_size" subclass="java.lang.Integer" encoding="0"/>
+</storableObject>
+<storableObject id="file:////Z:/Irfan On My Mac/Google Drive/Projects/git-repos/NSAcurriculumCmapNEW/Digital_Forensics/Module_1_Intro_digital_forencics/Lesson_4_Legal_Aspects/Concept_Maps/Legal_Aspects.cmap" subclass="nlk.base.ConceptMap">
+<property name="_propositions" subclass="nlk.base.ExtHashtable" encoding="1S0N4PQCL-3F23PS-PYX"/>
+<property name="_connections" subclass="nlk.base.ExtHashtable" encoding="1S0N4PP4C-1F9LS7M-PY5"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="file:////Z:/Irfan On My Mac/Google Drive/Projects/git-repos/NSAcurriculumCmapNEW/Digital_Forensics/Module_1_Intro_digital_forencics/Lesson_4_Legal_Aspects/Concept_Maps/Legal_Aspects.cmap"/>
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConceptMap" encoding="1S0N4J208-23YGJM5-PCX"/>
+<property name="_resourceInfo" subclass="nlk.base.ResourceInfo" encoding="1V8NRJF3G-1L1RRDW-L8"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1S0N4J208-23YGJM5-PCX"/>
+<property name="_linkingPhrases" subclass="nlk.base.ExtHashtable" encoding="1S0N4PQCL-1N6SPZ4-PYD"/>
+<property name="_concepts" subclass="nlk.base.ExtHashtable" encoding="1S0N4J7PX-1JZVPX3-PD6"/>
+</storableObject>
+<storableObject id="1S0N5RJYT-16ZWP5S-TT9" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N5RJYT-16ZWP5S-TT9"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1S0N5RJYT-1TN96Z8-TSK"/>
+<property name="nlk.base.graphicalconcept.text.font.size" subclass="java.lang.Integer" encoding="16"/>
+</storableObject>
+<storableObject id="1S0N4R3P2-25P4JFX-Q33" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N4R3P2-25P4JFX-Q33"/>
+<property name="_size" subclass="java.lang.Integer" encoding="2"/>
+<property name="vec_0" subclass="nlk.base.Connection" encoding="1S0N4PQCL-B7C35D-PYG"/>
+<property name="vec_1" subclass="nlk.base.Connection" encoding="1S0N4R3P2-23JSSTZ-Q2X"/>
+</storableObject>
+<storableObject id="1S0N4X07W-28WMNL5-QSQ" subclass="nlk.base.Concept">
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConcept" encoding="ge:1S0N4X07W-28WMNL5-QSQ"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N4X07W-28WMNL5-QSQ"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1S0N4J208-23YGJM5-PCX"/>
+<property name="_phrase" subclass="java.lang.String" encoding="Fifth:^linebreak$- Coercing a person to reveal a password may be self-incrimination^linebreak$- Seek counsel before trying to make a person reveal a password"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="file:////Z:/Irfan On My Mac/Google Drive/Projects/git-repos/NSAcurriculumCmapNEW/Digital_Forensics/Module_1_Intro_digital_forencics/Lesson_4_Legal_Aspects/Concept_Maps/Legal_Aspects.cmap"/>
+</storableObject>
+<storableObject id="1S0N5RJYT-1TN96Z8-TSK" subclass="nlk.base.StyleSheet">
+<property name="nlk.base.graphicallinkingphrase.text.font.size" subclass="java.lang.Integer" encoding="12"/>
+<property name="nlk.base.graphicalconcept.border.has.shadow" subclass="java.lang.Boolean" encoding="true"/>
+<property name="nlk.base.graphicalconcept.line.thickness" subclass="java.lang.Integer" encoding="2"/>
+<property name="nlk.base.graphicallinkingphrase.line.type" subclass="java.lang.Integer" encoding="1"/>
+<property name="nlk.base.graphicallinkingphrase.text.font.style" subclass="java.lang.Integer" encoding="0"/>
+<property name="nlk.base.graphicalconcept.line.color" subclass="nlk.base.ExtColor" encoding="0-16547956"/>
+<property name="nlk.base.graphicallinkingphrase.text.color" subclass="nlk.base.ExtColor" encoding="0-16239564"/>
+<property name="nlk.base.graphicalresourcelink.text.font.name" subclass="java.lang.String" encoding="SanSerif"/>
+<property name="nlk.base.graphicallinkingphrase.height" subclass="java.lang.Integer" encoding="-1"/>
+<property name="nlk.base.graphicalconcept.background.bitmap.draw_mode" subclass="java.lang.Integer" encoding="5"/>
+<property name="nlk.base.graphicallinkingphrase.border.has.shadow" subclass="java.lang.Boolean" encoding="false"/>
+<property name="nlk.base.graphicalconnection.line.style" subclass="java.lang.Integer" encoding="1"/>
+<property name="nlk.base.graphicalconnection.line.thickness" subclass="java.lang.Integer" encoding="1"/>
+<property name="nlk.base.graphicallinkingphrase.background.bitmap.draw_mode" subclass="java.lang.Integer" encoding="5"/>
+<property name="nlk.base.graphicallinkingphrase.width" subclass="java.lang.Integer" encoding="-1"/>
+<property name="nlk.base.graphicallinkingphrase.text.horizontal_alignment" subclass="java.lang.Integer" encoding="1"/>
+<property name="nlk.base.graphicalconcept.text.vertical_alignment" subclass="java.lang.Integer" encoding="1"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="nlk.base.graphicalconcept.border.shadow.color" subclass="nlk.base.ExtColor" encoding="0-14868702"/>
+<property name="nlk.base.graphicallinkingphrase.background.color" subclass="nlk.base.ExtColor" encoding="1-16776961"/>
+<property name="nlk.base.graphicalresourcelink.text.color" subclass="nlk.base.ExtColor" encoding="0-16777216"/>
+<property name="nlk.base.graphicallinkingphrase.text.font.name" subclass="java.lang.String" encoding="Arial"/>
+<property name="nlk.base.graphicalconcept.insets" subclass="nlk.base.ExtInsets" encoding="4:4:4:4"/>
+<property name="nlk.base.graphicalconcept.text.horizontal_alignment" subclass="java.lang.Integer" encoding="1"/>
+<property name="nlk.base.graphicallinkingphrase.line.color" subclass="nlk.base.ExtColor" encoding="0-16777216"/>
+<property name="nlk.base.graphicalconnection.direction" subclass="java.lang.Integer" encoding="5"/>
+<property name="nlk.base.graphicalresourcelink.background.color" subclass="nlk.base.ExtColor" encoding="0-4144960"/>
+<property name="nlk.base.graphicalconcept.text.font.size" subclass="java.lang.Integer" encoding="12"/>
+<property name="nlk.base.graphicalconcept.background.color" subclass="nlk.base.ExtColor" encoding="0-1"/>
+<property name="nlk.base.graphicallinkingphrase.border.shape" subclass="java.lang.Integer" encoding="1"/>
+<property name="nlk.base.graphicalconceptmap.background.bitmap.y1" subclass="java.lang.Integer" encoding="0"/>
+<property name="nlk.base.graphicallinkingphrase.text.vertical_alignment" subclass="java.lang.Integer" encoding="1"/>
+<property name="nlk.base.graphicalconceptmap.background.color" subclass="nlk.base.ExtColor" encoding="0-1575694"/>
+<property name="nlk.base.graphicalconcept.width" subclass="java.lang.Integer" encoding="-1"/>
+<property name="nlk.base.graphicallinkingphrase.line.thickness" subclass="java.lang.Integer" encoding="1"/>
+<property name="nlk.base.graphicalconcept.height" subclass="java.lang.Integer" encoding="-1"/>
+<property name="nlk.base.graphicalconcept.text.font.style" subclass="java.lang.Integer" encoding="0"/>
+<property name="nlk.base.graphicalresourcelink.text.font.style" subclass="java.lang.Integer" encoding="0"/>
+<property name="nlk.base.graphicalconcept.text.font.name" subclass="java.lang.String" encoding="Arial"/>
+<property name="nlk.base.graphicalconceptmap.background.bitmap.draw_mode" subclass="java.lang.Integer" encoding="1"/>
+<property name="nlk.base.graphicalconcept.text.color" subclass="nlk.base.ExtColor" encoding="0-16113344"/>
+<property name="nlk.base.graphicalconnection.line.type" subclass="java.lang.Integer" encoding="2"/>
+<property name="nlk.base.graphicalconceptmap.background.bitmap.x1" subclass="java.lang.Integer" encoding="0"/>
+<property name="nlk.base.graphicalresourcelink.text.font.size" subclass="java.lang.Integer" encoding="12"/>
+<property name="nlk.base.graphicalconcept.line.type" subclass="java.lang.Integer" encoding="2"/>
+<property name="nlk.base.graphicalconnection.line.color" subclass="nlk.base.ExtColor" encoding="0-8842715"/>
+<property name="nlk.base.graphicallinkingphrase.insets" subclass="nlk.base.ExtInsets" encoding="1:1:1:1"/>
+<property name="nlk.base.graphicalconcept.border.shape" subclass="java.lang.Integer" encoding="2"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N5RJYT-1TN96Z8-TSK"/>
+</storableObject>
+<storableObject id="1S0N4J7PW-1M7ZNPB-PD3" subclass="nlk.base.Concept">
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConcept" encoding="ge:1S0N4J7PW-1M7ZNPB-PD3"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N4J7PW-1M7ZNPB-PD3"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1S0N4J208-23YGJM5-PCX"/>
+<property name="_phrase" subclass="java.lang.String" encoding="Legal Aspects of Digital Forensics"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="file:////Z:/Irfan On My Mac/Google Drive/Projects/git-repos/NSAcurriculumCmapNEW/Digital_Forensics/Module_1_Intro_digital_forencics/Lesson_4_Legal_Aspects/Concept_Maps/Legal_Aspects.cmap"/>
+</storableObject>
+<storableObject id="1S0N59W0M-16VQPHL-S8Y" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N59W0M-16VQPHL-S8Y"/>
+<property name="_size" subclass="java.lang.Integer" encoding="0"/>
+</storableObject>
+<storableObject id="1S0N4VXX3-S5S0QT-QRG" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N4VXX3-S5S0QT-QRG"/>
+<property name="_size" subclass="java.lang.Integer" encoding="2"/>
+<property name="vec_0" subclass="nlk.base.Connection" encoding="1S0N4VXX3-1HPSTFK-QR1"/>
+<property name="vec_1" subclass="nlk.base.Connection" encoding="1S0N4VXX3-18K2QG1-QR7"/>
+</storableObject>
+<storableObject id="1V8NRJF3G-1L1RRDW-L8" subclass="nlk.base.ResourceInfo">
+<property name="_timeResourceModified" subclass="nlk.base.ExtDate" encoding="1575913347158"/>
+<property name="_resourceName" subclass="java.lang.String" encoding="Legal_Aspects.cmap"/>
+<property name="_serverId" subclass="nlk.base.ServerId" encoding="1V8NQ9VT2-2DYF1K9-1"/>
+<property name="_projectId" subclass="nlk.base.ObjectId" encoding="external-folder"/>
+<property name="_filename" subclass="java.lang.String" encoding="file:////C:/Users/concept_mapping/Downloads/concept-map-datasets-for-cybersecurity-courses-master/concept-map-datasets-for-cybersecurity-courses-master/Digital_Forensics/Legal_Aspects.cmap"/>
+<property name="_resourceId" subclass="nlk.base.ObjectId" encoding="file:////C:/Users/concept_mapping/Downloads/concept-map-datasets-for-cybersecurity-courses-master/concept-map-datasets-for-cybersecurity-courses-master/Digital_Forensics/Legal_Aspects.cmap"/>
+<property name="_resourceDescription" subclass="java.lang.String" encoding=""/>
+<property name="_MIMEType" subclass="nlk.base.MIMEType" encoding="x-cmap/x-storable"/>
+<property name="_timeResourceAdded" subclass="nlk.base.ExtDate" encoding="1575913347158"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1V8NRJF3G-1L1RRDW-L8"/>
+<property name="_creator" subclass="java.lang.String" encoding=""/>
+<property name="_owner" subclass="java.lang.String" encoding=""/>
+<property name="_locale" subclass="java.util.Locale" encoding="en"/>
+</storableObject>
+<storableObject id="1S0N4VXX3-19SBSC1-QQV" subclass="nlk.base.Concept">
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConcept" encoding="ge:1S0N4VXX3-19SBSC1-QQV"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N4VXX3-19SBSC1-QQV"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1S0N4J208-23YGJM5-PCX"/>
+<property name="_phrase" subclass="java.lang.String" encoding="First:^linebreak$- May protect ISPs from divulging information without a warrant^linebreak$ - Some clients may be shielded by protections afforded to “the press”"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="file:////Z:/Irfan On My Mac/Google Drive/Projects/git-repos/NSAcurriculumCmapNEW/Digital_Forensics/Module_1_Intro_digital_forencics/Lesson_4_Legal_Aspects/Concept_Maps/Legal_Aspects.cmap"/>
+</storableObject>
+<storableObject id="1S0N5RJYT-1XSP7RY-TT5" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N5RJYT-1XSP7RY-TT5"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1S0N5RJYT-1TN96Z8-TSK"/>
+<property name="nlk.base.graphicalconcept.text.font.size" subclass="java.lang.Integer" encoding="16"/>
+</storableObject>
+<storableObject id="ge:1S0N4WMMX-1WTWP7S-QS2" subclass="nlk.base.GraphicalConnection">
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1S0N4J208-23YGJM5-PCX"/>
+<property name="_secondConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_firstConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1S0N4WMMX-1WTWP7S-QS2"/>
+<property name="_firstGraphicalNode" subclass="nlk.base.GraphicalLinkingPhrase" encoding="ge:1S0N4VXX3-1122X71-QQY"/>
+<property name="_secondGraphicalNode" subclass="nlk.base.GraphicalConcept" encoding="ge:1S0N4WMMX-1QXCVDT-QRZ"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1S0N5RJYT-2077W8B-TT6"/>
+<property name="_controlPoints" subclass="nlk.base.ExtVector" encoding="1S0N4WMMX-N1D1MP-QS3"/>
+<property name="_entity" subclass="nlk.base.Connection" encoding="1S0N4WMMX-1WTWP7S-QS2"/>
+</storableObject>
+<storableObject id="1S0N4VXX3-1122X71-QQY" subclass="nlk.base.LinkingPhrase">
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalLinkingPhrase" encoding="ge:1S0N4VXX3-1122X71-QQY"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N4VXX3-1122X71-QQY"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1S0N4J208-23YGJM5-PCX"/>
+<property name="_phrase" subclass="java.lang.String" encoding="1st, 4th, and 5th Amendments ^linebreak$can impact ^linebreak$an investigation"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="file:////Z:/Irfan On My Mac/Google Drive/Projects/git-repos/NSAcurriculumCmapNEW/Digital_Forensics/Module_1_Intro_digital_forencics/Lesson_4_Legal_Aspects/Concept_Maps/Legal_Aspects.cmap"/>
+</storableObject>
+<storableObject id="1S0N4VXX3-1JTT7V7-QR2" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N4VXX3-1JTT7V7-QR2"/>
+<property name="_size" subclass="java.lang.Integer" encoding="0"/>
+</storableObject>
+<storableObject id="1S0N4WMMX-1V6SF52-QS7" subclass="nlk.base.Proposition">
+<property name="_connections" subclass="nlk.base.ExtVector" encoding="1S0N4WMMX-SX1KJP-QS8"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="file:////Z:/Irfan On My Mac/Google Drive/Projects/git-repos/NSAcurriculumCmapNEW/Digital_Forensics/Module_1_Intro_digital_forencics/Lesson_4_Legal_Aspects/Concept_Maps/Legal_Aspects.cmap"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N4WMMX-1V6SF52-QS7"/>
+</storableObject>
+<storableObject id="1S0N4X07W-19JZG77-QSZ" subclass="nlk.base.Proposition">
+<property name="_connections" subclass="nlk.base.ExtVector" encoding="1S0N4X07W-25MMM0K-QT0"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="file:////Z:/Irfan On My Mac/Google Drive/Projects/git-repos/NSAcurriculumCmapNEW/Digital_Forensics/Module_1_Intro_digital_forencics/Lesson_4_Legal_Aspects/Concept_Maps/Legal_Aspects.cmap"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N4X07W-19JZG77-QSZ"/>
+</storableObject>
+<storableObject id="ge:1S0N5FV5C-1G5CLMT-SNJ" subclass="nlk.base.GraphicalLinkingPhrase">
+<property name="_y" subclass="java.lang.Integer" encoding="385"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1S0N5FV5C-1G5CLMT-SNJ"/>
+<property name="_x" subclass="java.lang.Integer" encoding="845"/>
+<property name="_entity" subclass="nlk.base.LinkingPhrase" encoding="1S0N5FV5C-1G5CLMT-SNJ"/>
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1S0N4J208-23YGJM5-PCX"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1S0N5RJYT-HLHSV7-TSP"/>
+</storableObject>
+<storableObject id="1S0N4PQCL-QB2K0W-PYW" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N4PQCL-QB2K0W-PYW"/>
+<property name="_size" subclass="java.lang.Integer" encoding="2"/>
+<property name="vec_0" subclass="nlk.base.Connection" encoding="1S0N4PQCL-B7C35D-PYG"/>
+<property name="vec_1" subclass="nlk.base.Connection" encoding="1S0N4PQCL-16128BF-PYN"/>
+</storableObject>
+<storableObject id="1S0N5FV5C-1G5CLMT-SNJ" subclass="nlk.base.LinkingPhrase">
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalLinkingPhrase" encoding="ge:1S0N5FV5C-1G5CLMT-SNJ"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N5FV5C-1G5CLMT-SNJ"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1S0N4J208-23YGJM5-PCX"/>
+<property name="_phrase" subclass="java.lang.String" encoding="Rules specified by ^linebreak$corporate companies"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="file:////Z:/Irfan On My Mac/Google Drive/Projects/git-repos/NSAcurriculumCmapNEW/Digital_Forensics/Module_1_Intro_digital_forencics/Lesson_4_Legal_Aspects/Concept_Maps/Legal_Aspects.cmap"/>
+</storableObject>
+<storableObject id="1S0N4WMMX-1QXCVDT-QRZ" subclass="nlk.base.Concept">
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConcept" encoding="ge:1S0N4WMMX-1QXCVDT-QRZ"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N4WMMX-1QXCVDT-QRZ"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1S0N4J208-23YGJM5-PCX"/>
+<property name="_phrase" subclass="java.lang.String" encoding="Fourth:^linebreak$- Regulates rights of an individual regarding searches and seizures^linebreak$- Most searches require a warrant^linebreak$- A warrant should provide reasonable cause"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="file:////Z:/Irfan On My Mac/Google Drive/Projects/git-repos/NSAcurriculumCmapNEW/Digital_Forensics/Module_1_Intro_digital_forencics/Lesson_4_Legal_Aspects/Concept_Maps/Legal_Aspects.cmap"/>
+</storableObject>
+<storableObject id="1S0N59W0M-9YZQX4-S94" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N59W0M-9YZQX4-S94"/>
+<property name="_size" subclass="java.lang.Integer" encoding="0"/>
+</storableObject>
+<storableObject id="ge:1S0N5FV5C-18SKG0L-SNF" subclass="nlk.base.GraphicalConcept">
+<property name="_y" subclass="java.lang.Integer" encoding="321"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1S0N5FV5C-18SKG0L-SNF"/>
+<property name="_x" subclass="java.lang.Integer" encoding="1221"/>
+<property name="_entity" subclass="nlk.base.Concept" encoding="1S0N5FV5C-18SKG0L-SNF"/>
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1S0N4J208-23YGJM5-PCX"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1S0N5RJYT-GK8680-TSQ"/>
+</storableObject>
+<storableObject id="1S0N4VXX3-18K2QG1-QR7" subclass="nlk.base.Connection">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N4VXX3-18K2QG1-QR7"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1S0N4J208-23YGJM5-PCX"/>
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConnection" encoding="ge:1S0N4VXX3-18K2QG1-QR7"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="file:////Z:/Irfan On My Mac/Google Drive/Projects/git-repos/NSAcurriculumCmapNEW/Digital_Forensics/Module_1_Intro_digital_forencics/Lesson_4_Legal_Aspects/Concept_Maps/Legal_Aspects.cmap"/>
+<property name="_firstNode" subclass="nlk.base.LinkingPhrase" encoding="1S0N4VXX3-1122X71-QQY"/>
+<property name="_secondNode" subclass="nlk.base.Concept" encoding="1S0N4VXX3-19SBSC1-QQV"/>
+</storableObject>
+<storableObject id="1S0N5RJYT-GK8680-TSQ" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N5RJYT-GK8680-TSQ"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1S0N5RJYT-1TN96Z8-TSK"/>
+<property name="nlk.base.graphicalconcept.text.font.size" subclass="java.lang.Integer" encoding="16"/>
+</storableObject>
+<storableObject id="ge:1S0N4R3P2-23JSSTZ-Q2X" subclass="nlk.base.GraphicalConnection">
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1S0N4J208-23YGJM5-PCX"/>
+<property name="_secondConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_firstConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1S0N4R3P2-23JSSTZ-Q2X"/>
+<property name="_firstGraphicalNode" subclass="nlk.base.GraphicalLinkingPhrase" encoding="ge:1S0N4PQCL-N9YDR9-PYB"/>
+<property name="_secondGraphicalNode" subclass="nlk.base.GraphicalConcept" encoding="ge:1S0N4R3P2-BNT0R7-Q2T"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1S0N5RJYT-2B3G3W3-TTC"/>
+<property name="_controlPoints" subclass="nlk.base.ExtVector" encoding="1S0N4R3P2-2BQC556-Q2Y"/>
+<property name="_entity" subclass="nlk.base.Connection" encoding="1S0N4R3P2-23JSSTZ-Q2X"/>
+</storableObject>
+<storableObject id="ge:1S0N4X07W-SVPSB5-QST" subclass="nlk.base.GraphicalConnection">
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1S0N4J208-23YGJM5-PCX"/>
+<property name="_secondConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_firstConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1S0N4X07W-SVPSB5-QST"/>
+<property name="_firstGraphicalNode" subclass="nlk.base.GraphicalLinkingPhrase" encoding="ge:1S0N4VXX3-1122X71-QQY"/>
+<property name="_secondGraphicalNode" subclass="nlk.base.GraphicalConcept" encoding="ge:1S0N4X07W-28WMNL5-QSQ"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1S0N5RJYT-29XS8PW-TT0"/>
+<property name="_controlPoints" subclass="nlk.base.ExtVector" encoding="1S0N4X07W-1L29PWN-QSV"/>
+<property name="_entity" subclass="nlk.base.Connection" encoding="1S0N4X07W-SVPSB5-QST"/>
+</storableObject>
+<storableObject id="1S0N5RJYT-15BXFT2-TTF" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N5RJYT-15BXFT2-TTF"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1S0N5RJYT-1TN96Z8-TSK"/>
+<property name="nlk.base.graphicalconnection.line.style" subclass="java.lang.Integer" encoding="1"/>
+</storableObject>
+<storableObject id="1S0N5RJYT-271G2ZG-TSS" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N5RJYT-271G2ZG-TSS"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1S0N5RJYT-1TN96Z8-TSK"/>
+<property name="nlk.base.graphicalconnection.line.style" subclass="java.lang.Integer" encoding="1"/>
+</storableObject>
+<storableObject id="1S0N4R3P2-23JSSTZ-Q2X" subclass="nlk.base.Connection">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N4R3P2-23JSSTZ-Q2X"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1S0N4J208-23YGJM5-PCX"/>
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConnection" encoding="ge:1S0N4R3P2-23JSSTZ-Q2X"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="file:////Z:/Irfan On My Mac/Google Drive/Projects/git-repos/NSAcurriculumCmapNEW/Digital_Forensics/Module_1_Intro_digital_forencics/Lesson_4_Legal_Aspects/Concept_Maps/Legal_Aspects.cmap"/>
+<property name="_firstNode" subclass="nlk.base.LinkingPhrase" encoding="1S0N4PQCL-N9YDR9-PYB"/>
+<property name="_secondNode" subclass="nlk.base.Concept" encoding="1S0N4R3P2-BNT0R7-Q2T"/>
+</storableObject>
+<storableObject id="1S0N4PQCL-1N6SPZ4-PYD" subclass="nlk.base.ExtHashtable">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N4PQCL-1N6SPZ4-PYD"/>
+<property name="1S0N59W0M-1K1220Y-S8T" subclass="nlk.base.LinkingPhrase" encoding="1S0N59W0M-1K1220Y-S8T"/>
+<property name="1S0N4PQCL-N9YDR9-PYB" subclass="nlk.base.LinkingPhrase" encoding="1S0N4PQCL-N9YDR9-PYB"/>
+<property name="1S0N4VXX3-1122X71-QQY" subclass="nlk.base.LinkingPhrase" encoding="1S0N4VXX3-1122X71-QQY"/>
+<property name="1S0N5FV5C-1G5CLMT-SNJ" subclass="nlk.base.LinkingPhrase" encoding="1S0N5FV5C-1G5CLMT-SNJ"/>
+</storableObject>
+<storableObject id="1S0N5FV5C-ZFX6RS-SP1" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N5FV5C-ZFX6RS-SP1"/>
+<property name="_size" subclass="java.lang.Integer" encoding="2"/>
+<property name="vec_0" subclass="nlk.base.Connection" encoding="1S0N5FV5C-1ZZY9KM-SNM"/>
+<property name="vec_1" subclass="nlk.base.Connection" encoding="1S0N5FV5C-RK788W-SNT"/>
+</storableObject>
+<storableObject id="1V8NRJRJK-25RG8PD-M8" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1V8NRJRJK-25RG8PD-M8"/>
+<property name="_size" subclass="java.lang.Integer" encoding="2"/>
+<property name="vec_0" subclass="java.lang.String" encoding="9|141|WEIGHT|1.0"/>
+<property name="vec_1" subclass="java.lang.String" encoding="0|6|WEIGHT|2.0"/>
+</storableObject>
+<storableObject id="1S0N59W0M-27RK2P7-S9B" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N59W0M-27RK2P7-S9B"/>
+<property name="_size" subclass="java.lang.Integer" encoding="2"/>
+<property name="vec_0" subclass="nlk.base.Connection" encoding="1S0N59W0M-16X80H9-S8X"/>
+<property name="vec_1" subclass="nlk.base.Connection" encoding="1S0N59W0M-MYWP7F-S93"/>
+</storableObject>
+<storableObject id="ge:1S0N4PQCL-N9YDR9-PYB" subclass="nlk.base.GraphicalLinkingPhrase">
+<property name="_y" subclass="java.lang.Integer" encoding="424"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1S0N4PQCL-N9YDR9-PYB"/>
+<property name="_x" subclass="java.lang.Integer" encoding="372"/>
+<property name="_entity" subclass="nlk.base.LinkingPhrase" encoding="1S0N4PQCL-N9YDR9-PYB"/>
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1S0N4J208-23YGJM5-PCX"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1S0N5RJYT-JD1JXX-TST"/>
+</storableObject>
+<storableObject id="1V8NRJRJK-1H8WZ48-M6" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1V8NRJRJK-1H8WZ48-M6"/>
+<property name="_size" subclass="java.lang.Integer" encoding="1"/>
+<property name="vec_0" subclass="java.lang.String" encoding="0|6|WEIGHT|2.0"/>
+</storableObject>
+<storableObject id="ge:1S0N4X07W-28WMNL5-QSQ" subclass="nlk.base.GraphicalConcept">
+<property name="_local_style_infos" subclass="nlk.base.ExtVector" encoding="1V8NRJRJK-1H8WZ48-M6"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1S0N5RJYT-R1MQH1-TSW"/>
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1S0N4J208-23YGJM5-PCX"/>
+<property name="_entity" subclass="nlk.base.Concept" encoding="1S0N4X07W-28WMNL5-QSQ"/>
+<property name="_y" subclass="java.lang.Integer" encoding="686"/>
+<property name="_x" subclass="java.lang.Integer" encoding="1259"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1S0N4X07W-28WMNL5-QSQ"/>
+</storableObject>
+<storableObject id="1S0N5RJZB-1W0ST2T-TTH" subclass="nlk.base.StyleSheet">
+<property name="nlk.base.graphicalconcept.text.horizontal_alignment" subclass="java.lang.Integer" encoding="1"/>
+<property name="nlk.base.graphicalconcept.text.font.style" subclass="java.lang.Integer" encoding="65297"/>
+<property name="nlk.base.graphicallinkingphrase.width" subclass="java.lang.Integer" encoding="-1"/>
+<property name="nlk.base.graphicallinkingphrase.text.vertical_alignment" subclass="java.lang.Integer" encoding="1"/>
+<property name="nlk.base.graphicalconnection.line.thickness" subclass="java.lang.Integer" encoding="1"/>
+<property name="nlk.base.graphicallinkingphrase.line.type" subclass="java.lang.Integer" encoding="1"/>
+<property name="nlk.base.graphicalconcept.text.color" subclass="nlk.base.ExtColor" encoding="0-16113344"/>
+<property name="nlk.base.graphicalconcept.insets" subclass="nlk.base.ExtInsets" encoding="4:4:4:4"/>
+<property name="_styleSheetName" subclass="java.lang.String" encoding="_LatestChanges_"/>
+<property name="nlk.base.graphicallinkingphrase.background.color" subclass="nlk.base.ExtColor" encoding="1-16776961"/>
+<property name="nlk.base.graphicalresourcelink.text.font.style" subclass="java.lang.Integer" encoding="0"/>
+<property name="nlk.base.graphicalconcept.border.shape" subclass="java.lang.Integer" encoding="2"/>
+<property name="nlk.base.graphicallinkingphrase.border.shape" subclass="java.lang.Integer" encoding="1"/>
+<property name="nlk.base.graphicalconcept.line.thickness" subclass="java.lang.Integer" encoding="2"/>
+<property name="nlk.base.graphicalresourcelink.background.color" subclass="nlk.base.ExtColor" encoding="0-4144960"/>
+<property name="nlk.base.graphicallinkingphrase.text.color" subclass="nlk.base.ExtColor" encoding="0-16239564"/>
+<property name="nlk.base.graphicalconcept.text.font.size" subclass="java.lang.Integer" encoding="16"/>
+<property name="nlk.base.graphicalconcept.border.has.shadow" subclass="java.lang.Boolean" encoding="true"/>
+<property name="nlk.base.graphicallinkingphrase.text.font.name" subclass="java.lang.String" encoding="Arial"/>
+<property name="nlk.base.graphicallinkingphrase.height" subclass="java.lang.Integer" encoding="-1"/>
+<property name="nlk.base.graphicallinkingphrase.text.horizontal_alignment" subclass="java.lang.Integer" encoding="1"/>
+<property name="nlk.base.graphicalconcept.line.type" subclass="java.lang.Integer" encoding="2"/>
+<property name="nlk.base.graphicalconcept.border.shadow.color" subclass="nlk.base.ExtColor" encoding="0-14868702"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="nlk.base.graphicalconnection.line.type" subclass="java.lang.Integer" encoding="2"/>
+<property name="nlk.base.graphicalconnection.direction" subclass="java.lang.Integer" encoding="5"/>
+<property name="nlk.base.graphicalresourcelink.text.font.name" subclass="java.lang.String" encoding="SanSerif"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1S0N5RJYT-1TN96Z8-TSK"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N5RJZB-1W0ST2T-TTH"/>
+<property name="nlk.base.graphicallinkingphrase.border.has.shadow" subclass="java.lang.Boolean" encoding="false"/>
+<property name="nlk.base.graphicallinkingphrase.text.font.style" subclass="java.lang.Integer" encoding="0"/>
+<property name="nlk.base.graphicalconcept.text.vertical_alignment" subclass="java.lang.Integer" encoding="1"/>
+<property name="nlk.base.graphicalconcept.line.color" subclass="nlk.base.ExtColor" encoding="0-16547956"/>
+<property name="nlk.base.graphicalconcept.background.color" subclass="nlk.base.ExtColor" encoding="0-1"/>
+<property name="nlk.base.graphicalconcept.height" subclass="java.lang.Integer" encoding="-1"/>
+<property name="nlk.base.graphicallinkingphrase.line.thickness" subclass="java.lang.Integer" encoding="1"/>
+<property name="nlk.base.graphicallinkingphrase.line.color" subclass="nlk.base.ExtColor" encoding="0-16777216"/>
+<property name="nlk.base.graphicalresourcelink.text.color" subclass="nlk.base.ExtColor" encoding="0-16777216"/>
+<property name="nlk.base.graphicallinkingphrase.text.font.size" subclass="java.lang.Integer" encoding="16"/>
+<property name="nlk.base.graphicalconcept.width" subclass="java.lang.Integer" encoding="-1"/>
+<property name="nlk.base.graphicalconnection.line.color" subclass="nlk.base.ExtColor" encoding="0-8842715"/>
+<property name="nlk.base.graphicallinkingphrase.insets" subclass="nlk.base.ExtInsets" encoding="1:1:1:1"/>
+<property name="nlk.base.graphicalconcept.text.font.name" subclass="java.lang.String" encoding="Arial"/>
+<property name="nlk.base.graphicalresourcelink.text.font.size" subclass="java.lang.Integer" encoding="12"/>
+</storableObject>
+<storableObject id="1S0N5RJYT-WSM6N-TTD" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N5RJYT-WSM6N-TTD"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1S0N5RJYT-1TN96Z8-TSK"/>
+<property name="nlk.base.graphicalconnection.line.style" subclass="java.lang.Integer" encoding="1"/>
+</storableObject>
+<storableObject id="1S0N4MY00-PM0TC0-PFZ" subclass="nlk.base.StyleSheetGroup">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N4MY00-PM0TC0-PFZ"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_GroupName" subclass="java.lang.String" encoding="//*@!#$%%^&amp;*()() No Grouped StyleSheets @"/>
+</storableObject>
+<storableObject id="ge:1S0N4PQC2-MG6QMG-PY7" subclass="nlk.base.GraphicalConcept">
+<property name="_y" subclass="java.lang.Integer" encoding="557"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1S0N4PQC2-MG6QMG-PY7"/>
+<property name="_x" subclass="java.lang.Integer" encoding="547"/>
+<property name="_entity" subclass="nlk.base.Concept" encoding="1S0N4PQC2-MG6QMG-PY7"/>
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1S0N4J208-23YGJM5-PCX"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1S0N5RJYT-WHQKG0-TSR"/>
+</storableObject>
+<storableObject id="ge:1S0N4R7LQ-TSMPDT-Q3D" subclass="nlk.base.GraphicalConnection">
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1S0N4J208-23YGJM5-PCX"/>
+<property name="_secondConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_firstConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1S0N4R7LQ-TSMPDT-Q3D"/>
+<property name="_firstGraphicalNode" subclass="nlk.base.GraphicalLinkingPhrase" encoding="ge:1S0N4PQCL-N9YDR9-PYB"/>
+<property name="_secondGraphicalNode" subclass="nlk.base.GraphicalConcept" encoding="ge:1S0N4R7LQ-1P28YZJ-Q39"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1S0N5RJYT-TTZTSM-TT8"/>
+<property name="_controlPoints" subclass="nlk.base.ExtVector" encoding="1S0N4R7LQ-18TV7JJ-Q3F"/>
+<property name="_entity" subclass="nlk.base.Connection" encoding="1S0N4R7LQ-TSMPDT-Q3D"/>
+</storableObject>
+<storableObject id="1S0N59W0M-GLZF46-S99" subclass="nlk.base.Proposition">
+<property name="_connections" subclass="nlk.base.ExtVector" encoding="1S0N59W0M-27RK2P7-S9B"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="file:////Z:/Irfan On My Mac/Google Drive/Projects/git-repos/NSAcurriculumCmapNEW/Digital_Forensics/Module_1_Intro_digital_forencics/Lesson_4_Legal_Aspects/Concept_Maps/Legal_Aspects.cmap"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N59W0M-GLZF46-S99"/>
+</storableObject>
+<storableObject id="ge:1S0N4VXX3-1HPSTFK-QR1" subclass="nlk.base.GraphicalConnection">
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1S0N4J208-23YGJM5-PCX"/>
+<property name="_secondConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_firstConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1S0N4VXX3-1HPSTFK-QR1"/>
+<property name="_firstGraphicalNode" subclass="nlk.base.GraphicalConcept" encoding="ge:1S0N4PQC2-MG6QMG-PY7"/>
+<property name="_secondGraphicalNode" subclass="nlk.base.GraphicalLinkingPhrase" encoding="ge:1S0N4VXX3-1122X71-QQY"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1S0N5RJYT-WSM6N-TTD"/>
+<property name="_controlPoints" subclass="nlk.base.ExtVector" encoding="1S0N4VXX3-1JTT7V7-QR2"/>
+<property name="_entity" subclass="nlk.base.Connection" encoding="1S0N4VXX3-1HPSTFK-QR1"/>
+</storableObject>
+<storableObject id="1S0N4WMMX-SX1KJP-QS8" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N4WMMX-SX1KJP-QS8"/>
+<property name="_size" subclass="java.lang.Integer" encoding="2"/>
+<property name="vec_0" subclass="nlk.base.Connection" encoding="1S0N4VXX3-1HPSTFK-QR1"/>
+<property name="vec_1" subclass="nlk.base.Connection" encoding="1S0N4WMMX-1WTWP7S-QS2"/>
+</storableObject>
+<storableObject id="1S0N4X07W-1L29PWN-QSV" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N4X07W-1L29PWN-QSV"/>
+<property name="_size" subclass="java.lang.Integer" encoding="0"/>
+</storableObject>
+<storableObject id="1S0N4R7LQ-2DXBL2W-Q3K" subclass="nlk.base.Proposition">
+<property name="_connections" subclass="nlk.base.ExtVector" encoding="1S0N4R7LQ-207RL6V-Q3L"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="file:////Z:/Irfan On My Mac/Google Drive/Projects/git-repos/NSAcurriculumCmapNEW/Digital_Forensics/Module_1_Intro_digital_forencics/Lesson_4_Legal_Aspects/Concept_Maps/Legal_Aspects.cmap"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N4R7LQ-2DXBL2W-Q3K"/>
+</storableObject>
+<storableObject id="1S0N5FV5C-113VZWR-SP0" subclass="nlk.base.Proposition">
+<property name="_connections" subclass="nlk.base.ExtVector" encoding="1S0N5FV5C-ZFX6RS-SP1"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="file:////Z:/Irfan On My Mac/Google Drive/Projects/git-repos/NSAcurriculumCmapNEW/Digital_Forensics/Module_1_Intro_digital_forencics/Lesson_4_Legal_Aspects/Concept_Maps/Legal_Aspects.cmap"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N5FV5C-113VZWR-SP0"/>
+</storableObject>
+<storableObject id="1S0N4R3P2-BNT0R7-Q2T" subclass="nlk.base.Concept">
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConcept" encoding="ge:1S0N4R3P2-BNT0R7-Q2T"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N4R3P2-BNT0R7-Q2T"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1S0N4J208-23YGJM5-PCX"/>
+<property name="_phrase" subclass="java.lang.String" encoding="Legislated privacy concerns"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="file:////Z:/Irfan On My Mac/Google Drive/Projects/git-repos/NSAcurriculumCmapNEW/Digital_Forensics/Module_1_Intro_digital_forencics/Lesson_4_Legal_Aspects/Concept_Maps/Legal_Aspects.cmap"/>
+</storableObject>
+<storableObject id="1S0N59W0M-MYWP7F-S93" subclass="nlk.base.Connection">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N59W0M-MYWP7F-S93"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1S0N4J208-23YGJM5-PCX"/>
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConnection" encoding="ge:1S0N59W0M-MYWP7F-S93"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="file:////Z:/Irfan On My Mac/Google Drive/Projects/git-repos/NSAcurriculumCmapNEW/Digital_Forensics/Module_1_Intro_digital_forencics/Lesson_4_Legal_Aspects/Concept_Maps/Legal_Aspects.cmap"/>
+<property name="_firstNode" subclass="nlk.base.LinkingPhrase" encoding="1S0N59W0M-1K1220Y-S8T"/>
+<property name="_secondNode" subclass="nlk.base.Concept" encoding="1S0N59W03-7SVBL9-S8Q"/>
+</storableObject>
+<storableObject id="1S0N4PQCL-22M9MZQ-PYV" subclass="nlk.base.Proposition">
+<property name="_connections" subclass="nlk.base.ExtVector" encoding="1S0N4PQCL-QB2K0W-PYW"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="file:////Z:/Irfan On My Mac/Google Drive/Projects/git-repos/NSAcurriculumCmapNEW/Digital_Forensics/Module_1_Intro_digital_forencics/Lesson_4_Legal_Aspects/Concept_Maps/Legal_Aspects.cmap"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N4PQCL-22M9MZQ-PYV"/>
+</storableObject>
+<storableObject id="1S0N4PQCL-N9YDR9-PYB" subclass="nlk.base.LinkingPhrase">
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalLinkingPhrase" encoding="ge:1S0N4PQCL-N9YDR9-PYB"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N4PQCL-N9YDR9-PYB"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1S0N4J208-23YGJM5-PCX"/>
+<property name="_phrase" subclass="java.lang.String" encoding="Laws effects ^linebreak$all inquires"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="file:////Z:/Irfan On My Mac/Google Drive/Projects/git-repos/NSAcurriculumCmapNEW/Digital_Forensics/Module_1_Intro_digital_forencics/Lesson_4_Legal_Aspects/Concept_Maps/Legal_Aspects.cmap"/>
+</storableObject>
+<storableObject id="1S0N4R7LQ-207RL6V-Q3L" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N4R7LQ-207RL6V-Q3L"/>
+<property name="_size" subclass="java.lang.Integer" encoding="2"/>
+<property name="vec_0" subclass="nlk.base.Connection" encoding="1S0N4PQCL-B7C35D-PYG"/>
+<property name="vec_1" subclass="nlk.base.Connection" encoding="1S0N4R7LQ-TSMPDT-Q3D"/>
+</storableObject>
+<storableObject id="1S0N4MNTV-17X9DL2-PFF" subclass="nlk.base.Concept">
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConcept" encoding="ge:1S0N4MNTV-17X9DL2-PFF"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N4MNTV-17X9DL2-PFF"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1S0N4J208-23YGJM5-PCX"/>
+<property name="_phrase" subclass="java.lang.String" encoding="Legal Aspects"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="file:////Z:/Irfan On My Mac/Google Drive/Projects/git-repos/NSAcurriculumCmapNEW/Digital_Forensics/Module_1_Intro_digital_forencics/Lesson_4_Legal_Aspects/Concept_Maps/Legal_Aspects.cmap"/>
+</storableObject>
+<storableObject id="1S0N5RJYT-HLHSV7-TSP" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N5RJYT-HLHSV7-TSP"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="nlk.base.graphicallinkingphrase.text.font.size" subclass="java.lang.Integer" encoding="16"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1S0N5RJYT-1TN96Z8-TSK"/>
+</storableObject>
+<storableObject id="1S0N4MY00-18SYSWY-PG0" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N4MY00-18SYSWY-PG0"/>
+<property name="_size" subclass="java.lang.Integer" encoding="1"/>
+<property name="vec_0" subclass="nlk.base.StyleSheetGroup" encoding="1S0N4MY00-PM0TC0-PFZ"/>
+</storableObject>
+<storableObject id="1S0N5RJYT-1Y68QP6-TT3" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N5RJYT-1Y68QP6-TT3"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="nlk.base.graphicallinkingphrase.text.font.size" subclass="java.lang.Integer" encoding="16"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1S0N5RJYT-1TN96Z8-TSK"/>
+</storableObject>
+<storableObject id="1S0N4J7PX-1JZVPX3-PD6" subclass="nlk.base.ExtHashtable">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N4J7PX-1JZVPX3-PD6"/>
+<property name="1S0N4VXX3-19SBSC1-QQV" subclass="nlk.base.Concept" encoding="1S0N4VXX3-19SBSC1-QQV"/>
+<property name="1S0N4R3P2-BNT0R7-Q2T" subclass="nlk.base.Concept" encoding="1S0N4R3P2-BNT0R7-Q2T"/>
+<property name="1S0N4X07W-28WMNL5-QSQ" subclass="nlk.base.Concept" encoding="1S0N4X07W-28WMNL5-QSQ"/>
+<property name="1S0N4J7PW-1M7ZNPB-PD3" subclass="nlk.base.Concept" encoding="1S0N4J7PW-1M7ZNPB-PD3"/>
+<property name="1S0N5FV5C-18SKG0L-SNF" subclass="nlk.base.Concept" encoding="1S0N5FV5C-18SKG0L-SNF"/>
+<property name="1S0N4PQC2-MG6QMG-PY7" subclass="nlk.base.Concept" encoding="1S0N4PQC2-MG6QMG-PY7"/>
+<property name="1S0N4WMMX-1QXCVDT-QRZ" subclass="nlk.base.Concept" encoding="1S0N4WMMX-1QXCVDT-QRZ"/>
+<property name="1S0N59W03-7SVBL9-S8Q" subclass="nlk.base.Concept" encoding="1S0N59W03-7SVBL9-S8Q"/>
+<property name="1S0N4R7LQ-1P28YZJ-Q39" subclass="nlk.base.Concept" encoding="1S0N4R7LQ-1P28YZJ-Q39"/>
+<property name="1S0N4MNTV-17X9DL2-PFF" subclass="nlk.base.Concept" encoding="1S0N4MNTV-17X9DL2-PFF"/>
+</storableObject>
+<storableObject id="ge:1S0N59W0M-MYWP7F-S93" subclass="nlk.base.GraphicalConnection">
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1S0N4J208-23YGJM5-PCX"/>
+<property name="_secondConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_firstConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1S0N59W0M-MYWP7F-S93"/>
+<property name="_firstGraphicalNode" subclass="nlk.base.GraphicalLinkingPhrase" encoding="ge:1S0N59W0M-1K1220Y-S8T"/>
+<property name="_secondGraphicalNode" subclass="nlk.base.GraphicalConcept" encoding="ge:1S0N59W03-7SVBL9-S8Q"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1S0N5RJYT-84SWX-TT7"/>
+<property name="_controlPoints" subclass="nlk.base.ExtVector" encoding="1S0N59W0M-9YZQX4-S94"/>
+<property name="_entity" subclass="nlk.base.Connection" encoding="1S0N59W0M-MYWP7F-S93"/>
+</storableObject>
+<storableObject id="1S0N4R7LQ-18TV7JJ-Q3F" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N4R7LQ-18TV7JJ-Q3F"/>
+<property name="_size" subclass="java.lang.Integer" encoding="0"/>
+</storableObject>
+<storableObject id="1S0N4PQCL-B7C35D-PYG" subclass="nlk.base.Connection">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N4PQCL-B7C35D-PYG"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1S0N4J208-23YGJM5-PCX"/>
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConnection" encoding="ge:1S0N4PQCL-B7C35D-PYG"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="file:////Z:/Irfan On My Mac/Google Drive/Projects/git-repos/NSAcurriculumCmapNEW/Digital_Forensics/Module_1_Intro_digital_forencics/Lesson_4_Legal_Aspects/Concept_Maps/Legal_Aspects.cmap"/>
+<property name="_firstNode" subclass="nlk.base.Concept" encoding="1S0N4MNTV-17X9DL2-PFF"/>
+<property name="_secondNode" subclass="nlk.base.LinkingPhrase" encoding="1S0N4PQCL-N9YDR9-PYB"/>
+</storableObject>
+<storableObject id="1S0N5RJYT-1V9X25B-TSV" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N5RJYT-1V9X25B-TSV"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1S0N5RJYT-1TN96Z8-TSK"/>
+<property name="nlk.base.graphicalconnection.line.style" subclass="java.lang.Integer" encoding="1"/>
+</storableObject>
+<storableObject id="1S0N5RJYT-R4P866-TT4" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N5RJYT-R4P866-TT4"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1S0N5RJYT-1TN96Z8-TSK"/>
+<property name="nlk.base.graphicalconcept.text.font.size" subclass="java.lang.Integer" encoding="16"/>
+</storableObject>
+<storableObject id="1S0N4WMMX-N1D1MP-QS3" subclass="nlk.base.ExtVector">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N4WMMX-N1D1MP-QS3"/>
+<property name="_size" subclass="java.lang.Integer" encoding="0"/>
+</storableObject>
+<storableObject id="1S0N5RJYT-JD1JXX-TST" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N5RJYT-JD1JXX-TST"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="nlk.base.graphicallinkingphrase.text.font.size" subclass="java.lang.Integer" encoding="16"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1S0N5RJYT-1TN96Z8-TSK"/>
+</storableObject>
+<storableObject id="ge:1S0N59W0M-16X80H9-S8X" subclass="nlk.base.GraphicalConnection">
+<property name="_container" subclass="nlk.base.GraphicalConceptMap" encoding="1S0N4J208-23YGJM5-PCX"/>
+<property name="_secondConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_firstConnectionPoint" subclass="java.lang.Integer" encoding="0"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="ge:1S0N59W0M-16X80H9-S8X"/>
+<property name="_firstGraphicalNode" subclass="nlk.base.GraphicalConcept" encoding="ge:1S0N4R3P2-BNT0R7-Q2T"/>
+<property name="_secondGraphicalNode" subclass="nlk.base.GraphicalLinkingPhrase" encoding="ge:1S0N59W0M-1K1220Y-S8T"/>
+<property name="_styleSheet" subclass="nlk.base.StyleSheet" encoding="1S0N5RJYT-12HGHC0-TSY"/>
+<property name="_controlPoints" subclass="nlk.base.ExtVector" encoding="1S0N59W0M-16VQPHL-S8Y"/>
+<property name="_entity" subclass="nlk.base.Connection" encoding="1S0N59W0M-16X80H9-S8X"/>
+</storableObject>
+<storableObject id="1S0N5RJYT-M2HQ8B-TSX" subclass="nlk.base.StyleSheet">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N5RJYT-M2HQ8B-TSX"/>
+<property name="_revisionNumber" subclass="java.lang.String" encoding="1.0"/>
+<property name="_parentStyleSheet" subclass="nlk.base.StyleSheet" encoding="1S0N5RJYT-1TN96Z8-TSK"/>
+<property name="nlk.base.graphicalconnection.line.style" subclass="java.lang.Integer" encoding="1"/>
+</storableObject>
+<storableObject id="1S0N4PQC2-MG6QMG-PY7" subclass="nlk.base.Concept">
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConcept" encoding="ge:1S0N4PQC2-MG6QMG-PY7"/>
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N4PQC2-MG6QMG-PY7"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1S0N4J208-23YGJM5-PCX"/>
+<property name="_phrase" subclass="java.lang.String" encoding="Constitutional rights"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="file:////Z:/Irfan On My Mac/Google Drive/Projects/git-repos/NSAcurriculumCmapNEW/Digital_Forensics/Module_1_Intro_digital_forencics/Lesson_4_Legal_Aspects/Concept_Maps/Legal_Aspects.cmap"/>
+</storableObject>
+<storableObject id="1S0N4WMMX-1WTWP7S-QS2" subclass="nlk.base.Connection">
+<property name="_id" subclass="nlk.base.ObjectId" encoding="1S0N4WMMX-1WTWP7S-QS2"/>
+<property name="_selectedGraphicalRepContainerId" subclass="nlk.base.ObjectId" encoding="1S0N4J208-23YGJM5-PCX"/>
+<property name="_selectedGraphicalRep" subclass="nlk.base.GraphicalConnection" encoding="ge:1S0N4WMMX-1WTWP7S-QS2"/>
+<property name="_conceptMap" subclass="nlk.base.ConceptMap" encoding="file:////Z:/Irfan On My Mac/Google Drive/Projects/git-repos/NSAcurriculumCmapNEW/Digital_Forensics/Module_1_Intro_digital_forencics/Lesson_4_Legal_Aspects/Concept_Maps/Legal_Aspects.cmap"/>
+<property name="_firstNode" subclass="nlk.base.LinkingPhrase" encoding="1S0N4VXX3-1122X71-QQY"/>
+<property name="_secondNode" subclass="nlk.base.Concept" encoding="1S0N4WMMX-1QXCVDT-QRZ"/>
+</storableObject>
+</conceptMap>

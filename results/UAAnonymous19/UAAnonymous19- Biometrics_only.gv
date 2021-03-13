@@ -1,0 +1,189 @@
+// The Round Table
+digraph {
+	Student [label="Student: UAAnonymous19" fillcolor=gold shape=component style=filled]
+	"1RRCXN3MT-29JY2MG-310" [label="something 
+individual 
+knows" fillcolor=white shape=rect style=filled]
+	"1RRCXQTD5-1672PC1-36X" [label=knows shape=none]
+	"1RRCXN3MT-29JY2MG-310" -> "1RRCXQTD5-1672PC1-36X" [constraint=true]
+	"1RRCXDNCH-11Y9TDV-29L" [label="security system
+" fillcolor=white shape=rect style=filled]
+	"1RRCXKFTJ-211D2X7-2PX" [label=using shape=none]
+	"1RRCXDNCH-11Y9TDV-29L" -> "1RRCXKFTJ-211D2X7-2PX" [constraint=true]
+	"1RRCXMM2G-1WZK1PB-2YX" [label="something 
+individual 
+does (dynamic 
+biometrics)" fillcolor=white shape=rect style=filled]
+	"1RRCXWS05-SCVJS7-3N7" [label=does shape=none]
+	"1RRCXMM2G-1WZK1PB-2YX" -> "1RRCXWS05-SCVJS7-3N7" [constraint=true]
+	"1RRCXTS9F-YKKKBS-3H4" [label="is or has 
+(on body)" shape=none]
+	"1RRCXTS9F-WD4KBV-3H1" [label=fingerprint fillcolor=white shape=rect style=filled]
+	"1RRCXTS9F-YKKKBS-3H4" -> "1RRCXTS9F-WD4KBV-3H1" [constraint=true]
+	"1RRCX219Q-RXFHS6-1D3" [label="which has" shape=none]
+	"1RRCX219Q-143P4F4-1D0" [label="Two steps" fillcolor=white shape=rect style=filled]
+	"1RRCX219Q-RXFHS6-1D3" -> "1RRCX219Q-143P4F4-1D0" [constraint=true]
+	"1RRCXB7DV-ZVVXTL-21W" [label="authentication 
+info" fillcolor=white shape=rect style=filled]
+	"1RRCXC8QP-7V094X-245" [label=corroborates shape=none]
+	"1RRCXB7DV-ZVVXTL-21W" -> "1RRCXC8QP-7V094X-245" [constraint=true]
+	"1RRCX7BBW-BP995M-1R6" [label=Verification fillcolor=white shape=rect style=filled]
+	"1RRCXB7DV-2630GF2-21Z" [label="presents or 
+generates" shape=none]
+	"1RRCX7BBW-BP995M-1R6" -> "1RRCXB7DV-2630GF2-21Z" [constraint=true]
+	"1RRCX9BQR-1T5NK56-1WV" [label=identifier fillcolor=white shape=rect style=filled]
+	"1RRCXDNCH-20P82NS-29P" [label="to the" shape=none]
+	"1RRCX9BQR-1T5NK56-1WV" -> "1RRCXDNCH-20P82NS-29P" [constraint=true]
+	"1RRCWXZ1Z-25J4X7T-16J" [label="consists of
+" shape=none]
+	"1RRCWXRSG-28H0WZH-166" [label="Authentication 
+process" fillcolor=white shape=rect style=filled]
+	"1RRCWXZ1Z-25J4X7T-16J" -> "1RRCWXRSG-28H0WZH-166" [constraint=true]
+	"1RRCXKFTJ-24JJBMH-2PT" [label="four means 
+of authenticating 
+user identity
+" fillcolor=white shape=rect style=filled]
+	"1RRCXMM2G-1LJKDF1-2Z0" [label="based on" shape=none]
+	"1RRCXKFTJ-24JJBMH-2PT" -> "1RRCXMM2G-1LJKDF1-2Z0" [constraint=true]
+	"1RRCXB7DV-2630GF2-21Z" [label="presents or 
+generates" shape=none]
+	"1RRCXB7DV-ZVVXTL-21W" [label="authentication 
+info" fillcolor=white shape=rect style=filled]
+	"1RRCXB7DV-2630GF2-21Z" -> "1RRCXB7DV-ZVVXTL-21W" [constraint=true]
+	"1RRCXKFTJ-211D2X7-2PX" [label=using shape=none]
+	"1RRCXKFTJ-24JJBMH-2PT" [label="four means 
+of authenticating 
+user identity
+" fillcolor=white shape=rect style=filled]
+	"1RRCXKFTJ-211D2X7-2PX" -> "1RRCXKFTJ-24JJBMH-2PT" [constraint=true]
+	"1RRCXTS9F-YKKKBS-3H4" [label="is or has 
+(on body)" shape=none]
+	"1RRCXVVQ6-7F8DDH-3L4" [label=face fillcolor=white shape=rect style=filled]
+	"1RRCXTS9F-YKKKBS-3H4" -> "1RRCXVVQ6-7F8DDH-3L4" [constraint=true]
+	"1RRCXTS9F-YKKKBS-3H4" [label="is or has 
+(on body)" shape=none]
+	"1RRCXVPLW-J17NPJ-3KF" [label=retina fillcolor=white shape=rect style=filled]
+	"1RRCXTS9F-YKKKBS-3H4" -> "1RRCXVPLW-J17NPJ-3KF" [constraint=true]
+	"1RRCXWS05-SCVJS7-3N7" [label=does shape=none]
+	"1RRCXWS05-1K29257-3N4" [label="voice pattern
+" fillcolor=white shape=rect style=filled]
+	"1RRCXWS05-SCVJS7-3N7" -> "1RRCXWS05-1K29257-3N4" [constraint=true]
+	"1RRCXMM2G-1LJKDF1-2Z0" [label="based on" shape=none]
+	"1RRCXMXHD-1JM7JLP-301" [label="something 
+individual 
+is (static 
+biometrics)" fillcolor=white shape=rect style=filled]
+	"1RRCXMM2G-1LJKDF1-2Z0" -> "1RRCXMXHD-1JM7JLP-301" [constraint=true]
+	"1RRCXC8QP-7V094X-245" [label=corroborates shape=none]
+	"1RRCXC8QP-J0DLGB-242" [label="the binding 
+between entity 
+and identifier
+" fillcolor=white shape=rect style=filled]
+	"1RRCXC8QP-7V094X-245" -> "1RRCXC8QP-J0DLGB-242" [constraint=true]
+	"1RRCXMM2G-1LJKDF1-2Z0" [label="based on" shape=none]
+	"1RRCXN07Z-1DLTK1P-30J" [label="something 
+individual 
+possesses" fillcolor=white shape=rect style=filled]
+	"1RRCXMM2G-1LJKDF1-2Z0" -> "1RRCXN07Z-1DLTK1P-30J" [constraint=true]
+	"1RRCX9BQR-652BST-1WY" [label=presents shape=none]
+	"1RRCX9BQR-1T5NK56-1WV" [label=identifier fillcolor=white shape=rect style=filled]
+	"1RRCX9BQR-652BST-1WY" -> "1RRCX9BQR-1T5NK56-1WV" [constraint=true]
+	"1RRCXKRRB-VY9F9V-2R2" [label=using shape=none]
+	"1RRCXKFTJ-24JJBMH-2PT" [label="four means 
+of authenticating 
+user identity
+" fillcolor=white shape=rect style=filled]
+	"1RRCXKRRB-VY9F9V-2R2" -> "1RRCXKFTJ-24JJBMH-2PT" [constraint=true]
+	"1RRCXC8QP-J0DLGB-242" [label="the binding 
+between entity 
+and identifier
+" fillcolor=white shape=rect style=filled]
+	"1RRCXKRRB-VY9F9V-2R2" [label=using shape=none]
+	"1RRCXC8QP-J0DLGB-242" -> "1RRCXKRRB-VY9F9V-2R2" [constraint=true]
+	"1RRCXMM2G-1LJKDF1-2Z0" [label="based on" shape=none]
+	"1RRCXMM2G-1WZK1PB-2YX" [label="something 
+individual 
+does (dynamic 
+biometrics)" fillcolor=white shape=rect style=filled]
+	"1RRCXMM2G-1LJKDF1-2Z0" -> "1RRCXMM2G-1WZK1PB-2YX" [constraint=true]
+	"1RRCXS77C-18Y4LY6-3BX" [label=possesses shape=none]
+	"1RRCXT6RK-8K4DS7-3G1" [label="physical key
+" fillcolor=white shape=rect style=filled]
+	"1RRCXS77C-18Y4LY6-3BX" -> "1RRCXT6RK-8K4DS7-3G1" [constraint=true]
+	"1RRCXQTD5-1672PC1-36X" [label=knows shape=none]
+	"1RRCXRJDL-1RDKD3Q-388" [label=PIN fillcolor=white shape=rect style=filled]
+	"1RRCXQTD5-1672PC1-36X" -> "1RRCXRJDL-1RDKD3Q-388" [constraint=true]
+	"1RRCX734K-62MGTP-1Q3" [label="Which are" shape=none]
+	"1RRCX7BBW-BP995M-1R6" [label=Verification fillcolor=white shape=rect style=filled]
+	"1RRCX734K-62MGTP-1Q3" -> "1RRCX7BBW-BP995M-1R6" [constraint=true]
+	"1RRCXS77C-18Y4LY6-3BX" [label=possesses shape=none]
+	"1RRCXS77C-1HRS92S-3BT" [label=smartcard fillcolor=white shape=rect style=filled]
+	"1RRCXS77C-18Y4LY6-3BX" -> "1RRCXS77C-1HRS92S-3BT" [constraint=true]
+	"1RRCXMXHD-1JM7JLP-301" [label="something 
+individual 
+is (static 
+biometrics)" fillcolor=white shape=rect style=filled]
+	"1RRCXTS9F-YKKKBS-3H4" [label="is or has 
+(on body)" shape=none]
+	"1RRCXMXHD-1JM7JLP-301" -> "1RRCXTS9F-YKKKBS-3H4" [constraint=true]
+	"1RRCXS77C-18Y4LY6-3BX" [label=possesses shape=none]
+	"1RRCXSJRB-2B6QWBG-3D4" [label="electronic 
+keycard" fillcolor=white shape=rect style=filled]
+	"1RRCXS77C-18Y4LY6-3BX" -> "1RRCXSJRB-2B6QWBG-3D4" [constraint=true]
+	"1RRCX734K-62MGTP-1Q3" [label="Which are" shape=none]
+	"1RRCX734K-SLNK7B-1Q0" [label=Identification fillcolor=white shape=rect style=filled]
+	"1RRCX734K-62MGTP-1Q3" -> "1RRCX734K-SLNK7B-1Q0" [constraint=true]
+	"1RRCXQTD5-1672PC1-36X" [label=knows shape=none]
+	"1RRCXRVB1-1249KPT-396" [label="answers to 
+prearranged 
+questions" fillcolor=white shape=rect style=filled]
+	"1RRCXQTD5-1672PC1-36X" -> "1RRCXRVB1-1249KPT-396" [constraint=true]
+	"1RRCX219Q-143P4F4-1D0" [label="Two steps" fillcolor=white shape=rect style=filled]
+	"1RRCX734K-62MGTP-1Q3" [label="Which are" shape=none]
+	"1RRCX219Q-143P4F4-1D0" -> "1RRCX734K-62MGTP-1Q3" [constraint=true]
+	"1RRCWXDS1-1QV7ZYW-140" [label="User Authentication
+" fillcolor=white shape=doubleoctagon style=filled]
+	"1RRCWXZ1Z-25J4X7T-16J" [label="consists of
+" shape=none]
+	"1RRCWXDS1-1QV7ZYW-140" -> "1RRCWXZ1Z-25J4X7T-16J" [constraint=true]
+	"1RRCXQTD5-1672PC1-36X" [label=knows shape=none]
+	"1RRCXQTD5-DTSB3C-36T" [label=password fillcolor=white shape=rect style=filled]
+	"1RRCXQTD5-1672PC1-36X" -> "1RRCXQTD5-DTSB3C-36T" [constraint=true]
+	"1RRCX734K-SLNK7B-1Q0" [label=Identification fillcolor=white shape=rect style=filled]
+	"1RRCX9BQR-652BST-1WY" [label=presents shape=none]
+	"1RRCX734K-SLNK7B-1Q0" -> "1RRCX9BQR-652BST-1WY" [constraint=true]
+	"1RRCXMM2G-1LJKDF1-2Z0" [label="based on" shape=none]
+	"1RRCXN3MT-29JY2MG-310" [label="something 
+individual 
+knows" fillcolor=white shape=rect style=filled]
+	"1RRCXMM2G-1LJKDF1-2Z0" -> "1RRCXN3MT-29JY2MG-310" [constraint=true]
+	"1RRCXWS05-SCVJS7-3N7" [label=does shape=none]
+	"1RRCXXQ6F-1GD48N2-3PR" [label=handwriting fillcolor=white shape=rect style=filled]
+	"1RRCXWS05-SCVJS7-3N7" -> "1RRCXXQ6F-1GD48N2-3PR" [constraint=true]
+	"1RRCXDNCH-20P82NS-29P" [label="to the" shape=none]
+	"1RRCXDNCH-11Y9TDV-29L" [label="security system
+" fillcolor=white shape=rect style=filled]
+	"1RRCXDNCH-20P82NS-29P" -> "1RRCXDNCH-11Y9TDV-29L" [constraint=true]
+	"1RRCXN07Z-1DLTK1P-30J" [label="something 
+individual 
+possesses" fillcolor=white shape=rect style=filled]
+	"1RRCXS77C-18Y4LY6-3BX" [label=possesses shape=none]
+	"1RRCXN07Z-1DLTK1P-30J" -> "1RRCXS77C-18Y4LY6-3BX" [constraint=true]
+	"1RRCXWS05-SCVJS7-3N7" [label=does shape=none]
+	"1RRCXYHTK-220VD11-3QV" [label="typing rhythm
+" fillcolor=white shape=rect style=filled]
+	"1RRCXWS05-SCVJS7-3N7" -> "1RRCXYHTK-220VD11-3QV" [constraint=true]
+	"1RRCWXRSG-28H0WZH-166" [label="Authentication 
+process" fillcolor=white shape=rect style=filled]
+	"1RRCX219Q-RXFHS6-1D3" [label="which has" shape=none]
+	"1RRCWXRSG-28H0WZH-166" -> "1RRCX219Q-RXFHS6-1D3" [constraint=true]
+	"1RRCWLDT9-3R86CY-B4" [label="User Authentication 
+Slideset 2 
+Alyssa Holmes 
+2419447" fillcolor=white shape=rect style=filled]
+	statictics [label="STATISTICS
+\lBranch:		12\lNode:		26\lLinking Phrase:	14\lOrphan:		1\lLeaf Node:	12\lPreposition:	22\lSub Map:		1\lAvg Word Per Concept:	2.07\l" Gsplines=true fillcolor="#F5FFFA" shape=component style=filled]
+	file_info [label="CMAP Information
+
+\lTitle:	UAAnonymous19.cmap\lCreated:	2020-12-07T07:50:19-05:00\lModified:	2020-12-07T07:50:19-05:00\lLanguage:	en\lFormat:	x-cmap/x-storable\lPublisher:	FIHMC CmapTools 6.04\lWidth:	1005\lHeight:	829\l" Gsplines=true fillcolor="#E6E6FA" shape=tab style=filled]
+}

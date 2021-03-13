@@ -1,0 +1,118 @@
+// The Round Table
+digraph {
+	"1S635NBVT-10X3QJK-1WWR" [label="PUBLIC KEY CERTIFICATES Module 3" Gsplines=true fontsize=20 shape=rect style=filled]
+	"1S633X0FY-9YXYQF-1P04" [label="key steps 
+summarized 
+as" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S633X0FY-7H2WW6-1NZF" [label="Client may 
+provide the 
+signed certificate 
+to any other 
+user" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S633X0FY-9YXYQF-1P04" -> "1S633X0FY-7H2WW6-1NZF" [constraint=true]
+	"1S633X0FY-9YXYQF-1P04" [label="key steps 
+summarized 
+as" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S633X0FY-1K17NS5-1NZ3" [label="User software 
+(client) creates 
+a pair of 
+keys: one 
+public and 
+one private
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S633X0FY-9YXYQF-1P04" -> "1S633X0FY-1K17NS5-1NZ3" [constraint=true]
+	"1S633X0FY-9YXYQF-1P04" [label="key steps 
+summarized 
+as" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S633X0FY-13Z0BSC-1NZ7" [label="Client prepares 
+an unsigned 
+certificate 
+that includes 
+the user ID 
+and code of 
+public key
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S633X0FY-9YXYQF-1P04" -> "1S633X0FY-13Z0BSC-1NZ7" [constraint=true]
+	"1S633X0FY-9YXYQF-1P04" [label="key steps 
+summarized 
+as" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S633X0FY-1HWLJ8W-1NZB" [label="User provides 
+the unsigned 
+certificate 
+to a Certificate 
+Authority 
+in some secure 
+manner" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S633X0FY-9YXYQF-1P04" -> "1S633X0FY-1HWLJ8W-1NZB" [constraint=true]
+	"1S633X0FY-229Z1Z0-1NZM" [label="PUBLIC KEY 
+CERTIFICATES" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=doubleoctagon style=filled]
+	"1S633X0FY-9YXYQF-1P04" [label="key steps 
+summarized 
+as" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S633X0FY-229Z1Z0-1NZM" -> "1S633X0FY-9YXYQF-1P04" [constraint=true]
+	"1S633X0FY-9YXYQF-1P04" [label="key steps 
+summarized 
+as" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S633X0FY-1FD4H6L-1NZT" [label="Any user may 
+verify for 
+certificate 
+validity by 
+calculating 
+the hash code 
+of certificate 
+without the 
+signature, 
+decrypting 
+the signature 
+using the 
+Certificate 
+Authority 
+’s known public 
+key, comparing 
+the result 
+for a match
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S633X0FY-9YXYQF-1P04" -> "1S633X0FY-1FD4H6L-1NZT" [constraint=true]
+	"1S633X0FY-9YXYQF-1P04" [label="key steps 
+summarized 
+as" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S633X0FY-1RMKSHY-1NZJ" [label="Certificate 
+Authority 
+creates a 
+signature 
+using a hash 
+function to 
+calculate 
+the hash code 
+of the unsigned 
+certificate, 
+and encrypts 
+the hash code 
+with the Certifictae 
+Authority’s 
+private key
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S633X0FY-9YXYQF-1P04" -> "1S633X0FY-1RMKSHY-1NZJ" [constraint=true]
+	"1S633X0FY-9YXYQF-1P04" [label="key steps 
+summarized 
+as" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S633X0FY-1X9G04Q-1NZQ" [label="Certificate 
+Authority 
+attaches the 
+signature 
+to the unsigned 
+certificate 
+to create 
+a signed certificate 
+and Certificate 
+Authority 
+returns the 
+signed certificate 
+to client" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S633X0FY-9YXYQF-1P04" -> "1S633X0FY-1X9G04Q-1NZQ" [constraint=true]
+	Stat [label="SUMMERY
+
+Matched Branch:			0\lPartially Matched Branch:	0\lMismatched Branch:		7\lExtra Branch:				26\lTotal Match:		0.0 %\lConcept Match:	0.0 %\lLink. Phr. Match:	0.0 %\lMisconception:	100.0 %\lHierarchy Match:	0.0 %\l" Gsplines=true fillcolor="#F5FFFA" fontsize=20 shape=component style=filled]
+	Grade [label="Grade:	0.0%" Gsplines=true fillcolor="#FFEBCD" fontsize=20 shape=note style=filled]
+	Stat -> Grade [arrowhead=inv color=black constraint=true]
+}

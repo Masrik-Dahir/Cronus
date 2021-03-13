@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmap xmlns:dcterms="http://purl.org/dc/terms/" xmlns="http://cmap.ihmc.us/xml/cmap/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+    <res-meta>
+        <dc:title>UAAnonymous10.cmap</dc:title>
+        <dcterms:created>2020-12-07T07:48:47-05:00</dcterms:created>
+        <dcterms:modified>2020-12-07T07:48:47-05:00</dcterms:modified>
+        <dc:language>en</dc:language>
+        <dc:format>x-cmap/x-storable</dc:format>
+        <dc:publisher>FIHMC CmapTools 6.04</dc:publisher>
+        <dc:source>cmap:1W5Z76G0X-151MD9Y-1:external-folder:file:////C:/Users/masri/PycharmProjects/cmapProject/ConceptMapFiles/CMAPFiles/ComputerSecurity/Student/Module2UserAuthentication/UAAnonymous10.cmap</dc:source>
+    </res-meta>
+    <map width="2691" height="1099">
+        <concept-list>
+            <concept id="15059187288271543816690" label="Intrusion&#xa;detection"/>
+            <concept id="1505918836041399612943" label="Account lockout&#xa;mechanisms"/>
+            <concept id="15059153597501065140926" label="Determines if user &#xa;can access system"/>
+            <concept id="15059219469382045050073" label="Biometric ID card"/>
+            <concept id="1505919222145-1115720899" label="Prevents duplicate &#xa;passwords from &#xa;being visible"/>
+            <concept id="15059149889261838050666" label="User Authentication"/>
+            <concept id="1505921201145646994822" label="system periodically&#xa;runs password cracker &#xa;to find vulnerable &#xa;passwords"/>
+            <concept id="1505921654768-2056358513" label="Raised characters&#xa;only on front"/>
+            <concept id="1505915405717-221117396" label="Determines permission &#xa;level for user, i.e. &#xa;root/user/guest"/>
+            <concept id="1505922482303-512994056" label="CSCI4621 Fall 2017&#xa;Slideset-2 - User Authenication Cmap&#xa;Brandon McClinton 2403482&#xa;September 20, 2017"/>
+            <concept id="1505918311964-793815888" label="Attacker accesses &#xa;unattended logged-&#xa;in workstation"/>
+            <concept id="15059215770101393908203" label="Smart: contactless"/>
+            <concept id="1505915849500-935021920" label="Password guessiing&#xa;against single user"/>
+            <concept id="1505921528875-768401838" label="Memory"/>
+            <concept id="1505921541906-723379912" label="Smart: contact"/>
+            <concept id="1505918888896-849848208" label="Training/enforcement &#xa;of password policies"/>
+            <concept id="1505915938506-1524424894" label="Electronic monitoring"/>
+            <concept id="1505921512435401336156" label="Magnetic &#xa;Strip"/>
+            <concept id="1505922086327-1264512253" label="attempts to authorize&#xa;user based on physical&#xa;characteristics"/>
+            <concept id="1505920274060367887540" label="each password assigned&#xa;salt hash value/then &#xa;compared to hashes in&#xa;dictionary"/>
+            <concept id="15059162925391053358482" label="user writes down &#xa;system assigned &#xa;password"/>
+            <concept id="15059159156981101909478" label="Exploiting multiple&#xa;password use"/>
+            <concept id="1505919992842-1725110816" label="Dictionary Attack"/>
+            <concept id="1505915900195-1149886320" label="Exploiting user&#xa;mistales"/>
+            <concept id="15059210611561252544127" label="users told importance&#xa;of and given rules &#xa;for generating hard password"/>
+            <concept id="1505922349186-2121790237" label="voice"/>
+            <concept id="15059217681901025320305" label="Electronic&#xa;memory&#xa;inside"/>
+            <concept id="1505922176278-1087539181" label="technically complex&#xa;and expensive compared&#xa;to passwords and tokens"/>
+            <concept id="1505922298763757940375" label="fingerprints"/>
+            <concept id="1505921823437-2125062985" label="Radio antenna&#xa;embedded&#xa;inside"/>
+            <concept id="15059152735041877846072" label="user provides name/login&#xa;and password"/>
+            <concept id="1505915108404-171147066" label="Something the individual possesses&#xa;(static biometrics)"/>
+            <concept id="15059223112831037916903" label="hand&#xa;geometry"/>
+            <concept id="15059192760721349962524" label="Changes hash&#xa;values of same&#xa;password"/>
+            <concept id="1505920160654-1197567752" label="large dictionary of &#xa;possible passwords&#xa;generated; used on&#xa;password file to crack&#xa;hash value "/>
+            <concept id="1505915300848132308389" label="System compares password&#xa;to one stored for user login"/>
+            <concept id="1505921383085-870800745" label="Embossed"/>
+            <concept id="15059223234271371635659" label="retinal&#xa;pattern"/>
+            <concept id="1505918944287-1157337394" label="Policy against similar&#xa;passwords on network"/>
+            <concept id="1505922341970-1072898439" label="signiture"/>
+            <concept id="1505920770122-1927553874" label="user education"/>
+            <concept id="1505918745083116939223" label="Rapid reissue of&#xa;compromised&#xa;password"/>
+            <concept id="15059208524401164268656" label="proactive&#xa;password&#xa;checking"/>
+            <concept id="1505916631870-2066251241" label="Attacker gains knowledge&#xa;about user/system policies&#xa;use that to guess password"/>
+            <concept id="15059189157831625917373" label="Automatic logout&#xa;of workstation"/>
+            <concept id="1505918854970-2147245261" label="Prevent users from &#xa;selecting common&#xa;passwords"/>
+            <concept id="1505916373649-1642993925" label="attacker gains access&#xa;to password file/compares&#xa;password hashes against &#xa;common password hashes"/>
+            <concept id="15059152169131319518252" label="Widely used line of &#xa;defense against &#xa;intruders"/>
+            <concept id="1505915888427-751563181" label="Workstation&#xa;hijacking"/>
+            <concept id="1505922227685-60922097" label="facial&#xa;features"/>
+            <concept id="1505921172946-359214228" label="users have trouble&#xa;remembering them"/>
+            <concept id="1505919359446-130338963" label="Difficulty of &#xa;successful&#xa;dictionary&#xa;attack &#xa;increased"/>
+            <concept id="1505916050608-1487683708" label="password is communicated&#xa;over network, vulnerable &#xa;to eavesdropping"/>
+            <concept id="15059219150832065504129" label="bank card"/>
+            <concept id="1505916489639-1545022264" label="Attacker guesses&#xa;password until&#xa;correct match"/>
+            <concept id="1505919308143-508930537" label="Difficult to determine &#xa;if same password used&#xa;on multiple systems"/>
+            <concept id="1505915818957-790578074" label="Specific&#xa;account&#xa;attack"/>
+            <concept id="150591860516689095123" label="Prevent unauthorized&#xa;access to password&#xa;file"/>
+            <concept id="1505915761014-847729841" label="Offline &#xa;Dictionary&#xa;Attack"/>
+            <concept id="15059221549522050823048" label="based on&#xa;pattern&#xa;recognition"/>
+            <concept id="150591504497565050921" label="Something the individual knows"/>
+            <concept id="15059217905971428930358" label="Electrical contacts&#xa;exposed on &#xa;surface"/>
+            <concept id="15059208321681171368516" label="reactive&#xa;password&#xa;checking"/>
+            <concept id="1505920133518352383203" label="Rainbow Table&#xa;Attack"/>
+            <concept id="150592036461014884607" label="pre-compute table of &#xa;password hash value &#xa;combined with all &#xa;possible salts"/>
+            <concept id="1505918388962748940723" label="If user uses same &#xa;password for many&#xa;accounts, attacks can&#xa;be more damaging"/>
+            <concept id="1505921887867-1247143134" label="Old credit card"/>
+            <concept id="1505921922619-1378453154" label="prepaid phone card"/>
+            <concept id="15059151494271302811898" label="Something the individual does&#xa;(dynamic biometrics)"/>
+            <concept id="1505920814337404479823" label="computer&#xa;generated&#xa;passwords"/>
+            <concept id="15059151325551843396116" label="Something the individual is&#xa;(tokens)"/>
+            <concept id="1505920589717512626422" label="countered by using &#xa;sufficiently larger &#xa;salt value and &#xa;hash length"/>
+            <concept id="1505921259736-42756114" label="user selects password, &#xa;system accepts/rejects &#xa;password"/>
+            <concept id="15059223354191952751457" label="iris"/>
+            <concept id="15059217393181253293958" label="Magnetic bar on back;&#xa;characters on front"/>
+            <concept id="1505920476392742526230" label="arbitrarily large &#xa;tables of values"/>
+        </concept-list>
+        <linking-phrase-list>
+            <linking-phrase id="1505915761023-832572279" label="Password Vulnerabilities"/>
+            <linking-phrase id="15059192221541123608869" label="Salt"/>
+            <linking-phrase id="1505922227690-1979521467" label="Potential Characteristics"/>
+            <linking-phrase id="1505920770131-931267705" label="Techniques"/>
+            <linking-phrase id="1505921887875170694851" label="Example"/>
+            <linking-phrase id="1505918605174-747647582" label="Countermeasures"/>
+            <linking-phrase id="1505916514510296795152" label="Respective Methodology"/>
+            <linking-phrase id="150592208633599263935" label="Authentication Process"/>
+            <linking-phrase id="15059210611641164905737" label="Respective Concerns"/>
+            <linking-phrase id="1505921654776196498119" label="Defining Feature"/>
+            <linking-phrase id="1505920364618-838734385" label="How it works"/>
+            <linking-phrase id="1505921383092-234688854" label="Types of Tokens"/>
+            <linking-phrase id="15059153597561304513295" label="User ID"/>
+            <linking-phrase id="1505919992850-2000531744" label="Password Cracking"/>
+            <linking-phrase id="15059150449831190041496" label="Means of Authentication"/>
+            <linking-phrase id="15059152169221093945387" label="Password Authentification"/>
+            <linking-phrase id="1505920160660978581314" label="How it works"/>
+        </linking-phrase-list>
+        <connection-list>
+            <connection id="1505919222160-1546031406" from-id="150591860516689095123" to-id="15059192221541123608869"/>
+            <connection id="1505918745088-1747163635" from-id="1505918605174-747647582" to-id="1505918745083116939223"/>
+            <connection id="1505922323433-132289947" from-id="1505922227690-1979521467" to-id="15059223234271371635659"/>
+            <connection id="1505921541912-1325317895" from-id="1505921383092-234688854" to-id="1505921541906-723379912"/>
+            <connection id="15059216853921423700562" from-id="1505921512435401336156" to-id="1505921654776196498119"/>
+            <connection id="1505922154960-1470135681" from-id="150592208633599263935" to-id="15059221549522050823048"/>
+            <connection id="1505915300856-441245999" from-id="15059152169221093945387" to-id="1505915300848132308389"/>
+            <connection id="1505918386051-15803334" from-id="15059159156981101909478" to-id="1505916514510296795152"/>
+            <connection id="1505921102715255680166" from-id="15059208321681171368516" to-id="15059210611641164905737"/>
+            <connection id="1505916532229668197512" from-id="1505916514510296795152" to-id="1505916489639-1545022264"/>
+            <connection id="1505922298770-1747911909" from-id="1505922227690-1979521467" to-id="1505922298763757940375"/>
+            <connection id="1505916631875786580535" from-id="1505916514510296795152" to-id="1505916631870-2066251241"/>
+            <connection id="15059152735101284277236" from-id="15059152169221093945387" to-id="15059152735041877846072"/>
+            <connection id="15059183119691948987716" from-id="1505916514510296795152" to-id="1505918311964-793815888"/>
+            <connection id="1505916514515-945903309" from-id="1505916514510296795152" to-id="1505916050608-1487683708"/>
+            <connection id="1505922086341-680706583" from-id="1505915108404-171147066" to-id="150592208633599263935"/>
+            <connection id="1505915818962-472284965" from-id="1505915761023-832572279" to-id="1505915818957-790578074"/>
+            <connection id="1505921383097-563303492" from-id="15059151325551843396116" to-id="1505921383092-234688854"/>
+            <connection id="15059201606661750370091" from-id="1505919992842-1725110816" to-id="1505920160660978581314"/>
+            <connection id="15059215124432109573281" from-id="1505921383092-234688854" to-id="1505921512435401336156"/>
+            <connection id="15059213830981837508622" from-id="1505921383092-234688854" to-id="1505921383085-870800745"/>
+            <connection id="1505915359761-1799399244" from-id="15059153597561304513295" to-id="15059153597501065140926"/>
+            <connection id="1505921682735-997595930" from-id="1505921383085-870800745" to-id="1505921654776196498119"/>
+            <connection id="1505915044992-885991106" from-id="15059150449831190041496" to-id="150591504497565050921"/>
+            <connection id="1505918728835-148478308" from-id="1505918605174-747647582" to-id="15059187288271543816690"/>
+            <connection id="1505915216930-614357806" from-id="150591504497565050921" to-id="15059152169221093945387"/>
+            <connection id="15059223419761356832239" from-id="1505922227690-1979521467" to-id="1505922341970-1072898439"/>
+            <connection id="1505921997569-1472210690" from-id="15059217681901025320305" to-id="1505921887875170694851"/>
+            <connection id="1505915888434-991239601" from-id="1505915761023-832572279" to-id="1505915888427-751563181"/>
+            <connection id="1505915149432347880448" from-id="15059150449831190041496" to-id="15059151494271302811898"/>
+            <connection id="1505921061168-1932079701" from-id="1505920770122-1927553874" to-id="15059210611641164905737"/>
+            <connection id="1505921687735-981222031" from-id="1505921528875-768401838" to-id="1505921654776196498119"/>
+            <connection id="1505920160666-1699568031" from-id="1505920160660978581314" to-id="1505920160654-1197567752"/>
+            <connection id="15059223491921631398038" from-id="1505922227690-1979521467" to-id="1505922349186-2121790237"/>
+            <connection id="1505918944292-1822215049" from-id="1505918605174-747647582" to-id="1505918944287-1157337394"/>
+            <connection id="1505920274068467668305" from-id="1505920160660978581314" to-id="1505920274060367887540"/>
+            <connection id="1505921201151-1597937579" from-id="15059210611641164905737" to-id="1505921201145646994822"/>
+            <connection id="15059215288801056820473" from-id="1505921383092-234688854" to-id="1505921528875-768401838"/>
+            <connection id="1505916514515-88815318" from-id="1505915938506-1524424894" to-id="1505916514510296795152"/>
+            <connection id="1505915900200-787690299" from-id="1505915761023-832572279" to-id="1505915900195-1149886320"/>
+            <connection id="15059217393261083214744" from-id="1505921654776196498119" to-id="15059217393181253293958"/>
+            <connection id="15059200344961389310573" from-id="15059189157831625917373" to-id="1505919992850-2000531744"/>
+            <connection id="1505922176283-2139783658" from-id="150592208633599263935" to-id="1505922176278-1087539181"/>
+            <connection id="15059165247501382172764" from-id="1505916514510296795152" to-id="1505915761014-847729841"/>
+            <connection id="1505919308151-191273908" from-id="15059192221541123608869" to-id="1505919308143-508930537"/>
+            <connection id="1505919276077648285090" from-id="15059192221541123608869" to-id="15059192760721349962524"/>
+            <connection id="15059205897252019597147" from-id="1505920364618-838734385" to-id="1505920589717512626422"/>
+            <connection id="1505920814342-86523290" from-id="1505920770131-931267705" to-id="1505920814337404479823"/>
+            <connection id="1505918388969-612027422" from-id="1505916514510296795152" to-id="1505918388962748940723"/>
+            <connection id="1505918640485733108628" from-id="1505916050608-1487683708" to-id="1505918605174-747647582"/>
+            <connection id="15059186051791971607116" from-id="1505916373649-1642993925" to-id="1505918605174-747647582"/>
+            <connection id="1505921577017-1645548519" from-id="1505921383092-234688854" to-id="15059215770101393908203"/>
+            <connection id="1505921979793-1395755997" from-id="15059217393181253293958" to-id="1505921887875170694851"/>
+            <connection id="1505921704175911962197" from-id="15059215770101393908203" to-id="1505921654776196498119"/>
+            <connection id="1505922227695-198265898" from-id="1505922086327-1264512253" to-id="1505922227690-1979521467"/>
+            <connection id="1505915044990903032105" from-id="15059149889261838050666" to-id="15059150449831190041496"/>
+            <connection id="1505921915088-90311701" from-id="1505921887875170694851" to-id="15059219150832065504129"/>
+            <connection id="1505920770137-2117193295" from-id="1505918888896-849848208" to-id="1505920770131-931267705"/>
+            <connection id="15059186496452044184401" from-id="1505916631870-2066251241" to-id="1505918605174-747647582"/>
+            <connection id="1505915359760-933012904" from-id="15059152735041877846072" to-id="15059153597561304513295"/>
+            <connection id="1505920852446332136911" from-id="1505920770131-931267705" to-id="15059208524401164268656"/>
+            <connection id="1505916518574-2067538843" from-id="1505916514510296795152" to-id="1505915900195-1149886320"/>
+            <connection id="1505921922624597675738" from-id="1505921887875170694851" to-id="1505921922619-1378453154"/>
+            <connection id="1505921695751223062615" from-id="1505921541906-723379912" to-id="1505921654776196498119"/>
+            <connection id="1505915216930-1418296244" from-id="15059152169221093945387" to-id="15059152169131319518252"/>
+            <connection id="1505918647125-1738998913" from-id="1505916489639-1545022264" to-id="1505918605174-747647582"/>
+            <connection id="1505920133526-627367116" from-id="1505919992850-2000531744" to-id="1505920133518352383203"/>
+            <connection id="1505918836049-1358775445" from-id="1505918605174-747647582" to-id="1505918836041399612943"/>
+            <connection id="1505921887880-73516667" from-id="1505921887875170694851" to-id="1505921887867-1247143134"/>
+            <connection id="1505918655357718705190" from-id="1505918388962748940723" to-id="1505918605174-747647582"/>
+            <connection id="1505918643566106756785" from-id="15059162925391053358482" to-id="1505918605174-747647582"/>
+            <connection id="1505920364624786554957" from-id="1505920364618-838734385" to-id="150592036461014884607"/>
+            <connection id="1505916521518-1993296044" from-id="1505916514510296795152" to-id="15059162925391053358482"/>
+            <connection id="15059210611691968727128" from-id="15059210611641164905737" to-id="15059210611561252544127"/>
+            <connection id="1505921097667-1517640834" from-id="1505920814337404479823" to-id="15059210611641164905737"/>
+            <connection id="1505920832176-846865406" from-id="1505920770131-931267705" to-id="15059208321681171368516"/>
+            <connection id="1505915761029-558409879" from-id="1505915761023-832572279" to-id="1505915761014-847729841"/>
+            <connection id="1505918854975418272367" from-id="1505918605174-747647582" to-id="1505918854970-2147245261"/>
+            <connection id="1505916527510852604235" from-id="1505916514510296795152" to-id="1505916373649-1642993925"/>
+            <connection id="1505919992855-142184178" from-id="1505918745083116939223" to-id="1505919992850-2000531744"/>
+            <connection id="15059203646231475935265" from-id="1505920133518352383203" to-id="1505920364618-838734385"/>
+            <connection id="1505920025393664567761" from-id="1505918836041399612943" to-id="1505919992850-2000531744"/>
+            <connection id="1505915761028-1594439102" from-id="150591504497565050921" to-id="1505915761023-832572279"/>
+            <connection id="15059212597441710374641" from-id="15059210611641164905737" to-id="1505921259736-42756114"/>
+            <connection id="1505922227696-1465587589" from-id="1505922227690-1979521467" to-id="1505922227685-60922097"/>
+            <connection id="1505915849508-1214863248" from-id="1505915761023-832572279" to-id="1505915849500-935021920"/>
+            <connection id="1505916535526532840226" from-id="1505916514510296795152" to-id="1505915818957-790578074"/>
+            <connection id="150591891579173726803" from-id="1505918605174-747647582" to-id="15059189157831625917373"/>
+            <connection id="1505916628764-1158169642" from-id="1505915849500-935021920" to-id="1505916514510296795152"/>
+            <connection id="1505922108703285255896" from-id="15059151494271302811898" to-id="150592208633599263935"/>
+            <connection id="15059216547812063495948" from-id="1505921528875-768401838" to-id="1505921654776196498119"/>
+            <connection id="1505921946943-1019342267" from-id="1505921887875170694851" to-id="15059219469382045050073"/>
+            <connection id="1505921790603963175951" from-id="1505921654776196498119" to-id="15059217905971428930358"/>
+            <connection id="1505921100003-672533550" from-id="15059208524401164268656" to-id="15059210611641164905737"/>
+            <connection id="150592231128955094322" from-id="1505922227690-1979521467" to-id="15059223112831037916903"/>
+            <connection id="1505921887880-1072401463" from-id="1505921654768-2056358513" to-id="1505921887875170694851"/>
+            <connection id="1505922003193267037376" from-id="1505921823437-2125062985" to-id="1505921887875170694851"/>
+            <connection id="15059216547811027254623" from-id="1505921654776196498119" to-id="1505921654768-2056358513"/>
+            <connection id="1505920476400-1033061751" from-id="1505920364618-838734385" to-id="1505920476392742526230"/>
+            <connection id="1505921768195-1298592608" from-id="1505921654776196498119" to-id="15059217681901025320305"/>
+            <connection id="1505915915707154127923" from-id="1505915761023-832572279" to-id="15059159156981101909478"/>
+            <connection id="1505915132562-1140523638" from-id="15059150449831190041496" to-id="15059151325551843396116"/>
+            <connection id="15059218234451132396828" from-id="1505921654776196498119" to-id="1505921823437-2125062985"/>
+            <connection id="15059186522851746995215" from-id="1505918311964-793815888" to-id="1505918605174-747647582"/>
+            <connection id="15059220000971522885886" from-id="15059217905971428930358" to-id="1505921887875170694851"/>
+            <connection id="1505919359452-21374163" from-id="15059192221541123608869" to-id="1505919359446-130338963"/>
+            <connection id="1505915108411-332640870" from-id="15059150449831190041496" to-id="1505915108404-171147066"/>
+            <connection id="1505915405724-701648944" from-id="15059153597561304513295" to-id="1505915405717-221117396"/>
+            <connection id="15059220863411341558450" from-id="150592208633599263935" to-id="1505922086327-1264512253"/>
+            <connection id="1505921172953-888128543" from-id="15059210611641164905737" to-id="1505921172946-359214228"/>
+            <connection id="15059188889011948786307" from-id="1505918605174-747647582" to-id="1505918888896-849848208"/>
+            <connection id="1505915938511-1974831457" from-id="1505915761023-832572279" to-id="1505915938506-1524424894"/>
+            <connection id="1505918305404670843395" from-id="1505915888427-751563181" to-id="1505916514510296795152"/>
+            <connection id="1505922335426-196046351" from-id="1505922227690-1979521467" to-id="15059223354191952751457"/>
+            <connection id="1505919992856-496932392" from-id="1505919992850-2000531744" to-id="1505919992842-1725110816"/>
+            <connection id="1505920021849-1842193613" from-id="1505918854970-2147245261" to-id="1505919992850-2000531744"/>
+            <connection id="150591922216020196159" from-id="15059192221541123608869" to-id="1505919222145-1115720899"/>
+            <connection id="15059200379521451187044" from-id="1505918944287-1157337394" to-id="1505919992850-2000531744"/>
+            <connection id="15059186051791313770849" from-id="1505918605174-747647582" to-id="150591860516689095123"/>
+            <connection id="1505920770137-693140278" from-id="1505920770131-931267705" to-id="1505920770122-1927553874"/>
+        </connection-list>
+        <concept-appearance-list>
+            <concept-appearance id="15059187288271543816690" x="672" y="675" width="72" height="40"/>
+            <concept-appearance id="1505918836041399612943" x="769" y="675" width="112" height="40"/>
+            <concept-appearance id="15059153597501065140926" x="287" y="506" width="132" height="42"/>
+            <concept-appearance id="15059219469382045050073" x="2022" y="671" width="122" height="25"/>
+            <concept-appearance id="1505919222145-1115720899" x="145" y="856" width="131" height="57"/>
+            <concept-appearance id="15059149889261838050666" x="1654" y="21" width="135" height="25"/>
+            <concept-appearance id="1505921201145646994822" x="1739" y="1061" width="156" height="71"/>
+            <concept-appearance id="1505921654768-2056358513" x="1622" y="501" width="123" height="42"/>
+            <concept-appearance id="1505915405717-221117396" x="136" y="512" width="159" height="56"/>
+            <concept-appearance id="1505922482303-512994056" x="126" y="40" width="243" height="71"/>
+            <concept-appearance id="1505918311964-793815888" x="1321" y="507" width="135" height="54"/>
+            <concept-appearance id="15059215770101393908203" x="2000" y="335" width="130" height="25"/>
+            <concept-appearance id="1505915849500-935021920" x="1075" y="352" width="133" height="42"/>
+            <concept-appearance id="1505921528875-768401838" x="1787" y="337" width="64" height="27"/>
+            <concept-appearance id="1505921541906-723379912" x="1877" y="336" width="107" height="25"/>
+            <concept-appearance id="1505918888896-849848208" x="1443" y="682" width="151" height="42"/>
+            <concept-appearance id="1505915938506-1524424894" x="671" y="345" width="144" height="28"/>
+            <concept-appearance id="1505921512435401336156" x="1712" y="346" width="74" height="42"/>
+            <concept-appearance id="1505922086327-1264512253" x="2384" y="355" width="154" height="54"/>
+            <concept-appearance id="1505920274060367887540" x="791" y="1054" width="162" height="71"/>
+            <concept-appearance id="15059162925391053358482" x="698" y="507" width="123" height="57"/>
+            <concept-appearance id="15059159156981101909478" x="1303" y="352" width="128" height="42"/>
+            <concept-appearance id="1505919992842-1725110816" x="749" y="849" width="120" height="28"/>
+            <concept-appearance id="1505915900195-1149886320" x="802" y="349" width="105" height="40"/>
+            <concept-appearance id="15059210611561252544127" x="1422" y="1053" width="194" height="57"/>
+            <concept-appearance id="1505922349186-2121790237" x="2631" y="496" width="47" height="25"/>
+            <concept-appearance id="15059217681901025320305" x="1879" y="509" width="75" height="54"/>
+            <concept-appearance id="1505922176278-1087539181" x="2551" y="356" width="167" height="57"/>
+            <concept-appearance id="1505922298763757940375" x="2487" y="496" width="85" height="28"/>
+            <concept-appearance id="1505921823437-2125062985" x="2104" y="512" width="103" height="54"/>
+            <concept-appearance id="15059152735041877846072" x="232" y="353" width="170" height="42"/>
+            <concept-appearance id="1505915108404-171147066" x="2329" y="163" width="231" height="42"/>
+            <concept-appearance id="15059223112831037916903" x="2266" y="504" width="74" height="42"/>
+            <concept-appearance id="15059192760721349962524" x="270" y="855" width="107" height="57"/>
+            <concept-appearance id="1505920160654-1197567752" x="631" y="1059" width="147" height="84"/>
+            <concept-appearance id="1505915300848132308389" x="415" y="354" width="185" height="42"/>
+            <concept-appearance id="1505921383085-870800745" x="1630" y="338" width="77" height="25"/>
+            <concept-appearance id="15059223234271371635659" x="2410" y="503" width="60" height="42"/>
+            <concept-appearance id="1505918944287-1157337394" x="1286" y="679" width="151" height="42"/>
+            <concept-appearance id="1505922341970-1072898439" x="2569" y="494" width="69" height="27"/>
+            <concept-appearance id="1505920770122-1927553874" x="1492" y="851" width="105" height="25"/>
+            <concept-appearance id="1505918745083116939223" x="1028" y="681" width="113" height="57"/>
+            <concept-appearance id="15059208524401164268656" x="1671" y="865" width="73" height="56"/>
+            <concept-appearance id="1505916631870-2066251241" x="1159" y="507" width="182" height="57"/>
+            <concept-appearance id="15059189157831625917373" x="1147" y="675" width="119" height="40"/>
+            <concept-appearance id="1505918854970-2147245261" x="898" y="680" width="135" height="57"/>
+            <concept-appearance id="1505916373649-1642993925" x="852" y="513" width="175" height="71"/>
+            <concept-appearance id="15059152169131319518252" x="76" y="358" width="134" height="55"/>
+            <concept-appearance id="1505915888427-751563181" x="1189" y="351" width="88" height="42"/>
+            <concept-appearance id="1505922227685-60922097" x="2342" y="503" width="65" height="40"/>
+            <concept-appearance id="1505921172946-359214228" x="1590" y="1047" width="132" height="42"/>
+            <concept-appearance id="1505919359446-130338963" x="534" y="870" width="89" height="84"/>
+            <concept-appearance id="1505916050608-1487683708" x="542" y="507" width="179" height="57"/>
+            <concept-appearance id="15059219150832065504129" x="1781" y="672" width="76" height="25"/>
+            <concept-appearance id="1505916489639-1545022264" x="1004" y="506" width="119" height="54"/>
+            <concept-appearance id="1505919308143-508930537" x="405" y="856" width="154" height="57"/>
+            <concept-appearance id="1505915818957-790578074" x="972" y="356" width="63" height="55"/>
+            <concept-appearance id="150591860516689095123" x="561" y="681" width="145" height="54"/>
+            <concept-appearance id="1505915761014-847729841" x="898" y="354" width="77" height="55"/>
+            <concept-appearance id="15059221549522050823048" x="2261" y="357" width="83" height="57"/>
+            <concept-appearance id="150591504497565050921" x="890" y="161" width="209" height="28"/>
+            <concept-appearance id="15059217905971428930358" x="1985" y="510" width="125" height="54"/>
+            <concept-appearance id="15059208321681171368516" x="1750" y="864" width="73" height="56"/>
+            <concept-appearance id="1505920133518352383203" x="1076" y="854" width="104" height="40"/>
+            <concept-appearance id="150592036461014884607" x="971" y="1059" width="147" height="71"/>
+            <concept-appearance id="1505918388962748940723" x="1463" y="514" width="146" height="71"/>
+            <concept-appearance id="1505921887867-1247143134" x="1685" y="671" width="105" height="25"/>
+            <concept-appearance id="1505921922619-1378453154" x="1892" y="672" width="133" height="28"/>
+            <concept-appearance id="15059151494271302811898" x="2549" y="163" width="199" height="42"/>
+            <concept-appearance id="1505920814337404479823" x="1590" y="865" width="79" height="56"/>
+            <concept-appearance id="15059151325551843396116" x="1750" y="168" width="180" height="42"/>
+            <concept-appearance id="1505920589717512626422" x="1117" y="1058" width="136" height="71"/>
+            <concept-appearance id="1505921259736-42756114" x="1902" y="1055" width="159" height="57"/>
+            <concept-appearance id="15059223354191952751457" x="2676" y="494" width="34" height="25"/>
+            <concept-appearance id="15059217393181253293958" x="1762" y="502" width="151" height="40"/>
+            <concept-appearance id="1505920476392742526230" x="1247" y="1043" width="114" height="40"/>
+        </concept-appearance-list>
+        <linking-phrase-appearance-list>
+            <linking-phrase-appearance id="1505915761023-832572279" x="888" y="242" width="148" height="11"/>
+            <linking-phrase-appearance id="15059192221541123608869" x="320" y="767" width="25" height="11" text-margin="1"/>
+            <linking-phrase-appearance id="1505922227690-1979521467" x="2427" y="426" width="148" height="11" text-margin="1"/>
+            <linking-phrase-appearance id="1505920770131-931267705" x="1619" y="768" width="70" height="14" text-margin="1"/>
+            <linking-phrase-appearance id="1505921887875170694851" x="1857" y="591" width="53" height="14" text-margin="1"/>
+            <linking-phrase-appearance id="1505918605174-747647582" x="1002" y="600" width="108" height="11"/>
+            <linking-phrase-appearance id="1505916514510296795152" x="981" y="424" width="148" height="14" font-size="12" text-margin="1"/>
+            <linking-phrase-appearance id="150592208633599263935" x="2436" y="246" width="139" height="11" text-margin="1"/>
+            <linking-phrase-appearance id="15059210611641164905737" x="1616" y="957" width="127" height="13" text-margin="1"/>
+            <linking-phrase-appearance id="1505921654776196498119" x="1856" y="411" width="102" height="14" text-margin="1"/>
+            <linking-phrase-appearance id="1505920364618-838734385" x="1077" y="955" width="80" height="11" text-margin="1"/>
+            <linking-phrase-appearance id="1505921383092-234688854" x="1797" y="239" width="100" height="14" text-margin="1"/>
+            <linking-phrase-appearance id="15059153597561304513295" x="231" y="423" width="48" height="11"/>
+            <linking-phrase-appearance id="1505919992850-2000531744" x="928" y="774" width="115" height="14" text-margin="1"/>
+            <linking-phrase-appearance id="15059150449831190041496" x="1653" y="97" width="147" height="11"/>
+            <linking-phrase-appearance id="15059152169221093945387" x="337" y="247" width="158" height="11"/>
+            <linking-phrase-appearance id="1505920160660978581314" x="747" y="954" width="80" height="11" text-margin="1"/>
+        </linking-phrase-appearance-list>
+        <connection-appearance-list>
+            <connection-appearance id="1505919222160-1546031406" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505918745088-1747163635" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505922323433-132289947" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505921541912-1325317895" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="15059216853921423700562" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505922154960-1470135681" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505915300856-441245999" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1505918386051-15803334" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505921102715255680166" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505916532229668197512" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1505922298770-1747911909" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505916631875786580535" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="15059152735101284277236" from-pos="center" to-pos="center"/>
+            <connection-appearance id="15059183119691948987716" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505916514515-945903309" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1505922086341-680706583" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505915818962-472284965" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1505921383097-563303492" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="15059201606661750370091" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="15059215124432109573281" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="15059213830981837508622" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505915359761-1799399244" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1505921682735-997595930" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505915044992-885991106" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505918728835-148478308" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505915216930-614357806" from-pos="center" to-pos="center"/>
+            <connection-appearance id="15059223419761356832239" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505921997569-1472210690" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505915888434-991239601" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1505915149432347880448" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505921061168-1932079701" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505921687735-981222031" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505920160666-1699568031" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="15059223491921631398038" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505918944292-1822215049" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505920274068467668305" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505921201151-1597937579" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="15059215288801056820473" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505916514515-88815318" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1505915900200-787690299" from-pos="center" to-pos="center"/>
+            <connection-appearance id="15059217393261083214744" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="15059200344961389310573" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505922176283-2139783658" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="15059165247501382172764" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505919308151-191273908" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505919276077648285090" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="15059205897252019597147" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505920814342-86523290" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505918388969-612027422" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505918640485733108628" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="15059186051791971607116" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505921577017-1645548519" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505921979793-1395755997" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505921704175911962197" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505922227695-198265898" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505915044990903032105" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1505921915088-90311701" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505920770137-2117193295" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="15059186496452044184401" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505915359760-933012904" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1505920852446332136911" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505916518574-2067538843" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505921922624597675738" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505921695751223062615" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505915216930-1418296244" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1505918647125-1738998913" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505920133526-627367116" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505918836049-1358775445" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505921887880-73516667" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505918655357718705190" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505918643566106756785" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505920364624786554957" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505916521518-1993296044" from-pos="center" to-pos="center"/>
+            <connection-appearance id="15059210611691968727128" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505921097667-1517640834" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505920832176-846865406" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505915761029-558409879" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1505918854975418272367" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505916527510852604235" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1505919992855-142184178" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="15059203646231475935265" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505920025393664567761" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505915761028-1594439102" from-pos="center" to-pos="center"/>
+            <connection-appearance id="15059212597441710374641" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505922227696-1465587589" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505915849508-1214863248" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1505916535526532840226" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="150591891579173726803" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505916628764-1158169642" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505922108703285255896" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="15059216547812063495948" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505921946943-1019342267" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505921790603963175951" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505921100003-672533550" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="150592231128955094322" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505921887880-1072401463" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505922003193267037376" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="15059216547811027254623" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505920476400-1033061751" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505921768195-1298592608" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505915915707154127923" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1505915132562-1140523638" from-pos="center" to-pos="center"/>
+            <connection-appearance id="15059218234451132396828" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="15059186522851746995215" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="15059220000971522885886" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505919359452-21374163" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505915108411-332640870" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505915405724-701648944" from-pos="center" to-pos="center"/>
+            <connection-appearance id="15059220863411341558450" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505921172953-888128543" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="15059188889011948786307" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505915938511-1974831457" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1505918305404670843395" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505922335426-196046351" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505919992856-496932392" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505920021849-1842193613" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="150591922216020196159" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="15059200379521451187044" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="15059186051791313770849" from-pos="center" to-pos="center" arrowhead="no"/>
+            <connection-appearance id="1505920770137-693140278" from-pos="center" to-pos="center" arrowhead="no"/>
+        </connection-appearance-list>
+        <style-sheet-list>
+            <style-sheet id="_Default_">
+                <map-style background-color="255,255,255,255"/>
+            </style-sheet>
+            <style-sheet id="_LatestChanges_">
+                <linking-phrase-style text-margin="1"/>
+                <connection-style arrowhead="no"/>
+            </style-sheet>
+        </style-sheet-list>
+        <extra-graphical-properties-list>
+            <properties-list id="file:////C:/Users/masri/PycharmProjects/cmapProject/ConceptMapFiles/CMAPFiles/ComputerSecurity/Student/Module2UserAuthentication/UAAnonymous10.cmap">
+                <property key="StyleSheetGroup_0" value="//*@!#$%%^&amp;*()() No Grouped StyleSheets @"/>
+            </properties-list>
+        </extra-graphical-properties-list>
+    </map>
+</cmap>

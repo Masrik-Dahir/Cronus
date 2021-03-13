@@ -1,0 +1,234 @@
+// The Round Table
+digraph {
+	Student [label="Student: CTAnonymous3" fillcolor=gold fontsize=20 shape=component style=filled]
+	"1RS1YC6KY-26ZZHRC-Z2" [label=Advantages fontsize=20 shape=none]
+	"1RS1YPGBX-1SZV60B-11W" [label="Hard to crack 
+without key
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1YC6KY-26ZZHRC-Z2" -> "1RS1YPGBX-1SZV60B-11W" [constraint=true]
+	"1RS1ZV300-1X0LRZZ-2LL" [label="Requirements 
+for Secure 
+Use" fontsize=20 shape=none]
+	"1RS1ZV2ZZ-4LNY4T-2LH" [label="Strong encryption 
+algorithm" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1ZV300-1X0LRZZ-2LL" -> "1RS1ZV2ZZ-4LNY4T-2LH" [constraint=true]
+	"1RS1Y95KX-2614929-RN" [label="Types of Encryption
+" fontsize=20 shape=none]
+	"1RS1Y95KV-22FQSWV-RK" [label="Symmetric 
+(single key)
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1Y95KX-2614929-RN" -> "1RS1Y95KV-22FQSWV-RK" [constraint=true]
+	"1RS1ZJD2N-XS60C0-259" [label="How it's done
+" fontsize=20 shape=none]
+	"1RS1ZN7NB-976VQ6-2BF" [label="Look for intelligible 
+translation 
+of plaintext
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1ZJD2N-XS60C0-259" -> "1RS1ZN7NB-976VQ6-2BF" [constraint=true]
+	"1RS1Y49F5-1HXFRT3-8K" [label=Encryption fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RS1Y95KX-2614929-RN" [label="Types of Encryption
+" fontsize=20 shape=none]
+	"1RS1Y49F5-1HXFRT3-8K" -> "1RS1Y95KX-2614929-RN" [constraint=true]
+	"1RS20LBFF-2B2VZXT-3QX" [label="Encryption 
+Standards" fontsize=20 shape=none]
+	"1RS20MFMY-1NJVSGV-3TZ" [label="Advanced Encryption 
+Standard" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS20LBFF-2B2VZXT-3QX" -> "1RS20MFMY-1NJVSGV-3TZ" [constraint=true]
+	"1RS1Y49F5-1HXFRT3-8K" [label=Encryption fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RS20DG75-12JN3H2-3DQ" [label="Digital Signatures
+" fontsize=20 shape=none]
+	"1RS1Y49F5-1HXFRT3-8K" -> "1RS20DG75-12JN3H2-3DQ" [constraint=true]
+	"1RS1Y9NS2-J0D6X8-TF" [label="Public Key
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1ZXQC2-CVK5Y5-2XZ" [label="How to use
+" fontsize=20 shape=none]
+	"1RS1Y9NS2-J0D6X8-TF" -> "1RS1ZXQC2-CVK5Y5-2XZ" [constraint=true]
+	"1RS20Q18Q-RJ4B5C-44Q" [label="Block Cipher
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS20RCZ8-2BF26RD-4HG" [label=Advantages fontsize=20 shape=none]
+	"1RS20Q18Q-RJ4B5C-44Q" -> "1RS20RCZ8-2BF26RD-4HG" [constraint=true]
+	"1RS1YRC1T-23Q4F5B-16R" [label="Attacks on 
+Encryption" fontsize=20 shape=none]
+	"1RS1ZCFMB-276GL7B-1VG" [label="Brute-Force" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1YRC1T-23Q4F5B-16R" -> "1RS1ZCFMB-276GL7B-1VG" [constraint=true]
+	"1RS1YC6KY-26ZZHRC-Z2" [label=Advantages fontsize=20 shape=none]
+	"1RS1YC6KW-70FLHZ-YZ" [label="Universal 
+Technique" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1YC6KY-26ZZHRC-Z2" -> "1RS1YC6KW-70FLHZ-YZ" [constraint=true]
+	"1RS20DG75-12JN3H2-3DQ" [label="Digital Signatures
+" fontsize=20 shape=none]
+	"1RS20DG73-51482M-3DM" [label="Authenticating 
+source and 
+data integrity
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS20DG75-12JN3H2-3DQ" -> "1RS20DG73-51482M-3DM" [constraint=true]
+	"1RS20Q18R-29RFXYZ-44T" [label=Ciphers fontsize=20 shape=none]
+	"1RS20Q18Q-RJ4B5C-44Q" [label="Block Cipher
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS20Q18R-29RFXYZ-44T" -> "1RS20Q18Q-RJ4B5C-44Q" [constraint=true]
+	"1RS20T9CW-QWHN63-4T4" [label=Advantages fontsize=20 shape=none]
+	"1RS20WV0Y-DFTJBM-50T" [label="Pseudorandom 
+stream is 
+unpredictable 
+without key
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS20T9CW-QWHN63-4T4" -> "1RS20WV0Y-DFTJBM-50T" [constraint=true]
+	"1RS1ZG3XK-R5DWQG-1ZV" [label="Relies on" fontsize=20 shape=none]
+	"1RS1ZGPSD-3LC3JD-21S" [label="Knowledge 
+of plaintext 
+characteristics" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1ZG3XK-R5DWQG-1ZV" -> "1RS1ZGPSD-3LC3JD-21S" [constraint=true]
+	"1RS20RCZ8-2BF26RD-4HG" [label=Advantages fontsize=20 shape=none]
+	"1RS20SW9G-1CS0JGC-4RZ" [label="Reuses Keys
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS20RCZ8-2BF26RD-4HG" -> "1RS20SW9G-1CS0JGC-4RZ" [constraint=true]
+	"1RS1Y95KV-22FQSWV-RK" [label="Symmetric 
+(single key)
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1YC6KY-26ZZHRC-Z2" [label=Advantages fontsize=20 shape=none]
+	"1RS1Y95KV-22FQSWV-RK" -> "1RS1YC6KY-26ZZHRC-Z2" [constraint=true]
+	"1RS20T9CW-QWHN63-4T4" [label=Advantages fontsize=20 shape=none]
+	"1RS20T9CV-1PRGL08-4T1" [label="Continuously 
+processes 
+input" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS20T9CW-QWHN63-4T4" -> "1RS20T9CV-1PRGL08-4T1" [constraint=true]
+	"1RS1ZXQC2-CVK5Y5-2XZ" [label="How to use
+" fontsize=20 shape=none]
+	"1RS1ZXQC1-7JWX02-2XW" [label="Receiver displays 
+key" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1ZXQC2-CVK5Y5-2XZ" -> "1RS1ZXQC1-7JWX02-2XW" [constraint=true]
+	"1RS1ZXQC2-CVK5Y5-2XZ" [label="How to use
+" fontsize=20 shape=none]
+	"1RS1ZZ6M1-GS1CM9-31Z" [label="Receiver uses 
+private key 
+to decrypt
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1ZXQC2-CVK5Y5-2XZ" -> "1RS1ZZ6M1-GS1CM9-31Z" [constraint=true]
+	"1RS20RCZ8-2BF26RD-4HG" [label=Advantages fontsize=20 shape=none]
+	"1RS20RCZ7-1DJ900D-4HC" [label="Processes 
+input one 
+block at a 
+time" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS20RCZ8-2BF26RD-4HG" -> "1RS20RCZ7-1DJ900D-4HC" [constraint=true]
+	"1RS20QZQQ-13RBMX-4B5" [label="Stream Cipher
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS20T9CW-QWHN63-4T4" [label=Advantages fontsize=20 shape=none]
+	"1RS20QZQQ-13RBMX-4B5" -> "1RS20T9CW-QWHN63-4T4" [constraint=true]
+	"1RS20DG75-12JN3H2-3DQ" [label="Digital Signatures
+" fontsize=20 shape=none]
+	"1RS20FR3J-FXQKHJ-3HR" [label="Encrypt hash 
+code with 
+private key
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS20DG75-12JN3H2-3DQ" -> "1RS20FR3J-FXQKHJ-3HR" [constraint=true]
+	"1RS1YRC1R-N068F0-16N" [label=Cryptanalytic fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1ZG3XK-R5DWQG-1ZV" [label="Relies on" fontsize=20 shape=none]
+	"1RS1YRC1R-N068F0-16N" -> "1RS1ZG3XK-R5DWQG-1ZV" [constraint=true]
+	"1RS1YRC1T-23Q4F5B-16R" [label="Attacks on 
+Encryption" fontsize=20 shape=none]
+	"1RS1YRC1R-N068F0-16N" [label=Cryptanalytic fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1YRC1T-23Q4F5B-16R" -> "1RS1YRC1R-N068F0-16N" [constraint=true]
+	"1RS1Y49F5-1HXFRT3-8K" [label=Encryption fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RS20LBFF-2B2VZXT-3QX" [label="Encryption 
+Standards" fontsize=20 shape=none]
+	"1RS1Y49F5-1HXFRT3-8K" -> "1RS20LBFF-2B2VZXT-3QX" [constraint=true]
+	"1RS1ZV300-1X0LRZZ-2LL" [label="Requirements 
+for Secure 
+Use" fontsize=20 shape=none]
+	"1RS1ZW0H7-19X4BPQ-2PD" [label="Secure transfer 
+of keys b/w 
+parties" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1ZV300-1X0LRZZ-2LL" -> "1RS1ZW0H7-19X4BPQ-2PD" [constraint=true]
+	"1RS20RCZ8-2BF26RD-4HG" [label=Advantages fontsize=20 shape=none]
+	"1RS20SFHC-H05DR7-4Q2" [label="Produces output 
+block for 
+each input 
+block" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS20RCZ8-2BF26RD-4HG" -> "1RS20SFHC-H05DR7-4Q2" [constraint=true]
+	"1RS20DG75-12JN3H2-3DQ" [label="Digital Signatures
+" fontsize=20 shape=none]
+	"1RS20H8BC-1KQN7LR-3L6" [label="Does not provide 
+confidentiality" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS20DG75-12JN3H2-3DQ" -> "1RS20H8BC-1KQN7LR-3L6" [constraint=true]
+	"1RS1Y49F5-1HXFRT3-8K" [label=Encryption fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RS1YRC1T-23Q4F5B-16R" [label="Attacks on 
+Encryption" fontsize=20 shape=none]
+	"1RS1Y49F5-1HXFRT3-8K" -> "1RS1YRC1T-23Q4F5B-16R" [constraint=true]
+	"1RS1Y95KV-22FQSWV-RK" [label="Symmetric 
+(single key)
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1ZV300-1X0LRZZ-2LL" [label="Requirements 
+for Secure 
+Use" fontsize=20 shape=none]
+	"1RS1Y95KV-22FQSWV-RK" -> "1RS1ZV300-1X0LRZZ-2LL" [constraint=true]
+	"1RS1ZG3XK-R5DWQG-1ZV" [label="Relies on" fontsize=20 shape=none]
+	"1RS1ZHDZT-1Y9761D-23L" [label="Sample plaintext-ciphertext 
+pairs" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1ZG3XK-R5DWQG-1ZV" -> "1RS1ZHDZT-1Y9761D-23L" [constraint=true]
+	"1RS1ZJD2N-XS60C0-259" [label="How it's done
+" fontsize=20 shape=none]
+	"1RS1ZJD2L-1T3YN1M-256" [label="Try all possible 
+keys" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1ZJD2N-XS60C0-259" -> "1RS1ZJD2L-1T3YN1M-256" [constraint=true]
+	"1RS1Y95KX-2614929-RN" [label="Types of Encryption
+" fontsize=20 shape=none]
+	"1RS1Y9NS2-J0D6X8-TF" [label="Public Key
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1Y95KX-2614929-RN" -> "1RS1Y9NS2-J0D6X8-TF" [constraint=true]
+	"1RS1ZCFMB-276GL7B-1VG" [label="Brute-Force" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1ZJD2N-XS60C0-259" [label="How it's done
+" fontsize=20 shape=none]
+	"1RS1ZCFMB-276GL7B-1VG" -> "1RS1ZJD2N-XS60C0-259" [constraint=true]
+	"1RS1ZG3XK-R5DWQG-1ZV" [label="Relies on" fontsize=20 shape=none]
+	"1RS1ZG3XJ-1XG7B3Q-1ZR" [label="Nature of 
+the Algorithm
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1ZG3XK-R5DWQG-1ZV" -> "1RS1ZG3XJ-1XG7B3Q-1ZR" [constraint=true]
+	"1RS1YC6KY-26ZZHRC-Z2" [label=Advantages fontsize=20 shape=none]
+	"1RS1YP85V-139BC9Z-10W" [label="Easy to Achieve
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1YC6KY-26ZZHRC-Z2" -> "1RS1YP85V-139BC9Z-10W" [constraint=true]
+	"1RS20LBFF-2B2VZXT-3QX" [label="Encryption 
+Standards" fontsize=20 shape=none]
+	"1RS20LBFC-1TJBQDQ-3QT" [label="Data Encryption 
+Standard (DES)
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS20LBFF-2B2VZXT-3QX" -> "1RS20LBFC-1TJBQDQ-3QT" [constraint=true]
+	"1RS20T9CW-QWHN63-4T4" [label=Advantages fontsize=20 shape=none]
+	"1RS20VXGK-X3V2ZT-4YV" [label="Encrypts plaintext 
+one byte at 
+a time" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS20T9CW-QWHN63-4T4" -> "1RS20VXGK-X3V2ZT-4YV" [constraint=true]
+	"1RS1Y49F5-1HXFRT3-8K" [label=Encryption fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RS20Q18R-29RFXYZ-44T" [label=Ciphers fontsize=20 shape=none]
+	"1RS1Y49F5-1HXFRT3-8K" -> "1RS20Q18R-29RFXYZ-44T" [constraint=true]
+	"1RS20LBFF-2B2VZXT-3QX" [label="Encryption 
+Standards" fontsize=20 shape=none]
+	"1RS20M5G5-4V9WW5-3T4" [label="Triple DES
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS20LBFF-2B2VZXT-3QX" -> "1RS20M5G5-4V9WW5-3T4" [constraint=true]
+	"1RS20Q18R-29RFXYZ-44T" [label=Ciphers fontsize=20 shape=none]
+	"1RS20QZQQ-13RBMX-4B5" [label="Stream Cipher
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS20Q18R-29RFXYZ-44T" -> "1RS20QZQQ-13RBMX-4B5" [constraint=true]
+	"1RS1ZXQC2-CVK5Y5-2XZ" [label="How to use
+" fontsize=20 shape=none]
+	"1RS1ZYPST-1R1N49L-304" [label="Sender encrypts 
+msg with public 
+key" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1ZXQC2-CVK5Y5-2XZ" -> "1RS1ZYPST-1R1N49L-304" [constraint=true]
+	"1RS20T9CW-QWHN63-4T4" [label=Advantages fontsize=20 shape=none]
+	"1RS20VF5W-1FC0MY9-4XJ" [label="Faster and 
+uses less 
+code" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS20T9CW-QWHN63-4T4" -> "1RS20VF5W-1FC0MY9-4XJ" [constraint=true]
+	"1RS1Z0264-1ZX8658-1GH" [label="Slideset 3
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1YYHYP-19NV39B-1C2" [label=Encryption fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RS1Z0JZK-7ZMKFP-1L1" [label=2473532 fillcolor=white fontsize=20 shape=rect style=filled]
+	statictics [label="STATISTICS
+\lBranch:		26\lNode:		33\lLinking Phrase:	12\lOrphan:		3\lLeaf Node:	26\lPreposition:	32\lSub Map:		1\lAvg Word Per Concept:	3.58\l" Gsplines=true fillcolor="#F5FFFA" fontsize=20 shape=component style=filled]
+	file_info [label="CMAP Information
+
+\lTitle:	CTAnonymous3.cmap\lCreated:	2020-12-07T07:52:58-05:00\lModified:	2020-12-07T07:52:58-05:00\lLanguage:	en\lFormat:	x-cmap/x-storable\lPublisher:	FIHMC CmapTools 6.04\lWidth:	1831\lHeight:	441\l" Gsplines=true fillcolor="#E6E6FA" fontsize=20 shape=tab style=filled]
+}

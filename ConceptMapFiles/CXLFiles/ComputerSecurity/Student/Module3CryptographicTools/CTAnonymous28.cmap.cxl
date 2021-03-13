@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmap xmlns:dcterms="http://purl.org/dc/terms/" xmlns="http://cmap.ihmc.us/xml/cmap/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+    <res-meta>
+        <dc:title>CTAnonymous28.cmap</dc:title>
+        <dcterms:created>2020-12-07T07:57:23-05:00</dcterms:created>
+        <dcterms:modified>2020-12-07T07:57:23-05:00</dcterms:modified>
+        <dc:language>en</dc:language>
+        <dc:format>x-cmap/x-storable</dc:format>
+        <dc:publisher>FIHMC CmapTools 6.04</dc:publisher>
+        <dc:source>cmap:1W5Z76G0X-151MD9Y-1:external-folder:file:////C:/Users/masri/PycharmProjects/cmapProject/ConceptMapFiles/CMAPFiles/ComputerSecurity/Student/Module3CryptographicTools/CTAnonymous28.cmap</dc:source>
+    </res-meta>
+    <map width="1795" height="787">
+        <concept-list>
+            <concept id="1RS17SCZB-RYQBT5-2YY" label="Collision resistant: &#xa;Computationally infeasible&#xa;to find any pair (x,y) such&#xa;that H(x) = H(y)"/>
+            <concept id="1RS160K9S-2CTMJN3-28Y" label="AES"/>
+            <concept id="1RS0ZR6VD-PMWCN4-JH" label="Cryptograhpic &#xa;Hashing"/>
+            <concept id="1RS153RYX-1FQ3395-1T4" label="Bruteforcing"/>
+            <concept id="1RS1CCCX2-YS4QDG-7LN" label="Title: Cryptographic Tools&#xa;Slide Set: #3&#xa;ID: 2461983"/>
+            <concept id="1RS10P5J4-1DN6NXM-YL" label="Stream Ciphers: Encrypt&#xa;a message character by&#xa;charcter using a pseudo&#xa;random stream generated&#xa;using a secret key"/>
+            <concept id="1RS1522XV-2DL0NM7-1QW" label="Cryptanalytic attacks"/>
+            <concept id="1RS182FR2-1FP6SW3-35W" label="MAC: Append a code&#xa;generated from a&#xa;symmetric key to the end&#xa;of the message so that only&#xa;the recipient can compute&#xa;the code"/>
+            <concept id="1RS160HW6-K5WRVJ-28G" label="DES"/>
+            <concept id="1RS17SBG7-910D1-2YG" label="Seond pre-image resistant:&#xa;Given x it's computationally &#xa;infeasible to x!=y such that&#xa;H(x) = H(y)"/>
+            <concept id="1RS165GZR-7FJP25-2B9" label="RSA: Most popular&#xa;assymetric encryption&#xa;algorithm"/>
+            <concept id="1RS18K44Y-J61KT3-3GY" label="Digital Signatures: Append&#xa;a message's hash that was&#xa;encrypted with a private key&#xa;so that a third party can decrypt&#xa;the hash with a public key to &#xa;authenticate your message."/>
+            <concept id="1RS10NN28-YN424C-WY" label="Block Ciphers: Encrypt&#xa;A message block by&#xa;block"/>
+            <concept id="1RS10NJHG-ZBHLDQ-WF" label="Assymetric Encryption:&#xa;Encryption that relies on a&#xa;seperate public and private&#xa;key"/>
+            <concept id="1RS0ZQTN3-L1VG4M-H6" label="Encryption"/>
+            <concept id="1RS107HWV-QHZ61Q-P9" label="Secure&#xa;Random number&#xa;Generation"/>
+            <concept id="1RS1734Z5-1VP93R6-2F6" label="Diffie Hellman: Enables&#xa;two users to confidentially&#xa;generate a shared secret key"/>
+            <concept id="1RS17RL8P-13HHZPD-2WY" label="Pre-Image Reistant: &#xa;Computationally infeasible&#xa;to find x such that H(x) = h&#xa;for any hash code h"/>
+            <concept id="1RS0ZQ738-1H13KCT-8D" label="cryptography"/>
+            <concept id="1RS160F0S-25QRFGK-27N" label="3DES"/>
+            <concept id="1RS10N6RC-29DCT4K-V7" label="Symmetric Encryption: &#xa;Encryption that relies on &#xa;a shared secret key "/>
+            <concept id="1RS10V59W-1Z53VJ6-1C3" label="Confidentiality"/>
+            <concept id="1RS10VW4C-294CLQK-1F3" label="Authentication"/>
+            <concept id="1RS18B0SS-H7VHGP-3G3" label="ECC: Similar to RSA but&#xa;uses smaller keys"/>
+        </concept-list>
+        <linking-phrase-list>
+            <linking-phrase id="1RS10V59X-26NG3BK-1C6" label="Achieves"/>
+            <linking-phrase id="1RS1D7HR6-W8NDWL-8ZM" label="Uses"/>
+            <linking-phrase id="1RS1CHD34-1B60QFD-80F" label="Uses"/>
+            <linking-phrase id="1RS10N6RD-13PSL6F-VB" label="Uses either"/>
+            <linking-phrase id="1RS165GZS-DJ843W-2BD" label="Includes"/>
+            <linking-phrase id="1RS160F0T-14XLZLL-27R" label="Includes"/>
+            <linking-phrase id="1RS0ZQTN6-J9DDNF-H9" label="Includes"/>
+            <linking-phrase id="1RS1CKHH5-2FD4C2-824" label="Uses"/>
+            <linking-phrase id="1RS1CK47R-J7F7ZJ-81D" label="Uses"/>
+            <linking-phrase id="1RS10TGPL-25LZ3QZ-19F" label="Uses either"/>
+            <linking-phrase id="1RS1CMCS1-1SJHFK8-854" label="Uses"/>
+            <linking-phrase id="1RS182FR2-1NDCS6L-35Z" label="Uses"/>
+            <linking-phrase id="1RS17RL8Q-TJGMV4-2X1" label="Required to be"/>
+            <linking-phrase id="1RS178L78-10C1L5D-2NK" label="Attacked by"/>
+        </linking-phrase-list>
+        <connection-list>
+            <connection id="1RS165GZS-FN8NQB-2BN" from-id="1RS165GZS-DJ843W-2BD" to-id="1RS165GZR-7FJP25-2B9"/>
+            <connection id="1RS1BSSCK-9HN079-71M" from-id="1RS10TGPL-25LZ3QZ-19F" to-id="1RS10NN28-YN424C-WY"/>
+            <connection id="1RS160K9S-94K1V9-291" from-id="1RS160F0T-14XLZLL-27R" to-id="1RS160K9S-2CTMJN3-28Y"/>
+            <connection id="1RS1D7HR6-2D0FFLL-8ZQ" from-id="1RS10N6RC-29DCT4K-V7" to-id="1RS1D7HR6-W8NDWL-8ZM"/>
+            <connection id="1RS10TJQN-1YCDM3F-1B2" from-id="1RS10TGPL-25LZ3QZ-19F" to-id="1RS10P5J4-1DN6NXM-YL"/>
+            <connection id="1RS160F0V-8H4CH7-27V" from-id="1RS10N6RC-29DCT4K-V7" to-id="1RS160F0T-14XLZLL-27R"/>
+            <connection id="1RS10V59Y-6LHCLJ-1C9" from-id="1RS0ZQ738-1H13KCT-8D" to-id="1RS10V59X-26NG3BK-1C6"/>
+            <connection id="1RS18L5M4-22Z27T4-3JY" from-id="1RS182FR2-1NDCS6L-35Z" to-id="1RS18K44Y-J61KT3-3GY"/>
+            <connection id="1RS182FR2-263WFN9-367" from-id="1RS182FR2-1NDCS6L-35Z" to-id="1RS182FR2-1FP6SW3-35W"/>
+            <connection id="1RS1CK47R-4358H8-81H" from-id="1RS18K44Y-J61KT3-3GY" to-id="1RS1CK47R-J7F7ZJ-81D"/>
+            <connection id="1RS17SBG8-285M6PL-2YK" from-id="1RS17RL8Q-TJGMV4-2X1" to-id="1RS17SBG7-910D1-2YG"/>
+            <connection id="1RS17RL8R-22SN2R-2X4" from-id="1RS0ZR6VD-PMWCN4-JH" to-id="1RS17RL8Q-TJGMV4-2X1"/>
+            <connection id="1RS165GZS-1MH7L1H-2BH" from-id="1RS10NJHG-ZBHLDQ-WF" to-id="1RS165GZS-DJ843W-2BD"/>
+            <connection id="1RS1CB125-2CG6WPP-7KM" from-id="1RS10V59X-26NG3BK-1C6" to-id="1RS10V59W-1Z53VJ6-1C3"/>
+            <connection id="1RS10NJHH-1RJJ25H-WJ" from-id="1RS10N6RD-13PSL6F-VB" to-id="1RS10NJHG-ZBHLDQ-WF"/>
+            <connection id="1RS1CMCS1-1QG2WF4-857" from-id="1RS18K44Y-J61KT3-3GY" to-id="1RS1CMCS1-1SJHFK8-854"/>
+            <connection id="1RS1CK47R-1VMS83F-81N" from-id="1RS1CK47R-J7F7ZJ-81D" to-id="1RS10NJHG-ZBHLDQ-WF"/>
+            <connection id="1RS1CKHH5-1PYXWBK-82D" from-id="1RS1CKHH5-2FD4C2-824" to-id="1RS10N6RC-29DCT4K-V7"/>
+            <connection id="1RS1C4QL4-1RSQ9WF-798" from-id="1RS0ZQTN6-J9DDNF-H9" to-id="1RS107HWV-QHZ61Q-P9"/>
+            <connection id="1RS1CHD34-2CG3C14-80P" from-id="1RS1CHD34-1B60QFD-80F" to-id="1RS0ZQTN3-L1VG4M-H6"/>
+            <connection id="1RS1C3RKY-SYH1GD-77S" from-id="1RS0ZR6VD-PMWCN4-JH" to-id="1RS178L78-10C1L5D-2NK"/>
+            <connection id="1RS1D7HR6-3QDWQH-8ZW" from-id="1RS1D7HR6-W8NDWL-8ZM" to-id="1RS1734Z5-1VP93R6-2F6"/>
+            <connection id="1RS10N6RF-21WW040-VF" from-id="1RS0ZQTN3-L1VG4M-H6" to-id="1RS10N6RD-13PSL6F-VB"/>
+            <connection id="1RS178RZG-M32HK9-2PL" from-id="1RS178L78-10C1L5D-2NK" to-id="1RS153RYX-1FQ3395-1T4"/>
+            <connection id="1RS1C5P3X-1RG7KZT-7BY" from-id="1RS0ZQTN3-L1VG4M-H6" to-id="1RS178L78-10C1L5D-2NK"/>
+            <connection id="1RS10VW4D-12DXD9X-1F6" from-id="1RS10V59X-26NG3BK-1C6" to-id="1RS10VW4C-294CLQK-1F3"/>
+            <connection id="1RS160HW6-2D2JFPN-28K" from-id="1RS160F0T-14XLZLL-27R" to-id="1RS160HW6-K5WRVJ-28G"/>
+            <connection id="1RS178L79-T31KCV-2NT" from-id="1RS178L78-10C1L5D-2NK" to-id="1RS1522XV-2DL0NM7-1QW"/>
+            <connection id="1RS182FR2-H2Q17W-362" from-id="1RS10VW4C-294CLQK-1F3" to-id="1RS182FR2-1NDCS6L-35Z"/>
+            <connection id="1RS151VNZ-KVHKXZ-1QJ" from-id="1RS0ZQTN3-L1VG4M-H6" to-id="1RS10TGPL-25LZ3QZ-19F"/>
+            <connection id="1RS17SCZC-274V2B6-2Z1" from-id="1RS17RL8Q-TJGMV4-2X1" to-id="1RS17SCZB-RYQBT5-2YY"/>
+            <connection id="1RS18LKTS-6NNQ4-3KC" from-id="1RS182FR2-1NDCS6L-35Z" to-id="1RS10N6RC-29DCT4K-V7"/>
+            <connection id="1RS1C6DYP-QKW6GG-7DG" from-id="1RS0ZQTN6-J9DDNF-H9" to-id="1RS0ZR6VD-PMWCN4-JH"/>
+            <connection id="1RS160F0V-24FQD71-280" from-id="1RS160F0T-14XLZLL-27R" to-id="1RS160F0S-25QRFGK-27N"/>
+            <connection id="1RS1CMCS1-9MN5HN-85D" from-id="1RS1CMCS1-1SJHFK8-854" to-id="1RS0ZR6VD-PMWCN4-JH"/>
+            <connection id="1RS18B0ST-1HWXDD-3G6" from-id="1RS165GZS-DJ843W-2BD" to-id="1RS18B0SS-H7VHGP-3G3"/>
+            <connection id="1RS1C503S-D1XM6R-79Q" from-id="1RS0ZQTN6-J9DDNF-H9" to-id="1RS0ZQTN3-L1VG4M-H6"/>
+            <connection id="1RS0ZQTN7-1VRT98W-HF" from-id="1RS0ZQ738-1H13KCT-8D" to-id="1RS0ZQTN6-J9DDNF-H9"/>
+            <connection id="1RS1CKHH5-18VKZDZ-827" from-id="1RS182FR2-1FP6SW3-35W" to-id="1RS1CKHH5-2FD4C2-824"/>
+            <connection id="1RS10N6RF-141HPCN-VM" from-id="1RS10N6RD-13PSL6F-VB" to-id="1RS10N6RC-29DCT4K-V7"/>
+            <connection id="1RS1734Z6-X252BG-2F9" from-id="1RS165GZS-DJ843W-2BD" to-id="1RS1734Z5-1VP93R6-2F6"/>
+            <connection id="1RS1CMFYC-13RL25S-85S" from-id="1RS182FR2-1FP6SW3-35W" to-id="1RS1CMCS1-1SJHFK8-854"/>
+            <connection id="1RS17RL8R-3FHVTY-2X9" from-id="1RS17RL8Q-TJGMV4-2X1" to-id="1RS17RL8P-13HHZPD-2WY"/>
+            <connection id="1RS1CHD34-1J4NSPY-80J" from-id="1RS10V59W-1Z53VJ6-1C3" to-id="1RS1CHD34-1B60QFD-80F"/>
+        </connection-list>
+        <concept-appearance-list>
+            <concept-appearance id="1RS17SCZB-RYQBT5-2YY" x="560" y="689" width="175" height="71"/>
+            <concept-appearance id="1RS160K9S-2CTMJN3-28Y" x="1728" y="787" width="40" height="25"/>
+            <concept-appearance id="1RS0ZR6VD-PMWCN4-JH" x="572" y="451" width="105" height="42"/>
+            <concept-appearance id="1RS153RYX-1FQ3395-1T4" x="1008" y="593" width="90" height="28"/>
+            <concept-appearance id="1RS1CCCX2-YS4QDG-7LN" x="113" y="64" width="172" height="54"/>
+            <concept-appearance id="1RS10P5J4-1DN6NXM-YL" x="289" y="451" width="174" height="86"/>
+            <concept-appearance id="1RS1522XV-2DL0NM7-1QW" x="866" y="593" width="143" height="28"/>
+            <concept-appearance id="1RS182FR2-1FP6SW3-35W" x="1346" y="296" width="184" height="98"/>
+            <concept-appearance id="1RS160HW6-K5WRVJ-28G" x="1673" y="788" width="41" height="25"/>
+            <concept-appearance id="1RS17SBG7-910D1-2YG" x="441" y="593" width="188" height="71"/>
+            <concept-appearance id="1RS165GZR-7FJP25-2B9" x="1136" y="771" width="149" height="57"/>
+            <concept-appearance id="1RS18K44Y-J61KT3-3GY" x="1122" y="296" width="213" height="101"/>
+            <concept-appearance id="1RS10NN28-YN424C-WY" x="100" y="451" width="153" height="54"/>
+            <concept-appearance id="1RS10NJHG-ZBHLDQ-WF" x="1185" y="541" width="181" height="71"/>
+            <concept-appearance id="1RS0ZQTN3-L1VG4M-H6" x="732" y="296" width="80" height="27"/>
+            <concept-appearance id="1RS107HWV-QHZ61Q-P9" x="439" y="284" width="116" height="54"/>
+            <concept-appearance id="1RS1734Z5-1VP93R6-2F6" x="1518" y="771" width="192" height="57"/>
+            <concept-appearance id="1RS17RL8P-13HHZPD-2WY" x="678" y="593" width="184" height="71"/>
+            <concept-appearance id="1RS0ZQ738-1H13KCT-8D" x="903" y="34" width="96" height="28"/>
+            <concept-appearance id="1RS160F0S-25QRFGK-27N" x="1792" y="792" width="49" height="25"/>
+            <concept-appearance id="1RS10N6RC-29DCT4K-V7" x="1389" y="548" width="168" height="56"/>
+            <concept-appearance id="1RS10V59W-1Z53VJ6-1C3" x="777" y="128" width="103" height="28"/>
+            <concept-appearance id="1RS10VW4C-294CLQK-1F3" x="1311" y="128" width="103" height="25"/>
+            <concept-appearance id="1RS18B0SS-H7VHGP-3G3" x="1316" y="771" width="161" height="42"/>
+        </concept-appearance-list>
+        <linking-phrase-appearance-list>
+            <linking-phrase-appearance id="1RS10V59X-26NG3BK-1C6" x="1020" y="82" width="55" height="11"/>
+            <linking-phrase-appearance id="1RS1D7HR6-W8NDWL-8ZM" x="1453" y="659" width="30" height="11"/>
+            <linking-phrase-appearance id="1RS1CHD34-1B60QFD-80F" x="777" y="194" width="30" height="11"/>
+            <linking-phrase-appearance id="1RS10N6RD-13PSL6F-VB" x="895" y="367" width="70" height="11"/>
+            <linking-phrase-appearance id="1RS165GZS-DJ843W-2BD" x="1179" y="635" width="53" height="11"/>
+            <linking-phrase-appearance id="1RS160F0T-14XLZLL-27R" x="1709" y="659" width="53" height="11"/>
+            <linking-phrase-appearance id="1RS0ZQTN6-J9DDNF-H9" x="653" y="128" width="53" height="11"/>
+            <linking-phrase-appearance id="1RS1CKHH5-2FD4C2-824" x="1423" y="377" width="30" height="11"/>
+            <linking-phrase-appearance id="1RS1CK47R-J7F7ZJ-81D" x="1185" y="418" width="30" height="11"/>
+            <linking-phrase-appearance id="1RS10TGPL-25LZ3QZ-19F" x="195" y="377" width="70" height="11"/>
+            <linking-phrase-appearance id="1RS1CMCS1-1SJHFK8-854" x="1258" y="388" width="30" height="11"/>
+            <linking-phrase-appearance id="1RS182FR2-1NDCS6L-35Z" x="1311" y="194" width="30" height="11"/>
+            <linking-phrase-appearance id="1RS17RL8Q-TJGMV4-2X1" x="560" y="526" width="91" height="14"/>
+            <linking-phrase-appearance id="1RS178L78-10C1L5D-2NK" x="679" y="514" width="74" height="14"/>
+        </linking-phrase-appearance-list>
+        <connection-appearance-list>
+            <connection-appearance id="1RS165GZS-FN8NQB-2BN" from-pos="center" to-pos="center" type="bezier-4pt">
+                <control-point x="1173" y="654"/>
+                <control-point x="1144" y="723"/>
+            </connection-appearance>
+            <connection-appearance id="1RS1BSSCK-9HN079-71M" from-pos="center" to-pos="center" type="bezier-4pt">
+                <control-point x="195" y="393"/>
+                <control-point x="100" y="397"/>
+            </connection-appearance>
+            <connection-appearance id="1RS160K9S-94K1V9-291" from-pos="center" to-pos="center" type="bezier-4pt">
+                <control-point x="1713" y="706"/>
+                <control-point x="1725" y="752"/>
+            </connection-appearance>
+            <connection-appearance id="1RS1D7HR6-2D0FFLL-8ZQ" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1RS10TJQN-1YCDM3F-1B2" from-pos="center" to-pos="center" type="bezier-4pt">
+                <control-point x="195" y="393"/>
+                <control-point x="289" y="397"/>
+            </connection-appearance>
+            <connection-appearance id="1RS160F0V-8H4CH7-27V" from-pos="center" to-pos="center" type="bezier-4pt">
+                <control-point x="1562" y="600"/>
+                <control-point x="1578" y="607"/>
+            </connection-appearance>
+            <connection-appearance id="1RS10V59Y-6LHCLJ-1C9" from-pos="center" to-pos="center" type="straight">
+                <control-point x="849" y="63"/>
+                <control-point x="1044" y="67"/>
+            </connection-appearance>
+            <connection-appearance id="1RS18L5M4-22Z27T4-3JY" from-pos="center" to-pos="center" type="bezier-4pt">
+                <control-point x="1311" y="231"/>
+                <control-point x="1122" y="235"/>
+            </connection-appearance>
+            <connection-appearance id="1RS182FR2-263WFN9-367" from-pos="center" to-pos="center" type="bezier-4pt">
+                <control-point x="1311" y="231"/>
+                <control-point x="1346" y="235"/>
+            </connection-appearance>
+            <connection-appearance id="1RS1CK47R-4358H8-81H" from-pos="center" to-pos="center" type="bezier-4pt">
+                <control-point x="1122" y="357"/>
+                <control-point x="1192" y="386"/>
+            </connection-appearance>
+            <connection-appearance id="1RS17SBG8-285M6PL-2YK" from-pos="center" to-pos="center" type="bezier-4pt">
+                <control-point x="560" y="543"/>
+                <control-point x="441" y="547"/>
+            </connection-appearance>
+            <connection-appearance id="1RS17RL8R-22SN2R-2X4" from-pos="center" to-pos="center" type="bezier-4pt">
+                <control-point x="572" y="504"/>
+                <control-point x="560" y="508"/>
+            </connection-appearance>
+            <connection-appearance id="1RS165GZS-1MH7L1H-2BH" from-pos="center" to-pos="center" type="bezier-4pt">
+                <control-point x="1177" y="525"/>
+                <control-point x="1179" y="601"/>
+            </connection-appearance>
+            <connection-appearance id="1RS1CB125-2CG6WPP-7KM" from-pos="center" to-pos="center" type="bezier-4pt">
+                <control-point x="1044" y="99"/>
+                <control-point x="777" y="103"/>
+            </connection-appearance>
+            <connection-appearance id="1RS10NJHH-1RJJ25H-WJ" from-pos="center" to-pos="center" type="bezier-4pt">
+                <control-point x="1070" y="456"/>
+                <control-point x="1140" y="489"/>
+            </connection-appearance>
+            <connection-appearance id="1RS1CMCS1-1QG2WF4-857" from-pos="center" to-pos="center" type="bezier-4pt">
+                <control-point x="1122" y="357"/>
+                <control-point x="1215" y="382"/>
+            </connection-appearance>
+            <connection-appearance id="1RS1CK47R-1VMS83F-81N" from-pos="center" to-pos="center" type="bezier-4pt">
+                <control-point x="1185" y="470"/>
+                <control-point x="1187" y="488"/>
+            </connection-appearance>
+            <connection-appearance id="1RS1CKHH5-1PYXWBK-82D" from-pos="center" to-pos="center" type="bezier-4pt">
+                <control-point x="1423" y="393"/>
+                <control-point x="1463" y="397"/>
+            </connection-appearance>
+            <connection-appearance id="1RS1C4QL4-1RSQ9WF-798" from-pos="center" to-pos="center" type="bezier-4pt">
+                <control-point x="653" y="152"/>
+                <control-point x="653" y="156"/>
+            </connection-appearance>
+            <connection-appearance id="1RS1CHD34-2CG3C14-80P" from-pos="center" to-pos="center" type="bezier-4pt">
+                <control-point x="777" y="231"/>
+                <control-point x="732" y="235"/>
+            </connection-appearance>
+            <connection-appearance id="1RS1C3RKY-SYH1GD-77S" from-pos="center" to-pos="center" type="bezier-4pt">
+                <control-point x="572" y="504"/>
+                <control-point x="668" y="508"/>
+            </connection-appearance>
+            <connection-appearance id="1RS1D7HR6-3QDWQH-8ZW" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1RS10N6RF-21WW040-VF" from-pos="center" to-pos="center" type="bezier-4pt">
+                <control-point x="809" y="332"/>
+                <control-point x="859" y="357"/>
+            </connection-appearance>
+            <connection-appearance id="1RS178RZG-M32HK9-2PL" from-pos="center" to-pos="top" type="bezier-4pt">
+                <control-point x="668" y="543"/>
+                <control-point x="1008" y="547"/>
+            </connection-appearance>
+            <connection-appearance id="1RS1C5P3X-1RG7KZT-7BY" from-pos="center" to-pos="center" type="bezier-4pt">
+                <control-point x="732" y="431"/>
+                <control-point x="668" y="435"/>
+                <control-point x="762" y="377"/>
+                <control-point x="762" y="451"/>
+            </connection-appearance>
+            <connection-appearance id="1RS10VW4D-12DXD9X-1F6" from-pos="center" to-pos="center" type="bezier-4pt">
+                <control-point x="1044" y="99"/>
+                <control-point x="1311" y="103"/>
+            </connection-appearance>
+            <connection-appearance id="1RS160HW6-2D2JFPN-28K" from-pos="center" to-pos="center" type="bezier-4pt">
+                <control-point x="1695" y="702"/>
+                <control-point x="1691" y="744"/>
+            </connection-appearance>
+            <connection-appearance id="1RS178L79-T31KCV-2NT" from-pos="center" to-pos="center" type="bezier-4pt">
+                <control-point x="668" y="543"/>
+                <control-point x="866" y="547"/>
+            </connection-appearance>
+            <connection-appearance id="1RS182FR2-H2Q17W-362" from-pos="center" to-pos="center" type="bezier-4pt">
+                <control-point x="1311" y="152"/>
+                <control-point x="1311" y="156"/>
+            </connection-appearance>
+            <connection-appearance id="1RS151VNZ-KVHKXZ-1QJ" from-pos="center" to-pos="center" type="straight">
+                <control-point x="732" y="357"/>
+                <control-point x="195" y="361"/>
+            </connection-appearance>
+            <connection-appearance id="1RS17SCZC-274V2B6-2Z1" from-pos="center" to-pos="center" type="bezier-4pt">
+                <control-point x="560" y="591"/>
+                <control-point x="560" y="595"/>
+                <control-point x="560" y="593"/>
+            </connection-appearance>
+            <connection-appearance id="1RS18LKTS-6NNQ4-3KC" from-pos="center" to-pos="center" type="bezier-4pt">
+                <control-point x="1539" y="196"/>
+                <control-point x="1486" y="386"/>
+                <control-point x="1463" y="296"/>
+                <control-point x="1463" y="377"/>
+            </connection-appearance>
+            <connection-appearance id="1RS1C6DYP-QKW6GG-7DG" from-pos="center" to-pos="center" type="bezier-4pt">
+                <control-point x="653" y="273"/>
+                <control-point x="572" y="277"/>
+                <control-point x="569" y="194"/>
+                <control-point x="572" y="296"/>
+                <control-point x="572" y="377"/>
+            </connection-appearance>
+            <connection-appearance id="1RS160F0V-24FQD71-280" from-pos="center" to-pos="center" type="bezier-4pt">
+                <control-point x="1746" y="704"/>
+                <control-point x="1753" y="732"/>
+            </connection-appearance>
+            <connection-appearance id="1RS1CMCS1-9MN5HN-85D" from-pos="center" to-pos="center" type="bezier-4pt">
+                <control-point x="1142" y="397"/>
+                <control-point x="666" y="441"/>
+            </connection-appearance>
+            <connection-appearance id="1RS18B0ST-1HWXDD-3G6" from-pos="center" to-pos="center" type="bezier-4pt">
+                <control-point x="1206" y="659"/>
+                <control-point x="1301" y="737"/>
+            </connection-appearance>
+            <connection-appearance id="1RS1C503S-D1XM6R-79Q" from-pos="center" to-pos="center" type="bezier-4pt">
+                <control-point x="653" y="192"/>
+                <control-point x="732" y="196"/>
+                <control-point x="736" y="194"/>
+            </connection-appearance>
+            <connection-appearance id="1RS0ZQTN7-1VRT98W-HF" from-pos="center" to-pos="center" type="bezier-4pt">
+                <control-point x="849" y="81"/>
+                <control-point x="653" y="85"/>
+                <control-point x="653" y="83"/>
+            </connection-appearance>
+            <connection-appearance id="1RS1CKHH5-18VKZDZ-827" from-pos="center" to-pos="center" type="bezier-4pt">
+                <control-point x="1346" y="357"/>
+                <control-point x="1423" y="361"/>
+            </connection-appearance>
+            <connection-appearance id="1RS10N6RF-141HPCN-VM" from-pos="center" to-pos="center" type="bezier-4pt">
+                <control-point x="1111" y="452"/>
+                <control-point x="1340" y="427"/>
+            </connection-appearance>
+            <connection-appearance id="1RS1734Z6-X252BG-2F9" from-pos="center" to-pos="center" type="bezier-4pt">
+                <control-point x="1234" y="653"/>
+                <control-point x="1412" y="732"/>
+            </connection-appearance>
+            <connection-appearance id="1RS1CMFYC-13RL25S-85S" from-pos="center" to-pos="bottom" type="bezier-4pt">
+                <control-point x="1346" y="357"/>
+                <control-point x="1311" y="360"/>
+            </connection-appearance>
+            <connection-appearance id="1RS17RL8R-3FHVTY-2X9" from-pos="center" to-pos="center" type="bezier-4pt">
+                <control-point x="560" y="543"/>
+                <control-point x="678" y="547"/>
+            </connection-appearance>
+            <connection-appearance id="1RS1CHD34-1J4NSPY-80J" from-pos="center" to-pos="center" type="bezier-4pt">
+                <control-point x="777" y="152"/>
+                <control-point x="777" y="156"/>
+            </connection-appearance>
+        </connection-appearance-list>
+        <style-sheet-list>
+            <style-sheet id="_Default_">
+                <map-style background-color="255,255,255,0" image-style="full" image-top-left="0,0"/>
+                <concept-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1"
+                    border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <linking-phrase-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0" background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1"
+                    border-shape="rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <connection-style color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+                <resource-style font-name="SanSerif" font-size="12" font-style="plain" font-color="0,0,0,255" background-color="192,192,192,255"/>
+            </style-sheet>
+        </style-sheet-list>
+        <extra-graphical-properties-list>
+            <properties-list id="file:////C:/Users/masri/PycharmProjects/cmapProject/ConceptMapFiles/CMAPFiles/ComputerSecurity/Student/Module3CryptographicTools/CTAnonymous28.cmap">
+                <property key="StyleSheetGroup_0" value="//*@!#$%%^&amp;*()() No Grouped StyleSheets @"/>
+            </properties-list>
+        </extra-graphical-properties-list>
+    </map>
+</cmap>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmap xmlns:dcterms="http://purl.org/dc/terms/" xmlns="http://cmap.ihmc.us/xml/cmap/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#">
+    <res-meta>
+        <dc:title>Encr_Standards.cmap</dc:title>
+        <dcterms:created>2020-12-07T07:30:57-05:00</dcterms:created>
+        <dcterms:modified>2020-12-07T07:30:57-05:00</dcterms:modified>
+        <dc:language>en</dc:language>
+        <dc:format>x-cmap/x-storable</dc:format>
+        <dc:publisher>FIHMC CmapTools 6.04</dc:publisher>
+        <dc:source>cmap:1W5Z76G0X-151MD9Y-1:external-folder:file:////C:/Users/masri/PycharmProjects/cmapProject/ConceptMapFiles/CMAPFiles/ComputerSecurity/Instructor/Module3CryptographicTools/Lesson2SymmetricEncryption/Encr_Standards.cmap</dc:source>
+    </res-meta>
+    <map width="1059" height="925">
+        <concept-list>
+            <concept id="1S46FSF7Y-14M865S-3NG" label="3DES&#xa;&#xa;TRIPLE DES"/>
+            <concept id="1S46FYS7C-CZMYHQ-3XQ" label="NIST called for new&#xa; AES proposals in 1997"/>
+            <concept id="1S46FT968-27L6G5X-3QS" label="the most studied encryption algorithm in existence"/>
+            <concept id="1S46FSPVG-MK7FYP-3QD" label="Electronic Frontier Federation (EFF) &#xa;announced it had broken a DES encryption"/>
+            <concept id="1S46HB931-33B37F-6TB" label="should have a 128-bit data block &#xa;and 128/192/256-bit keys"/>
+            <concept id="1S46FYQJP-1TDGNNC-3XL" label="replaced 3DES as it was not reasonable for long term use"/>
+            <concept id="1S46HLKLZ-11BJ051-75C" label="selected Rijndeal in November 2001&#xa; and published as FIPS 197"/>
+            <concept id="1S3Z9WD65-27VXPDD-PFS" label="ENCRYPTION STANDARDS and TYPES&#xa;Module 3"/>
+            <concept id="1S46FW8P1-1YS09H9-3RF" label="algorithm is sluggish in software"/>
+            <concept id="1S46FW24M-1S3H6MN-3R1" label="112 or 168-bit key length overcomes&#xa; the vulnerability to brute force attack of DES"/>
+            <concept id="1S46FZVV6-11VF63W-3Y9" label="should have a symmetric block cipher"/>
+            <concept id="1S46FYVCK-FHNTPB-3XV" label="should have a security strength &#xa;equal to or better than 3DES"/>
+            <concept id="1S46FSCCM-1VG3KMH-3NB" label="DES &#xa;&#xa;DATA ENCRYPTION STANDARD"/>
+            <concept id="1S46FSGYJ-5TSXV3-3NL" label="AES&#xa;&#xa;ADVANCED ENCRYPTION STANDARD"/>
+            <concept id="1S46FWBG0-1PCF0LR-3RK" label="repeats basic DES algorithm three times &#xa;using two or three unique keys"/>
+            <concept id="1S46FSK31-QHCR1J-3NQ" label="uses 64-bit plaintext block and 56-bit key&#xa; to produce a 64-bit ciphertext block"/>
+            <concept id="1S46FW69Q-T84FM1-3R9" label="uses a 64-bit block size"/>
+            <concept id="1S46FZNJV-T5Z0DK-3Y4" label="should have significantly&#xa; improved efficiency"/>
+            <concept id="1S46G0DHH-2BD24QG-3YH" label="ENCRYPTION&#xa;TYPES"/>
+            <concept id="1S46FW41Q-29F9M5-3R5" label="underlying encryption algorithm is the same as in DES"/>
+            <concept id="1S46FT4JM-17NB6TS-3QN" label="most widely used encryption scheme&#xa; of Data Encryption Algorithm (DEA) "/>
+        </concept-list>
+        <linking-phrase-list>
+            <linking-phrase id="1S46G6YMH-FYQM6V-4DY" label="encompasses"/>
+            <linking-phrase id="1S46GYP4Z-276XPL0-67B" label="represented by"/>
+            <linking-phrase id="1S46GGJ5Z-LW213B-4PK" label="illustrated by"/>
+            <linking-phrase id="1S46HBL61-2824FJ1-6TP" label="including"/>
+            <linking-phrase id="1S46GYWV1-1JMZYQZ-67M" label="characterized by"/>
+        </linking-phrase-list>
+        <connection-list>
+            <connection id="1S46GDN9C-4BJ7QC-4KN" from-id="1S46GYWV1-1JMZYQZ-67M" to-id="1S46FYS7C-CZMYHQ-3XQ"/>
+            <connection id="1S46GGJ61-1FRRFMN-4PV" from-id="1S46GGJ5Z-LW213B-4PK" to-id="1S46FT4JM-17NB6TS-3QN"/>
+            <connection id="1S46G7C8D-1CDWFJ-4FS" from-id="1S46G6YMH-FYQM6V-4DY" to-id="1S46FSF7Y-14M865S-3NG"/>
+            <connection id="1S46GCGW2-8JTC0B-4JF" from-id="1S46G6YMH-FYQM6V-4DY" to-id="1S46FSGYJ-5TSXV3-3NL"/>
+            <connection id="1S46HCPQ6-1RQFSCW-6W9" from-id="1S46HBL61-2824FJ1-6TP" to-id="1S46FZVV6-11VF63W-3Y9"/>
+            <connection id="1S46HBL62-1JB8QYY-6TZ" from-id="1S46HBL61-2824FJ1-6TP" to-id="1S46FYVCK-FHNTPB-3XV"/>
+            <connection id="1S46GFVC9-1KYQYQY-4NC" from-id="1S46GYP4Z-276XPL0-67B" to-id="1S46FW41Q-29F9M5-3R5"/>
+            <connection id="1S46HLKM1-1TZ2KBT-75G" from-id="1S46GYWV1-1JMZYQZ-67M" to-id="1S46HLKLZ-11BJ051-75C"/>
+            <connection id="1S46GG421-1F4FMLL-4P4" from-id="1S46GYP4Z-276XPL0-67B" to-id="1S46FW69Q-T84FM1-3R9"/>
+            <connection id="1S46HBL62-13PWPFC-6TS" from-id="1S46FYS7C-CZMYHQ-3XQ" to-id="1S46HBL61-2824FJ1-6TP"/>
+            <connection id="1S46HCTRD-4N4DVJ-6WN" from-id="1S46HBL61-2824FJ1-6TP" to-id="1S46FZNJV-T5Z0DK-3Y4"/>
+            <connection id="1S46GFPYR-51C35-4MZ" from-id="1S46GYP4Z-276XPL0-67B" to-id="1S46FW24M-1S3H6MN-3R1"/>
+            <connection id="1S46GFZ71-27V9RBR-4NR" from-id="1S46GYP4Z-276XPL0-67B" to-id="1S46FW8P1-1YS09H9-3RF"/>
+            <connection id="1S46HCLBH-28T1CSZ-6VX" from-id="1S46HBL61-2824FJ1-6TP" to-id="1S46HB931-33B37F-6TB"/>
+            <connection id="1S46GGZDW-PH8QZ6-4QC" from-id="1S46GGJ5Z-LW213B-4PK" to-id="1S46FSK31-QHCR1J-3NQ"/>
+            <connection id="1S46G6YMJ-2BFTYH8-4F2" from-id="1S46G0DHH-2BD24QG-3YH" to-id="1S46G6YMH-FYQM6V-4DY"/>
+            <connection id="1S46GHSWL-1KGS4L5-4RJ" from-id="1S46GGJ5Z-LW213B-4PK" to-id="1S46FT968-27L6G5X-3QS"/>
+            <connection id="1S46GGJ61-16WN7PG-4PN" from-id="1S46FSCCM-1VG3KMH-3NB" to-id="1S46GGJ5Z-LW213B-4PK"/>
+            <connection id="1S46GHPLC-1ZFRF4J-4R5" from-id="1S46GGJ5Z-LW213B-4PK" to-id="1S46FSPVG-MK7FYP-3QD"/>
+            <connection id="1S46G6YMJ-3P4Y6M-4F8" from-id="1S46G6YMH-FYQM6V-4DY" to-id="1S46FSCCM-1VG3KMH-3NB"/>
+            <connection id="1S46GFFJ3-GNQMN7-4MJ" from-id="1S46GYP4Z-276XPL0-67B" to-id="1S46FWBG0-1PCF0LR-3RK"/>
+            <connection id="1S46GDJ2D-2107J53-4K1" from-id="1S46FSGYJ-5TSXV3-3NL" to-id="1S46GYWV1-1JMZYQZ-67M"/>
+            <connection id="1S46GDJ2F-Q56GWX-4K7" from-id="1S46GYWV1-1JMZYQZ-67M" to-id="1S46FYQJP-1TDGNNC-3XL"/>
+            <connection id="1S46GFFJ3-40144F-4MB" from-id="1S46FSF7Y-14M865S-3NG" to-id="1S46GYP4Z-276XPL0-67B"/>
+        </connection-list>
+        <concept-appearance-list>
+            <concept-appearance id="1S46FSF7Y-14M865S-3NG" x="374" y="490" width="96" height="54" font-name="Verdana" font-size="12" font-style="bold" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full"
+                border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0"
+                group-child-spacing="10" group-parent-spacing="10"/>
+            <concept-appearance id="1S46FYS7C-CZMYHQ-3XQ" x="665" y="739" width="156" height="42" font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full"
+                border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0"
+                group-child-spacing="10" group-parent-spacing="10"/>
+            <concept-appearance id="1S46FT968-27L6G5X-3QS" x="757" y="219" width="324" height="28" font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full"
+                border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0"
+                group-child-spacing="10" group-parent-spacing="10"/>
+            <concept-appearance id="1S46FSPVG-MK7FYP-3QD" x="728" y="282" width="275" height="42" font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full"
+                border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0"
+                group-child-spacing="10" group-parent-spacing="10"/>
+            <concept-appearance id="1S46HB931-33B37F-6TB" x="948" y="849" width="219" height="42" font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full"
+                border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0"
+                group-child-spacing="10" group-parent-spacing="10"/>
+            <concept-appearance id="1S46FYQJP-1TDGNNC-3XL" x="816" y="612" width="364" height="28" font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full"
+                border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0"
+                group-child-spacing="10" group-parent-spacing="10"/>
+            <concept-appearance id="1S46HLKLZ-11BJ051-75C" x="671" y="914" width="234" height="42" font-style="plain"/>
+            <concept-appearance id="1S3Z9WD65-27VXPDD-PFS" x="167" y="47" width="301" height="68" font-name="Verdana" font-size="12" font-style="bold" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full"
+                border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="301" min-height="60" max-width="-1.0"
+                group-child-spacing="10" group-parent-spacing="10"/>
+            <concept-appearance id="1S46FW8P1-1YS09H9-3RF" x="716" y="505" width="212" height="28" font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full"
+                border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0"
+                group-child-spacing="10" group-parent-spacing="10"/>
+            <concept-appearance id="1S46FW24M-1S3H6MN-3R1" x="735" y="410" width="291" height="42" font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full"
+                border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0"
+                group-child-spacing="10" group-parent-spacing="10"/>
+            <concept-appearance id="1S46FZVV6-11VF63W-3Y9" x="951" y="799" width="244" height="28" font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full"
+                border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0"
+                group-child-spacing="10" group-parent-spacing="10"/>
+            <concept-appearance id="1S46FYVCK-FHNTPB-3XV" x="962" y="686" width="211" height="42" font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full"
+                border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0"
+                group-child-spacing="10" group-parent-spacing="10"/>
+            <concept-appearance id="1S46FSCCM-1VG3KMH-3NB" x="353" y="235" width="225" height="54" font-name="Verdana" font-size="12" font-style="bold" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full"
+                border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0"
+                group-child-spacing="10" group-parent-spacing="10"/>
+            <concept-appearance id="1S46FSGYJ-5TSXV3-3NL" x="405" y="689" width="263" height="54" font-name="Verdana" font-size="12" font-style="bold" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full"
+                border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0"
+                group-child-spacing="10" group-parent-spacing="10"/>
+            <concept-appearance id="1S46FWBG0-1PCF0LR-3RK" x="714" y="357" width="264" height="42" font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full"
+                border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0"
+                group-child-spacing="10" group-parent-spacing="10"/>
+            <concept-appearance id="1S46FSK31-QHCR1J-3NQ" x="727" y="161" width="269" height="42" font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full"
+                border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0"
+                group-child-spacing="10" group-parent-spacing="10"/>
+            <concept-appearance id="1S46FW69Q-T84FM1-3R9" x="708" y="561" width="158" height="25" font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full"
+                border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0"
+                group-child-spacing="10" group-parent-spacing="10"/>
+            <concept-appearance id="1S46FZNJV-T5Z0DK-3Y4" x="959" y="746" width="165" height="42" font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full"
+                border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0"
+                group-child-spacing="10" group-parent-spacing="10"/>
+            <concept-appearance id="1S46G0DHH-2BD24QG-3YH" x="140" y="512" width="129" height="64" font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full"
+                border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="129" min-height="56" max-width="-1.0"
+                group-child-spacing="10" group-parent-spacing="10"/>
+            <concept-appearance id="1S46FW41Q-29F9M5-3R5" x="772" y="459" width="345" height="28" font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full"
+                border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0"
+                group-child-spacing="10" group-parent-spacing="10"/>
+            <concept-appearance id="1S46FT4JM-17NB6TS-3QN" x="696" y="102" width="240" height="42" font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full"
+                border-color="0,0,0,255" border-style="solid" border-thickness="1" border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0"
+                group-child-spacing="10" group-parent-spacing="10"/>
+        </concept-appearance-list>
+        <linking-phrase-appearance-list>
+            <linking-phrase-appearance id="1S46G6YMH-FYQM6V-4DY" x="174" y="662" width="83" height="11"/>
+            <linking-phrase-appearance id="1S46GYP4Z-276XPL0-67B" x="442" y="592" width="93" height="14" stylesheet-id="1S46GYP4Z-22LRPMY-67F"/>
+            <linking-phrase-appearance id="1S46GGJ5Z-LW213B-4PK" x="493" y="291" width="81" height="14"/>
+            <linking-phrase-appearance id="1S46HBL61-2824FJ1-6TP" x="667" y="823" width="56" height="14"/>
+            <linking-phrase-appearance id="1S46GYWV1-1JMZYQZ-67M" x="452" y="878" width="102" height="14" stylesheet-id="1S46GYWV1-19FHKQ4-67Q"/>
+        </linking-phrase-appearance-list>
+        <connection-appearance-list>
+            <connection-appearance id="1S46GDN9C-4BJ7QC-4KN" from-pos="center" to-pos="left"/>
+            <connection-appearance id="1S46GGJ61-1FRRFMN-4PV" from-pos="top" to-pos="left"/>
+            <connection-appearance id="1S46G7C8D-1CDWFJ-4FS" from-pos="center" to-pos="left"/>
+            <connection-appearance id="1S46GCGW2-8JTC0B-4JF" from-pos="center" to-pos="left"/>
+            <connection-appearance id="1S46HCPQ6-1RQFSCW-6W9" from-pos="center" to-pos="left"/>
+            <connection-appearance id="1S46HBL62-1JB8QYY-6TZ" from-pos="center" to-pos="left"/>
+            <connection-appearance id="1S46GFVC9-1KYQYQY-4NC" from-pos="center" to-pos="left"/>
+            <connection-appearance id="1S46HLKM1-1TZ2KBT-75G" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1S46GG421-1F4FMLL-4P4" from-pos="center" to-pos="left"/>
+            <connection-appearance id="1S46HBL62-13PWPFC-6TS" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1S46HCTRD-4N4DVJ-6WN" from-pos="center" to-pos="left"/>
+            <connection-appearance id="1S46GFPYR-51C35-4MZ" from-pos="center" to-pos="left"/>
+            <connection-appearance id="1S46GFZ71-27V9RBR-4NR" from-pos="center" to-pos="bottom-left"/>
+            <connection-appearance id="1S46HCLBH-28T1CSZ-6VX" from-pos="center" to-pos="left"/>
+            <connection-appearance id="1S46GGZDW-PH8QZ6-4QC" from-pos="center" to-pos="left"/>
+            <connection-appearance id="1S46G6YMJ-2BFTYH8-4F2" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1S46GHSWL-1KGS4L5-4RJ" from-pos="center" to-pos="left"/>
+            <connection-appearance id="1S46GGJ61-16WN7PG-4PN" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1S46GHPLC-1ZFRF4J-4R5" from-pos="center" to-pos="left"/>
+            <connection-appearance id="1S46G6YMJ-3P4Y6M-4F8" from-pos="center" to-pos="bottom"/>
+            <connection-appearance id="1S46GFFJ3-GNQMN7-4MJ" from-pos="center" to-pos="bottom-left"/>
+            <connection-appearance id="1S46GDJ2D-2107J53-4K1" from-pos="center" to-pos="center"/>
+            <connection-appearance id="1S46GDJ2F-Q56GWX-4K7" from-pos="center" to-pos="left"/>
+            <connection-appearance id="1S46GFFJ3-40144F-4MB" from-pos="center" to-pos="center"/>
+        </connection-appearance-list>
+        <style-sheet-list>
+            <style-sheet id="_Default_">
+                <map-style background-color="255,255,255,0" image-style="full" image-top-left="0,0"/>
+                <concept-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1"
+                    border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <linking-phrase-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0" background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1"
+                    border-shape="rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <connection-style color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+                <resource-style font-name="SanSerif" font-size="12" font-style="plain" font-color="0,0,0,255" background-color="192,192,192,255"/>
+            </style-sheet>
+            <style-sheet id="_LatestChanges_">
+                <concept-style font-style="plain"/>
+            </style-sheet>
+            <style-sheet id="1S46GYP4Z-22LRPMY-67F">
+                <concept-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1"
+                    border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <linking-phrase-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0" background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1"
+                    border-shape="rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <connection-style color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+                <resource-style font-name="SanSerif" font-size="12" font-style="plain" font-color="0,0,0,255" background-color="192,192,192,255"/>
+            </style-sheet>
+            <style-sheet id="1S46GYWV1-19FHKQ4-67Q">
+                <concept-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="4" background-color="237,244,246,255" background-image-style="full" border-color="0,0,0,255" border-style="solid" border-thickness="1"
+                    border-shape="rounded-rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <linking-phrase-style font-name="Verdana" font-size="12" font-style="plain" font-color="0,0,0,255" text-margin="1" background-color="0,0,255,0" background-image-style="full" border-color="0,0,0,0" border-style="solid" border-thickness="1"
+                    border-shape="rectangle" border-shape-rrarc="15.0" text-alignment="center" shadow-color="none" min-width="-1" min-height="-1" max-width="-1.0" group-child-spacing="10" group-parent-spacing="10"/>
+                <connection-style color="0,0,0,255" style="solid" thickness="1" type="straight" arrowhead="if-to-concept-and-slopes-up"/>
+                <resource-style font-name="SanSerif" font-size="12" font-style="plain" font-color="0,0,0,255" background-color="192,192,192,255"/>
+            </style-sheet>
+        </style-sheet-list>
+        <extra-graphical-properties-list>
+            <properties-list id="file:////C:/Users/masri/PycharmProjects/cmapProject/ConceptMapFiles/CMAPFiles/ComputerSecurity/Instructor/Module3CryptographicTools/Lesson2SymmetricEncryption/Encr_Standards.cmap">
+                <property key="StyleSheetGroup_0" value="//*@!#$%%^&amp;*()() No Grouped StyleSheets @"/>
+            </properties-list>
+        </extra-graphical-properties-list>
+    </map>
+</cmap>

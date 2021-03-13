@@ -1,0 +1,110 @@
+// The Round Table
+digraph {
+	"1S46VLMJW-14NFD1P-7CX" [label="PUBLIC KEY ENCRYPTION REQUIREMENTS and APPLICATIONS Module 3" Gsplines=true fontsize=20 shape=rect style=filled]
+	"1S46VSGLR-8PCR1-7QL" [label="PUBLIC KEY 
+ENCRYPTION 
+REQUIREMENTS" Gsplines=true fillcolor=aquamarine fontsize=20 shape=doubleoctagon style=filled]
+	"1S46VV23Q-F48TM3-7VW" [label="directly affects 
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46VSGLR-8PCR1-7QL" -> "1S46VV23Q-F48TM3-7VW" [constraint=true]
+	"1S46VX9T9-F5ZVYF-7YJ" [label="for instance
+" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S46VXR8N-ZL5SCS-7ZR" [label="digital signatures
+" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S46VX9T9-F5ZVYF-7YJ" -> "1S46VXR8N-ZL5SCS-7ZR" [constraint=true]
+	"1S46VSGLR-8PCR1-7QL" [label="PUBLIC KEY 
+ENCRYPTION 
+REQUIREMENTS" Gsplines=true fillcolor=aquamarine fontsize=20 shape=doubleoctagon style=filled]
+	"1S46WCC81-3FF6WN-8LP" [label="characterized 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46VSGLR-8PCR1-7QL" -> "1S46WCC81-3FF6WN-8LP" [constraint=true]
+	"1S46WCC81-3FF6WN-8LP" [label="characterized 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46VVVYJ-1DWPG1V-7XB" [label="useful if 
+either key 
+can be used 
+for each role
+" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S46WCC81-3FF6WN-8LP" -> "1S46VVVYJ-1DWPG1V-7XB" [constraint=true]
+	"1S46WCC81-3FF6WN-8LP" [label="characterized 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46VVXXB-1PN9JG6-7XG" [label="computationally 
+infeasible 
+for the opponent 
+knowing public 
+key and cipher 
+to recover 
+the original 
+message" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S46WCC81-3FF6WN-8LP" -> "1S46VVXXB-1PN9JG6-7XG" [constraint=true]
+	"1S46VTCN4-DLM035-7TD" [label="PUBLIC KEY 
+ENCRYPTION 
+APPLICATIONS" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S46VX9T9-F5ZVYF-7YJ" [label="for instance
+" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S46VTCN4-DLM035-7TD" -> "1S46VX9T9-F5ZVYF-7YJ" [constraint=true]
+	"1S46VX9T9-F5ZVYF-7YJ" [label="for instance
+" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S46VX9T6-22CN5ZK-7YF" [label="public key 
+certificates" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S46VX9T9-F5ZVYF-7YJ" -> "1S46VX9T6-22CN5ZK-7YF" [constraint=true]
+	"1S46WCC81-3FF6WN-8LP" [label="characterized 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46VVZQH-6HYNKR-7XL" [label="computationally 
+infeasible 
+for the opponent 
+to determine 
+the private 
+key from the 
+public key
+" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S46WCC81-3FF6WN-8LP" -> "1S46VVZQH-6HYNKR-7XL" [constraint=true]
+	"1S46WCC81-3FF6WN-8LP" [label="characterized 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46VWD8H-6TX6KB-7XZ" [label="computationally 
+easy to create 
+key pairs" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S46WCC81-3FF6WN-8LP" -> "1S46VWD8H-6TX6KB-7XZ" [constraint=true]
+	"1S46VX9T9-F5ZVYF-7YJ" [label="for instance
+" Gsplines=true fontcolor="#3B6300" fontsize=20 shape=none]
+	"1S46VXN3C-Q7P91Y-7Z8" [label="digital envelopes
+" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S46VX9T9-F5ZVYF-7YJ" -> "1S46VXN3C-Q7P91Y-7Z8" [constraint=true]
+	"1S46WCC81-3FF6WN-8LP" [label="characterized 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46VWBP7-1YP06TM-7XV" [label="computationally 
+easy for the 
+sender knowing 
+the public 
+key to encrypt 
+messages" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S46WCC81-3FF6WN-8LP" -> "1S46VWBP7-1YP06TM-7XV" [constraint=true]
+	"1S46VV23Q-F48TM3-7VW" [label="directly affects 
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46VTCN4-DLM035-7TD" [label="PUBLIC KEY 
+ENCRYPTION 
+APPLICATIONS" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S46VV23Q-F48TM3-7VW" -> "1S46VTCN4-DLM035-7TD" [constraint=true]
+	"1S46WCC81-3FF6WN-8LP" [label="characterized 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46W8RDB-DKTXP3-8HG" [label="computationally 
+easy for the 
+receiver knowing 
+the private 
+key to decrypt 
+messages" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46WCC81-3FF6WN-8LP" -> "1S46W8RDB-DKTXP3-8HG" [constraint=true]
+	Stat [label="SUMMERY
+
+Matched Branch:			0\lPartially Matched Branch:	9\lMismatched Branch:		0\lExtra Branch:				56\lTotal Match:		73.33 %\lConcept Match:	83.33 %\lLink. Phr. Match:	33.33 %\lMisconception:	20.0 %\lHierarchy Match:	62.59 %\l" Gsplines=true fillcolor="#F5FFFA" fontsize=20 shape=component style=filled]
+	Grade [label="Grade:	71.88%" Gsplines=true fillcolor="#FFEBCD" fontsize=20 shape=note style=filled]
+	Stat -> Grade [arrowhead=inv color=black constraint=true]
+	"1S46VSGLR-8PCR1-7QL" -> "1S46VVVYJ-1DWPG1V-7XB" [arrowhead=open color="#0316D1" constraint=true style=dashed]
+	"1S46VSGLR-8PCR1-7QL" -> "1S46VVXXB-1PN9JG6-7XG" [arrowhead=open color="#0316D1" constraint=true style=dashed]
+	"1S46VSGLR-8PCR1-7QL" -> "1S46VVZQH-6HYNKR-7XL" [arrowhead=open color="#0316D1" constraint=true style=dashed]
+	"1S46VSGLR-8PCR1-7QL" -> "1S46VWBP7-1YP06TM-7XV" [arrowhead=open color="#0316D1" constraint=true style=dashed]
+	"1S46VSGLR-8PCR1-7QL" -> "1S46VWD8H-6TX6KB-7XZ" [arrowhead=open color="#0316D1" constraint=true style=dashed]
+	"1S46VTCN4-DLM035-7TD" -> "1S46VX9T6-22CN5ZK-7YF" [arrowhead=open color="#0316D1" constraint=true style=dashed]
+	"1S46VTCN4-DLM035-7TD" -> "1S46VXN3C-Q7P91Y-7Z8" [arrowhead=open color="#0316D1" constraint=true style=dashed]
+	"1S46VTCN4-DLM035-7TD" -> "1S46VXR8N-ZL5SCS-7ZR" [arrowhead=open color="#0316D1" constraint=true style=dashed]
+}

@@ -1,0 +1,242 @@
+// The Round Table
+digraph {
+	"1S3Z7MBCZ-13LSBRL-9HM" [label="USER AUTHENTICATION OVERVIEW Module 2" Gsplines=true shape=rect style=filled]
+	"1SX6VWZ94-1T3BZHH-5R8" [label="authenticating 
+user identity 
+by" Gsplines=true fontcolor="#3B6300" shape=none]
+	"1SX6VWZ8W-225X8FQ-5HH" [label="something 
+the individual 
+is" Gsplines=true fillcolor=aquamarine shape=rect style=filled]
+	"1SX6VWZ94-1T3BZHH-5R8" -> "1SX6VWZ8W-225X8FQ-5HH" [constraint=true]
+	"1SX6VWZ8W-1MDX62Z-5HL" [label="User Authentication
+" Gsplines=true fillcolor=aquamarine shape=doubleoctagon style=filled]
+	"1SX6VWZ92-204ZBPY-5NL" [label="RFC 2828 defined 
+as" Gsplines=true fontcolor=red shape=none]
+	"1SX6VWZ8W-1MDX62Z-5HL" -> "1SX6VWZ92-204ZBPY-5NL" [constraint=true]
+	"1SX6VWZ92-PG1XCV-5P2" [label="Secured by 
+addressing 
+following 
+aspects " Gsplines=true fontcolor=red shape=none]
+	"1SX6VWZ8Y-369GKQ-5K1" [label="Password File 
+Access Control
+" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1SX6VWZ92-PG1XCV-5P2" -> "1SX6VWZ8Y-369GKQ-5K1" [constraint=true]
+	"1SX6VWZ90-MJYXTQ-5LM" [label="can be achieved 
+using" Gsplines=true fontcolor="#3B6300" shape=none]
+	"1SX6VWZ8Y-27M77YW-5JN" [label="fundamental 
+building block 
+and primary 
+line of defense
+" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1SX6VWZ90-MJYXTQ-5LM" -> "1SX6VWZ8Y-27M77YW-5JN" [constraint=true]
+	"1SX6VWZ8W-1MDX62Z-5HL" [label="User Authentication
+" Gsplines=true fillcolor=aquamarine shape=doubleoctagon style=filled]
+	"1SX6VWZ94-26DSKH1-5QN" [label="has the process 
+of" Gsplines=true fontcolor=red shape=none]
+	"1SX6VWZ8W-1MDX62Z-5HL" -> "1SX6VWZ94-26DSKH1-5QN" [constraint=true]
+	"1SX6VWZ95-82H3XM-5S6" [label="for instance
+" Gsplines=true fontcolor=red shape=none]
+	"1SX6VWZ8X-18ZP5H2-5JG" [label="password, 
+PIN, or answers 
+to prearranged 
+questions" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1SX6VWZ95-82H3XM-5S6" -> "1SX6VWZ8X-18ZP5H2-5JG" [constraint=true]
+	"1SX6VWZ8V-13FVP9F-5H9" [label="Identification 
+Step" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1SX6VWZ8Z-29Q0ZK3-5L4" [label=Includes Gsplines=true fontcolor=red shape=none]
+	"1SX6VWZ8V-13FVP9F-5H9" -> "1SX6VWZ8Z-29Q0ZK3-5L4" [constraint=true]
+	"1SX6VWZ94-1T3BZHH-5R8" [label="authenticating 
+user identity 
+by" Gsplines=true fontcolor="#3B6300" shape=none]
+	"1SX6VWZ8W-1MQK70D-5HP" [label="something 
+the individual 
+knows" Gsplines=true fillcolor=aquamarine shape=rect style=filled]
+	"1SX6VWZ94-1T3BZHH-5R8" -> "1SX6VWZ8W-1MQK70D-5HP" [constraint=true]
+	"1SX6VWZ96-1FGSRTN-5SQ" [label="dynamic biometrics
+" Gsplines=true fontcolor=red shape=none]
+	"1SX6VWZ8X-LPQ1PR-5JC" [label="voice pattern, 
+handwriting, 
+or typing 
+rhythm" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1SX6VWZ96-1FGSRTN-5SQ" -> "1SX6VWZ8X-LPQ1PR-5JC" [constraint=true]
+	"1SX6VWZ92-PG1XCV-5P2" [label="Secured by 
+addressing 
+following 
+aspects " Gsplines=true fontcolor=red shape=none]
+	"1SX6VWZ8Y-20TP3L8-5K4" [label="Password Authentication
+" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1SX6VWZ92-PG1XCV-5P2" -> "1SX6VWZ8Y-20TP3L8-5K4" [constraint=true]
+	"1SX6VWZ8W-N5BL4N-5HS" [label="something 
+the individual 
+does" Gsplines=true fillcolor=aquamarine shape=rect style=filled]
+	"1SX6VWZ96-1FGSRTN-5SQ" [label="dynamic biometrics
+" Gsplines=true fontcolor=red shape=none]
+	"1SX6VWZ8W-N5BL4N-5HS" -> "1SX6VWZ96-1FGSRTN-5SQ" [constraint=true]
+	"1SX6VWZ94-1T3BZHH-5R8" [label="authenticating 
+user identity 
+by" Gsplines=true fontcolor="#3B6300" shape=none]
+	"1SX6VWZ8V-1WFTVCZ-5H6" [label="something 
+the individual 
+possesses" Gsplines=true fillcolor=aquamarine shape=rect style=filled]
+	"1SX6VWZ94-1T3BZHH-5R8" -> "1SX6VWZ8V-1WFTVCZ-5H6" [constraint=true]
+	"1SX6VWZ8W-1MDX62Z-5HL" [label="User Authentication
+" Gsplines=true fillcolor=aquamarine shape=doubleoctagon style=filled]
+	"1SX6VWZ92-PG1XCV-5P2" [label="Secured by 
+addressing 
+following 
+aspects " Gsplines=true fontcolor=red shape=none]
+	"1SX6VWZ8W-1MDX62Z-5HL" -> "1SX6VWZ92-PG1XCV-5P2" [constraint=true]
+	"1SX6VWZ92-PG1XCV-5P2" [label="Secured by 
+addressing 
+following 
+aspects " Gsplines=true fontcolor=red shape=none]
+	"1SX6VWZ8Z-249PVVS-5KB" [label="Hashes and 
+Salts" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1SX6VWZ92-PG1XCV-5P2" -> "1SX6VWZ8Z-249PVVS-5KB" [constraint=true]
+	"1SX6VWZ91-PGDML3-5MM" [label="can be completed 
+by" Gsplines=true fontcolor="#3B6300" shape=none]
+	"1SX6VWZ8Y-1GKN55L-5JY" [label="presenting 
+or generating 
+authentication 
+information 
+that corroborates 
+the binding 
+between the 
+entity and 
+the identifier
+" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1SX6VWZ91-PGDML3-5MM" -> "1SX6VWZ8Y-1GKN55L-5JY" [constraint=true]
+	"1SX6VWZ8W-1SBRHG4-5HD" [label="Verification 
+Step" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1SX6VWZ91-PGDML3-5MM" [label="can be completed 
+by" Gsplines=true fontcolor="#3B6300" shape=none]
+	"1SX6VWZ8W-1SBRHG4-5HD" -> "1SX6VWZ91-PGDML3-5MM" [constraint=true]
+	"1SX6VWZ8W-1MDX62Z-5HL" [label="User Authentication
+" Gsplines=true fillcolor=aquamarine shape=doubleoctagon style=filled]
+	"1SX6VWZ94-1T3BZHH-5R8" [label="authenticating 
+user identity 
+by" Gsplines=true fontcolor="#3B6300" shape=none]
+	"1SX6VWZ8W-1MDX62Z-5HL" -> "1SX6VWZ94-1T3BZHH-5R8" [constraint=true]
+	"1SX6VWZ8W-1MQK70D-5HP" [label="something 
+the individual 
+knows" Gsplines=true fillcolor=aquamarine shape=rect style=filled]
+	"1SX6VWZ95-82H3XM-5S6" [label="for instance
+" Gsplines=true fontcolor=red shape=none]
+	"1SX6VWZ8W-1MQK70D-5HP" -> "1SX6VWZ95-82H3XM-5S6" [constraint=true]
+	"1SX6VWZ90-25Y1T49-5M3" [label="should verify 
+" Gsplines=true fontcolor=red shape=none]
+	"1SX6VWZ8Y-NGBKJ5-5JV" [label="basis for 
+access control 
+and user accountability
+" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1SX6VWZ90-25Y1T49-5M3" -> "1SX6VWZ8Y-NGBKJ5-5JV" [constraint=true]
+	"1SX6VWZ94-26DSKH1-5QN" [label="has the process 
+of" Gsplines=true fontcolor=red shape=none]
+	"1SX6VWZ8V-13FVP9F-5H9" [label="Identification 
+Step" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1SX6VWZ94-26DSKH1-5QN" -> "1SX6VWZ8V-13FVP9F-5H9" [constraint=true]
+	"1SX6VWZ8Z-29Q0ZK3-5L4" [label=Includes Gsplines=true fontcolor=red shape=none]
+	"1SX6VWZ8Y-165JWQ3-5JR" [label="presenting 
+an identifier 
+to the security 
+system" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1SX6VWZ8Z-29Q0ZK3-5L4" -> "1SX6VWZ8Y-165JWQ3-5JR" [constraint=true]
+	"1SX6VWZ92-204ZBPY-5NL" [label="RFC 2828 defined 
+as" Gsplines=true fontcolor=red shape=none]
+	"1SX6VWZ8V-22CX572-5H2" [label="\"The process 
+of verifying 
+an identity 
+claimed by 
+or for a system 
+entity.\"" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1SX6VWZ92-204ZBPY-5NL" -> "1SX6VWZ8V-22CX572-5H2" [constraint=true]
+	"1SX6VWZ8W-225X8FQ-5HH" [label="something 
+the individual 
+is" Gsplines=true fillcolor=aquamarine shape=rect style=filled]
+	"1SX6VWZ92-26X6M0V-5N3" [label="static biometrics
+" Gsplines=true fontcolor=red shape=none]
+	"1SX6VWZ8W-225X8FQ-5HH" -> "1SX6VWZ92-26X6M0V-5N3" [constraint=true]
+	"1SX6VWZ92-PG1XCV-5P2" [label="Secured by 
+addressing 
+following 
+aspects " Gsplines=true fontcolor=red shape=none]
+	"1SX6VWZ8X-651CDN-5JK" [label="Password Vulnerability 
+Countermeasures" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1SX6VWZ92-PG1XCV-5P2" -> "1SX6VWZ8X-651CDN-5JK" [constraint=true]
+	"1SX6VWZ92-PG1XCV-5P2" [label="Secured by 
+addressing 
+following 
+aspects " Gsplines=true fontcolor=red shape=none]
+	"1SX6VWZ8W-J49Z6K-5HZ" [label=Tokens Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1SX6VWZ92-PG1XCV-5P2" -> "1SX6VWZ8W-J49Z6K-5HZ" [constraint=true]
+	"1SX6VWZ92-PG1XCV-5P2" [label="Secured by 
+addressing 
+following 
+aspects " Gsplines=true fontcolor=red shape=none]
+	"1SX6VWZ8Z-15G046-5K7" [label="Biometric 
+Authentication" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1SX6VWZ92-PG1XCV-5P2" -> "1SX6VWZ8Z-15G046-5K7" [constraint=true]
+	"1SX6VWZ94-1T3BZHH-5R8" [label="authenticating 
+user identity 
+by" Gsplines=true fontcolor="#3B6300" shape=none]
+	"1SX6VWZ8W-N5BL4N-5HS" [label="something 
+the individual 
+does" Gsplines=true fillcolor=aquamarine shape=rect style=filled]
+	"1SX6VWZ94-1T3BZHH-5R8" -> "1SX6VWZ8W-N5BL4N-5HS" [constraint=true]
+	"1SX6VWZ8V-1WFTVCZ-5H6" [label="something 
+the individual 
+possesses" Gsplines=true fillcolor=aquamarine shape=rect style=filled]
+	"1SX6VWZ8Z-1GW2V4Q-5KN" [label="a token" Gsplines=true fontcolor=red shape=none]
+	"1SX6VWZ8V-1WFTVCZ-5H6" -> "1SX6VWZ8Z-1GW2V4Q-5KN" [constraint=true]
+	"1SX6VWZ94-26DSKH1-5QN" [label="has the process 
+of" Gsplines=true fontcolor=red shape=none]
+	"1SX6VWZ8W-1SBRHG4-5HD" [label="Verification 
+Step" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1SX6VWZ94-26DSKH1-5QN" -> "1SX6VWZ8W-1SBRHG4-5HD" [constraint=true]
+	"1SX6VWZ92-PG1XCV-5P2" [label="Secured by 
+addressing 
+following 
+aspects " Gsplines=true fontcolor=red shape=none]
+	"1SX6VWZ8W-2GDLBG-5HW" [label="Password Vulnerabilities
+" Gsplines=true fillcolor=aquamarine shape=rect style=filled]
+	"1SX6VWZ92-PG1XCV-5P2" -> "1SX6VWZ8W-2GDLBG-5HW" [constraint=true]
+	"1SX6VWZ92-26X6M0V-5N3" [label="static biometrics
+" Gsplines=true fontcolor=red shape=none]
+	"1SX6VWZ8X-5YLD4R-5J8" [label="fingerprint, 
+retina, or 
+face" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1SX6VWZ92-26X6M0V-5N3" -> "1SX6VWZ8X-5YLD4R-5J8" [constraint=true]
+	"1SX6VWZ8V-13FVP9F-5H9" [label="Identification 
+Step" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1SX6VWZ90-MJYXTQ-5LM" [label="can be achieved 
+using" Gsplines=true fontcolor="#3B6300" shape=none]
+	"1SX6VWZ8V-13FVP9F-5H9" -> "1SX6VWZ90-MJYXTQ-5LM" [constraint=true]
+	"1SX6VWZ92-PG1XCV-5P2" [label="Secured by 
+addressing 
+following 
+aspects " Gsplines=true fontcolor=red shape=none]
+	"1SX6VWZ8X-180PRY1-5J5" [label="Password Cracking
+" Gsplines=true fillcolor=aquamarine shape=rect style=filled]
+	"1SX6VWZ92-PG1XCV-5P2" -> "1SX6VWZ8X-180PRY1-5J5" [constraint=true]
+	"1SX6VWZ8Z-1GW2V4Q-5KN" [label="a token" Gsplines=true fontcolor=red shape=none]
+	"1SX6VWZ8X-25ZTZQR-5J2" [label="smart card, 
+electronic 
+key card, 
+or physical 
+key" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1SX6VWZ8Z-1GW2V4Q-5KN" -> "1SX6VWZ8X-25ZTZQR-5J2" [constraint=true]
+	"1SX6VWZ8W-1SBRHG4-5HD" [label="Verification 
+Step" Gsplines=true fillcolor="#FFB6C1" shape=rect style=filled]
+	"1SX6VWZ90-25Y1T49-5M3" [label="should verify 
+" Gsplines=true fontcolor=red shape=none]
+	"1SX6VWZ8W-1SBRHG4-5HD" -> "1SX6VWZ90-25Y1T49-5M3" [constraint=true]
+	Stat [label="SUMMERY
+
+Matched Branch:		0\lPartially Matched Branch:	11\lMismatched Branch:		6\lExtra Branch:			0\lTotal Match:		27.03 %\lConcept Match:	28.0 %\lLink. Phr. Match:	25.0 %\lMisconception:		82.61 %\lHierarchy Match:	39.22 %\l" Gsplines=true fillcolor="#F5FFFA" shape=component style=filled]
+	Grade [label="Grade:	27.99%" Gsplines=true fillcolor="#FFEBCD" shape=note style=filled]
+	Stat -> Grade [arrowhead=inv color=black constraint=true]
+	"1SX6VWZ8W-1MDX62Z-5HL" -> "1SX6VWZ8W-1MQK70D-5HP" [arrowhead=open color="#0316D1" constraint=true style=dashed]
+	"1SX6VWZ8W-1MDX62Z-5HL" -> "1SX6VWZ8V-1WFTVCZ-5H6" [arrowhead=open color="#0316D1" constraint=true style=dashed]
+	"1SX6VWZ8W-1MDX62Z-5HL" -> "1SX6VWZ8W-225X8FQ-5HH" [arrowhead=open color="#0316D1" constraint=true style=dashed]
+	"1SX6VWZ8W-1MDX62Z-5HL" -> "1SX6VWZ8W-N5BL4N-5HS" [arrowhead=open color="#0316D1" constraint=true style=dashed]
+}

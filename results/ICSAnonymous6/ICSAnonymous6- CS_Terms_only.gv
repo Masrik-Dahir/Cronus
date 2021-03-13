@@ -1,0 +1,455 @@
+// The Round Table
+digraph {
+	Student [label="Student: ICSAnonymous6" fillcolor=gold fontsize=20 shape=component style=filled]
+	"1RPQNMGPB-DKFB79-2NW" [label="Security policy
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQNN9HG-7Q6DJH-2Q2" [label="defined as
+" fontsize=20 shape=none]
+	"1RPQNMGPB-DKFB79-2NW" -> "1RPQNN9HG-7Q6DJH-2Q2" [constraint=true]
+	"1RPQNF2NH-X7278S-2BF" [label=Risk fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQNFQKF-1KH916D-2C8" [label="defined as
+" fontsize=20 shape=none]
+	"1RPQNF2NH-X7278S-2BF" -> "1RPQNFQKF-1KH916D-2C8" [constraint=true]
+	"1RPQK6NRP-29WPQF3-5V" [label="Computer Security
+" fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RPQQCPKG-MCQZ7G-3Z4" [label=includes fontsize=20 shape=none]
+	"1RPQK6NRP-29WPQF3-5V" -> "1RPQQCPKG-MCQZ7G-3Z4" [constraint=true]
+	"1RPQPVQR3-JP1X8S-3ML" [label=includes fontsize=20 shape=none]
+	"1RPQPX2DW-15PW98S-3PK" [label=Firewall fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQPVQR3-JP1X8S-3ML" -> "1RPQPX2DW-15PW98S-3PK" [constraint=true]
+	"1RPQLJKM7-W6QR8-108" [label=involves fontsize=20 shape=none]
+	"1RPQLML5F-NZL2FS-13X" [label="Security is 
+often an afterthought 
+to be incorporated 
+into a system 
+after the 
+design is 
+completed" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQLJKM7-W6QR8-108" -> "1RPQLML5F-NZL2FS-13X" [constraint=true]
+	"1RPQKNSSN-2B21BFT-J2" [label=includes fontsize=20 shape=none]
+	"1RPQKNSS4-N834T9-HZ" [label=Confidentiality fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQKNSSN-2B21BFT-J2" -> "1RPQKNSS4-N834T9-HZ" [constraint=true]
+	"1RPQL50S7-10JJDWL-R3" [label=aspects fontsize=20 shape=none]
+	"1RPQL50RQ-1MB7S5J-R0" [label="data integrity
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQL50S7-10JJDWL-R3" -> "1RPQL50RQ-1MB7S5J-R0" [constraint=true]
+	"1RPQPVQR3-JP1X8S-3ML" [label=includes fontsize=20 shape=none]
+	"1RPQQ1SHX-17QS94Z-3TW" [label="Vulnerability/Patch 
+management" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQPVQR3-JP1X8S-3ML" -> "1RPQQ1SHX-17QS94Z-3TW" [constraint=true]
+	"1RPQQFYWF-T9GYTK-41B" [label="three aspects
+" fontsize=20 shape=none]
+	"1RPQQK5FQ-1JRRQRK-459" [label="Correctness/ 
+assurance" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQQFYWF-T9GYTK-41B" -> "1RPQQK5FQ-1JRRQRK-459" [constraint=true]
+	"1RPQR1DJ2-26F6GK0-4RM" [label=Evaluation fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQR8SGK-11VZ48R-51C" [label=defines fontsize=20 shape=none]
+	"1RPQR1DJ2-26F6GK0-4RM" -> "1RPQR8SGK-11VZ48R-51C" [constraint=true]
+	"1RPQRHL4F-17YXZYS-5CK" [label=example fontsize=20 shape=none]
+	"1RPQRHL4F-1NZT2NW-5CG" [label="use of backup 
+system" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQRHL4F-17YXZYS-5CK" -> "1RPQRHL4F-1NZT2NW-5CG" [constraint=true]
+	"1RPQR398R-1PYT8FM-4SK" [label="defines it
+" fontsize=20 shape=none]
+	"1RPQR3987-1KN02J6-4SG" [label="as degree 
+of confidence 
+one has that 
+the security 
+measures that 
+work as intended 
+to protect 
+the system 
+and the information 
+it processes
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQR398R-1PYT8FM-4SK" -> "1RPQR3987-1KN02J6-4SG" [constraint=true]
+	"1RPQK6NRP-29WPQF3-5V" [label="Computer Security
+" fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RPQL9JQB-1J6SXX7-WV" [label=includes fontsize=20 shape=none]
+	"1RPQK6NRP-29WPQF3-5V" -> "1RPQL9JQB-1J6SXX7-WV" [constraint=true]
+	"1RPQM90NX-7YD70V-1JG" [label="Computer Security 
+Terminology" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQMBS1Q-NLW9B2-1MJ" [label=are fontsize=20 shape=none]
+	"1RPQM90NX-7YD70V-1JG" -> "1RPQMBS1Q-NLW9B2-1MJ" [constraint=true]
+	"1RPQR054F-24KM4K5-4Q5" [label=includes fontsize=20 shape=none]
+	"1RPQR1DJ2-26F6GK0-4RM" [label=Evaluation fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQR054F-24KM4K5-4Q5" -> "1RPQR1DJ2-26F6GK0-4RM" [constraint=true]
+	"1RPQQVWG1-2C1YBYD-4MQ" [label=Recovery fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQRHL4F-17YXZYS-5CK" [label=example fontsize=20 shape=none]
+	"1RPQQVWG1-2C1YBYD-4MQ" -> "1RPQRHL4F-17YXZYS-5CK" [constraint=true]
+	"1RPQQFYVY-1CD02K8-417" [label="Specification/ 
+Policy" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQQM1PT-1TXWJJG-46M" [label=requires fontsize=20 shape=none]
+	"1RPQQFYVY-1CD02K8-417" -> "1RPQQM1PT-1TXWJJG-46M" [constraint=true]
+	"1RPQKDHLY-1QLKWQZ-87" [label="The CIA Triad
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQKLXN8-283S4Y4-G9" [label=includes fontsize=20 shape=none]
+	"1RPQKDHLY-1QLKWQZ-87" -> "1RPQKLXN8-283S4Y4-G9" [constraint=true]
+	"1RPQK6NRP-29WPQF3-5V" [label="Computer Security
+" fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RPQM90NX-MYB496-1JK" [label=includes fontsize=20 shape=none]
+	"1RPQK6NRP-29WPQF3-5V" -> "1RPQM90NX-MYB496-1JK" [constraint=true]
+	"1RPQR054F-24KM4K5-4Q5" [label=includes fontsize=20 shape=none]
+	"1RPQR053X-284QQCB-4Q2" [label=Assurance fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQR054F-24KM4K5-4Q5" -> "1RPQR053X-284QQCB-4Q2" [constraint=true]
+	"1RPQKLPDB-5DTWWC-FF" [label=Integrity fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQL50S7-10JJDWL-R3" [label=aspects fontsize=20 shape=none]
+	"1RPQKLPDB-5DTWWC-FF" -> "1RPQL50S7-10JJDWL-R3" [constraint=true]
+	"1RPQRMQFY-P1FNTX-5K8" [label=example fontsize=20 shape=none]
+	"1RPQRMQFG-1G11DDX-5K5" [label="secure encryption 
+algorithms; 
+prevent unauthorized 
+access to 
+encryption 
+keys" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQRMQFY-P1FNTX-5K8" -> "1RPQRMQFG-1G11DDX-5K5" [constraint=true]
+	"1RPQM90NX-MYB496-1JK" [label=includes fontsize=20 shape=none]
+	"1RPQM90NX-7YD70V-1JG" [label="Computer Security 
+Terminology" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQM90NX-MYB496-1JK" -> "1RPQM90NX-7YD70V-1JG" [constraint=true]
+	"1RPQMHH9T-1LSD15P-1T2" [label=Attack fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQMJ0H0-W1CYZ1-1V1" [label="defined as
+" fontsize=20 shape=none]
+	"1RPQMHH9T-1LSD15P-1T2" -> "1RPQMJ0H0-W1CYZ1-1V1" [constraint=true]
+	"1RPQLJKM7-W6QR8-108" [label=involves fontsize=20 shape=none]
+	"1RPQLX11P-Z3S3YZ-1DV" [label="Attackers 
+only need 
+to find one 
+weakness, 
+the developer 
+needs to find 
+all weaknesses
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQLJKM7-W6QR8-108" -> "1RPQLX11P-Z3S3YZ-1DV" [constraint=true]
+	"1RPQQV4P1-1DHG9Y6-4LG" [label=Response fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQRGLVX-1GM7N38-599" [label=defined fontsize=20 shape=none]
+	"1RPQQV4P1-1DHG9Y6-4LG" -> "1RPQRGLVX-1GM7N38-599" [constraint=true]
+	"1RPQQJJ35-DV0N7C-43W" [label="Implementation/ 
+mechanisms" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQQRY8Y-23H5KBM-4HG" [label="involves four 
+complementary 
+courses of 
+action:" fontsize=20 shape=none]
+	"1RPQQJJ35-DV0N7C-43W" -> "1RPQQRY8Y-23H5KBM-4HG" [constraint=true]
+	"1RPQP17ZM-92YMYX-35N" [label=Vulnerability fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQP1XYS-KWZ3V5-372" [label="defined as
+" fontsize=20 shape=none]
+	"1RPQP17ZM-92YMYX-35N" -> "1RPQP1XYS-KWZ3V5-372" [constraint=true]
+	"1RPQL50S7-10JJDWL-R3" [label=aspects fontsize=20 shape=none]
+	"1RPQL65WK-1BQ87ZN-T6" [label="system integrity
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQL50S7-10JJDWL-R3" -> "1RPQL65WK-1BQ87ZN-T6" [constraint=true]
+	"1RPQRGLVX-1GM7N38-599" [label=defined fontsize=20 shape=none]
+	"1RPQRGLVF-1YHMTM2-596" [label="upon detection, 
+being able 
+to halt an 
+attack and 
+prevent further 
+damage" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQRGLVX-1GM7N38-599" -> "1RPQRGLVF-1YHMTM2-596" [constraint=true]
+	"1RPQPVQR3-JP1X8S-3ML" [label=includes fontsize=20 shape=none]
+	"1RPQQ0GCR-79TMST-3RW" [label="Virtual private 
+network" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQPVQR3-JP1X8S-3ML" -> "1RPQQ0GCR-79TMST-3RW" [constraint=true]
+	"1RPQPVQR3-JP1X8S-3ML" [label=includes fontsize=20 shape=none]
+	"1RPQPVQQL-2B0D1JJ-3MH" [label="Anti-virus 
+software" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQPVQR3-JP1X8S-3ML" -> "1RPQPVQQL-2B0D1JJ-3MH" [constraint=true]
+	"1RPQQCPKG-MCQZ7G-3Z4" [label=includes fontsize=20 shape=none]
+	"1RPQQCPJY-2BFF7GN-3Z1" [label="Computer Security 
+strategy" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQQCPKG-MCQZ7G-3Z4" -> "1RPQQCPJY-2BFF7GN-3Z1" [constraint=true]
+	"1RPQQFYWF-T9GYTK-41B" [label="three aspects
+" fontsize=20 shape=none]
+	"1RPQQJJ35-DV0N7C-43W" [label="Implementation/ 
+mechanisms" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQQFYWF-T9GYTK-41B" -> "1RPQQJJ35-DV0N7C-43W" [constraint=true]
+	"1RPQMFGQC-X4DJX2-1PY" [label="defined as
+" fontsize=20 shape=none]
+	"1RPQMFGPV-13KCLDB-1PV" [label="an entity 
+that attacks, 
+or is a threat 
+to a system
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQMFGQC-X4DJX2-1PY" -> "1RPQMFGPV-13KCLDB-1PV" [constraint=true]
+	"1RPQPRQB1-76843T-3KD" [label="Security Technologies 
+Used" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQPVQR3-JP1X8S-3ML" [label=includes fontsize=20 shape=none]
+	"1RPQPRQB1-76843T-3KD" -> "1RPQPVQR3-JP1X8S-3ML" [constraint=true]
+	"1RPQPVQR3-JP1X8S-3ML" [label=includes fontsize=20 shape=none]
+	"1RPQPXWHC-1PSXDFH-3QG" [label="Anti-spyware 
+software" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQPVQR3-JP1X8S-3ML" -> "1RPQPXWHC-1PSXDFH-3QG" [constraint=true]
+	"1RPQQM1PT-1TXWJJG-46M" [label=requires fontsize=20 shape=none]
+	"1RPQQM1PT-13S39QV-46J" [label="a formal statement 
+of rules and 
+practices 
+that specify 
+or regulate 
+how a system 
+or organization 
+provides security 
+services to 
+protect sensitive 
+and critical 
+system resources
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQQM1PT-1TXWJJG-46M" -> "1RPQQM1PT-13S39QV-46J" [constraint=true]
+	"1RPQMBS1Q-NLW9B2-1MJ" [label=are fontsize=20 shape=none]
+	"1RPQNF2NH-X7278S-2BF" [label=Risk fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQMBS1Q-NLW9B2-1MJ" -> "1RPQNF2NH-X7278S-2BF" [constraint=true]
+	"1RPQMBS1Q-NLW9B2-1MJ" [label=are fontsize=20 shape=none]
+	"1RPQNY0V6-XVML4J-31Z" [label=Threat fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQMBS1Q-NLW9B2-1MJ" -> "1RPQNY0V6-XVML4J-31Z" [constraint=true]
+	"1RPQNN9HG-7Q6DJH-2Q2" [label="defined as
+" fontsize=20 shape=none]
+	"1RPQNN9HG-LC7H3N-2PZ" [label="a set of rules 
+and practices 
+that specify 
+how a system 
+or organization 
+provides security 
+services to 
+protect sensitive 
+and critical 
+sytem resources
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQNN9HG-7Q6DJH-2Q2" -> "1RPQNN9HG-LC7H3N-2PZ" [constraint=true]
+	"1RPQKLXN8-283S4Y4-G9" [label=includes fontsize=20 shape=none]
+	"1RPQKLXMR-KT9JH8-G6" [label=Availabilty fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQKLXN8-283S4Y4-G9" -> "1RPQKLXMR-KT9JH8-G6" [constraint=true]
+	"1RPQRCBYW-M7BL8D-55N" [label=defined fontsize=20 shape=none]
+	"1RPQRCBYW-28FRGFT-55K" [label="intrusion 
+detection 
+sytem and 
+detection 
+of denial 
+of service 
+attack" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQRCBYW-M7BL8D-55N" -> "1RPQRCBYW-28FRGFT-55K" [constraint=true]
+	"1RPQQRY8Y-23H5KBM-4HG" [label="involves four 
+complementary 
+courses of 
+action:" fontsize=20 shape=none]
+	"1RPQQVWG1-2C1YBYD-4MQ" [label=Recovery fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQQRY8Y-23H5KBM-4HG" -> "1RPQQVWG1-2C1YBYD-4MQ" [constraint=true]
+	"1RPQMBS1Q-NLW9B2-1MJ" [label=are fontsize=20 shape=none]
+	"1RPQMHH9T-1LSD15P-1T2" [label=Attack fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQMBS1Q-NLW9B2-1MJ" -> "1RPQMHH9T-1LSD15P-1T2" [constraint=true]
+	"1RPQKNSS4-N834T9-HZ" [label=Confidentiality fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQKZC85-23YK8XD-M8" [label=aspects fontsize=20 shape=none]
+	"1RPQKNSS4-N834T9-HZ" -> "1RPQKZC85-23YK8XD-M8" [constraint=true]
+	"1RPQP1XYS-KWZ3V5-372" [label="defined as
+" fontsize=20 shape=none]
+	"1RPQP1XYS-W7X9BS-36Z" [label="a flaw or 
+weakness in 
+a system's 
+design, implementation, 
+or operation
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQP1XYS-KWZ3V5-372" -> "1RPQP1XYS-W7X9BS-36Z" [constraint=true]
+	"1RPQNY0V6-XVML4J-31Z" [label=Threat fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQNYCVD-1MWB8VZ-32W" [label="defined as
+" fontsize=20 shape=none]
+	"1RPQNY0V6-XVML4J-31Z" -> "1RPQNYCVD-1MWB8VZ-32W" [constraint=true]
+	"1RPQKDHMF-4Z3SD-8B" [label=includes fontsize=20 shape=none]
+	"1RPQKDHLY-1QLKWQZ-87" [label="The CIA Triad
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQKDHMF-4Z3SD-8B" -> "1RPQKDHLY-1QLKWQZ-87" [constraint=true]
+	"1RPQMBS1Q-NLW9B2-1MJ" [label=are fontsize=20 shape=none]
+	"1RPQMR669-15W3RG3-201" [label=Countermeasure fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQMBS1Q-NLW9B2-1MJ" -> "1RPQMR669-15W3RG3-201" [constraint=true]
+	"1RPQLJKM7-W6QR8-108" [label=involves fontsize=20 shape=none]
+	"1RPQLJKM7-1YD3JCY-105" [label="potential 
+attacks on 
+the secutrity 
+features must 
+be considered
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQLJKM7-W6QR8-108" -> "1RPQLJKM7-1YD3JCY-105" [constraint=true]
+	"1RPQNV6YF-42RVR1-2ZD" [label="defined as
+" fontsize=20 shape=none]
+	"1RPQNV6XY-X4MF48-2Z9" [label="data contained 
+in an information 
+system" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQNV6YF-42RVR1-2ZD" -> "1RPQNV6XY-X4MF48-2Z9" [constraint=true]
+	"1RPQLJKM7-W6QR8-108" [label=involves fontsize=20 shape=none]
+	"1RPQLRLLD-109RCY4-19B" [label="Security requires 
+regular and 
+constant monitoring 
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQLJKM7-W6QR8-108" -> "1RPQLRLLD-109RCY4-19B" [constraint=true]
+	"1RPQQCPJY-2BFF7GN-3Z1" [label="Computer Security 
+strategy" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQQFYWF-T9GYTK-41B" [label="three aspects
+" fontsize=20 shape=none]
+	"1RPQQCPJY-2BFF7GN-3Z1" -> "1RPQQFYWF-T9GYTK-41B" [constraint=true]
+	"1RPQQRY8F-23Y2VP0-4HC" [label=Detection fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQRCBYW-M7BL8D-55N" [label=defined fontsize=20 shape=none]
+	"1RPQQRY8F-23Y2VP0-4HC" -> "1RPQRCBYW-M7BL8D-55N" [constraint=true]
+	"1RPQKLPDB-D08VW8-FJ" [label=includes fontsize=20 shape=none]
+	"1RPQKLPDB-5DTWWC-FF" [label=Integrity fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQKLPDB-D08VW8-FJ" -> "1RPQKLPDB-5DTWWC-FF" [constraint=true]
+	"1RPQR053X-284QQCB-4Q2" [label=Assurance fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQR398R-1PYT8FM-4SK" [label="defines it
+" fontsize=20 shape=none]
+	"1RPQR053X-284QQCB-4Q2" -> "1RPQR398R-1PYT8FM-4SK" [constraint=true]
+	"1RPQK6NRP-29WPQF3-5V" [label="Computer Security
+" fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RPQKDHMF-4Z3SD-8B" [label=includes fontsize=20 shape=none]
+	"1RPQK6NRP-29WPQF3-5V" -> "1RPQKDHMF-4Z3SD-8B" [constraint=true]
+	"1RPQQFYWF-T9GYTK-41B" [label="three aspects
+" fontsize=20 shape=none]
+	"1RPQQFYVY-1CD02K8-417" [label="Specification/ 
+Policy" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQQFYWF-T9GYTK-41B" -> "1RPQQFYVY-1CD02K8-417" [constraint=true]
+	"1RPQMBS1Q-NLW9B2-1MJ" [label=are fontsize=20 shape=none]
+	"1RPQNT23B-1HM32Q8-2Y1" [label="System Resources
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQMBS1Q-NLW9B2-1MJ" -> "1RPQNT23B-1HM32Q8-2Y1" [constraint=true]
+	"1RPQMBS1Q-NLW9B2-1MJ" [label=are fontsize=20 shape=none]
+	"1RPQP17ZM-92YMYX-35N" [label=Vulnerability fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQMBS1Q-NLW9B2-1MJ" -> "1RPQP17ZM-92YMYX-35N" [constraint=true]
+	"1RPQQWG5L-PZN7CH-4NH" [label=Prevention fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQRMQFY-P1FNTX-5K8" [label=example fontsize=20 shape=none]
+	"1RPQQWG5L-PZN7CH-4NH" -> "1RPQRMQFY-P1FNTX-5K8" [constraint=true]
+	"1RPQMJ0H0-W1CYZ1-1V1" [label="defined as
+" fontsize=20 shape=none]
+	"1RPQMJ0H0-LGZ5F2-1TY" [label="an assault 
+on system 
+security that 
+derives from 
+an intelligent 
+threat" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQMJ0H0-W1CYZ1-1V1" -> "1RPQMJ0H0-LGZ5F2-1TY" [constraint=true]
+	"1RPQKZC85-23YK8XD-M8" [label=aspects fontsize=20 shape=none]
+	"1RPQL05QT-70JDZP-NX" [label="data confidentiality
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQKZC85-23YK8XD-M8" -> "1RPQL05QT-70JDZP-NX" [constraint=true]
+	"1RPQMR669-15W3RG3-201" [label=Countermeasure fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQMTZ7D-1BWJ8NT-245" [label="defined as
+" fontsize=20 shape=none]
+	"1RPQMR669-15W3RG3-201" -> "1RPQMTZ7D-1BWJ8NT-245" [constraint=true]
+	"1RPQQK5FQ-1JRRQRK-459" [label="Correctness/ 
+assurance" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQR054F-24KM4K5-4Q5" [label=includes fontsize=20 shape=none]
+	"1RPQQK5FQ-1JRRQRK-459" -> "1RPQR054F-24KM4K5-4Q5" [constraint=true]
+	"1RPQL9JPV-VD2STW-WR" [label="Computer Security 
+Challenges" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQLJKM7-W6QR8-108" [label=involves fontsize=20 shape=none]
+	"1RPQL9JPV-VD2STW-WR" -> "1RPQLJKM7-W6QR8-108" [constraint=true]
+	"1RPQNYCVD-1MWB8VZ-32W" [label="defined as
+" fontsize=20 shape=none]
+	"1RPQNYCVD-9X19TP-32S" [label="a potential 
+for violation 
+of security
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQNYCVD-1MWB8VZ-32W" -> "1RPQNYCVD-9X19TP-32S" [constraint=true]
+	"1RPQNFQKF-1KH916D-2C8" [label="defined as
+" fontsize=20 shape=none]
+	"1RPQNFQKF-K7YT7H-2C5" [label="an expectation 
+of loss expressed 
+as the probability 
+that a particular 
+threat will 
+exploit a 
+particular 
+vulnerability 
+with a particular 
+harmful result
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQNFQKF-1KH916D-2C8" -> "1RPQNFQKF-K7YT7H-2C5" [constraint=true]
+	"1RPQQRY8Y-23H5KBM-4HG" [label="involves four 
+complementary 
+courses of 
+action:" fontsize=20 shape=none]
+	"1RPQQRY8F-23Y2VP0-4HC" [label=Detection fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQQRY8Y-23H5KBM-4HG" -> "1RPQQRY8F-23Y2VP0-4HC" [constraint=true]
+	"1RPQQRY8Y-23H5KBM-4HG" [label="involves four 
+complementary 
+courses of 
+action:" fontsize=20 shape=none]
+	"1RPQQWG5L-PZN7CH-4NH" [label=Prevention fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQQRY8Y-23H5KBM-4HG" -> "1RPQQWG5L-PZN7CH-4NH" [constraint=true]
+	"1RPQNT23B-1HM32Q8-2Y1" [label="System Resources
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQNV6YF-42RVR1-2ZD" [label="defined as
+" fontsize=20 shape=none]
+	"1RPQNT23B-1HM32Q8-2Y1" -> "1RPQNV6YF-42RVR1-2ZD" [constraint=true]
+	"1RPQKDHLY-1QLKWQZ-87" [label="The CIA Triad
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQKLPDB-D08VW8-FJ" [label=includes fontsize=20 shape=none]
+	"1RPQKDHLY-1QLKWQZ-87" -> "1RPQKLPDB-D08VW8-FJ" [constraint=true]
+	"1RPQKDHLY-1QLKWQZ-87" [label="The CIA Triad
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQKNSSN-2B21BFT-J2" [label=includes fontsize=20 shape=none]
+	"1RPQKDHLY-1QLKWQZ-87" -> "1RPQKNSSN-2B21BFT-J2" [constraint=true]
+	"1RPQQRY8Y-23H5KBM-4HG" [label="involves four 
+complementary 
+courses of 
+action:" fontsize=20 shape=none]
+	"1RPQQV4P1-1DHG9Y6-4LG" [label=Response fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQQRY8Y-23H5KBM-4HG" -> "1RPQQV4P1-1DHG9Y6-4LG" [constraint=true]
+	"1RPQPVQR3-JP1X8S-3ML" [label=includes fontsize=20 shape=none]
+	"1RPQQ3KKC-YDSMV2-3WH" [label="Intrusion 
+detection 
+system" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQPVQR3-JP1X8S-3ML" -> "1RPQQ3KKC-YDSMV2-3WH" [constraint=true]
+	"1RPQR8SGK-11VZ48R-51C" [label=defines fontsize=20 shape=none]
+	"1RPQR8SGK-11PGPZJ-518" [label="a process 
+of examining 
+a computer 
+product or 
+system with 
+respect to 
+certain criteria
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQR8SGK-11VZ48R-51C" -> "1RPQR8SGK-11PGPZJ-518" [constraint=true]
+	"1RPQKZC85-23YK8XD-M8" [label=aspects fontsize=20 shape=none]
+	"1RPQKZXFL-2BWNH9G-NB" [label=privacy fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQKZC85-23YK8XD-M8" -> "1RPQKZXFL-2BWNH9G-NB" [constraint=true]
+	"1RPQPRQBJ-26DMLSG-3KH" [label=includes fontsize=20 shape=none]
+	"1RPQPRQB1-76843T-3KD" [label="Security Technologies 
+Used" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQPRQBJ-26DMLSG-3KH" -> "1RPQPRQB1-76843T-3KD" [constraint=true]
+	"1RPQMBS1Q-NLW9B2-1MJ" [label=are fontsize=20 shape=none]
+	"1RPQMBS17-1NBH3W3-1MF" [label="Adversary 
+(threat agent)
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQMBS1Q-NLW9B2-1MJ" -> "1RPQMBS17-1NBH3W3-1MF" [constraint=true]
+	"1RPQMBS17-1NBH3W3-1MF" [label="Adversary 
+(threat agent)
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQMFGQC-X4DJX2-1PY" [label="defined as
+" fontsize=20 shape=none]
+	"1RPQMBS17-1NBH3W3-1MF" -> "1RPQMFGQC-X4DJX2-1PY" [constraint=true]
+	"1RPQK6NRP-29WPQF3-5V" [label="Computer Security
+" fillcolor=white fontsize=20 shape=doubleoctagon style=filled]
+	"1RPQPRQBJ-26DMLSG-3KH" [label=includes fontsize=20 shape=none]
+	"1RPQK6NRP-29WPQF3-5V" -> "1RPQPRQBJ-26DMLSG-3KH" [constraint=true]
+	"1RPQMBS1Q-NLW9B2-1MJ" [label=are fontsize=20 shape=none]
+	"1RPQNMGPB-DKFB79-2NW" [label="Security policy
+" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQMBS1Q-NLW9B2-1MJ" -> "1RPQNMGPB-DKFB79-2NW" [constraint=true]
+	"1RPQL9JQB-1J6SXX7-WV" [label=includes fontsize=20 shape=none]
+	"1RPQL9JPV-VD2STW-WR" [label="Computer Security 
+Challenges" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQL9JQB-1J6SXX7-WV" -> "1RPQL9JPV-VD2STW-WR" [constraint=true]
+	"1RPQMTZ7D-1BWJ8NT-245" [label="defined as
+" fontsize=20 shape=none]
+	"1RPQMTZ7D-49R98P-242" [label="an action,device,procedure, 
+or technique 
+that reduces 
+a threat, 
+a vulnerability, 
+or an attack 
+by eliminating 
+or preventing 
+it" fillcolor=white fontsize=20 shape=rect style=filled]
+	"1RPQMTZ7D-1BWJ8NT-245" -> "1RPQMTZ7D-49R98P-242" [constraint=true]
+	statictics [label="STATISTICS
+\lBranch:		30\lNode:		55\lLinking Phrase:	31\lOrphan:		0\lLeaf Node:	30\lPreposition:	54\lSub Map:		1\lAvg Word Per Concept:	5.75\l" Gsplines=true fillcolor="#F5FFFA" fontsize=20 shape=component style=filled]
+	file_info [label="CMAP Information
+
+\lTitle:	ICSAnonymous6.cmap\lCreated:	2020-12-07T07:37:49-05:00\lModified:	2020-12-07T07:37:49-05:00\lLanguage:	en\lFormat:	x-cmap/x-storable\lPublisher:	FIHMC CmapTools 6.04\lWidth:	2608\lHeight:	979\l" Gsplines=true fillcolor="#E6E6FA" fontsize=20 shape=tab style=filled]
+}

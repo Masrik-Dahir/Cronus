@@ -1,0 +1,118 @@
+// The Round Table
+digraph {
+	"1S3ZPSPPG-LZQ0R8-S4D" [label=" ENCRYPTION ALGORITHMS Module 3" Gsplines=true fontsize=20 shape=rect style=filled]
+	"1S46WN92G-1ZJV5CF-137" [label="Diffie-Hellman 
+Key Exchange 
+Algorithm" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46X506K-230G0M1-212" [label="illustrated 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46WN92G-1ZJV5CF-137" -> "1S46X506K-230G0M1-212" [constraint=true]
+	"1S46X506K-230G0M1-212" [label="illustrated 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46WR00F-28N0SL8-15T" [label="enables two 
+users to securely 
+reach agreement 
+about a shared 
+secret that 
+can be used 
+as a secret 
+key for subsequent 
+symmetric 
+encryption 
+of messages
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46X506K-230G0M1-212" -> "1S46WR00F-28N0SL8-15T" [constraint=true]
+	"1S46WP9P2-1G04ZZ7-141" [label="characterized 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46WKZG6-Y9QYWD-W7" [label="developed 
+in 1977" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46WP9P2-1G04ZZ7-141" -> "1S46WKZG6-Y9QYWD-W7" [constraint=true]
+	"1S46WNC2T-D4YWV9-13C" [label="Digital Signature 
+Standard (DSS)
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46X545F-277XQVZ-21C" [label="depicted by
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46WNC2T-D4YWV9-13C" -> "1S46X545F-277XQVZ-21C" [constraint=true]
+	"1S46WP9P2-1G04ZZ7-141" [label="characterized 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46WLCL3-RXSYRT-Y6" [label="block cipher
+" Gsplines=true fillcolor=aquamarine fontsize=20 shape=rect style=filled]
+	"1S46WP9P2-1G04ZZ7-141" -> "1S46WLCL3-RXSYRT-Y6" [constraint=true]
+	"1S46WNF1H-1HTVSKX-13H" [label="Elliptic Curve 
+Cryptography 
+(ECC)" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46X57HV-2871GB-21N" [label="represented 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46WNF1H-1HTVSKX-13H" -> "1S46X57HV-2871GB-21N" [constraint=true]
+	"1S46WV0XD-RN2FKH-1M6" [label=ALGORITHMS Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=doubleoctagon style=filled]
+	"1S46WV9SB-8CWRS1-1MH" [label=including Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46WV0XD-RN2FKH-1M6" -> "1S46WV9SB-8CWRS1-1MH" [constraint=true]
+	"1S46WP9P2-1G04ZZ7-141" [label="characterized 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46WL9S7-1F91ZB6-Y2" [label="most widely 
+accepted and 
+implemented 
+approach to 
+public key 
+encryption" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46WP9P2-1G04ZZ7-141" -> "1S46WL9S7-1F91ZB6-Y2" [constraint=true]
+	"1S46WL4TK-2D2WM3Y-XX" [label="RSA (Rivest, 
+Shamir, Adleman)
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46WP9P2-1G04ZZ7-141" [label="characterized 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46WL4TK-2D2WM3Y-XX" -> "1S46WP9P2-1G04ZZ7-141" [constraint=true]
+	"1S46X506K-230G0M1-212" [label="illustrated 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46WR3BQ-1BHDDBP-16M" [label="limited to 
+the exchange 
+of keys" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46X506K-230G0M1-212" -> "1S46WR3BQ-1BHDDBP-16M" [constraint=true]
+	"1S46X545F-277XQVZ-21C" [label="depicted by
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46WRKNS-1H7YJXN-175" [label="provides only 
+a digital 
+signature 
+function with 
+SHA-1" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46X545F-277XQVZ-21C" -> "1S46WRKNS-1H7YJXN-175" [constraint=true]
+	"1S46X57HV-2871GB-21N" [label="represented 
+by" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46WS8JG-CHGBN3-1CD" [label="security like 
+RSA, but with 
+much smaller 
+keys" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46X57HV-2871GB-21N" -> "1S46WS8JG-CHGBN3-1CD" [constraint=true]
+	"1S46WV9SB-8CWRS1-1MH" [label=including Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46WNC2T-D4YWV9-13C" [label="Digital Signature 
+Standard (DSS)
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46WV9SB-8CWRS1-1MH" -> "1S46WNC2T-D4YWV9-13C" [constraint=true]
+	"1S46WV9SB-8CWRS1-1MH" [label=including Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46WL4TK-2D2WM3Y-XX" [label="RSA (Rivest, 
+Shamir, Adleman)
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46WV9SB-8CWRS1-1MH" -> "1S46WL4TK-2D2WM3Y-XX" [constraint=true]
+	"1S46WV9SB-8CWRS1-1MH" [label=including Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46WNF1H-1HTVSKX-13H" [label="Elliptic Curve 
+Cryptography 
+(ECC)" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46WV9SB-8CWRS1-1MH" -> "1S46WNF1H-1HTVSKX-13H" [constraint=true]
+	"1S46X545F-277XQVZ-21C" [label="depicted by
+" Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46WRT6K-GV4BQX-1BT" [label="cannot be 
+used for encryption 
+or key exchange 
+" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46X545F-277XQVZ-21C" -> "1S46WRT6K-GV4BQX-1BT" [constraint=true]
+	"1S46WV9SB-8CWRS1-1MH" [label=including Gsplines=true fontcolor=red fontsize=20 shape=none]
+	"1S46WN92G-1ZJV5CF-137" [label="Diffie-Hellman 
+Key Exchange 
+Algorithm" Gsplines=true fillcolor="#FFB6C1" fontsize=20 shape=rect style=filled]
+	"1S46WV9SB-8CWRS1-1MH" -> "1S46WN92G-1ZJV5CF-137" [constraint=true]
+	Stat [label="SUMMERY
+
+Matched Branch:			0\lPartially Matched Branch:	0\lMismatched Branch:		8\lExtra Branch:				16\lTotal Match:		10.53 %\lConcept Match:	14.29 %\lLink. Phr. Match:	0.0 %\lMisconception:	100.0 %\lHierarchy Match:	0.0 %\l" Gsplines=true fillcolor="#F5FFFA" fontsize=20 shape=component style=filled]
+	Grade [label="Grade:	3.47%" Gsplines=true fillcolor="#FFEBCD" fontsize=20 shape=note style=filled]
+	Stat -> Grade [arrowhead=inv color=black constraint=true]
+}
