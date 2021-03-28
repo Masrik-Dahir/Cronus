@@ -1,4 +1,4 @@
-Cronus: An Automated Feedback Tool for Concept Maps Comparing
+# Cronus: An Automated Feedback Tool for Concept Maps Comparing
 Security And Forensics Engineering Lab, Virginia Commonwealth University
 
 Faculty Professor: Dr. Irfan Ahmed
