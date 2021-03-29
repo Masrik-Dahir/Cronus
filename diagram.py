@@ -149,6 +149,7 @@ def dia(a:str or list, e: str or list, con = 1/3, mis = 1/3, hie = 1/3, curve = 
     L = None
     P = None
     Q = None
+
     start = time.process_time()
     sub_map_instructor = []
     stu_concept, concept_score, conception_match = reform.concept_score(a, e)
@@ -232,10 +233,10 @@ def dia(a:str or list, e: str or list, con = 1/3, mis = 1/3, hie = 1/3, curve = 
                     t_m.append(value[0])
                     # Node matched
                     if get_value_any(a, value[0]) in sub_map_instructor:
-                        dot.node(value[0], simplyfy(get_value_any(a, value[0])), style='filled', fillcolor='aquamarine',
+                        dot.node(value[0], simplyfy(get_value_any(a, value[0])), style='filled', fillcolor='white',
                                  shape='doubleoctagon', Gsplines='true', fontsize = fr_s)
                     else:
-                        dot.node(value[0], simplyfy(get_value_any(a, value[0])), style='filled', fillcolor='aquamarine',
+                        dot.node(value[0], simplyfy(get_value_any(a, value[0])), style='filled', fillcolor='white',
                                  shape='rect', Gsplines='true', fontsize = fr_s)
                 if value[1] in unmatched:
                     t.append(value[1])
@@ -246,9 +247,15 @@ def dia(a:str or list, e: str or list, con = 1/3, mis = 1/3, hie = 1/3, curve = 
                     t.append(value[1])
                     t_m.append(value[1])
                     # linking phrase matched
-                    dot.node(value[1], simplyfy(get_value_any(a, value[1])), shape='none', fontcolor='#3B6300',
+                    dot.node(value[1], simplyfy(get_value_any(a, value[1])), shape='none', fontcolor='black',
                              Gsplines='true', fontsize = fr_s)
                 dot.edge(value[0], value[1], constraint='true')
+                # for i in conception_match:
+                #     if (i[0] is simplyfy(get_value_any(a, value[0]))) and (i[1] is simplyfy(get_value_any(a, value[1]))):
+                #         dot.edge(value[0], value[1], constraint='true', arrowhead='open', fontsize=fr_s)
+                #     else:
+                #         dot.edge(value[0], value[1], constraint='true', arrowhead='open', style='dashed', fontsize=fr_s)
+
             if n_or_l(a, value[0]) == 2:
                 # linking phrase unmatched
                 if value[0] in unmatched:
@@ -259,7 +266,7 @@ def dia(a:str or list, e: str or list, con = 1/3, mis = 1/3, hie = 1/3, curve = 
                 else:
                     t.append(value[0])
                     t_m.append(value[0])
-                    dot.node(value[0], simplyfy(get_value_any(a, value[0])), shape='none', fontcolor='#3B6300',
+                    dot.node(value[0], simplyfy(get_value_any(a, value[0])), shape='none', fontcolor='black',
                              Gsplines='true', fontsize = fr_s)
                 # Node unmatched
                 if value[1] in unmatched:
@@ -278,12 +285,17 @@ def dia(a:str or list, e: str or list, con = 1/3, mis = 1/3, hie = 1/3, curve = 
                     n.append(value[1])
                     n_m.append(value[1])
                     if get_value_any(a, value[1]) in sub_map_instructor:
-                        dot.node(value[1], simplyfy(get_value_any(a, value[1])), style='filled', fillcolor='aquamarine',
+                        dot.node(value[1], simplyfy(get_value_any(a, value[1])), style='filled', fillcolor='white',
                                  shape='doubleoctagon', Gsplines='true', fontsize = fr_s)
                     else:
-                        dot.node(value[1], simplyfy(get_value_any(a, value[1])), style='filled', fillcolor='aquamarine',
+                        dot.node(value[1], simplyfy(get_value_any(a, value[1])), style='filled', fillcolor='white',
                                  shape='rect', Gsplines='true', fontsize = fr_s)
-                dot.edge(value[0], value[1], constraint='true')
+                # dot.edge(value[0], value[1], constraint='true')
+                if (value[1] in conception_match):
+                    dot.edge(value[0], value[1], constraint='true', arrowhead='open', fontsize=fr_s)
+                else:
+                    dot.edge(value[0], value[1], constraint='true', arrowhead='open', style='dashed', fontsize=fr_s)
+
 
         n = del_duplicate(n)
         n_m = del_duplicate(n_m)
@@ -309,9 +321,9 @@ def dia(a:str or list, e: str or list, con = 1/3, mis = 1/3, hie = 1/3, curve = 
 
         dot.edge('Stat', 'Grade', constraint='true', arrowhead='inv', color = "black", fontsize = fr_s)
 
-        for i in conception_match:
-            if (i[0] is not None) and (i[1] is not None):
-                dot.edge(i[0],i[1], constraint='true', arrowhead='open', style= 'dashed', color = "#0316D1",fontsize = fr_s)
+        # for i in conception_match:
+        #     if (i[0] is not None) and (i[1] is not None):
+        #         dot.edge(i[0],i[1], constraint='true', arrowhead='open', style= 'dashed', color = "#0316D1",fontsize = fr_s)
 
         nm_instructor = name(a)
         nm_student = name(e)

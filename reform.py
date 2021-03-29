@@ -123,7 +123,13 @@ def concept_score(instructor_directory: str or list,student_directory: str or li
         if i not in result:
             result.append(i)
 
-    return stu_concept, conception_score, result
+    result_single_list = []
+    for i in result:
+        for m in i:
+            if m not in result_single_list:
+                result_single_list.append(m)
+
+    return stu_concept, conception_score, result_single_list
 def concept(ins: dict):
     ins_c = {}
     con = {}
@@ -174,10 +180,9 @@ def main():
     x = 'ConceptMapFiles\CXLFiles\ComputerSecurity\Student\Module1IntroductionComputerSecurity\ICSAnonymous'
     y = '.cmap.cxl'
 
-
-    ins = xmlPursing.process(r'ConceptMapFiles\CXLFiles\ComputerSecurity\Instructor\Module2UserAuthentication\Lesson4PasswordMechanisms\Password_Select_Check.cmap.cxl')
-    stu = xmlPursing.process(r'ConceptMapFiles\CXLFiles\ComputerSecurity\Student\Module2UserAuthentication\UAAnonymous1.cmap.cxl')
-    print(concept_score(a, x + str(6) + y))
+    ins = r'ConceptMapFiles\CXLFiles\ComputerSecurity\Instructor\Module1IntroductionComputerSecurity\Lesson1ComputerSecurityOverview\CS_Overview.cmap.cxl'
+    stu = r'ConceptMapFiles\CXLFiles\ComputerSecurity\Student\Module1IntroductionComputerSecurity\ICSAnonymous6.cmap.cxl'
+    print(concept_score(ins, stu))
 
 
 if __name__ == '__main__':
