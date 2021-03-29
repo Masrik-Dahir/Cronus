@@ -124,7 +124,7 @@ def dia(a:str or list, e: str or list, con = 1/3, mis = 1/3, hie = 1/3, curve = 
     Concept Match (%), hierarchy match (%) and grade
     create 2 diagram PDF
     """
-    fr_s = '20'
+    fr_s = '50'
     id_dict = None
     id_dict_student = None
     ins = {}
@@ -307,11 +307,11 @@ def dia(a:str or list, e: str or list, con = 1/3, mis = 1/3, hie = 1/3, curve = 
         J = float(grade)
         K = float(round(per_node*con + (100 - concept_score)*mis + grade*hie,2))
 
-        dot.edge('Stat', 'Grade', constraint='true', arrowhead='inv', color = "black")
+        dot.edge('Stat', 'Grade', constraint='true', arrowhead='inv', color = "black", fontsize = fr_s)
 
         for i in conception_match:
             if (i[0] is not None) and (i[1] is not None):
-                dot.edge(i[0],i[1], constraint='true', arrowhead='open', style= 'dashed', color = "#0316D1")
+                dot.edge(i[0],i[1], constraint='true', arrowhead='open', style= 'dashed', color = "#0316D1",fontsize = fr_s)
 
         nm_instructor = name(a)
         nm_student = name(e)
@@ -363,7 +363,7 @@ def dia(a:str or list, e: str or list, con = 1/3, mis = 1/3, hie = 1/3, curve = 
                 else:
                     pot.node(value[1], simplyfy(get_value_any(e, value[1])), style='filled', fillcolor='white',
                              shape='rect', fontsize = fr_s)
-            pot.edge(value[0], value[1], constraint='true')
+            pot.edge(value[0], value[1], constraint='true', fontsize = fr_s)
 
         if (isinstance(e, str)):
             bran = xmlPursing.process(e)
@@ -464,13 +464,14 @@ def dia(a:str or list, e: str or list, con = 1/3, mis = 1/3, hie = 1/3, curve = 
 
 
 def main():
-    a = r'ConceptMapFiles\CXLFiles\ComputerSecurity\Instructor\Module3CryptographicTools\Lesson1CryptographicToolsOverview\CT_Overview.cmap.cxl'
+    a = r'ConceptMapFiles\CXLFiles\ComputerSecurity\Instructor\Module1IntroductionComputerSecurity\Lesson1ComputerSecurityOverview\CS_Overview.cmap.cxl'
+    b = r'ConceptMapFiles\CXLFiles\ComputerSecurity\Student\Module1IntroductionComputerSecurity\ICSAnonymous6.cmap.cxl'
     x = r'ConceptMapFiles\CXLFiles\ComputerSecurity\Student\Module3CryptographicTools\CTAnonymous'
     y = '.cmap.cxl'
     z = r'ConceptMapFiles\CXLFiles\ComputerSecurity\Student\Module3CryptographicTools'
     e = x + str(1)+y
-    # dia('UA_Overview.cmap.cxl', r'ConceptMapFiles\CXLFiles\ComputerSecurity\Student\Module2UserAuthentication\UAAnonymous20.cmap.cxl',1/3,1/3,1/3,50)
-    excel('UA_Overview.cmap.cxl', r'ConceptMapFiles\CXLFiles\ComputerSecurity\Student\Module2UserAuthentication')
+    dia(a, b,0.3,0.3,0.3,30)
+    # excel('UA_Overview.cmap.cxl', r'ConceptMapFiles\CXLFiles\ComputerSecurity\Student\Module2UserAuthentication')
 
 def excel(a: str,e:str) -> 0:
     """
