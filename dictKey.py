@@ -2,7 +2,7 @@
 Copyright 2020, Masrik Dahir, All Right Reserved
 """
 import root
-import xmlPursing
+import xmlParsing
 def delete_duplicate(a:dict) -> dict:
     """
     This function return a dictionary after deleting duplicate lists
@@ -28,11 +28,11 @@ def get_value_any(a:dict, key:str) -> list or None:
     node = {}
     linking = {}
     if isinstance(a,str):
-        node = xmlPursing.node(a)
-        linking = xmlPursing.lf(a)
+        node = xmlParsing.node(a)
+        linking = xmlParsing.lf(a)
     if isinstance(a,list):
-        node = xmlPursing.node_multiple(a)
-        linking = xmlPursing.lf_multiple(a)
+        node = xmlParsing.node_multiple(a)
+        linking = xmlParsing.lf_multiple(a)
     for i,j in node.items():
         if i == key:
             return j
@@ -157,11 +157,11 @@ def get_key_any(a:dict, val:str)->str or None:
     nodes = {}
     lf = {}
     if (isinstance(a,str)):
-        nodes = xmlPursing.node(a)
-        lf = xmlPursing.lf(a)
+        nodes = xmlParsing.node(a)
+        lf = xmlParsing.lf(a)
     if (isinstance(a, list)):
-        nodes = xmlPursing.node_multiple(a)
-        lf = xmlPursing.lf_multiple(a)
+        nodes = xmlParsing.node_multiple(a)
+        lf = xmlParsing.lf_multiple(a)
     if val in nodes.values():
         for key, value in nodes.items():
             if val == value:
@@ -176,39 +176,42 @@ def mismatched_key_list(instructor_directory: str or list, student_directory: st
     finds the unmatched key list from the instructor dictionary that were absent in student dictionary
     """
     list_i = []
-    dict_key_i = {}
-    dict_concept_i = {}
-    dict_lf_i = {}
     list_s = []
+    rt = []
+
+    dict_key_i = {}
+    dict_lf_i = {}
+    dict_concept_i = {}
+    dict_node_linking_i = {}
+
     dict_key_s = {}
     dict_lf_s = {}
     dict_concept_s = {}
-    dict_node_linking_i = {}
     dict_node_linking_s = {}
-    rt = []
+
 
     if isinstance(instructor_directory, str):
-        dict_key_i = xmlPursing.process_key(instructor_directory)
-        dict_concept_i = xmlPursing.node(instructor_directory)
-        dict_lf_i = xmlPursing.lf(instructor_directory)
+        dict_key_i = xmlParsing.process_key(instructor_directory)
+        dict_concept_i = xmlParsing.node(instructor_directory)
+        dict_lf_i = xmlParsing.lf(instructor_directory)
         dict_node_linking_i.update(dict_concept_i)
         dict_node_linking_i.update(dict_lf_i)
     elif isinstance(instructor_directory, list):
-        dict_key_i = xmlPursing.process_key_many(instructor_directory)
-        dict_concept_i = xmlPursing.node_multiple(instructor_directory)
-        dict_lf_i = xmlPursing.lf_multiple(instructor_directory)
+        dict_key_i = xmlParsing.process_key_many(instructor_directory)
+        dict_concept_i = xmlParsing.node_multiple(instructor_directory)
+        dict_lf_i = xmlParsing.lf_multiple(instructor_directory)
         dict_node_linking_i.update(dict_concept_i)
         dict_node_linking_i.update(dict_lf_i)
     if isinstance(student_directory, str):
-        dict_key_s = xmlPursing.process_key(student_directory)
-        dict_concept_s = xmlPursing.node(student_directory)
-        dict_lf_s = xmlPursing.lf(student_directory)
+        dict_key_s = xmlParsing.process_key(student_directory)
+        dict_concept_s = xmlParsing.node(student_directory)
+        dict_lf_s = xmlParsing.lf(student_directory)
         dict_node_linking_s.update(dict_concept_s)
         dict_node_linking_s.update(dict_lf_s)
     elif isinstance(student_directory, list):
-        dict_key_s = xmlPursing.process_key_many(student_directory)
-        dict_concept_s = xmlPursing.node_multiple(student_directory)
-        dict_lf_s = xmlPursing.lf_multiple(student_directory)
+        dict_key_s = xmlParsing.process_key_many(student_directory)
+        dict_concept_s = xmlParsing.node_multiple(student_directory)
+        dict_lf_s = xmlParsing.lf_multiple(student_directory)
         dict_node_linking_s.update(dict_concept_s)
         dict_node_linking_s.update(dict_lf_s)
     num_i_node = len(dict_concept_i) + len(dict_concept_s) + len(dict_lf_i) + len(dict_lf_s)
@@ -239,6 +242,8 @@ def mismatched_key_list(instructor_directory: str or list, student_directory: st
                 num_lf+=1
     per_node = round((num_node/len(delete_duplicate(dict_concept_i)))*100,2)
     per_lf = round((num_lf / len(delete_duplicate(dict_lf_i)))*100,2)
+
+    ###
     per_avg = round(((num_node+num_lf)/(len(delete_duplicate(dict_concept_i))+len(delete_duplicate(dict_lf_i))))*100,2)
 
     result = []
@@ -259,16 +264,16 @@ def word_per_concept(dir: str or list) -> float:
     orphans = []
     dict = {}
     if (isinstance(dir, str)):
-        dict = xmlPursing.node(dir)
-        for key, value in xmlPursing.orphan_list(dir).items():
+        dict = xmlParsing.node(dir)
+        for key, value in xmlParsing.orphan_list(dir).items():
             orphans.append(value)
         for key, value in dict.items():
             if value not in orphans:
                 for concept in value.split(' '):
                     length_word += len(concept.split(' '))
     if (isinstance(dir, list)):
-        dict = xmlPursing.node_multiple(dir)
-        for key, value in xmlPursing.orphan_list(dir).items():
+        dict = xmlParsing.node_multiple(dir)
+        for key, value in xmlParsing.orphan_list(dir).items():
             orphans.append(value)
         for key, value in dict.items():
             if value not in orphans:

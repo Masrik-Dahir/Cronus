@@ -3,7 +3,7 @@ Copyright 2020, Masrik Dahir, All Right Reserved
 """
 import compare
 import root
-import xmlPursing
+import xmlParsing
 
 
 def ndict(ins: dict, stu: dict) -> dict:
@@ -79,9 +79,9 @@ def get_key_any(a:dict, val:list) -> list:
     stat = None
     nodes = {}
     if (isinstance(a,str)):
-        nodes = xmlPursing.node(a)
+        nodes = xmlParsing.node(a)
     if (isinstance(a, list)):
-        nodes = xmlPursing.node_multiple(a)
+        nodes = xmlParsing.node_multiple(a)
     if val in nodes.values():
         for key, value in nodes.items():
             if val == value:
@@ -97,13 +97,13 @@ def concept_score(instructor_directory: str or list,student_directory: str or li
     ins_key = []
 
     if isinstance(instructor_directory, str):
-        ins = xmlPursing.process(instructor_directory)
+        ins = xmlParsing.process(instructor_directory)
     elif isinstance(instructor_directory, list):
-        ins = xmlPursing.process_multiple(instructor_directory)
+        ins = xmlParsing.process_multiple(instructor_directory)
     if isinstance(student_directory, str):
-        stu = xmlPursing.process(student_directory)
+        stu = xmlParsing.process(student_directory)
     elif isinstance(student_directory, list):
-        stu = xmlPursing.process_multiple(student_directory)
+        stu = xmlParsing.process_multiple(student_directory)
 
     ins_comcept, extra_ins = concept(ins)
     stu_concept, extra_stu = concept(stu)

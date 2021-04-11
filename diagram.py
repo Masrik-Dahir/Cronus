@@ -4,7 +4,7 @@ Copyright 2020, Masrik Dahir, All Right Reserved
 import time
 
 from graphviz import Digraph
-import xmlPursing
+import xmlParsing
 import dictKey
 import reform
 import compare
@@ -80,11 +80,11 @@ def get_value_any(a: str or list, key: str) -> list or None:
     node = {}
     linking = {}
     if isinstance(a, str):
-        node = xmlPursing.node(a)
-        linking = xmlPursing.lf(a)
+        node = xmlParsing.node(a)
+        linking = xmlParsing.lf(a)
     if isinstance(a, list):
-        node = xmlPursing.node_multiple(a)
-        linking = xmlPursing.lf_multiple(a)
+        node = xmlParsing.node_multiple(a)
+        linking = xmlParsing.lf_multiple(a)
     for i, j in node.items():
         if i == key:
             return j
@@ -103,11 +103,11 @@ def n_or_l(a:dict, key:str) -> 1 or 2 or None:
     node = {}
     linking = {}
     if isinstance(a, str):
-        node = xmlPursing.node(a)
-        linking = xmlPursing.lf(a)
+        node = xmlParsing.node(a)
+        linking = xmlParsing.lf(a)
     if isinstance(a, list):
-        node = xmlPursing.node_multiple(a)
-        linking = xmlPursing.lf_multiple(a)
+        node = xmlParsing.node_multiple(a)
+        linking = xmlParsing.lf_multiple(a)
     for i, j in node.items():
         if i == key:
             return 1
@@ -124,7 +124,7 @@ def dia(a:str or list, e: str or list, con = 1/3, mis = 1/3, hie = 1/3, curve = 
     Concept Match (%), hierarchy match (%) and grade
     create 2 diagram PDF
     """
-    fr_s = '50'
+    fr_s = '30'
     id_dict = None
     id_dict_student = None
     ins = {}
@@ -155,47 +155,47 @@ def dia(a:str or list, e: str or list, con = 1/3, mis = 1/3, hie = 1/3, curve = 
     stu_concept, concept_score, conception_match = reform.concept_score(a, e)
     concept_score = 100 - concept_score
     if isinstance(a, str) and isinstance(e, str):
-        id_dict = xmlPursing.id_dict(a)
-        id_dict_student = xmlPursing.id_dict(e)
-        leaf_num = xmlPursing.num_orphan(e)
-        ins = xmlPursing.process(a)
-        stu = xmlPursing.process(e)
+        id_dict = xmlParsing.id_dict(a)
+        id_dict_student = xmlParsing.id_dict(e)
+        leaf_num = xmlParsing.num_orphan(e)
+        ins = xmlParsing.process(a)
+        stu = xmlParsing.process(e)
         unmatched, per_node, per_lf, per_avg, all_node = dictKey.mismatched_key_list(a, e)
         L = int(all_node)
-        for key, value in xmlPursing.process(a).items():
+        for key, value in xmlParsing.process(a).items():
             if value[0] not in sub_map_instructor:
                 sub_map_instructor.append(value[0])
     if isinstance(a, list) and isinstance(e, str):
-        id_dict = xmlPursing.id_dict_multiple(a)
-        id_dict_student = xmlPursing.id_dict(e)
-        leaf_num = xmlPursing.num_orphan(e)
-        ins = xmlPursing.process_multiple(a)
-        stu = xmlPursing.process(e)
+        id_dict = xmlParsing.id_dict_multiple(a)
+        id_dict_student = xmlParsing.id_dict(e)
+        leaf_num = xmlParsing.num_orphan(e)
+        ins = xmlParsing.process_multiple(a)
+        stu = xmlParsing.process(e)
         unmatched, per_node, per_lf, per_avg, all_node= dictKey.mismatched_key_list(a, e)
         L = int(all_node)
-        for key, value in xmlPursing.process_multiple(a).items():
+        for key, value in xmlParsing.process_multiple(a).items():
             if value[0] not in sub_map_instructor:
                 sub_map_instructor.append(value[0])
     if isinstance(a, list) and isinstance(e, list):
-        id_dict = xmlPursing.id_dict_multiple(a)
-        id_dict_student = xmlPursing.id_dict_multiple(e)
-        leaf_num = xmlPursing.num_orphan(e)
-        ins = xmlPursing.process_multiple(a)
-        stu = xmlPursing.process_multiple(e)
+        id_dict = xmlParsing.id_dict_multiple(a)
+        id_dict_student = xmlParsing.id_dict_multiple(e)
+        leaf_num = xmlParsing.num_orphan(e)
+        ins = xmlParsing.process_multiple(a)
+        stu = xmlParsing.process_multiple(e)
         unmatched, per_node, per_lf, per_avg, all_node = dictKey.mismatched_key_list(a, e)
         L = int(all_node)
-        for key, value in xmlPursing.process_multiple(a).items():
+        for key, value in xmlParsing.process_multiple(a).items():
             if value[0] not in sub_map_instructor:
                 sub_map_instructor.append(value[0])
     if isinstance(a, str) and isinstance(e, list):
-        id_dict = xmlPursing.id_dict(a)
-        id_dict_student = xmlPursing.id_dict_multiple(e)
-        leaf_num = xmlPursing.num_orphan(e)
-        ins = xmlPursing.process(a)
-        stu = xmlPursing.process_multiple(e)
+        id_dict = xmlParsing.id_dict(a)
+        id_dict_student = xmlParsing.id_dict_multiple(e)
+        leaf_num = xmlParsing.num_orphan(e)
+        ins = xmlParsing.process(a)
+        stu = xmlParsing.process_multiple(e)
         unmatched, per_node, per_lf, per_avg, all_node = dictKey.mismatched_key_list(a, e)
         L = int(all_node)
-        for key, value in xmlPursing.process(a).items():
+        for key, value in xmlParsing.process(a).items():
             if value[0] not in sub_map_instructor:
                 sub_map_instructor.append(value[0])
 
@@ -212,7 +212,7 @@ def dia(a:str or list, e: str or list, con = 1/3, mis = 1/3, hie = 1/3, curve = 
         n_m = []
         t = []
         t_m = []
-        for key, value in xmlPursing.orphan_list(a).items():
+        for key, value in xmlParsing.orphan_list(a).items():
             dot.node(key, value, style='filled',shape='rect', Gsplines='true', fontsize = fr_s)
         for key, value in id_dict.items():
             if n_or_l(a, value[0]) == 1:
@@ -343,11 +343,11 @@ def dia(a:str or list, e: str or list, con = 1/3, mis = 1/3, hie = 1/3, curve = 
         pot.node('Student', 'Student: ' + str(nm_student), style='filled', fillcolor='gold', shape='component', fontsize = fr_s)
 
         if (isinstance(e, str)):
-            for key, value in xmlPursing.process(e).items():
+            for key, value in xmlParsing.process(e).items():
                 if value[0] not in sub_map:
                     sub_map.append(value[0])
         if (isinstance(e, list)):
-            for key, value in xmlPursing.process_multiple(e).items():
+            for key, value in xmlParsing.process_multiple(e).items():
                 if value[0] not in sub_map:
                     sub_map.append(value[0])
         for key, value in id_dict_student.items():
@@ -378,19 +378,19 @@ def dia(a:str or list, e: str or list, con = 1/3, mis = 1/3, hie = 1/3, curve = 
             pot.edge(value[0], value[1], constraint='true', fontsize = fr_s)
 
         if (isinstance(e, str)):
-            bran = xmlPursing.process(e)
-            for nod in xmlPursing.node(e):
+            bran = xmlParsing.process(e)
+            for nod in xmlParsing.node(e):
                 if nod not in student_node:
                     student_orphan.append(nod)
-            for l in xmlPursing.lf(e):
+            for l in xmlParsing.lf(e):
                 if l not in student_linking:
                     student_linking.append(l)
         if (isinstance(e, list)):
-            bran = xmlPursing.process_multiple(e)
-            for nod in xmlPursing.node_multiple(e):
+            bran = xmlParsing.process_multiple(e)
+            for nod in xmlParsing.node_multiple(e):
                 if nod not in student_node:
                     student_orphan.append(nod)
-            for l in xmlPursing.lf_multiple(e):
+            for l in xmlParsing.lf_multiple(e):
                 if l not in student_linking:
                     student_linking.append(l)
         for value in student_orphan:
@@ -414,7 +414,7 @@ def dia(a:str or list, e: str or list, con = 1/3, mis = 1/3, hie = 1/3, curve = 
         publisher = ''
         width = 0
         height = 0
-        for key, value in xmlPursing.information(e).items():
+        for key, value in xmlParsing.information(e).items():
             if str(key) == "title":
                 title = str(value)
             if str(key) == 'created':

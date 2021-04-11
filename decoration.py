@@ -5,7 +5,7 @@ import pathlib
 import webbrowser
 import pandas as pd
 import reform
-import xmlPursing
+import xmlParsing
 import pdfkit
 import os
 
@@ -90,8 +90,8 @@ def toPdf(ins_directory:str ,stu_directory: str, isView:bool = True) -> None:
     """
     generate a PDF to show the dataframe
     """
-    ins = xmlPursing.process(ins_directory)
-    stu = xmlPursing.process(stu_directory)
+    ins = xmlParsing.process(ins_directory)
+    stu = xmlParsing.process(stu_directory)
     diff = reform.ndict(ins, stu)
     nm_student = name(stu_directory)
     nm_instructor = name(ins_directory)
@@ -111,8 +111,8 @@ def toHtml(ins_directory:str, stu_directory:str) -> None:
     """
     generate a HTML to portray the dataframe
     """
-    ins = xmlPursing.process(ins_directory)
-    stu = xmlPursing.process(stu_directory)
+    ins = xmlParsing.process(ins_directory)
+    stu = xmlParsing.process(stu_directory)
     diff = reform.ndict(ins, stu)
     nm_student = name(stu_directory)
     nm_instructor = name(ins_directory)

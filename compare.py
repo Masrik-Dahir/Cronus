@@ -2,7 +2,7 @@
 Copyright 2020, Masrik Dahir, All Right Reserved
 """
 import time
-import xmlPursing
+import xmlParsing
 import root
 
 total_match = []
@@ -56,8 +56,8 @@ def main():
     y = '.cmap.cxl'
     z = x + str(5) + y
 
-    ins = xmlPursing.combine(a)
-    stu = xmlPursing.combine(z)
+    ins = xmlParsing.combine(a)
+    stu = xmlParsing.combine(z)
     total_match.clear()
 
     summery, comparison, cmap_dict, grade, m_p_u, info = engine(ins, stu)
