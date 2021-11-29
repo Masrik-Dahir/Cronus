@@ -16,12 +16,12 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
           architecture: x64 
-      - run: python graphviz
-      - run: python xlsxwriter
-      - run: python pathlib
-      - run: python webbrowser
-      - run: python pandas
-      - run: python pdfkit
-      - run: python word2number
-      - run: python nltk
+      - run: pip install graphviz
+      - run: pip install xlsxwriter
+      - run: pip install pathlib
+      - run: pip install webbrowser
+      - run: pip install pandas
+      - run: pip install pdfkit
+      - run: pip install word2number
+      - run: pip install nltk
       - run: python main.py
