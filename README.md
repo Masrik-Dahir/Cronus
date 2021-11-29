@@ -1,4 +1,6 @@
 # Cronus: An Automated Feedback Tool for Concept Maps Comparing
+[![Python Package using Conda](https://github.com/Masrik-Dahir/Cronus/actions/workflows/python-package-conda.yml/badge.svg)](https://github.com/Masrik-Dahir/Cronus/actions/workflows/python-package-conda.yml)
+
 Security And Forensics Engineering Lab, Virginia Commonwealth University
 
 Faculty Professor: Dr. Irfan Ahmed
