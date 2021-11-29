@@ -482,7 +482,7 @@ def main():
     y = '.cmap.cxl'
     z = r'ConceptMapFiles\CXLFiles\ComputerSecurity\Student\Module3CryptographicTools'
     e = x + str(1)+y
-    dia(a, b,0.3,0.3,0.3,30)
+    # dia(a, b,0.3,0.3,0.3,30)
     # excel('UA_Overview.cmap.cxl', r'ConceptMapFiles\CXLFiles\ComputerSecurity\Student\Module2UserAuthentication')
 
 def excel(a: str,e:str) -> 0:
