@@ -22,4 +22,4 @@ jobs:
       - run: pip install pdfkit
       - run: pip install word2number
       - run: pip install nltk
-      - run: python main.py
+      - run: python diagram.py
