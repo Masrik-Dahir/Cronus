@@ -7,6 +7,9 @@ from nltk.corpus import wordnet
 import time
 import re
 import nltk
+nltk.download('wordnet')
+nltk.download('stopwords')
+nltk.download('omw-1.4')
 
 
 def main():

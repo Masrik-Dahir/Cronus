@@ -12,6 +12,9 @@ import os
 import xlsxwriter
 from os import listdir
 from os.path import isfile, join
+import sys
+os.environ["PATH"] += os.pathsep + r'C:\Program Files\Graphviz\bin'
+
 
 def grading_system(grade: float):
     if (grade >= 90):
@@ -478,11 +481,7 @@ def dia(a:str or list, e: str or list, con = 1/3, mis = 1/3, hie = 1/3, curve = 
 def main():
     a = r'ConceptMapFiles\CXLFiles\ComputerSecurity\Instructor\Module1IntroductionComputerSecurity\Lesson1ComputerSecurityOverview\CS_Overview.cmap.cxl'
     b = r'ConceptMapFiles\CXLFiles\ComputerSecurity\Student\Module1IntroductionComputerSecurity\ICSAnonymous6.cmap.cxl'
-    x = r'ConceptMapFiles\CXLFiles\ComputerSecurity\Student\Module3CryptographicTools\CTAnonymous'
-    y = '.cmap.cxl'
-    z = r'ConceptMapFiles\CXLFiles\ComputerSecurity\Student\Module3CryptographicTools'
-    e = x + str(1)+y
-    # dia(a, b,0.3,0.3,0.3,30)
+    dia(a, b,0.3,0.3,0.3,30)
     # excel('UA_Overview.cmap.cxl', r'ConceptMapFiles\CXLFiles\ComputerSecurity\Student\Module2UserAuthentication')
 
 def excel(a: str,e:str) -> 0:
