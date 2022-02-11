@@ -16,8 +16,9 @@ Steps
 5. root.py excluse stop words, remove special character, and run down synonyms to match with the instructor string
 6. dia.py display the result in a diagram with color-coding
 
-Install Graphviz - (https://graphviz.org/download/)
-run requirement.bat
-transfer your concept map files in the "CMAPFiles" folder
-go to the diagrram.py and change the "a" and "b" value to your concept map directories (relative directories) in the main() function
-run it
+Configure:
+1. Install Graphviz - (https://graphviz.org/download/)
+2. run requirement.bat
+3. transfer your concept map files in the "CMAPFiles" folder
+4. go to the diagrram.py and change the "a" and "b" value to your concept map directories (relative directories) in the main() function
+5. run it
