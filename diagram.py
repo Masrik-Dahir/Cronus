@@ -481,7 +481,10 @@ def dia(a:str or list, e: str or list, con = 1/3, mis = 1/3, hie = 1/3, curve = 
 def main():
     a = r'ConceptMapFiles\CXLFiles\ComputerSecurity\Instructor\Module1IntroductionComputerSecurity\Lesson1ComputerSecurityOverview\CS_Overview.cmap.cxl'
     b = r'ConceptMapFiles\CXLFiles\ComputerSecurity\Student\Module1IntroductionComputerSecurity\ICSAnonymous6.cmap.cxl'
-    dia(a, b,0.3,0.3,0.3,30)
+    try:
+        dia(a, b,0.3,0.3,0.3,30)
+    except:
+        None
     # excel('UA_Overview.cmap.cxl', r'ConceptMapFiles\CXLFiles\ComputerSecurity\Student\Module2UserAuthentication')
 
 def excel(a: str,e:str) -> 0:
