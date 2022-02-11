@@ -15,3 +15,9 @@ Steps
 4. Natural Language Processing is applied to compare strings
 5. root.py excluse stop words, remove special character, and run down synonyms to match with the instructor string
 6. dia.py display the result in a diagram with color-coding
+
+Install Graphviz - (https://graphviz.org/download/)
+run requirement.bat
+transfer your concept map files in the "CMAPFiles" folder
+go to the diagrram.py and change the "a" and "b" value to your concept map directories (relative directories) in the main() function
+run it
