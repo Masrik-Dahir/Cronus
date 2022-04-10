@@ -484,9 +484,9 @@ def main():
 
     n = len(sys.argv)
 
-    if (n>=1):
+    if (n > 1):
         a = str(sys.argv[1])
-    if (n>=2):
+    if (n > 2):
         b = str(sys.argv[2])
 
     dia(a, b,0.3,0.3,0.3,30)
