@@ -489,7 +489,7 @@ def main():
     if (n > 2):
         b = str(sys.argv[2])
 
-    dia(a, b,0.3,0.3,0.3,30)
+    # dia(a, b,0.3,0.3,0.3,30)
 
     # excel('UA_Overview.cmap.cxl', r'ConceptMapFiles\CXLFiles\ComputerSecurity\Student\Module2UserAuthentication')
 
