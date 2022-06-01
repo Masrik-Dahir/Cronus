@@ -7,4 +7,23 @@ Faculty Professor: Dr. Irfan Ahmed
 
 The repository is a research project which I have been conducting under the SAFE Lab of VCU. The project intends to compare camp files and provide similarities. It is written in python- the program also involves natural language processing and machine learning.
 
-Documentation: https://www.masrikdahir.com/software/cronus.html
+#Configuration#
+1. Install Graphviz
+2. Clone the repository
+3. Go to the repository folder
+4. Run requirement.bat
+#Run#
+```
+python diagram.py <instructor_cxl_direcotry> <student_cxl_direcotry>
+```
+Example (Ubuntu, Windows)
+```
+git clone "https://github.com/Masrik-Dahir/Cronus.git";
+cd Cronus;
+.\requirement.bat;
+python diagram.py 'ConceptMapFiles\CXLFiles\ComputerSecurity\Instructor\Module1IntroductionComputerSecurity\Lesson1ComputerSecurityOverview\CS_Overview.cmap.cxl' 'ConceptMapFiles\CXLFiles\ComputerSecurity\Student\Module1IntroductionComputerSecurity\ICSAnonymous6.cmap.cxl';
+```
+
+Result
+ICSAnonymous6-20CS_Overview.gv.pdf
+ICSAnonymous6-20CS_Overview_only.gv.pdf
