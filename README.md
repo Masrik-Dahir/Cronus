@@ -25,6 +25,6 @@ python diagram.py 'ConceptMapFiles\CXLFiles\ComputerSecurity\Instructor\Module1I
 ```
 
 # Result
-ICSAnonymous6-20CS_Overview.gv.pdf
+[ICSAnonymous6-20CS_Overview.gv.pdf]([https://github.com/Masrik-Dahir/Fastify_server/blob/master/Server/test.http](https://github.com/Masrik-Dahir/Cronus/blob/master/results/ICSAnonymous6/ICSAnonymous6-%20CS_Overview.gv.pdf))
 
-ICSAnonymous6-20CS_Overview_only.gv.pdf
+[ICSAnonymous6-20CS_Overview_only.gv.pdf]([https://github.com/Masrik-Dahir/Cronus/blob/master/results/ICSAnonymous6/ICSAnonymous6-%20CS_Overview_only.gv.pdf]))
